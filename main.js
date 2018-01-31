@@ -1,5 +1,5 @@
-function main(){
+global.main = function() {
 
-	sendReply("Hello World");
+	sendReply("hello World");
 
 }

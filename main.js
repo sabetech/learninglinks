@@ -7,8 +7,10 @@ global.main = function() {
 	}
 
 	//get level of student ...
-	var currentScore = contact.vars.cum_score;
-	currentScore = 3;
+	contact.vars.cum_score += 2;
+	contact.save();
+
+
 
 
 }

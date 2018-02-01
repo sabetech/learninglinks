@@ -10,7 +10,7 @@ global.main = function() {
 	var curScore = parseInt(contact.vars.cum_score);
 	contact.vars.cum_score = (curScore + 4) + "";
 	contact.save();
-	sendReply("new Score for contact is "+contact.vars.cum_score);
+	sendReply("new Score for aacontact is "+contact.vars.cum_score);
 
 
 

@@ -5,10 +5,26 @@
 
 exports.getQuestion = function(questionCode) { 
     
-	var responseJSON = httpClient.request('resources/learning_link_res.json', {
-											method: "GET"
-										});
+	var level1Numeracy = {
+						  questions: [
+						    {
+						      q2002:{
+						          q2002: "Question 2002",
+						          phone: "888-555-1212",
+						          relationship: "spouse"
+						        }
+						    }
+						        ,
+						    {
+						      q2003:{
+						          q2003: "Question 2003",
+						          phone: "877-123-1212",
+						          relationship: "parent"
+						        }
+						      }
+						  ]
+						};
 
-	return responseJSON;
+	return level1Numeracy;
 
 };

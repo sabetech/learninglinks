@@ -1,17 +1,17 @@
 global.main = function() {
 
-	sendReply("testing ... ");
-	var keyword = content;
-	if (keyword.toLowerCase() != 'ready'){
-		sendReply("Not Supported keyword");
-		return;
+	var keyword = content; //get word1 instead .. 
+
+	//remember to trim the string ... 
+
+	//check if is learner or tutor
+	if (! contact.vars.learner){
+		//if contact is not a learner, she's a tutor ... in the group
+		sendReply("tutor Requesting for question for the group");
+		//ideally, tutor should get tutor prompt ... 
 	}
 
-	//get level of student ...
-	var curScore = parseInt(contact.vars.cum_score);
-	contact.vars.cum_score = (curScore + 4) + "";
-	contact.save();
 
-	sendReply("new Score for aacontact is "+contact.vars.cum_score);
+	
 
 }

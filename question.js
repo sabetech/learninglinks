@@ -12,7 +12,7 @@ exports.getQuestion = function(questionCode) {
 						        correctAnswerResponse: "Well done child"
 						    },
 						    q2003:{
-						        question: "How many? ($ $ $) \r\n1. 5\r\n2. 4\r\n3. 3",
+						        question: "How many? ($ $ $) \n\r1. 5\n\r2. 4\n\r3. 3",
 						        answer: "3",
 						        correctAnswerResponse: "Nerh I'm sorry"
 						    }

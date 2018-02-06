@@ -31,6 +31,8 @@ global.main = function() {
 
 
 
+	}else{
+		sendReply("Requesting for questions is now done by Tutor-Mentors");
 	}
 
 

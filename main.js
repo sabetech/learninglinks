@@ -2,17 +2,16 @@ global.main = function() {
 
 	var keyword = content; //get word1 instead .. 
 
-	//remember to trim the string ... 
-	console.log(contact);
+	
 	//check if is learner or tutor
 	if (!contact.vars.learner){
 		//if contact is not a learner, she's a tutor ... in the group
 
-		var question = require('./question');
+		var questionBase = require('./question');
 		keyword = keyword.trim();
 		var questionCode = keyword;
 
-		var groupLearnerQuestion = question.getQuestion(questionCode);
+		var groupLearnerQuestion = questionBase.getQuestion(questionCode);
 		//if (groupLearnerQuestion is valid proceed else alert teacher that question code is not available);
 
 		sendReply(groupLearnerQuestion.question);

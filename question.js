@@ -5,7 +5,8 @@
 
 exports.getQuestion = function(questionCode) { 
     
-	var level1Numeracy = {  
+	var level1Numeracy = 
+{  
    2001:{  
       question_tag:"L1MALP1QG",
       code:"2001",
@@ -1788,9 +1789,9 @@ exports.getQuestion = function(questionCode) {
       incorrectAnswerResponse:"Incorrect. 14 ÷ 7=2",
       set:54
    }
-	};
+};
 	
-	var jsonObject = level1Numeracy['q'+questionCode];
+	var jsonObject = level1Numeracy[questionCode];
 
 	return jsonObject;
 

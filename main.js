@@ -23,11 +23,22 @@ global.main = function() {
 		//send question to everyone in the group... 
 		while(cursor.hasNext()){
 			var learner_contact = cursor.next();
+			if (!learner_contact.vars.learner) continue;
 			sendSMS(learner_contact.phone_number,groupLearnerQuestion.learner_question);
+
+			waitForResponse('questionResponse', {
+            	timeoutMinutes: 10
+        	});
 		}
 
 	}else{
-		sendReply("Requesting for questions is now done by Tutor-Mentors");
+		sendReply("Sorry, Requesting for questions is now done by Tutor-Mentors");
 	}
-
 }
+
+addResponseHandler('questionResponse', function() {
+    var responseAnswer = word1;
+    //check answer ... 
+    console.log("learner has replied to "+groupLearnerQuestion.learner_question+" responseAnswer = "+responseAnswer);
+
+});

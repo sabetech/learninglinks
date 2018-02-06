@@ -1,14 +1,14 @@
+
 global.main = function() {
 
-	var keyword = content; //get word1 instead .. 
+	var keyword = word1;
+	keyword = keyword.trim();
 
-	
+	var questionBase = require('./question');
 	//check if is learner or tutor
 	if (!contact.vars.learner){
 		//if contact is not a learner, she's a tutor ... in the group
-
-		var questionBase = require('./question');
-		keyword = keyword.trim();
+		
 		var questionCode = keyword;
 
 		var groupLearnerQuestion = questionBase.getQuestion(questionCode);
@@ -23,22 +23,28 @@ global.main = function() {
 		//send question to everyone in the group... 
 		while(cursor.hasNext()){
 			var learner_contact = cursor.next();
-			if (!learner_contact.vars.learner) continue;
-			sendSMS(learner_contact.phone_number,groupLearnerQuestion.learner_question);
+			if (! learner_contact.vars.learner) continue;
 
-			waitForResponse('questionResponse', {
-            	timeoutMinutes: 10
-        	});
+			learner_contact.vars.current_question_code = parseInt(questionCode);
+			sendSMS(learner_contact.phone_number, groupLearnerQuestion.learner_question);
+			learner_contact.save();
+
 		}
 
 	}else{
-		sendReply("Sorry, Requesting for questions is now done by Tutor-Mentors");
+		
+		var answerKey = keyword;
+		console.log("answer sent by Leaner "+answerKey);
+		//get question code from contact ...
+		var questionCode = contact.vars.current_question_code;
+		var groupLearnerQuestion = questionBase.getQuestion(questionCode);
+
+		if (groupLearnerQuestion.answer == answerKey){
+			sendReply(groupLearnerQuestion.correctAnswerResponse);
+		}else{
+			sendReply(groupLearnerQuestion.incorrectAnswerResponse);
+		}
+
+
 	}
 }
-
-addResponseHandler('questionResponse', function() {
-    var responseAnswer = word1;
-    //check answer ... 
-    console.log("learner has replied to "+groupLearnerQuestion.learner_question+" responseAnswer = "+responseAnswer);
-
-});

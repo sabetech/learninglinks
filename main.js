@@ -10,13 +10,13 @@ global.main = function() {
 
 		var question = require('./question');
 		keyword = keyword.trim();
-		var questionCode = parseInt(keyword);
+		var questionCode = keyword;
 
 		var groupLearnerQuestion = question.getQuestion(questionCode);
 		//if (groupLearnerQuestion is valid proceed else alert teacher that question code is not available);
 
-		console.log(groupLearnerQuestion);
-		sendReply("Testing Fetching question from JSON");
+		console.log(groupLearnerQuestion.question);
+		sendReply("Testing "+groupLearnerQuestion.question);
 		//ideally, tutor should get tutor prompt ... 
 	}
 

@@ -9,22 +9,24 @@ exports.getQuestion = function(questionCode) {
 						  questions: [
 						    {
 						      q2002:{
-						          q2002: "Question 2002",
-						          phone: "888-555-1212",
-						          relationship: "spouse"
+						          question: "How many? ($ $ $ $) \n1. 5\n2. 4\n3. 3",
+						          answer: "2",
+						          correctAnswerResponse: "Well done child"
 						        }
 						    }
 						        ,
 						    {
 						      q2003:{
-						          q2003: "Question 2003",
-						          phone: "877-123-1212",
-						          relationship: "parent"
+						          question: "How many? ($ $ $) \n1. 5\n2. 4\n3. 3",
+						          answer: "3",
+						          correctAnswerResponse: "Nerh I'm sorry"
 						        }
 						      }
 						  ]
 						};
+	
+	var jsonObject = level1Numeracy.questions['q'+questionCode];
 
-	return level1Numeracy;
+	return jsonObject;
 
 };

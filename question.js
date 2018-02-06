@@ -18,7 +18,7 @@ exports.getQuestion = function(questionCode) {
 						    }
 						};
 	
-	var jsonObject = level1Numeracy.questions['q'+questionCode];
+	var jsonObject = level1Numeracy['q'+questionCode];
 
 	return jsonObject;
 

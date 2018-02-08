@@ -1791,8 +1791,11 @@ exports.getQuestion = function(questionCode) {
    }
 };
 	
+	//return false if user submits a non existent question...
 	var jsonObject = level1Numeracy[questionCode];
-
+	if (typeof jsonObject === "undefined") 
+    	return false
+	
 	return jsonObject;
 
 };

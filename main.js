@@ -10,7 +10,6 @@ global.main = function() {
 		//if contact is not a learner, she's a tutor ... in the group
 		
 		var questionCode = keyword;
-
 		
 		var groupLearnerQuestion = getQuestionObject(questionCode);
 		
@@ -41,27 +40,41 @@ global.main = function() {
 		//check if the person is learner ... and belongs to a certain group for test otherwise return
 		var answerKey = keyword;
 		//get question code from contact ...
-		var groupLearnerQuestion = getQuestionObject(contact.vars.current_question_code);
+		var learnerQuestion = getQuestionObject(contact.vars.current_question_code);
 
 		//check if learner should have access to such a question code
-		if (groupLearnerQuestion.answer == answerKey){
-			sendReply(groupLearnerQuestion.correctAnswerResponse);
+		if (learnerQuestion.answer == answerKey){
+			sendReply(learnerQuestion.correctAnswerResponse);
 			contact.vars.Cum_Points = parseInt(contact.vars.Cum_Points) + 5;
 		}else{
-			sendReply(groupLearnerQuestion.incorrectAnswerResponse);
+			sendReply(learnerQuestion.incorrectAnswerResponse);
 		}
 
 		contact.vars.current_question_code = parseInt(contact.vars.current_question_code) + 1;
 		contact.save();
 
+		var questionCode = parseInt(contact.vars.current_question_code);
+		var individualQuestion = getQuestionObject(questionCode);
+
+		if (individualQuestion.question_tag.includes("G")){
+			console.log("You are done for the day");
+			return;
+		}
+
+		console.log("scheduled_msg for 2 mins now");
 		//send NExt question in the next 15mins
-		waitForResponse('question2',{
-			timeoutMinutes: 15,
-			timeoutId: 'askQuestion2'
+		var scheduled_msg = project.scheduleMessage({
+		    content: individualQuestion.learner_question, 
+		    to_number: contact.phone_number, 
+		    start_time_offset: 120
 		});
+
+		//put the timeout calls here ...
+
 	}
 }
 
+/*
 //return object or false
 function getQuestionObject(questionCode){
 	return questionBase.getQuestion(questionCode);
@@ -71,11 +84,14 @@ function getQuestionObject(questionCode){
 addTimeoutHandler('askQuestion2', function() {
 	var questionCode = parseInt(contact.vars.current_question_code);
 	var individualQuestion2 = getQuestionObject(questionCode);
+	
+	console.log("Question 2 is being asked ...");
+    console.log(individualQuestion2.learner_question);
 
     sendReply(individualQuestion2.learner_question);
 
     waitForResponse('question2', {
-        timeoutMinutes: 15,
+        timeoutMinutes: 3,
         timeoutId: 'question2Reminder'
     });
 });
@@ -173,3 +189,4 @@ addTimeoutHandler('timeout', function() {
 	//get question to be answered
     sendReply("The question has expired because you didn't answer in time");
 });
+*/

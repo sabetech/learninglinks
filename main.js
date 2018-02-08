@@ -52,9 +52,10 @@ global.main = function() {
 		}
 
 		contact.vars.current_question_code = parseInt(contact.vars.current_question_code) + 1;
+		contact.save();
 
 		//send NExt question in the next 15mins
-		waitforResponse('question2',{
+		waitForResponse('question2',{
 			timeoutMinutes: 15,
 			timeoutId: 'askQuestion2'
 		});
@@ -97,9 +98,10 @@ addResponseHandler('question2', function() {
 	}
 
 	contact.vars.current_question_code = parseInt(contact.vars.current_question_code) + 1;
+	contact.save();
 
 	//send 3rd question ... 
-	waitforResponse('question3',{
+	waitForResponse('question3',{
 		timeoutMinutes: 15,
 		timeoutId: 'askQuestion3'
 	});
@@ -137,6 +139,7 @@ addResponseHandler('question3', function() {
 	}
 
 	contact.vars.current_question_code = parseInt(contact.vars.current_question_code) + 1;
+	contact.save();
 
 	return;
 });
@@ -148,7 +151,7 @@ addTimeoutHandler('question2Reminder', function() {
 	var individualQuestion2 = getQuestionObject(questionCode);
     sendReply("Reminder to answer question "+individualQuestion2.learner_question);
     waitForResponse('question2', {
-        timeoutDays: 1,
+        timeoutMinutes: 60,
         timeoutId: 'timeout'
     });
 });
@@ -160,7 +163,7 @@ addTimeoutHandler('question3Reminder', function() {
 	var individualQuestion3 = getQuestionObject(questionCode);
     sendReply("Reminder to answer question "+individualQuestion3.learner_question);
     waitForResponse('question3', {
-        timeoutDays: 1,
+        timeoutMinutes: 60,
         timeoutId: 'timeout'
     });
 });

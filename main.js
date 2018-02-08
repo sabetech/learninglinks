@@ -74,11 +74,14 @@ global.main = function() {
 	}
 }
 
-/*
 //return object or false
 function getQuestionObject(questionCode){
 	return questionBase.getQuestion(questionCode);
 }
+
+/*
+
+
 
 //ASK QUESTION 2 Wait Timer
 addTimeoutHandler('askQuestion2', function() {

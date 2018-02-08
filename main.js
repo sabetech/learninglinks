@@ -56,7 +56,7 @@ global.main = function() {
 		var questionCode = parseInt(contact.vars.current_question_code);
 		var individualQuestion = getQuestionObject(questionCode);
 
-		if (individualQuestion.question_tag.includes("G")){
+		if (individualQuestion.question_tag.indexOf("G") !== -1){
 			console.log("You are done for the day");
 			return;
 		}

@@ -1,20 +1,6 @@
 var questionBase = null;
 global.main = function() {
 
-	//testing some custom code .. 
-	cursor = contact.queryGroups();
-
-	while(cursor.hasNext()){
-		var myGroup = cursor.next();
-		console.log(myGroup.id);
-		console.log(myGroup.name);
-	}
-
-
-	return;
-
-
-
 	var keyword = word1;
 	keyword = keyword.trim();
 
@@ -67,13 +53,12 @@ global.main = function() {
 		//if the person is learner ... 
 		//and belongs to a certain group for test otherwise 
 		var testgroup = project.getOrCreateGroup("LL_TESTGROUP");
-		console.log(testgroup.id);
 		 
+		 //if the learner is not in a test group ...
 		if (!contact.isInGroup(testgroup)){
 			return;
 		}
 	
-		
 		var answerKey = keyword;
 		//get question code from contact ...
 		var learnerQuestion = getQuestionObject(contact.vars.current_question_code);
@@ -93,7 +78,7 @@ global.main = function() {
 		var individualQuestion = getQuestionObject(questionCode);
 
 		if (individualQuestion.question_tag.indexOf("G") !== -1){
-			console.log("You are done for the day");
+			console.log("You are learner trying to access a group question!");
 			return;
 		}
 

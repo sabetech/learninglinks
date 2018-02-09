@@ -45,7 +45,7 @@ global.main = function() {
 		//check if learner should have access to such a question code
 		if (learnerQuestion.answer == answerKey){
 			sendReply(learnerQuestion.correctAnswerResponse);
-			contact.vars.Cum_Points = parseInt(contact.vars.Cum_Points) + 5;
+			contact.vars.cum_points = parseInt(contact.vars.cum_points) + 5;
 		}else{
 			sendReply(learnerQuestion.incorrectAnswerResponse);
 		}

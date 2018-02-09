@@ -56,6 +56,7 @@ global.main = function() {
 		 
 		 //if the learner is not in a test group ...
 		if (!contact.isInGroup(testgroup)){
+			console.log("contact is not part of the test group");
 			return;
 		}
 	
@@ -87,7 +88,7 @@ global.main = function() {
 		var scheduled_msg = project.scheduleMessage({
 		    content: individualQuestion.learner_question, 
 		    to_number: contact.phone_number, 
-		    start_time_offset: 120 //15mins
+		    start_time_offset: 120 //15mins change to 15 minutes
 		});
 
 		//put the timeout calls here ...

@@ -1,6 +1,20 @@
 var questionBase = null;
 global.main = function() {
 
+	//testing some custom code .. 
+	cursor = contact.queryGroups();
+
+	while(cursor.hasNext()){
+		var myGroup = cursor.next();
+		console.log(myGroup.id);
+		console.log(myGroup.name);
+	}
+
+
+	return;
+
+
+
 	var keyword = word1;
 	keyword = keyword.trim();
 
@@ -9,6 +23,12 @@ global.main = function() {
 	if (!contact.vars.learner){
 		//if contact is not a learner, she's a tutor ... in the group
 		
+		var testgroup = project.getOrCreateGroup("LL_TESTGROUP");
+		if (!contact.isInGroup(testgroup)){
+			sendReply("Sorry you don't belong to the testgroup");
+			return;
+		}
+
 		var questionCode = keyword;
 		
 		var groupLearnerQuestion = getQuestionObject(questionCode);
@@ -18,10 +38,17 @@ global.main = function() {
 			return;	
 		}
 
+		if (groupLearnerQuestion.question_tag.indexOf("G") === -1){
+			sendReply("Hi "+contact.name+" the question you are requesting for is not a Group Based Question. Verify the question code and try again");
+			return;
+		}
+
 		sendReply(groupLearnerQuestion.question);
 
 		//get group members to send the message to them ...
-		var group = project.getOrCreateGroup("Test Group");
+		var group = project.getGroupById(contact.vars.tutor_group_id);
+
+		//var group = project.getOrCreateGroup("Test Group");
 		cursor = group.queryContacts();
 
 		//send question to everyone in the group... 
@@ -37,7 +64,16 @@ global.main = function() {
 
 	}else{
 		
-		//check if the person is learner ... and belongs to a certain group for test otherwise return
+		//if the person is learner ... 
+		//and belongs to a certain group for test otherwise 
+		var testgroup = project.getOrCreateGroup("LL_TESTGROUP");
+		console.log(testgroup.id);
+		 
+		if (!contact.isInGroup(testgroup)){
+			return;
+		}
+	
+		
 		var answerKey = keyword;
 		//get question code from contact ...
 		var learnerQuestion = getQuestionObject(contact.vars.current_question_code);
@@ -66,7 +102,7 @@ global.main = function() {
 		var scheduled_msg = project.scheduleMessage({
 		    content: individualQuestion.learner_question, 
 		    to_number: contact.phone_number, 
-		    start_time_offset: 120
+		    start_time_offset: 120 //15mins
 		});
 
 		//put the timeout calls here ...

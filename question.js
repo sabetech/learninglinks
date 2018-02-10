@@ -5746,6 +5746,3892 @@ exports.getQuestion = function(questionCode) {
   	correctAnswerResponse: "Correct! :) 1000 X .20= 200 + 1000= $1,200",
   	incorrectAnswerResponse: "Incorrect. 1000 X .20= 200 + 1000= $1,200",
   	set: 56
+  	},
+  	3001:{
+  	question_tag: "L2ENLP1QG",
+   code: "3001",
+   title: "Eng Class Q1",
+   learner_question: "\r\n1. 19 \r\n2. 17 \r\n3. 2",
+  	question: "Say: Open to page 7. Read 'The Two Sisters and Their Workbooks' again. How old was Luna? Enter the number of the correct answer on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The story says, 'Luna was 17.'",
+  	incorrectAnswerResponse: "Incorrect. The story says, 'Luna was 17.'",
+  	set: 1
+  	},
+
+ 	3002:{
+  	question_tag: "L2ENLP1Q1",
+   code: "3002",
+   title: "Eng Q1",
+   learner_question: "Complete the sentence: I want to _____ a book. \r\n1. eat \r\n2. read \r\n3. play",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! We read books. I want to read a book.",
+  	incorrectAnswerResponse: "Incorrect. We read books. I want to read a book.",
+  	set: 1
+  	},
+
+ 	3003:{
+  	question_tag: "L2ENLP1Q2",
+   code: "3003",
+   title: "Eng Q2",
+   learner_question: "Complete the pattern: Aa, Bb, Cc, D___ \r\n1. b \r\n2. p \r\n3. d",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Lowercase D is written 'd'.",
+  	incorrectAnswerResponse: "Incorrect. Lowercase D is written 'd'.",
+  	set: 1
+  	},
+
+ 	3004:{
+  	question_tag: "L2ENLP2QG",
+   code: "3004",
+   title: "Eng Class Q2",
+   learner_question: "\r\n1. bread \r\n2. soap \r\n3. homes",
+  	question: "Say: Open to page 1\r\n2. Read 'Kona's Goals' again. What does Kona want to sell? Enter the number of the correct answer on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The story says, 'Kona wants to sell soap.'",
+  	incorrectAnswerResponse: "Incorrect. The story says, 'Kona wants to sell soap.'",
+  	set: 2
+  	},
+
+ 	3005:{
+  	question_tag: "L2ENLP2Q1",
+   code: "3005",
+   title: "Eng Q3",
+   learner_question: "Which sentence is correct? \r\n1. his name is Sam \r\n2. His Name is sam. \r\n3. His name is Sam.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Sentences begin with a capital letter and end with a full stop.",
+  	incorrectAnswerResponse: "Incorrect. Sentences begin with a capital letter and end with a full stop. Names begin with a capital.",
+  	set: 2
+  	},
+
+ 	3006:{
+  	question_tag: "L2ENLP2Q2",
+   code: "3006",
+   title: "Eng Q4",
+   learner_question: "Which sentence is correct? \r\n1. Her name is Ellen. \r\n2. Hername isEllen. \r\n3. HernameisEllen.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We must add a space between each word in a sentence.",
+  	incorrectAnswerResponse: "Incorrect. We must add a space between each word in a sentence.",
+  	set: 2
+  	},
+
+ 	3007:{
+  	question_tag: "L2ENLP3QG",
+   code: "3007",
+   title: "Eng Class Q3",
+   learner_question: "\r\n1. To sit at home. \r\n2. To be a singer. \r\n3. To have a job.",
+  	question: "Say: Open to page 20. Read 'Keddah's Goal' again. What is Keddah's goal? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, "Keddah's goal is to have a job."",
+  	incorrectAnswerResponse: "Incorrect. The story says, "Keddah's goal is to have a job."",
+  	set: 3
+  	},
+
+ 	3008:{
+  	question_tag: "L2ENLP3Q1",
+   code: "3008",
+   title: "Eng Q5",
+   learner_question: "Complete the sentence: I will ____ new clothes. \r\n1. sew \r\n2. business \r\n3. so",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We sew clothes. I will sew new clothes.",
+  	incorrectAnswerResponse: "Incorrect. We sew clothes. I will sew new clothes.",
+  	set: 3
+  	},
+
+ 	3009:{
+  	question_tag: "L2ENLP3Q2",
+   code: "3009",
+   title: "Eng Q6",
+   learner_question: "Complete the sentence. We _____ with our ears. \r\n1. speak up \r\n2. listen \r\n3. sew",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! We listen with our ears. Listen means 'hear'. I listen to music.",
+  	incorrectAnswerResponse: "Incorrect. We listen with our ears. Listen means 'hear'. I listen to music.",
+  	set: 3
+  	},
+
+ 	3010:{
+  	question_tag: "L2ENLP4QG",
+   code: "3010",
+   title: "Eng Class Q4",
+   learner_question: "\r\n1. customer \r\n2. consonant \r\n3. careful",
+  	question: "Say: I will sound out a word. Listen. C-o-n-s-o-n-a-n-t. Which word did I sound out? Enter the number of the correct answer on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! C-o-n-s-o-n-a-n-t. Consonant.",
+  	incorrectAnswerResponse: "Incorrect. C-o-n-s-o-na-n-t. Consonant.",
+  	set: 4
+  	},
+
+ 	3011:{
+  	question_tag: "L2ENLP4Q1",
+   code: "3011",
+   title: "Eng Q7",
+   learner_question: "Which letter is a vowel? \r\n1. T \r\n2. F \r\n3. E",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The vowels are A, E, I, O, U and sometimes Y. ",
+  	incorrectAnswerResponse: "Incorrect. The vowels are A, E, I, O, U and sometimes Y. ",
+  	set: 4
+  	},
+
+ 	3012:{
+  	question_tag: "L2ENLP4Q2",
+   code: "3012",
+   title: "Eng Q8",
+   learner_question: "Who works with hair? \r\n1. A hunter \r\n2. A carpenter \r\n3. A barber",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! A barber cuts hair.",
+  	incorrectAnswerResponse: "Incorrect. A barber cuts hair.",
+  	set: 4
+  	},
+
+ 	3013:{
+  	question_tag: "L2ENLP5QG",
+   code: "3013",
+   title: "Eng Class Q5",
+   learner_question: "\r\n1. Two hundred fifty years ago. \r\n2. Last year \r\n3. Three hundred fifty years ago",
+  	question: "Say: Open your books to page 36. Read 'The Dictionary' again. When was the first dictionary made? Enter the number of the correct answer on your phone.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The story says, 'Then 250 years ago a big change came- the first dictionary.'",
+  	incorrectAnswerResponse: "Incorrect. The story says, 'Then 250 years ago a big change came- the first dictionary.'",
+  	set: 5
+  	},
+
+ 	3014:{
+  	question_tag: "L2ENLP5Q1",
+   code: "3014",
+   title: "Eng Q9",
+   learner_question: "What is NOT a use of a dictionary? \r\n1. To hear stories \r\n2. To help spell words. \r\n3. To know what words mean.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Dictionaries help us spell words and know their meaning.",
+  	incorrectAnswerResponse: "Incorrect. Dictionaries help us spell words and know their meaning.",
+  	set: 5
+  	},
+
+ 	3015:{
+  	question_tag: "L2ENLP5Q2",
+   code: "3015",
+   title: "Eng Q10",
+   learner_question: "Which word is spelled correctly? \r\n1. Dictionaree \r\n2. Dictionary \r\n3. Dikshonary",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: "Correct. Dictionary.",
+  	incorrectAnswerResponse: "Correct. Dictionary.",
+  	set: 5
+  	},
+
+ 	3016:{
+  	question_tag: "L2ENLP6QG",
+   code: "3016",
+   title: "Eng Class Q6",
+   learner_question: "\r\n1. A form \r\n2. A pill \r\n3. A skill",
+  	question: "Say: Open to page 44. Read 'Kona is ill.' again. What does Kona learn?",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, ' Kona learns a skill.'",
+  	incorrectAnswerResponse: "Incorrect. The story says, ' Kona learns a skill.'",
+  	set: 6
+  	},
+
+ 	3017:{
+  	question_tag: "L2ENLP6Q1",
+   code: "3017",
+   title: "Eng Q11",
+   learner_question: "Which word rhymes with 'skill'? \r\n1. Skip \r\n2. Fill \r\n3. Skin",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Words that rhyme have the same end sound. Skill, fill, bill, hill.",
+  	incorrectAnswerResponse: "Incorrect. Words that rhyme have the same end sound. Skill, fill, bill, hill.",
+  	set: 6
+  	},
+
+ 	3018:{
+  	question_tag: "L2ENLP6Q2",
+   code: "3018",
+   title: "Eng Q12",
+   learner_question: "Which words are in the same word family? \r\n1. dog, cat, goat \r\n2. Liberia, USA, China \r\n3. pill, Bill, chill",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Words in a word family have the same sounds or letter pattern.",
+  	incorrectAnswerResponse: "Incorrect. Words in a word family have the same sounds or letter pattern.",
+  	set: 6
+  	},
+
+ 	3019:{
+  	question_tag: "L2ENLP7QG",
+   code: "3019",
+   title: "Eng Class Q7",
+   learner_question: "\r\n1. A baker \r\n2. A driver \r\n3. Kona's friend",
+  	question: "Say: Open to page 50. Read 'Jobs in Vonzu' again. Who is Helen? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, ''My friend Hellen knows Vonzu well,' says Kona.'",
+  	incorrectAnswerResponse: "Incorrect. The story says, ''My friend Hellen knows Vonzu well,' says Kona.'",
+  	set: 7
+  	},
+
+ 	3020:{
+  	question_tag: "L2ENLP7Q1",
+   code: "3020",
+   title: "Eng Q13",
+   learner_question: "Who makes bread? \r\n1. A baker \r\n2. A driver \r\n3. A seller",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! A baker makes bread. A driver drives. A seller sells.",
+  	incorrectAnswerResponse: "Incorrect. A baker makes bread. A driver drives. A seller sells.",
+  	set: 7
+  	},
+
+ 	3021:{
+  	question_tag: "L2ENLP7Q2",
+   code: "3021",
+   title: "Eng Q14",
+   learner_question: "Complete the sentence: She _____ the van. \r\n1. drives \r\n2. drive \r\n3. driver",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! With he, she, and it, we add 's' or 'es' to the end of present tense verbs. He drives a car.",
+  	incorrectAnswerResponse: "Incorrect. With he, she, and it, we add 's' or 'es' to the end of present tense verbs. He drives a car.",
+  	set: 7
+  	},
+
+ 	3022:{
+  	question_tag: "L2ENLP8QG",
+   code: "3022",
+   title: "Eng Class Q8",
+   learner_question: "\r\n1. In a cook shop \r\n2. In a drugstore \r\n3. In an office",
+  	question: "Say: Open to page 59. Read 'Meet Romo' again. Where does a girl mop? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, 'In an office, a girl mops.'",
+  	incorrectAnswerResponse: "Incorrect. The story says, 'In an office, a girl mops.'",
+  	set: 8
+  	},
+
+ 	3023:{
+  	question_tag: "L2ENLP8Q1",
+   code: "3023",
+   title: "Eng Q15",
+   learner_question: "Complete the question: What _____ she want? \r\n1. do \r\n2. does \r\n3. done",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! With 'he', 'she' and 'it' we use 'does'. Does he see? What does it eat?",
+  	incorrectAnswerResponse: "Incorrect. With 'he', 'she' and 'it' we use 'does'. Does he see? What does it eat?",
+  	set: 8
+  	},
+
+ 	3024:{
+  	question_tag: "L2ENLP8Q2",
+   code: "3024",
+   title: "Eng Q16",
+   learner_question: "Complete the question: Where _____ you live? \r\n1. do \r\n2. does \r\n3. done",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! With 'I', 'you', 'we', and 'they' we use 'do'. Do they like rice? Where do we sit?",
+  	incorrectAnswerResponse: "Incorrect. With 'I', 'you', 'we', and 'they' we use 'do'. Do they like rice? Where do we sit?",
+  	set: 8
+  	},
+
+ 	3025:{
+  	question_tag: "L2ENLP9QG",
+   code: "3025",
+   title: "Eng Class Q9",
+   learner_question: "\r\n1. In our town \r\n2. Every year \r\n3. Every fifteen days",
+  	question: "Say: Open to page 7\r\n1. Read 'Jobs in Dabu, Lofa' again. When does the doctor come? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, 'A doctor comes very 15 days.'",
+  	incorrectAnswerResponse: "Incorrect. The story says, 'A doctor comes very 15 days.'",
+  	set: 9
+  	},
+
+ 	3026:{
+  	question_tag: "L2ENLP9Q1",
+   code: "3026",
+   title: "Eng Q17",
+   learner_question: "Which word means 'With someone or something'? \r\n1. anything \r\n2. together \r\n3. change",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Together means 'With someone or something.' The two girls walk together.",
+  	incorrectAnswerResponse: "Incorrect. Together means 'With someone or something.' The two girls walk together.",
+  	set: 9
+  	},
+
+ 	3027:{
+  	question_tag: "L2ENLPQ2",
+   code: "3027",
+   title: "Eng Q18",
+   learner_question: "What is a paragraph? \r\n1. A topic sentence, like an umbrella \r\n2. A group of sentences about the same idea. \r\n3. A story about jobs.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! A paragraph is a group of sentences about the same topic or idea.",
+  	incorrectAnswerResponse: "Incorrect. A paragraph is a group of sentences about the same topic or idea.",
+  	set: 9
+  	},
+
+ 	3028:{
+  	question_tag: "L2ENLP10QG",
+   code: "3028",
+   title: "Eng Class Q10",
+   learner_question: "\r\n1. bad \r\n2. cake \r\n3. made",
+  	question: "Say: What word rhymes with 'Bake'? Enter the number of the correct answer on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Words that rhyme have the same end sound. Bake, cake, rake, make.",
+  	incorrectAnswerResponse: "Incorrect. Words that rhyme have the same end sound. Bake, cake, rake, make.",
+  	set: 10
+  	},
+
+ 	3029:{
+  	question_tag: "L2ENLP10Q1",
+   code: "3029",
+   title: "Eng Q19",
+   learner_question: "Complete the sentence: Where ____ he work? \r\n1. do \r\n2. does \r\n3. done",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! With 'he', 'she' and 'it' we use 'does'. Does he see? What does it eat?",
+  	incorrectAnswerResponse: "Incorrect. With 'he', 'she' and 'it' we use 'does'. Does he see? What does it eat?",
+  	set: 10
+  	},
+
+ 	3030:{
+  	question_tag: "L2ENLP10Q2",
+   code: "3030",
+   title: "Eng Q20",
+   learner_question: "Which sentence is correct? \r\n1. she is a good girl \r\n2. She is a Good girl. \r\n3. She us a good girl.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Sentences begin with a capital letter and end with a full stop.",
+  	incorrectAnswerResponse: "Incorrect. Sentences begin with a capital letter and end with a full stop.",
+  	set: 10
+  	},
+
+ 	3031:{
+  	question_tag: "L2ENLP11QG",
+   code: "3031",
+   title: "Eng Class Q11",
+   learner_question: "\r\n1. Flomo's friend \r\n2. Flomo's mother \r\n3. Flomo's wife",
+  	question: "Say: Open to page 86. Read Flomo Thinks About Work again. Who is Kabeh? Enter the number of the correct answer on your phone. ",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story tells us that Flomo is talking to his wife, Kabeh.",
+  	incorrectAnswerResponse: "Incorrect. The story tells us that Flomo is talking to his wife, Kabeh.",
+  	set: 11
+  	},
+
+ 	3032:{
+  	question_tag: "L2ENLP11Q1",
+   code: "3032",
+   title: "Eng Q21",
+   learner_question: "Complete the sentence: I ____ a farmer. \r\n1. is \r\n2. am \r\n3. are",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! We use 'am' with the pronoun 'I'. I am happy.",
+  	incorrectAnswerResponse: "Incorrect. We use 'am' with the pronoun 'I'. I am happy.",
+  	set: 11
+  	},
+
+ 	3033:{
+  	question_tag: "L2ENLP11Q2",
+   code: "3033",
+   title: "Eng Q22",
+   learner_question: "Complete the sentence: We ____ reading. \r\n1. is \r\n2. am \r\n3. are",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! We use 'are' with 'we', 'they' and 'you'. We are eating.",
+  	incorrectAnswerResponse: "Incorrect. We use 'are' with 'we', 'they' and 'you'. We are eating.",
+  	set: 11
+  	},
+
+ 	3034:{
+  	question_tag: "L2ENLP12QG",
+   code: "3034",
+   title: "Eng Class Q12",
+   learner_question: "\r\n1. She will cook it. \r\n2. She will make a chart. \r\n3. She will sell it.",
+  	question: "Say: Open to page 9\r\n2. Read 'Temba's Fish Shop' again. Why does Temba take a bit of paper? Enter the number of the correct answer on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The story says, 'She makes a chart- Temba's Cook shop.'",
+  	incorrectAnswerResponse: "Incorrect. The story says, 'She makes a chart- Temba's Cook shop.'",
+  	set: 12
+  	},
+
+ 	3035:{
+  	question_tag: "L2ENLP12Q1",
+   code: "3035",
+   title: "Eng Q23",
+   learner_question: "Which word rhymes with 'Smart'? \r\n1. small \r\n2. farm \r\n3. part",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Words that rhyme have the same end sound. Smart, part, cart, dart.",
+  	incorrectAnswerResponse: "Incorrect. Words that rhyme have the same end sound. Smart, part, cart, dart.",
+  	set: 12
+  	},
+
+ 	3036:{
+  	question_tag: "L2ENLP12Q2",
+   code: "3036",
+   title: "Eng Q24",
+   learner_question: "Complete the question: ____ he a farmer? \r\n1. Is \r\n2. Am \r\n3. Are",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We use 'is' with 'he', 'she' and 'it'. He is happy.",
+  	incorrectAnswerResponse: "Incorrect. We use 'is' with 'he', 'she' and 'it'. He is happy.",
+  	set: 12
+  	},
+
+ 	3037:{
+  	question_tag: "L2ENLP13QG",
+   code: "3037",
+   title: "Eng Class Q13",
+   learner_question: "\r\n1. Builder \r\n2. Mechanic \r\n3. Farmer",
+  	question: "Say: Open to page 100. Read 'Flomo Thinks About His Skills' again. What is a good job for Flomo? Enter the number of the correct answer on your phone. ",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Kabeh says Flomo is good at growing things. Farmers grow things.",
+  	incorrectAnswerResponse: "Incorrect. Kabeh says Flomo is good at growing things. Farmers grow things.",
+  	set: 13
+  	},
+
+ 	3038:{
+  	question_tag: "L2ENLP13Q1",
+   code: "3038",
+   title: "Eng Q25",
+   learner_question: "Which word rhymes with 'Hide'? \r\n1. Hid \r\n2. Home \r\n3. Ride",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Words that rhyme have the same end sound. Hide, ride, side, wide.",
+  	incorrectAnswerResponse: "Incorrect. Words that rhyme have the same end sound. Hide, ride, side, wide.",
+  	set: 13
+  	},
+
+ 	3039:{
+  	question_tag: "L2ENLP13Q2",
+   code: "3039",
+   title: "Eng Q26",
+   learner_question: "What does an honest person do? \r\n1. Work hard \r\n2. Tell the truth \r\n3. Fix things",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! An honest person tells the truth. James is an honest boy.",
+  	incorrectAnswerResponse: "Incorrect. An honest person tells the truth. James is an honest boy.",
+  	set: 13
+  	},
+
+ 	3040:{
+  	question_tag: "L2ENLP14QG",
+   code: "3040",
+   title: "Eng Class Q14 ",
+   learner_question: "\r\n1. They are hungry. \r\n2. They do not see their mother. \r\n3. They are frightened by a spirit.",
+  	question: "Say: Turn to page 108. Read 'The Song of the Birds.' Why are the baby birds sad? Enter the number of the correct answer on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The baby birds cry because they do not see their mother.",
+  	incorrectAnswerResponse: "Incorrect. The baby birds cry because they do not see their mother.",
+  	set: 14
+  	},
+
+ 	3041:{
+  	question_tag: "L2ENLP14Q1",
+   code: "3041",
+   title: "Eng Q27",
+   learner_question: "Which word rhymes with 'He'? \r\n1. Have \r\n2. See \r\n3. Help",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Words that Rhyme have the same end sound. He, see, bee, we.",
+  	incorrectAnswerResponse: "Incorrect. Words that Rhyme have the same end sound. He, see, bee, we.",
+  	set: 14
+  	},
+
+ 	3042:{
+  	question_tag: "L2ENLP14Q2",
+   code: "3042",
+   title: "Eng Q28",
+   learner_question: "Complete the sentence: A fiction story is _____. \r\n1. True \r\n2. Not true",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Fiction stories are not true. Fiction stories are made up.",
+  	incorrectAnswerResponse: "Incorrect. Fiction stories are not true. Fiction stories are made up.",
+  	set: 14
+  	},
+
+ 	3043:{
+  	question_tag: "L2ENLP15QG",
+   code: "3043",
+   title: "Eng Class Q15",
+   learner_question: "\r\n1. Biyamanyen \r\n2. Gorn, gorn, gorn \r\n3. Shii, shii, shii",
+  	question: "Say: Turn to page 12\r\n1. Read 'The Song of the Birds.' What sound does the eagle make? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, 'Ma Eagle sings, "Shii, Shii, Shii."'",
+  	incorrectAnswerResponse: "Incorrect. The story says, 'Ma Eagle sings, "Shii, Shii, Shii."'",
+  	set: 15
+  	},
+
+ 	3044:{
+  	question_tag: "L2ENLP15Q1",
+   code: "3044",
+   title: "Eng Q29",
+   learner_question: "Which word rhymes with 'lie'? \r\n1. why \r\n2. lay \r\n3. see",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Words that rhyme have the same end sound. My, by, sky, lie, tie.",
+  	incorrectAnswerResponse: "Incorrect. Words that rhyme have the same end sound. My, by, sky, lie, tie.",
+  	set: 15
+  	},
+
+ 	3045:{
+  	question_tag: "L2ENLP15Q2",
+   code: "3045",
+   title: "Eng Q30",
+   learner_question: "Complete the sentence: I want to _____ a song. \r\n1. take \r\n2. melody \r\n3. sing",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! We sing songs. The girls sing a pretty song. ",
+  	incorrectAnswerResponse: "Incorrect. We sing songs. The girls sing a pretty song. ",
+  	set: 15
+  	},
+
+ 	3046:{
+  	question_tag: "L2ENLP16QG",
+   code: "3046",
+   title: "Eng Class Q16",
+   learner_question: "\r\n1. She sings the correct song. \r\n2. She looks like them. \r\n3. She knows their names.",
+  	question: "Say: Open to page 12\r\n1. Read 'The Song of the Birds' again. How do the birds know the big bird is their mother? Answer the text message now.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! In the story, the little birds know their mother because of the song she sings.",
+  	incorrectAnswerResponse: "Incorrect. In the story, the little birds know their mother because of the song she sings.",
+  	set: 16
+  	},
+
+ 	3047:{
+  	question_tag: "L2ENLP16Q1",
+   code: "3047",
+   title: "Eng Q31",
+   learner_question: "Which sentence is correct? \r\n1. We are hunters not. \r\n2. We are not hunters. \r\n3. We not are hunters.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! We are not hunters. We use 'not' after the verb 'to be'. I am not happy.",
+  	incorrectAnswerResponse: "Incorrect. We are not hunters. We use 'not' after the verb 'to be'. I am not happy.",
+  	set: 16
+  	},
+
+ 	3048:{
+  	question_tag: "L2ENLP16Q2",
+   code: "3048",
+   title: "Eng Q32",
+   learner_question: "Which sentence is correct? \r\n1. It was a good day not. \r\n2. It not was a good day. \r\n3. It was not a good day.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! We use 'not' after the verb 'to be'. I was not happy today.",
+  	incorrectAnswerResponse: "Incorrect. We use 'not' after the verb 'to be'. I was not happy today.",
+  	set: 16
+  	},
+
+ 	3049:{
+  	question_tag: "L2ENLP17QG",
+   code: "3049",
+   title: "Eng Class Q17",
+   learner_question: "\r\n1. A fish \r\n2. A fisherman \r\n3. His father",
+  	question: "Say: Open to page 137. Read 'Charles' again. What does Charles want to be? Enter the number of the correct answer on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Charles wants to be a fisherman. ",
+  	incorrectAnswerResponse: "Incorrect. Charles wants to be a fisherman. ",
+  	set: 17
+  	},
+
+ 	3050:{
+  	question_tag: "L2ENLP17Q1",
+   code: "3050",
+   title: "Eng Q33",
+   learner_question: "Complete the sentence: They ____ to drink milk. \r\n1. like \r\n2. likes \r\n3. liking",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We do not add 's' or 'es' to verbs with 'they', 'you', 'I' or 'we'. I like dogs. We like chicken.",
+  	incorrectAnswerResponse: "Incorrect. We do not add 's' or 'es' to verbs with 'they', 'you', 'I' or 'we'. I like dogs. We like chicken.",
+  	set: 17
+  	},
+
+ 	3051:{
+  	question_tag: "L2ENLP17Q2",
+   code: "3051",
+   title: "Eng Q34",
+   learner_question: "What skill would be useful for a farmer? \r\n1. Being able to make things from wood. \r\n2. Being able to cook good food. \r\n3. Being able to grow plants.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Farmers grow plants on farms.",
+  	incorrectAnswerResponse: "Incorrect. Farmers grow plants on farms.",
+  	set: 17
+  	},
+
+ 	3052:{
+  	question_tag: "L2ENLP18QG",
+   code: "3052",
+   title: "Eng Class Q18",
+   learner_question: "\r\n1. Sell \r\n2. Ball \r\n3. Bet",
+  	question: "Say: What word rhymes with 'bell'? Enter the number of the correct answer on your phone.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Words that rhyme have the same end sound. Bell, sell, tell, fell.",
+  	incorrectAnswerResponse: "Incorrect. Words that rhyme have the same end sound. Bell, sell, tell, fell.",
+  	set: 18
+  	},
+
+ 	3053:{
+  	question_tag: "L2ENLP18Q1",
+   code: "3053",
+   title: "Eng Q35",
+   learner_question: "Which letter is a vowel? \r\n1. T \r\n2. A \r\n3. W",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The vowels are A, E, I, O, U and sometimes Y. ",
+  	incorrectAnswerResponse: "Incorrect. The vowels are A, E, I, O, U and sometimes Y. ",
+  	set: 18
+  	},
+
+ 	3054:{
+  	question_tag: "L2ENLP18Q2",
+   code: "3054",
+   title: "Eng Q36",
+   learner_question: "Complete the sentence: I ____ a teacher. \r\n1. am \r\n2. is \r\n3. are",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We use 'am' with the pronoun 'I'. I am a farmer. I am hungry.",
+  	incorrectAnswerResponse: "Incorrect. We use 'am' with the pronoun 'I'. I am a farmer. I am hungry.",
+  	set: 18
+  	},
+
+ 	3055:{
+  	question_tag: "L2ENLP19QG",
+   code: "3055",
+   title: "Eng Class Q19",
+   learner_question: "\r\n1. To open a bakery. \r\n2. To be a farmer. \r\n3. To sell soap.",
+  	question: "Say: Open to page 140. Read 'Making things: Kona' again. What is Kona's goal? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, 'You know me- Kona Doe. My goal is to make soap.'",
+  	incorrectAnswerResponse: "Incorrect. The story says, 'You know me- Kona Doe. My goal is to make soap.'",
+  	set: 19
+  	},
+
+ 	3056:{
+  	question_tag: "L2ENLP19Q1",
+   code: "3056",
+   title: "Eng Q37",
+   learner_question: "What do we call a person who buys something at a shop? \r\n1. A customer \r\n2. A competitor \r\n3. A profit ",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! A customer is someone who buys a product or service.",
+  	incorrectAnswerResponse: "Incorrect. A customer is someone who buys a product or service.",
+  	set: 19
+  	},
+
+ 	3057:{
+  	question_tag: "L2ENLP19Q2",
+   code: "3057",
+   title: "Eng Q38",
+   learner_question: "What word is missing? Monday,_____, Wednesday, Thursday \r\n1. Sunday \r\n2. Friday \r\n3. Tuesday",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Tuesday comes after Monday! Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday.",
+  	incorrectAnswerResponse: "Incorrect. Tuesday comes after Monday! Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday.",
+  	set: 19
+  	},
+
+ 	3058:{
+  	question_tag: "L2ENLP20QG",
+   code: "3058",
+   title: "Eng Class Q20",
+   learner_question: "\r\n1. To make money. \r\n2. To make friends. \r\n3. To give up.",
+  	question: "Say: Open to page 146. Read 'It Takes Hard Work' again. What do small business want? ",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The story says, 'Small business people want to make money.'",
+  	incorrectAnswerResponse: "Incorrect. The story says, 'Small business people want to make money.'",
+  	set: 20
+  	},
+
+ 	3059:{
+  	question_tag: "L2ENLP20Q1",
+   code: "3059",
+   title: "Eng Q39",
+   learner_question: "Which word means 'a possible problem'? \r\n1. Customer \r\n2. Risk \r\n3. Profit",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Risks are possible problems or dangers.",
+  	incorrectAnswerResponse: "Incorrect. Risks are possible problems or dangers.",
+  	set: 20
+  	},
+
+ 	3060:{
+  	question_tag: "L2ENLP20Q2",
+   code: "3060",
+   title: "Eng Q40",
+   learner_question: "Today is Wednesday. What day is tomorrow? \r\n1. Tuesday \r\n2. Wednesday \r\n3. Thursday",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Thursday comes after Wednesday. Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday. ",
+  	incorrectAnswerResponse: "Incorrect. Thursday comes after Wednesday. Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday. ",
+  	set: 20
+  	},
+
+ 	3061:{
+  	question_tag: "L2ENLP21QG",
+   code: "3061",
+   title: "Eng Class Q21",
+   learner_question: "\r\n1. To ABE class \r\n2. To Aunty Doe's \r\n3. To buy rice and cassava",
+  	question: "Say: Open to page 155. Look at the calendar. What will Kona do Sunday at 12:00? Enter the number of the correct answer on your phone. ",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! For Sunday, the Calendar says, 'To Aunty Doe's -12:00'",
+  	incorrectAnswerResponse: "Incorrect. For Sunday, the Calendar says, 'To Aunty Doe's -12:00'",
+  	set: 21
+  	},
+
+ 	3062:{
+  	question_tag: "L2ENLP21Q1",
+   code: "3062",
+   title: "Eng Q41",
+   learner_question: "Complete the sentence: We must ____ soap when we wash our hands. \r\n1. use \r\n2. make \r\n3. buy",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Use means, 'to apply with, to make with'. We must use soap when we wash our hands.",
+  	incorrectAnswerResponse: "Incorrect. Use means, 'to apply with, to make with'. We must use soap when we wash our hands.",
+  	set: 21
+  	},
+
+ 	3063:{
+  	question_tag: "L2ENLP21Q2",
+   code: "3063",
+   title: "Eng Q42",
+   learner_question: "Which word is spelled correctly? \r\n1. Monroveea \r\n2. Munrovia \r\n3. Monrovia",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Monrovia is the capital of Liberia.",
+  	incorrectAnswerResponse: "Incorrect. Monrovia is the capital of Liberia.",
+  	set: 21
+  	},
+
+ 	3064:{
+  	question_tag: "L2ENLP22QG",
+   code: "3064",
+   title: "Eng Class Q22",
+   learner_question: "\r\n1. Monrovia \r\n2. Gbarnga \r\n3. Fissebu",
+  	question: "Say: Open to page 159 Read 'Kona's Soap Making Idea' again. Where does Kona live? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, 'Too many people sell soap in Fissebu.' Kona must live in Fissebu.",
+  	incorrectAnswerResponse: "Incorrect. The story says, 'Too many people sell soap in Fissebu.' Kona must live in Fissebu.",
+  	set: 22
+  	},
+
+ 	3065:{
+  	question_tag: "L2ENLP22Q1",
+   code: "3065",
+   title: "Eng Q43",
+   learner_question: "What is the abbreviation of Wednesday? \r\n1. Wedn. \r\n2. Wed. \r\n3. We.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! An abbreviation is a short form. Sunday- Sun. Monday- Mon. Tuesday-Tues. Wednesday-Wed. Thursday- Thur. Friday- Fri. Saturday-Sat.",
+  	incorrectAnswerResponse: "Incorrect. An abbreviation is a short form. Sunday- Sun. Monday- Mon. Tuesday-Tues. Wednesday-Wed. Thursday- Thur. Friday- Fri. Saturday-Sat.",
+  	set: 22
+  	},
+
+ 	3066:{
+  	question_tag: "L2ENLP22Q2",
+   code: "3066",
+   title: "Eng Q44",
+   learner_question: "Complete the sentence: It is _____ for a business person to ask if there is a need for her product or service. \r\n1. important \r\n2. profit \r\n3. business idea",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Important means 'key, central'. It is important to wash your hands. It is important to work hard.",
+  	incorrectAnswerResponse: "Incorrect. Important means 'key, central'. It is important to wash your hands. It is important to work hard.",
+  	set: 22
+  	},
+
+ 	3067:{
+  	question_tag: "L2ENLP23QG",
+   code: "3067",
+   title: "Eng Class Q23",
+   learner_question: "\r\n1. They like Miata. \r\n2. They are hungry. \r\n3. Miata lives near a school.",
+  	question: "Say: Open to page 165. Read 'Miata's Bread Making Business' again. Why do boys and girls walk by Miata's house? ",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, 'My house is next to a school. Boys and girls walk by my home.'",
+  	incorrectAnswerResponse: "Incorrect. The story says, 'My house is next to a school. Boys and girls walk by my home.'",
+  	set: 23
+  	},
+
+ 	3068:{
+  	question_tag: "L2ENLP23Q1",
+   code: "3068",
+   title: "Eng Q45",
+   learner_question: "Complete the sentence: I am sad because I ____ my money. \r\n1. have \r\n2. lost \r\n3. next",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! When something is 'lost' we do not know where it is. I lost my house keys. He lost his book.",
+  	incorrectAnswerResponse: "Incorrect. When something is 'lost' we do not know where it is. I lost my house keys. He lost his book.",
+  	set: 23
+  	},
+
+ 	3069:{
+  	question_tag: "L2ENLP23Q2",
+   code: "3069",
+   title: "Eng Q46",
+   learner_question: "What time is Midnight? \r\n1. 12:00 am \r\n2. 12:00 pm \r\n3. 6:00 am",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 12:00 am is called midnight. It is the middle of the night.",
+  	incorrectAnswerResponse: "Incorrect. 12:00 am is called midnight. It is the middle of the night.",
+  	set: 23
+  	},
+
+ 	3070:{
+  	question_tag: "L2ENLP24QG",
+   code: "3070",
+   title: "Eng Class Q24",
+   learner_question: "\r\n1. He does not like machines. \r\n2. He wants to hire his friends. \r\n3. Machines are expensive.",
+  	question: "Say: Open to page 174. Read 'Simon's Palm Oil Business' again. Why will Simon wait to buy machines?",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, 'But, the machines are expensive.' Simon does not have enough money now.",
+  	incorrectAnswerResponse: "Incorrect. The story says, 'But, the machines are expensive.' Simon does not have enough money now.",
+  	set: 24
+  	},
+
+ 	3071:{
+  	question_tag: "L2ENLP24Q1",
+   code: "3071",
+   title: "Eng Q47",
+   learner_question: "What is a different way to say 2:00? \r\n1. Midnight \r\n2. Two o'clock \r\n3. Two-thirty",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 2:00 is Two o'clock. O'clock means the time is on the hour-00. 1:00= 1 o'clock.",
+  	incorrectAnswerResponse: "Incorrect. 2:00 is Two o'clock. O'clock means the time is on the hour-00. 1:00= 1 o'clock.",
+  	set: 24
+  	},
+
+ 	3072:{
+  	question_tag: "L2ENLP24Q2",
+   code: "3072",
+   title: "Eng Q48",
+   learner_question: "What number comes BEFORE 10? \r\n1. 9 \r\n2. 10 \r\n3. 11",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 9 is before 10. 8 is before 9. 7 is before 8.",
+  	incorrectAnswerResponse: "Incorrect. 9 is before 10. 8 is before 9. 7 is before 8.",
+  	set: 24
+  	},
+
+ 	3073:{
+  	question_tag: "L2ENLP25QG",
+   code: "3073",
+   title: "Eng Class Q25",
+   learner_question: "\r\n1. May 5 \r\n2. May 9 \r\n3. May 12",
+  	question: "Say: Open your books to page 184. Look at the calendar. If today is May 8th, what will the date be this Friday? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! "This Friday" means the Friday of the current week. ",
+  	incorrectAnswerResponse: "Incorrect. "This Friday" means the Friday of the current week. ",
+  	set: 25
+  	},
+
+ 	3074:{
+  	question_tag: "L2ENLP25Q1",
+   code: "3074",
+   title: "Eng Q49",
+   learner_question: "If today is September 15, what is the date tomorrow? \r\n1. September 16 \r\n2. October 15 \r\n3. September 14",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Tomorrow is the day after today. If today is September 15, tomorrow is September 16.",
+  	incorrectAnswerResponse: "Incorrect. Tomorrow is the day after today. If today is September 15, tomorrow is September 16.",
+  	set: 25
+  	},
+
+ 	3075:{
+  	question_tag: "L2ENLP25Q2",
+   code: "3075",
+   title: "Eng Q50",
+   learner_question: "If today is December 5, what was the date the day before yesterday? \r\n1. December 4 \r\n2. December 6 \r\n3. December 3",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The day before yesterday means 2 days ago.",
+  	incorrectAnswerResponse: "Incorrect. The day before yesterday means 2 days ago.",
+  	set: 25
+  	},
+
+ 	3076:{
+  	question_tag: "L2ENLP26QG",
+   code: "3076",
+   title: "Eng Class Q26",
+   learner_question: "\r\n1. (12/1/17) \r\n2. (1/12/17) \r\n3. (17/1/12)",
+  	question: "Say: Which dates is the same as December 1, 2017? Enter the number of the correct answer.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 12/1/17 is December 1, 2017.",
+  	incorrectAnswerResponse: "Incorrect. 12/1/17 is December 1, 2017.",
+  	set: 26
+  	},
+
+ 	3077:{
+  	question_tag: "L2ENLP26Q1",
+   code: "3077",
+   title: "Eng Q51",
+   learner_question: "Which date is the same as July 16, 2017? \r\n1. (16/7/17) \r\n2. (17/16/7) \r\n3. (7/16/17)",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 7/16/17 is July 16, 2017.",
+  	incorrectAnswerResponse: "Incorrect. 7/16/17 is July 16, 2017.",
+  	set: 26
+  	},
+
+ 	3078:{
+  	question_tag: "L2ENLP26Q2",
+   code: "3078",
+   title: "Eng Q52",
+   learner_question: "Which is 'cheaper' than $5? \r\n1. $7 \r\n2. $5 \r\n3. $2",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Cheaper means the price is lower. $2<$5",
+  	incorrectAnswerResponse: "Incorrect. Cheaper means the price is lower. $2<$5",
+  	set: 26
+  	},
+
+ 	3079:{
+  	question_tag: "L2ENLP27QG",
+   code: "3079",
+   title: "Eng Class Q27",
+   learner_question: "\r\n1. December 9 \r\n2. December 3 \r\n3. December 11",
+  	question: "Say: If today is Monday, December 10, what was the date last Monday? Enter the number of the correct answer. ",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Last Monday would be seven days ago. 10-7=3.",
+  	incorrectAnswerResponse: "Incorrect. Last Monday would be seven days ago. 10-7=3.",
+  	set: 27
+  	},
+
+ 	3080:{
+  	question_tag: "L2ENLP27Q1",
+   code: "3080",
+   title: "Eng Q53",
+   learner_question: "If today is Wednesday, January 20, what was the date last Tuesday? \r\n1. December 19 \r\n2. December 27 \r\n3. December 13",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Last Tuesday would be seven days ago. 20-7=13.",
+  	incorrectAnswerResponse: "Incorrect. Last Tuesday would be seven days ago. 20-7=13.",
+  	set: 27
+  	},
+
+ 	3081:{
+  	question_tag: "L2ENLP27Q2",
+   code: "3081",
+   title: "Eng Q54",
+   learner_question: "If today is Friday May 15, what will the date be next Friday? \r\n1. May 8 \r\n2. May 22 \r\n3. May 16",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Next Tuesday will be seven days later. 15+7=22",
+  	incorrectAnswerResponse: "Incorrect. Next Tuesday will be seven days later. 15+7=22",
+  	set: 27
+  	},
+
+ 	3082:{
+  	question_tag: "L2ENLP28QG",
+   code: "3082",
+   title: "Eng Class Q28",
+   learner_question: "\r\n1. friendly \r\n2. friendlier \r\n3. friendliest",
+  	question: "Write: Jane is the ______ girl in all of Monrovia. Say: Complete the sentence with the correct word. Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Jane is the friendliest girl in all of Monrovia. "est" endings often mean 'most'.",
+  	incorrectAnswerResponse: "Incorrect. Jane is the friendliest girl in all of Monrovia. "est" endings often mean 'most'.",
+  	set: 28
+  	},
+
+ 	3083:{
+  	question_tag: "L2ENLP28Q1",
+   code: "3083",
+   title: "Eng Q55",
+   learner_question: "Complete the sentence: Cake is ____ than bread. \r\n1. sweet \r\n2. sweeter \r\n3. sweetest ",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Cake is sweeter than bread. We often use 'er' endings to compare two things.",
+  	incorrectAnswerResponse: "Incorrect. Cake is sweeter than bread. We often use 'er' endings to compare two things.",
+  	set: 28
+  	},
+
+ 	3084:{
+  	question_tag: "L2ENLP28Q2",
+   code: "3084",
+   title: "Eng Q56",
+   learner_question: "Complete the sentence: The motorcycle is very ___. \r\n1. cheap \r\n2. cheaper \r\n3. cheapest",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The motorcycle is very cheap. The sentence is not comparing.",
+  	incorrectAnswerResponse: "Incorrect. The motorcycle is very cheap. The sentence is not comparing.",
+  	set: 28
+  	},
+
+ 	3085:{
+  	question_tag: "L2ENLP29QG",
+   code: "3085",
+   title: "Eng Class Q29",
+   learner_question: "\r\n1. He sells hair oil. \r\n2. He makes soap at home. \r\n3. His customers buy from someone else.",
+  	question: "Say: Open to page 206. Find the story 'Saye and his Sister' What problem does Saye have?",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, "They were buying hair oil from another seller."",
+  	incorrectAnswerResponse: "Incorrect. The story says, "They were buying hair oil from another seller."",
+  	set: 29
+  	},
+
+ 	3086:{
+  	question_tag: "L2ENLP29Q1",
+   code: "3086",
+   title: "Eng Q57",
+   learner_question: "Who is a competitor? \r\n1. A person who sells the same thing as you. \r\n2. A person who buys what you are selling. \r\n3. A person who gives you money.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! A competitor is a person with the same business as you.",
+  	incorrectAnswerResponse: "Incorrect. A competitor is a person with the same business as you.",
+  	set: 29
+  	},
+
+ 	3087:{
+  	question_tag: "L2ENLP29Q2",
+   code: "3087",
+   title: "Eng Q58",
+   learner_question: "How can we advertise? \r\n1. Lower prices \r\n2. Make better products \r\n3. Put up posters",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 'Advertise' means to tell people about a business. We can advertise on posters, on the radio and on television.",
+  	incorrectAnswerResponse: "Incorrect. 'Advertise' means to tell people about a business. We can advertise on posters, on the radio and on television.",
+  	set: 29
+  	},
+
+ 	3088:{
+  	question_tag: "L2ENLP30QG",
+   code: "3088",
+   title: "Eng Class Q30",
+   learner_question: "\r\n1. Pauline is friendly \r\n2. Pauline is creative \r\n3. Pauline has a lot of money",
+  	question: "Say: Open to page 21\r\n1. In the story, why does Kona want to be partners with Pauline? Answer the number of the correct answer on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The story says, "'You are full of creative ideas, says Kona.'"",
+  	incorrectAnswerResponse: "Incorrect. The story says, "'You are full of creative ideas, says Kona.'"",
+  	set: 30
+  	},
+
+ 	3089:{
+  	question_tag: "L2ENLP30Q1",
+   code: "3089",
+   title: "Eng Q59",
+   learner_question: "What is the abbreviation of August? \r\n1. A. \r\n2. Au. \r\n3. Aug.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The abbreviation of August is Aug.",
+  	incorrectAnswerResponse: "Incorrect. The abbreviation of August is Aug.",
+  	set: 30
+  	},
+
+ 	3090:{
+  	question_tag: "L2ENLP30Q2",
+   code: "3090",
+   title: "Eng Q60",
+   learner_question: "What is the abbreviation of March? \r\n1. Mar. \r\n2. March. \r\n3. M.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The Abbreviation of March is Mar.",
+  	incorrectAnswerResponse: "Incorrect. The Abbreviation of March is Mar.",
+  	set: 30
+  	},
+
+ 	3091:{
+  	question_tag: "L2ENLP31QG",
+   code: "3091",
+   title: "Eng Class Q31",
+   learner_question: "\r\n1. $100 \r\n2. $50 \r\n3. $150",
+  	question: "Say: Flomo makes $100 selling bread. She spends $50 on her business. What is her profit? Enter the number of the correct answer on your phones.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Profit is the money we make minus the money we spend. 100-50=50.",
+  	incorrectAnswerResponse: "Incorrect. Profit is the money we make minus the money we spend. 100-50=50.",
+  	set: 31
+  	},
+
+ 	3092:{
+  	question_tag: "L2ENLP31Q1",
+   code: "3092",
+   title: "Eng Q61",
+   learner_question: "Sonie spends $40 on her business. She makes $150. How much are her expenses? \r\n1. $40 \r\n2. $150 \r\n3. $110",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Expenses are the money we spend on a business.",
+  	incorrectAnswerResponse: "Incorrect. Expenses are the money we spend on a business.",
+  	set: 31
+  	},
+
+ 	3093:{
+  	question_tag: "L2ENLP31Q2",
+   code: "3093",
+   title: "Eng Q62",
+   learner_question: "What is income? \r\n1. The money we make before expenses \r\n2. The money we make after expenses. \r\n3. The money we give to others.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Income is the money we make before expenses.",
+  	incorrectAnswerResponse: "Incorrect. Income is the money we make before expenses.",
+  	set: 31
+  	},
+
+ 	3094:{
+  	question_tag: "L2ENLP32QG",
+   code: "3094",
+   title: "Eng Class Q32",
+   learner_question: "\r\n1. 1 brother \r\n2. 3 brothers \r\n3. 5 brothers",
+  	question: "Say: Open to page 226. How many brothers work in the kitchen of the business? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The story says, "3 brothers cook and help customers."",
+  	incorrectAnswerResponse: "Incorrect. The story says, "3 brothers cook and help customers."",
+  	set: 32
+  	},
+
+ 	3095:{
+  	question_tag: "L2ENLP32Q1",
+   code: "3095",
+   title: "Eng Q63",
+   learner_question: "Which word completes the sentence? She ___ him for breaking the radio. \r\n1. decides \r\n2. blames \r\n3. changes",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! She blames him for breaking the radio. When we 'blame' someone, we say they did something wrong.",
+  	incorrectAnswerResponse: "Incorrect. She blames him for breaking the radio. When we 'blame' someone, we say they did something wrong.",
+  	set: 32
+  	},
+
+ 	3096:{
+  	question_tag: "L2ENLP32Q2",
+   code: "3096",
+   title: "Eng Q64",
+   learner_question: "Which word completes the sentence? If our ___ are more than our income, we will lose money. \r\n1. profit \r\n2. record \r\n3. expenses",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! If our expenses are more than our income, we will lose money. Expenses are the money we spend on a business.",
+  	incorrectAnswerResponse: "Incorrect. If our expenses are more than our income, we will lose money. Expenses are the money we spend on a business.",
+  	set: 32
+  	},
+
+ 	3097:{
+  	question_tag: "L2ENLP33QG",
+   code: "3097",
+   title: "Eng Class Q33",
+   learner_question: "\r\n1. He wants help with his record book. \r\n2. He wants pepper soup. \r\n3. He wants a date with Miata.",
+  	question: "Say: Open to page 234. What does the brother want from Miata? Enter the number of the correct answer in your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, "I mightififIf you go out with me this Saturday night."",
+  	incorrectAnswerResponse: "Incorrect. The story says, "I mightififIf you go out with me this Saturday night."",
+  	set: 33
+  	},
+
+ 	3098:{
+  	question_tag: "L2ENLP33Q1",
+   code: "3098",
+   title: "Eng Q65",
+   learner_question: "Which is NOT way a record book helps us? \r\n1. Record books track our income and expenses. \r\n2. Record books help us attract new customers. \r\n3. Record books show us how much money we have.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Record books track money, they do not attract new customers.",
+  	incorrectAnswerResponse: "Incorrect. Record books track money, they do not attract new customers.",
+  	set: 33
+  	},
+
+ 	3099:{
+  	question_tag: "L2ENLP33Q2",
+   code: "3099",
+   title: "Eng Q66",
+   learner_question: "Jane's balance is LD $1,500. She pays LD $500 to a shop. What is her new balance? \r\n1. $1000 \r\n2. $500 \r\n3. $2000",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 1,500-500=1000. Jane pays $500, so she has $500 less than she did before.",
+  	incorrectAnswerResponse: "Incorrect. 1,500-500=1000. Jane pays $500, so she has $500 less than she did before.",
+  	set: 33
+  	},
+
+ 	3100:{
+  	question_tag: "L2ENLP34QG",
+   code: "3100",
+   title: "Eng Class Q34",
+   learner_question: "\r\n1. 26 years old. \r\n2. 30 years old. \r\n3. 35 years old.",
+  	question: "Say: Open to page 24\r\n3. If Simon is 25 years old now. How old will he be when he finishes his plan? Enter the number of the correct answer in your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Simon has a 5 year plan. If he is 25 now, he will finish when he is 30.",
+  	incorrectAnswerResponse: "Incorrect. Simon has a 5 year plan. If he is 25 now, he will finish when he is 30.",
+  	set: 34
+  	},
+
+ 	3101:{
+  	question_tag: "L2ENLP34Q1",
+   code: "3101",
+   title: "Eng Q67",
+   learner_question: "Which is 34? \r\n1. twenty-four \r\n2. forty-four \r\n3. thirty-four",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 34= thirty-four",
+  	incorrectAnswerResponse: "Incorrect. 34 = thirty-four",
+  	set: 34
+  	},
+
+ 	3102:{
+  	question_tag: "L2ENLP34Q2",
+   code: "3102",
+   title: "Eng Q68",
+   learner_question: "What does it mean to 'save' money? \r\n1. To keep and not spend it. \r\n2. To buy things for our businesses. \r\n3. To make a five year plan.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We save money when we keep it.",
+  	incorrectAnswerResponse: "Incorrect. We save money when we keep it.",
+  	set: 34
+  	},
+
+ 	3103:{
+  	question_tag: "L2ENLP35QG",
+   code: "3103",
+   title: "Eng Class Q35",
+   learner_question: "\r\n1. Record keeping \r\n2. Advertising \r\n3. Planning",
+  	question: "Say: Jomo goes on the radio to tell people about her business. What is this called? Enter the correct number on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Advertising is letting people know about a business.",
+  	incorrectAnswerResponse: "Incorrect. Advertising is letting people know about a business.",
+  	set: 35
+  	},
+
+ 	3104:{
+  	question_tag: "L2ENLP35Q1",
+   code: "3104",
+   title: "Eng Q69",
+   learner_question: "What day is 1/12/17? \r\n1. January 12, 2017 \r\n2. December 1, 2017 \r\n3. December 17, 2001",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 1/12/2017 is January 12, 2017.",
+  	incorrectAnswerResponse: "Incorrect. 1/12/2017 is January 12, 2017.",
+  	set: 35
+  	},
+
+ 	3105:{
+  	question_tag: "L2ENLP35Q2",
+   code: "3105",
+   title: "Eng Q70",
+   learner_question: "Complete the sentence: She is the ___ girl in the whole school. \r\n1. small \r\n2. smaller \r\n3. smallest",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! She is the smallest girl in the whole school. 'est' endings often mean 'most'.",
+  	incorrectAnswerResponse: "Incorrect. She is the smallest girl in the whole school. 'est' endings often mean 'most'.",
+  	set: 35
+  	},
+
+ 	3106:{
+  	question_tag: "L2ENLP36QG",
+   code: "3106",
+   title: "Eng Class Q36",
+   learner_question: "\r\n1. February \r\n2. Febr. \r\n3. Feb.",
+  	question: "Say: What is the abbreviation for the month of February? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The abbreviation of February is Feb.",
+  	incorrectAnswerResponse: "Incorrect. The abbreviation of February is Feb.",
+  	set: 36
+  	},
+
+ 	3107:{
+  	question_tag: "L2ENLP36Q1",
+   code: "3107",
+   title: "Eng Q71",
+   learner_question: "Mary spends $1,000 on her business. She makes $2,500. How much are her expenses? \r\n1. $1,000 \r\n2. $1,500 \r\n3. $2,500",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Expenses are the money we spend on a business.",
+  	incorrectAnswerResponse: "Incorrect. Expenses are the money we spend on a business.",
+  	set: 36
+  	},
+
+ 	3108:{
+  	question_tag: "L2ENLP36Q2",
+   code: "3108",
+   title: "Eng Q72",
+   learner_question: "Sally has a soap business. She cannot keep track of the money she spends and makes. What will help her? \r\n1. Advertising \r\n2. Creativity \r\n3. A record book",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Record books help businesses keep track of money.",
+  	incorrectAnswerResponse: "Incorrect. Record books help businesses keep track of money.",
+  	set: 36
+  	},
+
+ 	3109:{
+  	question_tag: "L2ENLP37QG",
+   code: "3109",
+   title: "Eng Class Q37",
+   learner_question: "\r\n1. The greeting \r\n2. The signature \r\n3. The closing",
+  	question: "Say: Which comes last in a letter? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! We usually end letters by signing them.",
+  	incorrectAnswerResponse: "Incorrect. We usually end letters by signing them.",
+  	set: 37
+  	},
+
+ 	3110:{
+  	question_tag: "L2ENLP37Q1",
+   code: "3110",
+   title: "Eng Q73",
+   learner_question: "In what part of a letter might we tell someone why we are writing? \r\n1. The greeting \r\n2. The heading \r\n3. The body",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The body of a letter is where we explain why we are writing.",
+  	incorrectAnswerResponse: "Incorrect. The body of a letter is where we explain why we are writing.",
+  	set: 37
+  	},
+
+ 	3111:{
+  	question_tag: "L2ENLP37Q2",
+   code: "3111",
+   title: "Eng Q74",
+   learner_question: "What are the three parts of communication? \r\n1. A speaker, a message and a header. \r\n2. A letter, a listener and a signature. \r\n3. A speaker, a message and a listener.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! A speaker sends a message and a listener hears it.",
+  	incorrectAnswerResponse: "Incorrect. A speaker sends a message and a listener hears it.",
+  	set: 37
+  	},
+
+ 	3112:{
+  	question_tag: "L2ENLP38QG",
+   code: "3112",
+   title: "Eng Class Q38",
+   learner_question: "\r\n1. A small shop \r\n2. Bread \r\n3. Communication",
+  	question: "Say: Open to page 264. What does Moses sell in the story? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The story says, "One day, Anna gives Moses 2 kinds of bread to sell."",
+  	incorrectAnswerResponse: "Incorrect. The story says, "One day, Anna gives Moses 2 kinds of bread to sell."",
+  	set: 38
+  	},
+
+ 	3113:{
+  	question_tag: "L2ENLP38Q1",
+   code: "3113",
+   title: "Eng Q75",
+   learner_question: "Who is a supervisor? \r\n1. A person who tells others what to do. \r\n2. A person who buys goods and services. \r\n3. A person who does what her or she is told.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! A supervisor manages people.",
+  	incorrectAnswerResponse: "Incorrect. A supervisor manages people.",
+  	set: 38
+  	},
+
+ 	3114:{
+  	question_tag: "L2ENLP38Q2",
+   code: "3114",
+   title: "Eng Q76",
+   learner_question: "Which is NOT an example of active listening? \r\n1. Asking questions to understand \r\n2. Giving advice \r\n3. Being patient",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Active listening means we carefully hear what is being said to us.",
+  	incorrectAnswerResponse: "Incorrect. Active listening means we carefully hear what is being said to us.",
+  	set: 38
+  	},
+
+ 	3115:{
+  	question_tag: "L2ENLP39QG",
+   code: "3115",
+   title: "Eng Class Q39",
+   learner_question: "\r\n1. An employer \r\n2. The government \r\n3. A friend",
+  	question: "To whom might you send an informal letter? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! We send informal letters to people we know well.",
+  	incorrectAnswerResponse: "Incorrect. We send informal letters to people we know well.",
+  	set: 39
+  	},
+
+ 	3116:{
+  	question_tag: "L2ENLP39Q1",
+   code: "3116",
+   title: "Eng Q77",
+   learner_question: "Which word has a prefix? \r\n1. unhappy \r\n2. careless \r\n3. fixing",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! A prefix comes at the start of a word. Unhappy. Undo. ",
+  	incorrectAnswerResponse: "Incorrect. A prefix comes at the start of a word. Unhappy. Undo. ",
+  	set: 39
+  	},
+
+ 	3117:{
+  	question_tag: "L2ENLP39Q2",
+   code: "3117",
+   title: "Eng Q78",
+   learner_question: "Which word has a suffix? \r\n1. replay \r\n2. careful \r\n3. Liberia",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! A suffix comes a the end of a word. Careful. Careless. Helpful.",
+  	incorrectAnswerResponse: "Incorrect. A suffix comes a the end of a word. Careful. Careless. Helpful.",
+  	set: 39
+  	},
+
+ 	3118:{
+  	question_tag: "L2ENLP40QG",
+   code: "3118",
+   title: "Eng Class Q40",
+   learner_question: "\r\n1. was \r\n2. were \r\n3. am",
+  	question: "Write: We ___ sad. Say: Choose the number of the word that correctly completes the sentence.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! In the past tense, we use 'were' with 'we', 'you', and 'they'. We were sad.",
+  	incorrectAnswerResponse: "Incorrect. In the past tense, we use 'were' with 'we', 'you', and 'they'. We were sad.",
+  	set: 40
+  	},
+
+ 	3119:{
+  	question_tag: "L2ENLP40Q1",
+   code: "3119",
+   title: "Eng Q79",
+   learner_question: "She ___ sleeping. \r\n1. was \r\n2. am \r\n3. were ",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: "",
+  	incorrectAnswerResponse: "",
+  	set: 40
+  	},
+
+ 	3120:{
+  	question_tag: "L2ENLP40Q2",
+   code: "3120",
+   title: "Eng Q80",
+   learner_question: "___ they sleeping? \r\n1. Was \r\n2. Is \r\n3. Were",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! In the past tense, we use 'were' with 'we', 'you', and 'they'. Were they sleeping?",
+  	incorrectAnswerResponse: "Incorrect. In the past tense, we use 'were' with 'we', 'you', and 'they'. Were they sleeping?",
+  	set: 40
+  	},
+
+ 	3121:{
+  	question_tag: "L2ENLP41QG",
+   code: "3121",
+   title: "Eng Class Q41",
+   learner_question: "\r\n1. looks \r\n2. looking \r\n3. looked",
+  	question: "Write: We ___ at the bird. Choose the number of the word that correctly completes the sentence.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! In the past tense, regular verbs end in 'ed'. Looked, jumped, smelled.",
+  	incorrectAnswerResponse: "Incorrect. In the past tense, regular verbs end in 'ed'. Looked, jumped, smelled.",
+  	set: 41
+  	},
+
+ 	3122:{
+  	question_tag: "L2ENLP41Q1",
+   code: "3122",
+   title: "Eng Q81",
+   learner_question: "We ___to her yesterday. \r\n1. talked \r\n2. talking \r\n3. talks",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! In the past tense, regular verbs end in 'ed'. Talked. Walked. Hoped.",
+  	incorrectAnswerResponse: "Incorrect. In the past tense, regular verbs end in 'ed'. Talked. Walked. Hoped.",
+  	set: 41
+  	},
+
+ 	3123:{
+  	question_tag: "L2ENLP41Q2",
+   code: "3123",
+   title: "Eng Q82",
+   learner_question: "She ___ a new list. \r\n1. maked \r\n2. made \r\n3. maded",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Some 'irregular' verbs do not end with 'ed' in the past tense. Made. Got. Ate.",
+  	incorrectAnswerResponse: "Incorrect. Some 'irregular' verbs do not end with 'ed' in the past tense. Made. Got. Ate.",
+  	set: 41
+  	},
+
+ 	3124:{
+  	question_tag: "L2ENLP42QG",
+   code: "3124",
+   title: "Eng Class Q42",
+   learner_question: "\r\n1. One person \r\n2. Two people \r\n3. Three people",
+  	question: "Say: Open to page 309. How many people is Gayflor introduced to in the story. Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! In the story, Gayflor is introduced to Togar and Ms. Toe.",
+  	incorrectAnswerResponse: "Incorrect. In the story, Gayflor is introduced to Togar and Ms. Toe.",
+  	set: 42
+  	},
+
+ 	3125:{
+  	question_tag: "L2ENLP42Q1",
+   code: "3125",
+   title: "Eng Q83",
+   learner_question: "Which is a polite way to ask someone to help? \r\n1. Could you help me? \r\n2. You must help me. \r\n3. Help me.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 'Could' and 'would' are polite ways to say 'can'. ",
+  	incorrectAnswerResponse: "Incorrect. 'Could' and 'would' are polite ways to say 'can'. ",
+  	set: 42
+  	},
+
+ 	3126:{
+  	question_tag: "L2ENLP42Q2",
+   code: "3126",
+   title: "Eng Q84",
+   learner_question: "Which sentence is an invitation? \r\n1. Pay me $5. \r\n2. Please, come to my house tonight. \r\n3. I am sorry, can you say that again?",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Invitations ask someone to go to a place or event.",
+  	incorrectAnswerResponse: "Incorrect. Invitations ask someone to go to a place or event.",
+  	set: 42
+  	},
+
+ 	3127:{
+  	question_tag: "L2ENLP43QG",
+   code: "3127",
+   title: "Eng Class Q43",
+   learner_question: "\r\n1. Bulldozer \r\n2. Esther \r\n3. Kenneh",
+  	question: "Say: Open to page 316. What is the name of Esther's supervisor? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The story says, '"Now don't forget,' Kenneh says."",
+  	incorrectAnswerResponse: "Incorrect. The story says, '"Now don't forget,' Kenneh says."",
+  	set: 43
+  	},
+
+ 	3128:{
+  	question_tag: "L2ENLP43Q1",
+   code: "3128",
+   title: "Eng Q85",
+   learner_question: "Which is a command? \r\n1. Thank you! \r\n2. Look out! \r\n3. Where is it?",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Commands tell someone to do something.",
+  	incorrectAnswerResponse: "Incorrect. Commands tell someone to do something.",
+  	set: 43
+  	},
+
+ 	3129:{
+  	question_tag: "L2ENLP43Q2",
+   code: "3129",
+   title: "Eng Q86",
+   learner_question: "Which is a correct command? \r\n1. Write your name. \r\n2. You write your name. \r\n3. Did you write your name?",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Commands often do not have a subject. Run! Watch out! Write your name.",
+  	incorrectAnswerResponse: "Incorrect. Commands often do not have a subject. Run! Watch out! Write your name.",
+  	set: 43
+  	},
+
+ 	3130:{
+  	question_tag: "L2ENLP44QG",
+   code: "3130",
+   title: "Eng Class Q44",
+   learner_question: "\r\n1. Your hands \r\n2. Your mouth \r\n3. Your mind",
+  	question: "What do you use to 'imagine'? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! When we imagine something, we picture it in our mind.",
+  	incorrectAnswerResponse: "Incorrect. When we imagine something, we picture it in our mind.",
+  	set: 44
+  	},
+
+ 	3131:{
+  	question_tag: "L2ENLP44Q1",
+   code: "3131",
+   title: "Eng Q87",
+   learner_question: "Which comes first in a thank you letter? \r\n1. The body \r\n2. The date \r\n3. The greeting",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! We usually write the date before the greeting in a formal letter.",
+  	incorrectAnswerResponse: "Incorrect. We usually write the date before the greeting in a formal letter.",
+  	set: 44
+  	},
+
+ 	3132:{
+  	question_tag: "L2ENLP44Q2",
+   code: "3132",
+   title: "Eng Q88",
+   learner_question: "What is it called when you write your name at the bottom of a letter? \r\n1. The greeting \r\n2. The closing \r\n3. The signature",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! A signature is a special way of writing our own names. We use signatures on letters and contracts.",
+  	incorrectAnswerResponse: "Incorrect. A signature is a special way of writing our own names. We use signatures on letters and contracts.",
+  	set: 44
+  	},
+
+ 	3133:{
+  	question_tag: "L2ENLP45QG",
+   code: "3133",
+   title: "Eng Class Q45",
+   learner_question: "\r\n1. talks \r\n2. talked \r\n3. talking",
+  	question: "Write: They ___ all night long. Which word completes the sentence. Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! In the past tense, regular verbs end in 'ed'. They talked all night.",
+  	incorrectAnswerResponse: "Incorrect. In the past tense, regular verbs end in 'ed'. They talked all night.",
+  	set: 45
+  	},
+
+ 	3134:{
+  	question_tag: "L2ENLP45Q1",
+   code: "3134",
+   title: "Eng Q89",
+   learner_question: "She ___ a good person. \r\n1. was \r\n2. were \r\n3. are",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! In the past tense, we use 'was' with 'he', 'she', 'I' and 'it'. She was a good person.",
+  	incorrectAnswerResponse: "Incorrect. In the past tense, we use 'was' with 'he', 'she', 'I' and 'it'. She was a good person.",
+  	set: 45
+  	},
+
+ 	3135:{
+  	question_tag: "L2ENLP45Q2",
+   code: "3135",
+   title: "Eng Q90",
+   learner_question: "Which is a command? \r\n1. You sit. \r\n2. Sit. \r\n3. Did you sit?",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Commands tell someone to do something. We usually drop 'you' from commands.",
+  	incorrectAnswerResponse: "Incorrect. Commands tell someone to do something. We usually drop 'you' from commands.",
+  	set: 45
+  	},
+
+ 	3136:{
+  	question_tag: "L2ENLP46QG",
+   code: "3136",
+   title: "Eng Class Q46",
+   learner_question: "\r\n1. Before we read \r\n2. While we read \r\n3. After we read",
+  	question: "Say: When can we re-read a story? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Re-read means read again. We can re-read to help us understand.",
+  	incorrectAnswerResponse: "Incorrect. Re-read means read again. We can re-read to help us understand.",
+  	set: 46
+  	},
+
+ 	3137:{
+  	question_tag: "L2ENLP46Q1",
+   code: "3137",
+   title: "Eng Q91",
+   learner_question: "Which sentence is correct? \r\n1. Will be you in Monrovia? \r\n2. Will you be in Liberia? \r\n3. You be in Liberia will?",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! With 'will' questions, the subject usually comes directly after 'will'.",
+  	incorrectAnswerResponse: "Incorrect. With 'will' questions, the subject usually comes directly after 'will'.",
+  	set: 46
+  	},
+
+ 	3138:{
+  	question_tag: "L2ENLP46Q2",
+   code: "3138",
+   title: "Eng Q92",
+   learner_question: "When can we NOT make a prediction about reading? \r\n1. Before we read \r\n2. While we read \r\n3. After we read",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! We can predict what will happen before we read or while we read.",
+  	incorrectAnswerResponse: "Incorrect. We can predict what will happen before we read or while we read.",
+  	set: 46
+  	},
+
+ 	3139:{
+  	question_tag: "L2ENLP47QG",
+   code: "3139",
+   title: "Eng Class Q47",
+   learner_question: "\r\n1. Being polite \r\n2. Answering questions \r\n3. The price of goods",
+  	question: "Say: Which is NOT a part of customer service? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Customer service is how we treat customers.",
+  	incorrectAnswerResponse: "Incorrect. Customer service is how we treat customers.",
+  	set: 47
+  	},
+
+ 	3140:{
+  	question_tag: "L2ENLP47Q1",
+   code: "3140",
+   title: "Eng Q93",
+   learner_question: "Which word means the same as "She would"? \r\n1. She'd \r\n2. She's \r\n3. she'w",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The contraction for 'would' is 'd. She'd like to go.=She would like to go.",
+  	incorrectAnswerResponse: "Incorrect. The contraction for 'would' is 'd. She'd like to go.=She would like to go.",
+  	set: 47
+  	},
+
+ 	3141:{
+  	question_tag: "L2ENLP47Q2",
+   code: "3141",
+   title: "Eng Q94",
+   learner_question: "What is the contraction for "Could not"? \r\n1. Could'nt \r\n2. Couldn't \r\n3. Could't",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Couldn't = Could not. He couldn't sleep.",
+  	incorrectAnswerResponse: "Incorrect. Couldn't = Could not. He couldn't sleep.",
+  	set: 47
+  	},
+
+ 	3142:{
+  	question_tag: "L2ENLP48QG",
+   code: "3142",
+   title: "Eng Class Q48",
+   learner_question: "\r\n1. Say the most important thing first. \r\n2. Make something as sharp as it can be. \r\n3. Show someone where something is.",
+  	question: "Say: What does it mean to 'get to the point'? Enter the number of the correct answer in your phone.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We get to the point by saying the most important thing first. We do not waste time when we get to the point.",
+  	incorrectAnswerResponse: "Incorrect. We get to the point by saying the most important thing first. We do not waste time when we get to the point.",
+  	set: 48
+  	},
+
+ 	3143:{
+  	question_tag: "L2ENLP48Q1",
+   code: "3143",
+   title: "Eng Q95",
+   learner_question: "They ___ starting to eat. \r\n1. am \r\n2. is \r\n3. are",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Before 'ing' verbs, we use 'are' with 'they', 'we', and 'you'.",
+  	incorrectAnswerResponse: "Incorrect. Before 'ing' verbs, we use 'are' with 'they', 'we', and 'you'.",
+  	set: 48
+  	},
+
+ 	3144:{
+  	question_tag: "L2ENLP48Q2",
+   code: "3144",
+   title: "Eng Q96",
+   learner_question: "I ___ sitting at home. \r\n1. am \r\n2. is \r\n3. are",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Before 'ing' verbs, we use 'am' with 'I'.",
+  	incorrectAnswerResponse: "Incorrect. Before 'ing' verbs, we use 'am' with 'I'.",
+  	set: 48
+  	},
+
+ 	3145:{
+  	question_tag: "L2ENLP49QG",
+   code: "3145",
+   title: "Eng Class Q49",
+   learner_question: "\r\n1. Kona cannot finish telling her friend about the DJ. \r\n2. Kona does not get the man's business. \r\n3. Kona does not get her lunch.",
+  	question: "Say: Open to page 369. Why is this story called, "Kona loses out"? Enter the number of the correct answer on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! In the story, the man is upset with Kona for being rude on the phone. She loses out on his business.",
+  	incorrectAnswerResponse: "Incorrect. In the story, the man is upset with Kona for being rude on the phone. She loses out on his business.",
+  	set: 49
+  	},
+
+ 	3146:{
+  	question_tag: "L2ENLP49Q1",
+   code: "3146",
+   title: "Eng Q97",
+   learner_question: "Which two letters together make an 'f' sound? \r\n1. s and h \r\n2. t and h \r\n3. p and h",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Together, p and h make the /f/ sound. Phone. Photograph. Elephant.",
+  	incorrectAnswerResponse: "Incorrect. Together, p and h make the /f/ sound. Phone. Photograph. Elephant.",
+  	set: 49
+  	},
+
+ 	3147:{
+  	question_tag: "L2ENLP49Q2",
+   code: "3147",
+   title: "Eng Q98",
+   learner_question: "Which is NOT an important phone communication skill? \r\n1. Speaking clearly \r\n2. Doing other things while you listen \r\n3. Asking for the callers contact information",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! When talking on the phone, we should not continue unrelated work.",
+  	incorrectAnswerResponse: "Incorrect. When talking on the phone, we should not continue unrelated work.",
+  	set: 49
+  	},
+
+ 	3148:{
+  	question_tag: "L2ENLP50QG",
+   code: "3148",
+   title: "Eng Class Q50",
+   learner_question: "\r\n1. An explanation \r\n2. A way of saying something in a new way \r\n3. A short description in your own words.",
+  	question: "Say: What is a summary? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! A summary is a short description in your own words.",
+  	incorrectAnswerResponse: "Incorrect. A summary is a short description in your own words.",
+  	set: 50
+  	},
+
+ 	3149:{
+  	question_tag: "L2ENLP50Q1",
+   code: "3149",
+   title: "Eng Q99",
+   learner_question: "Which word has a 'long /o/' sound? \r\n1. on \r\n2. ton \r\n3. tone",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Long vowels sounds sound like the name of the letter. Tone has a 'long /o/' sound because of the silent 'e' at the end.",
+  	incorrectAnswerResponse: "Incorrect. Long vowels sounds sound like the name of the letter. Tone has a 'long o' sound because of the silent 'e' at the end.",
+  	set: 50
+  	},
+
+ 	3150:{
+  	question_tag: "L2ENLP50Q2",
+   code: "3150",
+   title: "Eng Q100",
+   learner_question: "Which word has a 'long /u/' sound. \r\n1. dune \r\n2. bun \r\n3. hunt ",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Long vowels sounds sound like the name of the letter. Dune has a 'long /u/' sound because of the silent 'e' at the end.",
+  	incorrectAnswerResponse: "Incorrect. Long vowels sounds sound like the name of the letter. Dune has a 'long u' sound because of the silent 'e' at the end.",
+  	set: 50
+  	},
+
+ 	3151:{
+  	question_tag: "L2ENLP51QG",
+   code: "3151",
+   title: "Eng Class Q51",
+   learner_question: "\r\n1. First \r\n2. Because \r\n3. Then",
+  	question: "Say: Which is not a sequence word? Enter the number of the correct answer on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Sequence words show the order things happened in.",
+  	incorrectAnswerResponse: "Incorrect. Sequence words show the order things happened in.",
+  	set: 51
+  	},
+
+ 	3152:{
+  	question_tag: "L2ENLP51Q1",
+   code: "3152",
+   title: "Eng Q101",
+   learner_question: "Which word has the 'long /i/' sound? \r\n1. bright \r\n2. hit \r\n3. giving",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Long vowels sounds sound like the name of the letter. Bright has a 'long i' sound because of the "igh" in it.",
+  	incorrectAnswerResponse: "Incorrect. Long vowels sounds sound like the name of the letter. Bright has a 'long i' sound because of the "igh" in it.",
+  	set: 51
+  	},
+
+ 	3153:{
+  	question_tag: "L2ENLP51Q2",
+   code: "3153",
+   title: "Eng Q102",
+   learner_question: "Which comes after second? \r\n1. First \r\n2. Third \r\n3. Fourth",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The first five ordinal numbers are first, second, third, fourth, fifth.",
+  	incorrectAnswerResponse: "Incorrect. The first five ordinal numbers are first, second, third, fourth, fifth.",
+  	set: 51
+  	},
+
+ 	3154:{
+  	question_tag: "L2ENLP52QG",
+   code: "3154",
+   title: "Eng Class Q52",
+   learner_question: "\r\n1. James sometimes eats apples. \r\n2. James often eats apples. \r\n3. James never eats apples.",
+  	question: "Say: James has eaten 5 apples in his life. Which sentence is true? Enter the number of the true sentence.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! James has eaten 5 apples. He does not eat them often, but he has eaten them at least once.",
+  	incorrectAnswerResponse: "Incorrect. James has eaten 5 apples. He does not eat them often, but he has eaten them at least once.",
+  	set: 52
+  	},
+
+ 	3155:{
+  	question_tag: "L2ENLP52Q1",
+   code: "3155",
+   title: "Eng Q103",
+   learner_question: "Jane eats rice 5 days a week. Which sentence is true? \r\n1. Jane always eats rice. \r\n2. Jane often eats rice. \r\n3. Jane never eats rice.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Jane does not eat rice with every meal, but she eats it often.",
+  	incorrectAnswerResponse: "Incorrect. Jane does not eat rice with every meal, but she eats it often.",
+  	set: 52
+  	},
+
+ 	3156:{
+  	question_tag: "L2ENLP52Q2",
+   code: "3156",
+   title: "Eng Q104",
+   learner_question: "Which word sounds the same as 'right'? \r\n1. ring \r\n2. write \r\n3. rit",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Write and right have the same sound but different spelling.",
+  	incorrectAnswerResponse: "Incorrect. Write and right have the same sound but different spelling.",
+  	set: 52
+  	},
+
+ 	3157:{
+  	question_tag: "L2ENLP53QG",
+   code: "3157",
+   title: "Eng Class Q53",
+   learner_question: "\r\n1. willn't \r\n2. will't \r\n3. won't",
+  	question: "Say: Which is the contraction of 'will not'?",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Won't = will not.",
+  	incorrectAnswerResponse: "Incorrect. Won't = will not.",
+  	set: 53
+  	},
+
+ 	3158:{
+  	question_tag: "L2ENLP53Q1",
+   code: "3158",
+   title: "Eng Q105",
+   learner_question: "Which word completes the sentence? Mother __ eats fish. She hates it. \r\n1. usually \r\n2. often \r\n3. never",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! If mother hates fish, she will never want to eat it.",
+  	incorrectAnswerResponse: "Incorrect. If mother hates fish, she will never want to eat it.",
+  	set: 53
+  	},
+
+ 	3159:{
+  	question_tag: "L2ENLP53Q2",
+   code: "3159",
+   title: "Eng Q106",
+   learner_question: "He ___ walking to school. \r\n1. is \r\n2. are \r\n3. am",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! :) Correct! Before 'ing' verbs, we use 'is' with 'he', 'she' and 'it'. He is walking to school.",
+  	incorrectAnswerResponse: "Incorrect. Incorrect. Before 'ing' verbs, we use 'is' with 'he', 'she' and 'it'. He is walking to school.",
+  	set: 53
+  	},
+
+ 	3160:{
+  	question_tag: "L2ENLP54QG",
+   code: "3160",
+   title: "Eng Class Q54",
+   learner_question: "\r\n1. She'd go. \r\n2. Shed'nt go. \r\n3. She wouldn't go.",
+  	question: "Say: Which sentence means, "She would not go."? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The contraction of 'would not' is wouldn't. She wouldn't go.",
+  	incorrectAnswerResponse: "Incorrect. The contraction of 'would not' is wouldn't. She wouldn't go.",
+  	set: 54
+  	},
+
+ 	3161:{
+  	question_tag: "L2ENLP54Q1",
+   code: "3161",
+   title: "Eng Q107",
+   learner_question: "Which word best completes the sentence? I ___ take the bus, but today I walked. \r\n1. usually \r\n2. always \r\n3. never",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 'Usually' means most of the time.",
+  	incorrectAnswerResponse: "Incorrect. 'Usually' means most of the time.",
+  	set: 54
+  	},
+
+ 	3162:{
+  	question_tag: "L2ENLP54Q2",
+   code: "3162",
+   title: "Eng Q108",
+   learner_question: "They ___ going home. \r\n1. am \r\n2. are \r\n3. is",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! :) Correct! Before 'ing' verbs, we use 'are' with 'they', 'we' and 'you'. They are going home.",
+  	incorrectAnswerResponse: "Incorrect. Incorrect. Before 'ing' verbs, we use 'are' with 'they', 'we' and 'you'. They are going home.",
+  	set: 54
+  	},
+  	5001:{
+  	question_tag: "L3ENLP1QG",
+   code: "5001",
+   title: "Eng Class Q1",
+   learner_question: "\r\n1. Everybody Loves Arts \r\n2. English Language Arts \r\n3. English Listening Activities",
+  	question: "Say: What does ELA stand for? Enter the number of the correct answer in your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! ELA stands for English Language Arts.",
+  	incorrectAnswerResponse: "Incorrect. ELA stands for English Language Arts.",
+  	set: 1
+  	},
+
+ 	5002:{
+  	question_tag: "L3ENLP1Q1",
+   code: "5002",
+   title: "Eng Q1",
+   learner_question: "What is a 'prediction'? \r\n1. A best guess about what will happen. \r\n2. Researching information about a topic. \r\n3. Working with a Reading Circle.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! A prediction is our best guess about what will happen. Making predictions helps us understand what we read.",
+  	incorrectAnswerResponse: "Incorrect. A prediction is our best guess about what will happen. Making predictions helps us understand what we read.",
+  	set: 1
+  	},
+
+ 	5003:{
+  	question_tag: "L3ENLP1Q2",
+   code: "5003",
+   title: "Eng Q2",
+   learner_question: "What is 'journaling'? \r\n1. Writing fiction stories. \r\n2. Writing what we think and feel. \r\n3. Writing for school.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Correct! Journaling is writing what we think and feel. Journaling helps us collect our thoughts.",
+  	incorrectAnswerResponse: "Incorrect. Correct! Journaling is writing what we think and feel. Journaling helps us collect our thoughts.",
+  	set: 1
+  	},
+
+ 	5004:{
+  	question_tag: "L3ENLP2QG",
+   code: "5004",
+   title: "Eng Class Q2",
+   learner_question: "\r\n1. He ate the nuts and flew away. \r\n2. He helped the old woman. \r\n3. He flew to the woman's village.",
+  	question: "Say: Open to page 12 in your books. In this story, what did the hawk do when the woman asked for help? Enter the number of the correct answer on your phone.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The story says, "The hawk ate the nuts, but then he laughed and flew away."",
+  	incorrectAnswerResponse: "Incorrect. The story says, "The hawk ate the nuts, but then he laughed and flew away."",
+  	set: 2
+  	},
+
+ 	5005:{
+  	question_tag: "L3ENLP2Q1",
+   code: "5005",
+   title: "Eng Q3",
+   learner_question: "What is folklore? \r\n1. New movies and music. \r\n2. Newspapers and reports. \r\n3. Legends passed down by a culture.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Folklore is traditional local stories or legends passed down from generation to generation.",
+  	incorrectAnswerResponse: "Incorrect. Folklore is traditional local stories or legends passed down from generation to generation.",
+  	set: 2
+  	},
+
+ 	5006:{
+  	question_tag: "L3ENLP2Q2",
+   code: "5006",
+   title: "Eng Q4",
+   learner_question: "Which is not a tradition? \r\n1. The type of food eaten in a community. \r\n2. The stories told in a community. \r\n3. The wild animals that live near a community.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Traditions are things taught to us by elders. They can be ways we live, music, stories, dances. Wild animals are not traditions.",
+  	incorrectAnswerResponse: "Incorrect. Traditions are things taught to us by elders. They can be ways we live, music, stories, dances. Wild animals are not traditions.",
+  	set: 2
+  	},
+
+ 	5007:{
+  	question_tag: "L3ENLP3QG",
+   code: "5007",
+   title: "Eng Class Q3",
+   learner_question: "\r\n1. like \r\n2. likes \r\n3. liking",
+  	question: "Write the following on the board: I ____ rice. Say: Which word best completes the sentence. Choose from the options on your phone.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We do not add 's' or 'es' to present tense verbs when the subject is 'I', 'we', 'you' or 'they'. [We usually add 's' or 'es' to verbs after 'he', 'she' and 'it'.]",
+  	incorrectAnswerResponse: "Incorrect. We do not add 's' or 'es' to verbs when the subject is 'I', 'we', 'you' or 'they'. We usually add 's' or 'es' to verbs after 'he', 'she' and 'it'.",
+  	set: 3
+  	},
+
+ 	5008:{
+  	question_tag: "L3ENLP3Q1",
+   code: "5008",
+   title: "Eng Q5",
+   learner_question: "Which word completes the sentence? They ____ their food. \r\n1. share \r\n2. shares \r\n2. sharing",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We do not add 's' or 'es' to present tense verbs when the subject is 'I', 'we', 'you' or 'they'. [We usually add 's' or 'es' to verbs after 'he', 'she' and 'it'.]",
+  	incorrectAnswerResponse: "Incorrect. We do not add 's' or 'es' to verbs when the subject is 'I', 'we', 'you' or 'they'. We usually add 's' or 'es' to verbs after 'he', 'she' and 'it'.",
+  	set: 3
+  	},
+
+ 	5009:{
+  	question_tag: "L3ENLP3Q2",
+   code: "5009",
+   title: "Eng Q6",
+   learner_question: "Which word is correct? She ____ happy. \r\n1. am \r\n2. is \r\n3. are",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! We use 'is' with 'he, 'she' and 'it'. She is happy. He is sad.",
+  	incorrectAnswerResponse: "Incorrect. We use 'is' with 'he, 'she' and 'it'. She is happy. He is sad.",
+  	set: 3
+  	},
+
+ 	5010:{
+  	question_tag: "L3ENLP4QG",
+   code: "5010",
+   title: "Eng Class Q4",
+   learner_question: "\r\n1. Draft \r\n2. Revise \r\n3. Plan",
+  	question: "What is the first step in the writing process? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The first step in writing a draft is to plan. We must think about what we will write and how we will arrange our writing.",
+  	incorrectAnswerResponse: "Incorrect. The first step in writing a draft is to plan. We must think about what we will write and how we will arrange our writing.",
+  	set: 4
+  	},
+
+ 	5011:{
+  	question_tag: "L3ENLP4Q1",
+   code: "5011",
+   title: "Eng Q7",
+   learner_question: "Why might a tradition be 'left'? \r\n1. It is an important tradition. \r\n2. It is an enjoyable tradition. \r\n3. It is a harmful tradition.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Some traditions, like child marriage, are harmful. These traditions should be left behind.",
+  	incorrectAnswerResponse: "Incorrect. Some traditions, like child marriage, are harmful. These traditions should be left behind.",
+  	set: 4
+  	},
+
+ 	5012:{
+  	question_tag: "L3ENLP4Q2",
+   code: "5012",
+   title: "Eng Q8",
+   learner_question: "Who is an elder? \r\n1. A local leader \r\n2. An older person \r\n3. A worker",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 'Elder' means 'older'. An elder is someone in a community who is usually considered old and wise.",
+  	incorrectAnswerResponse: "Incorrect. Elder means older. An elder is someone in a community who is usually considered old and wise.",
+  	set: 4
+  	},
+
+ 	5013:{
+  	question_tag: "L3ENLP5QG",
+   code: "5013",
+   title: "Eng Class Q5",
+   learner_question: "\r\n1. A group of sentences that share a topic or idea. \r\n2. A topic sentence about a main idea. \r\n3. A story about a tradition.",
+  	question: "Say: What is a paragraph? Enter the number of the correct answer on your phone.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! A paragraph is a group of sentences about a single topic or idea. We divide our writing into paragraphs to make it clearer.",
+  	incorrectAnswerResponse: "Incorrect. A paragraph is a group of sentences about a single topic or idea. We divide our writing into paragraphs to make it clearer.",
+  	set: 5
+  	},
+
+ 	5014:{
+  	question_tag: "L3ENLP5Q1",
+   code: "5014",
+   title: "Eng Q9",
+   learner_question: "What do we indent in a paragraph? \r\n1. The names of people and places. \r\n2. Each sentence. \r\n3. The first line.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! We ident the first line of each paragraph to make it clear that a new paragraph is starting. Indents are small spaces.",
+  	incorrectAnswerResponse: "Incorrect. We ident the first line of each paragraph to make it clear that a new paragraph is starting. Indents are small spaces.",
+  	set: 5
+  	},
+
+ 	5015:{
+  	question_tag: "L3ENLP5Q2",
+   code: "5015",
+   title: "Eng Q10",
+   learner_question: "What do 'Body sentences' do? \r\n1. Introduce the topic of a paragraph. \r\n2. Support the topic sentence with details. \r\n3. Conclude the idea of the paragraph or story.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Body sentences provide details, they support the topic sentence.",
+  	incorrectAnswerResponse: "Incorrect. Body sentences provide details, they support the topic sentence.",
+  	set: 5
+  	},
+
+ 	5016:{
+  	question_tag: "L3ENLP6QG",
+   code: "5016",
+   title: "Eng Class Q6",
+   learner_question: "\r\n1. Tell them stories. \r\n2. Ask them questions \r\n3. Help them read",
+  	question: "Say: What do we do when we interview a person? Answer the number of the correct answer on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! When we interview someone, we ask them questions to get information.",
+  	incorrectAnswerResponse: "Incorrect. When we interview someone, we ask them questions to get information.",
+  	set: 6
+  	},
+
+ 	5017:{
+  	question_tag: "L3ENLP6Q1",
+   code: "5017",
+   title: "Eng Q11",
+   learner_question: "Which word is a noun? \r\n1. sing \r\n2. fast \r\n3. baby",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Nouns are people, places and things. Baby, car, Liberia, and pencil are all nouns.",
+  	incorrectAnswerResponse: "Incorrect. Nouns are people, places and things. Baby, car, Liberia, and pencil are all nouns.",
+  	set: 6
+  	},
+
+ 	5018:{
+  	question_tag: "L3ENLP6Q2",
+   code: "5018",
+   title: "Eng Q12",
+   learner_question: "Which word is a verb? \r\n1. Monrovia \r\n2. run \r\n3. blue",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Verbs are action words. They can be done. Run, swim, eat and think are all verbs.",
+  	incorrectAnswerResponse: "Incorrect. Verbs are action words. They can be done. Run, swim, eat and think are all verbs.",
+  	set: 6
+  	},
+
+ 	5019:{
+  	question_tag: "L3ENLP7QG",
+   code: "5019",
+   title: "Eng Class Q7",
+   learner_question: "\r\n1. Think about a topic. \r\n2. Get a headache. \r\n3. Get a headache.",
+  	question: "Say: What does it mean to 'brainstorm'? Enter the number of the correct answer on your phone.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! When we brainstorm, we think about possible ideas. Brainstorming is an important part of planning.",
+  	incorrectAnswerResponse: "Incorrect. When we brainstorm, we think about possible ideas. Brainstorming is an important part of planning.",
+  	set: 7
+  	},
+
+ 	5020:{
+  	question_tag: "L3ENLP7Q1",
+   code: "5020",
+   title: "Eng Q13",
+   learner_question: "Which is NOT a characteristic of a topic sentence? \r\n1. It has the main idea. \r\n2. It is a complete sentence. \r\n3. It supports the topic with evidence and details.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Topic sentences tells the main idea of a paragraph. They do not usually give details to support the topic.",
+  	incorrectAnswerResponse: "Incorrect. Topic sentences tells the main idea of a paragraph. They do not usually give details to support the topic.",
+  	set: 7
+  	},
+
+ 	5021:{
+  	question_tag: "L3ENLP7Q2",
+   code: "5021",
+   title: "Eng Q14",
+   learner_question: "When do we use the "!" mark? \r\n1. To ask a question. \r\n2. To show strong feelings. \r\n3. To show a pause.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! We use the "!" exclamation mark to show strong feelings.",
+  	incorrectAnswerResponse: "Incorrect. We use the "!" exclamation mark to show strong feelings.",
+  	set: 7
+  	},
+
+ 	5022:{
+  	question_tag: "L3ENLP8QG",
+   code: "5022",
+   title: "Eng Class Q8",
+   learner_question: "\r\n1. The time and place of the story. \r\n2. The main idea of the story. \r\n3. The main character of the story.",
+  	question: "Say: What is the 'setting' of a story? Enter the number of the correct answer in your phones.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We call the time and place a story takes place the 'setting'.",
+  	incorrectAnswerResponse: "Incorrect. We call the time and place a story takes place the 'setting'.",
+  	set: 8
+  	},
+
+ 	5023:{
+  	question_tag: "L3ENLP8Q1",
+   code: "5023",
+   title: "Eng Q15",
+   learner_question: "Which word in the sentence is a noun? She runs home quickly. \r\n1. runs \r\n2. home \r\n3. quickly",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Nouns are people, places and things. Home, cat, China, and pen are all nouns.",
+  	incorrectAnswerResponse: "Incorrect. Nouns are people, places and things. Home, cat, China, and pen are all nouns.",
+  	set: 8
+  	},
+
+ 	5024:{
+  	question_tag: "L3ENLP8Q2",
+   code: "5024",
+   title: "Eng Q16",
+   learner_question: "Which word in the sentence is a verb? He eats the food slowly. \r\n1. He \r\n2. eats \r\n3. food",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Verbs are action words. They can be done. Run, swim, eat and think are all verbs.",
+  	incorrectAnswerResponse: "Incorrect. Verbs are action words. They can be done. Run, swim, eat and think are all verbs.",
+  	set: 8
+  	},
+
+ 	5025:{
+  	question_tag: "L3ENLP9QG",
+   code: "5025",
+   title: "Eng Class Q9",
+   learner_question: "\r\n1. Describe nouns \r\n2. Describe verbs \r\n3. Show action",
+  	question: "Say: What do adjectives do? Enter the number of the correct answer in your phone.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Adjectives describe nouns. Slow, red, tall, beautiful and rude are all adjectives.",
+  	incorrectAnswerResponse: "Incorrect. Adjectives describe nouns. Slow, red, tall, beautiful and rude are all adjectives.",
+  	set: 9
+  	},
+
+ 	5026:{
+  	question_tag: "L3ENLP9Q1",
+   code: "5026",
+   title: "Eng Q17",
+   learner_question: "Which word in the sentence is an adjective? The kind boy eats. \r\n1. kind \r\n2. boy \r\n3. eats",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 'kind' describes the boy. It tells us what type of boy he is. Kind, cold, polite, fast and clever are all adjectives.",
+  	incorrectAnswerResponse: "Incorrect. 'kind' describes the boy. It tells us what type of boy he is. Kind, cold, polite, fast and clever are all adjectives.",
+  	set: 9
+  	},
+
+ 	5027:{
+  	question_tag: "L3ENLPQ2",
+   code: "5027",
+   title: "Eng Q18",
+   learner_question: "Which word in the sentence is an adjective? The old woman listens. \r\n1. old \r\n2. woman \r\n3. listens",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 'Old' describes the woman. It tells us about her age. Old, young, happy, short and blue are all adjectives.",
+  	incorrectAnswerResponse: "Incorrect. 'Old' describes the woman. It tells us about her age. Old, young, happy, short and blue are all adjectives.",
+  	set: 9
+  	},
+
+ 	5028:{
+  	question_tag: "L3ENLP10QG",
+   code: "5028",
+   title: "Eng Class Q10",
+   learner_question: "\r\n1. Before we read. \r\n2. As we read. \r\n3. After we read.",
+  	question: "Say: When is NOT a time we can make a prediction.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! We can make predictions before reading or as we read. Prediction means making a best guess about what will happen.",
+  	incorrectAnswerResponse: "Incorrect. We can make predictions before reading or as we read. Prediction means making a best guess about what will happen.",
+  	set: 10
+  	},
+
+ 	5029:{
+  	question_tag: "L3ENLP10Q1",
+   code: "5029",
+   title: "Eng Q19",
+   learner_question: "Which sentence is NOT correct? \r\n1. Sally get a new phone. \r\n2. Sonie sees her mother. \r\n3. They have a big truck.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Sentence 1 should be 'Sally gets a new phone.' We usually add 's' or 'es' to present tense verbs after the name of a person.",
+  	incorrectAnswerResponse: "Incorrect. Sentence 1 should be 'Sally gets a new phone.' We usually add 's' or 'es' to present tense verbs after the name of a person.",
+  	set: 10
+  	},
+
+ 	5030:{
+  	question_tag: "L3ENLP10Q2",
+   code: "5030",
+   title: "Eng Q20",
+   learner_question: "Which sentence has an adjective? \r\n1.Sally sees Ben and James. \r\n2. The birds eat food on the street. \r\n3. The big dog runs home.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Big is an adjective. 'Big' tells us about the dog. Big, small, sad, yellow, slow and sleepy are all adjectives.",
+  	incorrectAnswerResponse: "Incorrect. Big is an adjective. 'Big' tells us about the dog. Big, small, sad, yellow, slow and sleepy are all adjectives.",
+  	set: 10
+  	},
+
+ 	5031:{
+  	question_tag: "L3ENLP11QG",
+   code: "5031",
+   title: "Eng Class Q11",
+   learner_question: "Enter the correct year.",
+  	question: "Say: Open your books to page 58. What year did William Tubman become president. Enter the year in your phones now.",
+  	answer: "1944",
+  	correctAnswerResponse: ":) Correct! The story says, "Tubman became president in 1944."",
+  	incorrectAnswerResponse: "Incorrect. The story says, "Tubman became president in 1944."",
+  	set: 11
+  	},
+
+ 	5032:{
+  	question_tag: "L3ENLP11Q1",
+   code: "5032",
+   title: "Eng Q21",
+   learner_question: "What is a biography? \r\n1. A report about an important event. \r\n2. The story of a person's life. \r\n3. An investigation into why something happened.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! A biography is the story of a person's life.",
+  	incorrectAnswerResponse: "Incorrect. A biography is the story of a person's life.",
+  	set: 11
+  	},
+
+ 	5033:{
+  	question_tag: "L3ENLP11Q2",
+   code: "5033",
+   title: "Eng Q22",
+   learner_question: "What type of questions is the word 'When' used to ask? \r\n1. Questions about place. \r\n2. Questions about time. \r\n3. Questions about names.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 'When' questions ask about time. When will we eat? When were you born? Etc.",
+  	incorrectAnswerResponse: "Incorrect. 'When' questions ask about time. When will we eat? When were you born? Etc.",
+  	set: 11
+  	},
+
+ 	5034:{
+  	question_tag: "L3ENLP12QG",
+   code: "5034",
+   title: "Eng Class Q12",
+   learner_question: "\r\n1. Fixing errors. \r\n2. Making plans. \r\n3. Writing",
+  	question: "Say: What do we do when we start 'drafting'? Enter the number of the correct answer on your phones.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! When we draft, we are starting to write. ",
+  	incorrectAnswerResponse: "Incorrect. When we draft, we are starting to write. ",
+  	set: 12
+  	},
+
+ 	5035:{
+  	question_tag: "L3ENLP12Q1",
+   code: "5035",
+   title: "Eng Q23",
+   learner_question: "Which sentence is NOT correct? \r\n1. We likes cakes. \r\n2. I like sweets. \r\n3. She likes chocolate.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! With the subject 'we' we do not ad 's' or 'es' to the end of verbs. We like cakes.",
+  	incorrectAnswerResponse: "Incorrect. With the subject 'we' we do not ad 's' or 'es' to the end of verbs. We like cakes.",
+  	set: 12
+  	},
+
+ 	5036:{
+  	question_tag: "L3ENLP12Q2",
+   code: "5036",
+   title: "Eng Q24",
+   learner_question: "Which sentence is not correct? \r\n1. She eat rice and chicken. \r\n2. He eats rice and chicken. \r\n3. They eat rice and chicken.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! With the subject, 'she', 'he' and 'it' we usually add 's' or 'es' to the end of the verb. She eats rice and chicken.",
+  	incorrectAnswerResponse: "Incorrect. With the subject, 'she', 'he' and 'it' we usually add 's' or 'es' to the end of the verb. She eats rice and chicken.",
+  	set: 12
+  	},
+
+ 	5037:{
+  	question_tag: "L3ENLP13QG",
+   code: "5037",
+   title: "Eng Class Q13",
+   learner_question: "\r\n1. Plan what we will write. \r\n2. Edit what we have written. \r\n3. Write a first draft.",
+  	question: "Say: What does it mean to revise our writing? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Revising means editing something that is already written.",
+  	incorrectAnswerResponse: "Incorrect. Revising means editing something that is already written.",
+  	set: 13
+  	},
+
+ 	5038:{
+  	question_tag: "L3ENLP13Q1",
+   code: "5038",
+   title: "Eng Q25",
+   learner_question: "What do topic sentences tell us? \r\n1. The main idea of a biography. \r\n2. Details of the 5Ws & H questions. \r\n3. The main idea of a paragraph.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Topic sentences tell us what a paragraph is about.",
+  	incorrectAnswerResponse: "Incorrect. Topic sentences tell us what a paragraph is about.",
+  	set: 13
+  	},
+
+ 	5039:{
+  	question_tag: "L3ENLP13Q2",
+   code: "5039",
+   title: "Eng Q26",
+   learner_question: "Which word is an adjective in the sentence? The girls ran to the old school. \r\n1. girls \r\n2. ran \r\n3. old",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Old is an adjective. It describes the school.",
+  	incorrectAnswerResponse: "Incorrect. Old is an adjective. It describes the school.",
+  	set: 13
+  	},
+
+ 	5040:{
+  	question_tag: "L3ENLP14QG",
+   code: "5040",
+   title: "Eng Class Q14 ",
+   learner_question: "\r\n1. They walked home and ate cake. \r\n2. They walk home and eat cake. \r\n3. They are walking home and eating cake.",
+  	question: "Say: Which sentence is in the past tense? Enter the number of the correct answer.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 'Walked' and 'ate' are past tense verbs.",
+  	incorrectAnswerResponse: "Incorrect. 'Walked' and 'ate' are past tense verbs.",
+  	set: 14
+  	},
+
+ 	5041:{
+  	question_tag: "L3ENLP14Q1",
+   code: "5041",
+   title: "Eng Q27",
+   learner_question: "Which sentenced is in the past tense? \r\n1. We had fun at the party. \r\n2. We have fun at the party. \r\n3. We are having fun at the party. ",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 'Had' is the past tense form of 'have'. Verbs determine the tense of a sentence.",
+  	incorrectAnswerResponse: "Incorrect. 'Had' is the past tense form of 'have'. Verbs determine the tense of a sentence.",
+  	set: 14
+  	},
+
+ 	5042:{
+  	question_tag: "L3ENLP14Q2",
+   code: "5042",
+   title: "Eng Q28",
+   learner_question: "What is the past tense form of the verb 'is'? \r\n1. are \r\n2. was \r\n3. were",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Was is the past tense form of 'is'. She was happy.",
+  	incorrectAnswerResponse: "Incorrect. Was is the past tense form of 'is'. She was happy.",
+  	set: 14
+  	},
+
+ 	5043:{
+  	question_tag: "L3ENLP15QG",
+   code: "5043",
+   title: "Eng Class Q15",
+   learner_question: "\r\n1. jumped \r\n2. wrote \r\n3. asked",
+  	question: "Say: Which verb is a special past tense verb? Enter the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Special past tense verbs do not end in 'ed' like most verbs. Ate, spoke, wrote, slept.",
+  	incorrectAnswerResponse: "Incorrect. Special past tense verbs do not end in 'ed' like most verbs. Ate, spoke, wrote, slept.",
+  	set: 15
+  	},
+
+ 	5044:{
+  	question_tag: "L3ENLP15Q1",
+   code: "5044",
+   title: "Eng Q29",
+   learner_question: "What is the past tense form of the verb 'make'? \r\n1. made \r\n2. maked \r\n3. making",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Make is a special verb. It does not end in 'ed'. Made.",
+  	incorrectAnswerResponse: "Incorrect. Make is a special verb. It does not end in 'ed'. Made.",
+  	set: 15
+  	},
+
+ 	5045:{
+  	question_tag: "L3ENLP15Q2",
+   code: "5045",
+   title: "Eng Q30",
+   learner_question: "What is the past tense form of the verb 'bring'? \r\n1. bringed \r\n3. brung \r\n3. brought",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Bring is a special verb. It does not end in 'ed'. Brought.",
+  	incorrectAnswerResponse: "Incorrect. Bring is a special verb. It does not end in 'ed'. Brought.",
+  	set: 15
+  	},
+
+ 	5046:{
+  	question_tag: "L3ENLP16QG",
+   code: "5046",
+   title: "Eng Class Q16",
+   learner_question: "\r\n1. goed \r\n2. went \r\n3. gone",
+  	question: "What is the past tense form of the verb 'go'? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 'Go' is a special verb. It does not end in 'ed'. Went.",
+  	incorrectAnswerResponse: "Incorrect. 'Go' is a special verb. It does not end in 'ed'. Went.",
+  	set: 16
+  	},
+
+ 	5047:{
+  	question_tag: "L3ENLP16Q1",
+   code: "5047",
+   title: "Eng Q31",
+   learner_question: "What is the past tense form of the verb 'know'? \r\n1. knew \r\n2. knowed \r\n3. knowing",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 'Know' is a special verb. It does not end in 'ed'. Knew.",
+  	incorrectAnswerResponse: "Incorrect. 'Know' is a special verb. It does not end in 'ed'. Knew.",
+  	set: 16
+  	},
+
+ 	5048:{
+  	question_tag: "L3ENLP16Q2",
+   code: "5048",
+   title: "Eng Q32",
+   learner_question: "What is the past tense form of the verb 'jump'? \r\n1. jomp \r\n2. jumping \r\n3. jumped",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 'Jump' is a regular verb. It ends with 'ed' in the past tense. Jumped.",
+  	incorrectAnswerResponse: "Incorrect. 'Jump' is a regular verb. It ends with 'ed' in the past tense. Jumped.",
+  	set: 16
+  	},
+
+ 	5049:{
+  	question_tag: "L3ENLP17QG",
+   code: "5049",
+   title: "Eng Class Q17",
+   learner_question: "The good girl ran home after school. \r\n1. good \r\n2. girl \r\n3. after",
+  	question: "Say: Which word in the sentence is an adjective? Enter the number of the correct answer.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 'Good' is an adjective. It describes the girl.",
+  	incorrectAnswerResponse: "Incorrect. 'Good' is an adjective. It describes the girl.",
+  	set: 17
+  	},
+
+ 	5050:{
+  	question_tag: "L3ENLP17Q1",
+   code: "5050",
+   title: "Eng Q33",
+   learner_question: "Which word in the sentence is a noun? The big dog ate. \r\n1. big \r\n2. dog \r\n3. ate",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 'Dog' is a noun. Nouns are people, places and things.",
+  	incorrectAnswerResponse: "Incorrect. 'Dog' is a noun. Nouns are people, places and things.",
+  	set: 17
+  	},
+
+ 	5051:{
+  	question_tag: "L3ENLP17Q2",
+   code: "5051",
+   title: "Eng Q34",
+   learner_question: "Which word is a verb? The birds sit in the tall tree. \r\n1. birds \r\n2. sit \r\n3. tall",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 'Sit' is a verb. Verbs are action words- they are things we can do.",
+  	incorrectAnswerResponse: "Incorrect. 'Sit' is a verb. Verbs are action words- they are things we can do.",
+  	set: 17
+  	},
+
+ 	5052:{
+  	question_tag: "L3ENLP18QG",
+   code: "5052",
+   title: "Eng Class Q18",
+   learner_question: "\r\n1. We eat old rice. \r\n2. They looked at the trees. \r\n3. The girl walks home slowly.",
+  	question: "Say: Which sentence is in the past tense? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 'Looked' is a regular past tense verb. Verbs tell us the tense of a sentence. ",
+  	incorrectAnswerResponse: "Incorrect. They looked at the trees. 'Looked' is a regular past tense verb. Verbs tell us the tense of a sentence. ",
+  	set: 18
+  	},
+
+ 	5053:{
+  	question_tag: "L3ENLP18Q1",
+   code: "5053",
+   title: "Eng Q35",
+   learner_question: "What is the past tense form of the verb 'see'? \r\n1. saw \r\n2. seed \r\n3. seeing",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 'See' is a special past tense verb. It does not end in 'ed'. Saw.",
+  	incorrectAnswerResponse: "Incorrect. 'See' is a special past tense verb. It does not end in 'ed'. Saw.",
+  	set: 18
+  	},
+
+ 	5054:{
+  	question_tag: "L3ENLP18Q2",
+   code: "5054",
+   title: "Eng Q36",
+   learner_question: "Which word is an adjective in the sentence The woman saw a small mouse. \r\n1. woman \r\n2. saw \r\n3. small",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Small is an adjective. It describes the mouse.",
+  	incorrectAnswerResponse: "Incorrect. Small is an adjective. It describes the mouse.",
+  	set: 18
+  	},
+
+ 	5055:{
+  	question_tag: "L3ENLP19QG",
+   code: "5055",
+   title: "Eng Class Q19",
+   learner_question: "\r\n1. plan, draft, finalize, edit, rewrite \r\n2. write, draft, revise, finalize \r\n3. plan, draft, revise, edit, finalize",
+  	question: "What are the steps in the writing process? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! We plan what we will write, make a draft, revise what we've written, make edits and then finalize.",
+  	incorrectAnswerResponse: "Incorrect. We plan what we will write, make a draft, revise what we've written, make edits and then finalize.",
+  	set: 19
+  	},
+
+ 	5056:{
+  	question_tag: "L3ENLP19Q1",
+   code: "5056",
+   title: "Eng Q37",
+   learner_question: "\r\n1. Sara sees a white cat. \r\n2. Dan wrote to his mother. \r\n3. The children walk to school.",
+  	question: "Say: Which sentence is in the past tense? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Wrote is a special past tense verb. The verb wrote makes sentence 2 past tense. ",
+  	incorrectAnswerResponse: "Incorrect. Dan wrote to his mother. Wrote is a special past tense verb. The verb wrote makes sentence 2 past tense. ",
+  	set: 19
+  	},
+
+ 	5057:{
+  	question_tag: "L3ENLP19Q2",
+   code: "5057",
+   title: "Eng Q38",
+   learner_question: "Which word is an adjective? \r\n1. red \r\n2. read \r\n3. Rachel",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Red is an adjective. Adjectives describe.",
+  	incorrectAnswerResponse: "Incorrect. Red is an adjective. Adjectives describe.",
+  	set: 19
+  	},
+
+ 	5058:{
+  	question_tag: "L3ENLP20QG",
+   code: "5058",
+   title: "Eng Class Q20",
+   learner_question: "\r\n1. A \r\n2. B \r\n3. C",
+  	question: "Say: Which module did we start today? Enter the correct answer on your phone.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct!",
+  	incorrectAnswerResponse: "Incorrect. We started module B today. If you did not attend class, be sure to ask someone to help you catch up!",
+  	set: 20
+  	},
+
+ 	5059:{
+  	question_tag: "L3ENLP20Q1",
+   code: "5059",
+   title: "Eng Q39",
+   learner_question: "What is a biography? \r\n1. A report about an important event. \r\n2. The story of a person's life. \r\n3. An investigation into why something happened.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! A biography is the story of a person's life.",
+  	incorrectAnswerResponse: "Incorrect. A biography is the story of a person's life.",
+  	set: 20
+  	},
+
+ 	5060:{
+  	question_tag: "L3ENLP20Q2",
+   code: "5060",
+   title: "Eng Q40",
+   learner_question: "Which is a 'cause' of missing class? \r\n1. You will not learn. \r\n2. You will fall behind. \r\n3. You have a busy schedule.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! A cause is the reason something happens. Some people miss class because they are busy and do not plan ahead.",
+  	incorrectAnswerResponse: "Incorrect. A cause is the reason something happens. Some people miss class because they are busy and do not plan ahead.",
+  	set: 20
+  	},
+
+ 	5061:{
+  	question_tag: "L3ENLP21QG",
+   code: "5061",
+   title: "Eng Class Q21",
+   learner_question: "\r\n1. A shop owner \r\n2. A politician \r\n3. A farmer",
+  	question: "Which person is involved in agriculture? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Agriculture is word for the work related to growing things and raising animals for food.",
+  	incorrectAnswerResponse: "Incorrect. Agriculture is word for the work related to growing things and raising animals for food.",
+  	set: 21
+  	},
+
+ 	5062:{
+  	question_tag: "L3ENLP21Q1",
+   code: "5062",
+   title: "Eng Q41",
+   learner_question: "Which word is an adverb? \r\n1. slowly \r\n2. big \r\n3. run",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Adverbs often end on 'ly'. Adverbs often describe verbs. The dog ran slowly.",
+  	incorrectAnswerResponse: "Incorrect. Adverbs often end on 'ly'. Adverbs often describe verbs. The dog ran slowly.",
+  	set: 21
+  	},
+
+ 	5063:{
+  	question_tag: "L3ENLP21Q2",
+   code: "5063",
+   title: "Eng Q42",
+   learner_question: "Which word in the sentence is an adverb? The girls did poorly on the big exam. \r\n1. girls \r\n2. poorly \r\n3. big",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The adverb 'poorly' describes how the girls did on the exam.",
+  	incorrectAnswerResponse: "Incorrect. The adverb 'poorly' describes how the girls did on the exam.",
+  	set: 21
+  	},
+
+ 	5064:{
+  	question_tag: "L3ENLP22QG",
+   code: "5064",
+   title: "Eng Class Q22",
+   learner_question: "\r\n1. Uncle Kai is informed. \r\n2. Uncle Kai explains that Liberia does not produce enough food. \r\n3. Uncle Kai and the village elders talk to the young men.",
+  	question: "Say: Open your books to page 12\r\n2. Which sentence paraphrases the story? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! When we paraphrase, we tell the most important information in our own words. The most important information from the story is that Liberia does not produce enough food.",
+  	incorrectAnswerResponse: "Incorrect. When we paraphrase, we tell the most important information in our own words. The most important information from the story is that Liberia does not produce enough food.",
+  	set: 22
+  	},
+
+ 	5065:{
+  	question_tag: "L3ENLP22Q1",
+   code: "5065",
+   title: "Eng Q43",
+   learner_question: "Which is a prediction? \r\n1. I think it will rain tomorrow. \r\n2. It rained yesterday. \r\n3. I like the rain.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! A prediction is our best guess about what will happen. Making predictions helps us understand what we read.",
+  	incorrectAnswerResponse: "Incorrect. A prediction is our best guess about what will happen. Making predictions helps us understand what we read.",
+  	set: 22
+  	},
+
+ 	5066:{
+  	question_tag: "L3ENLP22Q2",
+   code: "5066",
+   title: "Eng Q44",
+   learner_question: "Which word in the sentence is an adverb? Sonie ran home quickly. \r\n1. Sonie \r\n2. ran \r\n3. quickly",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The adverb 'quickly' describes how Sonie ran.",
+  	incorrectAnswerResponse: "Incorrect. The adverb 'quickly' describes how Sonie ran.",
+  	set: 22
+  	},
+
+ 	5067:{
+  	question_tag: "L3ENLP23QG",
+   code: "5067",
+   title: "Eng Class Q23",
+   learner_question: "\r\n1. agriculture \r\n2. empty \r\n3. employment",
+  	question: "Say: I will sound out a word. Choose the number of the word I sound out. Listen: em-ploy-ment.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Sounding out words helps us read challenging new words.",
+  	incorrectAnswerResponse: "Incorrect. Sounding out words helps us read challenging new words.",
+  	set: 23
+  	},
+
+ 	5068:{
+  	question_tag: "L3ENLP23Q1",
+   code: "5068",
+   title: "Eng Q45",
+   learner_question: "What is an example of a professional source? \r\n1. A friend talking at a home \r\n2. A politician giving a speech \r\n3. A report writing in a newspaper.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! When we hear a fact, we must consider the source. Professional sources report facts for a living.",
+  	incorrectAnswerResponse: "Incorrect. When we hear a fact, we must consider the source. Professional sources report facts for a living.",
+  	set: 23
+  	},
+
+ 	5069:{
+  	question_tag: "L3ENLP23Q2",
+   code: "5069",
+   title: "Eng Q46",
+   learner_question: "Which word in the sentence is an adverb? We slowly ate the chicken. \r\n1. slowly \r\n2. ate \r\n3. chicken",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The adverb 'slowly' describes how the chicken was eaten.",
+  	incorrectAnswerResponse: "Incorrect. The adverb 'slowly' describes how the chicken was eaten.",
+  	set: 23
+  	},
+
+ 	5070:{
+  	question_tag: "L3ENLP24QG",
+   code: "5070",
+   title: "Eng Class Q24",
+   learner_question: "\r\n1. I ate chicken yesterday. \r\n2. I will eat chicken tomorrow. \r\n3. I am eating chicken now.",
+  	question: "Which sentence is in the future tense? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The future tense us about things that have not happened but will happen. ",
+  	incorrectAnswerResponse: "Incorrect. The future tense us about things that have not happened but will happen. ",
+  	set: 24
+  	},
+
+ 	5071:{
+  	question_tag: "L3ENLP24Q1",
+   code: "5071",
+   title: "Eng Q47",
+   learner_question: "Which is the future tense version of the sentence: I run home. \r\n1. I ran home. \r\n2. I will run home. \r\n3. I am running home.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The future tense us about things that have not happened but will happen. ",
+  	incorrectAnswerResponse: "Incorrect. The future tense us about things that have not happened but will happen. ",
+  	set: 24
+  	},
+
+ 	5072:{
+  	question_tag: "L3ENLP24Q2",
+   code: "5072",
+   title: "Eng Q48",
+   learner_question: "Which is the future tense version of the sentence: I drink water. \r\n1. I am going to drink water. \r\n2. I drank water. \r\n3. I am drinking water.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We can also use 'going to' to talk about the future.",
+  	incorrectAnswerResponse: "Incorrect. We can also use 'going to' to talk about the future.",
+  	set: 24
+  	},
+
+ 	5073:{
+  	question_tag: "L3ENLP25QG",
+   code: "5073",
+   title: "Eng Class Q25",
+   learner_question: "\r\n1. Guessing what will happen next. \r\n2. Copying the exact words of another. \r\n3. checking facts with multiple sources.",
+  	question: "What is plagiarism? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Plagiarism means copying the work or exact words of another person. We must be careful to say things in our own words and give credit to other people for their ideas.",
+  	incorrectAnswerResponse: "Incorrect. Plagiarism means copying the work or exact words of another person. We must be careful to say things in our own words and give credit to other people for their ideas.",
+  	set: 25
+  	},
+
+ 	5074:{
+  	question_tag: "L3ENLP25Q1",
+   code: "5074",
+   title: "Eng Q49",
+   learner_question: "Which is the future tense version of the sentence: I asked who the sources are. \r\n1. I am asking who the sources are. \r\n2. I ask who the sources are. \r\n3. I will ask who the sources are.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The future tense tells us about things that have not happened but will happen. ",
+  	incorrectAnswerResponse: "Incorrect. I will ask who the sources are. The future tense tells us about things that have not happened but will happen. ",
+  	set: 25
+  	},
+
+ 	5075:{
+  	question_tag: "L3ENLP25Q2",
+   code: "5075",
+   title: "Eng Q50",
+   learner_question: "Which sentence is 'plagiarism' of the example: Agriculture is the key to Liberia's future. \r\n1. Agriculture is very important for our nation's future. \r\n2.Agriculture is the key to Liberia's future. \r\n3. Agriculture is important.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Plagiarism means copying the work or exact words of another person. We must be careful to say things in our own words and give credit to other people for their ideas.",
+  	incorrectAnswerResponse: "Incorrect. Plagiarism means copying the work or exact words of another person. We must be careful to say things in our own words and give credit to other people for their ideas.",
+  	set: 25
+  	},
+
+ 	5076:{
+  	question_tag: "L3ENLP26QG",
+   code: "5076",
+   title: "Eng Class Q26",
+   learner_question: "\r\n1. fantasy \r\n2. fatalities \r\n3. fertilizers",
+  	question: "Say: I will sound out a word. Choose the number of the word I sound out. Listen: fe-rt-il-iz-er-s. ",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Sounding out words helps us read challenging new words.",
+  	incorrectAnswerResponse: "Incorrect. Sounding out words helps us read challenging new words.",
+  	set: 26
+  	},
+
+ 	5077:{
+  	question_tag: "L3ENLP26Q1",
+   code: "5077",
+   title: "Eng Q51",
+   learner_question: "Which is the past tense form of 'meet'? \r\n1. met \r\n2. metted \r\n3. meeting",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Met is special past tense verb. It does not end in 'ed'.",
+  	incorrectAnswerResponse: "Incorrect. Met is special past tense verb. It does not end in 'ed'.",
+  	set: 26
+  	},
+
+ 	5078:{
+  	question_tag: "L3ENLP26Q2",
+   code: "5078",
+   title: "Eng Q52",
+   learner_question: "Which is a topic: \r\n1. Monrovia is the capital of Liberia. \r\n2. Monrovia \r\n3. Monrovia has more than one million people.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! A topic is the subject we will write about. Options 1 and 3 are facts about Monrovia.",
+  	incorrectAnswerResponse: "Incorrect. A topic is the subject we will write about. Facts are not usually topics. Options 1 and 3 are facts about Monrovia.",
+  	set: 26
+  	},
+
+ 	5079:{
+  	question_tag: "L3ENLP27QG",
+   code: "5079",
+   title: "Eng Class Q27",
+   learner_question: "\r\n1. James makes more money. \r\n2. James sells no bread. \r\n3. James wants to make more money selling bread.",
+  	question: "Choose an effect of the cause I tell you. Listen: James sells bread for LD $100. He raises the price to LD $1000. Enter the number of the effect.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! A cause is what makes an effect happen. If James charges LD$ 1000 for bread no one will buy it.",
+  	incorrectAnswerResponse: "Incorrect. A cause is what makes an effect happen. If James charges LD$ 1000 for bread no one will buy it.",
+  	set: 27
+  	},
+
+ 	5080:{
+  	question_tag: "L3ENLP27Q1",
+   code: "5080",
+   title: "Eng Q53",
+   learner_question: "Which effect matches the cause: Liberia does not make enough food. \r\n1. The people are happy. \r\n2. The land is not fertile. \r\n3. Liberians import a lot of food.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! A cause is what makes an effect happen. Because Liberia does not grow enough food, people must import their food.",
+  	incorrectAnswerResponse: "Incorrect. A cause is what makes an effect happen. Because Liberia does not grow enough food, people must import their food.",
+  	set: 27
+  	},
+
+ 	5081:{
+  	question_tag: "L3ENLP27Q2",
+   code: "5081",
+   title: "Eng Q54",
+   learner_question: "Which sentence is correct? \r\n1. The crops failed because it did not rain. \r\n2. It did not rain because the crops failed. \r\n3. It did not rain since the crops failed.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The cause is "It did not rain". The effect is "the crops failed." The crops failed because it did not rain.",
+  	incorrectAnswerResponse: "Incorrect. The cause is "It did not rain". The effect is "the crops failed." The crops failed because it did not rain.",
+  	set: 27
+  	},
+
+ 	5082:{
+  	question_tag: "L3ENLP28QG",
+   code: "5082",
+   title: "Eng Class Q28",
+   learner_question: "\r\n1. It does not rain. \r\n2. The farmers do not know how to farm. \r\n3. The people are hungry.",
+  	question: "Choose an effect of the cause I tell you. Listen: The crops fail. Enter the number of the effect.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! A cause is what makes an effect happen. If the crops fail, the people will be hungry.",
+  	incorrectAnswerResponse: "Incorrect. A cause is what makes an effect happen. If the crops fail, the people will be hungry.",
+  	set: 28
+  	},
+
+ 	5083:{
+  	question_tag: "L3ENLP28Q1",
+   code: "5083",
+   title: "Eng Q55",
+   learner_question: "Which sentence has a different meaning than the other two? \r\n1. The boy is unhappy because he is hungry. \r\n2. Because the boy is unhappy, he is hungry. \r\n2. Since the boy is hungry, he is unhappy.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The cause of the boy's unhappiness is his hunger. Sentence 2 says that the boy is hungry because he is unhappy.",
+  	incorrectAnswerResponse: "Incorrect. The cause of the boy's unhappiness is his hunger. Sentence 2 says that the boy is hungry because he is unhappy.",
+  	set: 28
+  	},
+
+ 	5084:{
+  	question_tag: "L3ENLP28Q2",
+   code: "5084",
+   title: "Eng Q56",
+   learner_question: "Which word completes the sentence? I want to eat ___ I am hungry. \r\n1. because \r\n2. so \r\n3. as a result",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The cause is hunger. The effect is that I want to eat. I want to eat because I am hungry.",
+  	incorrectAnswerResponse: "Incorrect. The cause is hunger. The effect is that I want to eat. I want to eat because I am hungry.",
+  	set: 28
+  	},
+
+ 	5085:{
+  	question_tag: "L3ENLP29QG",
+   code: "5085",
+   title: "Eng Class Q29",
+   learner_question: "\r\n1. He did not need the instructions. \r\n2. He does not know how to read. \r\n3. He used too much fertilizer.",
+  	question: "Say: Open to page 149. In the story, James did not read the instructions. What caused him to not read the instructions? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! James does not know how to read. This caused him to not read the instructions.",
+  	incorrectAnswerResponse: "Incorrect. James does not know how to read. This caused him to not read the instructions.",
+  	set: 29
+  	},
+
+ 	5086:{
+  	question_tag: "L3ENLP29Q1",
+   code: "5086",
+   title: "Eng Q57",
+   learner_question: "Which is the future tense version of the sentence: I eat pasta. \r\n1. I ate pasta. \r\n2. I will eat pasta. \r\n3. I am eating pasta.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The future tense us about things that have not happened but will happen. ",
+  	incorrectAnswerResponse: "Incorrect. The future tense us about things that have not happened but will happen. ",
+  	set: 29
+  	},
+
+ 	5087:{
+  	question_tag: "L3ENLP29Q2",
+   code: "5087",
+   title: "Eng Q58",
+   learner_question: "What would you use to kill weeds? \r\n1. Herbicide \r\n2. Rodenticide \r\n3. Pesticide",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Herbicides kill weeds. Rodenticides kill rodents (like rats). Pesticides kill insects.",
+  	incorrectAnswerResponse: "Incorrect. Herbicides kill weeds. Rodenticides kill rodents (like rats). Pesticides kill insects.",
+  	set: 29
+  	},
+
+ 	5088:{
+  	question_tag: "L3ENLP30QG",
+   code: "5088",
+   title: "Eng Class Q30",
+   learner_question: "\r\n1. The topic. \r\n2. The title. \r\n3. The body.",
+  	question: "Say: In which part of a paragraph do we include details? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The body of a paragraph is made of sentences supporting the topic sentence. We include details in the body.",
+  	incorrectAnswerResponse: "Incorrect. The body of a paragraph is made of sentences supporting the topic sentence. We include details in the body.",
+  	set: 30
+  	},
+
+ 	5089:{
+  	question_tag: "L3ENLP30Q1",
+   code: "5089",
+   title: "Eng Q59",
+   learner_question: "Which is a warning you might see on pesticide? \r\n1. Use on plants to kill insects. \r\n2. Do not drive faster than 80mph. \r\n3. Wash skin after use.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Warnings tell us what we must be careful of when doing something. Pesticides can hurt skin.",
+  	incorrectAnswerResponse: "Incorrect. Warnings tell us what we must be careful of when doing something. Pesticides can hurt skin.",
+  	set: 30
+  	},
+
+ 	5090:{
+  	question_tag: "L3ENLP30Q2",
+   code: "5090",
+   title: "Eng Q60",
+   learner_question: "What is an example of something we might do to 'revise'? \r\n1. Think about what we will write. \r\n2. Write out a draft. \r\n2. Look for subject verb agreement.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! When we revise our writing, we look for errors. You might also check that the writing is smooth and logical.",
+  	incorrectAnswerResponse: "Incorrect. When we revise our writing, we look for errors. You might also check that the writing is smooth and logical.",
+  	set: 30
+  	},
+
+ 	5091:{
+  	question_tag: "L3ENLP31QG",
+   code: "5091",
+   title: "Eng Class Q31",
+   learner_question: "I ate rice yesterday. \r\n1. ate \r\n2. rice \r\n3. yesterday",
+  	question: "Which word in the sentence is an adverb? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The adverb 'yesterday' describes when the food was eaten.",
+  	incorrectAnswerResponse: "Incorrect. The adverb 'yesterday' describes when the food was eaten.",
+  	set: 31
+  	},
+
+ 	5092:{
+  	question_tag: "L3ENLP31Q1",
+   code: "5092",
+   title: "Eng Q61",
+   learner_question: "Which word in the sentence is an adverb: She sang the old song beautifully. \r\n1. She \r\n2. old \r\n3. beautifully",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Beautifully describes how she sang the song. Many adverbs end in 'ly'.",
+  	incorrectAnswerResponse: "Incorrect. Beautifully describes how she sang the song. Many adverbs end in 'ly'.",
+  	set: 31
+  	},
+
+ 	5093:{
+  	question_tag: "L3ENLP31Q2",
+   code: "5093",
+   title: "Eng Q62",
+   learner_question: "Which word in the sentence is an adverb: I slowly walked to the big market. \r\n1. slowly \r\n2. walked \r\n3. big",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Slowly describes how 'I' walked. Many adverbs end in 'ly'.",
+  	incorrectAnswerResponse: "Incorrect. Slowly describes how 'I' walked. Many adverbs end in 'ly'.",
+  	set: 31
+  	},
+
+ 	5094:{
+  	question_tag: "L3ENLP32QG",
+   code: "5094",
+   title: "Eng Class Q32",
+   learner_question: "\r\n1. She cannot read warnings. \r\n2. She becomes very ill. \r\n3. She laughs.",
+  	question: "Choose the effect of the cause I tell you. Listen: Flomo drinks pesticide. Enter the number of the effect.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Causes are why effects happen. If Flomo drinks pesticide, she will be very ill.",
+  	incorrectAnswerResponse: "Incorrect. Causes are why effects happen. If Flomo drinks pesticide, she will be very ill.",
+  	set: 32
+  	},
+
+ 	5095:{
+  	question_tag: "L3ENLP32Q1",
+   code: "5095",
+   title: "Eng Q63",
+   learner_question: "Which word in the sentence is a noun? The big brown dog runs quickly. \r\n1. big \r\n2. dog \r\n3. quickly",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Nouns are people places and things.",
+  	incorrectAnswerResponse: "Incorrect. Nouns are people places and things.",
+  	set: 32
+  	},
+
+ 	5096:{
+  	question_tag: "L3ENLP32Q2",
+   code: "5096",
+   title: "Eng Q64",
+   learner_question: "Which word is an adverb? We often eat rice and chicken. \r\n1. We \r\n2. often \r\n3. eat",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The adverb 'often' describes the frequency with which chicken and rice are eaten.",
+  	incorrectAnswerResponse: "Incorrect. The adverb 'often' describes the frequency with which chicken and rice are eaten.",
+  	set: 32
+  	},
+
+ 	5097:{
+  	question_tag: "L3ENLP33QG",
+   code: "5097",
+   title: "Eng Class Q33",
+   learner_question: "\r\n1. Eat the soup. \r\n2. Do you want soup? \r\n3. The soup is hot.",
+  	question: "Say: Which sentence is an example of a direction? Enter the number of the correct answer.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! A direction tells someone what to do?",
+  	incorrectAnswerResponse: "Incorrect. A direction tells someone what to do?",
+  	set: 33
+  	},
+
+ 	5098:{
+  	question_tag: "L3ENLP33Q1",
+   code: "5098",
+   title: "Eng Q65",
+   learner_question: "Which direction is polite? \r\n1. Please eat. \r\n2. Eat. \r\n3. Don't eat.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We can use 'please' to make directions more polite.",
+  	incorrectAnswerResponse: "Incorrect. We can use 'please' to make directions more polite.",
+  	set: 33
+  	},
+
+ 	5099:{
+  	question_tag: "L3ENLP33Q2",
+   code: "5099",
+   title: "Eng Q66",
+   learner_question: "Which direction is polite? \r\n1. Give me the pencil. \r\n2. Give it. \r\n3. Give me the pencil, thanks.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 'Thanks' makes a direction more polite.",
+  	incorrectAnswerResponse: "Incorrect. 'Thanks' makes a direction more polite.",
+  	set: 33
+  	},
+
+ 	5100:{
+  	question_tag: "L3ENLP34QG",
+   code: "5100",
+   title: "Eng Class Q34",
+   learner_question: "\r\n1. A traditional healer. \r\n2. Something that prevents illness. \r\n3. Something that solves a problem or cures and illness.",
+  	question: "Say: What is a 'remedy'? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! A remedy is a solution to a problem. Medicines are remedies to many illnesses.",
+  	incorrectAnswerResponse: "Incorrect. A remedy is a solution to a problem. Medicines are remedies to many illnesses.",
+  	set: 34
+  	},
+
+ 	5101:{
+  	question_tag: "L3ENLP34Q1",
+   code: "5101",
+   title: "Eng Q67",
+   learner_question: "What word means saying or writing something in our own words? \r\n1. plagiarizing \r\n2. paraphrasing \r\n3. paragraphing",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! When we paraphrase, we say something in our own words.",
+  	incorrectAnswerResponse: "Incorrect. When we paraphrase, we say something in our own words.",
+  	set: 34
+  	},
+
+ 	5102:{
+  	question_tag: "L3ENLP34Q2",
+   code: "5102",
+   title: "Eng Q68",
+   learner_question: "Which sentence is a prediction? \r\n1. I think Flomo and John will marry. \r\n2. Dan and Sara are married. \r\n3. Being married is great.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! A prediction is our best guess about what will happen. Making predictions helps us understand what we read.",
+  	incorrectAnswerResponse: "Incorrect. A prediction is our best guess about what will happen. Making predictions helps us understand what we read.",
+  	set: 34
+  	},
+
+ 	5103:{
+  	question_tag: "L3ENLP35QG",
+   code: "5103",
+   title: "Eng Class Q35",
+   learner_question: "\r\n1. By working too hard. \r\n2. By eating too much. \r\n3. By taking too much medicine.",
+  	question: "Say: How can a person overdose? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Too much medicine can kill a person. We 'overdose' when we take too much medicine or too many drugs.",
+  	incorrectAnswerResponse: "Incorrect. Too much medicine can kill a person. We 'overdose' when we take too much medicine or too many drugs.",
+  	set: 35
+  	},
+
+ 	5104:{
+  	question_tag: "L3ENLP35Q1",
+   code: "5104",
+   title: "Eng Q69",
+   learner_question: "Which word means making a guess about what will happen? \r\n1. paraphrasing \r\n2. predicting \r\n3. plagiarizing",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! We predict when we guess what will happen in the future. Making predictions helps us read.",
+  	incorrectAnswerResponse: "Incorrect. We predict when we guess what will happen in the future. Making predictions helps us read.",
+  	set: 35
+  	},
+
+ 	5105:{
+  	question_tag: "L3ENLP35Q2",
+   code: "5105",
+   title: "Eng Q70",
+   learner_question: "What is the last step in the writing process? \r\n1. revise \r\n2. draft \r\n3. finalize",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The 'final' step in the witting process is to finalize what we have written.",
+  	incorrectAnswerResponse: "Incorrect. The 'final' step in the witting process is to finalize what we have written.",
+  	set: 35
+  	},
+
+ 	5106:{
+  	question_tag: "L3ENLP36QG",
+   code: "5106",
+   title: "Eng Class Q36",
+   learner_question: "\r\n1. Mary walked home. \r\n2. She sees a dog. \r\n3. Jane is running to the river.",
+  	question: "Say: Which sentence is in the past tense? Enter the number of the correct answer.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The regular past tense verb 'walked' shows us that the sentence, 'Mary walked home." is in the past tense.",
+  	incorrectAnswerResponse: "Incorrect. The regular past tense verb 'walked' shows us that the sentence, 'Mary walked home." is in the past tense.",
+  	set: 36
+  	},
+
+ 	5107:{
+  	question_tag: "L3ENLP36Q1",
+   code: "5107",
+   title: "Eng Q71",
+   learner_question: "Rewrite the sentence in the future tense: I eat. \r\n1. I ate \r\n2. I am eating. \r\n3. I will eat.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The future tense us about things that have not happened but will happen. ",
+  	incorrectAnswerResponse: "Incorrect. I will eat. The future tense us about things that have not happened but will happen. ",
+  	set: 36
+  	},
+
+ 	5108:{
+  	question_tag: "L3ENLP36Q2",
+   code: "5108",
+   title: "Eng Q72",
+   learner_question: "Which word in the sentence is an adverb: I saw him yesterday. \r\n1. I \r\n2. saw \r\n3. yesterday",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The adverb yesterday tells us when the verb 'saw' happened.",
+  	incorrectAnswerResponse: "Incorrect. The adverb yesterday tells us when the verb 'saw' happened.",
+  	set: 36
+  	},
+
+ 	5109:{
+  	question_tag: "L3ENLP37QG",
+   code: "5109",
+   title: "Eng Class Q37",
+   learner_question: "The small cat ate quickly. \r\n1. small \r\n2. cat \r\n3. quickly",
+  	question: "Which word in the sentence is an adjective? Enter the number of the correct answer.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Adjectives describe nouns. The adjective 'small' describes the cat.",
+  	incorrectAnswerResponse: "Incorrect. Adjectives describe nouns. The adjective 'small' describes the cat.",
+  	set: 37
+  	},
+
+ 	5110:{
+  	question_tag: "L3ENLP37Q1",
+   code: "5110",
+   title: "Eng Q73",
+   learner_question: "What is the past tense form of take? \r\n1. taking \r\n2. taked \r\n3. took",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The verb 'took' is a special past tense verb. It does not end in 'ed'.",
+  	incorrectAnswerResponse: "Incorrect. The verb 'took' is a special past tense verb. It does not end in 'ed'.",
+  	set: 37
+  	},
+
+ 	5111:{
+  	question_tag: "L3ENLP37Q2",
+   code: "5111",
+   title: "Eng Q74",
+   learner_question: "Which word in the sentence is an adverb: We did poorly on the exam. \r\n1. did \r\n2. poorly \r\n3. exam",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The adverb 'poorly' describes how 'we' did on the exam.",
+  	incorrectAnswerResponse: "Incorrect. The adverb 'poorly' describes how 'we' did on the exam.",
+  	set: 37
+  	},
+
+ 	5112:{
+  	question_tag: "L3ENLP38QG",
+   code: "5112",
+   title: "Eng Class Q38",
+   learner_question: "\r\n1. A \r\n2. B \r\n3. C",
+  	question: "Say: Which module did we start today? Enter the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! ",
+  	incorrectAnswerResponse: "Incorrect. We started module C today. If you did not attend class, be sure to ask someone to help you catch up!",
+  	set: 38
+  	},
+
+ 	5113:{
+  	question_tag: "L3ENLP38Q1",
+   code: "5113",
+   title: "Eng Q75",
+   learner_question: "What is a cause of missing class? \r\n1. You will miss information. \r\n2. You will fall behind. \r\n3. You are busy and do not plan ahead.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Causes are why effects happen. Some people miss class because they are busy and do not make plan to be free during class time.",
+  	incorrectAnswerResponse: "Incorrect. Causes are why effects happen. Some people miss class because they are busy and do not make plan to be free during class time.",
+  	set: 38
+  	},
+
+ 	5114:{
+  	question_tag: "L3ENLP38Q2",
+   code: "5114",
+   title: "Eng Q76",
+   learner_question: "What is an effect of missing class? \r\n1. You will miss information. \r\n2. The weather kept you inside the house. \r\n3. You are busy and do not plan ahead.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Effects are what happen because of causes. If we miss class, we will miss information and may fall behind in our learning.",
+  	incorrectAnswerResponse: "Incorrect. Effects are what happen because of causes. If we miss class, we will miss information and may fall behind in our learning.",
+  	set: 38
+  	},
+
+ 	5115:{
+  	question_tag: "L3ENLP39QG",
+   code: "5115",
+   title: "Eng Class Q39",
+   learner_question: "\r\n1. A person who hurts another. \r\n2. A person who is hurt by another. \r\n3. A person who helps another. ",
+  	question: "Say: What is a victim? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! A victim is someone who was hurt by someone or something. ",
+  	incorrectAnswerResponse: "Incorrect. A victim is someone who was hurt by someone or something. ",
+  	set: 39
+  	},
+
+ 	5116:{
+  	question_tag: "L3ENLP39Q1",
+   code: "5116",
+   title: "Eng Q77",
+   learner_question: "Which word in the sentence is a verb? He drives to work slowly. \r\n1. He \r\n2. drives \r\n3. slowly",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Verbs are action words. They can be done. Drives, swim, eat and think are all verbs.",
+  	incorrectAnswerResponse: "Incorrect. Verbs are action words. They can be done. Drives, swim, eat and think are all verbs.",
+  	set: 39
+  	},
+
+ 	5117:{
+  	question_tag: "L3ENLP39Q2",
+   code: "5117",
+   title: "Eng Q78",
+   learner_question: "Which word in the sentence is an adjective: The big chicken eats grain quickly. \r\n1. big \r\n2. chicken \r\n3. quickly",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The adjective 'big' describes the noun 'chicken'.",
+  	incorrectAnswerResponse: "Incorrect. The adjective 'big' describes the noun 'chicken'.",
+  	set: 39
+  	},
+
+ 	5118:{
+  	question_tag: "L3ENLP40QG",
+   code: "5118",
+   title: "Eng Class Q40",
+   learner_question: "\r\n1. Stealing something from someone \r\n2. Helping someone learn to read \r\n3. Proving something in court",
+  	question: "Say: Which is a violation of rights? Enter the number of the correct answer.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! When are rights are violated, someone has done something to us that is against the law.",
+  	incorrectAnswerResponse: "Incorrect. When are rights are violated, someone has done something to us that is against the law.",
+  	set: 40
+  	},
+
+ 	5119:{
+  	question_tag: "L3ENLP40Q1",
+   code: "5119",
+   title: "Eng Q79",
+   learner_question: "Which is an example of a policy? \r\n1. Cars drive on roads. \r\n2. Cars sometimes crash on roads. \r\n3. Cars must not drive more than 100kmph.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! A policy is a rule created to help.",
+  	incorrectAnswerResponse: "Incorrect. A policy is a rule created to help.",
+  	set: 40
+  	},
+
+ 	5120:{
+  	question_tag: "L3ENLP40Q2",
+   code: "5120",
+   title: "Eng Q80",
+   learner_question: "Which word is an adjective: The green book sits on the table. \r\n1. green \r\n2. sits \r\n3. table",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The adjective 'green' describes the book.",
+  	incorrectAnswerResponse: "Incorrect. The adjective 'green' describes the book.",
+  	set: 40
+  	},
+
+ 	5121:{
+  	question_tag: "L3ENLP41QG",
+   code: "5121",
+   title: "Eng Class Q41",
+   learner_question: "\r\n1. Violators who touch girls will be punished. \r\n2. The third time a teacher abuses a girl, he will be put in prison. \r\n3. Boys who force girls to have sex will not be able to go to school in the morning.",
+  	question: "Say: Open your books to page 215. Which is NOT a part of the National Policy on Girls' Education? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The passage does not talk about the third time.",
+  	incorrectAnswerResponse: "Incorrect. The passage does not talk about the third time.",
+  	set: 41
+  	},
+
+ 	5122:{
+  	question_tag: "L3ENLP41Q1",
+   code: "5122",
+   title: "Eng Q81",
+   learner_question: "What is the past tense of the verb 'feed'? \r\n1. fed \r\n2. feeded \r\n3. fad",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The past tense of the irregular verb 'feed' is fed. Irregular verbs do not end in 'ed'.",
+  	incorrectAnswerResponse: "Incorrect. The past tense of the irregular verb 'feed' is fed. Irregular verbs do not end in 'ed'.",
+  	set: 41
+  	},
+
+ 	5123:{
+  	question_tag: "L3ENLP41Q2",
+   code: "5123",
+   title: "Eng Q82",
+   learner_question: "Which sentence is in the past tense? \r\n1. I saw a cat. \r\n2. I seed a cat. \r\n3. I am seeing a cat.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 'Saw' is the past tense of the verb 'see'. I saw a cat.",
+  	incorrectAnswerResponse: "Incorrect. 'Saw' is the past tense of the verb 'see'. I saw a cat.",
+  	set: 41
+  	},
+
+ 	5124:{
+  	question_tag: "L3ENLP42QG",
+   code: "5124",
+   title: "Eng Class Q42",
+   learner_question: "\r\n1. Put in a bag. \r\n2. Arrested. \r\n3. Fired- a person loses his or her job.",
+  	question: "Say: What does the word 'sacked' mean? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! A person who is 'sacked' loses his or her job. ",
+  	incorrectAnswerResponse: "Incorrect. A person who is 'sacked' loses his or her job. ",
+  	set: 42
+  	},
+
+ 	5125:{
+  	question_tag: "L3ENLP42Q1",
+   code: "5125",
+   title: "Eng Q83",
+   learner_question: "Which is NOT a right? \r\n1. The right to freedom of speech. \r\n2. The right to education. \r\n3. The right to get a good job.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! People have the right to work, but they must find a good job on their own.",
+  	incorrectAnswerResponse: "Incorrect. People have the right to work, but they must find a good job on their own.",
+  	set: 42
+  	},
+
+ 	5126:{
+  	question_tag: "L3ENLP42Q2",
+   code: "5126",
+   title: "Eng Q84",
+   learner_question: "Which sentence is correct? \r\n1. We is sleepy. \r\n2. We are sleepy. \r\n3. We am sleepy.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! We use 'are' with 'we', 'they', and 'you'. We are sleepy.",
+  	incorrectAnswerResponse: "Incorrect. We use 'are' with 'we', 'they', and 'you'. We are sleepy.",
+  	set: 42
+  	},
+
+ 	5127:{
+  	question_tag: "L3ENLP43QG",
+   code: "5127",
+   title: "Eng Class Q43",
+   learner_question: "\r\n1. Rape law \r\n2. Homicide law \r\n3. Consultation law",
+  	question: "Say: Which law says that adults are not allowed to have sex with children? Enter the number of the correct answer on your phone.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Rape is the crime of forcing someone to have sex. All sex with children is rape.",
+  	incorrectAnswerResponse: "Incorrect. Rape is the crime of forcing someone to have sex. All sex with children is rape.",
+  	set: 43
+  	},
+
+ 	5128:{
+  	question_tag: "L3ENLP43Q1",
+   code: "5128",
+   title: "Eng Q85",
+   learner_question: "Which is an effect of not having a job? \r\n1. There are no jobs available. \r\n2. Not being able to read. \r\n3. Not having money.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Causes make an effect happen. An effect of not having a job is not having money.",
+  	incorrectAnswerResponse: "Incorrect. Causes make an effect happen. An effect of not having a job is not having money.",
+  	set: 43
+  	},
+
+ 	5129:{
+  	question_tag: "L3ENLP43Q2",
+   code: "5129",
+   title: "Eng Q86",
+   learner_question: "Which is the same sentence in the past tense: We sell chickens. \r\n1. We sold chickens. \r\n2. We selled chickens. \r\n3. We sells chickens.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The past tense of the special past tense verb 'sell' is 'sold. We sold chickens.",
+  	incorrectAnswerResponse: "Incorrect. The past tense of the special past tense verb 'sell' is 'sold. We sold chickens.",
+  	set: 43
+  	},
+
+ 	5130:{
+  	question_tag: "L3ENLP44QG",
+   code: "5130",
+   title: "Eng Class Q44",
+   learner_question: "\r\n1. We must always speak. \r\n2. We must allow other people to speak. \r\n3. We must agree with people when they speak.",
+  	question: "Which responsibility is an effect of the right to freedom of speech? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! We have the right to free speech. We can say what we believe, but we must also allow other people to speak.",
+  	incorrectAnswerResponse: "Incorrect. We have the right to free speech. We can say what we believe, but we must also allow other people to speak.",
+  	set: 44
+  	},
+
+ 	5131:{
+  	question_tag: "L3ENLP44Q1",
+   code: "5131",
+   title: "Eng Q87",
+   learner_question: "Sonie has the right to religion. What is her responsibility? \r\n1. She must allow others to have their own religion. \r\n2. She must believe in God. \r\n3. She must go to church every week.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Responsibilities are things we must do in order to have rights. Sonie has the freedom of religion and she must give others the same freedom.",
+  	incorrectAnswerResponse: "Incorrect. Responsibilities are things we must do in order to have rights. Sonie has the freedom of religion and she must give others the same freedom.",
+  	set: 44
+  	},
+
+ 	5132:{
+  	question_tag: "L3ENLP44Q2",
+   code: "5132",
+   title: "Eng Q88",
+   learner_question: "Sonie never takes things that do not belong to her. Which right is she showing responsibility for? \r\n1. The right to have good things. \r\n2. The right to own property. \r\n3. The right to education.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Sonie does not take things from others because people have the right to own property.",
+  	incorrectAnswerResponse: "Incorrect. Sonie does not take things from others because people have the right to own property.",
+  	set: 44
+  	},
+
+ 	5133:{
+  	question_tag: "L3ENLP45QG",
+   code: "5133",
+   title: "Eng Class Q45",
+   learner_question: "\r\n1. When two people fight. \r\n2. When two people argue their sides. \r\n3. When two people talk.",
+  	question: "What is a debate? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! When two people argue their sides, it is a debate.",
+  	incorrectAnswerResponse: "Incorrect. When two people argue their sides, it is a debate.",
+  	set: 45
+  	},
+
+ 	5134:{
+  	question_tag: "L3ENLP45Q1",
+   code: "5134",
+   title: "Eng Q89",
+   learner_question: "Which is a prediction. \r\n1. I like warm weather. \r\n2. Tomorrow will be warm. \r\n3. It is warm now.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Predictions are guesses about what will happen in the future.",
+  	incorrectAnswerResponse: "Incorrect. Predictions are guesses about what will happen in the future.",
+  	set: 45
+  	},
+
+ 	5135:{
+  	question_tag: "L3ENLP45Q2",
+   code: "5135",
+   title: "Eng Q90",
+   learner_question: "Which direction is most polite? \r\n1. Call me. \r\n2. You must call me. \r\n3. Please call me.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Directions can sound rude. We can use words like please to make them more polite.",
+  	incorrectAnswerResponse: ":) Correct! Directions can sound rude. We can use words like please to make them more polite.",
+  	set: 45
+  	},
+
+ 	5136:{
+  	question_tag: "L3ENLP46QG",
+   code: "5136",
+   title: "Eng Class Q46",
+   learner_question: "The old cow eats grass. \r\n1. old \r\n2. cow \r\n3. eats",
+  	question: "Say: Which word in the sentence is an adjective? Enter the number of the adjective.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! The adjective old describes the cow.",
+  	incorrectAnswerResponse: ":) Correct! The adjective old describes the cow.",
+  	set: 46
+  	},
+
+ 	5137:{
+  	question_tag: "L3ENLP46Q1",
+   code: "5137",
+   title: "Eng Q91",
+   learner_question: "What is the past tense of the verb 'drive'? \r\n1. drived \r\n2. driven \r\n3. drove",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The past tense of the special past tense verb 'drive' is 'drove'. We drove home.",
+  	incorrectAnswerResponse: ":) Correct! The past tense of the special past tense verb 'drive' is 'drove'. We drove home.",
+  	set: 46
+  	},
+
+ 	5138:{
+  	question_tag: "L3ENLP46Q2",
+   code: "5138",
+   title: "Eng Q92",
+   learner_question: "Which is a cause of being sacked? \r\n1. The person will have less money. \r\n2. The person came to work drunk. \r\n3. The person will feel angry.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Causes are why effects happen. If a person comes to work drunk, he or she may be sacked.",
+  	incorrectAnswerResponse: ":) Correct! Causes are why effects happen. If a person comes to work drunk, he or she may be sacked.",
+  	set: 46
+  	},
+
+ 	5139:{
+  	question_tag: "L3ENLP47QG",
+   code: "5139",
+   title: "Eng Class Q47",
+   learner_question: "\r\n1. It gives ideas for new topics. \r\n2. It reminds us what to look for when editing. \r\n3. It teaches us grammar rules.",
+  	question: "Say: How does and editor's checklist help us write?",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! An editor's checklist is a list of things to look for when editing writing.",
+  	incorrectAnswerResponse: ":) Correct! An editor's checklist is a list of things to look for when editing writing.",
+  	set: 47
+  	},
+
+ 	5140:{
+  	question_tag: "L3ENLP47Q1",
+   code: "5140",
+   title: "Eng Q93",
+   learner_question: "Which is a responsibility? \r\n1. Freedom of speech. \r\n2. Right to an attorney. \r\n3. Reporting crimes to the police.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Responsibilities are things we must do in order to have rights. We should report crimes to the police.",
+  	incorrectAnswerResponse: ":) Correct! Responsibilities are things we must do in order to have rights. We should report crimes to the police.",
+  	set: 47
+  	},
+
+ 	5141:{
+  	question_tag: "L3ENLP47Q2",
+   code: "5141",
+   title: "Eng Q94",
+   learner_question: "Which is a right? \r\n1. Follow the law. \r\n2. Freedom of religion. \r\n3. Treat others with respect.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Rights are things the government guarantees we are allowed to do..",
+  	incorrectAnswerResponse: ":) Correct! Rights are things the government guarantees we are allowed to do..",
+  	set: 47
+  	},
+
+ 	5142:{
+  	question_tag: "L3ENLP48QG",
+   code: "5142",
+   title: "Eng Class Q48",
+   learner_question: "\r\n1. Dogs are bigger than cats. \r\n2. They are used to guard houses. \r\n3. The have four legs.",
+  	question: "Say: Which sentence shows a similarity between cats and dogs? Enter the number of the similarity.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Similarities are things that are the same or nearly the same. Both dogs and cats have four legs.",
+  	incorrectAnswerResponse: ":) Correct! Similarities are things that are the same or nearly the same. Both dogs and cats have four legs.",
+  	set: 48
+  	},
+
+ 	5143:{
+  	question_tag: "L3ENLP48Q1",
+   code: "5143",
+   title: "Eng Q95",
+   learner_question: "What is a similarity between goats and birds? \r\n1. They are animals. \r\n2. goats run but birds fly. \r\n3. They have four legs.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Similarities are things that are the same or nearly the same. Goats and birds are animals.",
+  	incorrectAnswerResponse: ":) Correct! Similarities are things that are the same or nearly the same. Goats and birds are animals.",
+  	set: 48
+  	},
+
+ 	5144:{
+  	question_tag: "L3ENLP48Q2",
+   code: "5144",
+   title: "Eng Q96",
+   learner_question: "What is a difference between trees and bushes? \r\n1. Trees are taller than bushes. \r\n2. Both have leaves. \r\n3. Trees are green.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! Differences are ways things are not the same. Most trees are tall and most bushes are short.",
+  	incorrectAnswerResponse: ":) Correct! Differences are ways things are not the same. Most trees are tall and most bushes are short.",
+  	set: 48
+  	},
+
+ 	5145:{
+  	question_tag: "L3ENLP49QG",
+   code: "5145",
+   title: "Eng Class Q49",
+   learner_question: "\r\n1. A presenter \r\n2. A lawyer \r\n3. A politician",
+  	question: "Say: What do we call a person who debates in court? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! Lawyers debate in courts. They represent different sides in a case.",
+  	incorrectAnswerResponse: ":) Correct! Lawyers debate in courts. They represent different sides in a case.",
+  	set: 49
+  	},
+
+ 	5146:{
+  	question_tag: "L3ENLP49Q1",
+   code: "5146",
+   title: "Eng Q97",
+   learner_question: "What do we call it when one person forces another to have sex? \r\n1. murder \r\n2. theft \r\n3. rape",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Rape is the crime of forcing someone to have sex. All sex with children is rape.",
+  	incorrectAnswerResponse: ":) Correct! Rape is the crime of forcing someone to have sex. All sex with children is rape.",
+  	set: 49
+  	},
+
+ 	5147:{
+  	question_tag: "L3ENLP49Q2",
+   code: "5147",
+   title: "Eng Q98",
+   learner_question: "A young girl takes money from a man for sex. Which sentence is true? \r\n1. This is not a crime because the girl took money. \r\n2. It is not a crime because the girl was not forced. \r\n3. All sex with children is a crime.",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! All sex with children is a crime. It does not matter if the child is forced.",
+  	incorrectAnswerResponse: ":) Correct! All sex with children is a crime. It does not matter if the child is forced.",
+  	set: 49
+  	},
+
+ 	5148:{
+  	question_tag: "L3ENLP50QG",
+   code: "5148",
+   title: "Eng Class Q50",
+   learner_question: "\r\n1. I will eat. \r\n2. I ate. \r\n3. I am eating.",
+  	question: "Which sentence shows action happening now? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! We often use 'ing' verbs to show that action has started and not finished.",
+  	incorrectAnswerResponse: ":) Correct! We often use 'ing' verbs to show that action has started and not finished.",
+  	set: 50
+  	},
+
+ 	5149:{
+  	question_tag: "L3ENLP50Q1",
+   code: "5149",
+   title: "Eng Q99",
+   learner_question: "Which sentence is correct? \r\n1. We is eating chicken. \r\n2. He is going home. \r\n3. I is doing my homework.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! We use 'is' with 'he, 'she' and 'it'.",
+  	incorrectAnswerResponse: ":) Correct! We use 'is' with 'he, 'she' and 'it'.",
+  	set: 50
+  	},
+
+ 	5150:{
+  	question_tag: "L3ENLP50Q2",
+   code: "5150",
+   title: "Eng Q100",
+   learner_question: "Which word is written correctly? \r\n1. making \r\n2. makeing \r\n3. mading",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! With words ending in 'e', we usually remove the 'e' before adding 'ing'. Waking, making, taking.",
+  	incorrectAnswerResponse: ":) Correct! With words ending in 'e', we usually remove the 'e' before adding 'ing'. Waking, making, taking.",
+  	set: 50
+  	},
+
+ 	5151:{
+  	question_tag: "L3ENLP51QG",
+   code: "5151",
+   title: "Eng Class Q51",
+   learner_question: "\r\n1. A lawyer \r\n2. An opponent \r\n3. A debater",
+  	question: "What do we call someone who is trying to defeat us? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! An opponent is someone who is trying to defeat us. We have opponents in debates and sports.",
+  	incorrectAnswerResponse: ":) Correct! An opponent is someone who is trying to defeat us. We have opponents in debates and sports.",
+  	set: 51
+  	},
+
+ 	5152:{
+  	question_tag: "L3ENLP51Q1",
+   code: "5152",
+   title: "Eng Q101",
+   learner_question: "What is third party? \r\n1. A gathering of three people. \r\n2. A person without a side in a debate or argument. \r\n3. An opposition group.",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! A third party is someone not involved in arguing a case. They do not support one side or the other.",
+  	incorrectAnswerResponse: ":) Correct! A third party is someone not involved in arguing a case. They do not support one side or the other.",
+  	set: 51
+  	},
+
+ 	5153:{
+  	question_tag: "L3ENLP51Q2",
+   code: "5153",
+   title: "Eng Q102",
+   learner_question: "Which sentence shows the main idea of a paragraph. \r\n1. The topic sentence \r\n2. The body sentence \r\n3. The title sentence",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! We write the main idea of a paragraph in the topic sentence.",
+  	incorrectAnswerResponse: ":) Correct! We write the main idea of a paragraph in the topic sentence.",
+  	set: 51
+  	},
+
+ 	5154:{
+  	question_tag: "L3ENLP52QG",
+   code: "5154",
+   title: "Eng Class Q52",
+   learner_question: "The ball is on the tall table. \r\n1. ball \r\n2. on \r\n3. tall",
+  	question: "Say: Which word in the sentence is a preposition? Enter the number of the correct answer.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The preposition 'on' shows the relationship between the ball and the table.",
+  	incorrectAnswerResponse: ":) Correct! The preposition 'on' shows the relationship between the ball and the table.",
+  	set: 52
+  	},
+
+ 	5155:{
+  	question_tag: "L3ENLP52Q1",
+   code: "5155",
+   title: "Eng Q103",
+   learner_question: "Which word in the sentence is preposition: I sat between the two small girls. \r\n1. sat \r\n2. between \r\n3. small",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! The preposition 'between' shows the relationship between 'I' and the girls.",
+  	incorrectAnswerResponse: ":) Correct! The preposition 'between' shows the relationship between 'I' and the girls.",
+  	set: 52
+  	},
+
+ 	5156:{
+  	question_tag: "L3ENLP52Q2",
+   code: "5156",
+   title: "Eng Q104",
+   learner_question: "Which preposition is correct? Gbarnga is ___ Bong county. \r\n1. near \r\n2. around \r\n3. in",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Gbarnga is in Bongo county.",
+  	incorrectAnswerResponse: ":) Correct! Gbarnga is in Bongo county.",
+  	set: 52
+  	},
+
+ 	5157:{
+  	question_tag: "L3ENLP53QG",
+   code: "5157",
+   title: "Eng Class Q53",
+   learner_question: "\r\n1. Describe verbs and adverbs. \r\n2. Show action. \r\n3. Show relationships between words in a sentence.",
+  	question: "Say: What do prepositions do?",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Prepositions show the relationship between words in a sentence. The cat is ON the table. ",
+  	incorrectAnswerResponse: ":) Correct! Prepositions show the relationship between words in a sentence. The cat is ON the table. ",
+  	set: 53
+  	},
+
+ 	5158:{
+  	question_tag: "L3ENLP53Q1",
+   code: "5158",
+   title: "Eng Q105",
+   learner_question: "Which preposition is correct? Monrovia is ___ the sea. \r\n1. near \r\n2. around \r\n3. between",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 'Near' shows the relationship between Monrovia and the sea. They are near each other.",
+  	incorrectAnswerResponse: ":) Correct! 'Near' shows the relationship between Monrovia and the sea. They are near each other.",
+  	set: 53
+  	},
+
+ 	5159:{
+  	question_tag: "L3ENLP53Q2",
+   code: "5159",
+   title: "Eng Q106",
+   learner_question: "What do we call a group of people who decide a court case? \r\n1. Judge \r\n2. Jury \r\n3. Debate",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! A jury is a group of people who decide a court case. People on a jury are called jurors.",
+  	incorrectAnswerResponse: ":) Correct! A jury is a group of people who decide a court case. People on a jury are called jurors.",
+  	set: 53
+  	},
+
+ 	5160:{
+  	question_tag: "L3ENLP54QG",
+   code: "5160",
+   title: "Eng Class Q54",
+   learner_question: "The happy teacher spoke quickly. \r\n1. happy \r\n2. spoke \r\n3. quickly",
+  	question: "Which word in the sentence is an adverb? Enter the number of the correct answer.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! The adverb 'quickly' describes how the teacher spoke.",
+  	incorrectAnswerResponse: ":) Correct! The adverb 'quickly' describes how the teacher spoke.",
+  	set: 54
+  	},
+
+ 	5161:{
+  	question_tag: "L3ENLP54Q1",
+   code: "5161",
+   title: "Eng Q107",
+   learner_question: "Which sentence is happening 'now'? \r\n1. I am eating rice. \r\n2. I ate rice. \r\n3. I will eat rice.",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 'ing' verbs often show action happening now in the present tense.",
+  	incorrectAnswerResponse: ":) Correct! 'ing' verbs often show action happening now in the present tense.",
+  	set: 54
+  	},
+
+ 	5162:{
+  	question_tag: "L3ENLP54Q2",
+   code: "5162",
+   title: "Eng Q108",
+   learner_question: "Which is not a right? \r\n1. Speech \r\n2. Religion \r\n3. Respect",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! Our rights are promised to us an cannot be taken away. We must earn respect on our own!",
+  	incorrectAnswerResponse: ":) Correct! Our rights are promised to us an cannot be taken away. We must earn respect on our own!",
+  	set: 54
   	}
 
 };

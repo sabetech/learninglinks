@@ -7,1789 +7,1951 @@ exports.getQuestion = function(questionCode) {
     
 	var level1Numeracy = 
 {  
-   2001:{  
-      question_tag:"L1MALP1QG",
-      code:"2001",
-      title:"Maths Class Q1",
-      learner_question:"How many? ($ $ $ $) \r\n1. 5 \r\n2. 4 \r\n3. 3",
-      question:"How many do you see? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! $ $ $ $ -4",
-      incorrectAnswerResponse:"Incorrect. $ $ $ $ -4",
-      set:1
-   },
-   2002:{  
-      question_tag:"L1MALP1Q1",
-      code:"2002",
-      title:"Maths Q1",
-      learner_question:"How many? ($ $ $) \r\n1. 5 \r\n2. 4 \r\n3. 3",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! $ $ $ -3",
-      incorrectAnswerResponse:"Incorrect. $ $ $ -3",
-      set:1
-   },
-   2003:{  
-      question_tag:"L1MALP1Q2",
-      code:"2003",
-      title:"Maths Q2",
-      learner_question:"How many? ($ $ $ $ $) \r\n1. 5 \r\n2. 4 \r\n3. 3",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! $ $ $ $ $-5",
-      incorrectAnswerResponse:"Incorrect. $ $ $ $ $-5",
-      set:1
-   },
-   2004:{  
-      question_tag:"L1MALP2QG",
-      code:"2004",
-      title:"Maths Class Q2",
-      learner_question:"How many? (@ @ @ @ @ @) \r\n1. 6 \r\n2. 7 \r\n3. 8",
-      question:"How many do you see? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"1",
-      correctAnswerResponse:":) Correct! (@ @ @ @ @ @) 6",
-      incorrectAnswerResponse:"Incorrect. (@ @ @ @ @ @) 6",
-      set:2
-   },
-   2005:{  
-      question_tag:"L1MALP2Q1",
-      code:"2005",
-      title:"Maths Q3",
-      learner_question:"How many? (@ @ @ @ @ @ @ @) \r\n1. 6 \r\n2. 7 \r\n3. 8",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! (@ @ @ @ @ @ @ @) 8",
-      incorrectAnswerResponse:"Incorrect. (@ @ @ @ @ @ @ @) 8",
-      set:2
-   },
-   2006:{  
-      question_tag:"L1MALP2Q2",
-      code:"2006",
-      title:"Maths Q4",
-      learner_question:"How many? (@ @ @ @ @ @ @) \r\n1. 6 \r\n2. 7 \r\n3. 8",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! (@ @ @ @ @ @ @) 7",
-      incorrectAnswerResponse:"Incorrect. (@ @ @ @ @ @ @) 7",
-      set:2
-   },
-   2007:{  
-      question_tag:"L1MALP3QG",
-      code:"2007",
-      title:"Maths Class Q3",
-      learner_question:"6___7 \r\n1. < \r\n2. > \r\n3. =",
-      question:"Which symbol is missing? Greater than, less than or equals? ",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 6<7",
-      incorrectAnswerResponse:"Incorrect. 6<7",
-      set:3
-   },
-   2008:{  
-      question_tag:"L1MALP3Q1",
-      code:"2008",
-      title:"Maths Q5",
-      learner_question:"6___4 \r\n1. < \r\n2. > \r\n3. =",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 6>4",
-      incorrectAnswerResponse:"Incorrect. 6>4",
-      set:3
-   },
-   2009:{  
-      question_tag:"L1MALP3Q2",
-      code:"2009",
-      title:"Maths Q6",
-      learner_question:"6___6 \r\n1. < \r\n2. > \r\n3. =",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 6=6",
-      incorrectAnswerResponse:"Incorrect. 6=6",
-      set:3
-   },
-   2010:{  
-      question_tag:"L1MALP4QG",
-      code:"2010",
-      title:"Maths Class Q4",
-      learner_question:"How many? (I I I I I I I I I I I I I I) \r\n1. 10 \r\n2. 14 \r\n3. 20",
-      question:"How many lines? (I I I I I I I I I I I I I I) Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! (I I I I I I I I I I I I I I) 14",
-      incorrectAnswerResponse:"Incorrect. (I I I I I I I I I I I I I I) 14",
-      set:4
-   },
-   2011:{  
-      question_tag:"L1MALP4Q1",
-      code:"2011",
-      title:"Maths Q7",
-      learner_question:"How many? (I I I I I I I I I I ) \r\n1. 10 \r\n2. 14 \r\n3. 20",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! (I I I I I I I I I I ) 10",
-      incorrectAnswerResponse:"Incorrect. (I I I I I I I I I I ) 10",
-      set:4
-   },
-   2012:{  
-      question_tag:"L1MALP4Q2",
-      code:"2012",
-      title:"Maths Q8",
-      learner_question:"13___20 \r\n1. < \r\n2. > \r\n3. =",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 13 < 20",
-      incorrectAnswerResponse:"Incorrect. 13 < 20",
-      set:4
-   },
-   2013:{  
-      question_tag:"L1MALP5QG",
-      code:"2013",
-      title:"Maths Class Q5",
-      learner_question:"11, 12, ____, 14, 15 \r\n1. 10 \r\n2. 13 \r\n3. 20",
-      question:"Which number is missing? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 11, 12, 13, 14, 15.",
-      incorrectAnswerResponse:"Incorrect. 11, 12, 13, 14, 15.",
-      set:5
-   },
-   2014:{  
-      question_tag:"L1MALP5Q1",
-      code:"2014",
-      title:"Maths Q9",
-      learner_question:"17,18,____,20 \r\n1. 16 \r\n2. 19 \r\n3. 22",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 17,18, 19, 20.",
-      incorrectAnswerResponse:"Incorrect. 17,18, 19, 20.",
-      set:5
-   },
-   2015:{  
-      question_tag:"L1MALP5Q2",
-      code:"2015",
-      title:"Maths Q10",
-      learner_question:"18, 17, 16, ___, 14 \r\n1. 20 \r\n2. 15 \r\n3. 13",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 18, 17, 16, 15, 14",
-      incorrectAnswerResponse:"Incorrect. 18, 17, 16, 15, 14",
-      set:5
-   },
-   2016:{  
-      question_tag:"L1MALP6QG",
-      code:"2016",
-      title:"Maths Class Q6",
-      learner_question:"2, 4, ___, 8, 10 \r\n1. 5 \r\n2. 6 \r\n3. 7",
-      question:"Which number is missing? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 2,4,6,8,10.",
-      incorrectAnswerResponse:"Incorrect. 2,4,6,8,10.",
-      set:6
-   },
-   2017:{  
-      question_tag:"L1MALP6Q1",
-      code:"2017",
-      title:"Maths Q11",
-      learner_question:"10, 12, ___, 16, 18 \r\n1. 13 \r\n2. 14 \r\n3. 15",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 10,12, 14, 16.",
-      incorrectAnswerResponse:"Incorrect. 10,12, 14, 16.",
-      set:6
-   },
-   2018:{  
-      question_tag:"L1MALP6Q2",
-      code:"2018",
-      title:"Maths Q12",
-      learner_question:"8,___, 12, 14 \r\n1. 9 \r\n2. 10 \r\n3. 11",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 8, 10, 12, 14.",
-      incorrectAnswerResponse:"Incorrect. 8, 10, 12, 14.",
-      set:6
-   },
-   2019:{  
-      question_tag:"L1MALP7QG",
-      code:"2019",
-      title:"Maths Class Q7",
-      learner_question:"$5, $1, $1=? \r\n1. $7 \r\n2. $8 \r\n3. $9",
-      question:"How much money? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"1",
-      correctAnswerResponse:":) Correct! $7",
-      incorrectAnswerResponse:"Incorrect. $7",
-      set:7
-   },
-   2020:{  
-      question_tag:"L1MALP7Q1",
-      code:"2020",
-      title:"Maths Q13",
-      learner_question:"$1, $10=? \r\n1. $9 \r\n2. $110 \r\n3. $11",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! $11",
-      incorrectAnswerResponse:"Incorrect. $11",
-      set:7
-   },
-   2021:{  
-      question_tag:"L1MALP7Q2",
-      code:"2021",
-      title:"Maths Q14",
-      learner_question:"$1, $5, $5=? \r\n1. $155 \r\n2. $6 \r\n3. 11",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! $11",
-      incorrectAnswerResponse:"Incorrect. $11",
-      set:7
-   },
-   2022:{  
-      question_tag:"L1MALP8QG",
-      code:"2022",
-      title:"Maths Class Q8",
-      learner_question:"88, 89, ___, 91, 92 \r\n1. 80 \r\n2. 87 \r\n3. 90",
-      question:"Which number is missing? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 88,89,90,91,92",
-      incorrectAnswerResponse:"Incorrect. 88,89,90,91,92",
-      set:8
-   },
-   2023:{  
-      question_tag:"L1MALP8Q1",
-      code:"2023",
-      title:"Maths Q15",
-      learner_question:"77, 78, 79 ___ \r\n1. 80 \r\n2. 70 \r\n3. 81",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 77,78,79,80",
-      incorrectAnswerResponse:"Incorrect. 77,78,79,80",
-      set:8
-   },
-   2024:{  
-      question_tag:"L1MALP8Q2",
-      code:"2024",
-      title:"Maths Q16",
-      learner_question:"95, 94, ___, 92, 91 \r\n1. 93 \r\n2. 95 \r\n3. 90",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 95, 94, 93, 92, 91",
-      incorrectAnswerResponse:"Incorrect. 95, 94, 93, 92, 91",
-      set:8
-   },
-   2025:{  
-      question_tag:"L1MALP9QG",
-      code:"2025",
-      title:"Maths Class Q9",
-      learner_question:"38 ___ 63 \r\n1. < \r\n2. > \r\n3. =",
-      question:"Which symbol is missing? Greater than, less than or equals? ",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 38 <63",
-      incorrectAnswerResponse:"Incorrect. 38 <63",
-      set:9
-   },
-   2026:{  
-      question_tag:"L1MALP9Q1",
-      code:"2026",
-      title:"Maths Q17",
-      learner_question:"91___88 \r\n1. < \r\n2. > \r\n3. =",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 91 > 88",
-      incorrectAnswerResponse:"Incorrect. 91 > 88",
-      set:9
-   },
-   2027:{  
-      question_tag:"L1MALPQ2",
-      code:"2027",
-      title:"Maths Q18",
-      learner_question:"19___31 \r\n1. < \r\n2. > \r\n3. =",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 19 < 31",
-      incorrectAnswerResponse:"Incorrect. 19 < 31",
-      set:9
-   },
-   2028:{  
-      question_tag:"L1MALP10QG",
-      code:"2028",
-      title:"Maths Class Q10",
-      learner_question:"9 ___ 61 \r\n1. < \r\n2. > \r\n3. =",
-      question:"Which symbol is missing? Greater than, less than or equals? ",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 9 < 61",
-      incorrectAnswerResponse:"Incorrect. 9 < 61",
-      set:10
-   },
-   2029:{  
-      question_tag:"L1MALP10Q1",
-      code:"2029",
-      title:"Maths Q19",
-      learner_question:"83___80 \r\n1. < \r\n2. > \r\n3. =",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 83 > 80",
-      incorrectAnswerResponse:"Incorrect. 83 > 80",
-      set:10
-   },
-   2030:{  
-      question_tag:"L1MALP10Q2",
-      code:"2030",
-      title:"Maths Q20",
-      learner_question:"19___91 \r\n1. < \r\n2. > \r\n3. =",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 19 < 91",
-      incorrectAnswerResponse:"Incorrect. 19 < 91",
-      set:10
-   },
-   2031:{  
-      question_tag:"L1MALP11QG",
-      code:"2031",
-      title:"Maths Class Q11",
-      learner_question:"5, 10, ___, 20, 25 \r\n1. 11 \r\n2. 15 \r\n3. 19",
-      question:"Say: Skip count by 5. Which number is missing?",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 5, 10, 15, 20, 25",
-      incorrectAnswerResponse:"Incorrect. 5, 10, 15, 20, 25",
-      set:11
-   },
-   2032:{  
-      question_tag:"L1MALP11Q1",
-      code:"2032",
-      title:"Maths Q21",
-      learner_question:"25,30, ___, 40, 45 \r\n1. 31 \r\n2. 35 \r\n3. 39",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 25, 30, 35, 40, 45",
-      incorrectAnswerResponse:"Incorrect. 25, 30, 35, 40, 45",
-      set:11
-   },
-   2033:{  
-      question_tag:"L1MALP11Q2",
-      code:"2033",
-      title:"Maths Q22",
-      learner_question:"10, 20, ___, 40, 50, 60 \r\n1. 30 \r\n2. 25 \r\n3. 21",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 10, 20, 30, 40, 50, 60",
-      incorrectAnswerResponse:"Incorrect. 10, 20, 30, 40, 50, 60",
-      set:11
-   },
-   2034:{  
-      question_tag:"L1MALP12QG",
-      code:"2034",
-      title:"Maths Class Q12",
-      learner_question:"\r\n1. $25 \r\n2. $30 \r\n3. $15",
-      question:"Write on the board: $5, $5, $10, $10= ___How much money? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 5,5,10,10=30",
-      incorrectAnswerResponse:"Incorrect. 5,5,10,10=30",
-      set:12
-   },
-   2035:{  
-      question_tag:"L1MALP12Q1",
-      code:"2035",
-      title:"Maths Q23",
-      learner_question:"$5, $10, $10, $10=? \r\n1. $35 \r\n2. $40 \r\n3. $80",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 5,10,10,10=35",
-      incorrectAnswerResponse:"Incorrect. 5,10,10,10=35",
-      set:12
-   },
-   2036:{  
-      question_tag:"L1MALP12Q2",
-      code:"2036",
-      title:"Maths Q24",
-      learner_question:"$5, $5, $5, $10=? \r\n1. $15 \r\n2. $60 \r\n3. $25",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 5, 5, 5, 10=25",
-      incorrectAnswerResponse:"Incorrect. 5, 5, 5, 10=25",
-      set:12
-   },
-   2037:{  
-      question_tag:"L1MALP13QG",
-      code:"2037",
-      title:"Maths Class Q13",
-      learner_question:"\r\n1. 13 \r\n2. 58 \r\n3. 85",
-      question:"Write the following on the board: 8 Tens, 5 Ones =? Say: Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 8 Tens, 5 Ones =85",
-      incorrectAnswerResponse:"Incorrect. 8 Tens, 5 Ones =85",
-      set:13
-   },
-   2038:{  
-      question_tag:"L1MALP13Q1",
-      code:"2038",
-      title:"Maths Q25",
-      learner_question:"3 Tens, 2 Ones =? \r\n1. 32 \r\n2. 23 \r\n3. 5",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 3 Tens, 2 Ones=32",
-      incorrectAnswerResponse:"Incorrect. 3 Tens, 2 Ones=32",
-      set:13
-   },
-   2039:{  
-      question_tag:"L1MALP13Q2",
-      code:"2039",
-      title:"Maths Q26",
-      learner_question:"9 Tens, 3 Ones =? \r\n1. 39 \r\n2. 93 \r\n3. 12",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 9 Tens, 3 Ones =93",
-      incorrectAnswerResponse:"Incorrect. 9 Tens, 3 Ones =93",
-      set:13
-   },
-   2040:{  
-      question_tag:"L1MALP14QG",
-      code:"2040",
-      title:"Maths Class Q14 ",
-      learner_question:"\r\n1. < \r\n2. > \r\n3. =",
-      question:"Write the following on the board: 8___12 Say: Which symbol is missing? Greater than, less than or equals? ",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 8<12",
-      incorrectAnswerResponse:"Incorrect. 8<12",
-      set:14
-   },
-   2041:{  
-      question_tag:"L1MALP14Q1",
-      code:"2041",
-      title:"Maths Q27",
-      learner_question:"61 ___ 38 \r\n1. < \r\n2. > \r\n3. =",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 61>38",
-      incorrectAnswerResponse:"Incorrect. 61>38",
-      set:14
-   },
-   2042:{  
-      question_tag:"L1MALP14Q2",
-      code:"2042",
-      title:"Maths Q28",
-      learner_question:"5, 10, 15, 20, ___, 30,35 \r\n1. 21 \r\n2. 25 \r\n3. 29",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 5,10,15, 20, 25, 30, 35",
-      incorrectAnswerResponse:"Incorrect. 5,10,15, 20, 25, 30, 35",
-      set:14
-   },
-   2043:{  
-      question_tag:"L1MALP15QG",
-      code:"2043",
-      title:"Maths Class Q15",
-      learner_question:"\r\n1. < \r\n2. > \r\n3. =",
-      question:"Write on the board: 13___13 Say: Which symbol is missing? Greater than, less than or equals? ",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 13=13",
-      incorrectAnswerResponse:"Incorrect. 13=13",
-      set:15
-   },
-   2044:{  
-      question_tag:"L1MALP15Q1",
-      code:"2044",
-      title:"Maths Q29",
-      learner_question:"10, 20, 30, ___, 50, 60 \r\n1. 31 \r\n2. 35 \r\n3. 40",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 10, 20, 30, 40, 50, 60",
-      incorrectAnswerResponse:"Incorrect. 10, 20, 30, 40, 50, 60",
-      set:15
-   },
-   2045:{  
-      question_tag:"L1MALP15Q2",
-      code:"2045",
-      title:"Maths Q30",
-      learner_question:"15, 20, 25,___, 35, 40, 45 \r\n1. 26 \r\n2. 30 \r\n3. 34",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 15, 20, 25, 30, 35, 40, 45",
-      incorrectAnswerResponse:"Incorrect. 15, 20, 25, 30, 35, 40, 45",
-      set:15
-   },
-   2046:{  
-      question_tag:"L1MALP16QG",
-      code:"2046",
-      title:"Maths Class Q16",
-      learner_question:"3+5=? \r\n1. 25 \r\n2. 2 \r\n3. 8",
-      question:"Write on the board: 3+5=? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 3+5=8",
-      incorrectAnswerResponse:"Incorrect. 3+5=8",
-      set:16
-   },
-   2047:{  
-      question_tag:"L1MALP16Q1",
-      code:"2047",
-      title:"Maths Q31",
-      learner_question:"2+4=? \r\n1. 24 \r\n2. 2 \r\n3. 6",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 2+4=6",
-      incorrectAnswerResponse:"Incorrect. 2+4=6",
-      set:16
-   },
-   2048:{  
-      question_tag:"L1MALP16Q2",
-      code:"2048",
-      title:"Maths Q32",
-      learner_question:"1+7=? \r\n1. 8 \r\n2. 6 \r\n3. 17",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 1+7=8",
-      incorrectAnswerResponse:"Incorrect. 1+7=8",
-      set:16
-   },
-   2049:{  
-      question_tag:"L1MALP17QG",
-      code:"2049",
-      title:"Maths Class Q17",
-      learner_question:"\r\n1. 36 \r\n2. 9 \r\n3. 3",
-      question:"Write on the board: 3+6=? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 3+6=9",
-      incorrectAnswerResponse:"Incorrect. 3+6=9",
-      set:17
-   },
-   2050:{  
-      question_tag:"L1MALP17Q1",
-      code:"2050",
-      title:"Maths Q33",
-      learner_question:"4+4=? \r\n1. 4 \r\n2. 8 \r\n3. 0",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 4+4=8",
-      incorrectAnswerResponse:"Incorrect. 4+4=8",
-      set:17
-   },
-   2051:{  
-      question_tag:"L1MALP17Q2",
-      code:"2051",
-      title:"Maths Q34",
-      learner_question:"2+7=? \r\n1. 9 \r\n2. 5 \r\n3. 10",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 2+7=9",
-      incorrectAnswerResponse:"Incorrect. 2+7=9",
-      set:17
-   },
-   2052:{  
-      question_tag:"L1MALP18QG",
-      code:"2052",
-      title:"Maths Class Q18",
-      learner_question:"\r\n1. 90 \r\n2. 9 \r\n3. 10",
-      question:"Write on the board: 9+0=? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 9+0=9",
-      incorrectAnswerResponse:"Incorrect. 9+0=9",
-      set:18
-   },
-   2053:{  
-      question_tag:"L1MALP18Q1",
-      code:"2053",
-      title:"Maths Q35",
-      learner_question:"5+0=? \r\n1. 50 \r\n2. 6 \r\n3. 5",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 5+0=5",
-      incorrectAnswerResponse:"Incorrect. 5+0=5",
-      set:18
-   },
-   2054:{  
-      question_tag:"L1MALP18Q2",
-      code:"2054",
-      title:"Maths Q36",
-      learner_question:"5+7=? \r\n1. 57 \r\n2. 2 \r\n3. 12",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 5+7=12",
-      incorrectAnswerResponse:"Incorrect. 5+7=12",
-      set:18
-   },
-   2055:{  
-      question_tag:"L1MALP19QG",
-      code:"2055",
-      title:"Maths Class Q19",
-      learner_question:"\r\n1. 12 \r\n2. 93 \r\n3. 6",
-      question:"Write on the board: 9-3=? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 9-3=6",
-      incorrectAnswerResponse:"Incorrect. 9-3=6",
-      set:19
-   },
-   2056:{  
-      question_tag:"L1MALP19Q1",
-      code:"2056",
-      title:"Maths Q37",
-      learner_question:"6 - 4=? \r\n1. 64 \r\n2. 2 \r\n3. 10",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 6-4=2",
-      incorrectAnswerResponse:"Incorrect. 6-4=2",
-      set:19
-   },
-   2057:{  
-      question_tag:"L1MALP19Q2",
-      code:"2057",
-      title:"Maths Q38",
-      learner_question:"4 - 1=? \r\n1. 41 \r\n2. 5 \r\n3. 3",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 4-1=3",
-      incorrectAnswerResponse:"Incorrect. 4-1=3",
-      set:19
-   },
-   2058:{  
-      question_tag:"L1MALP20QG",
-      code:"2058",
-      title:"Maths Class Q20",
-      learner_question:"\r\n1. 22 \r\n2. 12 \r\n3. 8",
-      question:"Write on the board: 15-7=? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 15-7=8",
-      incorrectAnswerResponse:"Incorrect. 15-7=8",
-      set:20
-   },
-   2059:{  
-      question_tag:"L1MALP20Q1",
-      code:"2059",
-      title:"Maths Q39",
-      learner_question:"12 - 6=? \r\n1. 126 \r\n2. 6 \r\n3. 18",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 12-6=6",
-      incorrectAnswerResponse:"Incorrect. 12-6=6",
-      set:20
-   },
-   2060:{  
-      question_tag:"L1MALP20Q2",
-      code:"2060",
-      title:"Maths Q40",
-      learner_question:"13 - 3=? \r\n1. 10 \r\n2. 16 \r\n3. 11",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 13-3=10",
-      incorrectAnswerResponse:"Incorrect. 13-3=10",
-      set:20
-   },
-   2061:{  
-      question_tag:"L1MALP21QG",
-      code:"2061",
-      title:"Maths Class Q21",
-      learner_question:"\r\n1. 26 \r\n2. 12 \r\n3. 9",
-      question:"Write on the board: 19-7=? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 19-7=12",
-      incorrectAnswerResponse:"Incorrect. 19-7=12",
-      set:21
-   },
-   2062:{  
-      question_tag:"L1MALP21Q1",
-      code:"2062",
-      title:"Maths Q41",
-      learner_question:"20 - 5= ? \r\n1. 10 \r\n2. 15 \r\n3. 25",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 20-5=15",
-      incorrectAnswerResponse:"Incorrect. 20-5=15",
-      set:21
-   },
-   2063:{  
-      question_tag:"L1MALP21Q2",
-      code:"2063",
-      title:"Maths Q42",
-      learner_question:"20-10=? \r\n1. 10 \r\n2. 20 \r\n3. 30",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 20-10=10",
-      incorrectAnswerResponse:"Incorrect. 20-10=10",
-      set:21
-   },
-   2064:{  
-      question_tag:"L1MALP22QG",
-      code:"2064",
-      title:"Maths Class Q22",
-      learner_question:"\r\n1. 0 chickens \r\n2. 5 chickens \r\n2. 15 chickens",
-      question:"Say: You have 10 chickens. You sell 5 chickens. How many chickens do you have now? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 10 - 5=5",
-      incorrectAnswerResponse:"Incorrect. 10 - 5=5",
-      set:22
-   },
-   2065:{  
-      question_tag:"L1MALP22Q1",
-      code:"2065",
-      title:"Maths Q43",
-      learner_question:"20-3=? \r\n1. 17 \r\n2. 13 \r\n3. 23",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 20-3=17",
-      incorrectAnswerResponse:"Incorrect. 20-3=17",
-      set:22
-   },
-   2066:{  
-      question_tag:"L1MALP22Q2",
-      code:"2066",
-      title:"Maths Q44",
-      learner_question:"12-5=? \r\n1. 17 \r\n2. 15 \r\n3. 7",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 12-5=7",
-      incorrectAnswerResponse:"Incorrect. 12-5=7",
-      set:22
-   },
-   2067:{  
-      question_tag:"L1MALP23QG",
-      code:"2067",
-      title:"Maths Class Q23",
-      learner_question:"\r\n1. 6 chickens \r\n2. 10 chickens \r\n3. 4 chickens",
-      question:"Say: You have 8 chickens. You buy 2 chickens. How many chickens do you have now? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 8+2=10.",
-      incorrectAnswerResponse:"Incorrect. 8+2=10.",
-      set:23
-   },
-   2068:{  
-      question_tag:"L1MALP23Q1",
-      code:"2068",
-      title:"Maths Q45",
-      learner_question:"3+8=? \r\n1. 12 \r\n2. 5 \r\n3. 11",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 3=8=11",
-      incorrectAnswerResponse:"Incorrect. 3=8=11",
-      set:23
-   },
-   2069:{  
-      question_tag:"L1MALP23Q2",
-      code:"2069",
-      title:"Maths Q46",
-      learner_question:"13-4=? \r\n1. 9 \r\n2. 17 \r\n3. 134",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 13-4= 9",
-      incorrectAnswerResponse:"Incorrect. 13-4= 9",
-      set:23
-   },
-   2070:{  
-      question_tag:"L1MALP24QG",
-      code:"2070",
-      title:"Maths Class Q24",
-      learner_question:"\r\n1. 15 \r\n2. 25 \r\n3. 1",
-      question:"Write the following on the board: 12 +13 Say: 12 plus 1\r\n3. Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 12+13=25",
-      incorrectAnswerResponse:"Incorrect. 12+13=25",
-      set:24
-   },
-   2071:{  
-      question_tag:"L1MALP24Q1",
-      code:"2071",
-      title:"Maths Q47",
-      learner_question:"35+23=? \r\n1. 3523 \r\n2. 56 \r\n3. 58",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 35+23=58",
-      incorrectAnswerResponse:"Incorrect. 35+23=58",
-      set:24
-   },
-   2072:{  
-      question_tag:"L1MALP24Q2",
-      code:"2072",
-      title:"Maths Q48",
-      learner_question:"13+64=? \r\n1. 95 \r\n2. 77 \r\n3. 56",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 13+64=77",
-      incorrectAnswerResponse:"Incorrect. 13+64=77",
-      set:24
-   },
-   2073:{  
-      question_tag:"L1MALP25QG",
-      code:"2073",
-      title:"Maths Class Q25",
-      learner_question:"\r\n1. 95 \r\n2. 96 \r\n3. 97",
-      question:"Write the following on the board: 62 +33 Say: 62 plus 3\r\n3. Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 62+33=95",
-      incorrectAnswerResponse:"Incorrect. 62+33=95",
-      set:25
-   },
-   2074:{  
-      question_tag:"L1MALP25Q1",
-      code:"2074",
-      title:"Maths Q49",
-      learner_question:"15+42=? \r\n1. 66 \r\n2. 67 \r\n3. 78",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 15+42=67",
-      incorrectAnswerResponse:"Incorrect. 15+42=67",
-      set:25
-   },
-   2075:{  
-      question_tag:"L1MALP25Q2",
-      code:"2075",
-      title:"Maths Q50",
-      learner_question:"23+34=? \r\n1. 57 \r\n2. 58 \r\n3. 59",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 23+34= 57",
-      incorrectAnswerResponse:"Incorrect. 23+34= 57",
-      set:25
-   },
-   2076:{  
-      question_tag:"L1MALP26QG",
-      code:"2076",
-      title:"Maths Class Q26",
-      learner_question:"\r\n1. $49 \r\n2. $51 \r\n3. $61",
-      question:"Say: Ellen has 50 dollars. Ellen's mother gives her 11 dollars. How much money does Ellen have now? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 50+11=61",
-      incorrectAnswerResponse:"Incorrect. 50+11=61",
-      set:26
-   },
-   2077:{  
-      question_tag:"L1MALP26Q1",
-      code:"2077",
-      title:"Maths Q51",
-      learner_question:"45+51=? \r\n1. 91 \r\n2. 96 \r\n3. 85",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 45+51=96",
-      incorrectAnswerResponse:"Incorrect. 45+51=96",
-      set:26
-   },
-   2078:{  
-      question_tag:"L1MALP26Q2",
-      code:"2078",
-      title:"Maths Q52",
-      learner_question:"21+43=? \r\n1. 64 \r\n2. 55 \r\n3. 19",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 21+43=64",
-      incorrectAnswerResponse:"Incorrect. 21+43=64",
-      set:26
-   },
-   2079:{  
-      question_tag:"L1MALP27QG",
-      code:"2079",
-      title:"Maths Class Q27",
-      learner_question:"\r\n1. 100 \r\n2. 34 \r\n3. 11",
-      question:"Write the following on the board: 67 - 33 Say: 67 minus 3\r\n3. Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 67-33=34",
-      incorrectAnswerResponse:"Incorrect. 67-33=34",
-      set:27
-   },
-   2080:{  
-      question_tag:"L1MALP27Q1",
-      code:"2080",
-      title:"Maths Q53",
-      learner_question:"57-32=? \r\n1. 25 \r\n2. 34 \r\n3. 89",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 57-32=25",
-      incorrectAnswerResponse:"Incorrect. 57-32=25",
-      set:27
-   },
-   2081:{  
-      question_tag:"L1MALP27Q2",
-      code:"2081",
-      title:"Maths Q54",
-      learner_question:"47-21=? \r\n1. 24 \r\n2. 25 \r\n3. 26",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 47-21= 26",
-      incorrectAnswerResponse:"Incorrect. 47-21= 26",
-      set:27
-   },
-   2082:{  
-      question_tag:"L1MALP28QG",
-      code:"2082",
-      title:"Maths Class Q28",
-      learner_question:"\r\n1. 52 \r\n2. 54 \r\n3. 56",
-      question:"Write the following on the board: 93 - 41 Say: 93 minus 4\r\n1. Enter the answer on your phone.",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 93-41=52",
-      incorrectAnswerResponse:"Incorrect. 93-41=52",
-      set:28
-   },
-   2083:{  
-      question_tag:"L1MALP28Q1",
-      code:"2083",
-      title:"Maths Q55",
-      learner_question:"18-12=? \r\n1. 30 \r\n2. 6 \r\n3. 10",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 18-12=6",
-      incorrectAnswerResponse:"Incorrect. 18-12=6",
-      set:28
-   },
-   2084:{  
-      question_tag:"L1MALP28Q2",
-      code:"2084",
-      title:"Maths Q56",
-      learner_question:"65-13=? \r\n1. 52 \r\n2. 58 \r\n3. 87",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 65-13= 52",
-      incorrectAnswerResponse:"Incorrect. 65-13= 52",
-      set:28
-   },
-   2085:{  
-      question_tag:"L1MALP29QG",
-      code:"2085",
-      title:"Maths Class Q29",
-      learner_question:"\r\n1. $105 \r\n2. $65 \r\n3. $55",
-      question:"Say: Sonie had 80 dollars. She spent 25 dollars on food. How much money does Sonie have now? Enter the number of the correct answer 1, 2 or \r\n3. ",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 80-25=55",
-      incorrectAnswerResponse:"Incorrect. 80-25=55",
-      set:29
-   },
-   2086:{  
-      question_tag:"L1MALP29Q1",
-      code:"2086",
-      title:"Maths Q57",
-      learner_question:"56-22= ? \r\n1. 24 \r\n2. 34 \r\n3. 22",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 56-22= 34",
-      incorrectAnswerResponse:"Incorrect. 56-22= 34",
-      set:29
-   },
-   2087:{  
-      question_tag:"L1MALP29Q2",
-      code:"2087",
-      title:"Maths Q58",
-      learner_question:"34-14= ? \r\n1. 24 \r\n2. 20 \r\n3. 10",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 34-14=20",
-      incorrectAnswerResponse:"Incorrect. 34-14=20",
-      set:29
-   },
-   2088:{  
-      question_tag:"L1MALP30QG",
-      code:"2088",
-      title:"Maths Class Q30",
-      learner_question:"\r\n1. 8 eggs \r\n2. 32 eggs \r\n3. No eggs",
-      question:"Say: Janet has 20 eggs. She eats 12 eggs. How many eggs does Janet have now? Enter the number of the correct answer 1, 2 or \r\n3. ",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 20-12=8",
-      incorrectAnswerResponse:"Incorrect. 20-12=8",
-      set:30
-   },
-   2089:{  
-      question_tag:"L1MALP30Q1",
-      code:"2089",
-      title:"Maths Q59",
-      learner_question:"77-22=? \r\n1. 33 \r\n2. 44 \r\n3. 55",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 77-22=55",
-      incorrectAnswerResponse:"Incorrect. 77-22=55",
-      set:30
-   },
-   2090:{  
-      question_tag:"L1MALP30Q2",
-      code:"2090",
-      title:"Maths Q60",
-      learner_question:"64+23=? \r\n1. 41 \r\n2. 77 \r\n3. 87",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 64+23=87",
-      incorrectAnswerResponse:"Incorrect. 64+23=87",
-      set:30
-   },
-   2091:{  
-      question_tag:"L1MALP31QG",
-      code:"2091",
-      title:"Maths Class Q31",
-      learner_question:"\r\n1. 80 \r\n2. 90 \r\n3. 84",
-      question:"Write the following on the board: 57 + 33 Say: 57 Plus 3\r\n3. Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 57+33=90",
-      incorrectAnswerResponse:"Incorrect. 57+33=90",
-      set:31
-   },
-   2092:{  
-      question_tag:"L1MALP31Q1",
-      code:"2092",
-      title:"Maths Q61",
-      learner_question:"25+45=? \r\n1. 80 \r\n2. 85 \r\n3. 70",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 25+45=70",
-      incorrectAnswerResponse:"Incorrect. 25+45=70",
-      set:31
-   },
-   2093:{  
-      question_tag:"L1MALP31Q2",
-      code:"2093",
-      title:"Maths Q62",
-      learner_question:"48+13=? \r\n1. 71 \r\n2. 62 \r\n3. 61",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 48+13=61",
-      incorrectAnswerResponse:"Incorrect. 48+13=61",
-      set:31
-   },
-   2094:{  
-      question_tag:"L1MALP32QG",
-      code:"2094",
-      title:"Maths Class Q32",
-      learner_question:"\r\n1. 92 \r\n2. 4 \r\n3. 82",
-      question:"Write the following on the board: 48 +44 Say: 48 plus 44. Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 48+44=92",
-      incorrectAnswerResponse:"Incorrect. 48+44=92",
-      set:32
-   },
-   2095:{  
-      question_tag:"L1MALP32Q1",
-      code:"2095",
-      title:"Maths Q63",
-      learner_question:"18+38=? \r\n1. 48 \r\n2. 56 \r\n3. 58",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 18+38= 56",
-      incorrectAnswerResponse:"Incorrect. 18+38= 56",
-      set:32
-   },
-   2096:{  
-      question_tag:"L1MALP32Q2",
-      code:"2096",
-      title:"Maths Q64",
-      learner_question:"26+56=? \r\n1. 82 \r\n2. 30 \r\n3. 72",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 26+56=82",
-      incorrectAnswerResponse:"Incorrect. 26+56=82",
-      set:32
-   },
-   2097:{  
-      question_tag:"L1MALP33QG",
-      code:"2097",
-      title:"Maths Class Q33",
-      learner_question:"\r\n1. 34 \r\n2. 36 \r\n3. 44",
-      question:"Write the following on the board: 18 12 +14 Say: 18 plus 12 plus 14. Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 18+12+14=44",
-      incorrectAnswerResponse:"Incorrect. 18+12+14=44",
-      set:33
-   },
-   2098:{  
-      question_tag:"L1MALP33Q1",
-      code:"2098",
-      title:"Maths Q65",
-      learner_question:"8+12+15=? \r\n1. 35 \r\n2. 25 \r\n3. 33",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 8+12+15=35",
-      incorrectAnswerResponse:"Incorrect. 8+12+15=35",
-      set:33
-   },
-   2099:{  
-      question_tag:"L1MALP33Q2",
-      code:"2099",
-      title:"Maths Q66",
-      learner_question:"23+11+7=? \r\n1. 31 \r\n2. 41 \r\n3. 51",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 23+11+7=41",
-      incorrectAnswerResponse:"Incorrect. 23+11+7=41",
-      set:33
-   },
-   2100:{  
-      question_tag:"L1MALP34QG",
-      code:"2100",
-      title:"Maths Class Q34",
-      learner_question:"\r\n1. 6 \r\n2. 18 \r\n3. 8",
-      question:"Write the following on the board: 24 - 18 Say: 24 minus 18. Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 24-18= 6",
-      incorrectAnswerResponse:"Incorrect. 24-18= 6",
-      set:34
-   },
-   2101:{  
-      question_tag:"L1MALP34Q1",
-      code:"2101",
-      title:"Maths Q67",
-      learner_question:"32-13=? \r\n1. 11 \r\n2. 21 \r\n3. 19",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 32-13=19",
-      incorrectAnswerResponse:"Incorrect. 32-13=19",
-      set:34
-   },
-   2102:{  
-      question_tag:"L1MALP34Q2",
-      code:"2102",
-      title:"Maths Q68",
-      learner_question:"41-23=? \r\n1. 12 \r\n2. 18 \r\n3. 22",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 41-23=18",
-      incorrectAnswerResponse:"Incorrect. 41-23=18",
-      set:34
-   },
-   2103:{  
-      question_tag:"L1MALP35QG",
-      code:"2103",
-      title:"Maths Class Q35",
-      learner_question:"\r\n1. 27 \r\n2. 37 \r\n3. 33",
-      question:"Write the following on the board: 54 - 27 Say: 54 minus 27. Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 54-27=27",
-      incorrectAnswerResponse:"Incorrect. 54-27=27",
-      set:35
-   },
-   2104:{  
-      question_tag:"L1MALP35Q1",
-      code:"2104",
-      title:"Maths Q69",
-      learner_question:"83-47=? \r\n1. 36 \r\n2. 46 \r\n3. 26",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 83-47=36",
-      incorrectAnswerResponse:"Incorrect. 83-47=36",
-      set:35
-   },
-   2105:{  
-      question_tag:"L1MALP35Q2",
-      code:"2105",
-      title:"Maths Q70",
-      learner_question:"67-28=? \r\n1. 49 \r\n2. 25 \r\n3. 39",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 67-28=39",
-      incorrectAnswerResponse:"Incorrect. 67-28=39",
-      set:35
-   },
-   2106:{  
-      question_tag:"L1MALP36QG",
-      code:"2106",
-      title:"Maths Class Q36",
-      learner_question:"\r\n1. 36 \r\n2. 37 \r\n3. 38",
-      question:"Write the following on the board: 67 - 29 Say: 67 minus 29. Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 67+29=38",
-      incorrectAnswerResponse:"Incorrect. 67+29=38",
-      set:36
-   },
-   2107:{  
-      question_tag:"L1MALP36Q1",
-      code:"2107",
-      title:"Maths Q71",
-      learner_question:"45-38=? \r\n1. 15 \r\n2. 17 \r\n3. 7",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 45-38=7",
-      incorrectAnswerResponse:"Incorrect. 45-38=7",
-      set:36
-   },
-   2108:{  
-      question_tag:"L1MALP36Q2",
-      code:"2108",
-      title:"Maths Q72",
-      learner_question:"65-37=? \r\n1. 18 \r\n2. 28 \r\n3. 38",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 65-37=28",
-      incorrectAnswerResponse:"Incorrect. 65-37=28",
-      set:36
-   },
-   2109:{  
-      question_tag:"L1MALP37QG",
-      code:"2109",
-      title:"Maths Class Q37",
-      learner_question:"\r\n1. $15 \r\n2. $55 \r\n3. $25",
-      question:"Say: Pinky has 35 dollars. She spends 20 dollars at a shop. How much money does Pinky have now. Enter the number of the correct answer 1, 2 or \r\n3. ",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 35-20= 15",
-      incorrectAnswerResponse:"Incorrect. 35-20= 15",
-      set:37
-   },
-   2110:{  
-      question_tag:"L1MALP37Q1",
-      code:"2110",
-      title:"Maths Q73",
-      learner_question:"24+47=? \r\n1. 71 \r\n2. 81 \r\n3. 72",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 24+47= 71",
-      incorrectAnswerResponse:"Incorrect. 24+47= 71",
-      set:37
-   },
-   2111:{  
-      question_tag:"L1MALP37Q2",
-      code:"2111",
-      title:"Maths Q74",
-      learner_question:"65-36=? \r\n1. 39 \r\n2. 29 \r\n3. 19",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 65-36= 29",
-      incorrectAnswerResponse:"Incorrect. 65-36= 29",
-      set:37
-   },
-   2112:{  
-      question_tag:"L1MALP38QG",
-      code:"2112",
-      title:"Maths Class Q38",
-      learner_question:"\r\n1. 70 \r\n2. 10 \r\n3. 43",
-      question:"Say: Ruth has 40 pencils. She gets 30 pencils from a friend. How many pencils does Ruth have now. Enter the number of the correct answer 1, 2 or \r\n3. ",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 40+30=70",
-      incorrectAnswerResponse:"Incorrect. 40+30=70",
-      set:38
-   },
-   2113:{  
-      question_tag:"L1MALP38Q1",
-      code:"2113",
-      title:"Maths Q75",
-      learner_question:"8-8=? \r\n1. 8 \r\n2. 16 \r\n3. 0",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 8-8= 0",
-      incorrectAnswerResponse:"Incorrect. 8-8= 0",
-      set:38
-   },
-   2114:{  
-      question_tag:"L1MALP38Q2",
-      code:"2114",
-      title:"Maths Q76",
-      learner_question:"81-62=? \r\n1. 9 \r\n2. 19 \r\n3. 12",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 81-62=19",
-      incorrectAnswerResponse:"Incorrect. 81-62=19",
-      set:38
-   },
-   2115:{  
-      question_tag:"L1MALP39QG",
-      code:"2115",
-      title:"Maths Class Q39",
-      learner_question:"\r\n1. 8 \r\n2. 2 \r\n3. 15",
-      question:"Write the following on the board: 5 x 3=? Say: What is 5 times 3? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 5 x 3= 15",
-      incorrectAnswerResponse:"Incorrect. 5 x 3= 15",
-      set:39
-   },
-   2116:{  
-      question_tag:"L1MALP39Q1",
-      code:"2116",
-      title:"Maths Q77",
-      learner_question:"4 x 3=? \r\n1. 7 \r\n2. 12 \r\n3. 14",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 4 x 3= 12",
-      incorrectAnswerResponse:"Incorrect. 4 x 3= 12",
-      set:39
-   },
-   2117:{  
-      question_tag:"L1MALP39Q2",
-      code:"2117",
-      title:"Maths Q78",
-      learner_question:"2 x 6=? \r\n1. 12 \r\n2. 8 \r\n3. 4",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 2 x 6= 12",
-      incorrectAnswerResponse:"Incorrect. 2 x 6= 12",
-      set:39
-   },
-   2118:{  
-      question_tag:"L1MALP40QG",
-      code:"2118",
-      title:"Maths Class Q40",
-      learner_question:"\r\n1. 9 \r\n2. 90 \r\n3. 0",
-      question:"Say: What is 9 times 0? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 9 x 0= 0. All numbers x 0= 0",
-      incorrectAnswerResponse:"Incorrect. 9 x 0= 0. All numbers x 0= 0",
-      set:40
-   },
-   2119:{  
-      question_tag:"L1MALP40Q1",
-      code:"2119",
-      title:"Maths Q79",
-      learner_question:"25 x 0=? \r\n1. 25 \r\n2. 250 \r\n3. 0",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 25 x 0= 0. All numbers x 0= 0",
-      incorrectAnswerResponse:"Incorrect. 25 x 0= 0. All numbers x 0= 0",
-      set:40
-   },
-   2120:{  
-      question_tag:"L1MALP40Q2",
-      code:"2120",
-      title:"Maths Q80",
-      learner_question:"9 x 9=? \r\n1. 81 \r\n2. 99 \r\n3. 18",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 9 x 9= 81",
-      incorrectAnswerResponse:"Incorrect. 9 x 9= 81",
-      set:40
-   },
-   2121:{  
-      question_tag:"L1MALP41QG",
-      code:"2121",
-      title:"Maths Class Q41",
-      learner_question:"\r\n1. 10 \r\n2. 9 \r\n3. 8",
-      question:"Say: What is 9 times 1? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 9 x 1= 9",
-      incorrectAnswerResponse:"Incorrect. 9 x 1= 9",
-      set:41
-   },
-   2122:{  
-      question_tag:"L1MALP41Q1",
-      code:"2122",
-      title:"Maths Q81",
-      learner_question:"13 x 1=? \r\n1. 13 \r\n2. 14 \r\n3. 15",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 13 x 1= 13",
-      incorrectAnswerResponse:"Incorrect. 13 x 1= 13",
-      set:41
-   },
-   2123:{  
-      question_tag:"L1MALP41Q2",
-      code:"2123",
-      title:"Maths Q82",
-      learner_question:"6 x 6=? \r\n1. 12 \r\n2. 1 \r\n3. 36",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 6 x 6=36",
-      incorrectAnswerResponse:"Incorrect. 6 x 6=36",
-      set:41
-   },
-   2124:{  
-      question_tag:"L1MALP42QG",
-      code:"2124",
-      title:"Maths Class Q42",
-      learner_question:"\r\n1. 7 \r\n2. 21 \r\n3. 28",
-      question:"How many days are in 4 weeks? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 7x4= 28",
-      incorrectAnswerResponse:"Incorrect. 7x4= 28",
-      set:42
-   },
-   2125:{  
-      question_tag:"L1MALP42Q1",
-      code:"2125",
-      title:"Maths Q83",
-      learner_question:"6 x 5=? \r\n1. 11 \r\n2. 30 \r\n3. 25",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 6 x 5= 30",
-      incorrectAnswerResponse:"Incorrect. 6 x 5= 30",
-      set:42
-   },
-   2126:{  
-      question_tag:"L1MALP42Q2",
-      code:"2126",
-      title:"Maths Q84",
-      learner_question:"3 x 7=? \r\n1. 21 \r\n2. 22 \r\n3. 10",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 3 x 7=21",
-      incorrectAnswerResponse:"Incorrect. 3 x 7=21",
-      set:42
-   },
-   2127:{  
-      question_tag:"L1MALP43QG",
-      code:"2127",
-      title:"Maths Class Q43",
-      learner_question:"\r\n1. 45 \r\n2. 50 \r\n3. 75",
-      question:"Write the following on the board: 25 x 2 Say: What is 25 times \r\n2. Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 25 x 2= 50",
-      incorrectAnswerResponse:"Incorrect. 25 x 2= 50",
-      set:43
-   },
-   2128:{  
-      question_tag:"L1MALP43Q1",
-      code:"2128",
-      title:"Maths Q85",
-      learner_question:"32 x 3 =? \r\n1. 66 \r\n2. 86 \r\n3. 96",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 32 x 3= 96",
-      incorrectAnswerResponse:"Incorrect. 32 x 3= 96",
-      set:43
-   },
-   2129:{  
-      question_tag:"L1MALP43Q2",
-      code:"2129",
-      title:"Maths Q86",
-      learner_question:"21 x 4=? \r\n1. 88 \r\n2. 25 \r\n3. 84",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 21 x 4= 84",
-      incorrectAnswerResponse:"Incorrect. 21 x 4= 84",
-      set:43
-   },
-   2130:{  
-      question_tag:"L1MALP44QG",
-      code:"2130",
-      title:"Maths Class Q44",
-      learner_question:"\r\n1. 14 \r\n2. 30 \r\n3. 33",
-      question:"Say: Miriam gives her children 11 books each. She has three children. How many books did she give in total? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 11 x 3= 33 books.",
-      incorrectAnswerResponse:"Incorrect. 11 x 3= 33 books.",
-      set:44
-   },
-   2131:{  
-      question_tag:"L1MALP44Q1",
-      code:"2131",
-      title:"Maths Q87",
-      learner_question:"13 x 2=? \r\n1. 26 \r\n2. 15 \r\n3. 30",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 13 x 2 =26",
-      incorrectAnswerResponse:"Incorrect. 13 x 2 =26",
-      set:44
-   },
-   2132:{  
-      question_tag:"L1MALP44Q2",
-      code:"2132",
-      title:"Maths Q88",
-      learner_question:"22 x 3=? \r\n1. 66 \r\n2. 76 \r\n3. 56",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 22 x 3= 66",
-      incorrectAnswerResponse:"Incorrect. 22 x 3= 66",
-      set:44
-   },
-   2133:{  
-      question_tag:"L1MALP45QG",
-      code:"2133",
-      title:"Maths Class Q45",
-      learner_question:"\r\n1. 27 \r\n2. 6 \r\n3. 3",
-      question:"Write the following on the board: 9÷3=? Say: Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 9÷3=3",
-      incorrectAnswerResponse:"Incorrect. 9÷3=3",
-      set:45
-   },
-   2134:{  
-      question_tag:"L1MALP45Q1",
-      code:"2134",
-      title:"Maths Q89",
-      learner_question:"12÷4=? \r\n1. 8 \r\n2. 16 \r\n3. 3",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 12÷4=3",
-      incorrectAnswerResponse:"Incorrect. 12÷4=3",
-      set:45
-   },
-   2135:{  
-      question_tag:"L1MALP45Q2",
-      code:"2135",
-      title:"Maths Q90",
-      learner_question:"8÷2=? \r\n1. 4 \r\n2. 2 \r\n3. 3",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 8÷2=4",
-      incorrectAnswerResponse:"Incorrect. 8÷2=4",
-      set:45
-   },
-   2136:{  
-      question_tag:"L1MALP46QG",
-      code:"2136",
-      title:"Maths Class Q46",
-      learner_question:"\r\n1. 60 bags \r\n2. 6 bags \r\n3. 10 bags",
-      question:"Say: Mark has $60 dollars to buy rice. Each bag of rice costs 10 dollars. How many bags of rice can Mark buy? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 60÷10= 6",
-      incorrectAnswerResponse:"Incorrect. 60÷10= 6",
-      set:46
-   },
-   2137:{  
-      question_tag:"L1MALP46Q1",
-      code:"2137",
-      title:"Maths Q91",
-      learner_question:"25 ÷ 5=? \r\n1. 20 \r\n2. 15 \r\n3. 5",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 25 ÷ 5= 5",
-      incorrectAnswerResponse:"Incorrect. 25 ÷ 5= 5",
-      set:46
-   },
-   2138:{  
-      question_tag:"L1MALP46Q2",
-      code:"2138",
-      title:"Maths Q92",
-      learner_question:"24 ÷ 6=? \r\n1. 18 \r\n2. 6 \r\n3. 4",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 24 ÷ 6= 4",
-      incorrectAnswerResponse:"Incorrect. 24 ÷ 6= 4",
-      set:46
-   },
-   2139:{  
-      question_tag:"L1MALP47QG",
-      code:"2139",
-      title:"Maths Class Q47",
-      learner_question:"\r\n1. 12 oranges \r\n2. 7 oranges \r\n3. 1 orange",
-      question:"Say: Naomi has 3 bags. Each bag has 4 oranges. How many oranges does Naomi have? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 3 x 4= 12",
-      incorrectAnswerResponse:"Incorrect. 3 x 4= 12",
-      set:47
-   },
-   2140:{  
-      question_tag:"L1MALP47Q1",
-      code:"2140",
-      title:"Maths Q93",
-      learner_question:"23 x 0=? \r\n1. 23 \r\n2. 0 \r\n3. 230",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 23 x 0= 0",
-      incorrectAnswerResponse:"Incorrect. 23 x 0= 0",
-      set:47
-   },
-   2141:{  
-      question_tag:"L1MALP47Q2",
-      code:"2141",
-      title:"Maths Q94",
-      learner_question:"12 ÷ 2=? \r\n1. 6 \r\n2. 10 \r\n2. 24",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 12 ÷ 2= 6",
-      incorrectAnswerResponse:"Incorrect. 12 ÷ 2= 6",
-      set:47
-   },
-   2142:{  
-      question_tag:"L1MALP48QG",
-      code:"2142",
-      title:"Maths Class Q48",
-      learner_question:"\r\n1. < \r\n2. > \r\n3. =",
-      question:"Write the following on the board: 1/3 ___ 2/3 Say: Is one third Greater than, less than or equal to two thirds? Enter the correct symbol.",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 1/3 < 2/3",
-      incorrectAnswerResponse:"Incorrect. 1/3 < 2/3",
-      set:48
-   },
-   2143:{  
-      question_tag:"L1MALP48Q1",
-      code:"2143",
-      title:"Maths Q95",
-      learner_question:"2/3 ____ 1/3 \r\n1. < \r\n2. > \r\n3. =",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 2/3 > 1/3",
-      incorrectAnswerResponse:"Incorrect. 2/3 > 1/3",
-      set:48
-   },
-   2144:{  
-      question_tag:"L1MALP48Q2",
-      code:"2144",
-      title:"Maths Q96",
-      learner_question:"1/4 ____ 3/4 \r\n1. < \r\n2. > \r\n3. =",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 1/4 < 3/4",
-      incorrectAnswerResponse:"Incorrect. 1/4 < 3/4",
-      set:48
-   },
-   2145:{  
-      question_tag:"L1MALP49QG",
-      code:"2145",
-      title:"Maths Class Q49",
-      learner_question:"What fraction are 'A'? \r\n1. 1/4 \r\n2. 1/3 \r\n3. 1/2",
-      question:"Write the following on the board: (ABBB) Say: I wrote four letters on the board. What fraction of the letters are letter A?",
-      answer:"1",
-      correctAnswerResponse:":) Correct! (ABBB) 1/4 of the letters are A.",
-      incorrectAnswerResponse:"Incorrect. (ABBB) 1/4 of the letters are A.",
-      set:49
-   },
-   2146:{  
-      question_tag:"L1MALP49Q1",
-      code:"2146",
-      title:"Maths Q97",
-      learner_question:"What fraction are A? (AABBB) \r\n1. 2/3 \r\n2. 1/5 \r\n3. 2/5",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! (AABBB) 2/5 of the letters are A.",
-      incorrectAnswerResponse:"Incorrect. (AABBB) 2/5 of the letters are A.",
-      set:49
-   },
-   2147:{  
-      question_tag:"L1MALP49Q2",
-      code:"2147",
-      title:"Maths Q98",
-      learner_question:"What fraction are A? (ABB) \r\n1. 1/2 \r\n2. 1/3 \r\n3. 1/4",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! (ABB) 1/3 of the letters are A.",
-      incorrectAnswerResponse:"Incorrect. (ABB) 1/3 of the letters are A.",
-      set:49
-   },
-   2148:{  
-      question_tag:"L1MALP50QG",
-      code:"2148",
-      title:"Maths Class Q50",
-      learner_question:"What fraction are O? \r\n1. 1/5 \r\n2. 2/5 \r\n3. 1/2",
-      question:"Write the following on the board: (OOLLL) Say: I wrote four letters on the board. What fraction of the letters are letter O?",
-      answer:"2",
-      correctAnswerResponse:":) Correct! (OOLLL) 2/5 of the letters are O.",
-      incorrectAnswerResponse:"Incorrect. (OOLLL) 2/5 of the letters are O.",
-      set:50
-   },
-   2149:{  
-      question_tag:"L1MALP50Q1",
-      code:"2149",
-      title:"Maths Q99",
-      learner_question:"What fraction are O? (OOOL) \r\n1. 1/4 \r\n2. 3/5 \r\n3. 3/4",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! (OOOL) 3/4 of the letters are O.",
-      incorrectAnswerResponse:"Incorrect. (OOOL) 3/4 of the letters are O.",
-      set:50
-   },
-   2150:{  
-      question_tag:"L1MALP50Q2",
-      code:"2150",
-      title:"Maths Q100",
-      learner_question:"What fraction are O? (OLL) \r\n1. 1/4 \r\n2. 1/3 \r\n3. 3/4",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! (OLL) 1/3 of the letters are O.",
-      incorrectAnswerResponse:"Incorrect. (OLL) 1/3 of the letters are O.",
-      set:50
-   },
-   2151:{  
-      question_tag:"L1MALP51QG",
-      code:"2151",
-      title:"Maths Class Q51",
-      learner_question:"\r\n1. 41 \r\n2. 43 \r\n2. 42",
-      question:"Write the following on the board: 23 +18 Say: Let's review. What is 23 plus 18? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 23 + 18= 41",
-      incorrectAnswerResponse:"Incorrect. 23 + 18= 41",
-      set:51
-   },
-   2152:{  
-      question_tag:"L1MALP51Q1",
-      code:"2152",
-      title:"Maths Q101",
-      learner_question:"23 x 1 =? \r\n1. 231 \r\n2. 23 \r\n3. 24",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 23 x 1= 23",
-      incorrectAnswerResponse:"Incorrect. 23 x 1= 23",
-      set:51
-   },
-   2153:{  
-      question_tag:"L1MALP51Q2",
-      code:"2153",
-      title:"Maths Q102",
-      learner_question:"15÷5=? \r\n1. 10 \r\n2. 5 \r\n3. 3",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 15 ÷ 5= 3",
-      incorrectAnswerResponse:"Incorrect. 15 ÷ 5= 3",
-      set:51
-   },
-   2154:{  
-      question_tag:"L1MALP52QG",
-      code:"2154",
-      title:"Maths Class Q52",
-      learner_question:"\r\n1. $10 \r\n2. $3 \r\n3. $15",
-      question:"Say: Ellen buys shirts for 10 dollars. He sells them for 15 dollars. He sells 3 shirts. How much does he make? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! (15-10) x 3= 5x3=15",
-      incorrectAnswerResponse:"Incorrect. (15-10) x 3= 5x3=15",
-      set:52
-   },
-   2155:{  
-      question_tag:"L1MALP52Q1",
-      code:"2155",
-      title:"Maths Q103",
-      learner_question:"Pam buys pens for LD $50. She sells pens for LD $80. She sells 2 pens. How much does she make? \r\n1. LD $60 \r\n2. LD $80 \r\n3. LD $100",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! LD $30 x 2 =LD $60",
-      incorrectAnswerResponse:"Incorrect. LD $30 x 2 =LD $60",
-      set:52
-   },
-   2156:{  
-      question_tag:"L1MALP52Q2",
-      code:"2156",
-      title:"Maths Q104",
-      learner_question:"Ben buys mats for $5. He sells mats for $7. He sells 10 mats. How much does he make? \r\n1. $10 \r\n2. $20 \r\n3. $30",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! ($7-$5)x10=2 x $10= $20",
-      incorrectAnswerResponse:"Incorrect. ($7-$5)x10=2 x $10= $20",
-      set:52
-   },
-   2157:{  
-      question_tag:"L1MALP53QG",
-      code:"2157",
-      title:"Maths Class Q53",
-      learner_question:"\r\n1. 24 \r\n2. 48 \r\n3. 12",
-      question:"Say: Charles has 4 bags of pens. There are 12 pens in each bag. How many pens does Charles have? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 4 x 12= 48",
-      incorrectAnswerResponse:"Incorrect. 4 x 12= 48",
-      set:53
-   },
-   2158:{  
-      question_tag:"L1MALP53Q1",
-      code:"2158",
-      title:"Maths Q105",
-      learner_question:"34 x 2=? \r\n1. 68 \r\n2. 17 \r\n3. 36",
-      question:"",
-      answer:"1",
-      correctAnswerResponse:":) Correct! 34 x 2= 68",
-      incorrectAnswerResponse:"Incorrect. 34 x 2= 68",
-      set:53
-   },
-   2159:{  
-      question_tag:"L1MALP53Q2",
-      code:"2159",
-      title:"Maths Q106",
-      learner_question:"18÷9=? \r\n1. 9 \r\n2. 2 \r\n3. 27",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 18÷9=2",
-      incorrectAnswerResponse:"Incorrect. 18÷9=2",
-      set:53
-   },
-   2160:{  
-      question_tag:"L1MALP54QG",
-      code:"2160",
-      title:"Maths Class Q54",
-      learner_question:"\r\n1. $15 \r\n2. $3 \r\n3. $6",
-      question:"Say: Sarah has 18 dollars. She gives the money to her 3 children. How much does each child get? Enter the number of the correct answer 1, 2 or \r\n3.",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 18÷3=6",
-      incorrectAnswerResponse:"Incorrect. 18÷3=6",
-      set:54
-   },
-   2161:{  
-      question_tag:"L1MALP54Q1",
-      code:"2161",
-      title:"Maths Q107",
-      learner_question:"6 x 7= ? \r\n1. 13 \r\n2. 35 \r\n3. 42",
-      question:"",
-      answer:"3",
-      correctAnswerResponse:":) Correct! 6 x 7= 42",
-      incorrectAnswerResponse:"Incorrect. 6 x 7= 42",
-      set:54
-   },
-   2162:{  
-      question_tag:"L1MALP54Q2",
-      code:"2162",
-      title:"Maths Q108",
-      learner_question:"14 ÷ 7=? \r\n1. 21 \r\n2. 2 \r\n3. 7",
-      question:"",
-      answer:"2",
-      correctAnswerResponse:":) Correct! 14 ÷ 7=2",
-      incorrectAnswerResponse:"Incorrect. 14 ÷ 7=2",
-      set:54
-   },
-   4001:{
+ 	2001:{
+  	question_tag: "L1MALP1QG",
+   code: "2001",
+   title: "Maths Class Q1",
+   learner_question: "How many? ($ $ $ $) \r\n1. 5 \r\n2. 4 \r\n3. 3",
+  	question: "How many do you see? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! $ $ $ $ -4",
+  	incorrectAnswerResponse: "Incorrect. $ $ $ $ -4",
+  	set: 1
+  	},
+
+ 	2002:{
+  	question_tag: "L1MALP1Q1",
+   code: "2002",
+   title: "Maths Q1",
+   learner_question: "How many? ($ $ $) \r\n1. 5 \r\n2. 4 \r\n3. 3",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! $ $ $ -3",
+  	incorrectAnswerResponse: "Incorrect. $ $ $ -3",
+  	set: 1
+  	},
+
+ 	2003:{
+  	question_tag: "L1MALP1Q2",
+   code: "2003",
+   title: "Maths Q2",
+   learner_question: "How many? ($ $ $ $ $) \r\n1. 5 \r\n2. 4 \r\n3. 3",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! $ $ $ $ $-5",
+  	incorrectAnswerResponse: "Incorrect. $ $ $ $ $-5",
+  	set: 1
+  	},
+
+ 	2004:{
+  	question_tag: "L1MALP2QG",
+   code: "2004",
+   title: "Maths Class Q2",
+   learner_question: "How many? (@ @ @ @ @ @) \r\n1. 6 \r\n2. 7 \r\n3. 8",
+  	question: "How many do you see? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! (@ @ @ @ @ @) 6",
+  	incorrectAnswerResponse: "Incorrect. (@ @ @ @ @ @) 6",
+  	set: 2
+  	},
+
+ 	2005:{
+  	question_tag: "L1MALP2Q1",
+   code: "2005",
+   title: "Maths Q3",
+   learner_question: "How many? (@ @ @ @ @ @ @ @) \r\n1. 6 \r\n2. 7 \r\n3. 8",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! (@ @ @ @ @ @ @ @) 8",
+  	incorrectAnswerResponse: "Incorrect. (@ @ @ @ @ @ @ @) 8",
+  	set: 2
+  	},
+
+ 	2006:{
+  	question_tag: "L1MALP2Q2",
+   code: "2006",
+   title: "Maths Q4",
+   learner_question: "How many? (@ @ @ @ @ @ @) \r\n1. 6 \r\n2. 7 \r\n3. 8",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! (@ @ @ @ @ @ @) 7",
+  	incorrectAnswerResponse: "Incorrect. (@ @ @ @ @ @ @) 7",
+  	set: 2
+  	},
+
+ 	2007:{
+  	question_tag: "L1MALP3QG",
+   code: "2007",
+   title: "Maths Class Q3",
+   learner_question: "6___7 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "Which symbol is missing? Greater than, less than or equals? ",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 6<7",
+  	incorrectAnswerResponse: "Incorrect. 6<7",
+  	set: 3
+  	},
+
+ 	2008:{
+  	question_tag: "L1MALP3Q1",
+   code: "2008",
+   title: "Maths Q5",
+   learner_question: "6___4 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 6>4",
+  	incorrectAnswerResponse: "Incorrect. 6>4",
+  	set: 3
+  	},
+
+ 	2009:{
+  	question_tag: "L1MALP3Q2",
+   code: "2009",
+   title: "Maths Q6",
+   learner_question: "6___6 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 6=6",
+  	incorrectAnswerResponse: "Incorrect. 6=6",
+  	set: 3
+  	},
+
+ 	2010:{
+  	question_tag: "L1MALP4QG",
+   code: "2010",
+   title: "Maths Class Q4",
+   learner_question: "How many? (I I I I I I I I I I I I I I) \r\n1. 10 \r\n2. 14 \r\n3. 20",
+  	question: "How many lines? (I I I I I I I I I I I I I I) Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! (I I I I I I I I I I I I I I) 14",
+  	incorrectAnswerResponse: "Incorrect. (I I I I I I I I I I I I I I) 14",
+  	set: 4
+  	},
+
+ 	2011:{
+  	question_tag: "L1MALP4Q1",
+   code: "2011",
+   title: "Maths Q7",
+   learner_question: "How many? (I I I I I I I I I I ) \r\n1. 10 \r\n2. 14 \r\n3. 20",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! (I I I I I I I I I I ) 10",
+  	incorrectAnswerResponse: "Incorrect. (I I I I I I I I I I ) 10",
+  	set: 4
+  	},
+
+ 	2012:{
+  	question_tag: "L1MALP4Q2",
+   code: "2012",
+   title: "Maths Q8",
+   learner_question: "13___20 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 13 < 20",
+  	incorrectAnswerResponse: "Incorrect. 13 < 20",
+  	set: 4
+  	},
+
+ 	2013:{
+  	question_tag: "L1MALP5QG",
+   code: "2013",
+   title: "Maths Class Q5",
+   learner_question: "11, 12, ____, 14, 15 \r\n1. 10 \r\n2. 13 \r\n3. 20",
+  	question: "Which number is missing? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 11, 12, 13, 14, 15.",
+  	incorrectAnswerResponse: "Incorrect. 11, 12, 13, 14, 15.",
+  	set: 5
+  	},
+
+ 	2014:{
+  	question_tag: "L1MALP5Q1",
+   code: "2014",
+   title: "Maths Q9",
+   learner_question: "17,18,____,20 \r\n1. 16 \r\n2. 19 \r\n3. 22",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 17,18, 19, 20.",
+  	incorrectAnswerResponse: "Incorrect. 17,18, 19, 20.",
+  	set: 5
+  	},
+
+ 	2015:{
+  	question_tag: "L1MALP5Q2",
+   code: "2015",
+   title: "Maths Q10",
+   learner_question: "18, 17, 16, ___, 14 \r\n1. 20 \r\n2. 15 \r\n3. 13",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 18, 17, 16, 15, 14",
+  	incorrectAnswerResponse: "Incorrect. 18, 17, 16, 15, 14",
+  	set: 5
+  	},
+
+ 	2016:{
+  	question_tag: "L1MALP6QG",
+   code: "2016",
+   title: "Maths Class Q6",
+   learner_question: "2, 4, ___, 8, 10 \r\n1. 5 \r\n2. 6 \r\n3. 7",
+  	question: "Which number is missing? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 2,4,6,8,10.",
+  	incorrectAnswerResponse: "Incorrect. 2,4,6,8,10.",
+  	set: 6
+  	},
+
+ 	2017:{
+  	question_tag: "L1MALP6Q1",
+   code: "2017",
+   title: "Maths Q11",
+   learner_question: "10, 12, ___, 16, 18 \r\n1. 13 \r\n2. 14 \r\n3. 15",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 10,12, 14, 16.",
+  	incorrectAnswerResponse: "Incorrect. 10,12, 14, 16.",
+  	set: 6
+  	},
+
+ 	2018:{
+  	question_tag: "L1MALP6Q2",
+   code: "2018",
+   title: "Maths Q12",
+   learner_question: "8,___, 12, 14 \r\n1. 9 \r\n2. 10 \r\n3. 11",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 8, 10, 12, 14.",
+  	incorrectAnswerResponse: "Incorrect. 8, 10, 12, 14.",
+  	set: 6
+  	},
+
+ 	2019:{
+  	question_tag: "L1MALP7QG",
+   code: "2019",
+   title: "Maths Class Q7",
+   learner_question: "$5, $1, $1=? \r\n1. $7 \r\n2. $8 \r\n3. $9",
+  	question: "How much money? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! $7",
+  	incorrectAnswerResponse: "Incorrect. $7",
+  	set: 7
+  	},
+
+ 	2020:{
+  	question_tag: "L1MALP7Q1",
+   code: "2020",
+   title: "Maths Q13",
+   learner_question: "$1, $10=? \r\n1. $9 \r\n2. $110 \r\n3. $11",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! $11",
+  	incorrectAnswerResponse: "Incorrect. $11",
+  	set: 7
+  	},
+
+ 	2021:{
+  	question_tag: "L1MALP7Q2",
+   code: "2021",
+   title: "Maths Q14",
+   learner_question: "$1, $5, $5=? \r\n1. $155 \r\n2. $6 \r\n3. 11",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! $11",
+  	incorrectAnswerResponse: "Incorrect. $11",
+  	set: 7
+  	},
+
+ 	2022:{
+  	question_tag: "L1MALP8QG",
+   code: "2022",
+   title: "Maths Class Q8",
+   learner_question: "88, 89, ___, 91, 92 \r\n1. 80 \r\n2. 87 \r\n3. 90",
+  	question: "Which number is missing? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 88,89,90,91,92",
+  	incorrectAnswerResponse: "Incorrect. 88,89,90,91,92",
+  	set: 8
+  	},
+
+ 	2023:{
+  	question_tag: "L1MALP8Q1",
+   code: "2023",
+   title: "Maths Q15",
+   learner_question: "77, 78, 79 ___ \r\n1. 80 \r\n2. 70 \r\n3. 81",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 77,78,79,80",
+  	incorrectAnswerResponse: "Incorrect. 77,78,79,80",
+  	set: 8
+  	},
+
+ 	2024:{
+  	question_tag: "L1MALP8Q2",
+   code: "2024",
+   title: "Maths Q16",
+   learner_question: "95, 94, ___, 92, 91 \r\n1. 93 \r\n2. 95 \r\n3. 90",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 95, 94, 93, 92, 91",
+  	incorrectAnswerResponse: "Incorrect. 95, 94, 93, 92, 91",
+  	set: 8
+  	},
+
+ 	2025:{
+  	question_tag: "L1MALP9QG",
+   code: "2025",
+   title: "Maths Class Q9",
+   learner_question: "38 ___ 63 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "Which symbol is missing? Greater than, less than or equals? ",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 38 <63",
+  	incorrectAnswerResponse: "Incorrect. 38 <63",
+  	set: 9
+  	},
+
+ 	2026:{
+  	question_tag: "L1MALP9Q1",
+   code: "2026",
+   title: "Maths Q17",
+   learner_question: "91___88 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 91 > 88",
+  	incorrectAnswerResponse: "Incorrect. 91 > 88",
+  	set: 9
+  	},
+
+ 	2027:{
+  	question_tag: "L1MALPQ2",
+   code: "2027",
+   title: "Maths Q18",
+   learner_question: "19___31 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 19 < 31",
+  	incorrectAnswerResponse: "Incorrect. 19 < 31",
+  	set: 9
+  	},
+
+ 	2028:{
+  	question_tag: "L1MALP10QG",
+   code: "2028",
+   title: "Maths Class Q10",
+   learner_question: "9 ___ 61 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "Which symbol is missing? Greater than, less than or equals? ",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 9 < 61",
+  	incorrectAnswerResponse: "Incorrect. 9 < 61",
+  	set: 10
+  	},
+
+ 	2029:{
+  	question_tag: "L1MALP10Q1",
+   code: "2029",
+   title: "Maths Q19",
+   learner_question: "83___80 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 83 > 80",
+  	incorrectAnswerResponse: "Incorrect. 83 > 80",
+  	set: 10
+  	},
+
+ 	2030:{
+  	question_tag: "L1MALP10Q2",
+   code: "2030",
+   title: "Maths Q20",
+   learner_question: "19___91 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 19 < 91",
+  	incorrectAnswerResponse: "Incorrect. 19 < 91",
+  	set: 10
+  	},
+
+ 	2031:{
+  	question_tag: "L1MALP11QG",
+   code: "2031",
+   title: "Maths Class Q11",
+   learner_question: "5, 10, ___, 20, 25 \r\n1. 11 \r\n2. 15 \r\n3. 19",
+  	question: "Say: Skip count by 5. Which number is missing?",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 5, 10, 15, 20, 25",
+  	incorrectAnswerResponse: "Incorrect. 5, 10, 15, 20, 25",
+  	set: 11
+  	},
+
+ 	2032:{
+  	question_tag: "L1MALP11Q1",
+   code: "2032",
+   title: "Maths Q21",
+   learner_question: "25,30, ___, 40, 45 \r\n1. 31 \r\n2. 35 \r\n3. 39",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 25, 30, 35, 40, 45",
+  	incorrectAnswerResponse: "Incorrect. 25, 30, 35, 40, 45",
+  	set: 11
+  	},
+
+ 	2033:{
+  	question_tag: "L1MALP11Q2",
+   code: "2033",
+   title: "Maths Q22",
+   learner_question: "10, 20, ___, 40, 50, 60 \r\n1. 30 \r\n2. 25 \r\n3. 21",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 10, 20, 30, 40, 50, 60",
+  	incorrectAnswerResponse: "Incorrect. 10, 20, 30, 40, 50, 60",
+  	set: 11
+  	},
+
+ 	2034:{
+  	question_tag: "L1MALP12QG",
+   code: "2034",
+   title: "Maths Class Q12",
+   learner_question: "\r\n1. $25 \r\n2. $30 \r\n3. $15",
+  	question: "Write on the board: $5, $5, $10, $10= ___How much money? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 5,5,10,10=30",
+  	incorrectAnswerResponse: "Incorrect. 5,5,10,10=30",
+  	set: 12
+  	},
+
+ 	2035:{
+  	question_tag: "L1MALP12Q1",
+   code: "2035",
+   title: "Maths Q23",
+   learner_question: "$5, $10, $10, $10=? \r\n1. $35 \r\n2. $40 \r\n3. $80",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 5,10,10,10=35",
+  	incorrectAnswerResponse: "Incorrect. 5,10,10,10=35",
+  	set: 12
+  	},
+
+ 	2036:{
+  	question_tag: "L1MALP12Q2",
+   code: "2036",
+   title: "Maths Q24",
+   learner_question: "$5, $5, $5, $10=? \r\n1. $15 \r\n2. $60 \r\n3. $25",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 5, 5, 5, 10=25",
+  	incorrectAnswerResponse: "Incorrect. 5, 5, 5, 10=25",
+  	set: 12
+  	},
+
+ 	2037:{
+  	question_tag: "L1MALP13QG",
+   code: "2037",
+   title: "Maths Class Q13",
+   learner_question: "\r\n1. 13 \r\n2. 58 \r\n3. 85",
+  	question: "Write the following on the board: 8 Tens, 5 Ones =? Say: Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 8 Tens, 5 Ones =85",
+  	incorrectAnswerResponse: "Incorrect. 8 Tens, 5 Ones =85",
+  	set: 13
+  	},
+
+ 	2038:{
+  	question_tag: "L1MALP13Q1",
+   code: "2038",
+   title: "Maths Q25",
+   learner_question: "3 Tens, 2 Ones =? \r\n1. 32 \r\n2. 23 \r\n3. 5",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 3 Tens, 2 Ones=32",
+  	incorrectAnswerResponse: "Incorrect. 3 Tens, 2 Ones=32",
+  	set: 13
+  	},
+
+ 	2039:{
+  	question_tag: "L1MALP13Q2",
+   code: "2039",
+   title: "Maths Q26",
+   learner_question: "9 Tens, 3 Ones =? \r\n1. 39 \r\n2. 93 \r\n3. 12",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 9 Tens, 3 Ones =93",
+  	incorrectAnswerResponse: "Incorrect. 9 Tens, 3 Ones =93",
+  	set: 13
+  	},
+
+ 	2040:{
+  	question_tag: "L1MALP14QG",
+   code: "2040",
+   title: "Maths Class Q14 ",
+   learner_question: "\r\n1. < \r\n2. > \r\n3. =",
+  	question: "Write the following on the board: 8___12 Say: Which symbol is missing? Greater than, less than or equals? ",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 8<12",
+  	incorrectAnswerResponse: "Incorrect. 8<12",
+  	set: 14
+  	},
+
+ 	2041:{
+  	question_tag: "L1MALP14Q1",
+   code: "2041",
+   title: "Maths Q27",
+   learner_question: "61 ___ 38 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 61>38",
+  	incorrectAnswerResponse: "Incorrect. 61>38",
+  	set: 14
+  	},
+
+ 	2042:{
+  	question_tag: "L1MALP14Q2",
+   code: "2042",
+   title: "Maths Q28",
+   learner_question: "5, 10, 15, 20, ___, 30,35 \r\n1. 21 \r\n2. 25 \r\n3. 29",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 5,10,15, 20, 25, 30, 35",
+  	incorrectAnswerResponse: "Incorrect. 5,10,15, 20, 25, 30, 35",
+  	set: 14
+  	},
+
+ 	2043:{
+  	question_tag: "L1MALP15QG",
+   code: "2043",
+   title: "Maths Class Q15",
+   learner_question: "\r\n1. < \r\n2. > \r\n3. =",
+  	question: "Write on the board: 13___13 Say: Which symbol is missing? Greater than, less than or equals? ",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 13=13",
+  	incorrectAnswerResponse: "Incorrect. 13=13",
+  	set: 15
+  	},
+
+ 	2044:{
+  	question_tag: "L1MALP15Q1",
+   code: "2044",
+   title: "Maths Q29",
+   learner_question: "10, 20, 30, ___, 50, 60 \r\n1. 31 \r\n2. 35 \r\n3. 40",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 10, 20, 30, 40, 50, 60",
+  	incorrectAnswerResponse: "Incorrect. 10, 20, 30, 40, 50, 60",
+  	set: 15
+  	},
+
+ 	2045:{
+  	question_tag: "L1MALP15Q2",
+   code: "2045",
+   title: "Maths Q30",
+   learner_question: "15, 20, 25,___, 35, 40, 45 \r\n1. 26 \r\n2. 30 \r\n3. 34",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 15, 20, 25, 30, 35, 40, 45",
+  	incorrectAnswerResponse: "Incorrect. 15, 20, 25, 30, 35, 40, 45",
+  	set: 15
+  	},
+
+ 	2046:{
+  	question_tag: "L1MALP16QG",
+   code: "2046",
+   title: "Maths Class Q16",
+   learner_question: "3+5=? \r\n1. 25 \r\n2. 2 \r\n3. 8",
+  	question: "Write on the board: 3+5=? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 3+5=8",
+  	incorrectAnswerResponse: "Incorrect. 3+5=8",
+  	set: 16
+  	},
+
+ 	2047:{
+  	question_tag: "L1MALP16Q1",
+   code: "2047",
+   title: "Maths Q31",
+   learner_question: "2+4=? \r\n1. 24 \r\n2. 2 \r\n3. 6",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 2+4=6",
+  	incorrectAnswerResponse: "Incorrect. 2+4=6",
+  	set: 16
+  	},
+
+ 	2048:{
+  	question_tag: "L1MALP16Q2",
+   code: "2048",
+   title: "Maths Q32",
+   learner_question: "1+7=? \r\n1. 8 \r\n2. 6 \r\n3. 17",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 1+7=8",
+  	incorrectAnswerResponse: "Incorrect. 1+7=8",
+  	set: 16
+  	},
+
+ 	2049:{
+  	question_tag: "L1MALP17QG",
+   code: "2049",
+   title: "Maths Class Q17",
+   learner_question: "\r\n1. 36 \r\n2. 9 \r\n3. 3",
+  	question: "Write on the board: 3+6=? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 3+6=9",
+  	incorrectAnswerResponse: "Incorrect. 3+6=9",
+  	set: 17
+  	},
+
+ 	2050:{
+  	question_tag: "L1MALP17Q1",
+   code: "2050",
+   title: "Maths Q33",
+   learner_question: "4+4=? \r\n1. 4 \r\n2. 8 \r\n3. 0",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 4+4=8",
+  	incorrectAnswerResponse: "Incorrect. 4+4=8",
+  	set: 17
+  	},
+
+ 	2051:{
+  	question_tag: "L1MALP17Q2",
+   code: "2051",
+   title: "Maths Q34",
+   learner_question: "2+7=? \r\n1. 9 \r\n2. 5 \r\n3. 10",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 2+7=9",
+  	incorrectAnswerResponse: "Incorrect. 2+7=9",
+  	set: 17
+  	},
+
+ 	2052:{
+  	question_tag: "L1MALP18QG",
+   code: "2052",
+   title: "Maths Class Q18",
+   learner_question: "\r\n1. 90 \r\n2. 9 \r\n3. 10",
+  	question: "Write on the board: 9+0=? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 9+0=9",
+  	incorrectAnswerResponse: "Incorrect. 9+0=9",
+  	set: 18
+  	},
+
+ 	2053:{
+  	question_tag: "L1MALP18Q1",
+   code: "2053",
+   title: "Maths Q35",
+   learner_question: "5+0=? \r\n1. 50 \r\n2. 6 \r\n3. 5",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 5+0=5",
+  	incorrectAnswerResponse: "Incorrect. 5+0=5",
+  	set: 18
+  	},
+
+ 	2054:{
+  	question_tag: "L1MALP18Q2",
+   code: "2054",
+   title: "Maths Q36",
+   learner_question: "5+7=? \r\n1. 57 \r\n2. 2 \r\n3. 12",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 5+7=12",
+  	incorrectAnswerResponse: "Incorrect. 5+7=12",
+  	set: 18
+  	},
+
+ 	2055:{
+  	question_tag: "L1MALP19QG",
+   code: "2055",
+   title: "Maths Class Q19",
+   learner_question: "\r\n1. 12 \r\n2. 93 \r\n3. 6",
+  	question: "Write on the board: 9-3=? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 9-3=6",
+  	incorrectAnswerResponse: "Incorrect. 9-3=6",
+  	set: 19
+  	},
+
+ 	2056:{
+  	question_tag: "L1MALP19Q1",
+   code: "2056",
+   title: "Maths Q37",
+   learner_question: "6 - 4=? \r\n1. 64 \r\n2. 2 \r\n3. 10",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 6-4=2",
+  	incorrectAnswerResponse: "Incorrect. 6-4=2",
+  	set: 19
+  	},
+
+ 	2057:{
+  	question_tag: "L1MALP19Q2",
+   code: "2057",
+   title: "Maths Q38",
+   learner_question: "4 - 1=? \r\n1. 41 \r\n2. 5 \r\n3. 3",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 4-1=3",
+  	incorrectAnswerResponse: "Incorrect. 4-1=3",
+  	set: 19
+  	},
+
+ 	2058:{
+  	question_tag: "L1MALP20QG",
+   code: "2058",
+   title: "Maths Class Q20",
+   learner_question: "\r\n1. 22 \r\n2. 12 \r\n3. 8",
+  	question: "Write on the board: 15-7=? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 15-7=8",
+  	incorrectAnswerResponse: "Incorrect. 15-7=8",
+  	set: 20
+  	},
+
+ 	2059:{
+  	question_tag: "L1MALP20Q1",
+   code: "2059",
+   title: "Maths Q39",
+   learner_question: "12 - 6=? \r\n1. 126 \r\n2. 6 \r\n3. 18",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 12-6=6",
+  	incorrectAnswerResponse: "Incorrect. 12-6=6",
+  	set: 20
+  	},
+
+ 	2060:{
+  	question_tag: "L1MALP20Q2",
+   code: "2060",
+   title: "Maths Q40",
+   learner_question: "13 - 3=? \r\n1. 10 \r\n2. 16 \r\n3. 11",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 13-3=10",
+  	incorrectAnswerResponse: "Incorrect. 13-3=10",
+  	set: 20
+  	},
+
+ 	2061:{
+  	question_tag: "L1MALP21QG",
+   code: "2061",
+   title: "Maths Class Q21",
+   learner_question: "\r\n1. 26 \r\n2. 12 \r\n3. 9",
+  	question: "Write on the board: 19-7=? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 19-7=12",
+  	incorrectAnswerResponse: "Incorrect. 19-7=12",
+  	set: 21
+  	},
+
+ 	2062:{
+  	question_tag: "L1MALP21Q1",
+   code: "2062",
+   title: "Maths Q41",
+   learner_question: "20 - 5= ? \r\n1. 10 \r\n2. 15 \r\n3. 25",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 20-5=15",
+  	incorrectAnswerResponse: "Incorrect. 20-5=15",
+  	set: 21
+  	},
+
+ 	2063:{
+  	question_tag: "L1MALP21Q2",
+   code: "2063",
+   title: "Maths Q42",
+   learner_question: "20-10=? \r\n1. 10 \r\n2. 20 \r\n3. 30",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 20-10=10",
+  	incorrectAnswerResponse: "Incorrect. 20-10=10",
+  	set: 21
+  	},
+
+ 	2064:{
+  	question_tag: "L1MALP22QG",
+   code: "2064",
+   title: "Maths Class Q22",
+   learner_question: "\r\n1. 0 chickens \r\n2. 5 chickens \r\n2. 15 chickens",
+  	question: "Say: You have 10 chickens. You sell 5 chickens. How many chickens do you have now? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 10 - 5=5",
+  	incorrectAnswerResponse: "Incorrect. 10 - 5=5",
+  	set: 22
+  	},
+
+ 	2065:{
+  	question_tag: "L1MALP22Q1",
+   code: "2065",
+   title: "Maths Q43",
+   learner_question: "20-3=? \r\n1. 17 \r\n2. 13 \r\n3. 23",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 20-3=17",
+  	incorrectAnswerResponse: "Incorrect. 20-3=17",
+  	set: 22
+  	},
+
+ 	2066:{
+  	question_tag: "L1MALP22Q2",
+   code: "2066",
+   title: "Maths Q44",
+   learner_question: "12-5=? \r\n1. 17 \r\n2. 15 \r\n3. 7",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 12-5=7",
+  	incorrectAnswerResponse: "Incorrect. 12-5=7",
+  	set: 22
+  	},
+
+ 	2067:{
+  	question_tag: "L1MALP23QG",
+   code: "2067",
+   title: "Maths Class Q23",
+   learner_question: "\r\n1. 6 chickens \r\n2. 10 chickens \r\n3. 4 chickens",
+  	question: "Say: You have 8 chickens. You buy 2 chickens. How many chickens do you have now? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 8+2=10.",
+  	incorrectAnswerResponse: "Incorrect. 8+2=10.",
+  	set: 23
+  	},
+
+ 	2068:{
+  	question_tag: "L1MALP23Q1",
+   code: "2068",
+   title: "Maths Q45",
+   learner_question: "3+8=? \r\n1. 12 \r\n2. 5 \r\n3. 11",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 3=8=11",
+  	incorrectAnswerResponse: "Incorrect. 3=8=11",
+  	set: 23
+  	},
+
+ 	2069:{
+  	question_tag: "L1MALP23Q2",
+   code: "2069",
+   title: "Maths Q46",
+   learner_question: "13-4=? \r\n1. 9 \r\n2. 17 \r\n3. 134",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 13-4= 9",
+  	incorrectAnswerResponse: "Incorrect. 13-4= 9",
+  	set: 23
+  	},
+
+ 	2070:{
+  	question_tag: "L1MALP24QG",
+   code: "2070",
+   title: "Maths Class Q24",
+   learner_question: "\r\n1. 15 \r\n2. 25 \r\n3. 1",
+  	question: "Write the following on the board: 12 +13 Say: 12 plus 1\r\n3. Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 12+13=25",
+  	incorrectAnswerResponse: "Incorrect. 12+13=25",
+  	set: 24
+  	},
+
+ 	2071:{
+  	question_tag: "L1MALP24Q1",
+   code: "2071",
+   title: "Maths Q47",
+   learner_question: "35+23=? \r\n1. 3523 \r\n2. 56 \r\n3. 58",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 35+23=58",
+  	incorrectAnswerResponse: "Incorrect. 35+23=58",
+  	set: 24
+  	},
+
+ 	2072:{
+  	question_tag: "L1MALP24Q2",
+   code: "2072",
+   title: "Maths Q48",
+   learner_question: "13+64=? \r\n1. 95 \r\n2. 77 \r\n3. 56",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 13+64=77",
+  	incorrectAnswerResponse: "Incorrect. 13+64=77",
+  	set: 24
+  	},
+
+ 	2073:{
+  	question_tag: "L1MALP25QG",
+   code: "2073",
+   title: "Maths Class Q25",
+   learner_question: "\r\n1. 95 \r\n2. 96 \r\n3. 97",
+  	question: "Write the following on the board: 62 +33 Say: 62 plus 3\r\n3. Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 62+33=95",
+  	incorrectAnswerResponse: "Incorrect. 62+33=95",
+  	set: 25
+  	},
+
+ 	2074:{
+  	question_tag: "L1MALP25Q1",
+   code: "2074",
+   title: "Maths Q49",
+   learner_question: "15+42=? \r\n1. 66 \r\n2. 67 \r\n3. 78",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 15+42=67",
+  	incorrectAnswerResponse: "Incorrect. 15+42=67",
+  	set: 25
+  	},
+
+ 	2075:{
+  	question_tag: "L1MALP25Q2",
+   code: "2075",
+   title: "Maths Q50",
+   learner_question: "23+34=? \r\n1. 57 \r\n2. 58 \r\n3. 59",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 23+34= 57",
+  	incorrectAnswerResponse: "Incorrect. 23+34= 57",
+  	set: 25
+  	},
+
+ 	2076:{
+  	question_tag: "L1MALP26QG",
+   code: "2076",
+   title: "Maths Class Q26",
+   learner_question: "\r\n1. $49 \r\n2. $51 \r\n3. $61",
+  	question: "Say: Ellen has 50 dollars. Ellen\'s mother gives her 11 dollars. How much money does Ellen have now? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 50+11=61",
+  	incorrectAnswerResponse: "Incorrect. 50+11=61",
+  	set: 26
+  	},
+
+ 	2077:{
+  	question_tag: "L1MALP26Q1",
+   code: "2077",
+   title: "Maths Q51",
+   learner_question: "45+51=? \r\n1. 91 \r\n2. 96 \r\n3. 85",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 45+51=96",
+  	incorrectAnswerResponse: "Incorrect. 45+51=96",
+  	set: 26
+  	},
+
+ 	2078:{
+  	question_tag: "L1MALP26Q2",
+   code: "2078",
+   title: "Maths Q52",
+   learner_question: "21+43=? \r\n1. 64 \r\n2. 55 \r\n3. 19",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 21+43=64",
+  	incorrectAnswerResponse: "Incorrect. 21+43=64",
+  	set: 26
+  	},
+
+ 	2079:{
+  	question_tag: "L1MALP27QG",
+   code: "2079",
+   title: "Maths Class Q27",
+   learner_question: "\r\n1. 100 \r\n2. 34 \r\n3. 11",
+  	question: "Write the following on the board: 67 - 33 Say: 67 minus 3\r\n3. Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 67-33=34",
+  	incorrectAnswerResponse: "Incorrect. 67-33=34",
+  	set: 27
+  	},
+
+ 	2080:{
+  	question_tag: "L1MALP27Q1",
+   code: "2080",
+   title: "Maths Q53",
+   learner_question: "57-32=? \r\n1. 25 \r\n2. 34 \r\n3. 89",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 57-32=25",
+  	incorrectAnswerResponse: "Incorrect. 57-32=25",
+  	set: 27
+  	},
+
+ 	2081:{
+  	question_tag: "L1MALP27Q2",
+   code: "2081",
+   title: "Maths Q54",
+   learner_question: "47-21=? \r\n1. 24 \r\n2. 25 \r\n3. 26",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 47-21= 26",
+  	incorrectAnswerResponse: "Incorrect. 47-21= 26",
+  	set: 27
+  	},
+
+ 	2082:{
+  	question_tag: "L1MALP28QG",
+   code: "2082",
+   title: "Maths Class Q28",
+   learner_question: "\r\n1. 52 \r\n2. 54 \r\n3. 56",
+  	question: "Write the following on the board: 93 - 41 Say: 93 minus 4\r\n1. Enter the answer on your phone.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 93-41=52",
+  	incorrectAnswerResponse: "Incorrect. 93-41=52",
+  	set: 28
+  	},
+
+ 	2083:{
+  	question_tag: "L1MALP28Q1",
+   code: "2083",
+   title: "Maths Q55",
+   learner_question: "18-12=? \r\n1. 30 \r\n2. 6 \r\n3. 10",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 18-12=6",
+  	incorrectAnswerResponse: "Incorrect. 18-12=6",
+  	set: 28
+  	},
+
+ 	2084:{
+  	question_tag: "L1MALP28Q2",
+   code: "2084",
+   title: "Maths Q56",
+   learner_question: "65-13=? \r\n1. 52 \r\n2. 58 \r\n3. 87",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 65-13= 52",
+  	incorrectAnswerResponse: "Incorrect. 65-13= 52",
+  	set: 28
+  	},
+
+ 	2085:{
+  	question_tag: "L1MALP29QG",
+   code: "2085",
+   title: "Maths Class Q29",
+   learner_question: "\r\n1. $105 \r\n2. $65 \r\n3. $55",
+  	question: "Say: Sonie had 80 dollars. She spent 25 dollars on food. How much money does Sonie have now? Enter the number of the correct answer 1, 2 or \r\n3. ",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 80-25=55",
+  	incorrectAnswerResponse: "Incorrect. 80-25=55",
+  	set: 29
+  	},
+
+ 	2086:{
+  	question_tag: "L1MALP29Q1",
+   code: "2086",
+   title: "Maths Q57",
+   learner_question: "56-22= ? \r\n1. 24 \r\n2. 34 \r\n3. 22",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 56-22= 34",
+  	incorrectAnswerResponse: "Incorrect. 56-22= 34",
+  	set: 29
+  	},
+
+ 	2087:{
+  	question_tag: "L1MALP29Q2",
+   code: "2087",
+   title: "Maths Q58",
+   learner_question: "34-14= ? \r\n1. 24 \r\n2. 20 \r\n3. 10",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 34-14=20",
+  	incorrectAnswerResponse: "Incorrect. 34-14=20",
+  	set: 29
+  	},
+
+ 	2088:{
+  	question_tag: "L1MALP30QG",
+   code: "2088",
+   title: "Maths Class Q30",
+   learner_question: "\r\n1. 8 eggs \r\n2. 32 eggs \r\n3. No eggs",
+  	question: "Say: Janet has 20 eggs. She eats 12 eggs. How many eggs does Janet have now? Enter the number of the correct answer 1, 2 or \r\n3. ",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 20-12=8",
+  	incorrectAnswerResponse: "Incorrect. 20-12=8",
+  	set: 30
+  	},
+
+ 	2089:{
+  	question_tag: "L1MALP30Q1",
+   code: "2089",
+   title: "Maths Q59",
+   learner_question: "77-22=? \r\n1. 33 \r\n2. 44 \r\n3. 55",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 77-22=55",
+  	incorrectAnswerResponse: "Incorrect. 77-22=55",
+  	set: 30
+  	},
+
+ 	2090:{
+  	question_tag: "L1MALP30Q2",
+   code: "2090",
+   title: "Maths Q60",
+   learner_question: "64+23=? \r\n1. 41 \r\n2. 77 \r\n3. 87",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 64+23=87",
+  	incorrectAnswerResponse: "Incorrect. 64+23=87",
+  	set: 30
+  	},
+
+ 	2091:{
+  	question_tag: "L1MALP31QG",
+   code: "2091",
+   title: "Maths Class Q31",
+   learner_question: "\r\n1. 80 \r\n2. 90 \r\n3. 84",
+  	question: "Write the following on the board: 57 + 33 Say: 57 Plus 3\r\n3. Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 57+33=90",
+  	incorrectAnswerResponse: "Incorrect. 57+33=90",
+  	set: 31
+  	},
+
+ 	2092:{
+  	question_tag: "L1MALP31Q1",
+   code: "2092",
+   title: "Maths Q61",
+   learner_question: "25+45=? \r\n1. 80 \r\n2. 85 \r\n3. 70",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 25+45=70",
+  	incorrectAnswerResponse: "Incorrect. 25+45=70",
+  	set: 31
+  	},
+
+ 	2093:{
+  	question_tag: "L1MALP31Q2",
+   code: "2093",
+   title: "Maths Q62",
+   learner_question: "48+13=? \r\n1. 71 \r\n2. 62 \r\n3. 61",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 48+13=61",
+  	incorrectAnswerResponse: "Incorrect. 48+13=61",
+  	set: 31
+  	},
+
+ 	2094:{
+  	question_tag: "L1MALP32QG",
+   code: "2094",
+   title: "Maths Class Q32",
+   learner_question: "\r\n1. 92 \r\n2. 4 \r\n3. 82",
+  	question: "Write the following on the board: 48 +44 Say: 48 plus 44. Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 48+44=92",
+  	incorrectAnswerResponse: "Incorrect. 48+44=92",
+  	set: 32
+  	},
+
+ 	2095:{
+  	question_tag: "L1MALP32Q1",
+   code: "2095",
+   title: "Maths Q63",
+   learner_question: "18+38=? \r\n1. 48 \r\n2. 56 \r\n3. 58",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 18+38= 56",
+  	incorrectAnswerResponse: "Incorrect. 18+38= 56",
+  	set: 32
+  	},
+
+ 	2096:{
+  	question_tag: "L1MALP32Q2",
+   code: "2096",
+   title: "Maths Q64",
+   learner_question: "26+56=? \r\n1. 82 \r\n2. 30 \r\n3. 72",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 26+56=82",
+  	incorrectAnswerResponse: "Incorrect. 26+56=82",
+  	set: 32
+  	},
+
+ 	2097:{
+  	question_tag: "L1MALP33QG",
+   code: "2097",
+   title: "Maths Class Q33",
+   learner_question: "\r\n1. 34 \r\n2. 36 \r\n3. 44",
+  	question: "Write the following on the board: 18 12 +14 Say: 18 plus 12 plus 14. Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 18+12+14=44",
+  	incorrectAnswerResponse: "Incorrect. 18+12+14=44",
+  	set: 33
+  	},
+
+ 	2098:{
+  	question_tag: "L1MALP33Q1",
+   code: "2098",
+   title: "Maths Q65",
+   learner_question: "8+12+15=? \r\n1. 35 \r\n2. 25 \r\n3. 33",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 8+12+15=35",
+  	incorrectAnswerResponse: "Incorrect. 8+12+15=35",
+  	set: 33
+  	},
+
+ 	2099:{
+  	question_tag: "L1MALP33Q2",
+   code: "2099",
+   title: "Maths Q66",
+   learner_question: "23+11+7=? \r\n1. 31 \r\n2. 41 \r\n3. 51",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 23+11+7=41",
+  	incorrectAnswerResponse: "Incorrect. 23+11+7=41",
+  	set: 33
+  	},
+
+ 	2100:{
+  	question_tag: "L1MALP34QG",
+   code: "2100",
+   title: "Maths Class Q34",
+   learner_question: "\r\n1. 6 \r\n2. 18 \r\n3. 8",
+  	question: "Write the following on the board: 24 - 18 Say: 24 minus 18. Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 24-18= 6",
+  	incorrectAnswerResponse: "Incorrect. 24-18= 6",
+  	set: 34
+  	},
+
+ 	2101:{
+  	question_tag: "L1MALP34Q1",
+   code: "2101",
+   title: "Maths Q67",
+   learner_question: "32-13=? \r\n1. 11 \r\n2. 21 \r\n3. 19",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 32-13=19",
+  	incorrectAnswerResponse: "Incorrect. 32-13=19",
+  	set: 34
+  	},
+
+ 	2102:{
+  	question_tag: "L1MALP34Q2",
+   code: "2102",
+   title: "Maths Q68",
+   learner_question: "41-23=? \r\n1. 12 \r\n2. 18 \r\n3. 22",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 41-23=18",
+  	incorrectAnswerResponse: "Incorrect. 41-23=18",
+  	set: 34
+  	},
+
+ 	2103:{
+  	question_tag: "L1MALP35QG",
+   code: "2103",
+   title: "Maths Class Q35",
+   learner_question: "\r\n1. 27 \r\n2. 37 \r\n3. 33",
+  	question: "Write the following on the board: 54 - 27 Say: 54 minus 27. Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 54-27=27",
+  	incorrectAnswerResponse: "Incorrect. 54-27=27",
+  	set: 35
+  	},
+
+ 	2104:{
+  	question_tag: "L1MALP35Q1",
+   code: "2104",
+   title: "Maths Q69",
+   learner_question: "83-47=? \r\n1. 36 \r\n2. 46 \r\n3. 26",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 83-47=36",
+  	incorrectAnswerResponse: "Incorrect. 83-47=36",
+  	set: 35
+  	},
+
+ 	2105:{
+  	question_tag: "L1MALP35Q2",
+   code: "2105",
+   title: "Maths Q70",
+   learner_question: "67-28=? \r\n1. 49 \r\n2. 25 \r\n3. 39",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 67-28=39",
+  	incorrectAnswerResponse: "Incorrect. 67-28=39",
+  	set: 35
+  	},
+
+ 	2106:{
+  	question_tag: "L1MALP36QG",
+   code: "2106",
+   title: "Maths Class Q36",
+   learner_question: "\r\n1. 36 \r\n2. 37 \r\n3. 38",
+  	question: "Write the following on the board: 67 - 29 Say: 67 minus 29. Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 67+29=38",
+  	incorrectAnswerResponse: "Incorrect. 67+29=38",
+  	set: 36
+  	},
+
+ 	2107:{
+  	question_tag: "L1MALP36Q1",
+   code: "2107",
+   title: "Maths Q71",
+   learner_question: "45-38=? \r\n1. 15 \r\n2. 17 \r\n3. 7",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 45-38=7",
+  	incorrectAnswerResponse: "Incorrect. 45-38=7",
+  	set: 36
+  	},
+
+ 	2108:{
+  	question_tag: "L1MALP36Q2",
+   code: "2108",
+   title: "Maths Q72",
+   learner_question: "65-37=? \r\n1. 18 \r\n2. 28 \r\n3. 38",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 65-37=28",
+  	incorrectAnswerResponse: "Incorrect. 65-37=28",
+  	set: 36
+  	},
+
+ 	2109:{
+  	question_tag: "L1MALP37QG",
+   code: "2109",
+   title: "Maths Class Q37",
+   learner_question: "\r\n1. $15 \r\n2. $55 \r\n3. $25",
+  	question: "Say: Pinky has 35 dollars. She spends 20 dollars at a shop. How much money does Pinky have now. Enter the number of the correct answer 1, 2 or \r\n3. ",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 35-20= 15",
+  	incorrectAnswerResponse: "Incorrect. 35-20= 15",
+  	set: 37
+  	},
+
+ 	2110:{
+  	question_tag: "L1MALP37Q1",
+   code: "2110",
+   title: "Maths Q73",
+   learner_question: "24+47=? \r\n1. 71 \r\n2. 81 \r\n3. 72",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 24+47= 71",
+  	incorrectAnswerResponse: "Incorrect. 24+47= 71",
+  	set: 37
+  	},
+
+ 	2111:{
+  	question_tag: "L1MALP37Q2",
+   code: "2111",
+   title: "Maths Q74",
+   learner_question: "65-36=? \r\n1. 39 \r\n2. 29 \r\n3. 19",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 65-36= 29",
+  	incorrectAnswerResponse: "Incorrect. 65-36= 29",
+  	set: 37
+  	},
+
+ 	2112:{
+  	question_tag: "L1MALP38QG",
+   code: "2112",
+   title: "Maths Class Q38",
+   learner_question: "\r\n1. 70 \r\n2. 10 \r\n3. 43",
+  	question: "Say: Ruth has 40 pencils. She gets 30 pencils from a friend. How many pencils does Ruth have now. Enter the number of the correct answer 1, 2 or \r\n3. ",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 40+30=70",
+  	incorrectAnswerResponse: "Incorrect. 40+30=70",
+  	set: 38
+  	},
+
+ 	2113:{
+  	question_tag: "L1MALP38Q1",
+   code: "2113",
+   title: "Maths Q75",
+   learner_question: "8-8=? \r\n1. 8 \r\n2. 16 \r\n3. 0",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 8-8= 0",
+  	incorrectAnswerResponse: "Incorrect. 8-8= 0",
+  	set: 38
+  	},
+
+ 	2114:{
+  	question_tag: "L1MALP38Q2",
+   code: "2114",
+   title: "Maths Q76",
+   learner_question: "81-62=? \r\n1. 9 \r\n2. 19 \r\n3. 12",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 81-62=19",
+  	incorrectAnswerResponse: "Incorrect. 81-62=19",
+  	set: 38
+  	},
+
+ 	2115:{
+  	question_tag: "L1MALP39QG",
+   code: "2115",
+   title: "Maths Class Q39",
+   learner_question: "\r\n1. 8 \r\n2. 2 \r\n3. 15",
+  	question: "Write the following on the board: 5 x 3=? Say: What is 5 times 3? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 5 x 3= 15",
+  	incorrectAnswerResponse: "Incorrect. 5 x 3= 15",
+  	set: 39
+  	},
+
+ 	2116:{
+  	question_tag: "L1MALP39Q1",
+   code: "2116",
+   title: "Maths Q77",
+   learner_question: "4 x 3=? \r\n1. 7 \r\n2. 12 \r\n3. 14",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 4 x 3= 12",
+  	incorrectAnswerResponse: "Incorrect. 4 x 3= 12",
+  	set: 39
+  	},
+
+ 	2117:{
+  	question_tag: "L1MALP39Q2",
+   code: "2117",
+   title: "Maths Q78",
+   learner_question: "2 x 6=? \r\n1. 12 \r\n2. 8 \r\n3. 4",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 2 x 6= 12",
+  	incorrectAnswerResponse: "Incorrect. 2 x 6= 12",
+  	set: 39
+  	},
+
+ 	2118:{
+  	question_tag: "L1MALP40QG",
+   code: "2118",
+   title: "Maths Class Q40",
+   learner_question: "\r\n1. 9 \r\n2. 90 \r\n3. 0",
+  	question: "Say: What is 9 times 0? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 9 x 0= 0. All numbers x 0= 0",
+  	incorrectAnswerResponse: "Incorrect. 9 x 0= 0. All numbers x 0= 0",
+  	set: 40
+  	},
+
+ 	2119:{
+  	question_tag: "L1MALP40Q1",
+   code: "2119",
+   title: "Maths Q79",
+   learner_question: "25 x 0=? \r\n1. 25 \r\n2. 250 \r\n3. 0",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 25 x 0= 0. All numbers x 0= 0",
+  	incorrectAnswerResponse: "Incorrect. 25 x 0= 0. All numbers x 0= 0",
+  	set: 40
+  	},
+
+ 	2120:{
+  	question_tag: "L1MALP40Q2",
+   code: "2120",
+   title: "Maths Q80",
+   learner_question: "9 x 9=? \r\n1. 81 \r\n2. 99 \r\n3. 18",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 9 x 9= 81",
+  	incorrectAnswerResponse: "Incorrect. 9 x 9= 81",
+  	set: 40
+  	},
+
+ 	2121:{
+  	question_tag: "L1MALP41QG",
+   code: "2121",
+   title: "Maths Class Q41",
+   learner_question: "\r\n1. 10 \r\n2. 9 \r\n3. 8",
+  	question: "Say: What is 9 times 1? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 9 x 1= 9",
+  	incorrectAnswerResponse: "Incorrect. 9 x 1= 9",
+  	set: 41
+  	},
+
+ 	2122:{
+  	question_tag: "L1MALP41Q1",
+   code: "2122",
+   title: "Maths Q81",
+   learner_question: "13 x 1=? \r\n1. 13 \r\n2. 14 \r\n3. 15",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 13 x 1= 13",
+  	incorrectAnswerResponse: "Incorrect. 13 x 1= 13",
+  	set: 41
+  	},
+
+ 	2123:{
+  	question_tag: "L1MALP41Q2",
+   code: "2123",
+   title: "Maths Q82",
+   learner_question: "6 x 6=? \r\n1. 12 \r\n2. 1 \r\n3. 36",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 6 x 6=36",
+  	incorrectAnswerResponse: "Incorrect. 6 x 6=36",
+  	set: 41
+  	},
+
+ 	2124:{
+  	question_tag: "L1MALP42QG",
+   code: "2124",
+   title: "Maths Class Q42",
+   learner_question: "\r\n1. 7 \r\n2. 21 \r\n3. 28",
+  	question: "How many days are in 4 weeks? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 7x4= 28",
+  	incorrectAnswerResponse: "Incorrect. 7x4= 28",
+  	set: 42
+  	},
+
+ 	2125:{
+  	question_tag: "L1MALP42Q1",
+   code: "2125",
+   title: "Maths Q83",
+   learner_question: "6 x 5=? \r\n1. 11 \r\n2. 30 \r\n3. 25",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 6 x 5= 30",
+  	incorrectAnswerResponse: "Incorrect. 6 x 5= 30",
+  	set: 42
+  	},
+
+ 	2126:{
+  	question_tag: "L1MALP42Q2",
+   code: "2126",
+   title: "Maths Q84",
+   learner_question: "3 x 7=? \r\n1. 21 \r\n2. 22 \r\n3. 10",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 3 x 7=21",
+  	incorrectAnswerResponse: "Incorrect. 3 x 7=21",
+  	set: 42
+  	},
+
+ 	2127:{
+  	question_tag: "L1MALP43QG",
+   code: "2127",
+   title: "Maths Class Q43",
+   learner_question: "\r\n1. 45 \r\n2. 50 \r\n3. 75",
+  	question: "Write the following on the board: 25 x 2 Say: What is 25 times \r\n2. Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 25 x 2= 50",
+  	incorrectAnswerResponse: "Incorrect. 25 x 2= 50",
+  	set: 43
+  	},
+
+ 	2128:{
+  	question_tag: "L1MALP43Q1",
+   code: "2128",
+   title: "Maths Q85",
+   learner_question: "32 x 3 =? \r\n1. 66 \r\n2. 86 \r\n3. 96",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 32 x 3= 96",
+  	incorrectAnswerResponse: "Incorrect. 32 x 3= 96",
+  	set: 43
+  	},
+
+ 	2129:{
+  	question_tag: "L1MALP43Q2",
+   code: "2129",
+   title: "Maths Q86",
+   learner_question: "21 x 4=? \r\n1. 88 \r\n2. 25 \r\n3. 84",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 21 x 4= 84",
+  	incorrectAnswerResponse: "Incorrect. 21 x 4= 84",
+  	set: 43
+  	},
+
+ 	2130:{
+  	question_tag: "L1MALP44QG",
+   code: "2130",
+   title: "Maths Class Q44",
+   learner_question: "\r\n1. 14 \r\n2. 30 \r\n3. 33",
+  	question: "Say: Miriam gives her children 11 books each. She has three children. How many books did she give in total? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 11 x 3= 33 books.",
+  	incorrectAnswerResponse: "Incorrect. 11 x 3= 33 books.",
+  	set: 44
+  	},
+
+ 	2131:{
+  	question_tag: "L1MALP44Q1",
+   code: "2131",
+   title: "Maths Q87",
+   learner_question: "13 x 2=? \r\n1. 26 \r\n2. 15 \r\n3. 30",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 13 x 2 =26",
+  	incorrectAnswerResponse: "Incorrect. 13 x 2 =26",
+  	set: 44
+  	},
+
+ 	2132:{
+  	question_tag: "L1MALP44Q2",
+   code: "2132",
+   title: "Maths Q88",
+   learner_question: "22 x 3=? \r\n1. 66 \r\n2. 76 \r\n3. 56",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 22 x 3= 66",
+  	incorrectAnswerResponse: "Incorrect. 22 x 3= 66",
+  	set: 44
+  	},
+
+ 	2133:{
+  	question_tag: "L1MALP45QG",
+   code: "2133",
+   title: "Maths Class Q45",
+   learner_question: "\r\n1. 27 \r\n2. 6 \r\n3. 3",
+  	question: "Write the following on the board: 9÷3=? Say: Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 9÷3=3",
+  	incorrectAnswerResponse: "Incorrect. 9÷3=3",
+  	set: 45
+  	},
+
+ 	2134:{
+  	question_tag: "L1MALP45Q1",
+   code: "2134",
+   title: "Maths Q89",
+   learner_question: "12÷4=? \r\n1. 8 \r\n2. 16 \r\n3. 3",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 12÷4=3",
+  	incorrectAnswerResponse: "Incorrect. 12÷4=3",
+  	set: 45
+  	},
+
+ 	2135:{
+  	question_tag: "L1MALP45Q2",
+   code: "2135",
+   title: "Maths Q90",
+   learner_question: "8÷2=? \r\n1. 4 \r\n2. 2 \r\n3. 3",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 8÷2=4",
+  	incorrectAnswerResponse: "Incorrect. 8÷2=4",
+  	set: 45
+  	},
+
+ 	2136:{
+  	question_tag: "L1MALP46QG",
+   code: "2136",
+   title: "Maths Class Q46",
+   learner_question: "\r\n1. 60 bags \r\n2. 6 bags \r\n3. 10 bags",
+  	question: "Say: Mark has $60 dollars to buy rice. Each bag of rice costs 10 dollars. How many bags of rice can Mark buy? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 60÷10= 6",
+  	incorrectAnswerResponse: "Incorrect. 60÷10= 6",
+  	set: 46
+  	},
+
+ 	2137:{
+  	question_tag: "L1MALP46Q1",
+   code: "2137",
+   title: "Maths Q91",
+   learner_question: "25 ÷ 5=? \r\n1. 20 \r\n2. 15 \r\n3. 5",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 25 ÷ 5= 5",
+  	incorrectAnswerResponse: "Incorrect. 25 ÷ 5= 5",
+  	set: 46
+  	},
+
+ 	2138:{
+  	question_tag: "L1MALP46Q2",
+   code: "2138",
+   title: "Maths Q92",
+   learner_question: "24 ÷ 6=? \r\n1. 18 \r\n2. 6 \r\n3. 4",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 24 ÷ 6= 4",
+  	incorrectAnswerResponse: "Incorrect. 24 ÷ 6= 4",
+  	set: 46
+  	},
+
+ 	2139:{
+  	question_tag: "L1MALP47QG",
+   code: "2139",
+   title: "Maths Class Q47",
+   learner_question: "\r\n1. 12 oranges \r\n2. 7 oranges \r\n3. 1 orange",
+  	question: "Say: Naomi has 3 bags. Each bag has 4 oranges. How many oranges does Naomi have? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 3 x 4= 12",
+  	incorrectAnswerResponse: "Incorrect. 3 x 4= 12",
+  	set: 47
+  	},
+
+ 	2140:{
+  	question_tag: "L1MALP47Q1",
+   code: "2140",
+   title: "Maths Q93",
+   learner_question: "23 x 0=? \r\n1. 23 \r\n2. 0 \r\n3. 230",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 23 x 0= 0",
+  	incorrectAnswerResponse: "Incorrect. 23 x 0= 0",
+  	set: 47
+  	},
+
+ 	2141:{
+  	question_tag: "L1MALP47Q2",
+   code: "2141",
+   title: "Maths Q94",
+   learner_question: "12 ÷ 2=? \r\n1. 6 \r\n2. 10 \r\n2. 24",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 12 ÷ 2= 6",
+  	incorrectAnswerResponse: "Incorrect. 12 ÷ 2= 6",
+  	set: 47
+  	},
+
+ 	2142:{
+  	question_tag: "L1MALP48QG",
+   code: "2142",
+   title: "Maths Class Q48",
+   learner_question: "\r\n1. < \r\n2. > \r\n3. =",
+  	question: "Write the following on the board: 1/3 ___ 2/3 Say: Is one third Greater than, less than or equal to two thirds? Enter the correct symbol.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 1/3 < 2/3",
+  	incorrectAnswerResponse: "Incorrect. 1/3 < 2/3",
+  	set: 48
+  	},
+
+ 	2143:{
+  	question_tag: "L1MALP48Q1",
+   code: "2143",
+   title: "Maths Q95",
+   learner_question: "2/3 ____ 1/3 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 2/3 > 1/3",
+  	incorrectAnswerResponse: "Incorrect. 2/3 > 1/3",
+  	set: 48
+  	},
+
+ 	2144:{
+  	question_tag: "L1MALP48Q2",
+   code: "2144",
+   title: "Maths Q96",
+   learner_question: "1/4 ____ 3/4 \r\n1. < \r\n2. > \r\n3. =",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 1/4 < 3/4",
+  	incorrectAnswerResponse: "Incorrect. 1/4 < 3/4",
+  	set: 48
+  	},
+
+ 	2145:{
+  	question_tag: "L1MALP49QG",
+   code: "2145",
+   title: "Maths Class Q49",
+   learner_question: "What fraction are \'A\'? \r\n1. 1/4 \r\n2. 1/3 \r\n3. 1/2",
+  	question: "Write the following on the board: (ABBB) Say: I wrote four letters on the board. What fraction of the letters are letter A?",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! (ABBB) 1/4 of the letters are A.",
+  	incorrectAnswerResponse: "Incorrect. (ABBB) 1/4 of the letters are A.",
+  	set: 49
+  	},
+
+ 	2146:{
+  	question_tag: "L1MALP49Q1",
+   code: "2146",
+   title: "Maths Q97",
+   learner_question: "What fraction are A? (AABBB) \r\n1. 2/3 \r\n2. 1/5 \r\n3. 2/5",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! (AABBB) 2/5 of the letters are A.",
+  	incorrectAnswerResponse: "Incorrect. (AABBB) 2/5 of the letters are A.",
+  	set: 49
+  	},
+
+ 	2147:{
+  	question_tag: "L1MALP49Q2",
+   code: "2147",
+   title: "Maths Q98",
+   learner_question: "What fraction are A? (ABB) \r\n1. 1/2 \r\n2. 1/3 \r\n3. 1/4",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! (ABB) 1/3 of the letters are A.",
+  	incorrectAnswerResponse: "Incorrect. (ABB) 1/3 of the letters are A.",
+  	set: 49
+  	},
+
+ 	2148:{
+  	question_tag: "L1MALP50QG",
+   code: "2148",
+   title: "Maths Class Q50",
+   learner_question: "What fraction are O? \r\n1. 1/5 \r\n2. 2/5 \r\n3. 1/2",
+  	question: "Write the following on the board: (OOLLL) Say: I wrote four letters on the board. What fraction of the letters are letter O?",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! (OOLLL) 2/5 of the letters are O.",
+  	incorrectAnswerResponse: "Incorrect. (OOLLL) 2/5 of the letters are O.",
+  	set: 50
+  	},
+
+ 	2149:{
+  	question_tag: "L1MALP50Q1",
+   code: "2149",
+   title: "Maths Q99",
+   learner_question: "What fraction are O? (OOOL) \r\n1. 1/4 \r\n2. 3/5 \r\n3. 3/4",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! (OOOL) 3/4 of the letters are O.",
+  	incorrectAnswerResponse: "Incorrect. (OOOL) 3/4 of the letters are O.",
+  	set: 50
+  	},
+
+ 	2150:{
+  	question_tag: "L1MALP50Q2",
+   code: "2150",
+   title: "Maths Q100",
+   learner_question: "What fraction are O? (OLL) \r\n1. 1/4 \r\n2. 1/3 \r\n3. 3/4",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! (OLL) 1/3 of the letters are O.",
+  	incorrectAnswerResponse: "Incorrect. (OLL) 1/3 of the letters are O.",
+  	set: 50
+  	},
+
+ 	2151:{
+  	question_tag: "L1MALP51QG",
+   code: "2151",
+   title: "Maths Class Q51",
+   learner_question: "\r\n1. 41 \r\n2. 43 \r\n2. 42",
+  	question: "Write the following on the board: 23 +18 Say: Let\'s review. What is 23 plus 18? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 23 + 18= 41",
+  	incorrectAnswerResponse: "Incorrect. 23 + 18= 41",
+  	set: 51
+  	},
+
+ 	2152:{
+  	question_tag: "L1MALP51Q1",
+   code: "2152",
+   title: "Maths Q101",
+   learner_question: "23 x 1 =? \r\n1. 231 \r\n2. 23 \r\n3. 24",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 23 x 1= 23",
+  	incorrectAnswerResponse: "Incorrect. 23 x 1= 23",
+  	set: 51
+  	},
+
+ 	2153:{
+  	question_tag: "L1MALP51Q2",
+   code: "2153",
+   title: "Maths Q102",
+   learner_question: "15÷5=? \r\n1. 10 \r\n2. 5 \r\n3. 3",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 15 ÷ 5= 3",
+  	incorrectAnswerResponse: "Incorrect. 15 ÷ 5= 3",
+  	set: 51
+  	},
+
+ 	2154:{
+  	question_tag: "L1MALP52QG",
+   code: "2154",
+   title: "Maths Class Q52",
+   learner_question: "\r\n1. $10 \r\n2. $3 \r\n3. $15",
+  	question: "Say: Ellen buys shirts for 10 dollars. He sells them for 15 dollars. He sells 3 shirts. How much does he make? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! (15-10) x 3= 5x3=15",
+  	incorrectAnswerResponse: "Incorrect. (15-10) x 3= 5x3=15",
+  	set: 52
+  	},
+
+ 	2155:{
+  	question_tag: "L1MALP52Q1",
+   code: "2155",
+   title: "Maths Q103",
+   learner_question: "Pam buys pens for LD $50. She sells pens for LD $80. She sells 2 pens. How much does she make? \r\n1. LD $60 \r\n2. LD $80 \r\n3. LD $100",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! LD $30 x 2 =LD $60",
+  	incorrectAnswerResponse: "Incorrect. LD $30 x 2 =LD $60",
+  	set: 52
+  	},
+
+ 	2156:{
+  	question_tag: "L1MALP52Q2",
+   code: "2156",
+   title: "Maths Q104",
+   learner_question: "Ben buys mats for $5. He sells mats for $7. He sells 10 mats. How much does he make? \r\n1. $10 \r\n2. $20 \r\n3. $30",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! ($7-$5)x10=2 x $10= $20",
+  	incorrectAnswerResponse: "Incorrect. ($7-$5)x10=2 x $10= $20",
+  	set: 52
+  	},
+
+ 	2157:{
+  	question_tag: "L1MALP53QG",
+   code: "2157",
+   title: "Maths Class Q53",
+   learner_question: "\r\n1. 24 \r\n2. 48 \r\n3. 12",
+  	question: "Say: Charles has 4 bags of pens. There are 12 pens in each bag. How many pens does Charles have? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 4 x 12= 48",
+  	incorrectAnswerResponse: "Incorrect. 4 x 12= 48",
+  	set: 53
+  	},
+
+ 	2158:{
+  	question_tag: "L1MALP53Q1",
+   code: "2158",
+   title: "Maths Q105",
+   learner_question: "34 x 2=? \r\n1. 68 \r\n2. 17 \r\n3. 36",
+  	question: "",
+  	answer: "1",
+  	correctAnswerResponse: ":) Correct! 34 x 2= 68",
+  	incorrectAnswerResponse: "Incorrect. 34 x 2= 68",
+  	set: 53
+  	},
+
+ 	2159:{
+  	question_tag: "L1MALP53Q2",
+   code: "2159",
+   title: "Maths Q106",
+   learner_question: "18÷9=? \r\n1. 9 \r\n2. 2 \r\n3. 27",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 18÷9=2",
+  	incorrectAnswerResponse: "Incorrect. 18÷9=2",
+  	set: 53
+  	},
+
+ 	2160:{
+  	question_tag: "L1MALP54QG",
+   code: "2160",
+   title: "Maths Class Q54",
+   learner_question: "\r\n1. $15 \r\n2. $3 \r\n3. $6",
+  	question: "Say: Sarah has 18 dollars. She gives the money to her 3 children. How much does each child get? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 18÷3=6",
+  	incorrectAnswerResponse: "Incorrect. 18÷3=6",
+  	set: 54
+  	},
+
+ 	2161:{
+  	question_tag: "L1MALP54Q1",
+   code: "2161",
+   title: "Maths Q107",
+   learner_question: "6 x 7= ? \r\n1. 13 \r\n2. 35 \r\n3. 42",
+  	question: "",
+  	answer: "3",
+  	correctAnswerResponse: ":) Correct! 6 x 7= 42",
+  	incorrectAnswerResponse: "Incorrect. 6 x 7= 42",
+  	set: 54
+  	},
+
+ 	2162:{
+  	question_tag: "L1MALP54Q2",
+   code: "2162",
+   title: "Maths Q108",
+   learner_question: "14 ÷ 7=? \r\n1. 21 \r\n2. 2 \r\n3. 7",
+  	question: "",
+  	answer: "2",
+  	correctAnswerResponse: ":) Correct! 14 ÷ 7=2",
+  	incorrectAnswerResponse: "Incorrect. 14 ÷ 7=2",
+  	set: 54
+  	},
+
+ 	4001:{
   	question_tag: "L2MALP1QG",
    code: "4001",
    title: "Num Class Q1",
@@ -1830,10 +1992,10 @@ exports.getQuestion = function(questionCode) {
    code: "4004",
    title: "Num Class Q2",
    learner_question: "\r\n1. 8 \r\n2. 2 \r\n3. 3",
-  	question: "Write: 328 Say: Which number is in the 'tens' place? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	question: "Write: 328 Say: Which number is in the \'tens\' place? Enter the number of the correct answer 1, 2 or \r\n3.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! In 328, the number '2' is in the tens place.",
-  	incorrectAnswerResponse: "Incorrect. In 328, the number '2' is in the tens place.",
+  	correctAnswerResponse: ":) Correct! In 328, the number \'2\' is in the tens place.",
+  	incorrectAnswerResponse: "Incorrect. In 328, the number \'2\' is in the tens place.",
   	set: 2
   	},
 
@@ -1841,11 +2003,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2MALP2Q1",
    code: "4005",
    title: "Num Q3",
-   learner_question: "Which digit is in the 'hundreds' place of 587? \r\n1. 5 \r\n2. 8 \r\n3. 7",
+   learner_question: "Which digit is in the \'hundreds\' place of 587? \r\n1. 5 \r\n2. 8 \r\n3. 7",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! In 587, the number '5' is in the hundreds place.",
-  	incorrectAnswerResponse: "Incorrect. In 587, the number '5' is in the hundreds place.",
+  	correctAnswerResponse: ":) Correct! In 587, the number \'5\' is in the hundreds place.",
+  	incorrectAnswerResponse: "Incorrect. In 587, the number \'5\' is in the hundreds place.",
   	set: 2
   	},
 
@@ -1853,11 +2015,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2MALP2Q2",
    code: "4006",
    title: "Num Q4",
-   learner_question: "Which digit is in the 'ones' place of 943? Enter the single digit number. \r\n1. 9 \r\n2. 4 \r\n3. 3",
+   learner_question: "Which digit is in the \'ones\' place of 943? Enter the single digit number. \r\n1. 9 \r\n2. 4 \r\n3. 3",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! In 943, the number '3' is in the ones place.",
-  	incorrectAnswerResponse: "Incorrect. In 943, the number '3' is in the ones place.",
+  	correctAnswerResponse: ":) Correct! In 943, the number \'3\' is in the ones place.",
+  	incorrectAnswerResponse: "Incorrect. In 943, the number \'3\' is in the ones place.",
   	set: 2
   	},
 
@@ -1902,10 +2064,10 @@ exports.getQuestion = function(questionCode) {
    code: "4010",
    title: "Num Class Q4",
    learner_question: "\r\n1. 8 \r\n2. 2 \r\n3. 3",
-  	question: "Write: 3,728 Say: Which number is in the 'thousands' place? Enter the number of the correct answer 1, 2 or \r\n3.",
+  	question: "Write: 3,728 Say: Which number is in the \'thousands\' place? Enter the number of the correct answer 1, 2 or \r\n3.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! In 3,728, the number '3' is in the thousands place.",
-  	incorrectAnswerResponse: "Incorrect. In 3,728, the number '3' is in the thousands place.",
+  	correctAnswerResponse: ":) Correct! In 3,728, the number \'3\' is in the thousands place.",
+  	incorrectAnswerResponse: "Incorrect. In 3,728, the number \'3\' is in the thousands place.",
   	set: 4
   	},
 
@@ -1913,11 +2075,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2MALP4Q1",
    code: "4011",
    title: "Num Q7",
-   learner_question: "Which digit is in the 'hundreds' place of 1,587? \r\n1. 1 \r\n2. 5 \r\n3. 7",
+   learner_question: "Which digit is in the \'hundreds\' place of 1,587? \r\n1. 1 \r\n2. 5 \r\n3. 7",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! In 1,587, the number '5' is in the hundreds place.",
-  	incorrectAnswerResponse: "Incorrect. In 1,587, the number '5' is in the hundreds place.",
+  	correctAnswerResponse: ":) Correct! In 1,587, the number \'5\' is in the hundreds place.",
+  	incorrectAnswerResponse: "Incorrect. In 1,587, the number \'5\' is in the hundreds place.",
   	set: 4
   	},
 
@@ -1925,11 +2087,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2MALP4Q2",
    code: "4012",
    title: "Num Q8",
-   learner_question: "Which digit is in the 'ones' place of 9,543? Enter the single digit number. \r\n1. 9 \r\n2. 5 \r\n3. 3 ",
+   learner_question: "Which digit is in the \'ones\' place of 9,543? Enter the single digit number. \r\n1. 9 \r\n2. 5 \r\n3. 3 ",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! In 9,543, the number '3' is in the ones place.",
-  	incorrectAnswerResponse: "Incorrect. In 9,543, the number '3' is in the ones place.",
+  	correctAnswerResponse: ":) Correct! In 9,543, the number \'3\' is in the ones place.",
+  	incorrectAnswerResponse: "Incorrect. In 9,543, the number \'3\' is in the ones place.",
   	set: 4
   	},
 
@@ -2156,8 +2318,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. 16, 17 \r\n2. 18,21 \r\n3. 20,23",
   	question: "Write the following on the board: 9,12,15,____,____,24 Say: Which numbers are missing? Answer the text message.",
   	answer: "2",
-  	correctAnswerResponse: "Correct! The pattern skip counted by 3's. 9,12,15,18,21,24",
-  	incorrectAnswerResponse: "Correct! The pattern skip counted by 3's. 9,12,15,18,21,24",
+  	correctAnswerResponse: "Correct! The pattern skip counted by 3\'s. 9,12,15,18,21,24",
+  	incorrectAnswerResponse: "Correct! The pattern skip counted by 3\'s. 9,12,15,18,21,24",
   	set: 11
   	},
 
@@ -2168,8 +2330,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "What number is missing? 10,15,20,____,30 \r\n1. 25 \r\n2. 21 \r\n3. 29",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: "Correct! The pattern skip counted by 5's. 10,15,20,25,30.",
-  	incorrectAnswerResponse: "Correct! The pattern skip counted by 5's. 10,15,20,25,30.",
+  	correctAnswerResponse: "Correct! The pattern skip counted by 5\'s. 10,15,20,25,30.",
+  	incorrectAnswerResponse: "Correct! The pattern skip counted by 5\'s. 10,15,20,25,30.",
   	set: 11
   	},
 
@@ -2180,8 +2342,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "What numbers are missing? 10, 12, 14, ___, ___ \r\n1. 16, 18 \r\n2. 15, 18 \r\n3. 15, 16",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: "Correct! The pattern skip counted by 2's. 10,12,14,16,18.",
-  	incorrectAnswerResponse: "Correct! The pattern skip counted by 2's. 10,12,14,16,18.",
+  	correctAnswerResponse: "Correct! The pattern skip counted by 2\'s. 10,12,14,16,18.",
+  	incorrectAnswerResponse: "Correct! The pattern skip counted by 2\'s. 10,12,14,16,18.",
   	set: 11
   	},
 
@@ -2204,8 +2366,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "What numbers are missing? 8, 12, 16, ___, ___ \r\n1. 16, 18 \r\n2. 17, 18 \r\n3. 20, 24",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: "Correct! The pattern skip counted by 4's. 8,12,16,20,24",
-  	incorrectAnswerResponse: "Correct! The pattern skip counted by 4's. 8,12,16,20,24",
+  	correctAnswerResponse: "Correct! The pattern skip counted by 4\'s. 8,12,16,20,24",
+  	incorrectAnswerResponse: "Correct! The pattern skip counted by 4\'s. 8,12,16,20,24",
   	set: 12
   	},
 
@@ -2216,8 +2378,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "What numbers are missing? ____, 7,9,11,____ \r\n1. 6, 12 \r\n2. 5, 13 \r\n3. 4, 14",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: "Correct! The pattern skip counted by 3's. 5,7,9,11,13",
-  	incorrectAnswerResponse: "Correct! The pattern skip counted by 3's. 5,7,9,11,13",
+  	correctAnswerResponse: "Correct! The pattern skip counted by 3\'s. 5,7,9,11,13",
+  	incorrectAnswerResponse: "Correct! The pattern skip counted by 3\'s. 5,7,9,11,13",
   	set: 12
   	},
 
@@ -2276,8 +2438,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Write the missing numbers. ___, 10, 12,___, 16. \r\n1. 9, 13 \r\n2. 7, 15 \r\n3. 8, 14",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: "Correct! The pattern skip counted by 2's. 8,10,12,14,16.",
-  	incorrectAnswerResponse: "Correct! The pattern skip counted by 2's. 8,10,12,14,16.",
+  	correctAnswerResponse: "Correct! The pattern skip counted by 2\'s. 8,10,12,14,16.",
+  	incorrectAnswerResponse: "Correct! The pattern skip counted by 2\'s. 8,10,12,14,16.",
   	set: 14
   	},
 
@@ -2658,7 +2820,7 @@ exports.getQuestion = function(questionCode) {
    code: "4073",
    title: "Num Class Q25",
    learner_question: "\r\n1. $55 \r\n2. $15 \r\n3. $5",
-  	question: "Say: Flomo has 35 dollars. She spends 20 dollars at a shop. How much money does Flomo have now. Enter the answer on your phone. Do NOT add the '$' symbol. ",
+  	question: "Say: Flomo has 35 dollars. She spends 20 dollars at a shop. How much money does Flomo have now. Enter the answer on your phone. Do NOT add the \'$\' symbol. ",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! 35-20= 15",
   	incorrectAnswerResponse: "Incorrect. 35-20= 15",
@@ -3341,7 +3503,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2MALP44QG",
    code: "4130",
    title: "Num Class Q44",
-   learner_question: "What fraction are 'A'? \r\n1. 1/4 \r\n2. 1/3 \r\n3. 1/2",
+   learner_question: "What fraction are \'A\'? \r\n1. 1/4 \r\n2. 1/3 \r\n3. 1/2",
   	question: "Write the following on the board: (ABBB) Say: I wrote four letters on the board. What fraction of the letters are letter A?",
   	answer: "1",
   	correctAnswerResponse: ":) Correct! (ABBB) 1/4 of the letters are A.",
@@ -3414,10 +3576,10 @@ exports.getQuestion = function(questionCode) {
    code: "4136",
    title: "Num Class Q46",
    learner_question: "\r\n1. (3/2) \r\n2. (2/5) \r\n3. (15)",
-  	question: "Write: 3/5 Say: Which is a 'like' fraction to three fifths? Enter the number of the correct answer.",
+  	question: "Write: 3/5 Say: Which is a \'like\' fraction to three fifths? Enter the number of the correct answer.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! 3/5 and 2/5 are 'like' fractions. They have the same denominator.",
-  	incorrectAnswerResponse: "Incorrect. 3/5 and 2/5 are 'like' fractions. They have the same denominator.",
+  	correctAnswerResponse: ":) Correct! 3/5 and 2/5 are \'like\' fractions. They have the same denominator.",
+  	incorrectAnswerResponse: "Incorrect. 3/5 and 2/5 are \'like\' fractions. They have the same denominator.",
   	set: 46
   	},
 
@@ -3425,7 +3587,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2MALP46Q1",
    code: "4137",
    title: "Num Q91",
-   learner_question: "Which is a 'like' fraction with 5/6? \r\n1. (3/5) \r\n2. (1/6) \r\n3. (6/5)",
+   learner_question: "Which is a \'like\' fraction with 5/6? \r\n1. (3/5) \r\n2. (1/6) \r\n3. (6/5)",
   	question: "",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! 2/6 and 5/6 are like fractions. They have the same denominator.",
@@ -3437,7 +3599,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2MALP46Q2",
    code: "4138",
    title: "Num Q92",
-   learner_question: "Which is a 'like' fraction with 3/7? \r\n1. (7/3) \r\n2. (1/3) \r\n3. (6/7)",
+   learner_question: "Which is a \'like\' fraction with 3/7? \r\n1. (7/3) \r\n2. (1/3) \r\n3. (6/7)",
   	question: "",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! 3/7 and 6/7 are like fractions. They have the same denominator.",
@@ -3732,7 +3894,8 @@ exports.getQuestion = function(questionCode) {
   	incorrectAnswerResponse: "Incorrect. 10/3 = 3(3/10)",
   	set: 54
   	},
-  	6001:{
+
+ 	6001:{
   	question_tag: "L3MALP1QG",
    code: "6001",
    title: "Maths Class Q1",
@@ -3809,7 +3972,7 @@ exports.getQuestion = function(questionCode) {
    code: "6007",
    title: "Maths Class Q3",
    learner_question: "\r\n1. To take money out of the bank. \r\n2. To put money in the bank. \r\n3. To buy something from the bank.",
-  	question: "Say: What does it mean to 'deposit' money at the bank. Enter the number of the correct answer on your phone.",
+  	question: "Say: What does it mean to \'deposit\' money at the bank. Enter the number of the correct answer on your phone.",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! When we deposit money, we put money in the bank.",
   	incorrectAnswerResponse: "Incorrect. When we deposit money, we put money in the bank.",
@@ -3823,8 +3986,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "What do we call taking our money from the bank? \r\n1. Withdrawal \r\n2. Deposit \r\n3. Stealing ",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! Taking money from the bank is called a 'withdrawal'.",
-  	incorrectAnswerResponse: "Incorrect. Taking money from the bank is called a 'withdrawal'.",
+  	correctAnswerResponse: ":) Correct! Taking money from the bank is called a \'withdrawal\'.",
+  	incorrectAnswerResponse: "Incorrect. Taking money from the bank is called a \'withdrawal\'.",
   	set: 3
   	},
 
@@ -5656,7 +5819,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3MALP54Q1",
    code: "6161",
    title: "Maths Q107",
-   learner_question: "Ruth's shop needs more material to make dresses. Which form will help her? \r\n1. order form \r\n2. stock list \r\n3. cash book",
+   learner_question: "Ruth\'s shop needs more material to make dresses. Which form will help her? \r\n1. order form \r\n2. stock list \r\n3. cash book",
   	question: "",
   	answer: "1",
   	correctAnswerResponse: "Correct! :) An inventory form will track the material she buys",
@@ -5692,7 +5855,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3MALP55Q1",
    code: "6164",
    title: "Maths Q109",
-   learner_question: "Jane's income for May was $1000. Her profit was only $100. What were her expenses? \r\n1. $900 \r\n2. $1,100 \r\n2. $100",
+   learner_question: "Jane\'s income for May was $1000. Her profit was only $100. What were her expenses? \r\n1. $900 \r\n2. $1,100 \r\n2. $100",
   	question: "",
   	answer: "1",
   	correctAnswerResponse: "Correct! :) 1000- 100= $900",
@@ -5747,15 +5910,16 @@ exports.getQuestion = function(questionCode) {
   	incorrectAnswerResponse: "Incorrect. 1000 X .20= 200 + 1000= $1,200",
   	set: 56
   	},
-  	3001:{
+
+ 	3001:{
   	question_tag: "L2ENLP1QG",
    code: "3001",
    title: "Eng Class Q1",
    learner_question: "\r\n1. 19 \r\n2. 17 \r\n3. 2",
-  	question: "Say: Open to page 7. Read 'The Two Sisters and Their Workbooks' again. How old was Luna? Enter the number of the correct answer on your phone.",
+  	question: "Say: Open to page 7. Read \'The Two Sisters and Their Workbooks\' again. How old was Luna? Enter the number of the correct answer on your phone.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! The story says, 'Luna was 17.'",
-  	incorrectAnswerResponse: "Incorrect. The story says, 'Luna was 17.'",
+  	correctAnswerResponse: ":) Correct! The story says, \'Luna was 17.\'",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'Luna was 17.\'",
   	set: 1
   	},
 
@@ -5778,8 +5942,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the pattern: Aa, Bb, Cc, D___ \r\n1. b \r\n2. p \r\n3. d",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! Lowercase D is written 'd'.",
-  	incorrectAnswerResponse: "Incorrect. Lowercase D is written 'd'.",
+  	correctAnswerResponse: ":) Correct! Lowercase D is written \'d\'.",
+  	incorrectAnswerResponse: "Incorrect. Lowercase D is written \'d\'.",
   	set: 1
   	},
 
@@ -5788,10 +5952,10 @@ exports.getQuestion = function(questionCode) {
    code: "3004",
    title: "Eng Class Q2",
    learner_question: "\r\n1. bread \r\n2. soap \r\n3. homes",
-  	question: "Say: Open to page 1\r\n2. Read 'Kona's Goals' again. What does Kona want to sell? Enter the number of the correct answer on your phone.",
+  	question: "Say: Open to page 1\r\n2. Read \'Kona\'s Goals\' again. What does Kona want to sell? Enter the number of the correct answer on your phone.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! The story says, 'Kona wants to sell soap.'",
-  	incorrectAnswerResponse: "Incorrect. The story says, 'Kona wants to sell soap.'",
+  	correctAnswerResponse: ":) Correct! The story says, \'Kona wants to sell soap.\'",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'Kona wants to sell soap.\'",
   	set: 2
   	},
 
@@ -5824,10 +5988,10 @@ exports.getQuestion = function(questionCode) {
    code: "3007",
    title: "Eng Class Q3",
    learner_question: "\r\n1. To sit at home. \r\n2. To be a singer. \r\n3. To have a job.",
-  	question: "Say: Open to page 20. Read 'Keddah's Goal' again. What is Keddah's goal? Enter the number of the correct answer on your phone.",
+  	question: "Say: Open to page 20. Read \'Keddah\'s Goal\' again. What is Keddah\'s goal? Enter the number of the correct answer on your phone.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, "Keddah's goal is to have a job."",
-  	incorrectAnswerResponse: "Incorrect. The story says, "Keddah's goal is to have a job."",
+  	correctAnswerResponse: ":) Correct! The story says, \"Keddah\'s goal is to have a job.\"",
+  	incorrectAnswerResponse: "Incorrect. The story says, \"Keddah\'s goal is to have a job.\"",
   	set: 3
   	},
 
@@ -5850,8 +6014,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the sentence. We _____ with our ears. \r\n1. speak up \r\n2. listen \r\n3. sew",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! We listen with our ears. Listen means 'hear'. I listen to music.",
-  	incorrectAnswerResponse: "Incorrect. We listen with our ears. Listen means 'hear'. I listen to music.",
+  	correctAnswerResponse: ":) Correct! We listen with our ears. Listen means \'hear\'. I listen to music.",
+  	incorrectAnswerResponse: "Incorrect. We listen with our ears. Listen means \'hear\'. I listen to music.",
   	set: 3
   	},
 
@@ -5896,10 +6060,10 @@ exports.getQuestion = function(questionCode) {
    code: "3013",
    title: "Eng Class Q5",
    learner_question: "\r\n1. Two hundred fifty years ago. \r\n2. Last year \r\n3. Three hundred fifty years ago",
-  	question: "Say: Open your books to page 36. Read 'The Dictionary' again. When was the first dictionary made? Enter the number of the correct answer on your phone.",
+  	question: "Say: Open your books to page 36. Read \'The Dictionary\' again. When was the first dictionary made? Enter the number of the correct answer on your phone.",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! The story says, 'Then 250 years ago a big change came- the first dictionary.'",
-  	incorrectAnswerResponse: "Incorrect. The story says, 'Then 250 years ago a big change came- the first dictionary.'",
+  	correctAnswerResponse: ":) Correct! The story says, \'Then 250 years ago a big change came- the first dictionary.\'",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'Then 250 years ago a big change came- the first dictionary.\'",
   	set: 5
   	},
 
@@ -5932,10 +6096,10 @@ exports.getQuestion = function(questionCode) {
    code: "3016",
    title: "Eng Class Q6",
    learner_question: "\r\n1. A form \r\n2. A pill \r\n3. A skill",
-  	question: "Say: Open to page 44. Read 'Kona is ill.' again. What does Kona learn?",
+  	question: "Say: Open to page 44. Read \'Kona is ill.\' again. What does Kona learn?",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, ' Kona learns a skill.'",
-  	incorrectAnswerResponse: "Incorrect. The story says, ' Kona learns a skill.'",
+  	correctAnswerResponse: ":) Correct! The story says, \' Kona learns a skill.\'",
+  	incorrectAnswerResponse: "Incorrect. The story says, \' Kona learns a skill.\'",
   	set: 6
   	},
 
@@ -5943,7 +6107,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP6Q1",
    code: "3017",
    title: "Eng Q11",
-   learner_question: "Which word rhymes with 'skill'? \r\n1. Skip \r\n2. Fill \r\n3. Skin",
+   learner_question: "Which word rhymes with \'skill\'? \r\n1. Skip \r\n2. Fill \r\n3. Skin",
   	question: "",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! Words that rhyme have the same end sound. Skill, fill, bill, hill.",
@@ -5967,11 +6131,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP7QG",
    code: "3019",
    title: "Eng Class Q7",
-   learner_question: "\r\n1. A baker \r\n2. A driver \r\n3. Kona's friend",
-  	question: "Say: Open to page 50. Read 'Jobs in Vonzu' again. Who is Helen? Enter the number of the correct answer on your phone.",
+   learner_question: "\r\n1. A baker \r\n2. A driver \r\n3. Kona\'s friend",
+  	question: "Say: Open to page 50. Read \'Jobs in Vonzu\' again. Who is Helen? Enter the number of the correct answer on your phone.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, ''My friend Hellen knows Vonzu well,' says Kona.'",
-  	incorrectAnswerResponse: "Incorrect. The story says, ''My friend Hellen knows Vonzu well,' says Kona.'",
+  	correctAnswerResponse: ":) Correct! The story says, \'\'My friend Hellen knows Vonzu well,\' says Kona.\'",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'\'My friend Hellen knows Vonzu well,\' says Kona.\'",
   	set: 7
   	},
 
@@ -5994,8 +6158,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the sentence: She _____ the van. \r\n1. drives \r\n2. drive \r\n3. driver",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! With he, she, and it, we add 's' or 'es' to the end of present tense verbs. He drives a car.",
-  	incorrectAnswerResponse: "Incorrect. With he, she, and it, we add 's' or 'es' to the end of present tense verbs. He drives a car.",
+  	correctAnswerResponse: ":) Correct! With he, she, and it, we add \'s\' or \'es\' to the end of present tense verbs. He drives a car.",
+  	incorrectAnswerResponse: "Incorrect. With he, she, and it, we add \'s\' or \'es\' to the end of present tense verbs. He drives a car.",
   	set: 7
   	},
 
@@ -6004,10 +6168,10 @@ exports.getQuestion = function(questionCode) {
    code: "3022",
    title: "Eng Class Q8",
    learner_question: "\r\n1. In a cook shop \r\n2. In a drugstore \r\n3. In an office",
-  	question: "Say: Open to page 59. Read 'Meet Romo' again. Where does a girl mop? Enter the number of the correct answer on your phone.",
+  	question: "Say: Open to page 59. Read \'Meet Romo\' again. Where does a girl mop? Enter the number of the correct answer on your phone.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, 'In an office, a girl mops.'",
-  	incorrectAnswerResponse: "Incorrect. The story says, 'In an office, a girl mops.'",
+  	correctAnswerResponse: ":) Correct! The story says, \'In an office, a girl mops.\'",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'In an office, a girl mops.\'",
   	set: 8
   	},
 
@@ -6018,8 +6182,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the question: What _____ she want? \r\n1. do \r\n2. does \r\n3. done",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! With 'he', 'she' and 'it' we use 'does'. Does he see? What does it eat?",
-  	incorrectAnswerResponse: "Incorrect. With 'he', 'she' and 'it' we use 'does'. Does he see? What does it eat?",
+  	correctAnswerResponse: ":) Correct! With \'he\', \'she\' and \'it\' we use \'does\'. Does he see? What does it eat?",
+  	incorrectAnswerResponse: "Incorrect. With \'he\', \'she\' and \'it\' we use \'does\'. Does he see? What does it eat?",
   	set: 8
   	},
 
@@ -6030,8 +6194,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the question: Where _____ you live? \r\n1. do \r\n2. does \r\n3. done",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! With 'I', 'you', 'we', and 'they' we use 'do'. Do they like rice? Where do we sit?",
-  	incorrectAnswerResponse: "Incorrect. With 'I', 'you', 'we', and 'they' we use 'do'. Do they like rice? Where do we sit?",
+  	correctAnswerResponse: ":) Correct! With \'I\', \'you\', \'we\', and \'they\' we use \'do\'. Do they like rice? Where do we sit?",
+  	incorrectAnswerResponse: "Incorrect. With \'I\', \'you\', \'we\', and \'they\' we use \'do\'. Do they like rice? Where do we sit?",
   	set: 8
   	},
 
@@ -6040,10 +6204,10 @@ exports.getQuestion = function(questionCode) {
    code: "3025",
    title: "Eng Class Q9",
    learner_question: "\r\n1. In our town \r\n2. Every year \r\n3. Every fifteen days",
-  	question: "Say: Open to page 7\r\n1. Read 'Jobs in Dabu, Lofa' again. When does the doctor come? Enter the number of the correct answer on your phone.",
+  	question: "Say: Open to page 7\r\n1. Read \'Jobs in Dabu, Lofa\' again. When does the doctor come? Enter the number of the correct answer on your phone.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, 'A doctor comes very 15 days.'",
-  	incorrectAnswerResponse: "Incorrect. The story says, 'A doctor comes very 15 days.'",
+  	correctAnswerResponse: ":) Correct! The story says, \'A doctor comes very 15 days.\'",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'A doctor comes very 15 days.\'",
   	set: 9
   	},
 
@@ -6051,11 +6215,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP9Q1",
    code: "3026",
    title: "Eng Q17",
-   learner_question: "Which word means 'With someone or something'? \r\n1. anything \r\n2. together \r\n3. change",
+   learner_question: "Which word means \'With someone or something\'? \r\n1. anything \r\n2. together \r\n3. change",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! Together means 'With someone or something.' The two girls walk together.",
-  	incorrectAnswerResponse: "Incorrect. Together means 'With someone or something.' The two girls walk together.",
+  	correctAnswerResponse: ":) Correct! Together means \'With someone or something.\' The two girls walk together.",
+  	incorrectAnswerResponse: "Incorrect. Together means \'With someone or something.\' The two girls walk together.",
   	set: 9
   	},
 
@@ -6076,7 +6240,7 @@ exports.getQuestion = function(questionCode) {
    code: "3028",
    title: "Eng Class Q10",
    learner_question: "\r\n1. bad \r\n2. cake \r\n3. made",
-  	question: "Say: What word rhymes with 'Bake'? Enter the number of the correct answer on your phone.",
+  	question: "Say: What word rhymes with \'Bake\'? Enter the number of the correct answer on your phone.",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! Words that rhyme have the same end sound. Bake, cake, rake, make.",
   	incorrectAnswerResponse: "Incorrect. Words that rhyme have the same end sound. Bake, cake, rake, make.",
@@ -6090,8 +6254,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the sentence: Where ____ he work? \r\n1. do \r\n2. does \r\n3. done",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! With 'he', 'she' and 'it' we use 'does'. Does he see? What does it eat?",
-  	incorrectAnswerResponse: "Incorrect. With 'he', 'she' and 'it' we use 'does'. Does he see? What does it eat?",
+  	correctAnswerResponse: ":) Correct! With \'he\', \'she\' and \'it\' we use \'does\'. Does he see? What does it eat?",
+  	incorrectAnswerResponse: "Incorrect. With \'he\', \'she\' and \'it\' we use \'does\'. Does he see? What does it eat?",
   	set: 10
   	},
 
@@ -6111,7 +6275,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP11QG",
    code: "3031",
    title: "Eng Class Q11",
-   learner_question: "\r\n1. Flomo's friend \r\n2. Flomo's mother \r\n3. Flomo's wife",
+   learner_question: "\r\n1. Flomo\'s friend \r\n2. Flomo\'s mother \r\n3. Flomo\'s wife",
   	question: "Say: Open to page 86. Read Flomo Thinks About Work again. Who is Kabeh? Enter the number of the correct answer on your phone. ",
   	answer: "3",
   	correctAnswerResponse: ":) Correct! The story tells us that Flomo is talking to his wife, Kabeh.",
@@ -6126,8 +6290,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the sentence: I ____ a farmer. \r\n1. is \r\n2. am \r\n3. are",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! We use 'am' with the pronoun 'I'. I am happy.",
-  	incorrectAnswerResponse: "Incorrect. We use 'am' with the pronoun 'I'. I am happy.",
+  	correctAnswerResponse: ":) Correct! We use \'am\' with the pronoun \'I\'. I am happy.",
+  	incorrectAnswerResponse: "Incorrect. We use \'am\' with the pronoun \'I\'. I am happy.",
   	set: 11
   	},
 
@@ -6138,8 +6302,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the sentence: We ____ reading. \r\n1. is \r\n2. am \r\n3. are",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! We use 'are' with 'we', 'they' and 'you'. We are eating.",
-  	incorrectAnswerResponse: "Incorrect. We use 'are' with 'we', 'they' and 'you'. We are eating.",
+  	correctAnswerResponse: ":) Correct! We use \'are\' with \'we\', \'they\' and \'you\'. We are eating.",
+  	incorrectAnswerResponse: "Incorrect. We use \'are\' with \'we\', \'they\' and \'you\'. We are eating.",
   	set: 11
   	},
 
@@ -6148,10 +6312,10 @@ exports.getQuestion = function(questionCode) {
    code: "3034",
    title: "Eng Class Q12",
    learner_question: "\r\n1. She will cook it. \r\n2. She will make a chart. \r\n3. She will sell it.",
-  	question: "Say: Open to page 9\r\n2. Read 'Temba's Fish Shop' again. Why does Temba take a bit of paper? Enter the number of the correct answer on your phone.",
+  	question: "Say: Open to page 9\r\n2. Read \'Temba\'s Fish Shop\' again. Why does Temba take a bit of paper? Enter the number of the correct answer on your phone.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! The story says, 'She makes a chart- Temba's Cook shop.'",
-  	incorrectAnswerResponse: "Incorrect. The story says, 'She makes a chart- Temba's Cook shop.'",
+  	correctAnswerResponse: ":) Correct! The story says, \'She makes a chart- Temba\'s Cook shop.\'",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'She makes a chart- Temba\'s Cook shop.\'",
   	set: 12
   	},
 
@@ -6159,7 +6323,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP12Q1",
    code: "3035",
    title: "Eng Q23",
-   learner_question: "Which word rhymes with 'Smart'? \r\n1. small \r\n2. farm \r\n3. part",
+   learner_question: "Which word rhymes with \'Smart\'? \r\n1. small \r\n2. farm \r\n3. part",
   	question: "",
   	answer: "3",
   	correctAnswerResponse: ":) Correct! Words that rhyme have the same end sound. Smart, part, cart, dart.",
@@ -6174,8 +6338,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the question: ____ he a farmer? \r\n1. Is \r\n2. Am \r\n3. Are",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! We use 'is' with 'he', 'she' and 'it'. He is happy.",
-  	incorrectAnswerResponse: "Incorrect. We use 'is' with 'he', 'she' and 'it'. He is happy.",
+  	correctAnswerResponse: ":) Correct! We use \'is\' with \'he\', \'she\' and \'it\'. He is happy.",
+  	incorrectAnswerResponse: "Incorrect. We use \'is\' with \'he\', \'she\' and \'it\'. He is happy.",
   	set: 12
   	},
 
@@ -6184,7 +6348,7 @@ exports.getQuestion = function(questionCode) {
    code: "3037",
    title: "Eng Class Q13",
    learner_question: "\r\n1. Builder \r\n2. Mechanic \r\n3. Farmer",
-  	question: "Say: Open to page 100. Read 'Flomo Thinks About His Skills' again. What is a good job for Flomo? Enter the number of the correct answer on your phone. ",
+  	question: "Say: Open to page 100. Read \'Flomo Thinks About His Skills\' again. What is a good job for Flomo? Enter the number of the correct answer on your phone. ",
   	answer: "3",
   	correctAnswerResponse: ":) Correct! Kabeh says Flomo is good at growing things. Farmers grow things.",
   	incorrectAnswerResponse: "Incorrect. Kabeh says Flomo is good at growing things. Farmers grow things.",
@@ -6195,7 +6359,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP13Q1",
    code: "3038",
    title: "Eng Q25",
-   learner_question: "Which word rhymes with 'Hide'? \r\n1. Hid \r\n2. Home \r\n3. Ride",
+   learner_question: "Which word rhymes with \'Hide\'? \r\n1. Hid \r\n2. Home \r\n3. Ride",
   	question: "",
   	answer: "3",
   	correctAnswerResponse: ":) Correct! Words that rhyme have the same end sound. Hide, ride, side, wide.",
@@ -6220,7 +6384,7 @@ exports.getQuestion = function(questionCode) {
    code: "3040",
    title: "Eng Class Q14 ",
    learner_question: "\r\n1. They are hungry. \r\n2. They do not see their mother. \r\n3. They are frightened by a spirit.",
-  	question: "Say: Turn to page 108. Read 'The Song of the Birds.' Why are the baby birds sad? Enter the number of the correct answer on your phone.",
+  	question: "Say: Turn to page 108. Read \'The Song of the Birds.\' Why are the baby birds sad? Enter the number of the correct answer on your phone.",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! The baby birds cry because they do not see their mother.",
   	incorrectAnswerResponse: "Incorrect. The baby birds cry because they do not see their mother.",
@@ -6231,7 +6395,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP14Q1",
    code: "3041",
    title: "Eng Q27",
-   learner_question: "Which word rhymes with 'He'? \r\n1. Have \r\n2. See \r\n3. Help",
+   learner_question: "Which word rhymes with \'He\'? \r\n1. Have \r\n2. See \r\n3. Help",
   	question: "",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! Words that Rhyme have the same end sound. He, see, bee, we.",
@@ -6256,10 +6420,10 @@ exports.getQuestion = function(questionCode) {
    code: "3043",
    title: "Eng Class Q15",
    learner_question: "\r\n1. Biyamanyen \r\n2. Gorn, gorn, gorn \r\n3. Shii, shii, shii",
-  	question: "Say: Turn to page 12\r\n1. Read 'The Song of the Birds.' What sound does the eagle make? Enter the number of the correct answer on your phone.",
+  	question: "Say: Turn to page 12\r\n1. Read \'The Song of the Birds.\' What sound does the eagle make? Enter the number of the correct answer on your phone.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, 'Ma Eagle sings, "Shii, Shii, Shii."'",
-  	incorrectAnswerResponse: "Incorrect. The story says, 'Ma Eagle sings, "Shii, Shii, Shii."'",
+  	correctAnswerResponse: ":) Correct! The story says, \'Ma Eagle sings, \"Shii, Shii, Shii.\"\'",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'Ma Eagle sings, \"Shii, Shii, Shii.\"\'",
   	set: 15
   	},
 
@@ -6267,7 +6431,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP15Q1",
    code: "3044",
    title: "Eng Q29",
-   learner_question: "Which word rhymes with 'lie'? \r\n1. why \r\n2. lay \r\n3. see",
+   learner_question: "Which word rhymes with \'lie\'? \r\n1. why \r\n2. lay \r\n3. see",
   	question: "",
   	answer: "1",
   	correctAnswerResponse: ":) Correct! Words that rhyme have the same end sound. My, by, sky, lie, tie.",
@@ -6292,7 +6456,7 @@ exports.getQuestion = function(questionCode) {
    code: "3046",
    title: "Eng Class Q16",
    learner_question: "\r\n1. She sings the correct song. \r\n2. She looks like them. \r\n3. She knows their names.",
-  	question: "Say: Open to page 12\r\n1. Read 'The Song of the Birds' again. How do the birds know the big bird is their mother? Answer the text message now.",
+  	question: "Say: Open to page 12\r\n1. Read \'The Song of the Birds\' again. How do the birds know the big bird is their mother? Answer the text message now.",
   	answer: "1",
   	correctAnswerResponse: ":) Correct! In the story, the little birds know their mother because of the song she sings.",
   	incorrectAnswerResponse: "Incorrect. In the story, the little birds know their mother because of the song she sings.",
@@ -6306,8 +6470,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentence is correct? \r\n1. We are hunters not. \r\n2. We are not hunters. \r\n3. We not are hunters.",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! We are not hunters. We use 'not' after the verb 'to be'. I am not happy.",
-  	incorrectAnswerResponse: "Incorrect. We are not hunters. We use 'not' after the verb 'to be'. I am not happy.",
+  	correctAnswerResponse: ":) Correct! We are not hunters. We use \'not\' after the verb \'to be\'. I am not happy.",
+  	incorrectAnswerResponse: "Incorrect. We are not hunters. We use \'not\' after the verb \'to be\'. I am not happy.",
   	set: 16
   	},
 
@@ -6318,8 +6482,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentence is correct? \r\n1. It was a good day not. \r\n2. It not was a good day. \r\n3. It was not a good day.",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! We use 'not' after the verb 'to be'. I was not happy today.",
-  	incorrectAnswerResponse: "Incorrect. We use 'not' after the verb 'to be'. I was not happy today.",
+  	correctAnswerResponse: ":) Correct! We use \'not\' after the verb \'to be\'. I was not happy today.",
+  	incorrectAnswerResponse: "Incorrect. We use \'not\' after the verb \'to be\'. I was not happy today.",
   	set: 16
   	},
 
@@ -6328,7 +6492,7 @@ exports.getQuestion = function(questionCode) {
    code: "3049",
    title: "Eng Class Q17",
    learner_question: "\r\n1. A fish \r\n2. A fisherman \r\n3. His father",
-  	question: "Say: Open to page 137. Read 'Charles' again. What does Charles want to be? Enter the number of the correct answer on your phone.",
+  	question: "Say: Open to page 137. Read \'Charles\' again. What does Charles want to be? Enter the number of the correct answer on your phone.",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! Charles wants to be a fisherman. ",
   	incorrectAnswerResponse: "Incorrect. Charles wants to be a fisherman. ",
@@ -6342,8 +6506,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the sentence: They ____ to drink milk. \r\n1. like \r\n2. likes \r\n3. liking",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! We do not add 's' or 'es' to verbs with 'they', 'you', 'I' or 'we'. I like dogs. We like chicken.",
-  	incorrectAnswerResponse: "Incorrect. We do not add 's' or 'es' to verbs with 'they', 'you', 'I' or 'we'. I like dogs. We like chicken.",
+  	correctAnswerResponse: ":) Correct! We do not add \'s\' or \'es\' to verbs with \'they\', \'you\', \'I\' or \'we\'. I like dogs. We like chicken.",
+  	incorrectAnswerResponse: "Incorrect. We do not add \'s\' or \'es\' to verbs with \'they\', \'you\', \'I\' or \'we\'. I like dogs. We like chicken.",
   	set: 17
   	},
 
@@ -6364,7 +6528,7 @@ exports.getQuestion = function(questionCode) {
    code: "3052",
    title: "Eng Class Q18",
    learner_question: "\r\n1. Sell \r\n2. Ball \r\n3. Bet",
-  	question: "Say: What word rhymes with 'bell'? Enter the number of the correct answer on your phone.",
+  	question: "Say: What word rhymes with \'bell\'? Enter the number of the correct answer on your phone.",
   	answer: "1",
   	correctAnswerResponse: ":) Correct! Words that rhyme have the same end sound. Bell, sell, tell, fell.",
   	incorrectAnswerResponse: "Incorrect. Words that rhyme have the same end sound. Bell, sell, tell, fell.",
@@ -6390,8 +6554,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the sentence: I ____ a teacher. \r\n1. am \r\n2. is \r\n3. are",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! We use 'am' with the pronoun 'I'. I am a farmer. I am hungry.",
-  	incorrectAnswerResponse: "Incorrect. We use 'am' with the pronoun 'I'. I am a farmer. I am hungry.",
+  	correctAnswerResponse: ":) Correct! We use \'am\' with the pronoun \'I\'. I am a farmer. I am hungry.",
+  	incorrectAnswerResponse: "Incorrect. We use \'am\' with the pronoun \'I\'. I am a farmer. I am hungry.",
   	set: 18
   	},
 
@@ -6400,10 +6564,10 @@ exports.getQuestion = function(questionCode) {
    code: "3055",
    title: "Eng Class Q19",
    learner_question: "\r\n1. To open a bakery. \r\n2. To be a farmer. \r\n3. To sell soap.",
-  	question: "Say: Open to page 140. Read 'Making things: Kona' again. What is Kona's goal? Enter the number of the correct answer on your phone.",
+  	question: "Say: Open to page 140. Read \'Making things: Kona\' again. What is Kona\'s goal? Enter the number of the correct answer on your phone.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, 'You know me- Kona Doe. My goal is to make soap.'",
-  	incorrectAnswerResponse: "Incorrect. The story says, 'You know me- Kona Doe. My goal is to make soap.'",
+  	correctAnswerResponse: ":) Correct! The story says, \'You know me- Kona Doe. My goal is to make soap.\'",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'You know me- Kona Doe. My goal is to make soap.\'",
   	set: 19
   	},
 
@@ -6436,10 +6600,10 @@ exports.getQuestion = function(questionCode) {
    code: "3058",
    title: "Eng Class Q20",
    learner_question: "\r\n1. To make money. \r\n2. To make friends. \r\n3. To give up.",
-  	question: "Say: Open to page 146. Read 'It Takes Hard Work' again. What do small business want? ",
+  	question: "Say: Open to page 146. Read \'It Takes Hard Work\' again. What do small business want? ",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! The story says, 'Small business people want to make money.'",
-  	incorrectAnswerResponse: "Incorrect. The story says, 'Small business people want to make money.'",
+  	correctAnswerResponse: ":) Correct! The story says, \'Small business people want to make money.\'",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'Small business people want to make money.\'",
   	set: 20
   	},
 
@@ -6447,7 +6611,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP20Q1",
    code: "3059",
    title: "Eng Q39",
-   learner_question: "Which word means 'a possible problem'? \r\n1. Customer \r\n2. Risk \r\n3. Profit",
+   learner_question: "Which word means \'a possible problem\'? \r\n1. Customer \r\n2. Risk \r\n3. Profit",
   	question: "",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! Risks are possible problems or dangers.",
@@ -6471,11 +6635,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP21QG",
    code: "3061",
    title: "Eng Class Q21",
-   learner_question: "\r\n1. To ABE class \r\n2. To Aunty Doe's \r\n3. To buy rice and cassava",
+   learner_question: "\r\n1. To ABE class \r\n2. To Aunty Doe\'s \r\n3. To buy rice and cassava",
   	question: "Say: Open to page 155. Look at the calendar. What will Kona do Sunday at 12:00? Enter the number of the correct answer on your phone. ",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! For Sunday, the Calendar says, 'To Aunty Doe's -12:00'",
-  	incorrectAnswerResponse: "Incorrect. For Sunday, the Calendar says, 'To Aunty Doe's -12:00'",
+  	correctAnswerResponse: ":) Correct! For Sunday, the Calendar says, \'To Aunty Doe\'s -12:00\'",
+  	incorrectAnswerResponse: "Incorrect. For Sunday, the Calendar says, \'To Aunty Doe\'s -12:00\'",
   	set: 21
   	},
 
@@ -6486,8 +6650,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the sentence: We must ____ soap when we wash our hands. \r\n1. use \r\n2. make \r\n3. buy",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! Use means, 'to apply with, to make with'. We must use soap when we wash our hands.",
-  	incorrectAnswerResponse: "Incorrect. Use means, 'to apply with, to make with'. We must use soap when we wash our hands.",
+  	correctAnswerResponse: ":) Correct! Use means, \'to apply with, to make with\'. We must use soap when we wash our hands.",
+  	incorrectAnswerResponse: "Incorrect. Use means, \'to apply with, to make with\'. We must use soap when we wash our hands.",
   	set: 21
   	},
 
@@ -6508,10 +6672,10 @@ exports.getQuestion = function(questionCode) {
    code: "3064",
    title: "Eng Class Q22",
    learner_question: "\r\n1. Monrovia \r\n2. Gbarnga \r\n3. Fissebu",
-  	question: "Say: Open to page 159 Read 'Kona's Soap Making Idea' again. Where does Kona live? Enter the number of the correct answer on your phone.",
+  	question: "Say: Open to page 159 Read \'Kona\'s Soap Making Idea\' again. Where does Kona live? Enter the number of the correct answer on your phone.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, 'Too many people sell soap in Fissebu.' Kona must live in Fissebu.",
-  	incorrectAnswerResponse: "Incorrect. The story says, 'Too many people sell soap in Fissebu.' Kona must live in Fissebu.",
+  	correctAnswerResponse: ":) Correct! The story says, \'Too many people sell soap in Fissebu.\' Kona must live in Fissebu.",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'Too many people sell soap in Fissebu.\' Kona must live in Fissebu.",
   	set: 22
   	},
 
@@ -6534,8 +6698,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the sentence: It is _____ for a business person to ask if there is a need for her product or service. \r\n1. important \r\n2. profit \r\n3. business idea",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! Important means 'key, central'. It is important to wash your hands. It is important to work hard.",
-  	incorrectAnswerResponse: "Incorrect. Important means 'key, central'. It is important to wash your hands. It is important to work hard.",
+  	correctAnswerResponse: ":) Correct! Important means \'key, central\'. It is important to wash your hands. It is important to work hard.",
+  	incorrectAnswerResponse: "Incorrect. Important means \'key, central\'. It is important to wash your hands. It is important to work hard.",
   	set: 22
   	},
 
@@ -6544,10 +6708,10 @@ exports.getQuestion = function(questionCode) {
    code: "3067",
    title: "Eng Class Q23",
    learner_question: "\r\n1. They like Miata. \r\n2. They are hungry. \r\n3. Miata lives near a school.",
-  	question: "Say: Open to page 165. Read 'Miata's Bread Making Business' again. Why do boys and girls walk by Miata's house? ",
+  	question: "Say: Open to page 165. Read \'Miata\'s Bread Making Business\' again. Why do boys and girls walk by Miata\'s house? ",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, 'My house is next to a school. Boys and girls walk by my home.'",
-  	incorrectAnswerResponse: "Incorrect. The story says, 'My house is next to a school. Boys and girls walk by my home.'",
+  	correctAnswerResponse: ":) Correct! The story says, \'My house is next to a school. Boys and girls walk by my home.\'",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'My house is next to a school. Boys and girls walk by my home.\'",
   	set: 23
   	},
 
@@ -6558,8 +6722,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the sentence: I am sad because I ____ my money. \r\n1. have \r\n2. lost \r\n3. next",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! When something is 'lost' we do not know where it is. I lost my house keys. He lost his book.",
-  	incorrectAnswerResponse: "Incorrect. When something is 'lost' we do not know where it is. I lost my house keys. He lost his book.",
+  	correctAnswerResponse: ":) Correct! When something is \'lost\' we do not know where it is. I lost my house keys. He lost his book.",
+  	incorrectAnswerResponse: "Incorrect. When something is \'lost\' we do not know where it is. I lost my house keys. He lost his book.",
   	set: 23
   	},
 
@@ -6580,10 +6744,10 @@ exports.getQuestion = function(questionCode) {
    code: "3070",
    title: "Eng Class Q24",
    learner_question: "\r\n1. He does not like machines. \r\n2. He wants to hire his friends. \r\n3. Machines are expensive.",
-  	question: "Say: Open to page 174. Read 'Simon's Palm Oil Business' again. Why will Simon wait to buy machines?",
+  	question: "Say: Open to page 174. Read \'Simon\'s Palm Oil Business\' again. Why will Simon wait to buy machines?",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, 'But, the machines are expensive.' Simon does not have enough money now.",
-  	incorrectAnswerResponse: "Incorrect. The story says, 'But, the machines are expensive.' Simon does not have enough money now.",
+  	correctAnswerResponse: ":) Correct! The story says, \'But, the machines are expensive.\' Simon does not have enough money now.",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'But, the machines are expensive.\' Simon does not have enough money now.",
   	set: 24
   	},
 
@@ -6591,11 +6755,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP24Q1",
    code: "3071",
    title: "Eng Q47",
-   learner_question: "What is a different way to say 2:00? \r\n1. Midnight \r\n2. Two o'clock \r\n3. Two-thirty",
+   learner_question: "What is a different way to say 2:00? \r\n1. Midnight \r\n2. Two o\'clock \r\n3. Two-thirty",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! 2:00 is Two o'clock. O'clock means the time is on the hour-00. 1:00= 1 o'clock.",
-  	incorrectAnswerResponse: "Incorrect. 2:00 is Two o'clock. O'clock means the time is on the hour-00. 1:00= 1 o'clock.",
+  	correctAnswerResponse: ":) Correct! 2:00 is Two o\'clock. O\'clock means the time is on the hour-00. 1:00= 1 o\'clock.",
+  	incorrectAnswerResponse: "Incorrect. 2:00 is Two o\'clock. O\'clock means the time is on the hour-00. 1:00= 1 o\'clock.",
   	set: 24
   	},
 
@@ -6618,8 +6782,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. May 5 \r\n2. May 9 \r\n3. May 12",
   	question: "Say: Open your books to page 184. Look at the calendar. If today is May 8th, what will the date be this Friday? Enter the number of the correct answer on your phone.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! "This Friday" means the Friday of the current week. ",
-  	incorrectAnswerResponse: "Incorrect. "This Friday" means the Friday of the current week. ",
+  	correctAnswerResponse: ":) Correct! \"This Friday\" means the Friday of the current week. ",
+  	incorrectAnswerResponse: "Incorrect. \"This Friday\" means the Friday of the current week. ",
   	set: 25
   	},
 
@@ -6675,7 +6839,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP26Q2",
    code: "3078",
    title: "Eng Q52",
-   learner_question: "Which is 'cheaper' than $5? \r\n1. $7 \r\n2. $5 \r\n3. $2",
+   learner_question: "Which is \'cheaper\' than $5? \r\n1. $7 \r\n2. $5 \r\n3. $2",
   	question: "",
   	answer: "3",
   	correctAnswerResponse: ":) Correct! Cheaper means the price is lower. $2<$5",
@@ -6726,8 +6890,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. friendly \r\n2. friendlier \r\n3. friendliest",
   	question: "Write: Jane is the ______ girl in all of Monrovia. Say: Complete the sentence with the correct word. Enter the number of the correct answer on your phone.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! Jane is the friendliest girl in all of Monrovia. "est" endings often mean 'most'.",
-  	incorrectAnswerResponse: "Incorrect. Jane is the friendliest girl in all of Monrovia. "est" endings often mean 'most'.",
+  	correctAnswerResponse: ":) Correct! Jane is the friendliest girl in all of Monrovia. \"est\" endings often mean \'most\'.",
+  	incorrectAnswerResponse: "Incorrect. Jane is the friendliest girl in all of Monrovia. \"est\" endings often mean \'most\'.",
   	set: 28
   	},
 
@@ -6738,8 +6902,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the sentence: Cake is ____ than bread. \r\n1. sweet \r\n2. sweeter \r\n3. sweetest ",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! Cake is sweeter than bread. We often use 'er' endings to compare two things.",
-  	incorrectAnswerResponse: "Incorrect. Cake is sweeter than bread. We often use 'er' endings to compare two things.",
+  	correctAnswerResponse: ":) Correct! Cake is sweeter than bread. We often use \'er\' endings to compare two things.",
+  	incorrectAnswerResponse: "Incorrect. Cake is sweeter than bread. We often use \'er\' endings to compare two things.",
   	set: 28
   	},
 
@@ -6760,10 +6924,10 @@ exports.getQuestion = function(questionCode) {
    code: "3085",
    title: "Eng Class Q29",
    learner_question: "\r\n1. He sells hair oil. \r\n2. He makes soap at home. \r\n3. His customers buy from someone else.",
-  	question: "Say: Open to page 206. Find the story 'Saye and his Sister' What problem does Saye have?",
+  	question: "Say: Open to page 206. Find the story \'Saye and his Sister\' What problem does Saye have?",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, "They were buying hair oil from another seller."",
-  	incorrectAnswerResponse: "Incorrect. The story says, "They were buying hair oil from another seller."",
+  	correctAnswerResponse: ":) Correct! The story says, \"They were buying hair oil from another seller.\"",
+  	incorrectAnswerResponse: "Incorrect. The story says, \"They were buying hair oil from another seller.\"",
   	set: 29
   	},
 
@@ -6786,8 +6950,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "How can we advertise? \r\n1. Lower prices \r\n2. Make better products \r\n3. Put up posters",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! 'Advertise' means to tell people about a business. We can advertise on posters, on the radio and on television.",
-  	incorrectAnswerResponse: "Incorrect. 'Advertise' means to tell people about a business. We can advertise on posters, on the radio and on television.",
+  	correctAnswerResponse: ":) Correct! \'Advertise\' means to tell people about a business. We can advertise on posters, on the radio and on television.",
+  	incorrectAnswerResponse: "Incorrect. \'Advertise\' means to tell people about a business. We can advertise on posters, on the radio and on television.",
   	set: 29
   	},
 
@@ -6798,8 +6962,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. Pauline is friendly \r\n2. Pauline is creative \r\n3. Pauline has a lot of money",
   	question: "Say: Open to page 21\r\n1. In the story, why does Kona want to be partners with Pauline? Answer the number of the correct answer on your phone.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! The story says, "'You are full of creative ideas, says Kona.'"",
-  	incorrectAnswerResponse: "Incorrect. The story says, "'You are full of creative ideas, says Kona.'"",
+  	correctAnswerResponse: ":) Correct! The story says, \"\'You are full of creative ideas, says Kona.\'\"",
+  	incorrectAnswerResponse: "Incorrect. The story says, \"\'You are full of creative ideas, says Kona.\'\"",
   	set: 30
   	},
 
@@ -6870,8 +7034,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. 1 brother \r\n2. 3 brothers \r\n3. 5 brothers",
   	question: "Say: Open to page 226. How many brothers work in the kitchen of the business? Enter the number of the correct answer.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! The story says, "3 brothers cook and help customers."",
-  	incorrectAnswerResponse: "Incorrect. The story says, "3 brothers cook and help customers."",
+  	correctAnswerResponse: ":) Correct! The story says, \"3 brothers cook and help customers.\"",
+  	incorrectAnswerResponse: "Incorrect. The story says, \"3 brothers cook and help customers.\"",
   	set: 32
   	},
 
@@ -6882,8 +7046,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word completes the sentence? She ___ him for breaking the radio. \r\n1. decides \r\n2. blames \r\n3. changes",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! She blames him for breaking the radio. When we 'blame' someone, we say they did something wrong.",
-  	incorrectAnswerResponse: "Incorrect. She blames him for breaking the radio. When we 'blame' someone, we say they did something wrong.",
+  	correctAnswerResponse: ":) Correct! She blames him for breaking the radio. When we \'blame\' someone, we say they did something wrong.",
+  	incorrectAnswerResponse: "Incorrect. She blames him for breaking the radio. When we \'blame\' someone, we say they did something wrong.",
   	set: 32
   	},
 
@@ -6906,8 +7070,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. He wants help with his record book. \r\n2. He wants pepper soup. \r\n3. He wants a date with Miata.",
   	question: "Say: Open to page 234. What does the brother want from Miata? Enter the number of the correct answer in your phone.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, "I mightififIf you go out with me this Saturday night."",
-  	incorrectAnswerResponse: "Incorrect. The story says, "I mightififIf you go out with me this Saturday night."",
+  	correctAnswerResponse: ":) Correct! The story says, \"I mightififIf you go out with me this Saturday night.\"",
+  	incorrectAnswerResponse: "Incorrect. The story says, \"I mightififIf you go out with me this Saturday night.\"",
   	set: 33
   	},
 
@@ -6927,7 +7091,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP33Q2",
    code: "3099",
    title: "Eng Q66",
-   learner_question: "Jane's balance is LD $1,500. She pays LD $500 to a shop. What is her new balance? \r\n1. $1000 \r\n2. $500 \r\n3. $2000",
+   learner_question: "Jane\'s balance is LD $1,500. She pays LD $500 to a shop. What is her new balance? \r\n1. $1000 \r\n2. $500 \r\n3. $2000",
   	question: "",
   	answer: "1",
   	correctAnswerResponse: ":) Correct! 1,500-500=1000. Jane pays $500, so she has $500 less than she did before.",
@@ -6963,7 +7127,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP34Q2",
    code: "3102",
    title: "Eng Q68",
-   learner_question: "What does it mean to 'save' money? \r\n1. To keep and not spend it. \r\n2. To buy things for our businesses. \r\n3. To make a five year plan.",
+   learner_question: "What does it mean to \'save\' money? \r\n1. To keep and not spend it. \r\n2. To buy things for our businesses. \r\n3. To make a five year plan.",
   	question: "",
   	answer: "1",
   	correctAnswerResponse: ":) Correct! We save money when we keep it.",
@@ -7002,8 +7166,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Complete the sentence: She is the ___ girl in the whole school. \r\n1. small \r\n2. smaller \r\n3. smallest",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! She is the smallest girl in the whole school. 'est' endings often mean 'most'.",
-  	incorrectAnswerResponse: "Incorrect. She is the smallest girl in the whole school. 'est' endings often mean 'most'.",
+  	correctAnswerResponse: ":) Correct! She is the smallest girl in the whole school. \'est\' endings often mean \'most\'.",
+  	incorrectAnswerResponse: "Incorrect. She is the smallest girl in the whole school. \'est\' endings often mean \'most\'.",
   	set: 35
   	},
 
@@ -7086,8 +7250,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. A small shop \r\n2. Bread \r\n3. Communication",
   	question: "Say: Open to page 264. What does Moses sell in the story? Enter the number of the correct answer.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! The story says, "One day, Anna gives Moses 2 kinds of bread to sell."",
-  	incorrectAnswerResponse: "Incorrect. The story says, "One day, Anna gives Moses 2 kinds of bread to sell."",
+  	correctAnswerResponse: ":) Correct! The story says, \"One day, Anna gives Moses 2 kinds of bread to sell.\"",
+  	incorrectAnswerResponse: "Incorrect. The story says, \"One day, Anna gives Moses 2 kinds of bread to sell.\"",
   	set: 38
   	},
 
@@ -7158,8 +7322,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. was \r\n2. were \r\n3. am",
   	question: "Write: We ___ sad. Say: Choose the number of the word that correctly completes the sentence.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! In the past tense, we use 'were' with 'we', 'you', and 'they'. We were sad.",
-  	incorrectAnswerResponse: "Incorrect. In the past tense, we use 'were' with 'we', 'you', and 'they'. We were sad.",
+  	correctAnswerResponse: ":) Correct! In the past tense, we use \'were\' with \'we\', \'you\', and \'they\'. We were sad.",
+  	incorrectAnswerResponse: "Incorrect. In the past tense, we use \'were\' with \'we\', \'you\', and \'they\'. We were sad.",
   	set: 40
   	},
 
@@ -7182,8 +7346,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "___ they sleeping? \r\n1. Was \r\n2. Is \r\n3. Were",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! In the past tense, we use 'were' with 'we', 'you', and 'they'. Were they sleeping?",
-  	incorrectAnswerResponse: "Incorrect. In the past tense, we use 'were' with 'we', 'you', and 'they'. Were they sleeping?",
+  	correctAnswerResponse: ":) Correct! In the past tense, we use \'were\' with \'we\', \'you\', and \'they\'. Were they sleeping?",
+  	incorrectAnswerResponse: "Incorrect. In the past tense, we use \'were\' with \'we\', \'you\', and \'they\'. Were they sleeping?",
   	set: 40
   	},
 
@@ -7194,8 +7358,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. looks \r\n2. looking \r\n3. looked",
   	question: "Write: We ___ at the bird. Choose the number of the word that correctly completes the sentence.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! In the past tense, regular verbs end in 'ed'. Looked, jumped, smelled.",
-  	incorrectAnswerResponse: "Incorrect. In the past tense, regular verbs end in 'ed'. Looked, jumped, smelled.",
+  	correctAnswerResponse: ":) Correct! In the past tense, regular verbs end in \'ed\'. Looked, jumped, smelled.",
+  	incorrectAnswerResponse: "Incorrect. In the past tense, regular verbs end in \'ed\'. Looked, jumped, smelled.",
   	set: 41
   	},
 
@@ -7206,8 +7370,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "We ___to her yesterday. \r\n1. talked \r\n2. talking \r\n3. talks",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! In the past tense, regular verbs end in 'ed'. Talked. Walked. Hoped.",
-  	incorrectAnswerResponse: "Incorrect. In the past tense, regular verbs end in 'ed'. Talked. Walked. Hoped.",
+  	correctAnswerResponse: ":) Correct! In the past tense, regular verbs end in \'ed\'. Talked. Walked. Hoped.",
+  	incorrectAnswerResponse: "Incorrect. In the past tense, regular verbs end in \'ed\'. Talked. Walked. Hoped.",
   	set: 41
   	},
 
@@ -7218,8 +7382,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "She ___ a new list. \r\n1. maked \r\n2. made \r\n3. maded",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! Some 'irregular' verbs do not end with 'ed' in the past tense. Made. Got. Ate.",
-  	incorrectAnswerResponse: "Incorrect. Some 'irregular' verbs do not end with 'ed' in the past tense. Made. Got. Ate.",
+  	correctAnswerResponse: ":) Correct! Some \'irregular\' verbs do not end with \'ed\' in the past tense. Made. Got. Ate.",
+  	incorrectAnswerResponse: "Incorrect. Some \'irregular\' verbs do not end with \'ed\' in the past tense. Made. Got. Ate.",
   	set: 41
   	},
 
@@ -7242,8 +7406,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which is a polite way to ask someone to help? \r\n1. Could you help me? \r\n2. You must help me. \r\n3. Help me.",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! 'Could' and 'would' are polite ways to say 'can'. ",
-  	incorrectAnswerResponse: "Incorrect. 'Could' and 'would' are polite ways to say 'can'. ",
+  	correctAnswerResponse: ":) Correct! \'Could\' and \'would\' are polite ways to say \'can\'. ",
+  	incorrectAnswerResponse: "Incorrect. \'Could\' and \'would\' are polite ways to say \'can\'. ",
   	set: 42
   	},
 
@@ -7264,10 +7428,10 @@ exports.getQuestion = function(questionCode) {
    code: "3127",
    title: "Eng Class Q43",
    learner_question: "\r\n1. Bulldozer \r\n2. Esther \r\n3. Kenneh",
-  	question: "Say: Open to page 316. What is the name of Esther's supervisor? Enter the number of the correct answer.",
+  	question: "Say: Open to page 316. What is the name of Esther\'s supervisor? Enter the number of the correct answer.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The story says, '"Now don't forget,' Kenneh says."",
-  	incorrectAnswerResponse: "Incorrect. The story says, '"Now don't forget,' Kenneh says."",
+  	correctAnswerResponse: ":) Correct! The story says, \'\"Now don\'t forget,\' Kenneh says.\"",
+  	incorrectAnswerResponse: "Incorrect. The story says, \'\"Now don\'t forget,\' Kenneh says.\"",
   	set: 43
   	},
 
@@ -7300,7 +7464,7 @@ exports.getQuestion = function(questionCode) {
    code: "3130",
    title: "Eng Class Q44",
    learner_question: "\r\n1. Your hands \r\n2. Your mouth \r\n3. Your mind",
-  	question: "What do you use to 'imagine'? Enter the number of the correct answer on your phone.",
+  	question: "What do you use to \'imagine\'? Enter the number of the correct answer on your phone.",
   	answer: "3",
   	correctAnswerResponse: ":) Correct! When we imagine something, we picture it in our mind.",
   	incorrectAnswerResponse: "Incorrect. When we imagine something, we picture it in our mind.",
@@ -7338,8 +7502,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. talks \r\n2. talked \r\n3. talking",
   	question: "Write: They ___ all night long. Which word completes the sentence. Enter the number of the correct answer.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! In the past tense, regular verbs end in 'ed'. They talked all night.",
-  	incorrectAnswerResponse: "Incorrect. In the past tense, regular verbs end in 'ed'. They talked all night.",
+  	correctAnswerResponse: ":) Correct! In the past tense, regular verbs end in \'ed\'. They talked all night.",
+  	incorrectAnswerResponse: "Incorrect. In the past tense, regular verbs end in \'ed\'. They talked all night.",
   	set: 45
   	},
 
@@ -7350,8 +7514,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "She ___ a good person. \r\n1. was \r\n2. were \r\n3. are",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! In the past tense, we use 'was' with 'he', 'she', 'I' and 'it'. She was a good person.",
-  	incorrectAnswerResponse: "Incorrect. In the past tense, we use 'was' with 'he', 'she', 'I' and 'it'. She was a good person.",
+  	correctAnswerResponse: ":) Correct! In the past tense, we use \'was\' with \'he\', \'she\', \'I\' and \'it\'. She was a good person.",
+  	incorrectAnswerResponse: "Incorrect. In the past tense, we use \'was\' with \'he\', \'she\', \'I\' and \'it\'. She was a good person.",
   	set: 45
   	},
 
@@ -7362,8 +7526,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which is a command? \r\n1. You sit. \r\n2. Sit. \r\n3. Did you sit?",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! Commands tell someone to do something. We usually drop 'you' from commands.",
-  	incorrectAnswerResponse: "Incorrect. Commands tell someone to do something. We usually drop 'you' from commands.",
+  	correctAnswerResponse: ":) Correct! Commands tell someone to do something. We usually drop \'you\' from commands.",
+  	incorrectAnswerResponse: "Incorrect. Commands tell someone to do something. We usually drop \'you\' from commands.",
   	set: 45
   	},
 
@@ -7386,8 +7550,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentence is correct? \r\n1. Will be you in Monrovia? \r\n2. Will you be in Liberia? \r\n3. You be in Liberia will?",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! With 'will' questions, the subject usually comes directly after 'will'.",
-  	incorrectAnswerResponse: "Incorrect. With 'will' questions, the subject usually comes directly after 'will'.",
+  	correctAnswerResponse: ":) Correct! With \'will\' questions, the subject usually comes directly after \'will\'.",
+  	incorrectAnswerResponse: "Incorrect. With \'will\' questions, the subject usually comes directly after \'will\'.",
   	set: 46
   	},
 
@@ -7419,11 +7583,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP47Q1",
    code: "3140",
    title: "Eng Q93",
-   learner_question: "Which word means the same as "She would"? \r\n1. She'd \r\n2. She's \r\n3. she'w",
+   learner_question: "Which word means the same as \"She would\"? \r\n1. She\'d \r\n2. She\'s \r\n3. she\'w",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! The contraction for 'would' is 'd. She'd like to go.=She would like to go.",
-  	incorrectAnswerResponse: "Incorrect. The contraction for 'would' is 'd. She'd like to go.=She would like to go.",
+  	correctAnswerResponse: ":) Correct! The contraction for \'would\' is \'d. She\'d like to go.=She would like to go.",
+  	incorrectAnswerResponse: "Incorrect. The contraction for \'would\' is \'d. She\'d like to go.=She would like to go.",
   	set: 47
   	},
 
@@ -7431,11 +7595,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP47Q2",
    code: "3141",
    title: "Eng Q94",
-   learner_question: "What is the contraction for "Could not"? \r\n1. Could'nt \r\n2. Couldn't \r\n3. Could't",
+   learner_question: "What is the contraction for \"Could not\"? \r\n1. Could\'nt \r\n2. Couldn\'t \r\n3. Could\'t",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! Couldn't = Could not. He couldn't sleep.",
-  	incorrectAnswerResponse: "Incorrect. Couldn't = Could not. He couldn't sleep.",
+  	correctAnswerResponse: ":) Correct! Couldn\'t = Could not. He couldn\'t sleep.",
+  	incorrectAnswerResponse: "Incorrect. Couldn\'t = Could not. He couldn\'t sleep.",
   	set: 47
   	},
 
@@ -7444,7 +7608,7 @@ exports.getQuestion = function(questionCode) {
    code: "3142",
    title: "Eng Class Q48",
    learner_question: "\r\n1. Say the most important thing first. \r\n2. Make something as sharp as it can be. \r\n3. Show someone where something is.",
-  	question: "Say: What does it mean to 'get to the point'? Enter the number of the correct answer in your phone.",
+  	question: "Say: What does it mean to \'get to the point\'? Enter the number of the correct answer in your phone.",
   	answer: "1",
   	correctAnswerResponse: ":) Correct! We get to the point by saying the most important thing first. We do not waste time when we get to the point.",
   	incorrectAnswerResponse: "Incorrect. We get to the point by saying the most important thing first. We do not waste time when we get to the point.",
@@ -7458,8 +7622,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "They ___ starting to eat. \r\n1. am \r\n2. is \r\n3. are",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! Before 'ing' verbs, we use 'are' with 'they', 'we', and 'you'.",
-  	incorrectAnswerResponse: "Incorrect. Before 'ing' verbs, we use 'are' with 'they', 'we', and 'you'.",
+  	correctAnswerResponse: ":) Correct! Before \'ing\' verbs, we use \'are\' with \'they\', \'we\', and \'you\'.",
+  	incorrectAnswerResponse: "Incorrect. Before \'ing\' verbs, we use \'are\' with \'they\', \'we\', and \'you\'.",
   	set: 48
   	},
 
@@ -7470,8 +7634,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "I ___ sitting at home. \r\n1. am \r\n2. is \r\n3. are",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! Before 'ing' verbs, we use 'am' with 'I'.",
-  	incorrectAnswerResponse: "Incorrect. Before 'ing' verbs, we use 'am' with 'I'.",
+  	correctAnswerResponse: ":) Correct! Before \'ing\' verbs, we use \'am\' with \'I\'.",
+  	incorrectAnswerResponse: "Incorrect. Before \'ing\' verbs, we use \'am\' with \'I\'.",
   	set: 48
   	},
 
@@ -7479,8 +7643,8 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP49QG",
    code: "3145",
    title: "Eng Class Q49",
-   learner_question: "\r\n1. Kona cannot finish telling her friend about the DJ. \r\n2. Kona does not get the man's business. \r\n3. Kona does not get her lunch.",
-  	question: "Say: Open to page 369. Why is this story called, "Kona loses out"? Enter the number of the correct answer on your phone.",
+   learner_question: "\r\n1. Kona cannot finish telling her friend about the DJ. \r\n2. Kona does not get the man\'s business. \r\n3. Kona does not get her lunch.",
+  	question: "Say: Open to page 369. Why is this story called, \"Kona loses out\"? Enter the number of the correct answer on your phone.",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! In the story, the man is upset with Kona for being rude on the phone. She loses out on his business.",
   	incorrectAnswerResponse: "Incorrect. In the story, the man is upset with Kona for being rude on the phone. She loses out on his business.",
@@ -7491,7 +7655,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP49Q1",
    code: "3146",
    title: "Eng Q97",
-   learner_question: "Which two letters together make an 'f' sound? \r\n1. s and h \r\n2. t and h \r\n3. p and h",
+   learner_question: "Which two letters together make an \'f\' sound? \r\n1. s and h \r\n2. t and h \r\n3. p and h",
   	question: "",
   	answer: "3",
   	correctAnswerResponse: ":) Correct! Together, p and h make the /f/ sound. Phone. Photograph. Elephant.",
@@ -7527,11 +7691,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP50Q1",
    code: "3149",
    title: "Eng Q99",
-   learner_question: "Which word has a 'long /o/' sound? \r\n1. on \r\n2. ton \r\n3. tone",
+   learner_question: "Which word has a \'long /o/\' sound? \r\n1. on \r\n2. ton \r\n3. tone",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! Long vowels sounds sound like the name of the letter. Tone has a 'long /o/' sound because of the silent 'e' at the end.",
-  	incorrectAnswerResponse: "Incorrect. Long vowels sounds sound like the name of the letter. Tone has a 'long o' sound because of the silent 'e' at the end.",
+  	correctAnswerResponse: ":) Correct! Long vowels sounds sound like the name of the letter. Tone has a \'long /o/\' sound because of the silent \'e\' at the end.",
+  	incorrectAnswerResponse: "Incorrect. Long vowels sounds sound like the name of the letter. Tone has a \'long o\' sound because of the silent \'e\' at the end.",
   	set: 50
   	},
 
@@ -7539,11 +7703,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP50Q2",
    code: "3150",
    title: "Eng Q100",
-   learner_question: "Which word has a 'long /u/' sound. \r\n1. dune \r\n2. bun \r\n3. hunt ",
+   learner_question: "Which word has a \'long /u/\' sound. \r\n1. dune \r\n2. bun \r\n3. hunt ",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! Long vowels sounds sound like the name of the letter. Dune has a 'long /u/' sound because of the silent 'e' at the end.",
-  	incorrectAnswerResponse: "Incorrect. Long vowels sounds sound like the name of the letter. Dune has a 'long u' sound because of the silent 'e' at the end.",
+  	correctAnswerResponse: ":) Correct! Long vowels sounds sound like the name of the letter. Dune has a \'long /u/\' sound because of the silent \'e\' at the end.",
+  	incorrectAnswerResponse: "Incorrect. Long vowels sounds sound like the name of the letter. Dune has a \'long u\' sound because of the silent \'e\' at the end.",
   	set: 50
   	},
 
@@ -7563,11 +7727,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP51Q1",
    code: "3152",
    title: "Eng Q101",
-   learner_question: "Which word has the 'long /i/' sound? \r\n1. bright \r\n2. hit \r\n3. giving",
+   learner_question: "Which word has the \'long /i/\' sound? \r\n1. bright \r\n2. hit \r\n3. giving",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! Long vowels sounds sound like the name of the letter. Bright has a 'long i' sound because of the "igh" in it.",
-  	incorrectAnswerResponse: "Incorrect. Long vowels sounds sound like the name of the letter. Bright has a 'long i' sound because of the "igh" in it.",
+  	correctAnswerResponse: ":) Correct! Long vowels sounds sound like the name of the letter. Bright has a \'long i\' sound because of the \"igh\" in it.",
+  	incorrectAnswerResponse: "Incorrect. Long vowels sounds sound like the name of the letter. Bright has a \'long i\' sound because of the \"igh\" in it.",
   	set: 51
   	},
 
@@ -7611,7 +7775,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP52Q2",
    code: "3156",
    title: "Eng Q104",
-   learner_question: "Which word sounds the same as 'right'? \r\n1. ring \r\n2. write \r\n3. rit",
+   learner_question: "Which word sounds the same as \'right\'? \r\n1. ring \r\n2. write \r\n3. rit",
   	question: "",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! Write and right have the same sound but different spelling.",
@@ -7623,11 +7787,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP53QG",
    code: "3157",
    title: "Eng Class Q53",
-   learner_question: "\r\n1. willn't \r\n2. will't \r\n3. won't",
-  	question: "Say: Which is the contraction of 'will not'?",
+   learner_question: "\r\n1. willn\'t \r\n2. will\'t \r\n3. won\'t",
+  	question: "Say: Which is the contraction of \'will not\'?",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! Won't = will not.",
-  	incorrectAnswerResponse: "Incorrect. Won't = will not.",
+  	correctAnswerResponse: ":) Correct! Won\'t = will not.",
+  	incorrectAnswerResponse: "Incorrect. Won\'t = will not.",
   	set: 53
   	},
 
@@ -7650,8 +7814,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "He ___ walking to school. \r\n1. is \r\n2. are \r\n3. am",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! :) Correct! Before 'ing' verbs, we use 'is' with 'he', 'she' and 'it'. He is walking to school.",
-  	incorrectAnswerResponse: "Incorrect. Incorrect. Before 'ing' verbs, we use 'is' with 'he', 'she' and 'it'. He is walking to school.",
+  	correctAnswerResponse: ":) Correct! :) Correct! Before \'ing\' verbs, we use \'is\' with \'he\', \'she\' and \'it\'. He is walking to school.",
+  	incorrectAnswerResponse: "Incorrect. Incorrect. Before \'ing\' verbs, we use \'is\' with \'he\', \'she\' and \'it\'. He is walking to school.",
   	set: 53
   	},
 
@@ -7659,11 +7823,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L2ENLP54QG",
    code: "3160",
    title: "Eng Class Q54",
-   learner_question: "\r\n1. She'd go. \r\n2. Shed'nt go. \r\n3. She wouldn't go.",
-  	question: "Say: Which sentence means, "She would not go."? Enter the number of the correct answer.",
+   learner_question: "\r\n1. She\'d go. \r\n2. Shed\'nt go. \r\n3. She wouldn\'t go.",
+  	question: "Say: Which sentence means, \"She would not go.\"? Enter the number of the correct answer.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The contraction of 'would not' is wouldn't. She wouldn't go.",
-  	incorrectAnswerResponse: "Incorrect. The contraction of 'would not' is wouldn't. She wouldn't go.",
+  	correctAnswerResponse: ":) Correct! The contraction of \'would not\' is wouldn\'t. She wouldn\'t go.",
+  	incorrectAnswerResponse: "Incorrect. The contraction of \'would not\' is wouldn\'t. She wouldn\'t go.",
   	set: 54
   	},
 
@@ -7674,8 +7838,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word best completes the sentence? I ___ take the bus, but today I walked. \r\n1. usually \r\n2. always \r\n3. never",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! 'Usually' means most of the time.",
-  	incorrectAnswerResponse: "Incorrect. 'Usually' means most of the time.",
+  	correctAnswerResponse: ":) Correct! \'Usually\' means most of the time.",
+  	incorrectAnswerResponse: "Incorrect. \'Usually\' means most of the time.",
   	set: 54
   	},
 
@@ -7686,11 +7850,12 @@ exports.getQuestion = function(questionCode) {
    learner_question: "They ___ going home. \r\n1. am \r\n2. are \r\n3. is",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! :) Correct! Before 'ing' verbs, we use 'are' with 'they', 'we' and 'you'. They are going home.",
-  	incorrectAnswerResponse: "Incorrect. Incorrect. Before 'ing' verbs, we use 'are' with 'they', 'we' and 'you'. They are going home.",
+  	correctAnswerResponse: ":) Correct! :) Correct! Before \'ing\' verbs, we use \'are\' with \'they\', \'we\' and \'you\'. They are going home.",
+  	incorrectAnswerResponse: "Incorrect. Incorrect. Before \'ing\' verbs, we use \'are\' with \'they\', \'we\' and \'you\'. They are going home.",
   	set: 54
   	},
-  	5001:{
+
+ 	5001:{
   	question_tag: "L3ENLP1QG",
    code: "5001",
    title: "Eng Class Q1",
@@ -7706,7 +7871,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP1Q1",
    code: "5002",
    title: "Eng Q1",
-   learner_question: "What is a 'prediction'? \r\n1. A best guess about what will happen. \r\n2. Researching information about a topic. \r\n3. Working with a Reading Circle.",
+   learner_question: "What is a \'prediction\'? \r\n1. A best guess about what will happen. \r\n2. Researching information about a topic. \r\n3. Working with a Reading Circle.",
   	question: "",
   	answer: "1",
   	correctAnswerResponse: ":) Correct! A prediction is our best guess about what will happen. Making predictions helps us understand what we read.",
@@ -7718,7 +7883,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP1Q2",
    code: "5003",
    title: "Eng Q2",
-   learner_question: "What is 'journaling'? \r\n1. Writing fiction stories. \r\n2. Writing what we think and feel. \r\n3. Writing for school.",
+   learner_question: "What is \'journaling\'? \r\n1. Writing fiction stories. \r\n2. Writing what we think and feel. \r\n3. Writing for school.",
   	question: "",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! Correct! Journaling is writing what we think and feel. Journaling helps us collect our thoughts.",
@@ -7730,11 +7895,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP2QG",
    code: "5004",
    title: "Eng Class Q2",
-   learner_question: "\r\n1. He ate the nuts and flew away. \r\n2. He helped the old woman. \r\n3. He flew to the woman's village.",
+   learner_question: "\r\n1. He ate the nuts and flew away. \r\n2. He helped the old woman. \r\n3. He flew to the woman\'s village.",
   	question: "Say: Open to page 12 in your books. In this story, what did the hawk do when the woman asked for help? Enter the number of the correct answer on your phone.",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! The story says, "The hawk ate the nuts, but then he laughed and flew away."",
-  	incorrectAnswerResponse: "Incorrect. The story says, "The hawk ate the nuts, but then he laughed and flew away."",
+  	correctAnswerResponse: ":) Correct! The story says, \"The hawk ate the nuts, but then he laughed and flew away.\"",
+  	incorrectAnswerResponse: "Incorrect. The story says, \"The hawk ate the nuts, but then he laughed and flew away.\"",
   	set: 2
   	},
 
@@ -7769,8 +7934,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. like \r\n2. likes \r\n3. liking",
   	question: "Write the following on the board: I ____ rice. Say: Which word best completes the sentence. Choose from the options on your phone.",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! We do not add 's' or 'es' to present tense verbs when the subject is 'I', 'we', 'you' or 'they'. [We usually add 's' or 'es' to verbs after 'he', 'she' and 'it'.]",
-  	incorrectAnswerResponse: "Incorrect. We do not add 's' or 'es' to verbs when the subject is 'I', 'we', 'you' or 'they'. We usually add 's' or 'es' to verbs after 'he', 'she' and 'it'.",
+  	correctAnswerResponse: ":) Correct! We do not add \'s\' or \'es\' to present tense verbs when the subject is \'I\', \'we\', \'you\' or \'they\'. [We usually add \'s\' or \'es\' to verbs after \'he\', \'she\' and \'it\'.]",
+  	incorrectAnswerResponse: "Incorrect. We do not add \'s\' or \'es\' to verbs when the subject is \'I\', \'we\', \'you\' or \'they\'. We usually add \'s\' or \'es\' to verbs after \'he\', \'she\' and \'it\'.",
   	set: 3
   	},
 
@@ -7781,8 +7946,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word completes the sentence? They ____ their food. \r\n1. share \r\n2. shares \r\n2. sharing",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! We do not add 's' or 'es' to present tense verbs when the subject is 'I', 'we', 'you' or 'they'. [We usually add 's' or 'es' to verbs after 'he', 'she' and 'it'.]",
-  	incorrectAnswerResponse: "Incorrect. We do not add 's' or 'es' to verbs when the subject is 'I', 'we', 'you' or 'they'. We usually add 's' or 'es' to verbs after 'he', 'she' and 'it'.",
+  	correctAnswerResponse: ":) Correct! We do not add \'s\' or \'es\' to present tense verbs when the subject is \'I\', \'we\', \'you\' or \'they\'. [We usually add \'s\' or \'es\' to verbs after \'he\', \'she\' and \'it\'.]",
+  	incorrectAnswerResponse: "Incorrect. We do not add \'s\' or \'es\' to verbs when the subject is \'I\', \'we\', \'you\' or \'they\'. We usually add \'s\' or \'es\' to verbs after \'he\', \'she\' and \'it\'.",
   	set: 3
   	},
 
@@ -7793,8 +7958,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word is correct? She ____ happy. \r\n1. am \r\n2. is \r\n3. are",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! We use 'is' with 'he, 'she' and 'it'. She is happy. He is sad.",
-  	incorrectAnswerResponse: "Incorrect. We use 'is' with 'he, 'she' and 'it'. She is happy. He is sad.",
+  	correctAnswerResponse: ":) Correct! We use \'is\' with \'he, \'she\' and \'it\'. She is happy. He is sad.",
+  	incorrectAnswerResponse: "Incorrect. We use \'is\' with \'he, \'she\' and \'it\'. She is happy. He is sad.",
   	set: 3
   	},
 
@@ -7814,7 +7979,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP4Q1",
    code: "5011",
    title: "Eng Q7",
-   learner_question: "Why might a tradition be 'left'? \r\n1. It is an important tradition. \r\n2. It is an enjoyable tradition. \r\n3. It is a harmful tradition.",
+   learner_question: "Why might a tradition be \'left\'? \r\n1. It is an important tradition. \r\n2. It is an enjoyable tradition. \r\n3. It is a harmful tradition.",
   	question: "",
   	answer: "3",
   	correctAnswerResponse: ":) Correct! Some traditions, like child marriage, are harmful. These traditions should be left behind.",
@@ -7829,7 +7994,7 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Who is an elder? \r\n1. A local leader \r\n2. An older person \r\n3. A worker",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! 'Elder' means 'older'. An elder is someone in a community who is usually considered old and wise.",
+  	correctAnswerResponse: ":) Correct! \'Elder\' means \'older\'. An elder is someone in a community who is usually considered old and wise.",
   	incorrectAnswerResponse: "Incorrect. Elder means older. An elder is someone in a community who is usually considered old and wise.",
   	set: 4
   	},
@@ -7862,7 +8027,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP5Q2",
    code: "5015",
    title: "Eng Q10",
-   learner_question: "What do 'Body sentences' do? \r\n1. Introduce the topic of a paragraph. \r\n2. Support the topic sentence with details. \r\n3. Conclude the idea of the paragraph or story.",
+   learner_question: "What do \'Body sentences\' do? \r\n1. Introduce the topic of a paragraph. \r\n2. Support the topic sentence with details. \r\n3. Conclude the idea of the paragraph or story.",
   	question: "",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! Body sentences provide details, they support the topic sentence.",
@@ -7911,7 +8076,7 @@ exports.getQuestion = function(questionCode) {
    code: "5019",
    title: "Eng Class Q7",
    learner_question: "\r\n1. Think about a topic. \r\n2. Get a headache. \r\n3. Get a headache.",
-  	question: "Say: What does it mean to 'brainstorm'? Enter the number of the correct answer on your phone.",
+  	question: "Say: What does it mean to \'brainstorm\'? Enter the number of the correct answer on your phone.",
   	answer: "1",
   	correctAnswerResponse: ":) Correct! When we brainstorm, we think about possible ideas. Brainstorming is an important part of planning.",
   	incorrectAnswerResponse: "Incorrect. When we brainstorm, we think about possible ideas. Brainstorming is an important part of planning.",
@@ -7934,11 +8099,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP7Q2",
    code: "5021",
    title: "Eng Q14",
-   learner_question: "When do we use the "!" mark? \r\n1. To ask a question. \r\n2. To show strong feelings. \r\n3. To show a pause.",
+   learner_question: "When do we use the \"!\" mark? \r\n1. To ask a question. \r\n2. To show strong feelings. \r\n3. To show a pause.",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! We use the "!" exclamation mark to show strong feelings.",
-  	incorrectAnswerResponse: "Incorrect. We use the "!" exclamation mark to show strong feelings.",
+  	correctAnswerResponse: ":) Correct! We use the \"!\" exclamation mark to show strong feelings.",
+  	incorrectAnswerResponse: "Incorrect. We use the \"!\" exclamation mark to show strong feelings.",
   	set: 7
   	},
 
@@ -7947,10 +8112,10 @@ exports.getQuestion = function(questionCode) {
    code: "5022",
    title: "Eng Class Q8",
    learner_question: "\r\n1. The time and place of the story. \r\n2. The main idea of the story. \r\n3. The main character of the story.",
-  	question: "Say: What is the 'setting' of a story? Enter the number of the correct answer in your phones.",
+  	question: "Say: What is the \'setting\' of a story? Enter the number of the correct answer in your phones.",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! We call the time and place a story takes place the 'setting'.",
-  	incorrectAnswerResponse: "Incorrect. We call the time and place a story takes place the 'setting'.",
+  	correctAnswerResponse: ":) Correct! We call the time and place a story takes place the \'setting\'.",
+  	incorrectAnswerResponse: "Incorrect. We call the time and place a story takes place the \'setting\'.",
   	set: 8
   	},
 
@@ -7997,8 +8162,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word in the sentence is an adjective? The kind boy eats. \r\n1. kind \r\n2. boy \r\n3. eats",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! 'kind' describes the boy. It tells us what type of boy he is. Kind, cold, polite, fast and clever are all adjectives.",
-  	incorrectAnswerResponse: "Incorrect. 'kind' describes the boy. It tells us what type of boy he is. Kind, cold, polite, fast and clever are all adjectives.",
+  	correctAnswerResponse: ":) Correct! \'kind\' describes the boy. It tells us what type of boy he is. Kind, cold, polite, fast and clever are all adjectives.",
+  	incorrectAnswerResponse: "Incorrect. \'kind\' describes the boy. It tells us what type of boy he is. Kind, cold, polite, fast and clever are all adjectives.",
   	set: 9
   	},
 
@@ -8009,8 +8174,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word in the sentence is an adjective? The old woman listens. \r\n1. old \r\n2. woman \r\n3. listens",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! 'Old' describes the woman. It tells us about her age. Old, young, happy, short and blue are all adjectives.",
-  	incorrectAnswerResponse: "Incorrect. 'Old' describes the woman. It tells us about her age. Old, young, happy, short and blue are all adjectives.",
+  	correctAnswerResponse: ":) Correct! \'Old\' describes the woman. It tells us about her age. Old, young, happy, short and blue are all adjectives.",
+  	incorrectAnswerResponse: "Incorrect. \'Old\' describes the woman. It tells us about her age. Old, young, happy, short and blue are all adjectives.",
   	set: 9
   	},
 
@@ -8033,8 +8198,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentence is NOT correct? \r\n1. Sally get a new phone. \r\n2. Sonie sees her mother. \r\n3. They have a big truck.",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! Sentence 1 should be 'Sally gets a new phone.' We usually add 's' or 'es' to present tense verbs after the name of a person.",
-  	incorrectAnswerResponse: "Incorrect. Sentence 1 should be 'Sally gets a new phone.' We usually add 's' or 'es' to present tense verbs after the name of a person.",
+  	correctAnswerResponse: ":) Correct! Sentence 1 should be \'Sally gets a new phone.\' We usually add \'s\' or \'es\' to present tense verbs after the name of a person.",
+  	incorrectAnswerResponse: "Incorrect. Sentence 1 should be \'Sally gets a new phone.\' We usually add \'s\' or \'es\' to present tense verbs after the name of a person.",
   	set: 10
   	},
 
@@ -8045,8 +8210,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentence has an adjective? \r\n1.Sally sees Ben and James. \r\n2. The birds eat food on the street. \r\n3. The big dog runs home.",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! Big is an adjective. 'Big' tells us about the dog. Big, small, sad, yellow, slow and sleepy are all adjectives.",
-  	incorrectAnswerResponse: "Incorrect. Big is an adjective. 'Big' tells us about the dog. Big, small, sad, yellow, slow and sleepy are all adjectives.",
+  	correctAnswerResponse: ":) Correct! Big is an adjective. \'Big\' tells us about the dog. Big, small, sad, yellow, slow and sleepy are all adjectives.",
+  	incorrectAnswerResponse: "Incorrect. Big is an adjective. \'Big\' tells us about the dog. Big, small, sad, yellow, slow and sleepy are all adjectives.",
   	set: 10
   	},
 
@@ -8057,8 +8222,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Enter the correct year.",
   	question: "Say: Open your books to page 58. What year did William Tubman become president. Enter the year in your phones now.",
   	answer: "1944",
-  	correctAnswerResponse: ":) Correct! The story says, "Tubman became president in 1944."",
-  	incorrectAnswerResponse: "Incorrect. The story says, "Tubman became president in 1944."",
+  	correctAnswerResponse: ":) Correct! The story says, \"Tubman became president in 1944.\"",
+  	incorrectAnswerResponse: "Incorrect. The story says, \"Tubman became president in 1944.\"",
   	set: 11
   	},
 
@@ -8066,11 +8231,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP11Q1",
    code: "5032",
    title: "Eng Q21",
-   learner_question: "What is a biography? \r\n1. A report about an important event. \r\n2. The story of a person's life. \r\n3. An investigation into why something happened.",
+   learner_question: "What is a biography? \r\n1. A report about an important event. \r\n2. The story of a person\'s life. \r\n3. An investigation into why something happened.",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! A biography is the story of a person's life.",
-  	incorrectAnswerResponse: "Incorrect. A biography is the story of a person's life.",
+  	correctAnswerResponse: ":) Correct! A biography is the story of a person\'s life.",
+  	incorrectAnswerResponse: "Incorrect. A biography is the story of a person\'s life.",
   	set: 11
   	},
 
@@ -8078,11 +8243,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP11Q2",
    code: "5033",
    title: "Eng Q22",
-   learner_question: "What type of questions is the word 'When' used to ask? \r\n1. Questions about place. \r\n2. Questions about time. \r\n3. Questions about names.",
+   learner_question: "What type of questions is the word \'When\' used to ask? \r\n1. Questions about place. \r\n2. Questions about time. \r\n3. Questions about names.",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! 'When' questions ask about time. When will we eat? When were you born? Etc.",
-  	incorrectAnswerResponse: "Incorrect. 'When' questions ask about time. When will we eat? When were you born? Etc.",
+  	correctAnswerResponse: ":) Correct! \'When\' questions ask about time. When will we eat? When were you born? Etc.",
+  	incorrectAnswerResponse: "Incorrect. \'When\' questions ask about time. When will we eat? When were you born? Etc.",
   	set: 11
   	},
 
@@ -8091,7 +8256,7 @@ exports.getQuestion = function(questionCode) {
    code: "5034",
    title: "Eng Class Q12",
    learner_question: "\r\n1. Fixing errors. \r\n2. Making plans. \r\n3. Writing",
-  	question: "Say: What do we do when we start 'drafting'? Enter the number of the correct answer on your phones.",
+  	question: "Say: What do we do when we start \'drafting\'? Enter the number of the correct answer on your phones.",
   	answer: "3",
   	correctAnswerResponse: ":) Correct! When we draft, we are starting to write. ",
   	incorrectAnswerResponse: "Incorrect. When we draft, we are starting to write. ",
@@ -8105,8 +8270,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentence is NOT correct? \r\n1. We likes cakes. \r\n2. I like sweets. \r\n3. She likes chocolate.",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! With the subject 'we' we do not ad 's' or 'es' to the end of verbs. We like cakes.",
-  	incorrectAnswerResponse: "Incorrect. With the subject 'we' we do not ad 's' or 'es' to the end of verbs. We like cakes.",
+  	correctAnswerResponse: ":) Correct! With the subject \'we\' we do not ad \'s\' or \'es\' to the end of verbs. We like cakes.",
+  	incorrectAnswerResponse: "Incorrect. With the subject \'we\' we do not ad \'s\' or \'es\' to the end of verbs. We like cakes.",
   	set: 12
   	},
 
@@ -8117,8 +8282,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentence is not correct? \r\n1. She eat rice and chicken. \r\n2. He eats rice and chicken. \r\n3. They eat rice and chicken.",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! With the subject, 'she', 'he' and 'it' we usually add 's' or 'es' to the end of the verb. She eats rice and chicken.",
-  	incorrectAnswerResponse: "Incorrect. With the subject, 'she', 'he' and 'it' we usually add 's' or 'es' to the end of the verb. She eats rice and chicken.",
+  	correctAnswerResponse: ":) Correct! With the subject, \'she\', \'he\' and \'it\' we usually add \'s\' or \'es\' to the end of the verb. She eats rice and chicken.",
+  	incorrectAnswerResponse: "Incorrect. With the subject, \'she\', \'he\' and \'it\' we usually add \'s\' or \'es\' to the end of the verb. She eats rice and chicken.",
   	set: 12
   	},
 
@@ -8165,8 +8330,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. They walked home and ate cake. \r\n2. They walk home and eat cake. \r\n3. They are walking home and eating cake.",
   	question: "Say: Which sentence is in the past tense? Enter the number of the correct answer.",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! 'Walked' and 'ate' are past tense verbs.",
-  	incorrectAnswerResponse: "Incorrect. 'Walked' and 'ate' are past tense verbs.",
+  	correctAnswerResponse: ":) Correct! \'Walked\' and \'ate\' are past tense verbs.",
+  	incorrectAnswerResponse: "Incorrect. \'Walked\' and \'ate\' are past tense verbs.",
   	set: 14
   	},
 
@@ -8177,8 +8342,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentenced is in the past tense? \r\n1. We had fun at the party. \r\n2. We have fun at the party. \r\n3. We are having fun at the party. ",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! 'Had' is the past tense form of 'have'. Verbs determine the tense of a sentence.",
-  	incorrectAnswerResponse: "Incorrect. 'Had' is the past tense form of 'have'. Verbs determine the tense of a sentence.",
+  	correctAnswerResponse: ":) Correct! \'Had\' is the past tense form of \'have\'. Verbs determine the tense of a sentence.",
+  	incorrectAnswerResponse: "Incorrect. \'Had\' is the past tense form of \'have\'. Verbs determine the tense of a sentence.",
   	set: 14
   	},
 
@@ -8186,11 +8351,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP14Q2",
    code: "5042",
    title: "Eng Q28",
-   learner_question: "What is the past tense form of the verb 'is'? \r\n1. are \r\n2. was \r\n3. were",
+   learner_question: "What is the past tense form of the verb \'is\'? \r\n1. are \r\n2. was \r\n3. were",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! Was is the past tense form of 'is'. She was happy.",
-  	incorrectAnswerResponse: "Incorrect. Was is the past tense form of 'is'. She was happy.",
+  	correctAnswerResponse: ":) Correct! Was is the past tense form of \'is\'. She was happy.",
+  	incorrectAnswerResponse: "Incorrect. Was is the past tense form of \'is\'. She was happy.",
   	set: 14
   	},
 
@@ -8201,8 +8366,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. jumped \r\n2. wrote \r\n3. asked",
   	question: "Say: Which verb is a special past tense verb? Enter the correct answer.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! Special past tense verbs do not end in 'ed' like most verbs. Ate, spoke, wrote, slept.",
-  	incorrectAnswerResponse: "Incorrect. Special past tense verbs do not end in 'ed' like most verbs. Ate, spoke, wrote, slept.",
+  	correctAnswerResponse: ":) Correct! Special past tense verbs do not end in \'ed\' like most verbs. Ate, spoke, wrote, slept.",
+  	incorrectAnswerResponse: "Incorrect. Special past tense verbs do not end in \'ed\' like most verbs. Ate, spoke, wrote, slept.",
   	set: 15
   	},
 
@@ -8210,11 +8375,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP15Q1",
    code: "5044",
    title: "Eng Q29",
-   learner_question: "What is the past tense form of the verb 'make'? \r\n1. made \r\n2. maked \r\n3. making",
+   learner_question: "What is the past tense form of the verb \'make\'? \r\n1. made \r\n2. maked \r\n3. making",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! Make is a special verb. It does not end in 'ed'. Made.",
-  	incorrectAnswerResponse: "Incorrect. Make is a special verb. It does not end in 'ed'. Made.",
+  	correctAnswerResponse: ":) Correct! Make is a special verb. It does not end in \'ed\'. Made.",
+  	incorrectAnswerResponse: "Incorrect. Make is a special verb. It does not end in \'ed\'. Made.",
   	set: 15
   	},
 
@@ -8222,11 +8387,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP15Q2",
    code: "5045",
    title: "Eng Q30",
-   learner_question: "What is the past tense form of the verb 'bring'? \r\n1. bringed \r\n3. brung \r\n3. brought",
+   learner_question: "What is the past tense form of the verb \'bring\'? \r\n1. bringed \r\n3. brung \r\n3. brought",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! Bring is a special verb. It does not end in 'ed'. Brought.",
-  	incorrectAnswerResponse: "Incorrect. Bring is a special verb. It does not end in 'ed'. Brought.",
+  	correctAnswerResponse: ":) Correct! Bring is a special verb. It does not end in \'ed\'. Brought.",
+  	incorrectAnswerResponse: "Incorrect. Bring is a special verb. It does not end in \'ed\'. Brought.",
   	set: 15
   	},
 
@@ -8235,10 +8400,10 @@ exports.getQuestion = function(questionCode) {
    code: "5046",
    title: "Eng Class Q16",
    learner_question: "\r\n1. goed \r\n2. went \r\n3. gone",
-  	question: "What is the past tense form of the verb 'go'? Enter the number of the correct answer.",
+  	question: "What is the past tense form of the verb \'go\'? Enter the number of the correct answer.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! 'Go' is a special verb. It does not end in 'ed'. Went.",
-  	incorrectAnswerResponse: "Incorrect. 'Go' is a special verb. It does not end in 'ed'. Went.",
+  	correctAnswerResponse: ":) Correct! \'Go\' is a special verb. It does not end in \'ed\'. Went.",
+  	incorrectAnswerResponse: "Incorrect. \'Go\' is a special verb. It does not end in \'ed\'. Went.",
   	set: 16
   	},
 
@@ -8246,11 +8411,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP16Q1",
    code: "5047",
    title: "Eng Q31",
-   learner_question: "What is the past tense form of the verb 'know'? \r\n1. knew \r\n2. knowed \r\n3. knowing",
+   learner_question: "What is the past tense form of the verb \'know\'? \r\n1. knew \r\n2. knowed \r\n3. knowing",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! 'Know' is a special verb. It does not end in 'ed'. Knew.",
-  	incorrectAnswerResponse: "Incorrect. 'Know' is a special verb. It does not end in 'ed'. Knew.",
+  	correctAnswerResponse: ":) Correct! \'Know\' is a special verb. It does not end in \'ed\'. Knew.",
+  	incorrectAnswerResponse: "Incorrect. \'Know\' is a special verb. It does not end in \'ed\'. Knew.",
   	set: 16
   	},
 
@@ -8258,11 +8423,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP16Q2",
    code: "5048",
    title: "Eng Q32",
-   learner_question: "What is the past tense form of the verb 'jump'? \r\n1. jomp \r\n2. jumping \r\n3. jumped",
+   learner_question: "What is the past tense form of the verb \'jump\'? \r\n1. jomp \r\n2. jumping \r\n3. jumped",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! 'Jump' is a regular verb. It ends with 'ed' in the past tense. Jumped.",
-  	incorrectAnswerResponse: "Incorrect. 'Jump' is a regular verb. It ends with 'ed' in the past tense. Jumped.",
+  	correctAnswerResponse: ":) Correct! \'Jump\' is a regular verb. It ends with \'ed\' in the past tense. Jumped.",
+  	incorrectAnswerResponse: "Incorrect. \'Jump\' is a regular verb. It ends with \'ed\' in the past tense. Jumped.",
   	set: 16
   	},
 
@@ -8273,8 +8438,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "The good girl ran home after school. \r\n1. good \r\n2. girl \r\n3. after",
   	question: "Say: Which word in the sentence is an adjective? Enter the number of the correct answer.",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! 'Good' is an adjective. It describes the girl.",
-  	incorrectAnswerResponse: "Incorrect. 'Good' is an adjective. It describes the girl.",
+  	correctAnswerResponse: ":) Correct! \'Good\' is an adjective. It describes the girl.",
+  	incorrectAnswerResponse: "Incorrect. \'Good\' is an adjective. It describes the girl.",
   	set: 17
   	},
 
@@ -8285,8 +8450,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word in the sentence is a noun? The big dog ate. \r\n1. big \r\n2. dog \r\n3. ate",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! 'Dog' is a noun. Nouns are people, places and things.",
-  	incorrectAnswerResponse: "Incorrect. 'Dog' is a noun. Nouns are people, places and things.",
+  	correctAnswerResponse: ":) Correct! \'Dog\' is a noun. Nouns are people, places and things.",
+  	incorrectAnswerResponse: "Incorrect. \'Dog\' is a noun. Nouns are people, places and things.",
   	set: 17
   	},
 
@@ -8297,8 +8462,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word is a verb? The birds sit in the tall tree. \r\n1. birds \r\n2. sit \r\n3. tall",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! 'Sit' is a verb. Verbs are action words- they are things we can do.",
-  	incorrectAnswerResponse: "Incorrect. 'Sit' is a verb. Verbs are action words- they are things we can do.",
+  	correctAnswerResponse: ":) Correct! \'Sit\' is a verb. Verbs are action words- they are things we can do.",
+  	incorrectAnswerResponse: "Incorrect. \'Sit\' is a verb. Verbs are action words- they are things we can do.",
   	set: 17
   	},
 
@@ -8309,8 +8474,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. We eat old rice. \r\n2. They looked at the trees. \r\n3. The girl walks home slowly.",
   	question: "Say: Which sentence is in the past tense? Enter the number of the correct answer.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! 'Looked' is a regular past tense verb. Verbs tell us the tense of a sentence. ",
-  	incorrectAnswerResponse: "Incorrect. They looked at the trees. 'Looked' is a regular past tense verb. Verbs tell us the tense of a sentence. ",
+  	correctAnswerResponse: ":) Correct! \'Looked\' is a regular past tense verb. Verbs tell us the tense of a sentence. ",
+  	incorrectAnswerResponse: "Incorrect. They looked at the trees. \'Looked\' is a regular past tense verb. Verbs tell us the tense of a sentence. ",
   	set: 18
   	},
 
@@ -8318,11 +8483,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP18Q1",
    code: "5053",
    title: "Eng Q35",
-   learner_question: "What is the past tense form of the verb 'see'? \r\n1. saw \r\n2. seed \r\n3. seeing",
+   learner_question: "What is the past tense form of the verb \'see\'? \r\n1. saw \r\n2. seed \r\n3. seeing",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! 'See' is a special past tense verb. It does not end in 'ed'. Saw.",
-  	incorrectAnswerResponse: "Incorrect. 'See' is a special past tense verb. It does not end in 'ed'. Saw.",
+  	correctAnswerResponse: ":) Correct! \'See\' is a special past tense verb. It does not end in \'ed\'. Saw.",
+  	incorrectAnswerResponse: "Incorrect. \'See\' is a special past tense verb. It does not end in \'ed\'. Saw.",
   	set: 18
   	},
 
@@ -8345,8 +8510,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. plan, draft, finalize, edit, rewrite \r\n2. write, draft, revise, finalize \r\n3. plan, draft, revise, edit, finalize",
   	question: "What are the steps in the writing process? Enter the number of the correct answer.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! We plan what we will write, make a draft, revise what we've written, make edits and then finalize.",
-  	incorrectAnswerResponse: "Incorrect. We plan what we will write, make a draft, revise what we've written, make edits and then finalize.",
+  	correctAnswerResponse: ":) Correct! We plan what we will write, make a draft, revise what we\'ve written, make edits and then finalize.",
+  	incorrectAnswerResponse: "Incorrect. We plan what we will write, make a draft, revise what we\'ve written, make edits and then finalize.",
   	set: 19
   	},
 
@@ -8390,11 +8555,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP20Q1",
    code: "5059",
    title: "Eng Q39",
-   learner_question: "What is a biography? \r\n1. A report about an important event. \r\n2. The story of a person's life. \r\n3. An investigation into why something happened.",
+   learner_question: "What is a biography? \r\n1. A report about an important event. \r\n2. The story of a person\'s life. \r\n3. An investigation into why something happened.",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! A biography is the story of a person's life.",
-  	incorrectAnswerResponse: "Incorrect. A biography is the story of a person's life.",
+  	correctAnswerResponse: ":) Correct! A biography is the story of a person\'s life.",
+  	incorrectAnswerResponse: "Incorrect. A biography is the story of a person\'s life.",
   	set: 20
   	},
 
@@ -8402,7 +8567,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP20Q2",
    code: "5060",
    title: "Eng Q40",
-   learner_question: "Which is a 'cause' of missing class? \r\n1. You will not learn. \r\n2. You will fall behind. \r\n3. You have a busy schedule.",
+   learner_question: "Which is a \'cause\' of missing class? \r\n1. You will not learn. \r\n2. You will fall behind. \r\n3. You have a busy schedule.",
   	question: "",
   	answer: "3",
   	correctAnswerResponse: ":) Correct! A cause is the reason something happens. Some people miss class because they are busy and do not plan ahead.",
@@ -8429,8 +8594,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word is an adverb? \r\n1. slowly \r\n2. big \r\n3. run",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! Adverbs often end on 'ly'. Adverbs often describe verbs. The dog ran slowly.",
-  	incorrectAnswerResponse: "Incorrect. Adverbs often end on 'ly'. Adverbs often describe verbs. The dog ran slowly.",
+  	correctAnswerResponse: ":) Correct! Adverbs often end on \'ly\'. Adverbs often describe verbs. The dog ran slowly.",
+  	incorrectAnswerResponse: "Incorrect. Adverbs often end on \'ly\'. Adverbs often describe verbs. The dog ran slowly.",
   	set: 21
   	},
 
@@ -8441,8 +8606,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word in the sentence is an adverb? The girls did poorly on the big exam. \r\n1. girls \r\n2. poorly \r\n3. big",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! The adverb 'poorly' describes how the girls did on the exam.",
-  	incorrectAnswerResponse: "Incorrect. The adverb 'poorly' describes how the girls did on the exam.",
+  	correctAnswerResponse: ":) Correct! The adverb \'poorly\' describes how the girls did on the exam.",
+  	incorrectAnswerResponse: "Incorrect. The adverb \'poorly\' describes how the girls did on the exam.",
   	set: 21
   	},
 
@@ -8477,8 +8642,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word in the sentence is an adverb? Sonie ran home quickly. \r\n1. Sonie \r\n2. ran \r\n3. quickly",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The adverb 'quickly' describes how Sonie ran.",
-  	incorrectAnswerResponse: "Incorrect. The adverb 'quickly' describes how Sonie ran.",
+  	correctAnswerResponse: ":) Correct! The adverb \'quickly\' describes how Sonie ran.",
+  	incorrectAnswerResponse: "Incorrect. The adverb \'quickly\' describes how Sonie ran.",
   	set: 22
   	},
 
@@ -8513,8 +8678,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word in the sentence is an adverb? We slowly ate the chicken. \r\n1. slowly \r\n2. ate \r\n3. chicken",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! The adverb 'slowly' describes how the chicken was eaten.",
-  	incorrectAnswerResponse: "Incorrect. The adverb 'slowly' describes how the chicken was eaten.",
+  	correctAnswerResponse: ":) Correct! The adverb \'slowly\' describes how the chicken was eaten.",
+  	incorrectAnswerResponse: "Incorrect. The adverb \'slowly\' describes how the chicken was eaten.",
   	set: 23
   	},
 
@@ -8549,8 +8714,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which is the future tense version of the sentence: I drink water. \r\n1. I am going to drink water. \r\n2. I drank water. \r\n3. I am drinking water.",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! We can also use 'going to' to talk about the future.",
-  	incorrectAnswerResponse: "Incorrect. We can also use 'going to' to talk about the future.",
+  	correctAnswerResponse: ":) Correct! We can also use \'going to\' to talk about the future.",
+  	incorrectAnswerResponse: "Incorrect. We can also use \'going to\' to talk about the future.",
   	set: 24
   	},
 
@@ -8582,7 +8747,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP25Q2",
    code: "5075",
    title: "Eng Q50",
-   learner_question: "Which sentence is 'plagiarism' of the example: Agriculture is the key to Liberia's future. \r\n1. Agriculture is very important for our nation's future. \r\n2.Agriculture is the key to Liberia's future. \r\n3. Agriculture is important.",
+   learner_question: "Which sentence is \'plagiarism\' of the example: Agriculture is the key to Liberia\'s future. \r\n1. Agriculture is very important for our nation\'s future. \r\n2.Agriculture is the key to Liberia\'s future. \r\n3. Agriculture is important.",
   	question: "",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! Plagiarism means copying the work or exact words of another person. We must be careful to say things in our own words and give credit to other people for their ideas.",
@@ -8606,11 +8771,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP26Q1",
    code: "5077",
    title: "Eng Q51",
-   learner_question: "Which is the past tense form of 'meet'? \r\n1. met \r\n2. metted \r\n3. meeting",
+   learner_question: "Which is the past tense form of \'meet\'? \r\n1. met \r\n2. metted \r\n3. meeting",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! Met is special past tense verb. It does not end in 'ed'.",
-  	incorrectAnswerResponse: "Incorrect. Met is special past tense verb. It does not end in 'ed'.",
+  	correctAnswerResponse: ":) Correct! Met is special past tense verb. It does not end in \'ed\'.",
+  	incorrectAnswerResponse: "Incorrect. Met is special past tense verb. It does not end in \'ed\'.",
   	set: 26
   	},
 
@@ -8657,8 +8822,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentence is correct? \r\n1. The crops failed because it did not rain. \r\n2. It did not rain because the crops failed. \r\n3. It did not rain since the crops failed.",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! The cause is "It did not rain". The effect is "the crops failed." The crops failed because it did not rain.",
-  	incorrectAnswerResponse: "Incorrect. The cause is "It did not rain". The effect is "the crops failed." The crops failed because it did not rain.",
+  	correctAnswerResponse: ":) Correct! The cause is \"It did not rain\". The effect is \"the crops failed.\" The crops failed because it did not rain.",
+  	incorrectAnswerResponse: "Incorrect. The cause is \"It did not rain\". The effect is \"the crops failed.\" The crops failed because it did not rain.",
   	set: 27
   	},
 
@@ -8681,8 +8846,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentence has a different meaning than the other two? \r\n1. The boy is unhappy because he is hungry. \r\n2. Because the boy is unhappy, he is hungry. \r\n2. Since the boy is hungry, he is unhappy.",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! The cause of the boy's unhappiness is his hunger. Sentence 2 says that the boy is hungry because he is unhappy.",
-  	incorrectAnswerResponse: "Incorrect. The cause of the boy's unhappiness is his hunger. Sentence 2 says that the boy is hungry because he is unhappy.",
+  	correctAnswerResponse: ":) Correct! The cause of the boy\'s unhappiness is his hunger. Sentence 2 says that the boy is hungry because he is unhappy.",
+  	incorrectAnswerResponse: "Incorrect. The cause of the boy\'s unhappiness is his hunger. Sentence 2 says that the boy is hungry because he is unhappy.",
   	set: 28
   	},
 
@@ -8762,7 +8927,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP30Q2",
    code: "5090",
    title: "Eng Q60",
-   learner_question: "What is an example of something we might do to 'revise'? \r\n1. Think about what we will write. \r\n2. Write out a draft. \r\n2. Look for subject verb agreement.",
+   learner_question: "What is an example of something we might do to \'revise\'? \r\n1. Think about what we will write. \r\n2. Write out a draft. \r\n2. Look for subject verb agreement.",
   	question: "",
   	answer: "3",
   	correctAnswerResponse: ":) Correct! When we revise our writing, we look for errors. You might also check that the writing is smooth and logical.",
@@ -8777,8 +8942,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "I ate rice yesterday. \r\n1. ate \r\n2. rice \r\n3. yesterday",
   	question: "Which word in the sentence is an adverb? Enter the number of the correct answer.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The adverb 'yesterday' describes when the food was eaten.",
-  	incorrectAnswerResponse: "Incorrect. The adverb 'yesterday' describes when the food was eaten.",
+  	correctAnswerResponse: ":) Correct! The adverb \'yesterday\' describes when the food was eaten.",
+  	incorrectAnswerResponse: "Incorrect. The adverb \'yesterday\' describes when the food was eaten.",
   	set: 31
   	},
 
@@ -8789,8 +8954,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word in the sentence is an adverb: She sang the old song beautifully. \r\n1. She \r\n2. old \r\n3. beautifully",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! Beautifully describes how she sang the song. Many adverbs end in 'ly'.",
-  	incorrectAnswerResponse: "Incorrect. Beautifully describes how she sang the song. Many adverbs end in 'ly'.",
+  	correctAnswerResponse: ":) Correct! Beautifully describes how she sang the song. Many adverbs end in \'ly\'.",
+  	incorrectAnswerResponse: "Incorrect. Beautifully describes how she sang the song. Many adverbs end in \'ly\'.",
   	set: 31
   	},
 
@@ -8801,8 +8966,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word in the sentence is an adverb: I slowly walked to the big market. \r\n1. slowly \r\n2. walked \r\n3. big",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! Slowly describes how 'I' walked. Many adverbs end in 'ly'.",
-  	incorrectAnswerResponse: "Incorrect. Slowly describes how 'I' walked. Many adverbs end in 'ly'.",
+  	correctAnswerResponse: ":) Correct! Slowly describes how \'I\' walked. Many adverbs end in \'ly\'.",
+  	incorrectAnswerResponse: "Incorrect. Slowly describes how \'I\' walked. Many adverbs end in \'ly\'.",
   	set: 31
   	},
 
@@ -8837,8 +9002,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word is an adverb? We often eat rice and chicken. \r\n1. We \r\n2. often \r\n3. eat",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! The adverb 'often' describes the frequency with which chicken and rice are eaten.",
-  	incorrectAnswerResponse: "Incorrect. The adverb 'often' describes the frequency with which chicken and rice are eaten.",
+  	correctAnswerResponse: ":) Correct! The adverb \'often\' describes the frequency with which chicken and rice are eaten.",
+  	incorrectAnswerResponse: "Incorrect. The adverb \'often\' describes the frequency with which chicken and rice are eaten.",
   	set: 32
   	},
 
@@ -8858,11 +9023,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP33Q1",
    code: "5098",
    title: "Eng Q65",
-   learner_question: "Which direction is polite? \r\n1. Please eat. \r\n2. Eat. \r\n3. Don't eat.",
+   learner_question: "Which direction is polite? \r\n1. Please eat. \r\n2. Eat. \r\n3. Don\'t eat.",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! We can use 'please' to make directions more polite.",
-  	incorrectAnswerResponse: "Incorrect. We can use 'please' to make directions more polite.",
+  	correctAnswerResponse: ":) Correct! We can use \'please\' to make directions more polite.",
+  	incorrectAnswerResponse: "Incorrect. We can use \'please\' to make directions more polite.",
   	set: 33
   	},
 
@@ -8873,8 +9038,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which direction is polite? \r\n1. Give me the pencil. \r\n2. Give it. \r\n3. Give me the pencil, thanks.",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! 'Thanks' makes a direction more polite.",
-  	incorrectAnswerResponse: "Incorrect. 'Thanks' makes a direction more polite.",
+  	correctAnswerResponse: ":) Correct! \'Thanks\' makes a direction more polite.",
+  	incorrectAnswerResponse: "Incorrect. \'Thanks\' makes a direction more polite.",
   	set: 33
   	},
 
@@ -8883,7 +9048,7 @@ exports.getQuestion = function(questionCode) {
    code: "5100",
    title: "Eng Class Q34",
    learner_question: "\r\n1. A traditional healer. \r\n2. Something that prevents illness. \r\n3. Something that solves a problem or cures and illness.",
-  	question: "Say: What is a 'remedy'? Enter the number of the correct answer.",
+  	question: "Say: What is a \'remedy\'? Enter the number of the correct answer.",
   	answer: "3",
   	correctAnswerResponse: ":) Correct! A remedy is a solution to a problem. Medicines are remedies to many illnesses.",
   	incorrectAnswerResponse: "Incorrect. A remedy is a solution to a problem. Medicines are remedies to many illnesses.",
@@ -8921,8 +9086,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. By working too hard. \r\n2. By eating too much. \r\n3. By taking too much medicine.",
   	question: "Say: How can a person overdose? Enter the number of the correct answer.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! Too much medicine can kill a person. We 'overdose' when we take too much medicine or too many drugs.",
-  	incorrectAnswerResponse: "Incorrect. Too much medicine can kill a person. We 'overdose' when we take too much medicine or too many drugs.",
+  	correctAnswerResponse: ":) Correct! Too much medicine can kill a person. We \'overdose\' when we take too much medicine or too many drugs.",
+  	incorrectAnswerResponse: "Incorrect. Too much medicine can kill a person. We \'overdose\' when we take too much medicine or too many drugs.",
   	set: 35
   	},
 
@@ -8945,8 +9110,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "What is the last step in the writing process? \r\n1. revise \r\n2. draft \r\n3. finalize",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The 'final' step in the witting process is to finalize what we have written.",
-  	incorrectAnswerResponse: "Incorrect. The 'final' step in the witting process is to finalize what we have written.",
+  	correctAnswerResponse: ":) Correct! The \'final\' step in the witting process is to finalize what we have written.",
+  	incorrectAnswerResponse: "Incorrect. The \'final\' step in the witting process is to finalize what we have written.",
   	set: 35
   	},
 
@@ -8957,8 +9122,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. Mary walked home. \r\n2. She sees a dog. \r\n3. Jane is running to the river.",
   	question: "Say: Which sentence is in the past tense? Enter the number of the correct answer.",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! The regular past tense verb 'walked' shows us that the sentence, 'Mary walked home." is in the past tense.",
-  	incorrectAnswerResponse: "Incorrect. The regular past tense verb 'walked' shows us that the sentence, 'Mary walked home." is in the past tense.",
+  	correctAnswerResponse: ":) Correct! The regular past tense verb \'walked\' shows us that the sentence, \'Mary walked home.\" is in the past tense.",
+  	incorrectAnswerResponse: "Incorrect. The regular past tense verb \'walked\' shows us that the sentence, \'Mary walked home.\" is in the past tense.",
   	set: 36
   	},
 
@@ -8981,8 +9146,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word in the sentence is an adverb: I saw him yesterday. \r\n1. I \r\n2. saw \r\n3. yesterday",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The adverb yesterday tells us when the verb 'saw' happened.",
-  	incorrectAnswerResponse: "Incorrect. The adverb yesterday tells us when the verb 'saw' happened.",
+  	correctAnswerResponse: ":) Correct! The adverb yesterday tells us when the verb \'saw\' happened.",
+  	incorrectAnswerResponse: "Incorrect. The adverb yesterday tells us when the verb \'saw\' happened.",
   	set: 36
   	},
 
@@ -8993,8 +9158,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "The small cat ate quickly. \r\n1. small \r\n2. cat \r\n3. quickly",
   	question: "Which word in the sentence is an adjective? Enter the number of the correct answer.",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! Adjectives describe nouns. The adjective 'small' describes the cat.",
-  	incorrectAnswerResponse: "Incorrect. Adjectives describe nouns. The adjective 'small' describes the cat.",
+  	correctAnswerResponse: ":) Correct! Adjectives describe nouns. The adjective \'small\' describes the cat.",
+  	incorrectAnswerResponse: "Incorrect. Adjectives describe nouns. The adjective \'small\' describes the cat.",
   	set: 37
   	},
 
@@ -9005,8 +9170,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "What is the past tense form of take? \r\n1. taking \r\n2. taked \r\n3. took",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The verb 'took' is a special past tense verb. It does not end in 'ed'.",
-  	incorrectAnswerResponse: "Incorrect. The verb 'took' is a special past tense verb. It does not end in 'ed'.",
+  	correctAnswerResponse: ":) Correct! The verb \'took\' is a special past tense verb. It does not end in \'ed\'.",
+  	incorrectAnswerResponse: "Incorrect. The verb \'took\' is a special past tense verb. It does not end in \'ed\'.",
   	set: 37
   	},
 
@@ -9017,8 +9182,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word in the sentence is an adverb: We did poorly on the exam. \r\n1. did \r\n2. poorly \r\n3. exam",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! The adverb 'poorly' describes how 'we' did on the exam.",
-  	incorrectAnswerResponse: "Incorrect. The adverb 'poorly' describes how 'we' did on the exam.",
+  	correctAnswerResponse: ":) Correct! The adverb \'poorly\' describes how \'we\' did on the exam.",
+  	incorrectAnswerResponse: "Incorrect. The adverb \'poorly\' describes how \'we\' did on the exam.",
   	set: 37
   	},
 
@@ -9089,8 +9254,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word in the sentence is an adjective: The big chicken eats grain quickly. \r\n1. big \r\n2. chicken \r\n3. quickly",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! The adjective 'big' describes the noun 'chicken'.",
-  	incorrectAnswerResponse: "Incorrect. The adjective 'big' describes the noun 'chicken'.",
+  	correctAnswerResponse: ":) Correct! The adjective \'big\' describes the noun \'chicken\'.",
+  	incorrectAnswerResponse: "Incorrect. The adjective \'big\' describes the noun \'chicken\'.",
   	set: 39
   	},
 
@@ -9125,8 +9290,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word is an adjective: The green book sits on the table. \r\n1. green \r\n2. sits \r\n3. table",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! The adjective 'green' describes the book.",
-  	incorrectAnswerResponse: "Incorrect. The adjective 'green' describes the book.",
+  	correctAnswerResponse: ":) Correct! The adjective \'green\' describes the book.",
+  	incorrectAnswerResponse: "Incorrect. The adjective \'green\' describes the book.",
   	set: 40
   	},
 
@@ -9135,7 +9300,7 @@ exports.getQuestion = function(questionCode) {
    code: "5121",
    title: "Eng Class Q41",
    learner_question: "\r\n1. Violators who touch girls will be punished. \r\n2. The third time a teacher abuses a girl, he will be put in prison. \r\n3. Boys who force girls to have sex will not be able to go to school in the morning.",
-  	question: "Say: Open your books to page 215. Which is NOT a part of the National Policy on Girls' Education? Enter the number of the correct answer.",
+  	question: "Say: Open your books to page 215. Which is NOT a part of the National Policy on Girls\' Education? Enter the number of the correct answer.",
   	answer: "2",
   	correctAnswerResponse: ":) Correct! The passage does not talk about the third time.",
   	incorrectAnswerResponse: "Incorrect. The passage does not talk about the third time.",
@@ -9146,11 +9311,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP41Q1",
    code: "5122",
    title: "Eng Q81",
-   learner_question: "What is the past tense of the verb 'feed'? \r\n1. fed \r\n2. feeded \r\n3. fad",
+   learner_question: "What is the past tense of the verb \'feed\'? \r\n1. fed \r\n2. feeded \r\n3. fad",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! The past tense of the irregular verb 'feed' is fed. Irregular verbs do not end in 'ed'.",
-  	incorrectAnswerResponse: "Incorrect. The past tense of the irregular verb 'feed' is fed. Irregular verbs do not end in 'ed'.",
+  	correctAnswerResponse: ":) Correct! The past tense of the irregular verb \'feed\' is fed. Irregular verbs do not end in \'ed\'.",
+  	incorrectAnswerResponse: "Incorrect. The past tense of the irregular verb \'feed\' is fed. Irregular verbs do not end in \'ed\'.",
   	set: 41
   	},
 
@@ -9161,8 +9326,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentence is in the past tense? \r\n1. I saw a cat. \r\n2. I seed a cat. \r\n3. I am seeing a cat.",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! 'Saw' is the past tense of the verb 'see'. I saw a cat.",
-  	incorrectAnswerResponse: "Incorrect. 'Saw' is the past tense of the verb 'see'. I saw a cat.",
+  	correctAnswerResponse: ":) Correct! \'Saw\' is the past tense of the verb \'see\'. I saw a cat.",
+  	incorrectAnswerResponse: "Incorrect. \'Saw\' is the past tense of the verb \'see\'. I saw a cat.",
   	set: 41
   	},
 
@@ -9171,10 +9336,10 @@ exports.getQuestion = function(questionCode) {
    code: "5124",
    title: "Eng Class Q42",
    learner_question: "\r\n1. Put in a bag. \r\n2. Arrested. \r\n3. Fired- a person loses his or her job.",
-  	question: "Say: What does the word 'sacked' mean? Enter the number of the correct answer on your phone.",
+  	question: "Say: What does the word \'sacked\' mean? Enter the number of the correct answer on your phone.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! A person who is 'sacked' loses his or her job. ",
-  	incorrectAnswerResponse: "Incorrect. A person who is 'sacked' loses his or her job. ",
+  	correctAnswerResponse: ":) Correct! A person who is \'sacked\' loses his or her job. ",
+  	incorrectAnswerResponse: "Incorrect. A person who is \'sacked\' loses his or her job. ",
   	set: 42
   	},
 
@@ -9197,8 +9362,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentence is correct? \r\n1. We is sleepy. \r\n2. We are sleepy. \r\n3. We am sleepy.",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! We use 'are' with 'we', 'they', and 'you'. We are sleepy.",
-  	incorrectAnswerResponse: "Incorrect. We use 'are' with 'we', 'they', and 'you'. We are sleepy.",
+  	correctAnswerResponse: ":) Correct! We use \'are\' with \'we\', \'they\', and \'you\'. We are sleepy.",
+  	incorrectAnswerResponse: "Incorrect. We use \'are\' with \'we\', \'they\', and \'you\'. We are sleepy.",
   	set: 42
   	},
 
@@ -9233,8 +9398,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which is the same sentence in the past tense: We sell chickens. \r\n1. We sold chickens. \r\n2. We selled chickens. \r\n3. We sells chickens.",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! The past tense of the special past tense verb 'sell' is 'sold. We sold chickens.",
-  	incorrectAnswerResponse: "Incorrect. The past tense of the special past tense verb 'sell' is 'sold. We sold chickens.",
+  	correctAnswerResponse: ":) Correct! The past tense of the special past tense verb \'sell\' is \'sold. We sold chickens.",
+  	incorrectAnswerResponse: "Incorrect. The past tense of the special past tense verb \'sell\' is \'sold. We sold chickens.",
   	set: 43
   	},
 
@@ -9326,11 +9491,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP46Q1",
    code: "5137",
    title: "Eng Q91",
-   learner_question: "What is the past tense of the verb 'drive'? \r\n1. drived \r\n2. driven \r\n3. drove",
+   learner_question: "What is the past tense of the verb \'drive\'? \r\n1. drived \r\n2. driven \r\n3. drove",
   	question: "",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The past tense of the special past tense verb 'drive' is 'drove'. We drove home.",
-  	incorrectAnswerResponse: ":) Correct! The past tense of the special past tense verb 'drive' is 'drove'. We drove home.",
+  	correctAnswerResponse: ":) Correct! The past tense of the special past tense verb \'drive\' is \'drove\'. We drove home.",
+  	incorrectAnswerResponse: ":) Correct! The past tense of the special past tense verb \'drive\' is \'drove\'. We drove home.",
   	set: 46
   	},
 
@@ -9351,10 +9516,10 @@ exports.getQuestion = function(questionCode) {
    code: "5139",
    title: "Eng Class Q47",
    learner_question: "\r\n1. It gives ideas for new topics. \r\n2. It reminds us what to look for when editing. \r\n3. It teaches us grammar rules.",
-  	question: "Say: How does and editor's checklist help us write?",
+  	question: "Say: How does and editor\'s checklist help us write?",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! An editor's checklist is a list of things to look for when editing writing.",
-  	incorrectAnswerResponse: ":) Correct! An editor's checklist is a list of things to look for when editing writing.",
+  	correctAnswerResponse: ":) Correct! An editor\'s checklist is a list of things to look for when editing writing.",
+  	incorrectAnswerResponse: ":) Correct! An editor\'s checklist is a list of things to look for when editing writing.",
   	set: 47
   	},
 
@@ -9461,8 +9626,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "\r\n1. I will eat. \r\n2. I ate. \r\n3. I am eating.",
   	question: "Which sentence shows action happening now? Enter the number of the correct answer.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! We often use 'ing' verbs to show that action has started and not finished.",
-  	incorrectAnswerResponse: ":) Correct! We often use 'ing' verbs to show that action has started and not finished.",
+  	correctAnswerResponse: ":) Correct! We often use \'ing\' verbs to show that action has started and not finished.",
+  	incorrectAnswerResponse: ":) Correct! We often use \'ing\' verbs to show that action has started and not finished.",
   	set: 50
   	},
 
@@ -9473,8 +9638,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which sentence is correct? \r\n1. We is eating chicken. \r\n2. He is going home. \r\n3. I is doing my homework.",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! We use 'is' with 'he, 'she' and 'it'.",
-  	incorrectAnswerResponse: ":) Correct! We use 'is' with 'he, 'she' and 'it'.",
+  	correctAnswerResponse: ":) Correct! We use \'is\' with \'he, \'she\' and \'it\'.",
+  	incorrectAnswerResponse: ":) Correct! We use \'is\' with \'he, \'she\' and \'it\'.",
   	set: 50
   	},
 
@@ -9485,8 +9650,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word is written correctly? \r\n1. making \r\n2. makeing \r\n3. mading",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! With words ending in 'e', we usually remove the 'e' before adding 'ing'. Waking, making, taking.",
-  	incorrectAnswerResponse: ":) Correct! With words ending in 'e', we usually remove the 'e' before adding 'ing'. Waking, making, taking.",
+  	correctAnswerResponse: ":) Correct! With words ending in \'e\', we usually remove the \'e\' before adding \'ing\'. Waking, making, taking.",
+  	incorrectAnswerResponse: ":) Correct! With words ending in \'e\', we usually remove the \'e\' before adding \'ing\'. Waking, making, taking.",
   	set: 50
   	},
 
@@ -9533,8 +9698,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "The ball is on the tall table. \r\n1. ball \r\n2. on \r\n3. tall",
   	question: "Say: Which word in the sentence is a preposition? Enter the number of the correct answer.",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! The preposition 'on' shows the relationship between the ball and the table.",
-  	incorrectAnswerResponse: ":) Correct! The preposition 'on' shows the relationship between the ball and the table.",
+  	correctAnswerResponse: ":) Correct! The preposition \'on\' shows the relationship between the ball and the table.",
+  	incorrectAnswerResponse: ":) Correct! The preposition \'on\' shows the relationship between the ball and the table.",
   	set: 52
   	},
 
@@ -9545,8 +9710,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which word in the sentence is preposition: I sat between the two small girls. \r\n1. sat \r\n2. between \r\n3. small",
   	question: "",
   	answer: "2",
-  	correctAnswerResponse: ":) Correct! The preposition 'between' shows the relationship between 'I' and the girls.",
-  	incorrectAnswerResponse: ":) Correct! The preposition 'between' shows the relationship between 'I' and the girls.",
+  	correctAnswerResponse: ":) Correct! The preposition \'between\' shows the relationship between \'I\' and the girls.",
+  	incorrectAnswerResponse: ":) Correct! The preposition \'between\' shows the relationship between \'I\' and the girls.",
   	set: 52
   	},
 
@@ -9581,8 +9746,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "Which preposition is correct? Monrovia is ___ the sea. \r\n1. near \r\n2. around \r\n3. between",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! 'Near' shows the relationship between Monrovia and the sea. They are near each other.",
-  	incorrectAnswerResponse: ":) Correct! 'Near' shows the relationship between Monrovia and the sea. They are near each other.",
+  	correctAnswerResponse: ":) Correct! \'Near\' shows the relationship between Monrovia and the sea. They are near each other.",
+  	incorrectAnswerResponse: ":) Correct! \'Near\' shows the relationship between Monrovia and the sea. They are near each other.",
   	set: 53
   	},
 
@@ -9605,8 +9770,8 @@ exports.getQuestion = function(questionCode) {
    learner_question: "The happy teacher spoke quickly. \r\n1. happy \r\n2. spoke \r\n3. quickly",
   	question: "Which word in the sentence is an adverb? Enter the number of the correct answer.",
   	answer: "3",
-  	correctAnswerResponse: ":) Correct! The adverb 'quickly' describes how the teacher spoke.",
-  	incorrectAnswerResponse: ":) Correct! The adverb 'quickly' describes how the teacher spoke.",
+  	correctAnswerResponse: ":) Correct! The adverb \'quickly\' describes how the teacher spoke.",
+  	incorrectAnswerResponse: ":) Correct! The adverb \'quickly\' describes how the teacher spoke.",
   	set: 54
   	},
 
@@ -9614,11 +9779,11 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L3ENLP54Q1",
    code: "5161",
    title: "Eng Q107",
-   learner_question: "Which sentence is happening 'now'? \r\n1. I am eating rice. \r\n2. I ate rice. \r\n3. I will eat rice.",
+   learner_question: "Which sentence is happening \'now\'? \r\n1. I am eating rice. \r\n2. I ate rice. \r\n3. I will eat rice.",
   	question: "",
   	answer: "1",
-  	correctAnswerResponse: ":) Correct! 'ing' verbs often show action happening now in the present tense.",
-  	incorrectAnswerResponse: ":) Correct! 'ing' verbs often show action happening now in the present tense.",
+  	correctAnswerResponse: ":) Correct! \'ing\' verbs often show action happening now in the present tense.",
+  	incorrectAnswerResponse: ":) Correct! \'ing\' verbs often show action happening now in the present tense.",
   	set: 54
   	},
 
@@ -9633,7 +9798,6 @@ exports.getQuestion = function(questionCode) {
   	incorrectAnswerResponse: ":) Correct! Our rights are promised to us an cannot be taken away. We must earn respect on our own!",
   	set: 54
   	}
-
 };
 	
 	//return false if user submits a non existent question...

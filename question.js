@@ -1411,7 +1411,7 @@ exports.getQuestion = function(questionCode) {
   	set: 39
   	},
 
- 	2118:{
+	2118:{
   	question_tag: "L1MALP40QG",
    code: "2118",
    title: "Maths Class Q40",

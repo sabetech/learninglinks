@@ -67,15 +67,14 @@ global.main = function() {
 		//check if learner should have access to such a question code
 		if (learnerQuestion.answer == answerKey){
 			console.log("current point "+contact.vars.cum_points);
-			
-			if (contact.vars.cum_points == ""){
-				contact.vars.cum_points = 5;
-				console.log("5 points here ..");
-				console.log("contact.vars.cum_points "+contact.vars.cum_points);
+			if (typeof contact.vars.cum_points === 'undefined'){
+				contact.vars.cum_points = 5	
+				console.log(contact.vars.cum_points);
 			}else{
+				console.log("contact.vars.cum_points "+contact.vars.cum_points);
 				contact.vars.cum_points = parseInt(contact.vars.cum_points) + 5;
-				console.log("contact.vars.cum_points cumzi "+contact.vars.cum_points);
 			}
+			
 			sendReply(learnerQuestion.correctAnswerResponse);
 			
 		}else{

@@ -68,9 +68,11 @@ global.main = function() {
 		if (learnerQuestion.answer == answerKey){
 			sendReply(learnerQuestion.correctAnswerResponse);
 			if (contact.vars.cum_points == ""){
-				contact.vars.cum_points = 5;	
+				contact.vars.cum_points = 5;
+				contact.save();	
 			}else{
-				contact.vars.cum_points = parseInt(contact.vars.cum_points) + 5;	
+				contact.vars.cum_points = parseInt(contact.vars.cum_points) + 5;
+				contact.save();
 			}
 			
 		}else{

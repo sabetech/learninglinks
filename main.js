@@ -66,6 +66,8 @@ global.main = function() {
 
 		//check if learner should have access to such a question code
 		if (learnerQuestion.answer == answerKey){
+			console.log("current point "+contact.vars.cum_points);
+			
 			if (contact.vars.cum_points == ""){
 				contact.vars.cum_points = 5;
 				console.log("5 points here ..");

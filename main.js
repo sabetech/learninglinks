@@ -87,7 +87,7 @@ global.main = function() {
 		var questionCode = parseInt(contact.vars.current_question_code);
 		var individualQuestion = getQuestionObject(questionCode);
 
-		if (isNan(questionCode)){
+		if (isNaN(questionCode)){
 			sendReply("Invalid. Make sure to a question you have received.");
 			return;
 		}

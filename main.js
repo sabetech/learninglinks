@@ -75,10 +75,10 @@ global.main = function() {
 				contact.vars.cum_points = parseInt(contact.vars.cum_points) + 5;
 			}
 			
-			sendReply(learnerQuestion.correctAnswerResponse);
+			sendReply(learnerQuestion.correctAnswerResponse+" You have earned 5 points. Total Points: "+contact.vars.cum_points);
 			
 		}else{
-			sendReply(learnerQuestion.incorrectAnswerResponse);
+			sendReply(learnerQuestion.incorrectAnswerResponse+" Sorry, you earned no points.");
 		}
 
 		contact.vars.current_question_code = parseInt(contact.vars.current_question_code) + 1;
@@ -86,6 +86,11 @@ global.main = function() {
 
 		var questionCode = parseInt(contact.vars.current_question_code);
 		var individualQuestion = getQuestionObject(questionCode);
+
+		if (isNan(questionCode)){
+			sendReply("Invalid. Make sure to a question you have received.");
+			return;
+		}
 
 		if (individualQuestion.question_tag.indexOf("G") !== -1){
 			console.log("You are learner trying to access a group question!");

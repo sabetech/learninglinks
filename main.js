@@ -127,7 +127,7 @@ function sendMessageToTutor(message){
 	console.log("Message: "+message);
 
 	//get tutor of this contact ... 
-	var tutor = getLearnersTutor(contact);
+	var tutor = getLearnersTutor();
 	console.log("tutor info "+tutor.phone_number);
 	if (!tutor) return;
 
@@ -140,9 +140,9 @@ function sendMessageToTutor(message){
 
 }
 
-function getLearnersTutor(learner){
+function getLearnersTutor(){
 
-	var group = project.getGroupById(learner.vars.tutor_group_id);
+	var group = project.getGroupById(contact.vars.tutor_group_id);
 
 	cursor = group.queryContacts();
 

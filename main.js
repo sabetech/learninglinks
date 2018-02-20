@@ -103,8 +103,8 @@ global.main = function() {
 			return;
 		}
 
-		console.log("scheduled_msg for 2 mins now");
-		console.log("sender phone "+contact.phone_number);
+		//console.log("scheduled_msg for 2 mins now");
+		//console.log("sender phone "+contact.phone_number);
 		//send NExt question in the next 15mins
 		var scheduled_msg = project.scheduleMessage({
 		    content: individualQuestion.learner_question, 
@@ -124,11 +124,14 @@ function getQuestionObject(questionCode){
 
 function sendMessageToTutor(message){
 
+	console.log("Message: "+message);
+
 	//get tutor of this contact ... 
 	var tutor = getLearnersTutor(contact);
-	
+	console.log("tutor info "+tutor.phone_number);
 	if (!tutor) return;
 
+	console.log("tutor message sent ...?");
 	project.sendMessage({
 				content: message,
 				to_number: tutor.phone_number

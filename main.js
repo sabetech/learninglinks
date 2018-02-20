@@ -124,14 +124,33 @@ function getQuestionObject(questionCode){
 
 function sendMessageToTutor(message){
 
+	//get tutor of this contact ... 
+	var tutor = getLearnersTutor(contact);
+	
+	if (!tutor) return;
+
+	project.sendMessage({
+				content: message,
+				to_number: tutor.phone_number
+					});
 
 
 }
 
 function getLearnersTutor(learner){
 
+	var group = project.getGroupById(learner.vars.tutor_group_id);
 
+	cursor = group.queryContacts();
 
+	while(cursor.hasNext()){
+		var possibleTutor = cursor.next();
+		if (! possibleTutor.vars.learner){
+			//this is our tutor ... 
+			return possibleTutor;
+		}
+		return false;
+	}
 }
 
 

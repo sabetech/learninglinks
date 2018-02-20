@@ -69,18 +69,22 @@ global.main = function() {
 			
 			if (typeof contact.vars.cum_points === 'undefined'){
 				contact.vars.cum_points = 5	
-				console.log(contact.vars.cum_points);
 			}else{
-				console.log("contact.vars.cum_points "+contact.vars.cum_points);
 				contact.vars.cum_points = parseInt(contact.vars.cum_points) + 5;
 			}
 			
 			sendReply(learnerQuestion.correctAnswerResponse);
 			sendReply("You have earned 5 points. Total Points: "+contact.vars.cum_points);
 			
+			//send message to tutor here ...
+			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.code+" correctly and earned 5 points. Her Total Points: "+contact.vars.cum_points);
+
 		}else{
 			sendReply(learnerQuestion.incorrectAnswerResponse);
 			sendReply("Sorry, you earned no points.");
+
+			//send message to tutor here ...
+			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.code+" incorrectly and earned no points. Her Current points: "+contact.vars.cum_points);
 		}
 
 		contact.vars.current_question_code = parseInt(contact.vars.current_question_code) + 1;
@@ -90,7 +94,7 @@ global.main = function() {
 		var individualQuestion = getQuestionObject(questionCode);
 
 		if (isNaN(questionCode)){
-			sendReply("Invalid. Make sure to a question you have received.");
+			sendReply("Invalid. Make sure to answer a question you have received.");
 			return;
 		}
 
@@ -118,7 +122,22 @@ function getQuestionObject(questionCode){
 	return questionBase.getQuestion(questionCode);
 }
 
+function sendMessageToTutor(message){
+
+
+
+}
+
+function getLearnersTutor(learner){
+
+
+
+}
+
+
 /*
+
+
 
 
 

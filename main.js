@@ -145,7 +145,7 @@ function getLearnersTutor(){
 	var group = project.getGroupById(contact.vars.tutor_group_id);
 
 	cursor = group.queryContacts();
-
+	console.log("Group Name "+group.name);
 	while(cursor.hasNext()){
 		var possibleTutor = cursor.next();
 		if (! possibleTutor.vars.learner){

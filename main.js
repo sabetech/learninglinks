@@ -124,14 +124,11 @@ function getQuestionObject(questionCode){
 
 function sendMessageToTutor(message){
 
-	console.log("Message: "+message);
-
 	//get tutor of this contact ... 
 	var tutor = getLearnersTutor();
-	console.log("tutor info "+tutor.phone_number);
+	
 	if (!tutor) return;
 
-	console.log("tutor message sent ...?");
 	project.sendMessage({
 				content: message,
 				to_number: tutor.phone_number
@@ -145,14 +142,11 @@ function getLearnersTutor(){
 	var group = project.getGroupById(contact.vars.tutor_group_id);
 
 	cursor = group.queryContacts();
-	console.log("Group Name "+group.name);
+	
 	while(cursor.hasNext()){
 		var possibleTutor = cursor.next();
-		console.log("possible tutor "+possibleTutor.name);
-		console.log("Learner "+possibleTutor.vars.learner);
 		if (! possibleTutor.vars.learner){
 			//this is our tutor ... 
-			console.log("did we find our tutor? "+possibleTutor.name);
 			return possibleTutor;
 		}
 	}

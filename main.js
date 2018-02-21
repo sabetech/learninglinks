@@ -155,8 +155,8 @@ function getLearnersTutor(){
 			console.log("did we find our tutor? "+possibleTutor.name);
 			return possibleTutor;
 		}
-		return false;
 	}
+	return false;
 }
 
 

@@ -149,7 +149,7 @@ function getLearnersTutor(){
 	while(cursor.hasNext()){
 		var possibleTutor = cursor.next();
 		console.log("possible tutor "+possibleTutor.name);
-		
+		console.log("Learner "+possibleTutor.vars.learner);
 		if (! possibleTutor.vars.learner){
 			//this is our tutor ... 
 			console.log("did we find our tutor? "+possibleTutor.name);

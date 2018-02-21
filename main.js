@@ -150,6 +150,7 @@ function getLearnersTutor(){
 		var possibleTutor = cursor.next();
 		if (! possibleTutor.vars.learner){
 			//this is our tutor ... 
+			console.log("did we find our tutor? "+possibleTutor.name);
 			return possibleTutor;
 		}
 		return false;

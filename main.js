@@ -148,6 +148,8 @@ function getLearnersTutor(){
 	console.log("Group Name "+group.name);
 	while(cursor.hasNext()){
 		var possibleTutor = cursor.next();
+		console.log("possible tutor "+possibleTutor.name);
+		
 		if (! possibleTutor.vars.learner){
 			//this is our tutor ... 
 			console.log("did we find our tutor? "+possibleTutor.name);

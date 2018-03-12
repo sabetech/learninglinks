@@ -12,6 +12,8 @@ global.main = function() {
 		return;
 	}
 
+
+
 	keyword = keyword.trim();
 	
 
@@ -75,7 +77,16 @@ global.main = function() {
 		var answerKey = keyword;
 		//get question code from contact ...
 		var learnerQuestion = getQuestionObject(contact.vars.current_question_code);
-
+		if (typeof learnerQuestion === 'undefined'){
+			console.log("question is invalid or doesn't exit");
+			return;
+		}
+		
+		if (learnerQuestion.question_tag.indexOf("G") !== -1){
+			console.log("You are learner trying to access a group question!");
+			return;
+		}
+		
 		//check if learner should have access to such a question code
 		if (learnerQuestion.answer == answerKey){
 			
@@ -115,6 +126,11 @@ global.main = function() {
 			return;
 		}
 
+		if (typeof individualQuestion === 'undefined'){
+			console.log("question is invalid or doesn't exit");
+			return;
+		}
+		
 		if (individualQuestion.question_tag.indexOf("G") !== -1){
 			console.log("You are learner trying to access a group question!");
 			return;

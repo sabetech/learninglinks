@@ -2,21 +2,23 @@ var questionBase = null;
 global.main = function() {
 
 	var keyword = word1;
+	console.log("what is keyword "+keyword);
+	console.log("what is word1 "+word1);
 	if (keyword == ""){
+		console.log("is keyword empty?");
 		return;
 	}
 	if (keyword == null){
+		console.log("is keyword null?")
 		return;
 	}
 	if (typeof keyword === 'undefined' ){
+		console.log("are you undefined?");
 		return;
 	}
 
-
-
 	keyword = keyword.trim();
 	
-
 	questionBase = require('./question');
 	//check if is learner or tutor
 	if (!contact.vars.learner){
@@ -56,6 +58,7 @@ global.main = function() {
 			if (! learner_contact.vars.learner) continue;
 
 			learner_contact.vars.current_question_code = parseInt(questionCode);
+			learner_contact.vars.group_question_code = parseInt(questionCode);
 			sendSMS(learner_contact.phone_number, groupLearnerQuestion.learner_question);
 			learner_contact.save();
 
@@ -75,19 +78,30 @@ global.main = function() {
 		
 		//check if learner has received a question ... 
 		var answerKey = keyword;
+		if (typeof contact.vars.current_question_code == "undefined"){
+			console.log("current_question_code does not exist.");
+			return;
+		}
+
+		if (contact.vars.current_question_code == ""){
+			console.log("is current_question_code empty?");
+			return;
+		}
+
 		//get question code from contact ...
 		var learnerQuestion = getQuestionObject(contact.vars.current_question_code);
 		if (typeof learnerQuestion === 'undefined'){
 			console.log("question is invalid or doesn't exit");
 			return;
 		}
-		
-		if (learnerQuestion.question_tag.indexOf("G") !== -1){
-			console.log("You are learner trying to access a group question!");
+
+		//check if learner should have access to such a question code
+		//the better code is that .... when a tutor has sent a code, the last code they should receive is +2 of that code sent by the tutor ...
+		if (contact.vars.current_question_code > (contact.vars.group_question_code + 2)) {
+			console.log("You are trying go beyond you daily quota of questions per day");
 			return;
 		}
-		
-		//check if learner should have access to such a question code
+
 		if (learnerQuestion.answer == answerKey){
 			
 			if (typeof contact.vars.cum_points === 'undefined'){
@@ -122,7 +136,7 @@ global.main = function() {
 		var individualQuestion = getQuestionObject(questionCode);
 
 		if (isNaN(questionCode)){
-			sendReply("Invalid. Make sure to answer a question you have received.");
+			console.log("current_question_code of learner is not found");
 			return;
 		}
 

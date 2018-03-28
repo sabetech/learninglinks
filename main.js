@@ -6,15 +6,17 @@ global.main = function() {
 	console.log("what is word1 "+word1);
 	if (keyword == ""){
 		console.log("is keyword empty?");
-		return;
+		sendReply("No keyword Sent");
+		return true;
 	}
 	if (keyword == null){
-		console.log("is keyword null?")
-		return;
+		console.log("is keyword null?");
+		sendReply("No keyword Sent");
+		return true;
 	}
 	if (typeof keyword === 'undefined' ){
 		console.log("are you undefined?");
-		return;
+		return true;
 	}
 
 	keyword = keyword.trim();
@@ -27,7 +29,7 @@ global.main = function() {
 		var testgroup = project.getOrCreateGroup("LL_TESTGROUP");
 		if (!contact.isInGroup(testgroup)){
 			sendReply("Sorry you don't belong to the testgroup");
-			return;
+			return true;
 		}
 
 		var questionCode = keyword;
@@ -36,12 +38,12 @@ global.main = function() {
 		
 		if (groupLearnerQuestion == false){
 			sendReply("Hi "+contact.name+" Invalid Question Code "+content+"! Question for this code is not available.Type in a correct Question Code");
-			return;	
+			return true;	
 		}
 
 		if (groupLearnerQuestion.question_tag.indexOf("G") === -1){
 			sendReply("Hi "+contact.name+" the question you are requesting for is not a Group Based Question. Verify the question code and try again");
-			return;
+			return true;
 		}
 
 		sendReply(groupLearnerQuestion.question);
@@ -72,34 +74,38 @@ global.main = function() {
 		 
 		 //if the learner is not in a test group ...
 		if (!contact.isInGroup(testgroup)){
-			console.log("contact is not part of the test group");
-			return;
+			console.log(contact.name+" is not part of the test group");
+			sendReply(contact.name+" is not part of the test group");
+			return true;
 		}
 		
 		//check if learner has received a question ... 
 		var answerKey = keyword;
 		if (typeof contact.vars.current_question_code == "undefined"){
 			console.log("current_question_code does not exist.");
-			return;
+			return true;
 		}
 
 		if (contact.vars.current_question_code == ""){
 			console.log("is current_question_code empty?");
-			return;
+			sendReply("Your answer is not connected to any question");
+			return true;
 		}
 
 		//get question code from contact ...
 		var learnerQuestion = getQuestionObject(contact.vars.current_question_code);
 		if (typeof learnerQuestion === 'undefined'){
 			console.log("question is invalid or doesn't exit");
-			return;
+			sendReply("question is invalid or doesn't exit");
+			return true;
 		}
 
 		//check if learner should have access to such a question code
 		//the better code is that .... when a tutor has sent a code, the last code they should receive is +2 of that code sent by the tutor ...
 		if (contact.vars.current_question_code > (contact.vars.group_question_code + 2)) {
+			sendReply("You have reached your daily quota for the day");
 			console.log("You are trying go beyond you daily quota of questions per day");
-			return;
+			return true;
 		}
 
 		if (learnerQuestion.answer == answerKey){
@@ -137,17 +143,17 @@ global.main = function() {
 
 		if (isNaN(questionCode)){
 			console.log("current_question_code of learner is not found");
-			return;
+			return true;
 		}
 
 		if (typeof individualQuestion === 'undefined'){
 			console.log("question is invalid or doesn't exit");
-			return;
+			return true;
 		}
 		
 		if (individualQuestion.question_tag.indexOf("G") !== -1){
 			console.log("You are learner trying to access a group question!");
-			return;
+			return true;
 		}
 
 		//console.log("scheduled_msg for 2 mins now");

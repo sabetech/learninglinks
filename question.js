@@ -227,7 +227,7 @@ exports.getQuestion = function(questionCode) {
   	question_tag: "L1MALP7QG",
    code: "2019",
    title: "Maths Class Q7",
-   learner_question: "$5, $1, $1=? \r\n1. $7 \r\n2. $8 \r\n3. $9",
+   learner_question: "$5, $1, $1= ? \r\n1. $7 \r\n2. $8 \r\n3. $9",
   	question: "How much money? Enter the number of the correct answer 1, 2 or \r\n3.",
   	answer: "1",
   	correctAnswerResponse: ":) Correct! $7",

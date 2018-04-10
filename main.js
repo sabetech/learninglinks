@@ -103,7 +103,7 @@ global.main = function() {
 		//check if learner should have access to such a question code
 		//the better code is that .... when a tutor has sent a code, the last code they should receive is +2 of that code sent by the tutor ...
 		if (contact.vars.current_question_code > (contact.vars.group_question_code + 2)) {
-			sendReply("You have reached your daily quota for the day");
+			sendReply("You have reached your limit of questions for the day");
 			console.log("You are trying go beyond you daily quota of questions per day");
 			return true;
 		}

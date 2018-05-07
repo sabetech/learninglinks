@@ -63,6 +63,7 @@ global.main = function() {
 			learner_contact.vars.group_question_code = parseInt(questionCode);
 			sendSMS(learner_contact.phone_number, groupLearnerQuestion.learner_question);
 			learner_contact.save();
+			//you can post a webhook here ... Is that even possible?
 
 		}
 
@@ -116,14 +117,14 @@ global.main = function() {
 				contact.vars.cum_points = parseInt(contact.vars.cum_points) + 5;
 			}
 			
-			sendReply(learnerQuestion.correctAnswerResponse);
+			sendReply(learnerQuestion.correctAnswerResponse + "[Q"+contact.vars.current_question_code+"]");
 			sendReply("You have earned 5 points. Total Points: "+contact.vars.cum_points);
 			
 			//send message to tutor here ...
 			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.code+" correctly and earned 5 points. Her Total Points: "+contact.vars.cum_points);
 
 		}else{
-			sendReply(learnerQuestion.incorrectAnswerResponse);
+			sendReply(learnerQuestion.incorrectAnswerResponse + "[Q"+contact.vars.current_question_code+"]");
 			sendReply("Sorry, you earned no points.");
 
 			if (typeof contact.vars.cum_points === 'undefined'){

@@ -46,6 +46,20 @@ global.main = function() {
 			return true;
 		}
 
+		//if tutor mentor has already sent a question for the day... she's not allowed to send another one ...
+		var lastOutgoingMessageTime = contact.last_outgoing_message_time; //this is in unix epoch time 
+		//if this time is between the morning and night of the same day, then the tutor is trying to accses more than necessary questions
+
+		const startOfDay = moment().startOf('day');
+		const endOfDay = moment().endOf('day');
+
+		if ((lastOutgoingMessageTime > startOfDay.unix()) && (lastOutgoingMessageTime < endOfDay.unix())){
+			//then tutor is trying to trigger more questions ... 
+			sendReply("Hi "+contact.name+", You have already requested for today's group question.");
+			return true;
+		}
+
+
 		sendReply(groupLearnerQuestion.question);
 
 		//get group members to send the message to them ...

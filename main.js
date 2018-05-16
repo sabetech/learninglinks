@@ -163,7 +163,7 @@ global.main = function() {
 		var scheduled_msg = project.scheduleMessage({
 		    content: individualQuestion.learner_question, 
 		    to_number: contact.phone_number, 
-		    start_time_offset: 120 //2mins change to 15 minutes
+		    start_time_offset: 1800 //30mins 
 		});
 
 		//put the timeout calls here ...

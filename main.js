@@ -26,9 +26,9 @@ global.main = function() {
 	if (!contact.vars.learner){
 		//if contact is not a learner, she's a tutor ... in the group
 		
-		var testgroup = project.getOrCreateGroup("LL_TESTGROUP");
+		var testgroup = project.getGroupById("CGfbee3acd9a320833");
 		if (!contact.isInGroup(testgroup)){
-			sendReply("Sorry you don't belong to the testgroup");
+			sendReply("Sorry you don't belong to the Learning Links Program");
 			return true;
 		}
 
@@ -82,7 +82,6 @@ global.main = function() {
 		//get group members to send the message to them ...
 		var group = project.getGroupById(contact.vars.tutor_group_id);
 
-		//var group = project.getOrCreateGroup("Test Group");
 		cursor = group.queryContacts();
 
 		//send question to everyone in the group... 
@@ -102,12 +101,12 @@ global.main = function() {
 		
 		//if the person is learner ... 
 		//and belongs to a certain group for test otherwise 
-		var testgroup = project.getOrCreateGroup("LL_TESTGROUP");
+		var testgroup = project.getGroupById("CGfbee3acd9a320833");
 		 
 		 //if the learner is not in a test group ...
 		if (!contact.isInGroup(testgroup)){
-			console.log(contact.name+" is not part of the test group");
-			sendReply(contact.name+" is not part of the test group");
+			console.log(contact.name+" is not part of the Learning Links Program");
+			sendReply(contact.name+" is not part of the Learning LInks Program");
 			return true;
 		}
 		

@@ -65,7 +65,7 @@ global.main = function() {
 		}
 		
 		//if tutor mentor has already sent a question for the day... she's not allowed to send another one ...
-		var lastOutgoingMessageTime = contact.last_outgoing_message_time; //this is in unix epoch time 
+		var lastOutgoingMessageTime = contact.last_incoming_message_time; //this is in unix epoch time 
 		//if this time is between the morning and night of the same day, then the tutor is trying to accses more than necessary questions
 
 		const startOfDay = moment().startOf('day');

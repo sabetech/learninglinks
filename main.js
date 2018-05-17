@@ -46,6 +46,24 @@ global.main = function() {
 			return true;
 		}
 
+		//check if a tutor mentor made a genuine mistake and wants to retry ...
+		var blockTutorMentorAccess = true;
+		var last_sent_message_cursor = contact.queryMessages({
+								direction: "incoming",
+								message_type: "sms",
+								sort_dir: "desc",
+								page_size: 1
+							 });
+
+		last_sent_message_cursor.limit(1);
+
+		if (last_sent_message_cursor.hasNext()) {
+			var message = last_sent_message_cursor.next();
+			if (message.content.length != 4){
+				blockTutorMentorAccess = false;
+			}
+		}
+		
 		//if tutor mentor has already sent a question for the day... she's not allowed to send another one ...
 		var lastOutgoingMessageTime = contact.last_outgoing_message_time; //this is in unix epoch time 
 		//if this time is between the morning and night of the same day, then the tutor is trying to accses more than necessary questions
@@ -53,12 +71,11 @@ global.main = function() {
 		const startOfDay = moment().startOf('day');
 		const endOfDay = moment().endOf('day');
 
-		if ((lastOutgoingMessageTime > startOfDay.unix()) && (lastOutgoingMessageTime < endOfDay.unix())){
+		if ((lastOutgoingMessageTime > startOfDay.unix()) && (lastOutgoingMessageTime < endOfDay.unix()) && blockTutorMentorAccess){
 			//then tutor is trying to trigger more questions ... 
 			sendReply("Hi "+contact.name+", You have already requested for today's group question.");
 			return true;
 		}
-
 
 		sendReply(groupLearnerQuestion.question);
 

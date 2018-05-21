@@ -65,16 +65,17 @@ global.main = function() {
 		}
 		
 		//if tutor mentor has already sent a question for the day... she's not allowed to send another one ...
-		var lastOutgoingMessageTime = contact.last_incoming_message_time; //this is in unix epoch time 
+		var last_incoming_message_time = contact.last_incoming_message_time; //this is in unix epoch time 
 		//if this time is between the morning and night of the same day, then the tutor is trying to accses more than necessary questions
 
 		const startOfDay = moment().startOf('day');
 		const endOfDay = moment().endOf('day');
 
-		if ((lastOutgoingMessageTime > startOfDay.unix()) && (lastOutgoingMessageTime < endOfDay.unix()) && blockTutorMentorAccess){
+		if ((last_incoming_message_time > startOfDay.unix()) && (last_incoming_message_time < endOfDay.unix()) && blockTutorMentorAccess){
 			//then tutor is trying to trigger more questions ... 
-			sendReply("Hi "+contact.name+", You have already requested for today's group question.");
-			return true;
+			//sendReply("Hi "+contact.name+", You have already requested for today's group question.");
+			console.log(contact.name" is triggering twice for a day");
+			//return true;
 		}
 
 		sendReply(groupLearnerQuestion.question);

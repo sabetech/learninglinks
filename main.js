@@ -74,7 +74,7 @@ global.main = function() {
 		if ((last_incoming_message_time > startOfDay.unix()) && (last_incoming_message_time < endOfDay.unix()) && blockTutorMentorAccess){
 			//then tutor is trying to trigger more questions ... 
 			//sendReply("Hi "+contact.name+", You have already requested for today's group question.");
-			console.log(contact.name" is triggering twice for a day");
+			console.log(contact.name+"is triggering twice for a day");
 			//return true;
 		}
 

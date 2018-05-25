@@ -51,7 +51,7 @@ global.main = function() {
 			//then tutor is trying to trigger more questions ... 
 			sendReply("Hi "+contact.name+", You have already requested for today's group question.");
 			console.log(contact.name+"is triggering twice for a day");
-			
+
 		}
 
 		sendReply(groupLearnerQuestion.question);
@@ -170,7 +170,7 @@ global.main = function() {
 		var scheduled_msg = project.scheduleMessage({
 		    content: individualQuestion.learner_question, 
 		    to_number: contact.phone_number, 
-		    start_time_offset: 1800 //30mins 
+		    start_time_offset: 120 //30mins 
 		});
 
 		//put the timeout calls here ...

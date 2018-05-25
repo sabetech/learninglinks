@@ -46,36 +46,12 @@ global.main = function() {
 			return true;
 		}
 
-		//check if a tutor mentor made a genuine mistake and wants to retry ...
-		var blockTutorMentorAccess = true;
-		var last_sent_message_cursor = contact.queryMessages({
-								direction: "incoming",
-								message_type: "sms",
-								sort_dir: "desc",
-								page_size: 1
-							 });
-
-		last_sent_message_cursor.limit(1);
-
-		if (last_sent_message_cursor.hasNext()) {
-			var message = last_sent_message_cursor.next();
-			if (message.content.length != 4){
-				blockTutorMentorAccess = false;
-			}
-		}
-		
-		//if tutor mentor has already sent a question for the day... she's not allowed to send another one ...
-		var last_incoming_message_time = contact.last_incoming_message_time; //this is in unix epoch time 
-		//if this time is between the morning and night of the same day, then the tutor is trying to accses more than necessary questions
-
-		const startOfDay = moment().startOf('day');
-		const endOfDay = moment().endOf('day');
-
-		if ((last_incoming_message_time > startOfDay.unix()) && (last_incoming_message_time < endOfDay.unix()) && blockTutorMentorAccess){
+		//allowtutormentaccessfunction goes here ...
+		if (!allTutorMentorAccess()){
 			//then tutor is trying to trigger more questions ... 
-			//sendReply("Hi "+contact.name+", You have already requested for today's group question.");
+			sendReply("Hi "+contact.name+", You have already requested for today's group question.");
 			console.log(contact.name+"is triggering twice for a day");
-			//return true;
+			
 		}
 
 		sendReply(groupLearnerQuestion.question);
@@ -236,5 +212,64 @@ function getLearnersTutor(){
 		}
 	}
 	return false;
+}
+
+function getLatestSentMessage(){
+
+	var last_sent_message_cursor = contact.queryMessages({
+								direction: "incoming",
+								message_type: "sms",
+								sort_dir: "desc",
+								page_size: 1
+							 });
+
+	last_sent_message_cursor.limit(2);
+		
+	var message;
+	var messageCount = 0;
+	while (last_sent_message_cursor.hasNext()) {
+		message = last_sent_message_cursor.next();
+		messageCount++;
+	}
+
+	//this means that the person has a previous message
+	if (messageCount == 2){
+		return message
+	}
+	if (messageCount == 1){
+		//if message count is 1 it means this is the person's first time
+		return false;
+	}
+
+}
+
+function allTutorMentorAccess(){
+
+	var latestSentMessage = getLatestSentMessage();
+	var blockTutorMentorAccess = true;
+
+	//check if a tutor mentor made a genuine mistake and wants to retry ...
+	if (latestSentMessage.content.length != 4){
+		blockTutorMentorAccess = false;
+	}
+
+	if (!latestSentMessage){
+		return true;
+	}
+
+	//if tutor mentor has already sent a question for the day... she's not allowed to send another one ...
+	var last_incoming_message_time = latestSentMessage.date_created; //this is in unix epoch time 
+	//if this time is between the morning and night of the same day, then the tutor is trying to accses more than necessary questions
+
+	const startOfDay = moment().startOf('day');
+	const endOfDay = moment().endOf('day');
+
+	if ((last_incoming_message_time > startOfDay.unix()) && (last_incoming_message_time < endOfDay.unix()) && blockTutorMentorAccess){
+		return false;
+
+	}else{
+		return true;
+	}
+
 }
 

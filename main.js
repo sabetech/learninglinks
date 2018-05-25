@@ -227,18 +227,18 @@ function getLatestSentMessage(){
 	
 	console.log("message total count "+last_sent_message_cursor.count());
 
-	var message;
+	var _message;
 	var messageCount = 0;
 	while (last_sent_message_cursor.hasNext()) {
-		message = last_sent_message_cursor.next();
+		_message = last_sent_message_cursor.next();
 		messageCount++;
 	}
 
 	console.log("message count "+messageCount);
-
+	console.log("")
 	//this means theat the person has a previous message
 	if (messageCount == 2){
-		return message
+		return _message
 	}
 	if (messageCount == 1){
 		//if message count is 1 it means this is the person's first time
@@ -264,7 +264,7 @@ function allTutorMentorAccess(){
 	}
 
 	//if tutor mentor has already sent a question for the day... she's not allowed to send another one ...
-	var last_incoming_message_time = latestSentMessage.date_created; //this is in unix epoch time 
+	var last_incoming_message_time = latestSentMessage.time_created; //this is in unix epoch time 
 	//if this time is between the morning and night of the same day, then the tutor is trying to accses more than necessary questions
 
 	const startOfDay = moment().startOf('day');

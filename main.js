@@ -220,7 +220,7 @@ function getLatestSentMessage(){
 								direction: "incoming",
 								message_type: "sms",
 								sort_dir: "desc",
-								page_size: 1
+								page_size: 2
 							 });
 
 	last_sent_message_cursor.limit(2);

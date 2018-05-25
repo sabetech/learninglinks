@@ -273,9 +273,11 @@ function allTutorMentorAccess(){
 	console.log("do u get here as tutor");
 
 	if ((last_incoming_message_time > startOfDay.unix()) && (last_incoming_message_time < endOfDay.unix()) && blockTutorMentorAccess){
+		console.log("are in between today?");
 		return false;
 
 	}else{
+		console.log("i gues u are allowed then");
 		return true;
 	}
 

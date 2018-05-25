@@ -2,8 +2,7 @@ var questionBase = null;
 global.main = function() {
 
 	var keyword = word1;
-	console.log("what is keyword "+keyword);
-	console.log("what is word1 "+word1);
+	
 	if (keyword == ""){
 		console.log("is keyword empty?");
 		sendReply("No keyword Sent");
@@ -224,8 +223,6 @@ function getLatestSentMessage(){
 							 });
 
 	last_sent_message_cursor.limit(2);
-	
-	console.log("message total count "+last_sent_message_cursor.count());
 
 	var _message;
 	var messageCount = 0;
@@ -234,8 +231,6 @@ function getLatestSentMessage(){
 		messageCount++;
 	}
 
-	console.log("message count "+messageCount);
-	console.log("")
 	//this means theat the person has a previous message
 	if (messageCount == 2){
 		return _message
@@ -251,8 +246,6 @@ function allTutorMentorAccess(){
 
 	var latestSentMessage = getLatestSentMessage();
 	var blockTutorMentorAccess = true;
-
-	console.log("num of characters: " + latestSentMessage.content.length);
 
 	//check if a tutor mentor made a genuine mistake and wants to retry ...
 	if (latestSentMessage.content.length != 4){
@@ -270,22 +263,10 @@ function allTutorMentorAccess(){
 	const startOfDay = moment().startOf('day');
 	const endOfDay = moment().endOf('day');
 
-	console.log("last_incoming_message_time "+last_incoming_message_time);
-	console.log("startDay "+startOfDay.unix());
-	console.log("endDay "+endOfDay.unix());
-
-	console.log("do u get here as tutor");
-	console.log("block access "+blockTutorMentorAccess);
-	console.log("after this morning? "+ (last_incoming_message_time > startOfDay.unix()));
-	console.log("before day ends? " + (last_incoming_message_time < endOfDay.unix()));
-
 	if ((last_incoming_message_time > startOfDay.unix()) && (last_incoming_message_time < endOfDay.unix()) && blockTutorMentorAccess){
-		console.log("are in between today?");
-
 		return false;
 
 	}else{
-		console.log("i gues u are allowed then");
 		return true;
 	}
 

@@ -276,8 +276,8 @@ function allTutorMentorAccess(){
 
 	console.log("do u get here as tutor");
 	console.log("block access "+blockTutorMentorAccess);
-	console.log("after this morning? "+last_incoming_message_time > startOfDay.unix());
-	console.log("before day ends? " + last_incoming_message_time < endOfDay.unix());
+	console.log("after this morning? "+ (last_incoming_message_time > startOfDay.unix()));
+	console.log("before day ends? " + (last_incoming_message_time < endOfDay.unix()));
 
 	if ((last_incoming_message_time > startOfDay.unix()) && (last_incoming_message_time < endOfDay.unix()) && blockTutorMentorAccess){
 		console.log("are in between today?");

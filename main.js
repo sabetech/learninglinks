@@ -252,7 +252,7 @@ function allTutorMentorAccess(){
 	var latestSentMessage = getLatestSentMessage();
 	var blockTutorMentorAccess = true;
 
-	console.log(latestSentMessage.content.length);
+	console.log("num of characters: " + latestSentMessage.content.length);
 
 	//check if a tutor mentor made a genuine mistake and wants to retry ...
 	if (latestSentMessage.content.length != 4){
@@ -271,9 +271,13 @@ function allTutorMentorAccess(){
 	const endOfDay = moment().endOf('day');
 
 	console.log("do u get here as tutor");
+	console.log("block access "+blockTutorMentorAccess);
+	console.log("after this morning? "+last_incoming_message_time > startOfDay.unix());
+	console.log("before day ends? " + last_incoming_message_time < endOfDay.unix());
 
 	if ((last_incoming_message_time > startOfDay.unix()) && (last_incoming_message_time < endOfDay.unix()) && blockTutorMentorAccess){
 		console.log("are in between today?");
+
 		return false;
 
 	}else{

@@ -270,6 +270,10 @@ function allTutorMentorAccess(){
 	const startOfDay = moment().startOf('day');
 	const endOfDay = moment().endOf('day');
 
+	console.log("last_incoming_message_time "+last_incoming_message_time);
+	console.log("startDay "+startOfDay.unix());
+	console.log("endDay "+endOfDay.unix());
+
 	console.log("do u get here as tutor");
 	console.log("block access "+blockTutorMentorAccess);
 	console.log("after this morning? "+last_incoming_message_time > startOfDay.unix());

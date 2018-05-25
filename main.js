@@ -50,8 +50,8 @@ global.main = function() {
 		if (!allTutorMentorAccess()){
 			//then tutor is trying to trigger more questions ... 
 			sendReply("Hi "+contact.name+", You have already requested for today's group question.");
-			console.log(contact.name+"is triggering twice for a day");
-
+			console.log(contact.name+" is triggering twice for a day");
+			return true;
 		}
 
 		sendReply(groupLearnerQuestion.question);
@@ -224,7 +224,9 @@ function getLatestSentMessage(){
 							 });
 
 	last_sent_message_cursor.limit(2);
-		
+	
+	console.log("message total count "+last_sent_message_cursor.count());
+
 	var message;
 	var messageCount = 0;
 	while (last_sent_message_cursor.hasNext()) {
@@ -232,7 +234,9 @@ function getLatestSentMessage(){
 		messageCount++;
 	}
 
-	//this means that the person has a previous message
+	console.log("message count "+messageCount);
+
+	//this means theat the person has a previous message
 	if (messageCount == 2){
 		return message
 	}
@@ -263,6 +267,8 @@ function allTutorMentorAccess(){
 
 	const startOfDay = moment().startOf('day');
 	const endOfDay = moment().endOf('day');
+
+	console.log("do u get here as tutor");
 
 	if ((last_incoming_message_time > startOfDay.unix()) && (last_incoming_message_time < endOfDay.unix()) && blockTutorMentorAccess){
 		return false;

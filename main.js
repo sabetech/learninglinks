@@ -252,6 +252,8 @@ function allTutorMentorAccess(){
 	var latestSentMessage = getLatestSentMessage();
 	var blockTutorMentorAccess = true;
 
+	console.log(latestSentMessage.content.length);
+
 	//check if a tutor mentor made a genuine mistake and wants to retry ...
 	if (latestSentMessage.content.length != 4){
 		blockTutorMentorAccess = false;

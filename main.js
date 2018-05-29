@@ -172,6 +172,9 @@ global.main = function() {
 		    start_time_offset: 120 //30mins 
 		});
 
+		
+		requestServerPullSMSUpdate();
+
 		//put the timeout calls here ...
 
 	}
@@ -269,6 +272,19 @@ function allTutorMentorAccess(){
 	}else{
 		return true;
 	}
+
+}
+
+function requestServerPullSMSUpdate(){
+	var _pull_url = "http://learninglinksadmin.tk/pull_sms_logs/";
+
+
+	httpClient.request(_pull_url, {
+					method: "POST",
+					data: {'contact_id': contact.id},
+					basicAuth:"admin@admin.com:letgirlslearnliberia!"
+					  });
+					
 
 }
 

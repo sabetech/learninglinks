@@ -70,8 +70,8 @@ global.main = function() {
 			sendSMS(learner_contact.phone_number, groupLearnerQuestion.learner_question);
 			learner_contact.save();
 			//you can post a webhook here ... Is that even possible?
-
 		}
+		requestServerPullSMSUpdate();
 
 	}else{
 		
@@ -172,7 +172,7 @@ global.main = function() {
 		    start_time_offset: 120 //30mins 
 		});
 
-		
+
 		requestServerPullSMSUpdate();
 
 		//put the timeout calls here ...

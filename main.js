@@ -279,7 +279,7 @@ function requestServerPullSMSUpdate(){
 	var _pull_url = "http://learninglinksadmin.tk/pull_sms_logs/";
 
 	console.log("are you being called?");
-	
+
 	httpClient.request(_pull_url, {
 					method: "POST",
 					data: {'contact_id': contact.id},
@@ -299,7 +299,7 @@ function requestServerFromContactArray(contactArray){
 								basicAuth: "admin@admin.com:letgirlslearnliberia!"
 								  });
 	
-	}
-
 }
+
+
 

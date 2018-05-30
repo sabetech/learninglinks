@@ -70,6 +70,7 @@ global.main = function() {
 			sendSMS(learner_contact.phone_number, groupLearnerQuestion.learner_question);
 			learner_contact.save();
 			//you can post a webhook here ... Is that even possible?
+			
 		}
 		requestServerPullSMSUpdate();
 

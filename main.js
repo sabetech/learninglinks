@@ -278,13 +278,28 @@ function allTutorMentorAccess(){
 function requestServerPullSMSUpdate(){
 	var _pull_url = "http://learninglinksadmin.tk/pull_sms_logs/";
 
-
+	console.log("are you being called?");
+	
 	httpClient.request(_pull_url, {
 					method: "POST",
 					data: {'contact_id': contact.id},
 					basicAuth:"admin@admin.com:letgirlslearnliberia!"
 					  });
 					
+
+}
+
+function requestServerFromContactArray(contactArray){
+
+	var _pull_url = "http://learninglinksadmin.tk/pull_sms_logs_via_contact_ids";
+
+	httpClient.request(_pull_url, {
+								method: "POST",
+								data:{'contactarray': contactArray},
+								basicAuth: "admin@admin.com:letgirlslearnliberia!"
+								  });
+	
+	}
 
 }
 

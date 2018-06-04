@@ -70,7 +70,7 @@ global.main = function() {
 			sendSMS(learner_contact.phone_number, groupLearnerQuestion.learner_question);
 			learner_contact.save();
 			//you can post a webhook here ... Is that even possible?
-			
+
 		}
 		requestServerPullSMSUpdate();
 
@@ -170,7 +170,7 @@ global.main = function() {
 		var scheduled_msg = project.scheduleMessage({
 		    content: individualQuestion.learner_question, 
 		    to_number: contact.phone_number, 
-		    start_time_offset: 120 //30mins 
+		    start_time_offset: 1800 //30mins 
 		});
 
 
@@ -287,7 +287,6 @@ function requestServerPullSMSUpdate(){
 					basicAuth:"admin@admin.com:letgirlslearnliberia!"
 					  });
 					
-
 }
 
 function requestServerFromContactArray(contactArray){

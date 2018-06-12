@@ -9797,7 +9797,1951 @@ exports.getQuestion = function(questionCode) {
   	correctAnswerResponse: ":) Correct! Our rights are promised to us an cannot be taken away. We must earn respect on our own!",
   	incorrectAnswerResponse: ":) Correct! Our rights are promised to us an cannot be taken away. We must earn respect on our own!",
   	set: 54
-  	}
+  	},
+
+    1001:{
+    question_tag: "L1LITLP1QG",
+   code: "1001",
+   title: "Lit Class Q1",
+   learner_question: "L#1 Code: 1001 \\r\\n1. A \\r\\n2. B \\r\\n3. C",
+    question: "Which letter is letter \'A\'? 1, 2 or 3? Enter the number of the correct answer. Letter \'A\'. A.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Letter A.",
+    incorrectAnswerResponse: "Incorrect. Letter A.",
+    set: 1
+    },
+
+  1002:{
+    question_tag: "L1LITLP1Q1",
+   code: "1002",
+   title: "Lit Q1",
+   learner_question: "L#1 Code: 1002 \\r\\n1. A \\r\\n2. T \\r\\n3. S",
+    question: "Which is letter \'T\'? 1, 2 or 3? Enter the number of the correct answer. Letter \'T\'.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Letter T.",
+    incorrectAnswerResponse: "Incorrect. Letter T.",
+    set: 1
+    },
+
+  1003:{
+    question_tag: "L1LITLP1Q2",
+   code: "1003",
+   title: "Lit Q2",
+   learner_question: "L#1 Code: 1003 \\r\\n1. S \\r\\n2. D \\r\\n3. L",
+    question: "Which is letter \'D\'? 1, 2 or 3? Enter the number of the correct answer. Letter \'D\'. D.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Letter D.",
+    incorrectAnswerResponse: "Incorrect. Letter D.",
+    set: 1
+    },
+
+  1004:{
+    question_tag: "L1LITLP2QG",
+   code: "1004",
+   title: "Lit Class Q2",
+   learner_question: "L#2 Code: 1004 \\r\\n1. A \\r\\n2. T \\r\\n3. S",
+    question: "Which is letter \'S\'? 1, 2 or 3? Enter the number of the correct answer. Which is letter \'S\'. \'S\'.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Letter S.",
+    incorrectAnswerResponse: "Incorrect. Letter S.",
+    set: 2
+    },
+
+  1005:{
+    question_tag: "L1LITLP2Q1",
+   code: "1005",
+   title: "Lit Q3",
+   learner_question: "L#2 Code: 1005 \\r\\n1. L \\r\\n2. B \\r\\n3. M",
+    question: "Which is letter \'B\'? 1, 2 or 3? Enter the number of the correct answer. Which is letter \'B\'. \'B\'.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Letter B.",
+    incorrectAnswerResponse: "Incorrect. Letter B.",
+    set: 2
+    },
+
+  1006:{
+    question_tag: "L1LITLP2Q2",
+   code: "1006",
+   title: "Lit Q4",
+   learner_question: "L#2 Code: 1006 \\r\\n1. K \\r\\n2. M \\r\\n3. Z",
+    question: "Which is letter \'K\'? 1, 2 or 3? Enter the number of the correct answer. Letter \'K\'. K.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Letter K.",
+    incorrectAnswerResponse: "Incorrect. Letter K.",
+    set: 2
+    },
+
+  1007:{
+    question_tag: "L1LITLP3QG",
+   code: "1007",
+   title: "Lit Class Q3",
+   learner_question: "L#3 Code: 1007 \\r\\n1. 65 \\r\\n2. 16 \\r\\n3. 18",
+    question: "Say:Open to page 1\\r\\n1. How old is Sonie? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The story says, \"She was about 16,\".",
+    incorrectAnswerResponse: "Incorrect. The story says, \"She was about 16,\".",
+    set: 3
+    },
+
+  1008:{
+    question_tag: "L1LITLP3Q1",
+   code: "1008",
+   title: "Lit Q5",
+   learner_question: "L#3 Code: 1008 \\r\\n1. X \\r\\n2. L \\r\\n3. F",
+    question: "Which is letter \'F\'? 1, 2 or 3? Enter the number of the correct answer. Letter \'F\'. F.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Letter F.",
+    incorrectAnswerResponse: "Incorrect. Letter F.",
+    set: 3
+    },
+
+  1009:{
+    question_tag: "L1LITLP3Q2",
+   code: "1009",
+   title: "Lit Q6",
+   learner_question: "L#3 Code: 1009 \\r\\n1. R \\r\\n2. O \\r\\n3. W",
+    question: "Which letter is \'W\'? 1, 2 or 3? Enter the number of the correct answer. Letter \'W\'. W.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Letter W.",
+    incorrectAnswerResponse: "Incorrect. Letter W.",
+    set: 3
+    },
+
+  1010:{
+    question_tag: "L1LITLP4QG",
+   code: "1010",
+   title: "Lit Class Q4",
+   learner_question: "L#4 Code: 1010 \\r\\n1. tall \\r\\n2. sat \\r\\n3. at",
+    question: "Which word begins with the /t/ sound? 1, 2 or 3? Enter the number of the correct answer. /t/. Which word begins with the /t/ sound?",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Tall.",
+    incorrectAnswerResponse: "Incorrect. Tall.",
+    set: 4
+    },
+
+  1011:{
+    question_tag: "L1LITLP4Q1",
+   code: "1011",
+   title: "Lit Q7",
+   learner_question: "L#4 Code: 1011 \\r\\n1. tall \\r\\n2. sat \\r\\n3. at",
+    question: "Which word begins with the /s/ sound? Enter the number of the correct answer. /ssss/. Which word begins with the /s/ sound?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Sat",
+    incorrectAnswerResponse: "Incorrect. Sat",
+    set: 4
+    },
+
+  1012:{
+    question_tag: "L1LITLP4Q2",
+   code: "1012",
+   title: "Lit Q8",
+   learner_question: "L#4 Code: 1012 \\r\\n1. s \\r\\n2. t \\r\\n3. a",
+    question: "Which letter makes the /a/ sound? /aaaa/. Enter the number of the correct answer. /aaaaa/. Which letters makes the /a/ sound?",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! a.",
+    incorrectAnswerResponse: "Incorrect. a.",
+    set: 4
+    },
+
+  1013:{
+    question_tag: "L1LITLP5QG",
+   code: "1013",
+   title: "Lit Class Q5",
+   learner_question: "L#5 Code: 1013 \\r\\n1. mat \\r\\n2. sat \\r\\n3. tat",
+    question: "Which word begins with the /m/ sound? Enter the number of the correct answer. /mmmmm/. Which word begins with the /m/ sound.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! mat.",
+    incorrectAnswerResponse: "Incorrect. mat.",
+    set: 5
+    },
+
+  1014:{
+    question_tag: "L1LITLP5Q1",
+   code: "1014",
+   title: "Lit Q9",
+   learner_question: "L#5 Code: 1014 \\r\\n1. tall \\r\\n2. fat \\r\\n3. mat",
+    question: "Which word begins with the /f/ sound? Enter the number of the correct answer. /fff/. Which word begins with the /f/ sound.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! fat.",
+    incorrectAnswerResponse: "Incorrect. fat.",
+    set: 5
+    },
+
+  1015:{
+    question_tag: "L1LITLP5Q2",
+   code: "1015",
+   title: "Lit Q10",
+   learner_question: "L#5 Code: 1015 \\r\\n1. sat \\r\\n2. fat \\r\\n3. mat",
+    question: "Which word is \'sat\'? Sat. Enter the number of the correct answer. Sat.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! sat.",
+    incorrectAnswerResponse: "Incorrect. sat.",
+    set: 5
+    },
+
+  1016:{
+    question_tag: "L1LITLP6QG",
+   code: "1016",
+   title: "Lit Class Q6",
+   learner_question: "L#6 Code: 1016 \\r\\n1. I am Matt. \\r\\n2. I am Teta \\r\\n3. I am Musu.",
+    question: "Which sentence says, \'I am Musu.\"? Enter the number of the correct answer. I am Musu.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! I am Musu.",
+    incorrectAnswerResponse: "Incorrect. I am Musu.",
+    set: 6
+    },
+
+  1017:{
+    question_tag: "L1LITLP6Q1",
+   code: "1017",
+   title: "Lit Q11",
+   learner_question: "L#6 Code: 1017 \\r\\n1. w \\r\\n2. a \\r\\n3. m",
+    question: "Which is letter \'m\'? Enter the number of the correct answer. Which is letter \'m\'?",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! m.",
+    incorrectAnswerResponse: "Incorrect. m.",
+    set: 6
+    },
+
+  1018:{
+    question_tag: "L1LITLP6Q2",
+   code: "1018",
+   title: "Lit Q12",
+   learner_question: "L#6 Code: 1018 \\r\\n1. I am Sam. \\r\\n2. Ma sat. \\r\\n3. I am fat.",
+    question: "Which sentence says, \'I am fat?\' Enter the number of the correct answer. I am fat.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! I am fat.",
+    incorrectAnswerResponse: "Incorrect. I am fat.",
+    set: 6
+    },
+
+  1019:{
+    question_tag: "L1LITLP7QG",
+   code: "1019",
+   title: "Lit Class Q7",
+   learner_question: "L#7 Code: 1019 \\r\\n1. telephones \\r\\n2. family \\r\\n3. Liberia",
+    question: "Which word has letter \'s\'? Enter the number of the correct answer. Which word has letter \'s\'?",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! \'telephones\' has an \'s\'.",
+    incorrectAnswerResponse: "Incorrect. \'telephones\' has an \'s\'.",
+    set: 7
+    },
+
+  1020:{
+    question_tag: "L1LITLP7Q1",
+   code: "1020",
+   title: "Lit Q13",
+   learner_question: "L#7 Code: 10120 \\r\\n1. telephones \\r\\n2. family \\r\\n3. Liberia",
+    question: "Which word has letter \'f\'? Enter the number of the correct answer. Which word has letter \'f\'?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! \'family\' has an \'f\'.",
+    incorrectAnswerResponse: "Incorrect. \'family\' has an \'f\'.",
+    set: 7
+    },
+
+  1021:{
+    question_tag: "L1LITLP7Q2",
+   code: "1021",
+   title: "Lit Q14",
+   learner_question: "L#7 Code: 1021 \\r\\n1. Ma sat. \\r\\n2. Ma is fat. \\r\\n3. Matt sat.",
+    question: "Which sentence says, \'Ma is fat?\' Enter the number of the correct answer. Ma is fat.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Ma is fat.",
+    incorrectAnswerResponse: "Incorrect. Ma is fat.",
+    set: 7
+    },
+
+  1022:{
+    question_tag: "L1LITLP8QG",
+   code: "1022",
+   title: "Lit Class Q8",
+   learner_question: "L#8 Code: 1022 \\r\\n1. e \\r\\n2. s \\r\\n3. f",
+    question: "Which letter makes the /e/ sound? /eeeee/. Enter the number of the correct answer. /e/.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! e.",
+    incorrectAnswerResponse: "Incorrect. e.",
+    set: 8
+    },
+
+  1023:{
+    question_tag: "L1LITLP8Q1",
+   code: "1023",
+   title: "Lit Q15",
+   learner_question: "L#8 Code: 1023 \\r\\n1. n \\r\\n2. w \\r\\n3. e",
+    question: "Which letter makes the /n/ sound? Enter the number of the correct answer. /nnnnn/. Which letter makes the /n/ sound?",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! n.",
+    incorrectAnswerResponse: "Incorrect. n.",
+    set: 8
+    },
+
+  1024:{
+    question_tag: "L1LITLP8Q2",
+   code: "1024",
+   title: "Lit Q16",
+   learner_question: "L#8 Code: 1024 \\r\\n1. ham \\r\\n2. net \\r\\n3. hen",
+    question: "Which word is hen? Hen. Enter the number of the correct answer. Hen.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! hen.",
+    incorrectAnswerResponse: "Incorrect. hen.",
+    set: 8
+    },
+
+  1025:{
+    question_tag: "L1LITLP9QG",
+   code: "1025",
+   title: "Lit Class Q9",
+   learner_question: "L#9 Code: 1025 \\r\\n1. He is Matt. \\r\\n2. The man is fat. \\r\\n3. He is the man.",
+    question: "Which sentence says, \'He is the man.\"? Enter the number of the correct answer. He is the man.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! He is the man.",
+    incorrectAnswerResponse: "Incorrect. He is the man.",
+    set: 9
+    },
+
+  1026:{
+    question_tag: "L1LITLP9Q1",
+   code: "1026",
+   title: "Lit Q17",
+   learner_question: "L#9 Code: 1026 \\r\\n1. The man is fat. \\r\\n2. The man sat. \\r\\n3. The fat hat sat.",
+    question: "Which sentence says, \"The man sat.\"? Enter the number of the correct answer. The man sat.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The man sat.",
+    incorrectAnswerResponse: "Incorrect. The man sat.",
+    set: 9
+    },
+
+  1027:{
+    question_tag: "L1LITLP9Q2",
+   code: "1027",
+   title: "Lit Q18",
+   learner_question: "L#9 Code: 1027 \\r\\n1. hen \\r\\n2. The \\r\\n3. men",
+    question: "Which words starts with the /h/ sound. Enter the number of the correct answer. /hhhh/. Which word starts with the /h/ sound?",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! hen.",
+    incorrectAnswerResponse: "Incorrect. hen.",
+    set: 9
+    },
+
+  1028:{
+    question_tag: "L1LITLP10QG",
+   code: "1028",
+   title: "Lit Class Q10",
+   learner_question: "L#10 Code: 1028 \\r\\n1. m \\r\\n2. d \\r\\n3. r",
+    question: "Which letter makes the /d/ sound? /d/. Enter the number of the correct answer. /d/.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! d.",
+    incorrectAnswerResponse: "Incorrect. d.",
+    set: 10
+    },
+
+  1029:{
+    question_tag: "L1LITLP10Q1",
+   code: "1029",
+   title: "Lit Q19",
+   learner_question: "L#10 Code: 1029 \\r\\n1. m \\r\\n2. d \\r\\n3. r",
+    question: "Which letter makes the /r/ sound? Enter the number of the correct answer. /rrrr/. Which letter makes the /r/ sound?",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! r.",
+    incorrectAnswerResponse: "Incorrect. r.",
+    set: 10
+    },
+
+  1030:{
+    question_tag: "L1LITLP10Q2",
+   code: "1030",
+   title: "Lit Q20",
+   learner_question: "L#10 Code: 1030 \\r\\n1. rat \\r\\n2. fat \\r\\n3. hat",
+    question: "Which word is rat? Rat. Enter the number of the correct answer. Rat.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! rat.",
+    incorrectAnswerResponse: "Incorrect. rat.",
+    set: 10
+    },
+
+  1031:{
+    question_tag: "L1LITLP11QG",
+   code: "1031",
+   title: "Lit Class Q11",
+   learner_question: "L#11 Code: 1031 \\r\\n1. m \\r\\n2. f \\r\\n3. H",
+    question: "Which letter is upper case?",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! H is upper case.",
+    incorrectAnswerResponse: "Incorrect. H is upper case.",
+    set: 11
+    },
+
+  1032:{
+    question_tag: "L1LITLP11Q1",
+   code: "1032",
+   title: "Lit Q21",
+   learner_question: "L#10 Code: 1032 \\r\\n1. den \\r\\n2. net \\r\\n3. set",
+    question: "Which word is \'net\'? Net. Enter the number of the correct answer. Net.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! \'net\'",
+    incorrectAnswerResponse: "Incorrect. \'net\'",
+    set: 11
+    },
+
+  1033:{
+    question_tag: "L1LITLP11Q2",
+   code: "1033",
+   title: "Lit Q22",
+   learner_question: "L#11 Code: 1033 \\r\\n1. red \\r\\n2. fed \\r\\n3. Ted",
+    question: "Which word begins with the /r/ sound? Enter the number of the correct answer. /rrrr/. Which word begins with the /r/ sound?",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! red.",
+    incorrectAnswerResponse: "Incorrect. red.",
+    set: 11
+    },
+
+  1034:{
+    question_tag: "L1LITLP12QG",
+   code: "1034",
+   title: "Lit Class Q12",
+   learner_question: "L#12 Code: 1034 \\r\\n1. he \\r\\n2. she \\r\\n3. me",
+    question: "Which word can replace \'The man\'? Enter the number of the correct answer. Which word can replace \'The man\'?",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! he.",
+    incorrectAnswerResponse: "Incorrect. he.",
+    set: 12
+    },
+
+  1035:{
+    question_tag: "L1LITLP12Q1",
+   code: "1035",
+   title: "Lit Q23",
+   learner_question: "L#12 Code: 1035 \\r\\n1. he \\r\\n2. she \\r\\n3. me",
+    question: "Which word can replace \'Ma\'? Enter the number of the correct answer. Which word can replace \'Ma\'?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! she. Ma is a woman.",
+    incorrectAnswerResponse: "Incorrect. she. Ma is a woman.",
+    set: 12
+    },
+
+  1036:{
+    question_tag: "L1LITLP12Q2",
+   code: "1036",
+   title: "Lit Q24",
+   learner_question: "L#12 Code: 1036 \\r\\n1. She has met the man. \\r\\n2. He is as fat as Ma. \\r\\n3. She met a fat man.",
+    question: "Which sentence says, \'She has met the man.\'? Enter the number of the correct answer. She has met the man.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! She has met the man.",
+    incorrectAnswerResponse: "Incorrect. She has met the man.",
+    set: 12
+    },
+
+  1037:{
+    question_tag: "L1LITLP13QG",
+   code: "1037",
+   title: "Lit Class Q13",
+   learner_question: "L#13 Code: 1037 \\r\\n1. He is a fat man. \\r\\n2. She is as fat as me. \\r\\n3. She has a fat mat.",
+    question: "Which sentence says, \"She is as fat as me.\'? Enter the number of the correct answer. She is as fat as me.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! She is as fat as me.",
+    incorrectAnswerResponse: "Incorrect. She is as fat as me.",
+    set: 13
+    },
+
+  1038:{
+    question_tag: "L1LITLP13Q1",
+   code: "1038",
+   title: "Lit Q25",
+   learner_question: "L#13 Code: 1038 \\r\\n1. THE HEN IS RED. \\r\\n2. THE MAN IS NED. \\r\\n3. THE RED HEN SAT.",
+    question: "Which sentence says, \'The hen is red.\'? Enter the number of the correct answer. The hen is red.",
+    answer: "1",
+    correctAnswerResponse: "Correct! THE HEN IS RED.",
+    incorrectAnswerResponse: "Incorrect. THE HEN IS RED.",
+    set: 13
+    },
+
+  1039:{
+    question_tag: "L1LITLP13Q2",
+   code: "1039",
+   title: "Lit Q26",
+   learner_question: "L#13 Code: 1039 \\r\\n1. am \\r\\n2. red \\r\\n3. are",
+    question: "Which word is \'are\'? Are. Enter the number of the correct answer. Are.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! are.",
+    incorrectAnswerResponse: "Incorrect. are.",
+    set: 13
+    },
+
+  1040:{
+    question_tag: "L1LITLP14QG",
+   code: "1040",
+   title: "Lit Class Q14",
+   learner_question: "L#14 Code: 1040 \\r\\n1. Finger \\r\\n2. Matter \\r\\n3. Kitten",
+    question: "Which word starts with the /k/ sound? /k/. Enter the number of the correct answer. /k/.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Kitten. K.",
+    incorrectAnswerResponse: "Incorrect. Kitten. K.",
+    set: 14
+    },
+
+  1041:{
+    question_tag: "L1LITLP14Q1",
+   code: "1041",
+   title: "Lit Q27",
+   learner_question: "L#14 Code: 1041 \\r\\n1. Looking \\r\\n2. Kissing \\r\\n3. Indent",
+    question: "Which word starts with the /L/ sound? Enter the number of the correct answer. /LLLL/. Which word starts with the /l/ sound.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Looking. L.",
+    incorrectAnswerResponse: "Incorrect. Looking. L.",
+    set: 14
+    },
+
+  1042:{
+    question_tag: "L1LITLP14Q2",
+   code: "1042",
+   title: "Lit Q28",
+   learner_question: "L#14 Code: 1042 \\r\\n1. mat \\r\\n2. mit \\r\\n3. men",
+    question: "Which word is \'mit\'? Mit. Enter the number of the correct answer. \'mit\'.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! mit.",
+    incorrectAnswerResponse: "Incorrect. mit.",
+    set: 14
+    },
+
+  1043:{
+    question_tag: "L1LITLP15QG",
+   code: "1043",
+   title: "Lit Class Q15",
+   learner_question: "L#15 Code: 1043 \\r\\n1. The rat is at the mat. \\r\\n2. The mat is in it. \\r\\n3. The rat is in it.",
+    question: "Which sentence says, \'The rat is in it.\'? Enter the number of the correct answer. The rat is in it.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! The rat is in it.",
+    incorrectAnswerResponse: "Incorrect. The rat is in it.",
+    set: 15
+    },
+
+  1044:{
+    question_tag: "L1LITLP15Q1",
+   code: "1044",
+   title: "Lit Q29",
+   learner_question: "L#15 Code: 1044 \\r\\n1. The milk is in the red tin. \\r\\n2. The man is on the red mat. \\r\\n3. The rat is in the milk tin.",
+    question: "Which sentence says, \'The milk is in the red tin.\'? Enter the number of the correct answer. The milk is in the red tin.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! The milk is in the red tin.",
+    incorrectAnswerResponse: "Incorrect. The milk is in the red tin.",
+    set: 15
+    },
+
+  1045:{
+    question_tag: "L1LITLP15Q2",
+   code: "1045",
+   title: "Lit Q30",
+   learner_question: "L#15 Code: 1045 \\r\\n1. milk \\r\\n2. tin \\r\\n3. kin",
+    question: "Which word is \'Kin\'? Kin. Enter the number of the correct answer. Kin.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! kin.",
+    incorrectAnswerResponse: "Incorrect. kin.",
+    set: 15
+    },
+
+  1046:{
+    question_tag: "L1LITLP16QG",
+   code: "1046",
+   title: "Lit Class Q16",
+   learner_question: "L#16 Code: 1046 \\r\\n1. wet \\r\\n2. vet \\r\\n3. met",
+    question: "Which word is \'vet\'? Vet. Enter the number of the correct answer. \'Vet\'.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! vet.",
+    incorrectAnswerResponse: "Incorrect. vet.",
+    set: 16
+    },
+
+  1047:{
+    question_tag: "L1LITLP16Q1",
+   code: "1047",
+   title: "Lit Q31",
+   learner_question: "L#16 Code: 1047 \\r\\n1. vat \\r\\n2. wet \\r\\n3. will",
+    question: "Which word is \'will\'? Will. Enter the number of the correct answer. Will.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! will.",
+    incorrectAnswerResponse: "Incorrect. will.",
+    set: 16
+    },
+
+  1048:{
+    question_tag: "L1LITLP16Q2",
+   code: "1048",
+   title: "Lit Q32",
+   learner_question: "L#16 Code: 1048 \\r\\n1. The wet rat is in it. \\r\\n2. The red rat is at the vet. \\r\\n3. The wet mat is in the vat.",
+    question: "Which sentence says, \'The wet rat is in it.\' Enter the number of the correct answer. The wet rat is in it.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! The wet rat is in it.",
+    incorrectAnswerResponse: "Incorrect. The wet rat is in it.",
+    set: 16
+    },
+
+  1049:{
+    question_tag: "L1LITLP17QG",
+   code: "1049",
+   title: "Lit Class Q17",
+   learner_question: "L#17 Code: 1049 \\r\\n1. m \\r\\n2. w \\r\\n3. v",
+    question: "Which letter makes the /w/ sound? Enter the number of the correct answer. /wwww/. Which letter makes the /w/ sound?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! w.",
+    incorrectAnswerResponse: "Incorrect. w.",
+    set: 17
+    },
+
+  1050:{
+    question_tag: "L1LITLP17Q1",
+   code: "1050",
+   title: "Lit Q33",
+   learner_question: "L#17 Code: 1050 \\r\\n1. V \\r\\n2. S \\r\\n3. W",
+    question: "Which letter makes the /v/ sound? Enter the number of the correct sound? /vvvv/. Which letter makes the /vvvv/ sound?",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! V.",
+    incorrectAnswerResponse: "Incorrect. V.",
+    set: 17
+    },
+
+  1051:{
+    question_tag: "L1LITLP17Q2",
+   code: "1051",
+   title: "Lit Q34",
+   learner_question: "L#17 Code: 1051 \\r\\n1. KIM HAS A WET VAT. \\r\\n2. KEN IS A FAT VET. \\r\\n3. KAM HAS A RED RAT.",
+    question: "Which sentence says, \'Kim has a wet vat.\' Enter the Number of the correct number. Kim has a wet vat.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! KIM HAS A WET VAT.",
+    incorrectAnswerResponse: "Incorrect. KIM HAS A WET VAT.",
+    set: 17
+    },
+
+  1052:{
+    question_tag: "L1LITLP18QG",
+   code: "1052",
+   title: "Lit Class Q18",
+   learner_question: "L#18 Code: 1052 \\r\\n1. Will \\r\\n2. Went \\r\\n3. Wets",
+    question: "Which word is \'went\'? Went. Enter the number of the correct answer. Went.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Went.",
+    incorrectAnswerResponse: "Incorrect. Went.",
+    set: 18
+    },
+
+  1053:{
+    question_tag: "L1LITLP18Q1",
+   code: "1053",
+   title: "Lit Q35",
+   learner_question: "L#18 Code: 1053 \\r\\n1. We are wet. \\r\\n2. Will we win? \\r\\n3. We will win.",
+    question: "Which sentence says, \'We will win.\' Enter the number of the correct answer. We will win.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! We will win.",
+    incorrectAnswerResponse: "Incorrect. We will win.",
+    set: 18
+    },
+
+  1054:{
+    question_tag: "L1LITLP18Q2",
+   code: "1054",
+   title: "Lit Q36",
+   learner_question: "L#18 Code: 1054 \\r\\n1. The wet hen has a van. \\r\\n2. The van has a red mat. \\r\\n3. The van hit the wet hen.",
+    question: "Which sentence says, \'The van hit the wet hen.\'?",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! The van hit the wet hen.",
+    incorrectAnswerResponse: "Incorrect. The van hit the wet hen.",
+    set: 18
+    },
+
+  1055:{
+    question_tag: "L1LITLP19QG",
+   code: "1055",
+   title: "Lit Class Q19",
+   learner_question: "L#19 Code: 1055 \\r\\n1. A \\r\\n2. K \\r\\n3. H",
+    question: "Which letter is capital \'K\'? Enter the number of the correct answer. Capital \'K\'.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! K.",
+    incorrectAnswerResponse: "Incorrect. K.",
+    set: 19
+    },
+
+  1056:{
+    question_tag: "L1LITLP19Q1",
+   code: "1056",
+   title: "Lit Q37",
+   learner_question: "L#19 Code: 1056 \\r\\n1. N \\r\\n2. D \\r\\n3. W",
+    question: "Which letter is capital \'N\'? Enter the number of the correct answer. Capital \'N\'.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! N.",
+    incorrectAnswerResponse: "Incorrect. N.",
+    set: 19
+    },
+
+  1057:{
+    question_tag: "L1LITLP19Q2",
+   code: "1057",
+   title: "Lit Q38",
+   learner_question: "L#19 Code: 1057 \\r\\n1. w \\r\\n2. f \\r\\n3. m",
+    question: "Which letter makes the /f/ sound. Enter the number of the correct answer. /ffff/ Which letter makes the /f/ sound?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! f.",
+    incorrectAnswerResponse: "Incorrect. f.",
+    set: 19
+    },
+
+  1058:{
+    question_tag: "L1LITLP20QG",
+   code: "1058",
+   title: "Lit Class Q20",
+   learner_question: "L#20 Code: 1058 \\r\\n1. w \\r\\n2. f \\r\\n3. m",
+    question: "I will say a word. Which letter makes the sound at the beginning of the word? Listen. Mother. Mother. What letter begins the word?",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! m.",
+    incorrectAnswerResponse: "Incorrect. m.",
+    set: 20
+    },
+
+  1059:{
+    question_tag: "L1LITLP20Q1",
+   code: "1059",
+   title: "Lit Q39",
+   learner_question: "L#20 Code: 1059 \\r\\n1. D \\r\\n2. K \\r\\n3. R",
+    question: "Which is letter \'R\'? \"R\'. Enter the number of the correct answer. \'R\'.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! R.",
+    incorrectAnswerResponse: "Incorrect. R.",
+    set: 20
+    },
+
+  1060:{
+    question_tag: "L1LITLP20Q2",
+   code: "1060",
+   title: "Lit Q40",
+   learner_question: "L#20 Code: 1060 \\r\\n1. T \\r\\n2. S \\r\\n3. F",
+    question: "Which letter makes the /t/ sound. /t/. Which letter makes the /t/ sound?",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! T.",
+    incorrectAnswerResponse: "Incorrect. T.",
+    set: 20
+    },
+
+  1061:{
+    question_tag: "L1LITLP21QG",
+   code: "1061",
+   title: "Lit Class Q21",
+   learner_question: "L#21 Code: 1061 \\r\\n1. hand \\r\\n2. hint \\r\\n3. hang",
+    question: "Which word is \'hang\'? Hang. Enter the number of the correct answer. Hang.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! hang.",
+    incorrectAnswerResponse: "Incorrect. hang.",
+    set: 21
+    },
+
+  1062:{
+    question_tag: "L1LITLP21Q1",
+   code: "1062",
+   title: "Lit Q41",
+   learner_question: "L#21 Code: 1062 \\r\\n1. cat \\r\\n2. cog \\r\\n3. cot",
+    question: "Which word is \'cog\'? Cog. Enter the number of the correct answer. Cog.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! cog.",
+    incorrectAnswerResponse: "Incorrect. cog.",
+    set: 21
+    },
+
+  1063:{
+    question_tag: "L1LITLP21Q2",
+   code: "1063",
+   title: "Lit Q42",
+   learner_question: "L#21 Code: 1063 \\r\\n1. The cog is on the vat. \\r\\n2. The cat gets a rat. \\r\\n3. The cot is on the rat.",
+    question: "Which sentence says, \'The cat gets a rat.\' Enter the number of the correct answer. The cat gets a rat.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The cat gets a rat.",
+    incorrectAnswerResponse: "Incorrect. The cat gets a rat.",
+    set: 21
+    },
+
+  1064:{
+    question_tag: "L1LITLP22QG",
+   code: "1064",
+   title: "Lit Class Q22",
+   learner_question: "L#22 Code: 1064 She ___win. \\r\\n1. can \\r\\n2. get \\r\\n3. on",
+    question: "Write the following on the board: She ___ win. Say: Which word completes the sentence? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! She can win.",
+    incorrectAnswerResponse: "Incorrect. She can win.",
+    set: 22
+    },
+
+  1065:{
+    question_tag: "L1LITLP22Q1",
+   code: "1065",
+   title: "Lit Q43",
+   learner_question: "L#22 Code: 1065 \\r\\n1. The dog got a cat. \\r\\n2. The dogs get a hen. \\r\\n3. The dog got hot.",
+    question: "Which sentence says, \'The dog got hot.\'? Enter the number of the correct answer. The dog got hot.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! The dog got hot.",
+    incorrectAnswerResponse: "Incorrect. The dog got hot.",
+    set: 22
+    },
+
+  1066:{
+    question_tag: "L1LITLP22Q2",
+   code: "1066",
+   title: "Lit Q44",
+   learner_question: "L#22 Code: 1066 \\r\\n1. Can the cat get on the mat? \\r\\n2. Can the hog get on the vat? \\r\\n3. Can the hen get on the rat?",
+    question: "Which sentence says, \'Can the hog get on the vat?\'",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Can the hog get on the vat?",
+    incorrectAnswerResponse: "Incorrect. Can the hog get on the vat?",
+    set: 22
+    },
+
+  1067:{
+    question_tag: "L1LITLP23QG",
+   code: "1067",
+   title: "Lit Class Q23",
+   learner_question: "L#23 Code: 1067 \\r\\n1. cat \\r\\n2. cog \\r\\n3. cab",
+    question: "Which word is \'cab\'? Cab. Enter the number of the correct answer. Cab.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! cab.",
+    incorrectAnswerResponse: "Incorrect. cab.",
+    set: 23
+    },
+
+  1068:{
+    question_tag: "L1LITLP23Q1",
+   code: "1068",
+   title: "Lit Q45",
+   learner_question: "L#23 Code: 1068 \\r\\n1. d \\r\\n2. b \\r\\n3. c",
+    question: "Which letter makes the /b/ sound? Enter the number of the correct answer. /b/. Which letter makes the /b/ sound?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! b.",
+    incorrectAnswerResponse: "Incorrect. b.",
+    set: 23
+    },
+
+  1069:{
+    question_tag: "L1LITLP23Q2",
+   code: "1069",
+   title: "Lit Q46",
+   learner_question: "L#23 Code: 1069 \\r\\n1. yet \\r\\n2. yes \\r\\n3. bet",
+    question: "Which word is \'yet\'? Yet. Enter the number of the correct answer. Yet.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! yet.",
+    incorrectAnswerResponse: "Incorrect. yet.",
+    set: 23
+    },
+
+  1070:{
+    question_tag: "L1LITLP24QG",
+   code: "1070",
+   title: "Lit Class Q24",
+   learner_question: "L#24 Code: 1070 We went to ___ at 10:00. \\r\\n1. hen \\r\\n2. yet \\r\\n3. bed",
+    question: "Write the following on the board: We went to ____ at ten. Say: Which word completes the sentence? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! bed. We went to bed at 10:00.",
+    incorrectAnswerResponse: "Incorrect. bed. We went to bed at 10:00.",
+    set: 24
+    },
+
+  1071:{
+    question_tag: "L1LITLP24Q1",
+   code: "1071",
+   title: "Lit Q47",
+   learner_question: "L#24 Code: 1071 \\r\\n1. The big dog bit me. \\r\\n2. The bad dog hit me. \\r\\n3. The big man is me.",
+    question: "Which sentence says, \'The big dog bit me\'? Enter the number of the correct answer. The big dog bit me.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! The big man bit me.",
+    incorrectAnswerResponse: "Incorrect. The big man bit me.",
+    set: 24
+    },
+
+  1072:{
+    question_tag: "L1LITLP24Q2",
+   code: "1072",
+   title: "Lit Q48",
+   learner_question: "L#24 Code: 1072 \\r\\n1. Yet, we went in a van. \\r\\n2. Yes, we will get a fan. \\r\\n3. Yes, we will get a big van.",
+    question: "Which sentence says, \'Yes, we will get a big van.\'",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Yes, we will get a big van.",
+    incorrectAnswerResponse: "Incorrect. Yes, we will get a big van.",
+    set: 24
+    },
+
+  1073:{
+    question_tag: "L1LITLP25QG",
+   code: "1073",
+   title: "Lit Class Q25",
+   learner_question: "L#25 Code: 1073 \\r\\n1. B \\r\\n2. G \\r\\n3. C",
+    question: "Say: Which letter is capital G? Enter the number of the correct answer. Capital G.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! G.",
+    incorrectAnswerResponse: "Incorrect. G.",
+    set: 25
+    },
+
+  1074:{
+    question_tag: "L1LITLP25Q1",
+   code: "1074",
+   title: "Lit Q49",
+   learner_question: "L#25 Code: 1074 \\r\\n1. Y \\r\\n2. H \\r\\n3. B",
+    question: "Which letter is capital \'Y\'? Enter the number of the correct answer. Which number is capital \'Y\'?",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Y.",
+    incorrectAnswerResponse: "Incorrect. Y.",
+    set: 25
+    },
+
+  1075:{
+    question_tag: "L1LITLP25Q2",
+   code: "1075",
+   title: "Lit Q50",
+   learner_question: "L#25 Code: 1075 \\r\\n1. HE CAN GET YAMS. \\r\\n2. THE MEN GOT BIG HAMS. \\r\\n3. THE BOY GOT A BAD YAM.",
+    question: "Which sentence says, \'The boy got a bad yam.\'? Enter the number of the correct answer. The boy got a bad yam.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! THE BOY GOT A BAD YAM.",
+    incorrectAnswerResponse: "Incorrect. THE BOY GOT A BAD YAM.",
+    set: 25
+    },
+
+  1076:{
+    question_tag: "L1LITLP26QG",
+   code: "1076",
+   title: "Lit Class Q26",
+   learner_question: "L#26 Code: 1076 \\r\\n1. jam \\r\\n2. pump \\r\\n3. jump",
+    question: "Which word is \'jump\'? Jump. Enter the number of the correct answer. Jump.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! jump.",
+    incorrectAnswerResponse: "Incorrect. jump.",
+    set: 26
+    },
+
+  1077:{
+    question_tag: "L1LITLP26Q1",
+   code: "1077",
+   title: "Lit Q51",
+   learner_question: "L#26 Code: 1077 \\r\\n1. j \\r\\n2. p \\r\\n3. d",
+    question: "Which letter makes the /p/ sound? Enter the number of the correct answer. /p/. Which letter makes the /p/ sound?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! p.",
+    incorrectAnswerResponse: "Incorrect. p.",
+    set: 26
+    },
+
+  1078:{
+    question_tag: "L1LITLP26Q2",
+   code: "1078",
+   title: "Lit Q52",
+   learner_question: "L#26 Code: 1078 \\r\\n1. The boys jump up. \\r\\n2. The bad man jumps. \\r\\n3. The boy jumps on the hen.",
+    question: "Which sentence says, \'The boys jump up.\'?",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! The boys jump up.",
+    incorrectAnswerResponse: "Incorrect. The boys jump up.",
+    set: 26
+    },
+
+  1079:{
+    question_tag: "L1LITLP27QG",
+   code: "1079",
+   title: "Lit Class Q27",
+   learner_question: "L#27 Code: 1079 \\r\\n1. The boys stop the cat. \\r\\n2. The boy stops by the clinic. \\r\\n3. The pets stop but the hen jumps.",
+    question: "Which sentence says, \'The boy stops by the clinic.\'?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The boy stops by the clinic.",
+    incorrectAnswerResponse: "Incorrect. The boy stops by the clinic.",
+    set: 27
+    },
+
+  1080:{
+    question_tag: "L1LITLP27Q1",
+   code: "1080",
+   title: "Lit Q53",
+   learner_question: "L#27 Code: 1080 \\r\\n1. jump \\r\\n2. pens \\r\\n3. plump",
+    question: "Which word is \'plump\'? Plump. Enter the number of the correct answer. Plump.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! plump.",
+    incorrectAnswerResponse: "Incorrect. plump.",
+    set: 27
+    },
+
+  1081:{
+    question_tag: "L1LITLP27Q2",
+   code: "1081",
+   title: "Lit Q54",
+   learner_question: "L#27 Code: 1081 \\r\\n1. damp \\r\\n2. dent \\r\\n3. pamp",
+    question: "Which word is damp? Damp. Enter the number of the correct answer. Damp.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! damp.",
+    incorrectAnswerResponse: "Incorrect. damp.",
+    set: 27
+    },
+
+  1082:{
+    question_tag: "L1LITLP28QG",
+   code: "1082",
+   title: "Lit Class Q28",
+   learner_question: "L#28 Code: 1082 \\r\\n1. eggs \\r\\n2. exit \\r\\n3. x-rays",
+    question: "Which word is \'exit\'? Exit. Enter the number of the correct answer. Exit.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! exit.",
+    incorrectAnswerResponse: "Incorrect. exit.",
+    set: 28
+    },
+
+  1083:{
+    question_tag: "L1LITLP28Q1",
+   code: "1083",
+   title: "Lit Q55",
+   learner_question: "L#28 Code: 1083 \\r\\n1. quick \\r\\n2. kits \\r\\n3. quit",
+    question: "Which word is \'quit\'. Quit. Enter the number of the correct answer. Quit.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! quit.",
+    incorrectAnswerResponse: "Incorrect. quit.",
+    set: 28
+    },
+
+  1084:{
+    question_tag: "L1LITLP28Q2",
+   code: "1084",
+   title: "Lit Q56",
+   learner_question: "L#28 Code: 1084 \\r\\n1. Yes, but the are back. \\r\\n2. We put the exit in back. \\r\\n3. We will if you are back.",
+    question: "Which sentence says, \'We put the exit in back.\'",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! We put the exit in the back.",
+    incorrectAnswerResponse: "Incorrect. We put the exit in the back.",
+    set: 28
+    },
+
+  1085:{
+    question_tag: "L1LITLP29QG",
+   code: "1085",
+   title: "Lit Class Q29",
+   learner_question: "L#29 Code: 1085 \\r\\n1. He is sick. \\r\\n2. He is hot. \\r\\n3. He is wet.",
+    question: "Say: Answer the question: \'Why is he at the clinic?\' Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Why is he at the clinic? He is sick.",
+    incorrectAnswerResponse: "Incorrect. Why is he at the clinic? He is sick.",
+    set: 29
+    },
+
+  1086:{
+    question_tag: "L1LITLP29Q1",
+   code: "1086",
+   title: "Lit Q57",
+   learner_question: "L#29 Code: 1086 \\r\\n1. five \\r\\n2. have \\r\\n3. hats",
+    question: "Which word is \'have\'. Have. Enter the number of the correct answer. Have.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! have",
+    incorrectAnswerResponse: "Incorrect. have",
+    set: 29
+    },
+
+  1087:{
+    question_tag: "L1LITLP29Q2",
+   code: "1087",
+   title: "Lit Q58",
+   learner_question: "L#29 Code: 1087 \\r\\n1. Five \\r\\n2. Four \\r\\n3. Three",
+    question: "Which word is \'5\'? 5 Enter the number of the correct answer. 5.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Five. 5",
+    incorrectAnswerResponse: "Incorrect. Five. 5",
+    set: 29
+    },
+
+  1088:{
+    question_tag: "L1LITLP30QG",
+   code: "1088",
+   title: "Lit Class Q30",
+   learner_question: "L#30 Code: 1088 \\r\\n1. O \\r\\n2. G \\r\\n3. Q",
+    question: "Which is letter is Capital Q? Enter the number of the correct answer. Capital Q.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Qq.",
+    incorrectAnswerResponse: "Incorrect. Qq.",
+    set: 30
+    },
+
+  1089:{
+    question_tag: "L1LITLP30Q1",
+   code: "1089",
+   title: "Lit Q59",
+   learner_question: "L#30 Code: 1089 \\r\\n1. Zip \\r\\n2. Sip \\r\\n3. Quip",
+    question: "Which word is \'zip\'? Zip. Enter the number of the correct answer. Zip.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Zip.",
+    incorrectAnswerResponse: "Incorrect. Zip.",
+    set: 30
+    },
+
+  1090:{
+    question_tag: "L1LITLP30Q2",
+   code: "1090",
+   title: "Lit Q60",
+   learner_question: "L#30 Code: 1090 \\r\\n1. E \\r\\n2. X \\r\\n3. Z",
+    question: "Which letter is capital \'X\'? Enter the number fo the correct answer. Capital \'X\'.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Correct! Xx.",
+    incorrectAnswerResponse: "Incorrect. Correct! Xx.",
+    set: 30
+    },
+
+  1091:{
+    question_tag: "L1LITLP31QG",
+   code: "1091",
+   title: "Lit Class Q31",
+   learner_question: "L#31 Code: 1091 \\r\\n1. A bad bug is at the mat. \\r\\n2. A big dog exits it. \\r\\n3. A big bag is at the exit.",
+    question: "Which sentence says, \'A big bag is at the exit.\'? Enter the number of the correct answer. A big bag is at the exit.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! A big bag is at the exit.",
+    incorrectAnswerResponse: "Incorrect. A big bag is at the exit.",
+    set: 31
+    },
+
+  1092:{
+    question_tag: "L1LITLP31Q1",
+   code: "1092",
+   title: "Lit Q61",
+   learner_question: "L#31 Code: 1092 \\r\\n1. But \\r\\n2. Cut \\r\\n3. Put",
+    question: "Which word is \'put\'? Put. Enter the number of the correct answer. Put.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Put.",
+    incorrectAnswerResponse: "Incorrect. Put.",
+    set: 31
+    },
+
+  1093:{
+    question_tag: "L1LITLP31Q2",
+   code: "1093",
+   title: "Lit Q62",
+   learner_question: "L#31 Code: 1093 \\r\\n1. gum \\r\\n2. jam \\r\\n3. zam",
+    question: "Which word is \'jam\'? Jam. Enter the number of the correct answer. Jam.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! jam.",
+    incorrectAnswerResponse: "Incorrect. jam.",
+    set: 31
+    },
+
+  1094:{
+    question_tag: "L1LITLP32QG",
+   code: "1094",
+   title: "Lit Class Q32",
+   learner_question: "L#32 Code: 1094 \\r\\n1. gold \\r\\n2. gum \\r\\n3. giant",
+    question: "Which word has a \'soft g\' sound? Enter the number of the correct answer. Which word has a \'soft g\'?",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Giant has a soft \'g\'.",
+    incorrectAnswerResponse: "Incorrect. Giant has a soft \'g\'.",
+    set: 32
+    },
+
+  1095:{
+    question_tag: "L1LITLP32Q1",
+   code: "1095",
+   title: "Lit Q63",
+   learner_question: "L#32 Code: 1095 \\r\\n1. city \\r\\n2. cup \\r\\n3. camp",
+    question: "Which word has a \'soft c\' sound? Enter the number of the correct answer. Which word has a \'soft c\' sound?",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! City has a soft \'c\'.",
+    incorrectAnswerResponse: "Incorrect. City has a soft \'c\'.",
+    set: 32
+    },
+
+  1096:{
+    question_tag: "L1LITLP32Q2",
+   code: "1096",
+   title: "Lit Q64",
+   learner_question: "L#32 Code: 1096 \\r\\n1. Grant \\r\\n2. Giraffe \\r\\n3. Guitar",
+    question: "Which word is \'giraffe\'? Giraffe. Enter the number of the correct answer. Which word is \'giraffe\'?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Giraffe.",
+    incorrectAnswerResponse: "Incorrect. Giraffe.",
+    set: 32
+    },
+
+  1097:{
+    question_tag: "L1LITLP33QG",
+   code: "1097",
+   title: "Lit Class Q33",
+   learner_question: "L#33 Code: 1097 She ___ yes. \\r\\n1. did \\r\\n2. says \\r\\n3. go",
+    question: "Write the following on the board: She _____ yes. Say: Which word completes the sentence? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! She says yes.",
+    incorrectAnswerResponse: "Incorrect. She says yes.",
+    set: 33
+    },
+
+  1098:{
+    question_tag: "L1LITLP33Q1",
+   code: "1098",
+   title: "Lit Q65",
+   learner_question: "L#33 Code: 1098 \\r\\n1. Seven \\r\\n2. Eight \\r\\n3. Nine",
+    question: "Which word is 8? 8. Enter the number of the correct answer. 8.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Eight. 8.",
+    incorrectAnswerResponse: "Incorrect. Eight. 8.",
+    set: 33
+    },
+
+  1099:{
+    question_tag: "L1LITLP33Q2",
+   code: "1099",
+   title: "Lit Q66",
+   learner_question: "L#33 Code: 1099 \\r\\n1. six \\r\\n2. seven \\r\\n3. eight",
+    question: "Which word is 6? 6. Enter the number of the correct answer. 6.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Six. 6.",
+    incorrectAnswerResponse: "Incorrect. Six. 6.",
+    set: 33
+    },
+
+  1100:{
+    question_tag: "L1LITLP34QG",
+   code: "1100",
+   title: "Lit Class Q34",
+   learner_question: "L#34 Code: 1100 We will ___ to the city. \\r\\n1. van \\r\\n2. says \\r\\n3. go",
+    question: "Write the following on the board: We will ____ to the city. Say: Which word completes the sentence? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! We will go to the city.",
+    incorrectAnswerResponse: "Incorrect. We will go to the city.",
+    set: 34
+    },
+
+  1101:{
+    question_tag: "L1LITLP34Q1",
+   code: "1101",
+   title: "Lit Q67",
+   learner_question: "L#34 Code: 1101 \\r\\n1. call \\r\\n2. Cog \\r\\n3. cell",
+    question: "Which word has a \'soft c\' sound? Enter the number of the correct answer. Which word has a \'soft c\' sound?",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Cell has a soft \'c\'.",
+    incorrectAnswerResponse: "Incorrect. Cell has a soft \'c\'.",
+    set: 34
+    },
+
+  1102:{
+    question_tag: "L1LITLP34Q2",
+   code: "1102",
+   title: "Lit Q68",
+   learner_question: "L#34 Code: 1102 \\r\\n1. goat \\r\\n2. giraffe \\r\\n3. get",
+    question: "Which word has a \'soft g\' sound? Enter the number of the correct answer. Which word has a \'soft g\'?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Giraffe has a soft \'g\'.",
+    incorrectAnswerResponse: "Incorrect. Giraffe has a soft \'g\'.",
+    set: 34
+    },
+
+  1103:{
+    question_tag: "L1LITLP35QG",
+   code: "1103",
+   title: "Lit Class Q35",
+   learner_question: "L#35 Code: 1103 She will ___ the egg in the bag. \\r\\n1. But \\r\\n2. Cut \\r\\n3. Put",
+    question: "Write the following on the board: She will ____ the egg in the bag. Say: Which word completes the sentence? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! She will put the egg in the bag.",
+    incorrectAnswerResponse: "Incorrect. She will put the egg in the bag.",
+    set: 35
+    },
+
+  1104:{
+    question_tag: "L1LITLP35Q1",
+   code: "1104",
+   title: "Lit Q69",
+   learner_question: "L#35 Code: 1104 \\r\\n1. Seven \\r\\n2. Eight \\r\\n3. Nine",
+    question: "Which word is 7? 7. Enter the number of the correct word. 7.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Seven. 7.",
+    incorrectAnswerResponse: "Incorrect. Seven. 7.",
+    set: 35
+    },
+
+  1105:{
+    question_tag: "L1LITLP35Q2",
+   code: "1105",
+   title: "Lit Q70",
+   learner_question: "L#35 Code: 1105 \\r\\n1. The boys jump on the dog. \\r\\n2. The bad man jumps on a log. \\r\\n3. The big boys are in the fog.",
+    question: "Which sentence says, \'The boys jump on the dog.\'? Enter the number of the correct answer. The boys jump on the dog.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! The boys jump on the dog.",
+    incorrectAnswerResponse: "Incorrect. The boys jump on the dog.",
+    set: 35
+    },
+
+  1106:{
+    question_tag: "L1LITLP36QG",
+   code: "1106",
+   title: "Lit Class Q36",
+   learner_question: "L#36 Code: 1106 Put the __ in the van. \\r\\n1. bags \\r\\n2. van \\r\\n3. says",
+    question: "Write the following on the board: Put the ____ in the van. Say: Which word completes the sentence? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Put the bags in the car.",
+    incorrectAnswerResponse: "Incorrect. Put the bags in the car.",
+    set: 36
+    },
+
+  1107:{
+    question_tag: "L1LITLP36Q1",
+   code: "1107",
+   title: "Lit Q71",
+   learner_question: "L#36 Code: 1107 \\r\\n1. Go \\r\\n2. Gets \\r\\n3. Goes",
+    question: "Which word is \'goes\'? Goes. Enter the number of the correct answer. Goes.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Goes",
+    incorrectAnswerResponse: "Incorrect. Goes",
+    set: 36
+    },
+
+  1108:{
+    question_tag: "L1LITLP36Q2",
+   code: "1108",
+   title: "Lit Q72",
+   learner_question: "L#36 Code: 1108 \\r\\n1. The gold dog sat. \\r\\n2. The giant dog sits. \\r\\n3. He put a bug in a sack.",
+    question: "Which sentence says, \'The giant dog sits.\'? Enter the number of the correct answer. The giant dog sits.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The giant dog sits.",
+    incorrectAnswerResponse: "Incorrect. The giant dog sits.",
+    set: 36
+    },
+
+  1109:{
+    question_tag: "L1LITLP37QG",
+   code: "1109",
+   title: "Lit Class Q37",
+   learner_question: "L#37 Code: 1109 \\r\\n1. egg \\r\\n2. Enter \\r\\n3. Encyclopedia",
+    question: "Say: Which word has two syllables. Enter the number of the word with 2 syllables.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! \'Enter\' has 2 syllables.",
+    incorrectAnswerResponse: "Incorrect. \'Enter\' has 2 syllables.",
+    set: 37
+    },
+
+  1110:{
+    question_tag: "L1LITLP37Q1",
+   code: "1110",
+   title: "Lit Q73",
+   learner_question: "L#37 Code: 1110 \\r\\n1. as \\r\\n2. at \\r\\n3. ask",
+    question: "Which word is \'ask\'? Ask. Enter the number of the correct answer. Which word is ask?",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Ask.",
+    incorrectAnswerResponse: "Incorrect. Ask.",
+    set: 37
+    },
+
+  1111:{
+    question_tag: "L1LITLP37Q2",
+   code: "1111",
+   title: "Lit Q74",
+   learner_question: "L#37 Code: 1111 \\r\\n1. An apple is on an ant. \\r\\n2. Anne asks for a big apple. \\r\\n3. An ant asks for an apple.",
+    question: "Which sentence says, \'An ant asks for an apple.\'? Enter the number of the correct answer. An ant asks for an apple.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! An ant asks for an apple.",
+    incorrectAnswerResponse: "Incorrect. An ant asks for an apple.",
+    set: 37
+    },
+
+  1112:{
+    question_tag: "L1LITLP38QG",
+   code: "1112",
+   title: "Lit Class Q38",
+   learner_question: "L#38 Code: 1112 \\r\\n1. He like cats. \\r\\n2. He likes cats! \\r\\n3. He likes cats?",
+    question: "Say: Which sentence is a question? Enter the number of the question.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! He likes cats? Questions end with \'?\'.",
+    incorrectAnswerResponse: "Incorrect. He likes cats? Questions end with \'?\'.",
+    set: 38
+    },
+
+  1113:{
+    question_tag: "L1LITLP38Q1",
+   code: "1113",
+   title: "Lit Q75",
+   learner_question: "L#38 Code: 1113 \\r\\n1. She wants a tan apple. \\r\\n2. She was a about to put it up. \\r\\n3. She wants to talk about it.",
+    question: "Which sentence says, \'She wants to talk about it.\'? Enter the number of the correct answer. She wants to talk about it.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! She wants to talk about it.",
+    incorrectAnswerResponse: "Incorrect. She wants to talk about it.",
+    set: 38
+    },
+
+  1114:{
+    question_tag: "L1LITLP38Q2",
+   code: "1114",
+   title: "Lit Q76",
+   learner_question: "L#38 Code: 1114 \\r\\n1. The kids are in. \\r\\n2. This is a kid. \\r\\n3. This is it.",
+    question: "Which sentence says, \"This is it.\" Enter the number of the correct answer. This is it.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! This is it.",
+    incorrectAnswerResponse: "Incorrect. This is it.",
+    set: 38
+    },
+
+  1115:{
+    question_tag: "L1LITLP39QG",
+   code: "1115",
+   title: "Lit Class Q39",
+   learner_question: "L#39 Code: 1115 \\r\\n1. A cat \\r\\n2. A car \\r\\n3. A jar",
+    question: "Say: Open to page 117. Look at the first sentence of the story. What do Hawa and Massa have? Enter the number of the correct answer. What do Hawa and Massa have?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Hawa and Massa have a car.",
+    incorrectAnswerResponse: "Incorrect. Hawa and Massa have a car.",
+    set: 39
+    },
+
+  1116:{
+    question_tag: "L1LITLP39Q1",
+   code: "1116",
+   title: "Lit Q77",
+   learner_question: "L#39 Code: 1116 \\r\\n1. end \\r\\n2. and \\r\\n3. in",
+    question: "Which word is \'And\'? And. Enter the letter of the correct answer. And.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! And.",
+    incorrectAnswerResponse: "Incorrect. And.",
+    set: 39
+    },
+
+  1117:{
+    question_tag: "L1LITLP39Q2",
+   code: "1117",
+   title: "Lit Q78",
+   learner_question: "L#39 Code: 1117 \\r\\n1. Pam and the man saw a cat. \\r\\n2. Dan and the men got a cot. \\r\\n3. Pim and the men saw a cut.",
+    question: "Which sentence says, \"Pam and the man saw a cat.\"? Enter the number of the correct answer. Pam and the man saw a cat.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Pam and the man saw a cat.",
+    incorrectAnswerResponse: "Incorrect. Pam and the man saw a cat.",
+    set: 39
+    },
+
+  1118:{
+    question_tag: "L1LITLP40QG",
+   code: "1118",
+   title: "Lit Class Q40",
+   learner_question: "L#40 Code: 1118 \\r\\n1. Ebb \\r\\n2. Ibb \\r\\n3. Abb",
+    question: "Which word is \'ebb\'? Enter the number of the correct answer. Ebb.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Ebb.",
+    incorrectAnswerResponse: "Incorrect. Ebb.",
+    set: 40
+    },
+
+  1119:{
+    question_tag: "L1LITLP40Q1",
+   code: "1119",
+   title: "Lit Q79",
+   learner_question: "L#40 Code: 1119 \\r\\n1. and \\r\\n2. eat \\r\\n3. end",
+    question: "Which word has the short /e/ sound? Enter the number of the word with a short /e/ sound. Short /e/.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! The short /e/ sound is the sound in end, egg, bed, net, head, and get.",
+    incorrectAnswerResponse: "Incorrect. The short /e/ sound is the sound in end, egg, bed, net, head, and get.",
+    set: 40
+    },
+
+  1120:{
+    question_tag: "L1LITLP40Q2",
+   code: "1120",
+   title: "Lit Q80",
+   learner_question: "L#40 Code: 1120 \\r\\n1. This is an ant on it. \\r\\n2. The ants are on the eggs. \\r\\n3. This is about the ants on the egg.",
+    question: "Which sentences says, \"This is about the ants on the egg?\"",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! This is about the ants on the egg.",
+    incorrectAnswerResponse: "Incorrect. This is about the ants on the egg.",
+    set: 40
+    },
+
+  1121:{
+    question_tag: "L1LITLP41QG",
+   code: "1121",
+   title: "Lit Class Q41",
+   learner_question: "L#41 Code: 1121 She is in the ____. \\r\\n1. ran \\r\\n2. bed \\r\\n3. egg",
+    question: "Choose the word that completes the sentence. Enter the number of the word that finishes the sentence.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! She is in the bed.",
+    incorrectAnswerResponse: "Incorrect. She is in the bed.",
+    set: 41
+    },
+
+  1122:{
+    question_tag: "L1LITLP41Q1",
+   code: "1122",
+   title: "Lit Q81",
+   learner_question: "L#41 Code: 1122 \\r\\n1. cat \\r\\n2. bed \\r\\n3. he",
+    question: "Which word has the short /e/ sound? Enter the number of the word with a short /e/ sound. Short /e/.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The short /e/ sound is the sound in bed, net, head, and get.",
+    incorrectAnswerResponse: "Incorrect. The short /e/ sound is the sound in bed, net, head, and get.",
+    set: 41
+    },
+
+  1123:{
+    question_tag: "L1LITLP41Q2",
+   code: "1123",
+   title: "Lit Q82",
+   learner_question: "L#41 Code: 1123 \\r\\n1. The net and the cat are bad. \\r\\n2. The nut is at the end of the mat. \\r\\n3. The net is on the end of the bed.",
+    question: "Which sentence says, \"The net is on the end of the bed.\"? Enter the number of the correct answer. The net is on the end of the bed.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! The net is on the end of the bed.",
+    incorrectAnswerResponse: "Incorrect. The net is on the end of the bed.",
+    set: 41
+    },
+
+  1124:{
+    question_tag: "L1LITLP42QG",
+   code: "1124",
+   title: "Lit Class Q42",
+   learner_question: "L#42 Code: 1124 \\r\\n1. Man \\r\\n2. Men \\r\\n3. Min",
+    question: "I will say a word. Enter the number of the word I say. Listen. Men. Men.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Men",
+    incorrectAnswerResponse: "Incorrect. Men",
+    set: 42
+    },
+
+  1125:{
+    question_tag: "L1LITLP42Q1",
+   code: "1125",
+   title: "Lit Q83",
+   learner_question: "L#42 Code: 1125 \\r\\n1. Tan \\r\\n2. Ten \\r\\n3. Tin",
+    question: "Which word is \'tan\'? Enter the number of the correct answer. Tan. Tan.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Tan",
+    incorrectAnswerResponse: "Incorrect. Tan",
+    set: 42
+    },
+
+  1126:{
+    question_tag: "L1LITLP42Q2",
+   code: "1126",
+   title: "Lit Q84",
+   learner_question: "L#42 Code: 1126 \\r\\n1. The cats get in the bed. \\r\\n2. The cars are in the wet net. \\r\\n3. They can get in the wet bed.",
+    question: "Which sentence says, \'They can get in the wet bed.\'",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! They can get in the wet bed.",
+    incorrectAnswerResponse: "Incorrect. They can get in the wet bed.",
+    set: 42
+    },
+
+  1127:{
+    question_tag: "L1LITLP43QG",
+   code: "1127",
+   title: "Lit Class Q43",
+   learner_question: "L#43 Code: 1127 \\r\\n1. Night \\r\\n2. It \\r\\n3. I",
+    question: "Which word has the short /i/ sound? Enter the number of the word with a short /i/ sound. Short /i/.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The short /i/ sound is the sound in it, if, bin, lit, and hit.",
+    incorrectAnswerResponse: "Incorrect. The short /i/ sound is the sound in it, if, bin, lit, and hit.",
+    set: 43
+    },
+
+  1128:{
+    question_tag: "L1LITLP43Q1",
+   code: "1128",
+   title: "Lit Q85",
+   learner_question: "L#43 Code: 1128 \\r\\n1. If the insect is in the can. \\r\\n2. It is the insect in the tin. \\r\\n3. Is the insect on the can?",
+    question: "Which sentence says, \"If the insect is in the can.\"? Enter the number of the correct answer. If the insect is in the can.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! If the insect is in the can.",
+    incorrectAnswerResponse: "Incorrect. If the insect is in the can.",
+    set: 43
+    },
+
+  1129:{
+    question_tag: "L1LITLP43Q2",
+   code: "1129",
+   title: "Lit Q86",
+   learner_question: "L#43 Code: 1129 I ___ the insect. \\r\\n1. hit \\r\\n2. ate \\r\\n3. in",
+    question: "Which word completes the sentence? Enter the number of the word that completes the sentence.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! I hit the insect.",
+    incorrectAnswerResponse: "Incorrect. I hit the insect.",
+    set: 43
+    },
+
+  1130:{
+    question_tag: "L1LITLP44QG",
+   code: "1130",
+   title: "Lit Class Q44",
+   learner_question: "L#44 Code: 1130 \\r\\n1. He is a fat pig. \\r\\n2. His friend has a big pig. \\r\\n3. He and his friend get a pig.",
+    question: "Which sentence says, \"His friend has a big pig.\"? Enter the number of the correct answer. His friend has a big pig.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! His friend has a big pig.",
+    incorrectAnswerResponse: "Incorrect. His friend has a big pig.",
+    set: 44
+    },
+
+  1131:{
+    question_tag: "L1LITLP44Q1",
+   code: "1131",
+   title: "Lit Q87",
+   learner_question: "L#44 Code: 1131 \\r\\n1. bet \\r\\n2. bat \\r\\n3. bit",
+    question: "Which word is \'bit\'?",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Bit.",
+    incorrectAnswerResponse: "Incorrect. Bit.",
+    set: 44
+    },
+
+  1132:{
+    question_tag: "L1LITLP44Q2",
+   code: "1132",
+   title: "Lit Q88",
+   learner_question: "L#44 Code: 1132 \\r\\n1. give \\r\\n2. fight \\r\\n3. tie",
+    question: "Which word has the short /i/ sound? Enter the number of the word with a short /i/ sound. Short /i/.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! The short /i/ sound is the sound give, live, in it, if, bin, lit, and hit.",
+    incorrectAnswerResponse: "Incorrect. The short /i/ sound is the sound give, live, in it, if, bin, lit, and hit.",
+    set: 44
+    },
+
+  1133:{
+    question_tag: "L1LITLP45QG",
+   code: "1133",
+   title: "Lit Class Q45",
+   learner_question: "L#45 Code: 1133 \\r\\n1. Friend \\r\\n2. Tinizi \\r\\n3. Silly",
+    question: "Say: Open to page 140. Read the first line of the story. What is the name of the pig? Enter the number of the correct answer. What is the name of the pig?",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! The story says, \"The name of the pig is Silly.\"",
+    incorrectAnswerResponse: "Incorrect. The story says, \"The name of the pig is Silly.\"",
+    set: 45
+    },
+
+  1134:{
+    question_tag: "L1LITLP45Q1",
+   code: "1134",
+   title: "Lit Q89",
+   learner_question: "L#45 Code: 1134 \\r\\n1. Bid \\r\\n2. Bed \\r\\n3. Bad",
+    question: "Which word is \'bed\'? Enter the number of the correct answer. Bed.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Bed.",
+    incorrectAnswerResponse: "Incorrect. Bed.",
+    set: 45
+    },
+
+  1135:{
+    question_tag: "L1LITLP45Q2",
+   code: "1135",
+   title: "Lit Q90",
+   learner_question: "L#45 Code: 1135 \\r\\n1. Bitter \\r\\n2. Better \\r\\n3. Batter",
+    question: "Which word is \'Bitter\'? Enter the number of the correct word. Bitter. Bitter.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Bitter",
+    incorrectAnswerResponse: "Incorrect. Bitter",
+    set: 45
+    },
+
+  1136:{
+    question_tag: "L1LITLP46QG",
+   code: "1136",
+   title: "Lit Class Q46",
+   learner_question: "L#46 Code: 1136 \\r\\n1. o \\r\\n2. g \\r\\n3. u",
+    question: "Which letter is NOT a vowel? Enter the number of the letter that is NOT a vowel.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The vowels are a, e, I, o , u, and sometimes y. \'g\' is a consonant.",
+    incorrectAnswerResponse: "Incorrect. The vowels are a, e, I, o , u, and sometimes y. \'g\' is a consonant.",
+    set: 46
+    },
+
+  1137:{
+    question_tag: "L1LITLP46Q1",
+   code: "1137",
+   title: "Lit Q91",
+   learner_question: "L#46 Code: 1137 \\r\\n1. e \\r\\n2. i \\r\\n3. a",
+    question: "Which letter makes the /a/ sound? Enter the number of the correct answer. /aaaa/. /a/.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! The /a/ sound is the sound in hat, mat, and cat.",
+    incorrectAnswerResponse: "Incorrect. The /a/ sound is the sound in hat, mat, and cat.",
+    set: 46
+    },
+
+  1138:{
+    question_tag: "L1LITLP46Q2",
+   code: "1138",
+   title: "Lit Q92",
+   learner_question: "L#46 Code: 1138 \\r\\n1. Matter \\r\\n2. Mitten \\r\\n3. Meter",
+    question: "Which word is \'mitten\'? Mitten. Enter the number of the correct answer. Mitten.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Mitten",
+    incorrectAnswerResponse: "Incorrect. Mitten",
+    set: 46
+    },
+
+  1139:{
+    question_tag: "L1LITLP47QG",
+   code: "1139",
+   title: "Lit Class Q47",
+   learner_question: "L#47 Code: 1139 \\r\\n1. open \\r\\n2. hot \\r\\n3. O",
+    question: "Which word has the short /o/ sound? Enter the number of the word with the short /o/ sound.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The short /o/ sound is the /o/ sound in words like hot, got, lot, and not.",
+    incorrectAnswerResponse: "Incorrect. The short /o/ sound is the /o/ sound in words like hot, got, lot, and not.",
+    set: 47
+    },
+
+  1140:{
+    question_tag: "L1LITLP47Q1",
+   code: "1140",
+   title: "Lit Q93",
+   learner_question: "L#47 Code: 1140 \\r\\n1. on \\r\\n2. in \\r\\n3. an",
+    question: "Which word is \'on\'? Enter the number of the correct answer. On. On.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! On",
+    incorrectAnswerResponse: "Incorrect. On",
+    set: 47
+    },
+
+  1141:{
+    question_tag: "L1LITLP47Q2",
+   code: "1141",
+   title: "Lit Q94",
+   learner_question: "L#47 Code: 1141 \\r\\n1. His friend gives us a can. \\r\\n2. His friend got on the can. \\r\\n3. His friend got on and off the can.",
+    question: "Which sentence says, \"His friend got on and off the can.\" His friend got on and off the can.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! His friend got on and off the can.",
+    incorrectAnswerResponse: "Incorrect. His friend got on and off the can.",
+    set: 47
+    },
+
+  1142:{
+    question_tag: "L1LITLP48QG",
+   code: "1142",
+   title: "Lit Class Q48",
+   learner_question: "L#48 Code: 1142 \\r\\n1. On the porch. \\r\\n2. In the kitchen. \\r\\n3. Tom and his son.",
+    question: "Say: Open your books to page 150. Read the first line of the story. Where is the dog? Enter the number of the correct answer. Where is the dog?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The story says, \"The dog is in the kitchen.\"",
+    incorrectAnswerResponse: "Incorrect. The story says, \"The dog is in the kitchen.\"",
+    set: 48
+    },
+
+  1143:{
+    question_tag: "L1LITLP48Q1",
+   code: "1143",
+   title: "Lit Q95",
+   learner_question: "L#48 Code: 1143 The dog drinks____. \\r\\n1. friends \\r\\n2. water \\r\\n3. good",
+    question: "Which word completes the sentence? Enter the number of the word that completes the sentence.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The dog drinks water.",
+    incorrectAnswerResponse: "Incorrect. The dog drinks water.",
+    set: 48
+    },
+
+  1144:{
+    question_tag: "L1LITLP48Q2",
+   code: "1144",
+   title: "Lit Q96",
+   learner_question: "L#48 Code: 1144 The farmer has an ____. \\r\\n1. on \\r\\n2. ox \\r\\n3. odd",
+    question: "Which word completes the sentence? Enter the number of the word that completes the sentence.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The farmer has an ox.",
+    incorrectAnswerResponse: "Incorrect. The farmer has an ox.",
+    set: 48
+    },
+
+  1145:{
+    question_tag: "L1LITLP49QG",
+   code: "1145",
+   title: "Lit Class Q49",
+   learner_question: "L#49 Code: 1145 \\r\\n1. She is happy. \\r\\n2. She is happy? \\r\\n3. She is happy!",
+    question: "Which sentence has an exclamation point? Enter the number of the sentence with an exclamation point.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! She is happy! Exclamation points show strong feelings.",
+    incorrectAnswerResponse: "Incorrect. She is happy! Exclamation points show strong feelings.",
+    set: 49
+    },
+
+  1146:{
+    question_tag: "L1LITLP49Q1",
+   code: "1146",
+   title: "Lit Q97",
+   learner_question: "L#49 Code: 1146 The food is very ___! \\r\\n1. farmer \\r\\n2. water \\r\\n3. good",
+    question: "Which word best completes the sentence? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! The food is very good!",
+    incorrectAnswerResponse: "Incorrect. The food is very good!",
+    set: 49
+    },
+
+  1147:{
+    question_tag: "L1LITLP49Q2",
+   code: "1147",
+   title: "Lit Q98",
+   learner_question: "L#49 Code: 1147 \\r\\n1. He is a good boy! \\r\\n2. He is a good boy? \\r\\n3. He is a good boy.",
+    question: "Which sentence shows strong feelings? Enter the number of the sentence that shows strong feelings.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! He is a good boy! Exclamation points \'!\' show strong feelings.",
+    incorrectAnswerResponse: "Incorrect. He is a good boy! Exclamation points \'!\' show strong feelings.",
+    set: 49
+    },
+
+  1148:{
+    question_tag: "L1LITLP50QG",
+   code: "1148",
+   title: "Lit Class Q50",
+   learner_question: "L#50 Code: 1148 \\r\\n1. you \\r\\n2. U \\r\\n3. bun",
+    question: "Which word has a short /u/ sound? Enter the number of the word with the short /u/ sound.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! The short /u/ sound is the sound in bun, gun, fun, and run.",
+    incorrectAnswerResponse: "Incorrect. The short /u/ sound is the sound in bun, gun, fun, and run.",
+    set: 50
+    },
+
+  1149:{
+    question_tag: "L1LITLP50Q1",
+   code: "1149",
+   title: "Lit Q99",
+   learner_question: "L#50 Code: 1149 \\r\\n1. Jane is rude. \\r\\n2. Jane is rude? \\r\\n3. Jane is rude!",
+    question: "Which sentence is a question?",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Jane is rude? We use \'?\' to ask questions.",
+    incorrectAnswerResponse: "Incorrect. Jane is rude? We use \'?\' to ask questions.",
+    set: 50
+    },
+
+  1150:{
+    question_tag: "L1LITLP50Q2",
+   code: "1150",
+   title: "Lit Q100",
+   learner_question: "L#50 Code: 1150 The cat is ___ the bed. \\r\\n1. under \\r\\n2. uncle \\r\\n3. up",
+    question: "Which word completes the sentence? Enter the number of the word that best completes the sentence.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! The cat is under the bed.",
+    incorrectAnswerResponse: "Incorrect. The cat is under the bed.",
+    set: 50
+    },
+
+  1151:{
+    question_tag: "L1LITLP51QG",
+   code: "1151",
+   title: "Lit Class Q51",
+   learner_question: "L#51 Code: 1151 \\r\\n1. My wife will be here soon. \\r\\n2. My wife will have three sons. \\r\\n3. I wife and sons come here soon.",
+    question: "Which sentence says, \"My wife will be here soon?\"",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! My wife will be here soon.",
+    incorrectAnswerResponse: "Incorrect. My wife will be here soon.",
+    set: 51
+    },
+
+  1152:{
+    question_tag: "L1LITLP51Q1",
+   code: "1152",
+   title: "Lit Q101",
+   learner_question: "L#51 Code: 1152 \\r\\n1. bad \\r\\n2. bid \\r\\n3. bud",
+    question: "Which word is \'bud? Bud. Enter the number of the correct answer. Bud.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Bud",
+    incorrectAnswerResponse: "Incorrect. Bud",
+    set: 51
+    },
+
+  1153:{
+    question_tag: "L1LITLP51Q2",
+   code: "1153",
+   title: "Lit Q102",
+   learner_question: "L#51 Code: 1153 \\r\\n1. Gat \\r\\n2. Get \\r\\n3. Gut",
+    question: "Which word is \'gat\'? Gat. Enter the number of the correct answer. Gat.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! Gat",
+    incorrectAnswerResponse: "Incorrect. Gat",
+    set: 51
+    },
+
+  1154:{
+    question_tag: "L1LITLP52QG",
+   code: "1154",
+   title: "Lit Class Q52",
+   learner_question: "L#52 Code: 1154 \\r\\n1. Opening \\r\\n2. Astounding \\r\\n3. Upsetting",
+    question: "Which word is \'upsetting\'? Upsetting. Choose the number of the correct answer. Upsetting.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Upsetting",
+    incorrectAnswerResponse: "Incorrect. Upsetting",
+    set: 52
+    },
+
+  1155:{
+    question_tag: "L1LITLP52Q1",
+   code: "1155",
+   title: "Lit Q103",
+   learner_question: "L#52 Code: 1155 \\r\\n1. The docks are Cam\'s home. \\r\\n2. The ducks come home. \\r\\n3. The dogs come here.",
+    question: "Which sentence says, \"The ducks come home.\"",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! The ducks come home.",
+    incorrectAnswerResponse: "Incorrect. The ducks come home.",
+    set: 52
+    },
+
+  1156:{
+    question_tag: "L1LITLP52Q2",
+   code: "1156",
+   title: "Lit Q104",
+   learner_question: "L#52 Code: 1156 \\r\\n1. bag \\r\\n2. beg \\r\\n3. bug",
+    question: "Which word is \'bug\'? Bug. Enter the number of the correct answer. Bug.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Bug.",
+    incorrectAnswerResponse: "Incorrect. Bug.",
+    set: 52
+    },
+
+  1157:{
+    question_tag: "L1LITLP53QG",
+   code: "1157",
+   title: "Lit Class Q53",
+   learner_question: "L#53 Code: 1157 \\r\\n1. This home is under water. \\r\\n2. This farmer has good water. \\r\\n3. The wife is at the end of the farm.",
+    question: "Which sentence says, \"This home is under water.\" Enter the number of the correct answer. This home is under water.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! This home is under water.",
+    incorrectAnswerResponse: "Incorrect. This home is under water.",
+    set: 53
+    },
+
+  1158:{
+    question_tag: "L1LITLP53Q1",
+   code: "1158",
+   title: "Lit Q105",
+   learner_question: "L#53 Code: 1158 \\r\\n1. a \\r\\n2. e \\r\\n3. u",
+    question: "Which letter makes the /u/ sound? /uuuu/. Enter the number of the correct answer. /u/.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! The letter \'u\' makes the short /u/ sound heard in words like gun, fun, run, and hungry.",
+    incorrectAnswerResponse: "Incorrect. The letter \'u\' makes the short /u/ sound heard in words like gun, fun, run, and hungry.",
+    set: 53
+    },
+
+  1159:{
+    question_tag: "L1LITLP53Q2",
+   code: "1159",
+   title: "Lit Q106",
+   learner_question: "L#53 Code: 1159 \\r\\n1. Battermake \\r\\n2. Buttarmalk \\r\\n3. Buttermilk",
+    question: "Which word is buttermilk? Buttermilk. Enter the number of the correct answer. Buttermilk.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Buttermilk.",
+    incorrectAnswerResponse: "Incorrect. Buttermilk.",
+    set: 53
+    },
+
+  1160:{
+    question_tag: "L1LITLP54QG",
+   code: "1160",
+   title: "Lit Class Q54",
+   learner_question: "L#54 Code: 1160 \\r\\n1. o \\r\\n2. e \\r\\n3. u",
+    question: "I will say a word. Which letter makes the sound at the beginning of the word? Listen. Under. Under. What letter begins the word? Under.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! Under.",
+    incorrectAnswerResponse: "Incorrect. Under.",
+    set: 54
+    },
+
+  1161:{
+    question_tag: "L1LITLP54Q1",
+   code: "1161",
+   title: "Lit Q107",
+   learner_question: "L#54 Code: 1161 \\r\\n1. The dog is upset. \\r\\n2. The dog is upset! \\r\\n3. The dog is upset?",
+    question: "Which sentence has an exclamation point? Enter the number of the sentence with an exclamation point.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! Exclamation points show strong feelings!",
+    incorrectAnswerResponse: "Incorrect. Exclamation points show strong feelings!",
+    set: 54
+    },
+
+  1162:{
+    question_tag: "L1LITLP54Q2",
+   code: "1162",
+   title: "Lit Q108",
+   learner_question: "L#54 Code: 1162 \\r\\n1. This cot is on the cat. \\r\\n2. The cat had a big cut. \\r\\n3. This cat is under the cot.",
+    question: "Which sentence says, \"This cat is under the cot.\"",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! This cat is under the cot.",
+    incorrectAnswerResponse: "Incorrect. This cat is under the cot.",
+    set: 54
+    }
 };
 	
 	//return false if user submits a non existent question...

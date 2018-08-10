@@ -336,11 +336,11 @@ function tutorMentorWeeklyAccessExhausted(){
 	}
 
 	var msgCursor = contact.queryMessages({
-						direction: 'incoming',
-						time_created[min]: startOfWeek.unix(),
-						time_created[max]: currentDate.unix(),
-						status: 'received',
-						message_type:'sms'
+						direction : 'incoming',
+						time_created : {'min' : startOfWeek.unix()},
+						time_created : ['max' : currentDate.unix()],
+						status : 'received',
+						message_type :'sms'
 							});
 
 	var incomingMsgCount = msgCursor.count();

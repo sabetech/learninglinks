@@ -366,8 +366,8 @@ function tutorMentorWeeklyAccessExhausted(){
 
 	var msgCursor = contact.queryMessages({
 						direction : 'incoming',
-						time_created : {'min' : startOfWeek.unix()},
-						time_created : {'max' : currentDate.unix()},
+						time_created[min] : startOfWeek.unix(),
+						time_created[max] : currentDate.unix(),
 						status : 'received',
 						message_type :'sms'
 							});

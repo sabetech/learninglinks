@@ -361,6 +361,9 @@ function tutorMentorWeeklyAccessExhausted(){
 		return false;
 	}
 
+	console.log("start of week "+startOfWeek.unix());
+	console.log("end of period "+currentDate.unix());
+
 	var msgCursor = contact.queryMessages({
 						direction : 'incoming',
 						time_created : {'min' : startOfWeek.unix()},

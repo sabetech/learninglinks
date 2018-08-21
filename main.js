@@ -351,8 +351,10 @@ function tutorMentorWeeklyAccessExhausted(){
 		check if from the begining of the week to date has 3 messages sent within it ...
 	*/
 	var currentDate = moment.unix(contact.last_incoming_message_time);//which is now ...
+	console.log(contact.last_incoming_message_time);
 
 	var startOfWeek = moment.unix(contact.last_incoming_message_time).startOf('iweek').isoWeekday(1);
+	console.log(startOfWeek.weekday());
 
 	//check if current date is monday ... 
 	if (currentDate.weekday() == 1){
@@ -369,6 +371,7 @@ function tutorMentorWeeklyAccessExhausted(){
 
 	var incomingMsgCount = msgCursor.count();
 	
+	console.log("incoming msg count "+incomingMsgCount);
 	//this means that the triggers are exhausted ...
 	if (incomingMsgCount > 3){
 		return true

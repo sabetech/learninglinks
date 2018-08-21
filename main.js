@@ -31,7 +31,7 @@ global.main = function() {
 		var testgroup = project.getGroupById("CGfbee3acd9a320833");
 		if (!contact.isInGroup(testgroup)){
 			sendReply("Sorry you don't belong to the Learning Links Program");
-			// message.delete();
+			
 			return true;
 		}
 
@@ -63,7 +63,7 @@ global.main = function() {
 		}
 
 		//check if tutor mentor has already exhausted her 3 triggers per week
-		if (!tutorMentorWeeklyAccessExhausted()){
+		if (tutorMentorWeeklyAccessExhausted()){
 			sendReply("Hi "+contact.name+", You have exhausted your weekly access of 3 triggers.");
 			console.log(contact.name+" You have exhausted your weekly access of 3 triggers.");
 
@@ -112,7 +112,8 @@ global.main = function() {
 		}
 		
 		//check if learner has received a question ... 
-
+		//this is done by checking if the last message received by the learner is delievered to the user
+		//var lastOutgoingMessage = getLastReceivedMessage();
 
 
 		var answerKey = keyword;
@@ -254,6 +255,29 @@ function getLearnersTutor(){
 	return false;
 }
 
+function getLastReceivedMessage(){
+
+	var last_received_message_by_contact = contact.queryMessages({
+										direction: "outgoing",
+										message_type: "sms",
+										sort_dir: "desc",
+										page_size: 1
+											});
+
+	last_received_message_by_contact.limit(1);
+	var _message;
+
+	if (last_received_message_by_contact.hasNext()){
+		_message = last_received_message_by_contact.next();
+	}else{
+		return false;
+	}
+
+	//_message.
+
+
+}
+
 function getLatestSentMessage(){
 
 	var last_sent_message_cursor = contact.queryMessages({
@@ -345,6 +369,7 @@ function tutorMentorWeeklyAccessExhausted(){
 
 	var incomingMsgCount = msgCursor.count();
 	
+	//this means that the triggers are exhausted ...
 	if (incomingMsgCount > 3){
 		return true
 	}

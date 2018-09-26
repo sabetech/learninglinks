@@ -314,13 +314,16 @@ function allTutorMentorAccess(){
 	var blockTutorMentorAccess = true;
 
 	//check if a tutor mentor made a genuine mistake and wants to retry ...
-	if (latestSentMessage.content.length != 4){
-		blockTutorMentorAccess = false;
-	}
+	//also check if the first time a tutor is trying ....
 
 	if (!latestSentMessage){
 		return true;
 	}
+
+	if (latestSentMessage.content.length != 4){
+		blockTutorMentorAccess = false;
+	}
+
 
 	//if tutor mentor has already sent a question for the day... she's not allowed to send another one ...
 	var last_incoming_message_time = latestSentMessage.time_created; //this is in unix epoch time 

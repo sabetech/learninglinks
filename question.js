@@ -11741,6 +11741,11562 @@ exports.getQuestion = function(questionCode) {
     correctAnswerResponse: ":) Correct! This cat is under the cot.",
     incorrectAnswerResponse: "Incorrect. This cat is under the cot.",
     set: 54
+    },
+
+  2163:{
+    question_tag: "L1MALP55QG",
+   code: "2163",
+   title: "Num Class Q1",
+   learner_question: "\\r\\n1. 24 \\r\\n2. 60 \\r\\n3. 12",
+    question: "How many minutes are in one hour? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) There are 60 minutes in 1 hour.",
+    incorrectAnswerResponse: "Incorrect. There are 60 minutes in 1 hour.",
+    set: 1
+    },
+
+  2164:{
+    question_tag: "L1MALP55Q1",
+   code: "2164",
+   title: "Num Q1",
+   learner_question: "24 hours = ? \\r\\n1. One hour \\r\\n2. One day \\r\\n3. One week",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) There are 24 hours in 1 day.",
+    incorrectAnswerResponse: "Incorrect. There are 24 hours in 1 day.",
+    set: 1
+    },
+
+  2165:{
+    question_tag: "L1MALP55Q2",
+   code: "2165",
+   title: "Num Q2",
+   learner_question: "60 minutes = ? \\r\\n1. One hour \\r\\n2. One day \\r\\n3. One week",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 60 minutes = 1 hour.",
+    incorrectAnswerResponse: "Incorrect. 60 minutes = 1 hour.",
+    set: 1
+    },
+
+  2166:{
+    question_tag: "L1MALP56QG",
+   code: "2166",
+   title: "Num Class Q2",
+   learner_question: "12:55 + 10 minutes= ? \\r\\n1. 12:65 \\r\\n2. 13:05 \\r\\n3. 1:05",
+    question: "Jane goes to lunch at 12:55. She eats for 10 minutes. What time is it now?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 10 minutes after 12:55 is 1:05. There are 60 minutes in 1 hour.",
+    incorrectAnswerResponse: "Incorrect. 10 minutes after 12:55 is 1:05. There are 60 minutes in 1 hour.",
+    set: 2
+    },
+
+  2167:{
+    question_tag: "L1MALP56Q1",
+   code: "2167",
+   title: "Num Q3",
+   learner_question: "1:50 + 20 minutes =? \\r\\n1. 1:70 \\r\\n2. 2:10 \\r\\n3. 2:20",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 20 minutes after 1:50 is 2:10.",
+    incorrectAnswerResponse: "Incorrect. 20 minutes after 1:50 is 2:10.",
+    set: 2
+    },
+
+  2168:{
+    question_tag: "L1MALP56Q2",
+   code: "2168",
+   title: "Num Q4",
+   learner_question: "3:10 + 24 minutes =? \\r\\n1. 3:34 \\r\\n2. 4:05 \\r\\n3. 5:50",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 24 minutes after 3:10 is 3:34.",
+    incorrectAnswerResponse: "Incorrect. 24 minutes after 3:10 is 3:34.",
+    set: 2
+    },
+
+  2169:{
+    question_tag: "L1MALP57QG",
+   code: "2169",
+   title: "Num Class Q3",
+   learner_question: "\\r\\n1. 7:00am \\r\\n2. 7:00pm \\r\\n3. 12:00am",
+    question: "Which is a good time to eat breakfast? Enter the number of the best answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 7:00am is a good time for breakfast.",
+    incorrectAnswerResponse: "Incorrect. 7:00am is a good time for breakfast.",
+    set: 3
+    },
+
+  2170:{
+    question_tag: "L1MALP57Q1",
+   code: "2170",
+   title: "Num Q5",
+   learner_question: "2:30 + 30 minutes =? \\r\\n1. 2:60 \\r\\n2. 3:30 \\r\\n3. 3:00",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 30 minutes after 2:30 is 3:00.",
+    incorrectAnswerResponse: "Incorrect. 30 minutes after 2:30 is 3:00.",
+    set: 3
+    },
+
+  2171:{
+    question_tag: "L1MALP57Q2",
+   code: "2171",
+   title: "Num Q6",
+   learner_question: "6:05 + 35 minutes =? \\r\\n1. 7:40 \\r\\n2. 41:05 \\r\\n3. 6:40",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 35 minutes after 6:05 is 6:40.",
+    incorrectAnswerResponse: "Incorrect. 35 minutes after 6:05 is 6:40.",
+    set: 3
+    },
+
+  2172:{
+    question_tag: "L1MALP58QG",
+   code: "2172",
+   title: "Num Class Q4",
+   learner_question: "\\r\\n1. 7:06 \\r\\n2. 7:50 \\r\\n3. 7:56",
+    question: "Which time is 7:56? Enter the number that shows 7:56.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 7:56",
+    incorrectAnswerResponse: "Incorrect. 7:56",
+    set: 4
+    },
+
+  2173:{
+    question_tag: "L1MALP58Q1",
+   code: "2173",
+   title: "Num Q7",
+   learner_question: "2:30 + 2 hours =? \\r\\n1. 2:32 \\r\\n2. 4:30 \\r\\n3. 2:50",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 2 hours after 2:30 is 4:30.",
+    incorrectAnswerResponse: "Incorrect. 2 hours after 2:30 is 4:30.",
+    set: 4
+    },
+
+  2174:{
+    question_tag: "L1MALP58Q2",
+   code: "2174",
+   title: "Num Q8",
+   learner_question: "6:05 + 60 minutes =? \\r\\n1. 7:05 \\r\\n2. 6:65 \\r\\n3. 12:05",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 60 minutes after 6:05 is 7:05.",
+    incorrectAnswerResponse: "Incorrect. 60 minutes after 6:05 is 7:05.",
+    set: 4
+    },
+
+  2175:{
+    question_tag: "L1MALP59QG",
+   code: "2175",
+   title: "Num Class Q5",
+   learner_question: "\\r\\n1. wake up \\r\\n2. eat breakfast \\r\\n3. go to sleep",
+    question: "What do we do at 11:00pm? Enter the number of something good to do at 11:00pm.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 11:00 is late at night. It is a good time to sleep.",
+    incorrectAnswerResponse: "Incorrect. 11:00 is late at night. It is a good time to sleep.",
+    set: 5
+    },
+
+  2176:{
+    question_tag: "L1MALP59Q1",
+   code: "2176",
+   title: "Num Q9",
+   learner_question: "A good time to the market? \\r\\n1. 12:00am \\r\\n2. 8:00am \\r\\n3. 10:00pm",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 8am is a good time to go to the market.",
+    incorrectAnswerResponse: "Incorrect. 8am is a good time to go to the market.",
+    set: 5
+    },
+
+  2177:{
+    question_tag: "L1MALP59Q2",
+   code: "2177",
+   title: "Num Q10",
+   learner_question: "A good time to wake up? \\r\\n1. 7:00am \\r\\n2. 11:00am \\r\\n3. 9:00pm",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 7am is a good time to wake up.",
+    incorrectAnswerResponse: "Incorrect. 7am is a good time to wake up.",
+    set: 5
+    },
+
+  2178:{
+    question_tag: "L1MALP60QG",
+   code: "2178",
+   title: "Num Class Q6",
+   learner_question: "\\r\\n1. 1 month \\r\\n2. 1 year \\r\\n3. 1 hour",
+    question: "What has 365 days? Enter the number of the correct answer. What has 365 days?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 365 days = 1 year",
+    incorrectAnswerResponse: "Incorrect. 365 days = 1 year",
+    set: 6
+    },
+
+  2179:{
+    question_tag: "L1MALP60Q1",
+   code: "2179",
+   title: "Num Q11",
+   learner_question: "1 year = ? \\r\\n1. 12 months \\r\\n2. 60 months \\r\\n3. 365 months",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1 year = 12 months",
+    incorrectAnswerResponse: "Incorrect. 1 year = 12 months",
+    set: 6
+    },
+
+  2180:{
+    question_tag: "L1MALP60Q2",
+   code: "2180",
+   title: "Num Q12",
+   learner_question: "November = ? Days \\r\\n1. 28 \\r\\n2. 30 \\r\\n3. 31",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) November has 30 days",
+    incorrectAnswerResponse: "Incorrect. November has 30 days",
+    set: 6
+    },
+
+  2181:{
+    question_tag: "L1MALP61QG",
+   code: "2181",
+   title: "Num Class Q7",
+   learner_question: "\\r\\n1. 364 \\r\\n2. 365 \\r\\n3. 366",
+    question: "How many days are in a leap year? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A leap year has one extra day. 366.",
+    incorrectAnswerResponse: "Incorrect. A leap year has one extra day. 366.",
+    set: 7
+    },
+
+  2182:{
+    question_tag: "L1MALP61Q1",
+   code: "2182",
+   title: "Num Q13",
+   learner_question: "1 week= ? Days \\r\\n1. 7 \\r\\n2. 12 \\r\\n3. 365",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 7 days = 1 week",
+    incorrectAnswerResponse: "Incorrect. 7 days = 1 week",
+    set: 7
+    },
+
+  2183:{
+    question_tag: "L1MALP61Q2",
+   code: "2183",
+   title: "Num Q14",
+   learner_question: "Which month has 28 days? \\r\\n1. December \\r\\n2. January \\r\\n3. February",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) February has 28 days in a normal year.",
+    incorrectAnswerResponse: "Incorrect. February has 28 days in a normal year.",
+    set: 7
+    },
+
+  2184:{
+    question_tag: "L1MALP62QG",
+   code: "2184",
+   title: "Num Class Q8",
+   learner_question: "\\r\\n1. 12 \\r\\n2. 100 \\r\\n3. 365",
+    question: "How many years are in one century? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 100 years = 1 century",
+    incorrectAnswerResponse: "Incorrect. 100 years = 1 century",
+    set: 8
+    },
+
+  2185:{
+    question_tag: "L1MALP62Q1",
+   code: "2185",
+   title: "Num Q15",
+   learner_question: "1 minute= ? Seconds? \\r\\n1. 7 \\r\\n2. 12 \\r\\n3. 60",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1 minute = 60 seconds",
+    incorrectAnswerResponse: "Incorrect. 1 minute = 60 seconds",
+    set: 8
+    },
+
+  2186:{
+    question_tag: "L1MALP62Q2",
+   code: "2186",
+   title: "Num Q16",
+   learner_question: "1 year= ? Weeks \\r\\n1. 12 \\r\\n2. 52 \\r\\n3. 365",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1 year = 52 weeks.",
+    incorrectAnswerResponse: "Incorrect. 1 year = 52 weeks.",
+    set: 8
+    },
+
+  2187:{
+    question_tag: "L1MALP63QG",
+   code: "2187",
+   title: "Num Class Q9",
+   learner_question: "\\r\\n1. 12 months \\r\\n2. 24 months \\r\\n3. 36 months",
+    question: "How many months are there in 3 years? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 3 years X 12 months = 36 months.",
+    incorrectAnswerResponse: "Incorrect. 3 years X 12 months = 36 months.",
+    set: 9
+    },
+
+  2188:{
+    question_tag: "L1MALP63Q1",
+   code: "2188",
+   title: "Num Q17",
+   learner_question: "2 weeks = ? Days \\r\\n1. 7 days \\r\\n2. 10 days \\r\\n3. 14 days",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 2 weeks x 7 days =14 days",
+    incorrectAnswerResponse: "Incorrect. 2 weeks x 7 days =14 days",
+    set: 9
+    },
+
+  2189:{
+    question_tag: "L1MALP63Q2",
+   code: "2189",
+   title: "Num Q18",
+   learner_question: "Monday, ____, Wednesday \\r\\n1. Tuesday \\r\\n2. Saturday \\r\\n3. Thursday",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Monday, Tuesday, Wednesday",
+    incorrectAnswerResponse: "Incorrect. Monday, Tuesday, Wednesday",
+    set: 9
+    },
+
+  2190:{
+    question_tag: "L1MALP64QG",
+   code: "2190",
+   title: "Num Class Q10",
+   learner_question: "\\r\\n1. feet \\r\\n2. inches \\r\\n3. miles",
+    question: "Which is good for measuring a classroom? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Feet is a good unit for measuring a classroom.",
+    incorrectAnswerResponse: "Incorrect. Feet is a good unit for measuring a classroom.",
+    set: 10
+    },
+
+  2191:{
+    question_tag: "L1MALP64Q1",
+   code: "2191",
+   title: "Num Q19",
+   learner_question: "1 Foot ? 1 Inch \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1 foot > 1 inch. Feet are bigger than inches.",
+    incorrectAnswerResponse: "Incorrect. 1 foot > 1 inch. Feet are bigger than inches.",
+    set: 10
+    },
+
+  2192:{
+    question_tag: "L1MALP64Q2",
+   code: "2192",
+   title: "Num Q20",
+   learner_question: "1 foot ? 1 yard \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1 foot < 1 yard. Feet are smaller than yards.",
+    incorrectAnswerResponse: "Incorrect. 1 foot < 1 yard. Feet are smaller than yards.",
+    set: 10
+    },
+
+  2193:{
+    question_tag: "L1MALP65QG",
+   code: "2193",
+   title: "Num Class Q11",
+   learner_question: "\\r\\n1. feet \\r\\n2. inches \\r\\n3. miles",
+    question: "Which is good for measuring a long road? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Long roads can be measured in miles.",
+    incorrectAnswerResponse: "Incorrect. Long roads can be measured in miles.",
+    set: 11
+    },
+
+  2194:{
+    question_tag: "L1MALP65Q1",
+   code: "2194",
+   title: "Num Q21",
+   learner_question: "1 foot = ? Inches? \\r\\n1. 1 \\r\\n2. 10 \\r\\n3. 12",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1 foot = 12 inches",
+    incorrectAnswerResponse: "Incorrect. 1 foot = 12 inches",
+    set: 11
+    },
+
+  2195:{
+    question_tag: "L1MALP65Q2",
+   code: "2195",
+   title: "Num Q22",
+   learner_question: "24 inches = ? Feet \\r\\n1. 1 foot \\r\\n2. 2 feet \\r\\n3. 48 feet",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 24 inches = 2 feet",
+    incorrectAnswerResponse: "Incorrect. 24 inches = 2 feet",
+    set: 11
+    },
+
+  2196:{
+    question_tag: "L1MALP66QG",
+   code: "2196",
+   title: "Num Class Q12",
+   learner_question: "\\r\\n1. yd \\r\\n2. in \\r\\n3. ft",
+    question: "What is the short way to write yard? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) yard = yd",
+    incorrectAnswerResponse: "Incorrect. yard = yd",
+    set: 12
+    },
+
+  2197:{
+    question_tag: "L1MALP66Q1",
+   code: "2197",
+   title: "Num Q23",
+   learner_question: "1 yard = ? feet \\r\\n1. 3 \\r\\n2. 10 \\r\\n3. 12",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1 yard = 3 feet",
+    incorrectAnswerResponse: "Incorrect. 1 yard = 3 feet",
+    set: 12
+    },
+
+  2198:{
+    question_tag: "L1MALP66Q2",
+   code: "2198",
+   title: "Num Q24",
+   learner_question: "2 feet = ? Inches \\r\\n1. 12 \\r\\n2. 14 \\r\\n3. 24",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 2 feet = 24 inches",
+    incorrectAnswerResponse: "Incorrect. 2 feet = 24 inches",
+    set: 12
+    },
+
+  2199:{
+    question_tag: "L1MALP67QG",
+   code: "2199",
+   title: "Num Class Q13",
+   learner_question: "\\r\\n1. 12/12 \\r\\n2. 1/7 \\r\\n3. 1/12",
+    question: "What fraction of a foot is one inch? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1 inch is 1/12 of a foot because there are 12 inches in 1 foot.",
+    incorrectAnswerResponse: "Incorrect. 1 inch is 1/12 of a foot because there are 12 inches in 1 foot.",
+    set: 13
+    },
+
+  2200:{
+    question_tag: "L1MALP67Q1",
+   code: "2200",
+   title: "Num Q25",
+   learner_question: "1 foot = ? Yards \\r\\n1. 1/2 \\r\\n2. 1/3 \\r\\n3. 1/12",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1 foot =1/3 of a yard because there are 3 feet in 1 yard.",
+    incorrectAnswerResponse: "Incorrect. 1 foot =1/3 of a yard because there are 3 feet in 1 yard.",
+    set: 13
+    },
+
+  2201:{
+    question_tag: "L1MALP67Q2",
+   code: "2201",
+   title: "Num Q26",
+   learner_question: "6 inches = ? Feet \\r\\n1. 1/2 \\r\\n2. 1/6 \\r\\n3. 1/12",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 6 inches =6/12 =1/2 foot",
+    incorrectAnswerResponse: "Incorrect. 6 inches =6/12 =1/2 foot",
+    set: 13
+    },
+
+  2202:{
+    question_tag: "L1MALP68QG",
+   code: "2202",
+   title: "Num Class Q14 ",
+   learner_question: "\\r\\n1. 12 inches \\r\\n2. 12 and 1/2 inches \\r\\n3. 18 inches",
+    question: "How many inches are in 1 and 1/2 feet? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1 1/2 feet = 12 inches +6 inches= 18 inches.",
+    incorrectAnswerResponse: "Incorrect. 1 1/2 feet = 12 inches +6 inches= 18 inches.",
+    set: 14
+    },
+
+  2203:{
+    question_tag: "L1MALP68Q1",
+   code: "2203",
+   title: "Num Q27",
+   learner_question: "2\'10\"=? \\r\\n1. 210 inches \\r\\n2. 2 inches 10 feet \\r\\n3. 2 feet 10 inches",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 2\'10\" = 2 feet 10 inches",
+    incorrectAnswerResponse: "Incorrect. 2\'10\" = 2 feet 10 inches",
+    set: 14
+    },
+
+  2204:{
+    question_tag: "L1MALP68Q2",
+   code: "2204",
+   title: "Num Q28",
+   learner_question: "3 (1/2) feet = ? Inches \\r\\n1. 12 \\r\\n2. 36 \\r\\n3. 42",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 3 feet x 12 inches + 6 inches = 42 inches",
+    incorrectAnswerResponse: "Incorrect. 3 feet x 12 inches + 6 inches = 42 inches",
+    set: 14
+    },
+
+  2205:{
+    question_tag: "L1MALP69QG",
+   code: "2205",
+   title: "Num Class Q15",
+   learner_question: "(1/2) inch ? (1/3) inch \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "Which is bigger 1/2 inch or 1/3 inch? Enter the number of the correct symbol.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1/2 inch is bigger than 1/3 inch",
+    incorrectAnswerResponse: "Incorrect. 1/2 inch is bigger than 1/3 inch",
+    set: 15
+    },
+
+  2206:{
+    question_tag: "L1MALP69Q1",
+   code: "2206",
+   title: "Num Q29",
+   learner_question: "(1/4) inch ? (1/3) inch \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1/4 < 1/3",
+    incorrectAnswerResponse: "Incorrect. 1/4 < 1/3",
+    set: 15
+    },
+
+  2207:{
+    question_tag: "L1MALP69Q2",
+   code: "2207",
+   title: "Num Q30",
+   learner_question: "(1/2) inch ? (6/12) inch \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1/2 = 6/12",
+    incorrectAnswerResponse: "Incorrect. 1/2 = 6/12",
+    set: 15
+    },
+
+  2208:{
+    question_tag: "L1MALP70QG",
+   code: "2208",
+   title: "Num Class Q16",
+   learner_question: "\\r\\n1. 7 days \\r\\n2. 10 days \\r\\n3. 14 days",
+    question: "How many days are there in two weeks? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1 week = 7 days. 2 weeks = 14 days.",
+    incorrectAnswerResponse: "Incorrect. 1 week = 7 days. 2 weeks = 14 days.",
+    set: 16
+    },
+
+  2209:{
+    question_tag: "L1MALP70Q1",
+   code: "2209",
+   title: "Num Q31",
+   learner_question: "1 year = ? Days \\r\\n1. 365 \\r\\n2. 12 \\r\\n3. 52",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1 year = 365 days",
+    incorrectAnswerResponse: "Incorrect. 1 year = 365 days",
+    set: 16
+    },
+
+  2210:{
+    question_tag: "L1MALP70Q2",
+   code: "2210",
+   title: "Num Q32",
+   learner_question: "3 yards = ? Feet \\r\\n1. 1 foot \\r\\n2. 3 feet \\r\\n3. 9 feet",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1 yard = 3 feet. 3 yards = 9 feet.",
+    incorrectAnswerResponse: "Incorrect. 1 yard = 3 feet. 3 yards = 9 feet.",
+    set: 16
+    },
+
+  2211:{
+    question_tag: "L1MALP71QG",
+   code: "2211",
+   title: "Num Class Q17",
+   learner_question: "\\r\\n1. 12 inches \\r\\n2. 12 feet \\r\\n3. 12 miles",
+    question: "About how long is a car? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 12 feet is a good estimate of a car\'s length.",
+    incorrectAnswerResponse: "Incorrect. 12 feet is a good estimate of a car\'s length.",
+    set: 17
+    },
+
+  2212:{
+    question_tag: "L1MALP71Q1",
+   code: "2212",
+   title: "Num Q33",
+   learner_question: "a door \\r\\n1. 8 inches \\r\\n2. 80 inches \\r\\n3. 800 inches",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 80 inches is a good estimate for a door.",
+    incorrectAnswerResponse: "Incorrect. 80 inches is a good estimate for a door.",
+    set: 17
+    },
+
+  2213:{
+    question_tag: "L1MALP71Q2",
+   code: "2213",
+   title: "Num Q34",
+   learner_question: "a book \\r\\n1. 12 inches \\r\\n2. 120 inches \\r\\n3. 3 feet",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 12 inches is a good estimate for a book.",
+    incorrectAnswerResponse: "Incorrect. 12 inches is a good estimate for a book.",
+    set: 17
+    },
+
+  2214:{
+    question_tag: "L1MALP72QG",
+   code: "2214",
+   title: "Num Class Q18",
+   learner_question: "\\r\\n1. 98.6 \\r\\n2. 0 \\r\\n3. 3\\r\\n2.5",
+    question: "What is the temperature of a healthy person in Fahrenheit? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Most healthy people have a temperature of 98.6 degrees Fahrenheit.",
+    incorrectAnswerResponse: "Incorrect. Most healthy people have a temperature of 98.6 degrees Fahrenheit.",
+    set: 18
+    },
+
+  2215:{
+    question_tag: "L1MALP72Q1",
+   code: "2215",
+   title: "Num Q35",
+   learner_question: "100 F = ? \\r\\n1. 100 Fahrenheit \\r\\n2. 100 Feet \\r\\n3. 100 Fractions",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 100F= 100 degree Fahrenheit.",
+    incorrectAnswerResponse: "Incorrect. 100F= 100 degree Fahrenheit.",
+    set: 18
+    },
+
+  2216:{
+    question_tag: "L1MALP72Q2",
+   code: "2216",
+   title: "Num Q36",
+   learner_question: "Is 35F hot or cold? \\r\\n1. hot \\r\\n2. cold",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 35F is cold. Water is ice at 32F.",
+    incorrectAnswerResponse: "Incorrect. 35F is cold. Water is ice at 32F.",
+    set: 18
+    },
+
+  2217:{
+    question_tag: "L1MALP73QG",
+   code: "2217",
+   title: "Num Class Q19",
+   learner_question: "\\r\\n1. feet \\r\\n2. months \\r\\n3. degrees",
+    question: "What unit do we use to measure the temperature? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) We measure heat in degrees.",
+    incorrectAnswerResponse: "Incorrect. We measure heat in degrees.",
+    set: 19
+    },
+
+  2218:{
+    question_tag: "L1MALP73Q1",
+   code: "2218",
+   title: "Num Q37",
+   learner_question: "10, 20 __, 40, 50 \\r\\n1. 21 \\r\\n2. 30 \\r\\n3. 60",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 10, 20, 30, 40, 50",
+    incorrectAnswerResponse: "Incorrect. 10, 20, 30, 40, 50",
+    set: 19
+    },
+
+  2219:{
+    question_tag: "L1MALP73Q2",
+   code: "2219",
+   title: "Num Q38",
+   learner_question: "5, 10, __, 20, \\r\\n1. 5 \\r\\n2. 15 \\r\\n3. 25",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 5,10, 15, 20",
+    incorrectAnswerResponse: "Incorrect. 5,10, 15, 20",
+    set: 19
+    },
+
+  2220:{
+    question_tag: "L1MALP74QG",
+   code: "2220",
+   title: "Num Class Q20",
+   learner_question: "\\r\\n1. degrees \\r\\n2. miles \\r\\n3. pounds",
+    question: "What unit do we use to measure weight? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Pounds is a measure of weight.",
+    incorrectAnswerResponse: "Incorrect. Pounds is a measure of weight.",
+    set: 20
+    },
+
+  2221:{
+    question_tag: "L1MALP74Q1",
+   code: "2221",
+   title: "Num Q39",
+   learner_question: "1 pound = ? \\r\\n1. 1lb \\r\\n2. 1 kg \\r\\n3. 1 F",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The short form of \'pound\' is \'lb\'.",
+    incorrectAnswerResponse: "Incorrect. The short form of \'pound\' is \'lb\'.",
+    set: 20
+    },
+
+  2222:{
+    question_tag: "L1MALP74Q2",
+   code: "2222",
+   title: "Num Q40",
+   learner_question: "1 pound ? 1 kg \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1 pound < 1 kg. 1 pound = 2.2 kg.",
+    incorrectAnswerResponse: "Incorrect. 1 pound < 1 kg. 1 pound = 2.2 kg.",
+    set: 20
+    },
+
+  2223:{
+    question_tag: "L1MALP75QG",
+   code: "2223",
+   title: "Num Class Q21",
+   learner_question: "\\r\\n1. weight \\r\\n2. temperature \\r\\n3. volume",
+    question: "What measure do we use for liquids? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) We measure liquids by volume.",
+    incorrectAnswerResponse: "Incorrect. We measure liquids by volume.",
+    set: 21
+    },
+
+  2224:{
+    question_tag: "L1MALP75Q1",
+   code: "2224",
+   title: "Num Q41",
+   learner_question: "1 Gallon ? 1 Quart \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1 gallon is more than 1 quart. 1 gallon = 4 quarts.",
+    incorrectAnswerResponse: "Incorrect. 1 gallon is more than 1 quart. 1 gallon = 4 quarts.",
+    set: 21
+    },
+
+  2225:{
+    question_tag: "L1MALP75Q2",
+   code: "2225",
+   title: "Num Q42",
+   learner_question: "1 pint ? 1 quart \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1 pint is less than 1 quart. 1 quart = 2 pints",
+    incorrectAnswerResponse: "Incorrect. 1 pint is less than 1 quart. 1 quart = 2 pints",
+    set: 21
+    },
+
+  2226:{
+    question_tag: "L1MALP76QG",
+   code: "2226",
+   title: "Num Class Q22",
+   learner_question: "\\r\\n1. 1 gallon \\r\\n2. 1 cup \\r\\n3. 1 quart",
+    question: "How much water should a person drink every hour? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) People should try to drink 1 cup of water every hour.",
+    incorrectAnswerResponse: "Incorrect. People should try to drink 1 cup of water every hour.",
+    set: 22
+    },
+
+  2227:{
+    question_tag: "L1MALP76Q1",
+   code: "2227",
+   title: "Num Q43",
+   learner_question: "1 Gallon ? 4 Quarts \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1 gallon equals 4 quarts",
+    incorrectAnswerResponse: "Incorrect. 1 gallon equals 4 quarts",
+    set: 22
+    },
+
+  2228:{
+    question_tag: "L1MALP76Q2",
+   code: "2228",
+   title: "Num Q44",
+   learner_question: "1 pint ? 1 cup \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A pint is more than a cup. 2 cups = 1 pint.",
+    incorrectAnswerResponse: "Incorrect. A pint is more than a cup. 2 cups = 1 pint.",
+    set: 22
+    },
+
+  2229:{
+    question_tag: "L1MALP77QG",
+   code: "2229",
+   title: "Num Class Q23",
+   learner_question: "\\r\\n1. gallon \\r\\n2. pound \\r\\n3. hour",
+    question: "Which is used to measure volume? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Volume is used to measure liquids. Gallon is a measure of volume.",
+    incorrectAnswerResponse: "Incorrect. Volume is used to measure liquids. Gallon is a measure of volume.",
+    set: 23
+    },
+
+  2230:{
+    question_tag: "L1MALP77Q1",
+   code: "2230",
+   title: "Num Q45",
+   learner_question: "6 months ? 1 year \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) There are 12 months in a year. 6 months is less than a year.",
+    incorrectAnswerResponse: "Incorrect. There are 12 months in a year. 6 months is less than a year.",
+    set: 23
+    },
+
+  2231:{
+    question_tag: "L1MALP77Q2",
+   code: "2231",
+   title: "Num Q46",
+   learner_question: "1 foot ? 13 inches \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) There are 12 inches in a foot. 13 inches is more than a foot.",
+    incorrectAnswerResponse: "Incorrect. There are 12 inches in a foot. 13 inches is more than a foot.",
+    set: 23
+    },
+
+  2232:{
+    question_tag: "L1MALP78QG",
+   code: "2232",
+   title: "Num Class Q24",
+   learner_question: "\\r\\n1. August \\r\\n2. October \\r\\n3. July",
+    question: "Which month comes after June? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) June, July, August, September",
+    incorrectAnswerResponse: "Incorrect. June, July, August, September",
+    set: 24
+    },
+
+  2233:{
+    question_tag: "L1MALP78Q1",
+   code: "2233",
+   title: "Num Q47",
+   learner_question: "4 yards = ? Feet \\r\\n1. 3 \\r\\n2. 10 \\r\\n3. 12",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1 yard is 3 feet. 4 yards is 12 feet.",
+    incorrectAnswerResponse: "Incorrect. 1 yard is 3 feet. 4 yards is 12 feet.",
+    set: 24
+    },
+
+  2234:{
+    question_tag: "L1MALP78Q2",
+   code: "2234",
+   title: "Num Q48",
+   learner_question: "21 days ? 3 weeks \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1 week = 7 days. 3 weeks = 21 days.",
+    incorrectAnswerResponse: "Incorrect. 1 week = 7 days. 3 weeks = 21 days.",
+    set: 24
+    },
+
+  2235:{
+    question_tag: "L1MALP79QG",
+   code: "2235",
+   title: "Num Class Q25",
+   learner_question: "\\r\\n1. Point \\r\\n2. Triangle \\r\\n3. Rectangle",
+    question: "Which shape has 3 sides? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A triangle has 3 sides.",
+    incorrectAnswerResponse: "Incorrect. A triangle has 3 sides.",
+    set: 25
+    },
+
+  2236:{
+    question_tag: "L1MALP79Q1",
+   code: "2236",
+   title: "Num Q49",
+   learner_question: "Letter \"L\" looks like an? \\r\\n1. angle \\r\\n2. triangle \\r\\n3. rectangle",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Letter \'L\' looks like an angle.",
+    incorrectAnswerResponse: "Incorrect. Letter \'L\' looks like an angle.",
+    set: 25
+    },
+
+  2237:{
+    question_tag: "L1MALP79Q2",
+   code: "2237",
+   title: "Num Q50",
+   learner_question: "How many sides does a triangle have? \\r\\n1. 2 \\r\\n2. 3 \\r\\n3. 4",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A triangle has 3 sides.",
+    incorrectAnswerResponse: "Incorrect. A triangle has 3 sides.",
+    set: 25
+    },
+
+  2238:{
+    question_tag: "L1MALP80QG",
+   code: "2238",
+   title: "Num Class Q26",
+   learner_question: "\\r\\n1. Circle \\r\\n2. Triangle \\r\\n3. Square",
+    question: "What shape is a dinner plate? Enter the number fo the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Most dinner plates are circles.",
+    incorrectAnswerResponse: "Incorrect. Most dinner plates are circles.",
+    set: 26
+    },
+
+  2239:{
+    question_tag: "L1MALP80Q1",
+   code: "2239",
+   title: "Num Q51",
+   learner_question: "What shape is a book? \\r\\n1. circle \\r\\n2. triangle \\r\\n3. rectangle",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Most books are rectangles.",
+    incorrectAnswerResponse: "Incorrect. Most books are rectangles.",
+    set: 26
+    },
+
+  2240:{
+    question_tag: "L1MALP80Q2",
+   code: "2240",
+   title: "Num Q52",
+   learner_question: "What shape is the Sun? \\r\\n1. Circle \\r\\n2. Triangle \\r\\n3. Rectangle",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The Sun is a circle in the sky.",
+    incorrectAnswerResponse: "Incorrect. The Sun is a circle in the sky.",
+    set: 26
+    },
+
+  2241:{
+    question_tag: "L1MALP81QG",
+   code: "2241",
+   title: "Num Class Q27",
+   learner_question: "\\r\\n1. 5 \\r\\n2. 4 \\r\\n3. 3",
+    question: "How many sides does a rectangle have? Enter the correct number.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A rectangle has 4 sides",
+    incorrectAnswerResponse: "Incorrect. A rectangle has 4 sides",
+    set: 27
+    },
+
+  2242:{
+    question_tag: "L1MALP81Q1",
+   code: "2242",
+   title: "Num Q53",
+   learner_question: "What shape is letter \'O\'? \\r\\n1. triangle \\r\\n2. circle \\r\\n3. rectangle",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Letter \'o\' is a circle.",
+    incorrectAnswerResponse: "Incorrect. Letter \'o\' is a circle.",
+    set: 27
+    },
+
+  2243:{
+    question_tag: "L1MALP81Q2",
+   code: "2243",
+   title: "Num Q54",
+   learner_question: "What shape is a box? \\r\\n1. triangle \\r\\n2. circle \\r\\n3. rectangle",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Most boxes are rectangles.",
+    incorrectAnswerResponse: "Incorrect. Most boxes are rectangles.",
+    set: 27
+    },
+
+  2244:{
+    question_tag: "L1MALP82QG",
+   code: "2244",
+   title: "Num Class Q28",
+   learner_question: "\\r\\n1. a house \\r\\n2. a circle \\r\\n3. a map",
+    question: "What did we draw today? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Today we drew a map of the classroom.",
+    incorrectAnswerResponse: "Incorrect. Today we drew a map of the classroom.",
+    set: 28
+    },
+
+  2245:{
+    question_tag: "L1MALP82Q1",
+   code: "2245",
+   title: "Num Q55",
+   learner_question: "What shape is a door? \\r\\n1. triangle \\r\\n2. circle \\r\\n3. rectangle",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A door is a rectangle.",
+    incorrectAnswerResponse: "Incorrect. A door is a rectangle.",
+    set: 28
+    },
+
+  2246:{
+    question_tag: "L1MALP82Q2",
+   code: "2246",
+   title: "Num Q56",
+   learner_question: "What shape is a ring? \\r\\n1. triangle \\r\\n2. circle \\r\\n3. rectangle",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A ring is a circle.",
+    incorrectAnswerResponse: "Incorrect. A ring is a circle.",
+    set: 28
+    },
+
+  2247:{
+    question_tag: "L1MALP83QG",
+   code: "2247",
+   title: "Num Class Q29",
+   learner_question: "\\r\\n1. a classroom \\r\\n2. a neighborhood \\r\\n3. a country",
+    question: "What did we draw a map of today? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Today we drew a map of a neighborhood.",
+    incorrectAnswerResponse: "Incorrect. Today we drew a map of a neighborhood.",
+    set: 29
+    },
+
+  2248:{
+    question_tag: "L1MALP83Q1",
+   code: "2248",
+   title: "Num Q57",
+   learner_question: "2 yards = ? Feet \\r\\n1. 6 \\r\\n2. 9 \\r\\n3. 12",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 2 yards = 6 feet",
+    incorrectAnswerResponse: "Incorrect. 2 yards = 6 feet",
+    set: 29
+    },
+
+  2249:{
+    question_tag: "L1MALP83Q2",
+   code: "2249",
+   title: "Num Q58",
+   learner_question: "2 years = ? months \\r\\n1. 12 \\r\\n2. 16 \\r\\n3. 24",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 2 years = 24 months",
+    incorrectAnswerResponse: "Incorrect. 2 years = 24 months",
+    set: 29
+    },
+
+  2250:{
+    question_tag: "L1MALP84QG",
+   code: "2250",
+   title: "Num Class Q30",
+   learner_question: "Left on a map? \\r\\n1. East \\r\\n2. West \\r\\n3. South",
+    question: "On a map, which direction is left?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) On a map, left is West.",
+    incorrectAnswerResponse: "Incorrect. On a map, left is West.",
+    set: 30
+    },
+
+  2251:{
+    question_tag: "L1MALP84Q1",
+   code: "2251",
+   title: "Num Q59",
+   learner_question: "Right on a map? \\r\\n1. East \\r\\n2. West \\r\\n3. South",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) On a map, right is East.",
+    incorrectAnswerResponse: "Incorrect. On a map, right is East.",
+    set: 30
+    },
+
+  2252:{
+    question_tag: "L1MALP84Q2",
+   code: "2252",
+   title: "Num Q60",
+   learner_question: "Down on a map? \\r\\n1. East \\r\\n2. North \\r\\n3. South",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) On a map, down is South.",
+    incorrectAnswerResponse: "Incorrect. On a map, down is South.",
+    set: 30
+    },
+
+  2253:{
+    question_tag: "L1MALP85QG",
+   code: "2253",
+   title: "Num Class Q31",
+   learner_question: "North of Liberia? \\r\\n1. Sierra Leone \\r\\n2. Guinea \\r\\n3. Cote D\' Ivoire",
+    question: "What country is North of Liberia? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Guinea is north of Liberia. On a map, north is up.",
+    incorrectAnswerResponse: "Incorrect. Guinea is north of Liberia. On a map, north is up.",
+    set: 31
+    },
+
+  2254:{
+    question_tag: "L1MALP85Q1",
+   code: "2254",
+   title: "Num Q61",
+   learner_question: "West of Liberia? \\r\\n1. Sierra Leone \\r\\n2. Guinea \\r\\n3. Cote D\' Ivoire",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Sierra Leone is West of Liberia. On a map, west is left.",
+    incorrectAnswerResponse: "Incorrect. Sierra Leone is West of Liberia. On a map, west is left.",
+    set: 31
+    },
+
+  2255:{
+    question_tag: "L1MALP85Q2",
+   code: "2255",
+   title: "Num Q62",
+   learner_question: "East of Liberia? \\r\\n1. Sierra Leone \\r\\n2. Guinea \\r\\n3. Cote D\' Ivoire",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Cote D\' Ivoire is east of Liberia. On a map, east is right.",
+    incorrectAnswerResponse: "Incorrect. Cote D\' Ivoire is east of Liberia. On a map, east is right.",
+    set: 31
+    },
+
+  2256:{
+    question_tag: "L1MALP86QG",
+   code: "2256",
+   title: "Num Class Q32",
+   learner_question: "\\r\\n1. Our country \\r\\n2. Our classroom \\r\\n3. Our community",
+    question: "What did we make a map of today? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Today we made a map of our community.",
+    incorrectAnswerResponse: "Incorrect. Today we made a map of our community.",
+    set: 32
+    },
+
+  2257:{
+    question_tag: "L1MALP86Q1",
+   code: "2257",
+   title: "Num Q63",
+   learner_question: "Right on a map? \\r\\n1. East \\r\\n2. West \\r\\n3. South",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) On a map, right is East.",
+    incorrectAnswerResponse: "Incorrect. On a map, right is East.",
+    set: 32
+    },
+
+  2258:{
+    question_tag: "L1MALP86Q2",
+   code: "2258",
+   title: "Num Q64",
+   learner_question: "Up on a map? \\r\\n1. East \\r\\n2. North \\r\\n3. South",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) On a map, up is North.",
+    incorrectAnswerResponse: "Incorrect. On a map, up is North.",
+    set: 32
+    },
+
+  2259:{
+    question_tag: "L1MALP87QG",
+   code: "2259",
+   title: "Num Class Q33",
+   learner_question: "\\r\\n1. Roads \\r\\n2. Schools \\r\\n3. People",
+    question: "Which is NOT shown on a map of the community? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) We do not include people in maps.",
+    incorrectAnswerResponse: "Incorrect. We do not include people in maps.",
+    set: 33
+    },
+
+  2260:{
+    question_tag: "L1MALP87Q1",
+   code: "2260",
+   title: "Num Q65",
+   learner_question: "1 inch ? 1 foot \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) An inch is smaller than a foot.",
+    incorrectAnswerResponse: "Incorrect. An inch is smaller than a foot.",
+    set: 33
+    },
+
+  2261:{
+    question_tag: "L1MALP87Q2",
+   code: "2261",
+   title: "Num Q66",
+   learner_question: "1 quart ? 1 pint \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A quart is bigger than a pint.",
+    incorrectAnswerResponse: "Incorrect. A quart is bigger than a pint.",
+    set: 33
+    },
+
+  2262:{
+    question_tag: "L1MALP88QG",
+   code: "2262",
+   title: "Num Class Q34",
+   learner_question: "\\r\\n1. Oceans \\r\\n2. Cities \\r\\n3. Houses",
+    question: "Which is NOT shown on a map of a country? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Country maps are too big to show houses.",
+    incorrectAnswerResponse: "Incorrect. Country maps are too big to show houses.",
+    set: 34
+    },
+
+  2263:{
+    question_tag: "L1MALP88Q1",
+   code: "2263",
+   title: "Num Q67",
+   learner_question: "Left on a map? \\r\\n1. East \\r\\n2. West \\r\\n3. South",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) On a map, left is West.",
+    incorrectAnswerResponse: "Incorrect. On a map, left is West.",
+    set: 34
+    },
+
+  2264:{
+    question_tag: "L1MALP88Q2",
+   code: "2264",
+   title: "Num Q68",
+   learner_question: "What shape is a TV? \\r\\n1. Circle \\r\\n2. Triangle \\r\\n3. Rectangle",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A TV is a rectangle.",
+    incorrectAnswerResponse: "Incorrect. A TV is a rectangle.",
+    set: 34
+    },
+
+  2265:{
+    question_tag: "L1MALP89QG",
+   code: "2265",
+   title: "Num Class Q35",
+   learner_question: "\\r\\n1. 0 \\r\\n2. 2 \\r\\n3. 3",
+    question: "How many angles does a circle have? Enter the number of angles.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) A circle has 0 angles.",
+    incorrectAnswerResponse: "Incorrect. A circle has 0 angles.",
+    set: 35
+    },
+
+  2266:{
+    question_tag: "L1MALP89Q1",
+   code: "2266",
+   title: "Num Q69",
+   learner_question: "1 quart ? 2 pints \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) There are 2 pints in 1 quart.",
+    incorrectAnswerResponse: "Incorrect. There are 2 pints in 1 quart.",
+    set: 35
+    },
+
+  2267:{
+    question_tag: "L1MALP89Q2",
+   code: "2267",
+   title: "Num Q70",
+   learner_question: "15 months ? 1 year \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) There are 12 months in a year. 15 months is more than a year.",
+    incorrectAnswerResponse: "Incorrect. There are 12 months in a year. 15 months is more than a year.",
+    set: 35
+    },
+
+  2268:{
+    question_tag: "L1MALP90QG",
+   code: "2268",
+   title: "Num Class Q36",
+   learner_question: "\\r\\n1. 3/4 \\r\\n2. 6/12 \\r\\n3. 1/3",
+    question: "Which fraction is equal to one half? Enter the number of the fraction equal to one half.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1/2 = 6/12",
+    incorrectAnswerResponse: "Incorrect. 1/2 = 6/12",
+    set: 36
+    },
+
+  2269:{
+    question_tag: "L1MALP90Q1",
+   code: "2269",
+   title: "Num Q71",
+   learner_question: "1/2 ? 5/8 \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1/2 is less than 5/8",
+    incorrectAnswerResponse: "Incorrect. 1/2 is less than 5/8",
+    set: 36
+    },
+
+  2270:{
+    question_tag: "L1MALP90Q2",
+   code: "2270",
+   title: "Num Q72",
+   learner_question: "1/5 ? 1/4 \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1/5 is less than 1/4",
+    incorrectAnswerResponse: "Incorrect. 1/5 is less than 1/4",
+    set: 36
+    },
+
+  2271:{
+    question_tag: "L1MALP91QG",
+   code: "2271",
+   title: "Num Class Q37",
+   learner_question: "\\r\\n1. 1/2 \\r\\n2. 3/4 \\r\\n3. 1/4",
+    question: "If 3/4 of the class are men, what fraction are women? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) If 3/4 are men, the remaining 1/4 are women.",
+    incorrectAnswerResponse: "Incorrect. If 3/4 are men, the remaining 1/4 are women.",
+    set: 37
+    },
+
+  2272:{
+    question_tag: "L1MALP91Q1",
+   code: "2272",
+   title: "Num Q73",
+   learner_question: "2/4 ? 1/2 \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 2/4 = 1/2",
+    incorrectAnswerResponse: "Incorrect. 2/4 = 1/2",
+    set: 37
+    },
+
+  2273:{
+    question_tag: "L1MALP91Q2",
+   code: "2273",
+   title: "Num Q74",
+   learner_question: "2/3 ? 2/6 \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 2/3 is more than 2/6",
+    incorrectAnswerResponse: "Incorrect. 2/3 is more than 2/6",
+    set: 37
+    },
+
+  2274:{
+    question_tag: "L1MALP92QG",
+   code: "2274",
+   title: "Num Class Q38",
+   learner_question: "\\r\\n1. 1/7 \\r\\n2. 7/10 \\r\\n3. 7/100",
+    question: "Which fraction is equal to 7%? Enter the number of the fraction equal to 7%.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) %= /100. 7/100 = 7%",
+    incorrectAnswerResponse: "Incorrect. %= /100. 7/100 = 7%",
+    set: 38
+    },
+
+  2275:{
+    question_tag: "L1MALP92Q1",
+   code: "2275",
+   title: "Num Q75",
+   learner_question: "18% = ? \\r\\n1. 1/18 \\r\\n2. 18/100 \\r\\n3. 1/8",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) %= /100. 18/100 = 18%",
+    incorrectAnswerResponse: "Incorrect. %= /100. 18/100 = 18%",
+    set: 38
+    },
+
+  2276:{
+    question_tag: "L1MALP92Q2",
+   code: "2276",
+   title: "Num Q76",
+   learner_question: "78% = ? \\r\\n1. 78/100 \\r\\n2. 7/8 \\r\\n3. 100/78",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) %= /100. 78/100 = 78%",
+    incorrectAnswerResponse: "Incorrect. %= /100. 78/100 = 78%",
+    set: 38
+    },
+
+  2277:{
+    question_tag: "L1MALP93QG",
+   code: "2277",
+   title: "Num Class Q39",
+   learner_question: "\\r\\n1. 25% \\r\\n2. 100% \\r\\n3. 50%",
+    question: "Which is equal to half? Enter the number of the answer equal to half.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1/2 = 50% = half",
+    incorrectAnswerResponse: "Incorrect. 1/2 = 50% = half",
+    set: 39
+    },
+
+  2278:{
+    question_tag: "L1MALP93Q1",
+   code: "2278",
+   title: "Num Q77",
+   learner_question: "3/4 = ? \\r\\n1. 25% \\r\\n2. 75% \\r\\n3. 100%",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 3/4 = 75%",
+    incorrectAnswerResponse: "Incorrect. 3/4 = 75%",
+    set: 39
+    },
+
+  2279:{
+    question_tag: "L1MALP93Q2",
+   code: "2279",
+   title: "Num Q78",
+   learner_question: "1/4 = ? \\r\\n1. 4% \\r\\n2. 25% \\r\\n3. 40%",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1/4 = 25%",
+    incorrectAnswerResponse: "Incorrect. 1/4 = 25%",
+    set: 39
+    },
+
+  2280:{
+    question_tag: "L1MALP94QG",
+   code: "2280",
+   title: "Num Class Q40",
+   learner_question: "\\r\\n1. 25% \\r\\n2. 50% \\r\\n3. 75%",
+    question: "If 75% of people like rice, what % of people do not like rice? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 100%- 75% = 25%",
+    incorrectAnswerResponse: "Incorrect. 100%- 75% = 25%",
+    set: 40
+    },
+
+  2281:{
+    question_tag: "L1MALP94Q1",
+   code: "2281",
+   title: "Num Q79",
+   learner_question: "3/4 ? 50% \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 3/4 is more than half. 3/4=75%",
+    incorrectAnswerResponse: "Incorrect. 3/4 is more than half. 3/4=75%",
+    set: 40
+    },
+
+  2282:{
+    question_tag: "L1MALP94Q2",
+   code: "2282",
+   title: "Num Q80",
+   learner_question: "10% = ? \\r\\n1. 1/10 \\r\\n2. 1/100 \\r\\n3. 10/10",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 10% =1/10",
+    incorrectAnswerResponse: "Incorrect. 10% =1/10",
+    set: 40
+    },
+
+  2283:{
+    question_tag: "L1MALP95QG",
+   code: "2283",
+   title: "Num Class Q41",
+   learner_question: "\\r\\n1. 1/2 \\r\\n2. 5/100 \\r\\n3. 1/50",
+    question: "If half the class is women, what fraction are men? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 100%-50%=50%=1/2",
+    incorrectAnswerResponse: "Incorrect. 100%-50%=50%=1/2",
+    set: 41
+    },
+
+  2284:{
+    question_tag: "L1MALP95Q1",
+   code: "2284",
+   title: "Num Q81",
+   learner_question: "99/100 ? 80% \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 99/100= 99%. 99%>80%.",
+    incorrectAnswerResponse: "Incorrect. 99/100= 99%. 99%>80%.",
+    set: 41
+    },
+
+  2285:{
+    question_tag: "L1MALP95Q2",
+   code: "2285",
+   title: "Num Q82",
+   learner_question: "100% = ? \\r\\n1. 1/10 \\r\\n2. 1/100 \\r\\n3. 10/10",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 100% =10/10=100/100",
+    incorrectAnswerResponse: "Incorrect. 100% =10/10=100/100",
+    set: 41
+    },
+
+  2286:{
+    question_tag: "L1MALP96QG",
+   code: "2286",
+   title: "Num Class Q42",
+   learner_question: "\\r\\n1. Left \\r\\n2. Middle \\r\\n3. Right",
+    question: "Where do people who fit both categories go in a Venn diagram? On the left, in the middle or on the right? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The middle of a Venn Diagram is for people in BOTH categories.",
+    incorrectAnswerResponse: "Incorrect. The middle of a Venn Diagram is for people in BOTH categories.",
+    set: 42
+    },
+
+  2287:{
+    question_tag: "L1MALP96Q1",
+   code: "2287",
+   title: "Num Q83",
+   learner_question: "Right on a map? \\r\\n1. East \\r\\n2. West \\r\\n3. South",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) On a map, right is East.",
+    incorrectAnswerResponse: "Incorrect. On a map, right is East.",
+    set: 42
+    },
+
+  2288:{
+    question_tag: "L1MALP96Q2",
+   code: "2288",
+   title: "Num Q84",
+   learner_question: "Up on a map? \\r\\n1. East \\r\\n2. North \\r\\n3. South",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) On a map, up is North.",
+    incorrectAnswerResponse: "Incorrect. On a map, up is North.",
+    set: 42
+    },
+
+  2289:{
+    question_tag: "L1MALP97QG",
+   code: "2289",
+   title: "Num Class Q43",
+   learner_question: "\\r\\n1. Circle \\r\\n2. Percent \\r\\n3. Venn",
+    question: "What diagram is made of two circles that cross each other?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A Venn Diagram is made of 2 overlapping circles.",
+    incorrectAnswerResponse: "Incorrect. A Venn Diagram is made of 2 overlapping circles.",
+    set: 43
+    },
+
+  2290:{
+    question_tag: "L1MALP97Q1",
+   code: "2290",
+   title: "Num Q85",
+   learner_question: "1/4 ? 50% \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1/4 = 25% <50%",
+    incorrectAnswerResponse: "Incorrect. 1/4 = 25% <50%",
+    set: 43
+    },
+
+  2291:{
+    question_tag: "L1MALP97Q2",
+   code: "2291",
+   title: "Num Q86",
+   learner_question: "27% = ? \\r\\n1. 2/7 \\r\\n2. 27/100 \\r\\n3. 1/27",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) % = /100. 27% = 27/100",
+    incorrectAnswerResponse: "Incorrect. % = /100. 27% = 27/100",
+    set: 43
+    },
+
+  2292:{
+    question_tag: "L1MALP98QG",
+   code: "2292",
+   title: "Num Class Q44",
+   learner_question: "\\r\\n1. Survey \\r\\n2. Bar graph \\r\\n3. Venn Diagram",
+    question: "What is it called when we gather information by asking questions? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) A survey is gathering information by asking questions.",
+    incorrectAnswerResponse: "Incorrect. A survey is gathering information by asking questions.",
+    set: 44
+    },
+
+  2293:{
+    question_tag: "L1MALP98Q1",
+   code: "2293",
+   title: "Num Q87",
+   learner_question: "1 year = ? Days \\r\\n1. 365 \\r\\n2. 12 \\r\\n3. 52",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) There are 365 days in 1 year.",
+    incorrectAnswerResponse: "Incorrect. There are 365 days in 1 year.",
+    set: 44
+    },
+
+  2294:{
+    question_tag: "L1MALP98Q2",
+   code: "2294",
+   title: "Num Q88",
+   learner_question: "4 yards = ? Feet \\r\\n1. 1 foot \\r\\n2. 3 feet \\r\\n3. 12 feet",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) There are 3 feet in 1 yard. 4yd =12 ft.",
+    incorrectAnswerResponse: "Incorrect. There are 3 feet in 1 yard. 4yd =12 ft.",
+    set: 44
+    },
+
+  2295:{
+    question_tag: "L1MALP99QG",
+   code: "2295",
+   title: "Num Class Q45",
+   learner_question: "\\r\\n1. Survey \\r\\n2. Diagram \\r\\n3. Data",
+    question: "What is a word for numbers and information used to make bar graphs?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Data is information and numbers used to make decisions.",
+    incorrectAnswerResponse: "Incorrect. Data is information and numbers used to make decisions.",
+    set: 45
+    },
+
+  2296:{
+    question_tag: "L1MALP99Q1",
+   code: "2296",
+   title: "Num Q89",
+   learner_question: "What is a good time to go to the market? \\r\\n1. 12:00am \\r\\n2. 8:00am \\r\\n3. 10:00pm",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 8am is a good time to go to the market.",
+    incorrectAnswerResponse: "Incorrect. 8am is a good time to go to the market.",
+    set: 45
+    },
+
+  2297:{
+    question_tag: "L1MALP99Q2",
+   code: "2297",
+   title: "Num Q90",
+   learner_question: "What is a good time to wake up? \\r\\n1. 7:00am \\r\\n2. 11:00am \\r\\n3. 9:00pm",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 7am is a good time to wake up.",
+    incorrectAnswerResponse: "Incorrect. 7am is a good time to wake up.",
+    set: 45
+    },
+
+  2298:{
+    question_tag: "L1MALP100QG",
+   code: "2298",
+   title: "Num Class Q46",
+   learner_question: "\\r\\n1. Show what people like \\r\\n2. Show who lives in a city \\r\\n3. Show the date",
+    question: "Which is NOT a good use of a bar graph? Enter the number of the answer that is NOT a good use of a bar graph.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Bar graphs are not useful in showing the date.",
+    incorrectAnswerResponse: "Incorrect. Bar graphs are not useful in showing the date.",
+    set: 46
+    },
+
+  2299:{
+    question_tag: "L1MALP100Q1",
+   code: "2299",
+   title: "Num Q91",
+   learner_question: "35+23=? \\r\\n1. 3523 \\r\\n2. 58 \\r\\n3. 87",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! 35+23=58",
+    incorrectAnswerResponse: "Incorrect. 35+23=58",
+    set: 46
+    },
+
+  2300:{
+    question_tag: "L1MALP100Q2",
+   code: "2300",
+   title: "Num Q92",
+   learner_question: "13+64=? \\r\\n1. 1364 \\r\\n2. 67 \\r\\n3. 77",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! 13+64=77",
+    incorrectAnswerResponse: "Incorrect. 13+64=77",
+    set: 46
+    },
+
+  2301:{
+    question_tag: "L1MALP101QG",
+   code: "2301",
+   title: "Num Class Q47",
+   learner_question: "\\r\\n1. Draw a table. \\r\\n2. Make a survey \\r\\n3. Think of a question",
+    question: "What is the first step in making a bar graph?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Before making a bar graph, you must decide what you want to know.",
+    incorrectAnswerResponse: "Incorrect. Before making a bar graph, you must decide what you want to know.",
+    set: 47
+    },
+
+  2302:{
+    question_tag: "L1MALP101Q1",
+   code: "2302",
+   title: "Num Q93",
+   learner_question: "57-32=? \\r\\n1. 25 \\r\\n2. 89 \\r\\n3. 15",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! 57-32=25",
+    incorrectAnswerResponse: "Incorrect. 57-32=25",
+    set: 47
+    },
+
+  2303:{
+    question_tag: "L1MALP101Q2",
+   code: "2303",
+   title: "Num Q94",
+   learner_question: "47-21=? \\r\\n1. 68 \\r\\n2. 28 \\r\\n3. 26",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! 47-21= 26",
+    incorrectAnswerResponse: "Incorrect. 47-21= 26",
+    set: 47
+    },
+
+  2304:{
+    question_tag: "L1MALP102QG",
+   code: "2304",
+   title: "Num Class Q48",
+   learner_question: "\\r\\n1. To show who likes what. \\r\\n2. To show different groups. \\r\\n3. To show how things change over time.",
+    question: "What is a good use of a line graph? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Line graphs show how things change with time.",
+    incorrectAnswerResponse: "Incorrect. Line graphs show how things change with time.",
+    set: 48
+    },
+
+  2305:{
+    question_tag: "L1MALP102Q1",
+   code: "2305",
+   title: "Num Q95",
+   learner_question: "13 x 1=? \\r\\n1. 14 \\r\\n2. 131 \\r\\n3. 13",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! 13 x 1= 13",
+    incorrectAnswerResponse: "Incorrect. 13 x 1= 13",
+    set: 48
+    },
+
+  2306:{
+    question_tag: "L1MALP102Q2",
+   code: "2306",
+   title: "Num Q96",
+   learner_question: "6 x 6= ? \\r\\n1. 36 \\r\\n2. 12 \\r\\n3. 1",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! 6 x 6=36",
+    incorrectAnswerResponse: "Incorrect. 6 x 6=36",
+    set: 48
+    },
+
+  2307:{
+    question_tag: "L1MALP103QG",
+   code: "2307",
+   title: "Num Class Q49",
+   learner_question: "\\r\\n1. Sales by month \\r\\n2. Population by year \\r\\n3. Countries by size",
+    question: "Which is NOT something you would use a line graph to show? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Line graphs show change over time, they are not used for different groups.",
+    incorrectAnswerResponse: "Incorrect. Line graphs show change over time, they are not used for different groups.",
+    set: 49
+    },
+
+  2308:{
+    question_tag: "L1MALP103Q1",
+   code: "2308",
+   title: "Num Q97",
+   learner_question: "12÷4=? \\r\\n1. 3 \\r\\n2. 8 \\r\\n3. 48",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! 12÷4=3",
+    incorrectAnswerResponse: "Incorrect. 12÷4=3",
+    set: 49
+    },
+
+  2309:{
+    question_tag: "L1MALP103Q2",
+   code: "2309",
+   title: "Num Q98",
+   learner_question: "8÷2=? \\r\\n1. 6 \\r\\n2. 4 \\r\\n3. 10",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! 8÷2=4",
+    incorrectAnswerResponse: "Incorrect. 8÷2=4",
+    set: 49
+    },
+
+  2310:{
+    question_tag: "L1MALP104QG",
+   code: "2310",
+   title: "Num Class Q50",
+   learner_question: "\\r\\n1. 25% \\r\\n2. 3% \\r\\n3. 75%",
+    question: "What percentage is equal to 3/4? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 3/4 = 75%",
+    incorrectAnswerResponse: "Incorrect. 3/4 = 75%",
+    set: 50
+    },
+
+  2311:{
+    question_tag: "L1MALP104Q1",
+   code: "2311",
+   title: "Num Q99",
+   learner_question: "56/100 ? 56% \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 56/100 = 56%",
+    incorrectAnswerResponse: "Incorrect. 56/100 = 56%",
+    set: 50
+    },
+
+  2312:{
+    question_tag: "L1MALP104Q2",
+   code: "2312",
+   title: "Num Q100",
+   learner_question: "100% = ? \\r\\n1. 1/10 \\r\\n2. 1/100 \\r\\n3. 10/10",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 100% =10/10=100/100",
+    incorrectAnswerResponse: "Incorrect. 100% =10/10=100/100",
+    set: 50
+    },
+
+  2313:{
+    question_tag: "L1MALP105QG",
+   code: "2313",
+   title: "Num Class Q51",
+   learner_question: "\\r\\n1. 14 \\r\\n2. 33 \\r\\n3. 3",
+    question: "Say: Miriam gives her children 11 books each. She has three children. How many books did she give in total? Enter the number of the correct answer, 1, 2 or \\r\\n3.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! 11 x 3= 33 books.",
+    incorrectAnswerResponse: "Incorrect. 11 x 3= 33 books.",
+    set: 51
+    },
+
+  2314:{
+    question_tag: "L1MALP105Q1",
+   code: "2314",
+   title: "Num Q101",
+   learner_question: "13 x 2=? \\r\\n1. 26 \\r\\n2. 15 \\r\\n3. 132",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! 13 x 2 =26",
+    incorrectAnswerResponse: "Incorrect. 13 x 2 =26",
+    set: 51
+    },
+
+  2315:{
+    question_tag: "L1MALP105Q2",
+   code: "2315",
+   title: "Num Q102",
+   learner_question: "22 x 3=? \\r\\n1. 26 \\r\\n2. 66 \\r\\n3. 25",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! 22 x 3= 66",
+    incorrectAnswerResponse: "Incorrect. 22 x 3= 66",
+    set: 51
+    },
+
+  2316:{
+    question_tag: "L1MALP106QG",
+   code: "2316",
+   title: "Num Class Q52",
+   learner_question: "\\r\\n1. 600 \\r\\n2. 60 \\r\\n3. 6",
+    question: "Say: Mark has $60 dollars to buy rice. Each bag of rice costs 10 dollars. How many bags of rice can Mark buy? Enter the number of the correct answer 1, 2 or \\r\\n3.",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! 60÷10= 6",
+    incorrectAnswerResponse: "Incorrect. 60÷10= 6",
+    set: 52
+    },
+
+  2317:{
+    question_tag: "L1MALP106Q1",
+   code: "2317",
+   title: "Num Q103",
+   learner_question: "25 ÷ 5=? \\r\\n1. 30 \\r\\n2. 125 \\r\\n3. 5",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! 25 ÷ 5= 5",
+    incorrectAnswerResponse: "Incorrect. 25 ÷ 5= 5",
+    set: 52
+    },
+
+  2318:{
+    question_tag: "L1MALP106Q2",
+   code: "2318",
+   title: "Num Q104",
+   learner_question: "24 ÷ 6=? \\r\\n1. 8 \\r\\n2. 4 \\r\\n3. 18",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! 24 ÷ 6= 4",
+    incorrectAnswerResponse: "Incorrect. 24 ÷ 6= 4",
+    set: 52
+    },
+
+  2319:{
+    question_tag: "L1MALP107QG",
+   code: "2319",
+   title: "Num Class Q53",
+   learner_question: "\\r\\n1. 31 \\r\\n2. 41 \\r\\n3. 50",
+    question: "Write the following on the board: 23 +18 Say: Let\'s review. What is 23 plus 18? Enter the number of the correct answer 1, 2 or \\r\\n3.",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! 23 + 18= 41",
+    incorrectAnswerResponse: "Incorrect. 23 + 18= 41",
+    set: 53
+    },
+
+  2320:{
+    question_tag: "L1MALP107Q1",
+   code: "2320",
+   title: "Num Q105",
+   learner_question: "23 x 1 =? \\r\\n1. 23 \\r\\n2. 24 \\r\\n3. 22",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! 23 x 1= 23",
+    incorrectAnswerResponse: "Incorrect. 23 x 1= 23",
+    set: 53
+    },
+
+  2321:{
+    question_tag: "L1MALP107Q2",
+   code: "2321",
+   title: "Num Q106",
+   learner_question: "15÷5=? \\r\\n1. 5 \\r\\n2. 10 \\r\\n3. 3",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! 15 ÷ 5= 3",
+    incorrectAnswerResponse: "Incorrect. 15 ÷ 5= 3",
+    set: 53
+    },
+
+  2322:{
+    question_tag: "L1MALP108QG",
+   code: "2322",
+   title: "Num Class Q54",
+   learner_question: "\\r\\n1. North \\r\\n2. East \\r\\n3. South",
+    question: "Which direction is down on a map? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) On a map, South is down.",
+    incorrectAnswerResponse: "Incorrect. On a map, South is down.",
+    set: 54
+    },
+
+  2323:{
+    question_tag: "L1MALP108Q1",
+   code: "2323",
+   title: "Num Q107",
+   learner_question: "24+47=? \\r\\n1. 71 \\r\\n2. 61 \\r\\n3. 60",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! 24+47= 71",
+    incorrectAnswerResponse: "Incorrect. 24+47= 71",
+    set: 54
+    },
+
+  2324:{
+    question_tag: "L1MALP108Q2",
+   code: "2324",
+   title: "Num Q108",
+   learner_question: "65-36=? \\r\\n1. 101 \\r\\n2. 29 \\r\\n3. 48",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! 65-36= 29",
+    incorrectAnswerResponse: "Incorrect. 65-36= 29",
+    set: 54
+    },
+
+    1163:{
+    question_tag: "L1LITLP55QG",
+   code: "1163",
+   title: "Lit Class Q1",
+   learner_question: "Which letter is a vowel? \\r\\n1. b \\r\\n2. a \\r\\n3. F",
+    question: "Which letter is a vowel? Enter the number of the correct answer. Which letter is a vowel?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The letter \'a\' is a vowel. B and F are consonants.",
+    incorrectAnswerResponse: "Incorrect. The letter \'a\' is a vowel. B and F are consonants.",
+    set: 1
+    },
+
+  1164:{
+    question_tag: "L1LITLP55Q1",
+   code: "1164",
+   title: "Lit Q1",
+   learner_question: "Which letter is a vowel? \\r\\n1. e \\r\\n2. D \\r\\n3. r",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The letter \'e\' is a vowel. D and r are consonants.",
+    incorrectAnswerResponse: "Incorrect. The letter \'e\' is a vowel. D and r are consonants.",
+    set: 1
+    },
+
+  1165:{
+    question_tag: "L1LITLP55Q2",
+   code: "1165",
+   title: "Lit Q2",
+   learner_question: "Which letter is a vowel? \\r\\n1. P \\r\\n2. s \\r\\n3. U",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The letter \'U\' is a vowel. P and S are consonants.",
+    incorrectAnswerResponse: "Incorrect. The letter \'U\' is a vowel. P and S are consonants.",
+    set: 1
+    },
+
+  1166:{
+    question_tag: "L1LITLP56QG",
+   code: "1166",
+   title: "Lit Class Q2",
+   learner_question: "The dog ___ me. \\r\\n1. hope \\r\\n2. but \\r\\n3. bit",
+    question: "Which word completes the sentence \'The dog ___ me.\"? Enter the number of the word that completes the sentence.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The dog bit me.",
+    incorrectAnswerResponse: "Incorrect. The dog bit me.",
+    set: 2
+    },
+
+  1167:{
+    question_tag: "L1LITLP56Q1",
+   code: "1167",
+   title: "Lit Q3",
+   learner_question: "I am ___happy. \\r\\n1. not \\r\\n2. note \\r\\n3. hop",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I am not happy.",
+    incorrectAnswerResponse: "Incorrect. I am not happy.",
+    set: 2
+    },
+
+  1168:{
+    question_tag: "L1LITLP56Q2",
+   code: "1168",
+   title: "Lit Q4",
+   learner_question: "Which letter is a vowel? \\r\\n1. L \\r\\n2. G \\r\\n3. i",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The letter \'i\' is a vowel. L and G are consonants.",
+    incorrectAnswerResponse: "Incorrect. The letter \'i\' is a vowel. L and G are consonants.",
+    set: 2
+    },
+
+  1169:{
+    question_tag: "L1LITLP57QG",
+   code: "1169",
+   title: "Lit Class Q3",
+   learner_question: "Dave ___ to farm. \\r\\n1. hats \\r\\n2. hates \\r\\n3. heats",
+    question: "Which word completes the sentence \'Dave ____ to farm.\"? Enter the number of the word that completes the sentence.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Dave hates to farm.",
+    incorrectAnswerResponse: "Incorrect. Dave hates to farm.",
+    set: 3
+    },
+
+  1170:{
+    question_tag: "L1LITLP57Q1",
+   code: "1170",
+   title: "Lit Q5",
+   learner_question: "I ___ to bake. \\r\\n1. like \\r\\n2. lick \\r\\n3. lake",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I like to bake.",
+    incorrectAnswerResponse: "Incorrect. I like to bake.",
+    set: 3
+    },
+
+  1171:{
+    question_tag: "L1LITLP57Q2",
+   code: "1171",
+   title: "Lit Q6",
+   learner_question: "I ___ a new bag. \\r\\n1. mad \\r\\n2. made \\r\\n3. mode",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I made a new bag.",
+    incorrectAnswerResponse: "Incorrect. I made a new bag.",
+    set: 3
+    },
+
+  1172:{
+    question_tag: "L1LITLP58QG",
+   code: "1172",
+   title: "Lit Class Q4",
+   learner_question: "Which word has a LONG vowel sound? \\r\\n1. pad \\r\\n2. paid \\r\\n3. pads",
+    question: "Which word has a LONG vowel sound? Enter the number of the word with a LONG vowel sound.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Paid has LONG vowel sound. Letters \'ai\' make a LONG vowel sound.",
+    incorrectAnswerResponse: "Incorrect. Paid has LONG vowel sound. Letters \'ai\' make a LONG vowel sound.",
+    set: 4
+    },
+
+  1173:{
+    question_tag: "L1LITLP58Q1",
+   code: "1173",
+   title: "Lit Q7",
+   learner_question: "Which word has a LONG vowel sound? \\r\\n1. may \\r\\n2. mad \\r\\n3. mall",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) May has a LONG vowel sound. Letters \'ay\' make a LONG vowel sound.",
+    incorrectAnswerResponse: "Incorrect. May has a LONG vowel sound. Letters \'ay\' make a LONG vowel sound.",
+    set: 4
+    },
+
+  1174:{
+    question_tag: "L1LITLP58Q2",
+   code: "1174",
+   title: "Lit Q8",
+   learner_question: "Which word has a LONG vowel sound? \\r\\n1. Fat \\r\\n2. Father \\r\\n3. Fate",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Fate has a LONG vowel sound. Silent \'e\' makes the \'a\' a LONG vowel sound.",
+    incorrectAnswerResponse: "Incorrect. Fate has a LONG vowel sound. Silent \'e\' makes the \'a\' a LONG vowel sound.",
+    set: 4
+    },
+
+  1175:{
+    question_tag: "L1LITLP59QG",
+   code: "1175",
+   title: "Lit Class Q5",
+   learner_question: "Which words SOUND the same? \\r\\n1. pay pad \\r\\n2. sale sail \\r\\n3. made mad",
+    question: "Which words sound the same? Enter the number of the words that sound the same.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) \'Sale\' and \'sail\' SOUND the same but are spelled differently.",
+    incorrectAnswerResponse: "Incorrect. \'Sale\' and \'sail\' SOUND the same but are spelled differently.",
+    set: 5
+    },
+
+  1176:{
+    question_tag: "L1LITLP59Q1",
+   code: "1176",
+   title: "Lit Q9",
+   learner_question: " Which words SOUND the same? \\r\\n1. wait weight \\r\\n2. mid maid \\r\\n3. not note",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'Wait\' and \'weight\' SOUND the same but are spelled differently.",
+    incorrectAnswerResponse: "Incorrect. \'Wait\' and \'weight\' SOUND the same but are spelled differently.",
+    set: 5
+    },
+
+  1177:{
+    question_tag: "L1LITLP59Q2",
+   code: "1177",
+   title: "Lit Q10",
+   learner_question: " Which words SOUND the same? \\r\\n1. male mail \\r\\n2. mill mall \\r\\n3. pal pail",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'Male\' and \'mail\' SOUND the same but are spelled differently.",
+    incorrectAnswerResponse: "Incorrect. \'Male\' and \'mail\' SOUND the same but are spelled differently.",
+    set: 5
+    },
+
+  1178:{
+    question_tag: "L1LITLP60QG",
+   code: "1178",
+   title: "Lit Class Q6",
+   learner_question: "Which word has a LONG vowel sound? \\r\\n1. pain \\r\\n2. pin \\r\\n3. pans",
+    question: "Which word has a LONG vowel sound? Enter the number of the word with a LONG vowel sound.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Pain has LONG \'a\' vowel sound. Letters \'ai\' make a LONG \'a\' vowel sound.",
+    incorrectAnswerResponse: "Incorrect. Pain has LONG \'a\' vowel sound. Letters \'ai\' make a LONG \'a\' vowel sound.",
+    set: 6
+    },
+
+  1179:{
+    question_tag: "L1LITLP60Q1",
+   code: "1179",
+   title: "Lit Q11",
+   learner_question: "Which word has a LONG vowel sound? \\r\\n1. Sam \\r\\n2. same \\r\\n3. sample",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Same has a LONG \'a\' vowel sound. Silent \'e\' makes the \'a\' a LONG vowel sound.",
+    incorrectAnswerResponse: "Incorrect. Same has a LONG \'a\' vowel sound. Silent \'e\' makes the \'a\' a LONG vowel sound.",
+    set: 6
+    },
+
+  1180:{
+    question_tag: "L1LITLP60Q2",
+   code: "1180",
+   title: "Lit Q12",
+   learner_question: "\"Which word has a LONG vowel sound? \\r\\n1. say \\r\\n2. sad \\r\\n3. salt ",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Say has a LONG \'a\' vowel sound. Letters \'ay\' make a LONG vowel sound.",
+    incorrectAnswerResponse: "Incorrect. Say has a LONG \'a\' vowel sound. Letters \'ay\' make a LONG vowel sound.",
+    set: 6
+    },
+
+  1181:{
+    question_tag: "L1LITLP61QG",
+   code: "1181",
+   title: "Lit Class Q7",
+   learner_question: "Which word has a long \'e\' vowel sound? \\r\\n1. sell \\r\\n2. send \\r\\n3. see",
+    question: "Which word has a LONG \'e\' vowel sound? Enter the number of the word with a LONG \'e\' vowel sound.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) See has a LONG \'e\' vowel sound. Letters \'ee\' make a LONG \'e\' vowel sound.",
+    incorrectAnswerResponse: "Incorrect. See has a LONG \'e\' vowel sound. Letters \'ee\' make a LONG \'e\' vowel sound.",
+    set: 7
+    },
+
+  1182:{
+    question_tag: "L1LITLP61Q1",
+   code: "1182",
+   title: "Lit Q13",
+   learner_question: "Which word has a long \'e\' vowel sound? \\r\\n1. mend \\r\\n2. meal \\r\\n3. male",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Meals has a long \'e\' sound. Letters \'ea\' make the long \'e\' sound.",
+    incorrectAnswerResponse: "Incorrect. Meals has a long \'e\' sound. Letters \'ea\' make the long \'e\' sound.",
+    set: 7
+    },
+
+  1183:{
+    question_tag: "L1LITLP61Q2",
+   code: "1183",
+   title: "Lit Q14",
+   learner_question: "Which word has a long \'e\' vowel sound? \\r\\n1. beer \\r\\n2. ben \\r\\n3. Bone",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Beer has a long \'e\' sound. Letters \'ee\' make the long \'e\' sound.",
+    incorrectAnswerResponse: "Incorrect. Beer has a long \'e\' sound. Letters \'ee\' make the long \'e\' sound.",
+    set: 7
+    },
+
+  1184:{
+    question_tag: "L1LITLP62QG",
+   code: "1184",
+   title: "Lit Class Q8",
+   learner_question: "I will ____ a shirt. \\r\\n1. buys \\r\\n2. buy \\r\\n3. does",
+    question: "Which word completes the sentence \'I will ___ a shirt.\"? Enter the number of the word that completes the sentence.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I will buy a shirt.",
+    incorrectAnswerResponse: "Incorrect. I will buy a shirt.",
+    set: 8
+    },
+
+  1185:{
+    question_tag: "L1LITLP62Q1",
+   code: "1185",
+   title: "Lit Q15",
+   learner_question: "___ she like cats? \\r\\n1. What \\r\\n2. Does \\r\\n3. hop",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Does she like cats?",
+    incorrectAnswerResponse: "Incorrect. Does she like cats?",
+    set: 8
+    },
+
+  1186:{
+    question_tag: "L1LITLP62Q2",
+   code: "1186",
+   title: "Lit Q16",
+   learner_question: "Which word has a LONG \'e\' sound? \\r\\n1. happy \\r\\n2. help \\r\\n3. hem",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'Happy\' has a long \'e\' sound. The letter \'y\' often makes a long \'e\' sound at the end of words.",
+    incorrectAnswerResponse: "Incorrect. \'Happy\' has a long \'e\' sound. The letter \'y\' often makes a long \'e\' sound at the end of words.",
+    set: 8
+    },
+
+  1187:{
+    question_tag: "L1LITLP63QG",
+   code: "1187",
+   title: "Lit Class Q9",
+   learner_question: "\\r\\n1. Does \\r\\n2. Buys \\r\\n3. What",
+    question: "Which word completes the question \'___is your name?\" Enter the number of the word that completes the sentence.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) What is your name?",
+    incorrectAnswerResponse: "Incorrect. What is your name?",
+    set: 9
+    },
+
+  1188:{
+    question_tag: "L1LITLP63Q1",
+   code: "1188",
+   title: "Lit Q17",
+   learner_question: "She ____ a pen. \\r\\n1. buy \\r\\n2. does \\r\\n3. buys",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) She buys a pen.",
+    incorrectAnswerResponse: "Incorrect. She buys a pen.",
+    set: 9
+    },
+
+  1189:{
+    question_tag: "L1LITLP63Q2",
+   code: "1189",
+   title: "Lit Q18",
+   learner_question: "Which word has a LONG \'e\' sound? \\r\\n1. Seam \\r\\n2. Same \\r\\n3. Send",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'Seam\' has a long \'e\' sound. The letters \'ea\' often make a long \'e\' sound.",
+    incorrectAnswerResponse: "Incorrect. \'Seam\' has a long \'e\' sound. The letters \'ea\' often make a long \'e\' sound.",
+    set: 9
+    },
+
+  1190:{
+    question_tag: "L1LITLP64QG",
+   code: "1190",
+   title: "Lit Class Q10",
+   learner_question: "I see my ____, Peter. \\r\\n1. does \\r\\n2. brother \\r\\n3. hates",
+    question: "Which word completes the sentence \'I see my___ Peter\"? Enter the number of the word that completes the sentence.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I see my brother, Peter.",
+    incorrectAnswerResponse: "Incorrect. I see my brother, Peter.",
+    set: 10
+    },
+
+  1191:{
+    question_tag: "L1LITLP64Q1",
+   code: "1191",
+   title: "Lit Q19",
+   learner_question: "Which word has a LONG \'a\' sound? \\r\\n1. man \\r\\n2. maid \\r\\n3. mean",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) \'Maid\' has a long \'a\' sound. Letters \'ai\' often make a long \'a\' sound.",
+    incorrectAnswerResponse: "Incorrect. \'Maid\' has a long \'a\' sound. Letters \'ai\' often make a long \'a\' sound.",
+    set: 10
+    },
+
+  1192:{
+    question_tag: "L1LITLP64Q2",
+   code: "1192",
+   title: "Lit Q20",
+   learner_question: "Which word has a long \'e\' sound? \\r\\n1. melt \\r\\n2. male \\r\\n3. meal",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) \'Meal\' has a long \'e\' sound. Letters \'ea\' often make a long \'e\' sound.",
+    incorrectAnswerResponse: "Incorrect. \'Meal\' has a long \'e\' sound. Letters \'ea\' often make a long \'e\' sound.",
+    set: 10
+    },
+
+  1193:{
+    question_tag: "L1LITLP65QG",
+   code: "1193",
+   title: "Lit Class Q11",
+   learner_question: "Which word has a long \'I\' sound? \\r\\n1. pill \\r\\n2. pie \\r\\n3. pin",
+    question: "Which word has a long \'I\' sound. Enter the number of the word with a long \'I\' sound.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) \'Pie\' has a long \'I\' sound. Letters \'ie\' often make a long \'I\' sound at the end of a word.",
+    incorrectAnswerResponse: "Incorrect. \'Pie\' has a long \'I\' sound. Letters \'ie\' often make a long \'I\' sound at the end of a word.",
+    set: 11
+    },
+
+  1194:{
+    question_tag: "L1LITLP65Q1",
+   code: "1194",
+   title: "Lit Q21",
+   learner_question: "Which word has a long \'I\' sound? \\r\\n1. time \\r\\n2. paint \\r\\n3. pillow",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'Time\' has a long \'I\' sound. Silent \'e\' at the end of the word makes the \'I\' long.",
+    incorrectAnswerResponse: "Incorrect. \'Time\' has a long \'I\' sound. Silent \'e\' at the end of the word makes the \'I\' long.",
+    set: 11
+    },
+
+  1195:{
+    question_tag: "L1LITLP65Q2",
+   code: "1195",
+   title: "Lit Q22",
+   learner_question: "Which word has a long \'I\' sound? \\r\\n1. hit \\r\\n2. hills \\r\\n3. high",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) \'High\' has a long \'I\' sound. Letters \'igh\' make the long \'I\' sound.",
+    incorrectAnswerResponse: "Incorrect. \'High\' has a long \'I\' sound. Letters \'igh\' make the long \'I\' sound.",
+    set: 11
+    },
+
+  1196:{
+    question_tag: "L1LITLP66QG",
+   code: "1196",
+   title: "Lit Class Q12",
+   learner_question: "\\r\\n1. crimp \\r\\n2. cry \\r\\n3. cain",
+    question: "Which word has a long \'I\' sound. Enter the number of the word with a long \'I\' sound.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) \'Cry\' has a long \'I\' sound. Letter \'Y\' often make a long \'I\' sound at the end of a word.",
+    incorrectAnswerResponse: "Incorrect. \'Cry\' has a long \'I\' sound. Letter \'Y\' often make a long \'I\' sound at the end of a word.",
+    set: 12
+    },
+
+  1197:{
+    question_tag: "L1LITLP66Q1",
+   code: "1197",
+   title: "Lit Q23",
+   learner_question: "Which word has a long \'I\' sound? \\r\\n1. said \\r\\n2. simple \\r\\n3. sigh",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) \'Sigh\' has a long \'I\' sound. Letters \'igh\' make the \'I\' long sound.",
+    incorrectAnswerResponse: "Incorrect. \'Sigh\' has a long \'I\' sound. Letters \'igh\' make the \'I\' long sound.",
+    set: 12
+    },
+
+  1198:{
+    question_tag: "L1LITLP66Q2",
+   code: "1198",
+   title: "Lit Q24",
+   learner_question: "Which word has a long \'I\' sound? \\r\\n1. fry \\r\\n2. little \\r\\n3. big",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'Fry\' has a long \'I\' sound. Letter \'Y\' often makes the long \'I\' sound at the end of a word.",
+    incorrectAnswerResponse: "Incorrect. \'Fry\' has a long \'I\' sound. Letter \'Y\' often makes the long \'I\' sound at the end of a word.",
+    set: 12
+    },
+
+  1199:{
+    question_tag: "L1LITLP67QG",
+   code: "1199",
+   title: "Lit Class Q13",
+   learner_question: "\\r\\n1. \" \" \\r\\n2. ! \\r\\n3. ?",
+    question: "Which are quotation marks? Enter the number that shows quotation marks.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Quotation marks \"\" show that someone is speaking.",
+    incorrectAnswerResponse: "Incorrect. Quotation marks \"\" show that someone is speaking.",
+    set: 13
+    },
+
+  1200:{
+    question_tag: "L1LITLP67Q1",
+   code: "1200",
+   title: "Lit Q25",
+   learner_question: "Which word has a long \'I\' sound? \\r\\n1. rice \\r\\n2. wrinkle \\r\\n3. pain",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'Rice\' has a long \'I\' sound. Silent \'e\' makes the letter \'I\' long.",
+    incorrectAnswerResponse: "Incorrect. \'Rice\' has a long \'I\' sound. Silent \'e\' makes the letter \'I\' long.",
+    set: 13
+    },
+
+  1201:{
+    question_tag: "L1LITLP67Q2",
+   code: "1201",
+   title: "Lit Q26",
+   learner_question: "Which word has a long \'I\' sound? \\r\\n1. singing \\r\\n2. why \\r\\n3. give",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) \'Why\' has a long \'I\' sound. Letter \'Y\' often makes a long \'I\' sound at the end of a word.",
+    incorrectAnswerResponse: "Incorrect. \'Why\' has a long \'I\' sound. Letter \'Y\' often makes a long \'I\' sound at the end of a word.",
+    set: 13
+    },
+
+  1202:{
+    question_tag: "L1LITLP68QG",
+   code: "1202",
+   title: "Lit Class Q14 ",
+   learner_question: "\\r\\n1. got \\r\\n2. monster \\r\\n3. goat",
+    question: "Which word has a long \'o\' sound. Enter the number of the word with a long \'o\' sound.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) \'Goat\' has a long \'o\' sound. Letters \'oa\' make the long \'o\' sound.",
+    incorrectAnswerResponse: "Incorrect. \'Goat\' has a long \'o\' sound. Letters \'oa\' make the long \'o\' sound.",
+    set: 14
+    },
+
+  1203:{
+    question_tag: "L1LITLP68Q1",
+   code: "1203",
+   title: "Lit Q27",
+   learner_question: "Which word has the long \'o\' sound? \\r\\n1. rob \\r\\n2. robe \\r\\n3. round",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) \'Robe\' has a long \'o\' sound. Silent \'e\' makes the letter \'o\' long.",
+    incorrectAnswerResponse: "Incorrect. \'Robe\' has a long \'o\' sound. Silent \'e\' makes the letter \'o\' long.",
+    set: 14
+    },
+
+  1204:{
+    question_tag: "L1LITLP68Q2",
+   code: "1204",
+   title: "Lit Q28",
+   learner_question: "Which word has the long \'o\' sound? \\r\\n1. cot \\r\\n2. coat \\r\\n3. corner",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) \'Coat\' has a long \'o\' sound. Letters \'oa\' make the long \'o\' sound.",
+    incorrectAnswerResponse: "Incorrect. \'Coat\' has a long \'o\' sound. Letters \'oa\' make the long \'o\' sound.",
+    set: 14
+    },
+
+  1205:{
+    question_tag: "L1LITLP69QG",
+   code: "1205",
+   title: "Lit Class Q15",
+   learner_question: "I ____ about my job. \\r\\n1. think \\r\\n2. thinks \\r\\n3. too",
+    question: "Which word completes the sentence \'I ___ about my job.\"? Enter the number of the word that completes the sentence.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I think about my job.",
+    incorrectAnswerResponse: "Incorrect. I think about my job.",
+    set: 15
+    },
+
+  1206:{
+    question_tag: "L1LITLP69Q1",
+   code: "1206",
+   title: "Lit Q29",
+   learner_question: "I ___ buy a pencil. \\r\\n1. think \\r\\n2. too \\r\\n3. must",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I must buy a pencil.",
+    incorrectAnswerResponse: "Incorrect. I must buy a pencil.",
+    set: 15
+    },
+
+  1207:{
+    question_tag: "L1LITLP69Q2",
+   code: "1207",
+   title: "Lit Q30",
+   learner_question: "Which word has a LONG \'o\' sound? \\r\\n1. go \\r\\n2. too \\r\\n3. son",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'Go\' has a long \'o\' sound.",
+    incorrectAnswerResponse: "Incorrect. \'Go\' has a long \'o\' sound.",
+    set: 15
+    },
+
+  1208:{
+    question_tag: "L1LITLP70QG",
+   code: "1208",
+   title: "Lit Class Q16",
+   learner_question: "\\r\\n1. I am happy! \\r\\n2. Are you happy? \\r\\n3. \"I am happy.\"",
+    question: "Which sentence uses quotation marks? Enter the number of the sentence with quotation marks.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Quotation marks \"\" show that someone is speaking. \"I am happy.\"",
+    incorrectAnswerResponse: "Incorrect. Quotation marks \"\" show that someone is speaking. \"I am happy.\"",
+    set: 16
+    },
+
+  1209:{
+    question_tag: "L1LITLP70Q1",
+   code: "1209",
+   title: "Lit Q31",
+   learner_question: "She ____ cats are good. \\r\\n1. think \\r\\n2. thinks \\r\\n3. must",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) She thinks cats are good.",
+    incorrectAnswerResponse: "Incorrect. She thinks cats are good.",
+    set: 16
+    },
+
+  1210:{
+    question_tag: "L1LITLP70Q2",
+   code: "1210",
+   title: "Lit Q32",
+   learner_question: "Which word has a LONG \'o\' sound? \\r\\n1. lost \\r\\n2. Bong \\r\\n3. old",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) \'Old\' has a long \'o\' sound.",
+    incorrectAnswerResponse: "Incorrect. \'Old\' has a long \'o\' sound.",
+    set: 16
+    },
+
+  1211:{
+    question_tag: "L1LITLP71QG",
+   code: "1211",
+   title: "Lit Class Q17",
+   learner_question: "\\r\\n1. new \\r\\n2. but \\r\\n3. running",
+    question: "Which word has a LONG \'u\' sound?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \"New\" has a LONG \'u\' sound. The letters \'ew\' make the long \'u\' sound.",
+    incorrectAnswerResponse: "Incorrect. \"New\" has a LONG \'u\' sound. The letters \'ew\' make the long \'u\' sound.",
+    set: 17
+    },
+
+  1212:{
+    question_tag: "L1LITLP71Q1",
+   code: "1212",
+   title: "Lit Q33",
+   learner_question: "Which word has a LONG \'u\' sound? \\r\\n1. cute \\r\\n2. rubber \\r\\n3. sun",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Cute has a long \'u\' sound. Silent \'e\' makes the letter \'u\' long.",
+    incorrectAnswerResponse: "Incorrect. Cute has a long \'u\' sound. Silent \'e\' makes the letter \'u\' long.",
+    set: 17
+    },
+
+  1213:{
+    question_tag: "L1LITLP71Q2",
+   code: "1213",
+   title: "Lit Q34",
+   learner_question: "Sara ____ home. \\r\\n1. walk \\r\\n2. walks \\r\\n3. walking",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Sara walks home.",
+    incorrectAnswerResponse: "Incorrect. Sara walks home.",
+    set: 17
+    },
+
+  1214:{
+    question_tag: "L1LITLP72QG",
+   code: "1214",
+   title: "Lit Class Q18",
+   learner_question: "I ____ my food. \\r\\n1. chute \\r\\n2. chew \\r\\n3. cheat",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I chew my food.",
+    incorrectAnswerResponse: "Incorrect. I chew my food.",
+    set: 18
+    },
+
+  1215:{
+    question_tag: "L1LITLP72Q1",
+   code: "1215",
+   title: "Lit Q35",
+   learner_question: "The sky is ___. \\r\\n1. beer \\r\\n2. brew \\r\\n3. blue",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The sky blue.",
+    incorrectAnswerResponse: "Incorrect. The sky blue.",
+    set: 18
+    },
+
+  1216:{
+    question_tag: "L1LITLP72Q2",
+   code: "1216",
+   title: "Lit Q36",
+   learner_question: "Which word has a LONG \'o\' sound? \\r\\n1. summer \\r\\n2. fruit \\r\\n3. under",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Fruit has the LONG \'u\' sound. The letters \'ui\' make the long \'u\' sound.",
+    incorrectAnswerResponse: "Incorrect. Fruit has the LONG \'u\' sound. The letters \'ui\' make the long \'u\' sound.",
+    set: 18
+    },
+
+  1217:{
+    question_tag: "L1LITLP73QG",
+   code: "1217",
+   title: "Lit Class Q19",
+   learner_question: "Children ____ go to school. \\r\\n1. stops \\r\\n2. help \\r\\n3. should",
+    question: "Choose the answer that completes the sentence. Children ___ go to school.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Children should go to school.",
+    incorrectAnswerResponse: "Incorrect. Children should go to school.",
+    set: 19
+    },
+
+  1218:{
+    question_tag: "L1LITLP73Q1",
+   code: "1218",
+   title: "Lit Q37",
+   learner_question: "I will go ___. \\r\\n1. too \\r\\n2. need \\r\\n3. should",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I will go too.",
+    incorrectAnswerResponse: "Incorrect. I will go too.",
+    set: 19
+    },
+
+  1219:{
+    question_tag: "L1LITLP73Q2",
+   code: "1219",
+   title: "Lit Q38",
+   learner_question: "She ____ singing. \\r\\n1. stop \\r\\n2. stops \\r\\n3. should",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) She stops singing.",
+    incorrectAnswerResponse: "Incorrect. She stops singing.",
+    set: 19
+    },
+
+  1220:{
+    question_tag: "L1LITLP74QG",
+   code: "1220",
+   title: "Lit Class Q20",
+   learner_question: "\\r\\n1. C \\r\\n2. U \\r\\n3. J",
+    question: "Which letter is a vowel? Enter the number of the correct answer. Which letter is a vowel?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) U is a vowel. The vowels are A, E, I, O, U and sometimes Y.",
+    incorrectAnswerResponse: "Incorrect. U is a vowel. The vowels are A, E, I, O, U and sometimes Y.",
+    set: 20
+    },
+
+  1221:{
+    question_tag: "L1LITLP74Q1",
+   code: "1221",
+   title: "Lit Q39",
+   learner_question: "Which word has a LONG \'a\' sound? \\r\\n1. man \\r\\n2. maid \\r\\n3. mean",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) \'Maid\' has a long \'a\' sound. Letters \'ai\' often make a long \'a\' sound.",
+    incorrectAnswerResponse: "Incorrect. \'Maid\' has a long \'a\' sound. Letters \'ai\' often make a long \'a\' sound.",
+    set: 20
+    },
+
+  1222:{
+    question_tag: "L1LITLP74Q2",
+   code: "1222",
+   title: "Lit Q40",
+   learner_question: "Which word has a LONG \'o\' sound? \\r\\n1. Monday \\r\\n2. mob \\r\\n3. moan",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Moan has a long \'o\' sound. Letters \'oa\' make the long \'o\' sound.",
+    incorrectAnswerResponse: "Incorrect. Moan has a long \'o\' sound. Letters \'oa\' make the long \'o\' sound.",
+    set: 20
+    },
+
+  1223:{
+    question_tag: "L1LITLP75QG",
+   code: "1223",
+   title: "Lit Class Q21",
+   learner_question: "\\r\\n1. Who are you? \\r\\n2. I love you! \\r\\n3. \"I like blue.\"",
+    question: "Which sentence uses quotation marks? Enter the number of the sentence with quotation marks.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Quotation marks \"\" show what people say. \"I like blue.\"",
+    incorrectAnswerResponse: "Incorrect. Quotation marks \"\" show what people say. \"I like blue.\"",
+    set: 21
+    },
+
+  1224:{
+    question_tag: "L1LITLP75Q1",
+   code: "1224",
+   title: "Lit Q41",
+   learner_question: "Which word has a LONG \'u\' sound? \\r\\n1. knew \\r\\n2. running \\r\\n3. rusted",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'Knew\' has a long \'u\' sound. Letters \'ew\' make the long \'u\' sound.",
+    incorrectAnswerResponse: "Incorrect. \'Knew\' has a long \'u\' sound. Letters \'ew\' make the long \'u\' sound.",
+    set: 21
+    },
+
+  1225:{
+    question_tag: "L1LITLP75Q2",
+   code: "1225",
+   title: "Lit Q42",
+   learner_question: "Which word has a long \'I\' sound? \\r\\n1. why \\r\\n2. bigger \\r\\n3. pain",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'Why\' has a long \'I\' sound. Letter \'Y\' often makes a long \'I\' sound at the end of a word.",
+    incorrectAnswerResponse: "Incorrect. \'Why\' has a long \'I\' sound. Letter \'Y\' often makes a long \'I\' sound at the end of a word.",
+    set: 21
+    },
+
+  1226:{
+    question_tag: "L1LITLP76QG",
+   code: "1226",
+   title: "Lit Class Q22",
+   learner_question: "\\r\\n1. cistern \\r\\n2. shouldn\'t \\r\\n3. children",
+    question: "I will say a word. Choose the number of the word I say. Listen. Children. Children. Which word is children?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) children.",
+    incorrectAnswerResponse: "Incorrect. children.",
+    set: 22
+    },
+
+  1227:{
+    question_tag: "L1LITLP76Q1",
+   code: "1227",
+   title: "Lit Q43",
+   learner_question: "The ___ goes to school. \\r\\n1. chicken \\r\\n2. child \\r\\n3. coats",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The child goes to school.",
+    incorrectAnswerResponse: "Incorrect. The child goes to school.",
+    set: 22
+    },
+
+  1228:{
+    question_tag: "L1LITLP76Q2",
+   code: "1228",
+   title: "Lit Q44",
+   learner_question: "I live in a ____. \\r\\n1. along \\r\\n2. village \\r\\n3. church",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I live in a village.",
+    incorrectAnswerResponse: "Incorrect. I live in a village.",
+    set: 22
+    },
+
+  1229:{
+    question_tag: "L1LITLP77QG",
+   code: "1229",
+   title: "Lit Class Q23",
+   learner_question: "\\r\\n1. teacher \\r\\n2. teasing \\r\\n3. testing",
+    question: "I will say a word. Choose the number of the word I say. Listen. Teacher. Teacher. Which word is teacher?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) teacher",
+    incorrectAnswerResponse: "Incorrect. teacher",
+    set: 23
+    },
+
+  1230:{
+    question_tag: "L1LITLP77Q1",
+   code: "1230",
+   title: "Lit Q45",
+   learner_question: "____ men have a lot of money. \\r\\n1. Books \\r\\n2. Rich \\r\\n3. Wrist",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Rich men have a lot of money.",
+    incorrectAnswerResponse: "Incorrect. Rich men have a lot of money.",
+    set: 23
+    },
+
+  1231:{
+    question_tag: "L1LITLP77Q2",
+   code: "1231",
+   title: "Lit Q46",
+   learner_question: "I want to eat____. \\r\\n1. lunch \\r\\n2. luck \\r\\n3. lumps",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I want to eat lunch.",
+    incorrectAnswerResponse: "Incorrect. I want to eat lunch.",
+    set: 23
+    },
+
+  1232:{
+    question_tag: "L1LITLP78QG",
+   code: "1232",
+   title: "Lit Class Q24",
+   learner_question: "\\r\\n1. found \\r\\n2. phone \\r\\n3. photo",
+    question: "I will say a word. Choose the number of the word I say. Listen. Photo. Photo. Which word is photo?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Photo",
+    incorrectAnswerResponse: "Incorrect. Photo",
+    set: 24
+    },
+
+  1233:{
+    question_tag: "L1LITLP78Q1",
+   code: "1233",
+   title: "Lit Q47",
+   learner_question: "She calls his ___. \\r\\n1. lunch \\r\\n2. phone \\r\\n3. folder",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) She calls his phone.",
+    incorrectAnswerResponse: "Incorrect. She calls his phone.",
+    set: 24
+    },
+
+  1234:{
+    question_tag: "L1LITLP78Q2",
+   code: "1234",
+   title: "Lit Q48",
+   learner_question: "The cat will ____ a bird. \\r\\n1. village \\r\\n2. needs \\r\\n3. catch",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The cat will catch a bird.",
+    incorrectAnswerResponse: "Incorrect. The cat will catch a bird.",
+    set: 24
+    },
+
+  1235:{
+    question_tag: "L1LITLP79QG",
+   code: "1235",
+   title: "Lit Class Q25",
+   learner_question: "\\r\\n1. orphan \\r\\n2. only \\r\\n3. offering",
+    question: "I will say a word. Choose the number of the word I say. Listen. Orphan. Orphan. Which word is Orphan?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Orphan",
+    incorrectAnswerResponse: "Incorrect. Orphan",
+    set: 25
+    },
+
+  1236:{
+    question_tag: "L1LITLP79Q1",
+   code: "1236",
+   title: "Lit Q49",
+   learner_question: "The ____ has 26 letters. \\r\\n1. pharmacy \\r\\n2. alphabet \\r\\n3. elephant",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The alphabet has 26 letters.",
+    incorrectAnswerResponse: "Incorrect. The alphabet has 26 letters.",
+    set: 25
+    },
+
+  1237:{
+    question_tag: "L1LITLP79Q2",
+   code: "1237",
+   title: "Lit Q50",
+   learner_question: "We take a ___ of the class. \\r\\n1. photo \\r\\n2. phone \\r\\n3. film",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) We take a photo of the class.",
+    incorrectAnswerResponse: "Incorrect. We take a photo of the class.",
+    set: 25
+    },
+
+  1238:{
+    question_tag: "L1LITLP80QG",
+   code: "1238",
+   title: "Lit Class Q26",
+   learner_question: "\\r\\n1. orphan \\r\\n2. shadow \\r\\n3. solo",
+    question: "I will say a word. Choose the number of the word I say. Listen. Shadow. Shadow. Which word is Shadow?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Shadow",
+    incorrectAnswerResponse: "Incorrect. Shadow",
+    set: 26
+    },
+
+  1239:{
+    question_tag: "L1LITLP80Q1",
+   code: "1239",
+   title: "Lit Q51",
+   learner_question: "The ____ sells food. \\r\\n1. shop \\r\\n2. chop \\r\\n3. ship",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The shop sells food.",
+    incorrectAnswerResponse: "Incorrect. The shop sells food.",
+    set: 26
+    },
+
+  1240:{
+    question_tag: "L1LITLP80Q2",
+   code: "1240",
+   title: "Lit Q52",
+   learner_question: "The ___ is by the water. \\r\\n1. shut \\r\\n2. should \\r\\n3. shore",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The shore is by the water.",
+    incorrectAnswerResponse: "Incorrect. The shore is by the water.",
+    set: 26
+    },
+
+  1241:{
+    question_tag: "L1LITLP81QG",
+   code: "1241",
+   title: "Lit Class Q27",
+   learner_question: "\\r\\n1. Punching \\r\\n2. Pushing \\r\\n3. Pasting",
+    question: "I will say a word. Choose the number of the word I say. Listen. Pushing. Pushing. Which word is Pushing?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Pushing",
+    incorrectAnswerResponse: "Incorrect. Pushing",
+    set: 27
+    },
+
+  1242:{
+    question_tag: "L1LITLP81Q1",
+   code: "1242",
+   title: "Lit Q53",
+   learner_question: "She pays with ___. \\r\\n1. cats \\r\\n2. catch \\r\\n3. cash",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) She pays with cash.",
+    incorrectAnswerResponse: "Incorrect. She pays with cash.",
+    set: 27
+    },
+
+  1243:{
+    question_tag: "L1LITLP81Q2",
+   code: "1243",
+   title: "Lit Q54",
+   learner_question: "She ____ her hair. \\r\\n1. fishes \\r\\n2. washes \\r\\n3. pushes",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) She washes her hair.",
+    incorrectAnswerResponse: "Incorrect. She washes her hair.",
+    set: 27
+    },
+
+  1244:{
+    question_tag: "L1LITLP82QG",
+   code: "1244",
+   title: "Lit Class Q28",
+   learner_question: "\\r\\n1. eliminate \\r\\n2. elf \\r\\n3. elephant",
+    question: "I will say a word. Choose the number of the word I say. Listen. Elephant. Elephant. Which word is Elephant?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) elephant",
+    incorrectAnswerResponse: "Incorrect. elephant",
+    set: 28
+    },
+
+  1245:{
+    question_tag: "L1LITLP82Q1",
+   code: "1245",
+   title: "Lit Q55",
+   learner_question: "I wake in the ___. \\r\\n1. photograph \\r\\n2. morning \\r\\n3. punches",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I wake in the morning.",
+    incorrectAnswerResponse: "Incorrect. I wake in the morning.",
+    set: 28
+    },
+
+  1246:{
+    question_tag: "L1LITLP82Q2",
+   code: "1246",
+   title: "Lit Q56",
+   learner_question: "I call her on my ___. \\r\\n1. women \\r\\n2. phone \\r\\n3. cushion",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I call her on my phone.",
+    incorrectAnswerResponse: "Incorrect. I call her on my phone.",
+    set: 28
+    },
+
+  1247:{
+    question_tag: "L1LITLP83QG",
+   code: "1247",
+   title: "Lit Class Q29",
+   learner_question: "\\r\\n1. chair \\r\\n2. share \\r\\n3. fair",
+    question: "I will say a word. Choose the number of the word I say. Listen. Chair. Chair. Which word is Chair?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) chair",
+    incorrectAnswerResponse: "Incorrect. chair",
+    set: 29
+    },
+
+  1248:{
+    question_tag: "L1LITLP83Q1",
+   code: "1248",
+   title: "Lit Q57",
+   learner_question: "___ you give me the pen? \\r\\n1. Could \\r\\n2. Along \\r\\n3. Photograph",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Could you give me the pen?",
+    incorrectAnswerResponse: "Incorrect. Could you give me the pen?",
+    set: 29
+    },
+
+  1249:{
+    question_tag: "L1LITLP83Q2",
+   code: "1249",
+   title: "Lit Q58",
+   learner_question: "We must ____ our food. \\r\\n1. shew \\r\\n2. chew \\r\\n3. sew",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) We must chew our food.",
+    incorrectAnswerResponse: "Incorrect. We must chew our food.",
+    set: 29
+    },
+
+  1250:{
+    question_tag: "L1LITLP84QG",
+   code: "1250",
+   title: "Lit Class Q30",
+   learner_question: "\\r\\n1. sinking \\r\\n2. shrinking \\r\\n3. thinking",
+    question: "I will say a word. Choose the number of the word I say. Listen. Thinking. Thinking. Which word is Thinking?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) thinking",
+    incorrectAnswerResponse: "Incorrect. thinking",
+    set: 30
+    },
+
+  1251:{
+    question_tag: "L1LITLP84Q1",
+   code: "1251",
+   title: "Lit Q59",
+   learner_question: "It is ___ dog. \\r\\n1. thirty \\r\\n2. their \\r\\n3. thing",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) It is their dog.",
+    incorrectAnswerResponse: "Incorrect. It is their dog.",
+    set: 30
+    },
+
+  1252:{
+    question_tag: "L1LITLP84Q2",
+   code: "1252",
+   title: "Lit Q60",
+   learner_question: "I do not know ____. \\r\\n1. think \\r\\n2. them \\r\\n3. thin",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I do not know them.",
+    incorrectAnswerResponse: "Incorrect. I do not know them.",
+    set: 30
+    },
+
+  1253:{
+    question_tag: "L1LITLP85QG",
+   code: "1253",
+   title: "Lit Class Q31",
+   learner_question: "\\r\\n1. Nothing \\r\\n2. Notting \\r\\n3. Nodding",
+    question: "I will say a word. Choose the number of the word I say. Listen. Nothing. Nothing. Which word is Nothing?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Nothing",
+    incorrectAnswerResponse: "Incorrect. Nothing",
+    set: 31
+    },
+
+  1254:{
+    question_tag: "L1LITLP85Q1",
+   code: "1254",
+   title: "Lit Q61",
+   learner_question: "The ___ is good today. \\r\\n1. without \\r\\n2. anything \\r\\n3. weather",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The weather is good today.",
+    incorrectAnswerResponse: "Incorrect. The weather is good today.",
+    set: 31
+    },
+
+  1255:{
+    question_tag: "L1LITLP85Q2",
+   code: "1255",
+   title: "Lit Q62",
+   learner_question: "He is my ____. \\r\\n1. mother \\r\\n2. brother \\r\\n3. author",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) He is my brother.",
+    incorrectAnswerResponse: "Incorrect. He is my brother.",
+    set: 31
+    },
+
+  1256:{
+    question_tag: "L1LITLP86QG",
+   code: "1256",
+   title: "Lit Class Q32",
+   learner_question: "\\r\\n1. Which \\r\\n2. Wish \\r\\n3. Witch",
+    question: "I will say a word. Choose the number of the word I say. Listen. Wish. Wish. Which word is Wish?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Wish",
+    incorrectAnswerResponse: "Incorrect. Wish",
+    set: 32
+    },
+
+  1257:{
+    question_tag: "L1LITLP86Q1",
+   code: "1257",
+   title: "Lit Q63",
+   learner_question: "___ will you eat? \\r\\n1. When \\r\\n2. While \\r\\n3. Wheel",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) When will you eat?",
+    incorrectAnswerResponse: "Incorrect. When will you eat?",
+    set: 32
+    },
+
+  1258:{
+    question_tag: "L1LITLP86Q2",
+   code: "1258",
+   title: "Lit Q64",
+   learner_question: "The car needs a new ____. \\r\\n1. which \\r\\n2. wheel \\r\\n3. where",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The car needs a new wheel.",
+    incorrectAnswerResponse: "Incorrect. The car needs a new wheel.",
+    set: 32
+    },
+
+  1259:{
+    question_tag: "L1LITLP87QG",
+   code: "1259",
+   title: "Lit Class Q33",
+   learner_question: "\\r\\n1. Meanwhile \\r\\n2. Meaning \\r\\n3. Whenever",
+    question: "I will say a word. Choose the number of the word I say. Listen. Meanwhile. Meanwhile. Which word is Meanwhile?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Meanwhile",
+    incorrectAnswerResponse: "Incorrect. Meanwhile",
+    set: 33
+    },
+
+  1260:{
+    question_tag: "L1LITLP87Q1",
+   code: "1260",
+   title: "Lit Q65",
+   learner_question: "I have a ____. \\r\\n1. whenever \\r\\n2. anywhere \\r\\n3. question",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I have a question.",
+    incorrectAnswerResponse: "Incorrect. I have a question.",
+    set: 33
+    },
+
+  1261:{
+    question_tag: "L1LITLP87Q2",
+   code: "1261",
+   title: "Lit Q66",
+   learner_question: "___ is she? \\r\\n1. Who \\r\\n2. When \\r\\n3. Meanwhile",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Who is she?",
+    incorrectAnswerResponse: "Incorrect. Who is she?",
+    set: 33
+    },
+
+  1262:{
+    question_tag: "L1LITLP88QG",
+   code: "1262",
+   title: "Lit Class Q34",
+   learner_question: "\\r\\n1. Meanwhile \\r\\n2. Weather \\r\\n3. Without",
+    question: "I will say a word. Choose the number of the word I say. Listen. Without. Without. Which word is Without?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Without",
+    incorrectAnswerResponse: "Incorrect. Without",
+    set: 34
+    },
+
+  1263:{
+    question_tag: "L1LITLP88Q1",
+   code: "1263",
+   title: "Lit Q67",
+   learner_question: "Can we work ____? \\r\\n1. whenever \\r\\n2. together \\r\\n3. each",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Can we work together?",
+    incorrectAnswerResponse: "Incorrect. Can we work together?",
+    set: 34
+    },
+
+  1264:{
+    question_tag: "L1LITLP88Q2",
+   code: "1264",
+   title: "Lit Q68",
+   learner_question: "Could you help me ____? \\r\\n1. anywhere \\r\\n2. please \\r\\n3. graph",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Can you help me, please?",
+    incorrectAnswerResponse: "Incorrect. Can you help me, please?",
+    set: 34
+    },
+
+  1265:{
+    question_tag: "L1LITLP89QG",
+   code: "1265",
+   title: "Lit Class Q35",
+   learner_question: "\\r\\n1. Graph \\r\\n2. Crash \\r\\n3. Giraffe",
+    question: "I will say a word. Choose the number of the word I say. Listen. Graph. Graph. Which word is Graph?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Graph",
+    incorrectAnswerResponse: "Incorrect. Graph",
+    set: 35
+    },
+
+  1266:{
+    question_tag: "L1LITLP89Q1",
+   code: "1266",
+   title: "Lit Q69",
+   learner_question: "I will go ___ for food. \\r\\n1. chopping \\r\\n2. shopping \\r\\n3. washing",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I will go shopping for food.",
+    incorrectAnswerResponse: "Incorrect. I will go shopping for food.",
+    set: 35
+    },
+
+  1267:{
+    question_tag: "L1LITLP89Q2",
+   code: "1267",
+   title: "Lit Q70",
+   learner_question: "We talked on the ____. \\r\\n1. bathtub \\r\\n2. photograph \\r\\n3. telephone",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) We talked on the telephone.",
+    incorrectAnswerResponse: "Incorrect. We talked on the telephone.",
+    set: 35
+    },
+
+  1268:{
+    question_tag: "L1LITLP90QG",
+   code: "1268",
+   title: "Lit Class Q36",
+   learner_question: "\\r\\n1. Thinking \\r\\n2. Trashing \\r\\n3. Thrashing",
+    question: "I will say a word. Choose the number of the word I say. Thrashing. Thrashing. Thrashing. Which word is Thrashing?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Thrashing",
+    incorrectAnswerResponse: "Incorrect. Thrashing",
+    set: 36
+    },
+
+  1269:{
+    question_tag: "L1LITLP90Q1",
+   code: "1269",
+   title: "Lit Q71",
+   learner_question: "___ child is hungry? \\r\\n1. Which \\r\\n2. Where \\r\\n3. Why",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Which child is hungry?",
+    incorrectAnswerResponse: "Incorrect. Which child is hungry?",
+    set: 36
+    },
+
+  1270:{
+    question_tag: "L1LITLP90Q2",
+   code: "1270",
+   title: "Lit Q72",
+   learner_question: "I don\'t know ____. \\r\\n1. weather \\r\\n2. anything \\r\\n3. meanwhile",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I don\'t know anything.",
+    incorrectAnswerResponse: "Incorrect. I don\'t know anything.",
+    set: 36
+    },
+
+  1271:{
+    question_tag: "L1LITLP91QG",
+   code: "1271",
+   title: "Lit Class Q37",
+   learner_question: "It is ___ pencil. \\r\\n1. Saras \\r\\n2. Saras\' \\r\\n3. Sara\'s",
+    question: "Which word completes the sentence correctly? Enter the number of the correct word.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) It is Sara\'s pen. Apostrophe + s (\'s) shows who owns something.",
+    incorrectAnswerResponse: "Incorrect. It is Sara\'s pen. Apostrophe + s (\'s) shows who owns something.",
+    set: 37
+    },
+
+  1272:{
+    question_tag: "L1LITLP91Q1",
+   code: "1272",
+   title: "Lit Q73",
+   learner_question: "It is ____ bag. \\r\\n1. Dan\'s \\r\\n2. Dans \\r\\n3. Dans\'",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) It is Dan\'s bag. Apostrophe + s (\'s) shows who owns something.",
+    incorrectAnswerResponse: "Incorrect. It is Dan\'s bag. Apostrophe + s (\'s) shows who owns something.",
+    set: 37
+    },
+
+  1273:{
+    question_tag: "L1LITLP91Q2",
+   code: "1273",
+   title: "Lit Q74",
+   learner_question: "I put ____ on the paper. \\r\\n1. glue \\r\\n2. game \\r\\n3. glad",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I put glue on the paper.",
+    incorrectAnswerResponse: "Incorrect. I put glue on the paper.",
+    set: 37
+    },
+
+  1274:{
+    question_tag: "L1LITLP92QG",
+   code: "1274",
+   title: "Lit Class Q38",
+   learner_question: "\\r\\n1. Bend \\r\\n2. Blend \\r\\n3. Bread",
+    question: "I will say a word. Choose the number of the word I say. Bend. Bend. Bend. Which word is Bend?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Bend",
+    incorrectAnswerResponse: "Incorrect. Bend",
+    set: 38
+    },
+
+  1275:{
+    question_tag: "L1LITLP92Q1",
+   code: "1275",
+   title: "Lit Q75",
+   learner_question: "She is ___ mother. \\r\\n1. Sonies \\r\\n2. Sonie\'s \\r\\n3. Sonies\'",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) She is Sonie\'s mother. Apostrophe + s (\'s) shows who owns something.",
+    incorrectAnswerResponse: "Incorrect. She is Sonie\'s mother. Apostrophe + s (\'s) shows who owns something.",
+    set: 38
+    },
+
+  1276:{
+    question_tag: "L1LITLP92Q2",
+   code: "1276",
+   title: "Lit Q76",
+   learner_question: "We ___ for the teacher. \\r\\n1. blue \\r\\n2. clap \\r\\n3. flap",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) We clap for the teacher.",
+    incorrectAnswerResponse: "Incorrect. We clap for the teacher.",
+    set: 38
+    },
+
+  1277:{
+    question_tag: "L1LITLP93QG",
+   code: "1277",
+   title: "Lit Class Q39",
+   learner_question: "\\r\\n1. Bend \\r\\n2. Blend \\r\\n3. Bread",
+    question: "I will say a word. Choose the number of the word I say. Bread. Bread. Bread. Which word is Bread?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Bread",
+    incorrectAnswerResponse: "Incorrect. Bread",
+    set: 39
+    },
+
+  1278:{
+    question_tag: "L1LITLP93Q1",
+   code: "1278",
+   title: "Lit Q77",
+   learner_question: "She is ___ sister. \\r\\n1. Yatta\'s \\r\\n2. Yattas\' \\r\\n3. Yattas",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) She is Yatta\'s sister. Apostrophe + s (\'s) shows who owns something.",
+    incorrectAnswerResponse: "Incorrect. She is Yatta\'s sister. Apostrophe + s (\'s) shows who owns something.",
+    set: 39
+    },
+
+  1279:{
+    question_tag: "L1LITLP93Q2",
+   code: "1279",
+   title: "Lit Q78",
+   learner_question: "It is ____ hat. \\r\\n1. Flomo\'s \\r\\n2. Flomo \\r\\n3. Flomos\'",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) It is Flomo\'s hat.",
+    incorrectAnswerResponse: "Incorrect. It is Flomo\'s hat.",
+    set: 39
+    },
+
+  1280:{
+    question_tag: "L1LITLP94QG",
+   code: "1280",
+   title: "Lit Class Q40",
+   learner_question: "\\r\\n1. Mother \\r\\n2. Other \\r\\n3. Otter",
+    question: "I will say a word. Choose the number of the word I say. Other. Other. Other. Which word is Other?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Other",
+    incorrectAnswerResponse: "Incorrect. Other",
+    set: 40
+    },
+
+  1281:{
+    question_tag: "L1LITLP94Q1",
+   code: "1281",
+   title: "Lit Q79",
+   learner_question: "The boy is in ___. \\r\\n1. press \\r\\n2. trouble \\r\\n3. their",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The boy is in trouble.",
+    incorrectAnswerResponse: "Incorrect. The boy is in trouble.",
+    set: 40
+    },
+
+  1282:{
+    question_tag: "L1LITLP94Q2",
+   code: "1282",
+   title: "Lit Q80",
+   learner_question: "Please ___ me a banana. \\r\\n1. bring \\r\\n2. drink \\r\\n3. bing",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Please bring me a banana.",
+    incorrectAnswerResponse: "Incorrect. Please bring me a banana.",
+    set: 40
+    },
+
+  1283:{
+    question_tag: "L1LITLP95QG",
+   code: "1283",
+   title: "Lit Class Q41",
+   learner_question: "\\r\\n1. Where you live. \\r\\n2. What you like. \\r\\n3. Who you know.",
+    question: "Which might you include in your contact information? Enter the number of the best answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Contact information shows how to reach you. Where you live, your address, is contact information.",
+    incorrectAnswerResponse: "Incorrect. Contact information shows how to reach you. Where you live, your address, is contact information.",
+    set: 41
+    },
+
+  1284:{
+    question_tag: "L1LITLP95Q1",
+   code: "1284",
+   title: "Lit Q81",
+   learner_question: "We learn to read and write at ___. \\r\\n1. trouble \\r\\n2. other \\r\\n3. school",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) We learn to read and write at school.",
+    incorrectAnswerResponse: "Incorrect. We learn to read and write at school.",
+    set: 41
+    },
+
+  1285:{
+    question_tag: "L1LITLP95Q2",
+   code: "1285",
+   title: "Lit Q82",
+   learner_question: "I do not work for ___. \\r\\n1. free \\r\\n2. friend \\r\\n3. fritters",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I do not work for free.",
+    incorrectAnswerResponse: "Incorrect. I do not work for free.",
+    set: 41
+    },
+
+  1286:{
+    question_tag: "L1LITLP96QG",
+   code: "1286",
+   title: "Lit Class Q42",
+   learner_question: "\\r\\n1. Streets \\r\\n2. Stars \\r\\n3. Starts",
+    question: "I will say a word. Choose the number of the word I say. Starts. Starts. Starts. Which word is Starts?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Starts",
+    incorrectAnswerResponse: "Incorrect. Starts",
+    set: 42
+    },
+
+  1287:{
+    question_tag: "L1LITLP96Q1",
+   code: "1287",
+   title: "Lit Q83",
+   learner_question: "I ___ in the water. \\r\\n1. scare \\r\\n2. swim \\r\\n3. snap",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I swim in the water.",
+    incorrectAnswerResponse: "Incorrect. I swim in the water.",
+    set: 42
+    },
+
+  1288:{
+    question_tag: "L1LITLP96Q2",
+   code: "1288",
+   title: "Lit Q84",
+   learner_question: "She ___ to her mother. \\r\\n1. starts \\r\\n2. smarts \\r\\n3. speaks",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) She speaks to her mother.",
+    incorrectAnswerResponse: "Incorrect. She speaks to her mother.",
+    set: 42
+    },
+
+  1289:{
+    question_tag: "L1LITLP97QG",
+   code: "1289",
+   title: "Lit Class Q43",
+   learner_question: "\\r\\n1. Sleeping \\r\\n2. Sweeping \\r\\n3. Streaking",
+    question: "I will say a word. Choose the number of the word I say. Sweeping. Sweeping. Sweeping. Which word is Sweeping?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Sweeping",
+    incorrectAnswerResponse: "Incorrect. Sweeping",
+    set: 43
+    },
+
+  1290:{
+    question_tag: "L1LITLP97Q1",
+   code: "1290",
+   title: "Lit Q85",
+   learner_question: "I ___ too much when I shop. \\r\\n1. spend \\r\\n2. snow \\r\\n3. sweep",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I spend too much when I shop.",
+    incorrectAnswerResponse: "Incorrect. I spend too much when I shop.",
+    set: 43
+    },
+
+  1291:{
+    question_tag: "L1LITLP97Q2",
+   code: "1291",
+   title: "Lit Q86",
+   learner_question: "There is no ___ in the room. \\r\\n1. swim \\r\\n2. snare \\r\\n3. space",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) There is no space in the room.",
+    incorrectAnswerResponse: "Incorrect. There is no space in the room.",
+    set: 43
+    },
+
+  1292:{
+    question_tag: "L1LITLP98QG",
+   code: "1292",
+   title: "Lit Class Q44",
+   learner_question: "\\r\\n1. Finally \\r\\n2. Friday \\r\\n3. Friendly",
+    question: "I will say a word. Choose the number of the word I say. Friday. Friday. Which word is Friday?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Friday",
+    incorrectAnswerResponse: "Incorrect. Friday",
+    set: 44
+    },
+
+  1293:{
+    question_tag: "L1LITLP98Q1",
+   code: "1293",
+   title: "Lit Q87",
+   learner_question: "It is ___ book. \\r\\n1. Janes \\r\\n2. Janes\' \\r\\n3. Jane\'s",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) It is Jane\'s book.",
+    incorrectAnswerResponse: "Incorrect. It is Jane\'s book.",
+    set: 44
+    },
+
+  1294:{
+    question_tag: "L1LITLP98Q2",
+   code: "1294",
+   title: "Lit Q88",
+   learner_question: "I have no ___ for rent. \\r\\n1. village \\r\\n2. money \\r\\n3. brother",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I have no money for rent.",
+    incorrectAnswerResponse: "Incorrect. I have no money for rent.",
+    set: 44
+    },
+
+  1295:{
+    question_tag: "L1LITLP99QG",
+   code: "1295",
+   title: "Lit Class Q45",
+   learner_question: "\\r\\n1. Quickly \\r\\n2. Quitting \\r\\n3. Strictly",
+    question: "I will say a word. Choose the number of the word I say. Quickly. Quickly. Which word is Quickly?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Quickly",
+    incorrectAnswerResponse: "Incorrect. Quickly",
+    set: 45
+    },
+
+  1296:{
+    question_tag: "L1LITLP99Q1",
+   code: "1296",
+   title: "Lit Q89",
+   learner_question: "I will fix the tv\'s ___ . \\r\\n1. splint \\r\\n2. spring \\r\\n3. screen",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I will fix the tv\'s screen.",
+    incorrectAnswerResponse: "Incorrect. I will fix the tv\'s screen.",
+    set: 45
+    },
+
+  1297:{
+    question_tag: "L1LITLP99Q2",
+   code: "1297",
+   title: "Lit Q90",
+   learner_question: "The children ___ in the water. \\r\\n1. stride \\r\\n2. splash \\r\\n3. street",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The children splash in the water.",
+    incorrectAnswerResponse: "Incorrect. The children splash in the water.",
+    set: 45
+    },
+
+  1298:{
+    question_tag: "L1LITLP100QG",
+   code: "1298",
+   title: "Lit Class Q46",
+   learner_question: "\\r\\n1. a \\r\\n2. q \\r\\n3. u",
+    question: "What letter comes after \'q\' in most words? Enter the number of the letter that usually comes after \'q\'.",
+    answer: "",
+    correctAnswerResponse: "Correct! :) The letter \'u\' usually comes after letter \'q\'.",
+    incorrectAnswerResponse: "Incorrect. The letter \'u\' usually comes after letter \'q\'.",
+    set: 46
+    },
+
+  1299:{
+    question_tag: "L1LITLP100Q1",
+   code: "1299",
+   title: "Lit Q91",
+   learner_question: "The bad shop has no ___. \\r\\n1. customers \\r\\n2. earn \\r\\n3. screen",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The bad shop has no customers.",
+    incorrectAnswerResponse: "Incorrect. The bad shop has no customers.",
+    set: 46
+    },
+
+  1300:{
+    question_tag: "L1LITLP100Q2",
+   code: "1300",
+   title: "Lit Q92",
+   learner_question: "We had a __ day at the park. \\r\\n1. splendid \\r\\n2. splash \\r\\n3. scream",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) We had a splendid day at the park.",
+    incorrectAnswerResponse: "Incorrect. We had a splendid day at the park.",
+    set: 46
+    },
+
+  1301:{
+    question_tag: "L1LITLP101QG",
+   code: "1301",
+   title: "Lit Class Q47",
+   learner_question: "\\r\\n1. customers \\r\\n2. busy \\r\\n3. receipt",
+    question: "What might the shop keeper give us after we buy something? Enter the number of something a shop keeper might give us.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A receipt shows what was purchased.",
+    incorrectAnswerResponse: "Incorrect. A receipt shows what was purchased.",
+    set: 47
+    },
+
+  1302:{
+    question_tag: "L1LITLP101Q1",
+   code: "1302",
+   title: "Lit Q93",
+   learner_question: "I am too ___ to talk. \\r\\n1. two \\r\\n2. earn \\r\\n3. busy",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I am too busy to talk.",
+    incorrectAnswerResponse: "Incorrect. I am too busy to talk.",
+    set: 47
+    },
+
+  1303:{
+    question_tag: "L1LITLP101Q2",
+   code: "1303",
+   title: "Lit Q94",
+   learner_question: "The shopkeeper gave me a ____. \\r\\n1. receipt \\r\\n2. scream \\r\\n3. splashing",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The shopkeeper gave me a receipt.",
+    incorrectAnswerResponse: "Incorrect. The shopkeeper gave me a receipt.",
+    set: 47
+    },
+
+  1304:{
+    question_tag: "L1LITLP102QG",
+   code: "1304",
+   title: "Lit Class Q48",
+   learner_question: "\\r\\n1. Dwelling \\r\\n2. Swelling \\r\\n3. Welling",
+    question: "I will say a word. Choose the number of the word I say. Dwelling. Dwelling. Which word is Dwelling?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Dwelling",
+    incorrectAnswerResponse: "Incorrect. Dwelling",
+    set: 48
+    },
+
+  1305:{
+    question_tag: "L1LITLP102Q1",
+   code: "1305",
+   title: "Lit Q95",
+   learner_question: "I am not ___ . \\r\\n1. wait \\r\\n2. married \\r\\n3. until",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I am not married.",
+    incorrectAnswerResponse: "Incorrect. I am not married.",
+    set: 48
+    },
+
+  1306:{
+    question_tag: "L1LITLP102Q2",
+   code: "1306",
+   title: "Lit Q96",
+   learner_question: "The pen is ___ the two books. \\r\\n1. married \\r\\n2. between \\r\\n3. twenty",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The pen is between the books.",
+    incorrectAnswerResponse: "Incorrect. The pen is between the books.",
+    set: 48
+    },
+
+  1307:{
+    question_tag: "L1LITLP103QG",
+   code: "1307",
+   title: "Lit Class Q49",
+   learner_question: "\\r\\n1. Sift \\r\\n2. Swift \\r\\n3. Stiff",
+    question: "I will say a word. Choose the number of the word I say. Sift. Sift. Which word is Sift?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Sift",
+    incorrectAnswerResponse: "Incorrect. Sift",
+    set: 49
+    },
+
+  1308:{
+    question_tag: "L1LITLP103Q1",
+   code: "1308",
+   title: "Lit Q97",
+   learner_question: "I will eat ___ I am full. \\r\\n1. wait \\r\\n2. married \\r\\n3. until",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I will eat until I am full.",
+    incorrectAnswerResponse: "Incorrect. I will eat until I am full.",
+    set: 49
+    },
+
+  1309:{
+    question_tag: "L1LITLP103Q2",
+   code: "1309",
+   title: "Lit Q98",
+   learner_question: "Which word is \'20\'? \\r\\n1. two \\r\\n2. twenty \\r\\n3. twelve",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) twenty = 20",
+    incorrectAnswerResponse: "Incorrect. twenty = 20",
+    set: 49
+    },
+
+  1310:{
+    question_tag: "L1LITLP104QG",
+   code: "1310",
+   title: "Lit Class Q50",
+   learner_question: "\\r\\n1. Writing \\r\\n2. Paraffin \\r\\n3. Paragraph",
+    question: "Which word is paragraph? Paragraph. Enter the number of the word \'paragraph\'.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Paragraph.",
+    incorrectAnswerResponse: "Incorrect. Paragraph.",
+    set: 50
+    },
+
+  1311:{
+    question_tag: "L1LITLP104Q1",
+   code: "1311",
+   title: "Lit Q99",
+   learner_question: "Which word is 12? \\r\\n1. twelve \\r\\n2. twice \\r\\n3. twenty",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 12 = twelve",
+    incorrectAnswerResponse: "Incorrect. 12 = twelve",
+    set: 50
+    },
+
+  1312:{
+    question_tag: "L1LITLP104Q2",
+   code: "1312",
+   title: "Lit Q100",
+   learner_question: "I must ___ for a bus. \\r\\n1. between \\r\\n2. dwarf \\r\\n3. wait",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I must wait for a bus.",
+    incorrectAnswerResponse: "Incorrect. I must wait for a bus.",
+    set: 50
+    },
+
+  1313:{
+    question_tag: "L1LITLP105QG",
+   code: "1313",
+   title: "Lit Class Q51",
+   learner_question: "\\r\\n1. slept \\r\\n2. Swept \\r\\n3. subject",
+    question: "I will say a word. Choose the number of the word I say. Subject. Subject. Which word is Subject?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Subject",
+    incorrectAnswerResponse: "Incorrect. Subject",
+    set: 51
+    },
+
+  1314:{
+    question_tag: "L1LITLP105Q1",
+   code: "1314",
+   title: "Lit Q101",
+   learner_question: "A child is not an ___ . \\r\\n1. elect \\r\\n2. mask \\r\\n3. adult",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A child is not an adult.",
+    incorrectAnswerResponse: "Incorrect. A child is not an adult.",
+    set: 51
+    },
+
+  1315:{
+    question_tag: "L1LITLP105Q2",
+   code: "1315",
+   title: "Lit Q102",
+   learner_question: "A farmer grows ___. \\r\\n1. plants \\r\\n2. results \\r\\n3. subtract",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) A farmer grows plants.",
+    incorrectAnswerResponse: "Incorrect. A farmer grows plants.",
+    set: 51
+    },
+
+  1316:{
+    question_tag: "L1LITLP106QG",
+   code: "1316",
+   title: "Lit Class Q52",
+   learner_question: "\\r\\n1. submarine \\r\\n2. subject \\r\\n3. subtract",
+    question: "I will say a word. Choose the number of the word I say. Subtract. Subtract. Which word is Subtract?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Subtract",
+    incorrectAnswerResponse: "Incorrect. Subtract",
+    set: 52
+    },
+
+  1317:{
+    question_tag: "L1LITLP106Q1",
+   code: "1317",
+   title: "Lit Q103",
+   learner_question: "Put the book on my __. \\r\\n1. west \\r\\n2. desk \\r\\n3. facts",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Put the book on my desk.",
+    incorrectAnswerResponse: "Incorrect. Put the book on my desk.",
+    set: 52
+    },
+
+  1318:{
+    question_tag: "L1LITLP106Q2",
+   code: "1318",
+   title: "Lit Q104",
+   learner_question: "I have lived here ___ 200\\r\\n1. \\r\\n1. since \\r\\n2. much \\r\\n3. sand",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I have lived here since 2001.",
+    incorrectAnswerResponse: "Incorrect. I have lived here since 2001.",
+    set: 52
+    },
+
+  1319:{
+    question_tag: "L1LITLP107QG",
+   code: "1319",
+   title: "Lit Class Q53",
+   learner_question: "\\r\\n1. It is Tam\'s. \\r\\n2. Is it Tam? \\r\\n3. \"It is Tam.\"",
+    question: "Which sentence has an apostrophe? Enter the number of the sentence with an apostrophe.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) It is Tam\'s. \'s shows who owns something.",
+    incorrectAnswerResponse: "Incorrect. It is Tam\'s. \'s shows who owns something.",
+    set: 53
+    },
+
+  1320:{
+    question_tag: "L1LITLP107Q1",
+   code: "1320",
+   title: "Lit Q105",
+   learner_question: "Dan is ___ to Jane. \\r\\n1. married \\r\\n2. village \\r\\n3. customers",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Dan is married to Jane.",
+    incorrectAnswerResponse: "Incorrect. Dan is married to Jane.",
+    set: 53
+    },
+
+  1321:{
+    question_tag: "L1LITLP107Q2",
+   code: "1321",
+   title: "Lit Q106",
+   learner_question: "She ___ art at school. \\r\\n1. left \\r\\n2. splendid \\r\\n3. studied",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) She studied art at school.",
+    incorrectAnswerResponse: "Incorrect. She studied art at school.",
+    set: 53
+    },
+
+  1322:{
+    question_tag: "L1LITLP108QG",
+   code: "1322",
+   title: "Lit Class Q54",
+   learner_question: "\\r\\n1. Quilt \\r\\n2. Quit \\r\\n3. Quick",
+    question: "I will say a word. Choose the number of the word I say. Quilt. Quilt. Which word is Quilt?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Quilt",
+    incorrectAnswerResponse: "Incorrect. Quilt",
+    set: 54
+    },
+
+  1323:{
+    question_tag: "L1LITLP108Q1",
+   code: "1323",
+   title: "Lit Q107",
+   learner_question: "It is __ house. \\r\\n1. Saras \\r\\n2. Sara\'s \\r\\n3. Saras\'",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) It is Sara\'s house.",
+    incorrectAnswerResponse: "Incorrect. It is Sara\'s house.",
+    set: 54
+    },
+
+  1324:{
+    question_tag: "L1LITLP108Q2",
+   code: "1324",
+   title: "Lit Q108",
+   learner_question: "I saw the film __. \\r\\n1. twenty \\r\\n2. twelve \\r\\n3. twice",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I saw the film twice.",
+    incorrectAnswerResponse: "Incorrect. I saw the film twice.",
+    set: 54
+    },
+
+  3163:{
+    question_tag: "L2LITLP55QG",
+   code: "3163",
+   title: "Eng Class Q1",
+   learner_question: "\\r\\n1. Pain \\r\\n2. Pan \\r\\n3. Part",
+    question: "Which word has a long \'a\' sound? Enter the number of the word with a long \'a\' sound.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The letters \'ai\' make the long \'a\' sound in \'pain\'.",
+    incorrectAnswerResponse: "Incorrect. The letters \'ai\' make the long \'a\' sound in \'pain\'.",
+    set: 1
+    },
+
+  3164:{
+    question_tag: "L2LITLP55Q1",
+   code: "3164",
+   title: "Eng Q1",
+   learner_question: "Which word has a long \'a\' sound? \\r\\n1. pad \\r\\n2. panned \\r\\n3. pay",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The letters \'ay\' make the long \'a\' sound in \'pay\'.",
+    incorrectAnswerResponse: "Incorrect. The letters \'ay\' make the long \'a\' sound in \'pay\'.",
+    set: 1
+    },
+
+  3165:{
+    question_tag: "L2LITLP55Q2",
+   code: "3165",
+   title: "Eng Q2",
+   learner_question: "Tomorrow is the ___ \\r\\n1. vegetables \\r\\n2. past \\r\\n3. future",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Tomorrow is the future. The future has not happened yet.",
+    incorrectAnswerResponse: "Incorrect. Tomorrow is the future. The future has not happened yet.",
+    set: 1
+    },
+
+  3166:{
+    question_tag: "L2LITLP56QG",
+   code: "3166",
+   title: "Eng Class Q2",
+   learner_question: "\\r\\n1. Feeling \\r\\n2. Felt \\r\\n3. Fence",
+    question: "Which word has a long \'e\' sound? Enter the number of the word with a long \'e\' sound.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The letters \'ee\' make the long \'e\' sound in \'feeling\'.",
+    incorrectAnswerResponse: "Incorrect. The letters \'ee\' make the long \'e\' sound in \'feeling\'.",
+    set: 2
+    },
+
+  3167:{
+    question_tag: "L2LITLP56Q1",
+   code: "3167",
+   title: "Eng Q3",
+   learner_question: "A job is a ___. \\r\\n1. picture \\r\\n2. livelihood \\r\\n3. vision",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A livelihood is how a person makes money.",
+    incorrectAnswerResponse: "Incorrect. A livelihood is how a person makes money.",
+    set: 2
+    },
+
+  3168:{
+    question_tag: "L2LITLP56Q2",
+   code: "3168",
+   title: "Eng Q4",
+   learner_question: "Which word has a long \'e\' sound? \\r\\n1. sleep \\r\\n2. fame \\r\\n3. elephant",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The letters \'ee\' make the long \'e\' sound in \'sleep\'.",
+    incorrectAnswerResponse: "Incorrect. The letters \'ee\' make the long \'e\' sound in \'sleep\'.",
+    set: 2
+    },
+
+  3169:{
+    question_tag: "L2LITLP57QG",
+   code: "3169",
+   title: "Eng Class Q3",
+   learner_question: "\\r\\n1. Sleeping a lot \\r\\n2. Speaking French \\r\\n3. Watching TV",
+    question: "Which is a skill? Enter the number of the answer that is a skill.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A skill is something you are good at that can help you.",
+    incorrectAnswerResponse: "Incorrect. A skill is something you are good at that can help you.",
+    set: 3
+    },
+
+  3170:{
+    question_tag: "L2LITLP57Q1",
+   code: "3170",
+   title: "Eng Q5",
+   learner_question: "Which is a good life goal? \\r\\n1. Leaving school \\r\\n2. Meeting with friends \\r\\n3. Getting a job",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A goal is something good we want to make happen.",
+    incorrectAnswerResponse: "Incorrect. A goal is something good we want to make happen.",
+    set: 3
+    },
+
+  3171:{
+    question_tag: "L2LITLP57Q2",
+   code: "3171",
+   title: "Eng Q6",
+   learner_question: "Which word has a long \'e\' sound? \\r\\n1. bare \\r\\n2. hear \\r\\n3. better",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The letters \'ea\' in make the long \'e\' sound in \'hear\'.",
+    incorrectAnswerResponse: "Incorrect. The letters \'ea\' in make the long \'e\' sound in \'hear\'.",
+    set: 3
+    },
+
+  3172:{
+    question_tag: "L2LITLP58QG",
+   code: "3172",
+   title: "Eng Class Q4",
+   learner_question: "\\r\\n1. Rise \\r\\n2. Race \\r\\n3. Rice",
+    question: "I will say a word. Enter the number of the word I say. Listen: Rice. Rice. Which word is Rice?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Rice",
+    incorrectAnswerResponse: "Incorrect. Rice",
+    set: 4
+    },
+
+  3173:{
+    question_tag: "L2LITLP58Q1",
+   code: "3173",
+   title: "Eng Q7",
+   learner_question: "The ___ man has a lot of money. \\r\\n1. rich \\r\\n2. reach \\r\\n3. rock",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The man has a lot of money.",
+    incorrectAnswerResponse: "Incorrect. The man has a lot of money.",
+    set: 4
+    },
+
+  3174:{
+    question_tag: "L2LITLP58Q2",
+   code: "3174",
+   title: "Eng Q8",
+   learner_question: "I will marry in the ___. \\r\\n1. greet \\r\\n2. vision \\r\\n3. future",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I will marry in the future.",
+    incorrectAnswerResponse: "Incorrect. I will marry in the future.",
+    set: 4
+    },
+
+  3175:{
+    question_tag: "L2LITLP59QG",
+   code: "3175",
+   title: "Eng Class Q5",
+   learner_question: "Which rhymes? \\r\\n1. boat \\r\\n2. not \\r\\n3. vans",
+    question: "Which word rhymes with vote? Words that rhyme have the same end sound. Which word rhymes with vote? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Vote and boat have the same end sound.",
+    incorrectAnswerResponse: "Incorrect. Vote and boat have the same end sound.",
+    set: 5
+    },
+
+  3176:{
+    question_tag: "L2LITLP59Q1",
+   code: "3176",
+   title: "Eng Q9",
+   learner_question: "Which rhymes with \'no\'? \\r\\n1. to \\r\\n2. go \\r\\n3. two",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) No and go have the same end sound- Long \'o\'.",
+    incorrectAnswerResponse: "Incorrect. No and go have the same end sound- Long \'o\'.",
+    set: 5
+    },
+
+  3177:{
+    question_tag: "L2LITLP59Q2",
+   code: "3177",
+   title: "Eng Q10",
+   learner_question: "Which rhymes with \'pie\'? \\r\\n1. my \\r\\n2. pig \\r\\n3. free",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Pie and my have the same end sound- Long \'I\'.",
+    incorrectAnswerResponse: "Incorrect. Pie and my have the same end sound- Long \'I\'.",
+    set: 5
+    },
+
+  3178:{
+    question_tag: "L2LITLP60QG",
+   code: "3178",
+   title: "Eng Class Q6",
+   learner_question: "\\r\\n1. Want, will, were, was, what \\r\\n2. were, well, wrong, wait, when \\r\\n3. who, what, where, when, why",
+    question: "Which are the 5 \'W\' words? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The 5 W questions are question words- who, what, when, where, why.",
+    incorrectAnswerResponse: "Incorrect. The 5 W questions are question words- who, what, when, where, why.",
+    set: 6
+    },
+
+  3179:{
+    question_tag: "L2LITLP60Q1",
+   code: "3179",
+   title: "Eng Q11",
+   learner_question: "Which word rhymes with \'cute\'? \\r\\n1. cut \\r\\n2. note \\r\\n3. fruit",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Fruit and Cute have the same end sound- Long \'u\'.",
+    incorrectAnswerResponse: "Incorrect. Fruit and Cute have the same end sound- Long \'u\'.",
+    set: 6
+    },
+
+  3180:{
+    question_tag: "L2LITLP60Q2",
+   code: "3180",
+   title: "Eng Q12",
+   learner_question: "She must pay her ___. \\r\\n1. record \\r\\n2. fuel \\r\\n3. expenses",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Expenses are costs. She must pay her expenses.",
+    incorrectAnswerResponse: "Incorrect. Expenses are costs. She must pay her expenses.",
+    set: 6
+    },
+
+  3181:{
+    question_tag: "L2LITLP61QG",
+   code: "3181",
+   title: "Eng Class Q7",
+   learner_question: "\\r\\n1. I will go to school. \\r\\n2. I went to school. \\r\\n3. I am at school.",
+    question: "Which sentence talks about the future? Enter the number of the sentence about the future.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \"Will\" shows that something will happen in the future. I will go to school in the future.",
+    incorrectAnswerResponse: "Incorrect. \"Will\" shows that something will happen in the future. I will go to school in the future.",
+    set: 7
+    },
+
+  3182:{
+    question_tag: "L2LITLP61Q1",
+   code: "3182",
+   title: "Eng Q13",
+   learner_question: "My __ lives near me. \\r\\n1. neighbor \\r\\n2. expand \\r\\n3. hire",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) My neighbor lives near me.",
+    incorrectAnswerResponse: "Incorrect. My neighbor lives near me.",
+    set: 7
+    },
+
+  3183:{
+    question_tag: "L2LITLP61Q2",
+   code: "3183",
+   title: "Eng Q14",
+   learner_question: "Which is a good life goal? \\r\\n1. Eat food \\r\\n2. sleep for 3 hours \\r\\n3. Finish school",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Finishing school is a good life goal.",
+    incorrectAnswerResponse: "Incorrect. Finishing school is a good life goal.",
+    set: 7
+    },
+
+  3184:{
+    question_tag: "L2LITLP62QG",
+   code: "3184",
+   title: "Eng Class Q8",
+   learner_question: "\\r\\n1. I eat. \\r\\n2. Jane and the cat. \\r\\n3. We walk home.",
+    question: "Which is NOT a complete sentence? Enter the number of the sentence that is NOT complete.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) \'Jane and the cat.\' is not a complete sentence. There is no verb.",
+    incorrectAnswerResponse: "Incorrect. \'Jane and the cat.\' is not a complete sentence. There is no verb.",
+    set: 8
+    },
+
+  3185:{
+    question_tag: "L2LITLP62Q1",
+   code: "3185",
+   title: "Eng Q15",
+   learner_question: "Which is NOT a complete sentence? \\r\\n1. The three dogs. \\r\\n2. We sleep. \\r\\n3. Dan walks.",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'The three dogs.\' is not a complete sentence. There is no verb.",
+    incorrectAnswerResponse: "Incorrect. \'The three dogs.\' is not a complete sentence. There is no verb.",
+    set: 8
+    },
+
+  3186:{
+    question_tag: "L2LITLP62Q2",
+   code: "3186",
+   title: "Eng Q16",
+   learner_question: "Which word rhymes with \'pay\'? \\r\\n1. pad \\r\\n2. weigh \\r\\n3. happy",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Pay and Weigh have the same end sound- Long \'a\'.",
+    incorrectAnswerResponse: "Incorrect. Pay and Weigh have the same end sound- Long \'a\'.",
+    set: 8
+    },
+
+  3187:{
+    question_tag: "L2LITLP63QG",
+   code: "3187",
+   title: "Eng Class Q9",
+   learner_question: "\\r\\n1. Ran home. \\r\\n2. Jane dances. \\r\\n3. She eats.",
+    question: "Which is NOT a complete sentence? Enter the number of the sentence that is NOT complete.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'Ran home.\' is not a complete sentence. There is no subject- who runs home?",
+    incorrectAnswerResponse: "Incorrect. \'Ran home.\' is not a complete sentence. There is no subject- who runs home?",
+    set: 9
+    },
+
+  3188:{
+    question_tag: "L2LITLP63Q1",
+   code: "3188",
+   title: "Eng Q17",
+   learner_question: "Which word rhymes with \'gate\'? \\r\\n1. game \\r\\n2. weight \\r\\n3. gal",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Gate and weight have the same end sound- Long \'a\' + \'t\'.",
+    incorrectAnswerResponse: "Incorrect. Gate and weight have the same end sound- Long \'a\' + \'t\'.",
+    set: 9
+    },
+
+  3189:{
+    question_tag: "L2LITLP63Q2",
+   code: "3189",
+   title: "Eng Q18",
+   learner_question: "Which sentence is correct? \\r\\n1. She is the worse student. \\r\\n2. This is a best meal. \\r\\n3. He is the worst dancer.",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) He is the worst dancer is correct.",
+    incorrectAnswerResponse: "Incorrect. He is the worst dancer is correct.",
+    set: 9
+    },
+
+  3190:{
+    question_tag: "L2LITLP64QG",
+   code: "3190",
+   title: "Eng Class Q10",
+   learner_question: "\\r\\n1. To learn the alphabet. \\r\\n2. To prepare for a job \\r\\n3. To return to JSS.",
+    question: "Which is NOT a reason to go to Level 3? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Level 3 will not cover simple skills like addition or letter sounds.",
+    incorrectAnswerResponse: "Incorrect. Level 3 will not cover simple skills like addition or letter sounds.",
+    set: 10
+    },
+
+  3191:{
+    question_tag: "L2LITLP64Q1",
+   code: "3191",
+   title: "Eng Q19",
+   learner_question: "In ___ class we learn about the Earth. \\r\\n1. English \\r\\n2. Secondary \\r\\n3. Science",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Science includes the study of life and the Earth.",
+    incorrectAnswerResponse: "Incorrect. Science includes the study of life and the Earth.",
+    set: 10
+    },
+
+  3192:{
+    question_tag: "L2LITLP64Q2",
+   code: "3192",
+   title: "Eng Q20",
+   learner_question: "A ___ reason is a good reason. \\r\\n1. negative \\r\\n2. possible \\r\\n3. positive",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Positive reasons are good reasons.",
+    incorrectAnswerResponse: "Incorrect. Positive reasons are good reasons.",
+    set: 10
+    },
+
+  3193:{
+    question_tag: "L2LITLP65QG",
+   code: "3193",
+   title: "Eng Class Q11",
+   learner_question: "\\r\\n1. Feeling sleepy \\r\\n2. walking in the rain \\r\\n3. Not having a job",
+    question: "Which is a large challenge? Enter the number of the challenge.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Large challenges can keep us from having the life we want.",
+    incorrectAnswerResponse: "Incorrect. Large challenges can keep us from having the life we want.",
+    set: 11
+    },
+
+  3194:{
+    question_tag: "L2LITLP65Q1",
+   code: "3194",
+   title: "Eng Q21",
+   learner_question: "Which is an argument AGAINST school. \\r\\n1. School helps you get a job. \\r\\n2. School takes a lot of time. \\r\\n3. School is fun.",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) School takes a lot of time. This can be a challenge.",
+    incorrectAnswerResponse: "Incorrect. School takes a lot of time. This can be a challenge.",
+    set: 11
+    },
+
+  3195:{
+    question_tag: "L2LITLP65Q2",
+   code: "3195",
+   title: "Eng Q22",
+   learner_question: "A new car is __. \\r\\n1. between \\r\\n2. customers \\r\\n3. expensive",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A new car is expensive. Expensive things cost a lot of money.",
+    incorrectAnswerResponse: "Incorrect. A new car is expensive. Expensive things cost a lot of money.",
+    set: 11
+    },
+
+  3196:{
+    question_tag: "L2LITLP66QG",
+   code: "3196",
+   title: "Eng Class Q12",
+   learner_question: "\\r\\n1. Calm \\r\\n2. Emotional \\r\\n3. Positive",
+    question: "What kind of a reaction is shouting at someone?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Shouting is an emotional reaction.",
+    incorrectAnswerResponse: "Incorrect. Shouting is an emotional reaction.",
+    set: 12
+    },
+
+  3197:{
+    question_tag: "L2LITLP66Q1",
+   code: "3197",
+   title: "Eng Q23",
+   learner_question: "Mary likes to eat __. \\r\\n1. maize \\r\\n2. planks \\r\\n3. panic",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Mary likes to eat maize. Maize is a kind of corn.",
+    incorrectAnswerResponse: "Incorrect. Mary likes to eat maize. Maize is a kind of corn.",
+    set: 12
+    },
+
+  3198:{
+    question_tag: "L2LITLP66Q2",
+   code: "3198",
+   title: "Eng Q24",
+   learner_question: "Which word rhymes with \'go\'? \\r\\n1. dough \\r\\n2. to \\r\\n3. got",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Go and dough end with the long \'o\' sound.",
+    incorrectAnswerResponse: "Incorrect. Go and dough end with the long \'o\' sound.",
+    set: 12
+    },
+
+  3199:{
+    question_tag: "L2LITLP67QG",
+   code: "3199",
+   title: "Eng Class Q13",
+   learner_question: "\\r\\n1. helper \\r\\n2. daughter \\r\\n3. hot",
+    question: "Which word rhymes with hotter? Words that rhyme have the same end sound. Which word rhymes with hotter? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Daughter and Hotter have the same end sounds.",
+    incorrectAnswerResponse: "Incorrect. Daughter and Hotter have the same end sounds.",
+    set: 13
+    },
+
+  3200:{
+    question_tag: "L2LITLP67Q1",
+   code: "3200",
+   title: "Eng Q25",
+   learner_question: "Which word rhymes with \'got\'? \\r\\n2. gone \\r\\n2. rote \\r\\n3. fought",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Fought and got have the same end sound.",
+    incorrectAnswerResponse: "Incorrect. Fought and got have the same end sound.",
+    set: 13
+    },
+
+  3201:{
+    question_tag: "L2LITLP67Q2",
+   code: "3201",
+   title: "Eng Q26",
+   learner_question: "I get water from the ___. \\r\\n1. faucet \\r\\n2. author \\r\\n3. awe",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I get water from the faucet.",
+    incorrectAnswerResponse: "Incorrect. I get water from the faucet.",
+    set: 13
+    },
+
+  3202:{
+    question_tag: "L2LITLP68QG",
+   code: "3202",
+   title: "Eng Class Q14 ",
+   learner_question: "\\r\\n1. Musically \\r\\n2. Musician \\r\\n3. Muscles",
+    question: "I will say a word. Enter the number of the word I say. Listen: Musician. Musician. Which word is Musician?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Musician. Musicians play music.",
+    incorrectAnswerResponse: "Incorrect. Musician. Musicians play music.",
+    set: 14
+    },
+
+  3203:{
+    question_tag: "L2LITLP68Q1",
+   code: "3203",
+   title: "Eng Q27",
+   learner_question: "Which is correct? \\r\\n1. Posative \\r\\n2. Posetive \\r\\n3. Positive",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Positive",
+    incorrectAnswerResponse: "Incorrect. Positive",
+    set: 14
+    },
+
+  3204:{
+    question_tag: "L2LITLP68Q2",
+   code: "3204",
+   title: "Eng Q28",
+   learner_question: "We wait at the bus ___. \\r\\n1. transportation \\r\\n2. station \\r\\n3. supervision",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) We wait at the bus station.",
+    incorrectAnswerResponse: "Incorrect. We wait at the bus station.",
+    set: 14
+    },
+
+  3205:{
+    question_tag: "L2LITLP69QG",
+   code: "3205",
+   title: "Eng Class Q15",
+   learner_question: "\\r\\n1. There are a cat on the table. \\r\\n2. There is three dogs on the table. \\r\\n3. There is a dog on the table.",
+    question: "Which sentence is correct? Enter the number of the correct sentence.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) There is a dog on the table.",
+    incorrectAnswerResponse: "Incorrect. There is a dog on the table.",
+    set: 15
+    },
+
+  3206:{
+    question_tag: "L2LITLP69Q1",
+   code: "3206",
+   title: "Eng Q29",
+   learner_question: "Which is an illness? \\r\\n1. Bronchitis \\r\\n2. Agriculture \\r\\n3. Pamphlets",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Bronchitis is an illness.",
+    incorrectAnswerResponse: "Incorrect. Bronchitis is an illness.",
+    set: 15
+    },
+
+  3207:{
+    question_tag: "L2LITLP69Q2",
+   code: "3207",
+   title: "Eng Q30",
+   learner_question: "Which is a word for birds we eat? \\r\\n1. wonder \\r\\n2. advisory \\r\\n3. fowl",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Fowl are birds we eat, like chicken and ducks.",
+    incorrectAnswerResponse: "Incorrect. Fowl are birds we eat, like chicken and ducks.",
+    set: 15
+    },
+
+  3208:{
+    question_tag: "L2LITLP70QG",
+   code: "3208",
+   title: "Eng Class Q16",
+   learner_question: "A new job is a good___. \\r\\n1. threat \\r\\n2. opportunity \\r\\n3. weakness",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A new job is a good opportunity. An opportunity is a chance to do something.",
+    incorrectAnswerResponse: "Incorrect. A new job is a good opportunity. An opportunity is a chance to do something.",
+    set: 16
+    },
+
+  3209:{
+    question_tag: "L2LITLP70Q1",
+   code: "3209",
+   title: "Eng Q31",
+   learner_question: "Which word rhymes with \'seem\'? \\r\\n1. team \\r\\n2. them \\r\\n3. ram",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Seem and team have the same long \'e\' sound.",
+    incorrectAnswerResponse: "Incorrect. Seem and team have the same long \'e\' sound.",
+    set: 16
+    },
+
+  3210:{
+    question_tag: "L2LITLP70Q2",
+   code: "3210",
+   title: "Eng Q32",
+   learner_question: "Which word rhymes with \'fed\'? \\r\\n1. thread \\r\\n2. seed \\r\\n3. net",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Fed and thread have the same end sound.",
+    incorrectAnswerResponse: "Incorrect. Fed and thread have the same end sound.",
+    set: 16
+    },
+
+  3211:{
+    question_tag: "L2LITLP71QG",
+   code: "3211",
+   title: "Eng Class Q17",
+   learner_question: "\\r\\n1. Dan and Mary. \\r\\n2. The cats run. \\r\\n3. Ben walks.",
+    question: "Which is NOT a complete sentence? Enter the number of the sentence that is NOT complete.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Dan and Mary is not a sentence. There is no verb.",
+    incorrectAnswerResponse: "Incorrect. Dan and Mary is not a sentence. There is no verb.",
+    set: 17
+    },
+
+  3212:{
+    question_tag: "L2LITLP71Q1",
+   code: "3212",
+   title: "Eng Q33",
+   learner_question: "Which is correct? \\r\\n1. There are two men here. \\r\\n2. There is three men here. \\r\\n3. There are a man here.",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) There are two men here.",
+    incorrectAnswerResponse: "Incorrect. There are two men here.",
+    set: 17
+    },
+
+  3213:{
+    question_tag: "L2LITLP71Q2",
+   code: "3213",
+   title: "Eng Q34",
+   learner_question: "Which word rhymes with \'so\'? \\r\\n1. soon \\r\\n2. dough \\r\\n3. two",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) So and dough both end with the long \'o\' sound.",
+    incorrectAnswerResponse: "Incorrect. So and dough both end with the long \'o\' sound.",
+    set: 17
+    },
+
+  3214:{
+    question_tag: "L2LITLP72QG",
+   code: "3214",
+   title: "Eng Class Q18",
+   learner_question: "\\r\\n1. The three big cats. \\r\\n2. Sonie sees it. \\r\\n3. Dan goes.",
+    question: "Which is NOT a complete sentence? Enter the number of the sentence that is NOT complete.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \"The three big cats.\" is not a sentence. There is no verb. What did the cats do?",
+    incorrectAnswerResponse: "Incorrect. \"The three big cats.\" is not a sentence. There is no verb. What did the cats do?",
+    set: 18
+    },
+
+  3215:{
+    question_tag: "L2LITLP72Q1",
+   code: "3215",
+   title: "Eng Q35",
+   learner_question: "Sara __ a pencil. \\r\\n1. rough \\r\\n2. mention \\r\\n3. brought",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Sara brought a pencil.",
+    incorrectAnswerResponse: "Incorrect. Sara brought a pencil.",
+    set: 18
+    },
+
+  3216:{
+    question_tag: "L2LITLP72Q2",
+   code: "3216",
+   title: "Eng Q36",
+   learner_question: "Happy and sad are ___. \\r\\n1. negative \\r\\n2. election \\r\\n3. emotions",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Happy, sad, and angry are emotions.",
+    incorrectAnswerResponse: "Incorrect. Happy, sad, and angry are emotions.",
+    set: 18
+    },
+
+  3217:{
+    question_tag: "L2LITLP73QG",
+   code: "3217",
+   title: "Eng Class Q19",
+   learner_question: "\\r\\n1. Quicking \\r\\n2. Skimming \\r\\n3. Running",
+    question: "What is it called when we read something quickly to get the idea? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Skimming is reading something quickly to get the idea.",
+    incorrectAnswerResponse: "Incorrect. Skimming is reading something quickly to get the idea.",
+    set: 19
+    },
+
+  3218:{
+    question_tag: "L2LITLP73Q1",
+   code: "3218",
+   title: "Eng Q37",
+   learner_question: "Sara had to ___ her house after the storm. \\r\\n1. economy \\r\\n2. excited \\r\\n3. rebuild",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Sara had to rebuild her house after the storm.",
+    incorrectAnswerResponse: "Incorrect. Sara had to rebuild her house after the storm.",
+    set: 19
+    },
+
+  3219:{
+    question_tag: "L2LITLP73Q2",
+   code: "3219",
+   title: "Eng Q38",
+   learner_question: "The __ of the book is \"Hope\". \\r\\n1. title \\r\\n2. crops \\r\\n3. skim",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The title of the book is \"Hope\".",
+    incorrectAnswerResponse: "Incorrect. The title of the book is \"Hope\".",
+    set: 19
+    },
+
+  3220:{
+    question_tag: "L2LITLP74QG",
+   code: "3220",
+   title: "Eng Class Q20",
+   learner_question: "\\r\\n1. again \\r\\n2. before \\r\\n3. not",
+    question: "What does the prefix \'re\' usually mean? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The prefix \"re\" usually means \'again\'. Replay, replant, rebuild.",
+    incorrectAnswerResponse: "Incorrect. The prefix \"re\" usually means \'again\'. Replay, replant, rebuild.",
+    set: 20
+    },
+
+  3221:{
+    question_tag: "L2LITLP74Q1",
+   code: "3221",
+   title: "Eng Q39",
+   learner_question: "What does \"remake\" mean? \\r\\n1. Make before \\r\\n2. Make again \\r\\n3. Destroy",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Remake means make again. The prefix \"re\" often means \'again\'.",
+    incorrectAnswerResponse: "Incorrect. Remake means make again. The prefix \"re\" often means \'again\'.",
+    set: 20
+    },
+
+  3222:{
+    question_tag: "L2LITLP74Q2",
+   code: "3222",
+   title: "Eng Q40",
+   learner_question: "I will ___ the book quickly. \\r\\n1. replant \\r\\n2. economy \\r\\n3. skim",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I will skim the book quickly.",
+    incorrectAnswerResponse: "Incorrect. I will skim the book quickly.",
+    set: 20
+    },
+
+  3223:{
+    question_tag: "L2LITLP75QG",
+   code: "3223",
+   title: "Eng Class Q21",
+   learner_question: "\\r\\n1. Environment \\r\\n2. Economize \\r\\n3. Elections",
+    question: "Which word is \'environment\'? Enter the number of the word \'environment\'. Environment.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Environment",
+    incorrectAnswerResponse: "Incorrect. Environment",
+    set: 21
+    },
+
+  3224:{
+    question_tag: "L2LITLP75Q1",
+   code: "3224",
+   title: "Eng Q41",
+   learner_question: "She is the __ girl in class. \\r\\n1. tall \\r\\n2. taller \\r\\n3. tallest",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) She is the tallest girl in class.",
+    incorrectAnswerResponse: "Incorrect. She is the tallest girl in class.",
+    set: 21
+    },
+
+  3225:{
+    question_tag: "L2LITLP75Q2",
+   code: "3225",
+   title: "Eng Q42",
+   learner_question: "He is a ___ boy. \\r\\n1. kind \\r\\n2. kinder \\r\\n3. kindest",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) He is a kind boy.",
+    incorrectAnswerResponse: "Incorrect. He is a kind boy.",
+    set: 21
+    },
+
+  3226:{
+    question_tag: "L2LITLP76QG",
+   code: "3226",
+   title: "Eng Class Q22",
+   learner_question: "\\r\\n1. soil \\r\\n2. factories \\r\\n3. workers",
+    question: "Which is a \'capital resource\'? Enter the number of the capital resource.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Capital resources are things we buy or make.",
+    incorrectAnswerResponse: "Incorrect. Capital resources are things we buy or make.",
+    set: 22
+    },
+
+  3227:{
+    question_tag: "L2LITLP76Q1",
+   code: "3227",
+   title: "Eng Q43",
+   learner_question: "Which is a labor resource? \\r\\n1. farmers \\r\\n2. shovels \\r\\n3. forests",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Labor resources are the people who do work.",
+    incorrectAnswerResponse: "Incorrect. Labor resources are the people who do work.",
+    set: 22
+    },
+
+  3228:{
+    question_tag: "L2LITLP76Q2",
+   code: "3228",
+   title: "Eng Q44",
+   learner_question: "Which is a natural resources? \\r\\n1. trees \\r\\n2. factories \\r\\n3. teachers",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Natural resources are resources that are not made by people.",
+    incorrectAnswerResponse: "Incorrect. Natural resources are resources that are not made by people.",
+    set: 22
+    },
+
+  3229:{
+    question_tag: "L2LITLP77QG",
+   code: "3229",
+   title: "Eng Class Q23",
+   learner_question: "\\r\\n1. children \\r\\n2. water \\r\\n3. pencils",
+    question: "Which is an uncountable word? Enter the number of the uncountable word.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Water is uncountable. We ask for \'some\' water or \'a cup\' of water etc.",
+    incorrectAnswerResponse: "Incorrect. Water is uncountable. We ask for \'some\' water or \'a cup\' of water etc.",
+    set: 23
+    },
+
+  3230:{
+    question_tag: "L2LITLP77Q1",
+   code: "3230",
+   title: "Eng Q45",
+   learner_question: "___ ____ trees are there? \\r\\n1. How much \\r\\n2. How many \\r\\n3. Which ones",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) How many trees are there? Trees are countable.",
+    incorrectAnswerResponse: "Incorrect. How many trees are there? Trees are countable.",
+    set: 23
+    },
+
+  3231:{
+    question_tag: "L2LITLP77Q2",
+   code: "3231",
+   title: "Eng Q46",
+   learner_question: "___ ____ milk is left? \\r\\n1. How much \\r\\n2. How many \\r\\n3. Which ones",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) How much milk is left? Milk is uncountable.",
+    incorrectAnswerResponse: "Incorrect. How much milk is left? Milk is uncountable.",
+    set: 23
+    },
+
+  3232:{
+    question_tag: "L2LITLP78QG",
+   code: "3232",
+   title: "Eng Class Q24",
+   learner_question: "\\r\\n1. teachers \\r\\n2. shopkeepers \\r\\n3. farmers",
+    question: "Who works in agriculture? Enter the number of the correct answer. Who works in agriculture.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Farmers work in agriculture.",
+    incorrectAnswerResponse: "Incorrect. Farmers work in agriculture.",
+    set: 24
+    },
+
+  3233:{
+    question_tag: "L2LITLP78Q1",
+   code: "3233",
+   title: "Eng Q47",
+   learner_question: "__ are sent to other countries. \\r\\n1. imports \\r\\n2. capital \\r\\n3. exports",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Exports are sent to other countries.",
+    incorrectAnswerResponse: "Incorrect. Exports are sent to other countries.",
+    set: 24
+    },
+
+  3234:{
+    question_tag: "L2LITLP78Q2",
+   code: "3234",
+   title: "Eng Q48",
+   learner_question: "Which is a \'basic need\'? \\r\\n1. food \\r\\n2. work \\r\\n3. love",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Basic needs are things people need to live.",
+    incorrectAnswerResponse: "Incorrect. Basic needs are things people need to live.",
+    set: 24
+    },
+
+  3235:{
+    question_tag: "L2LITLP79QG",
+   code: "3235",
+   title: "Eng Class Q25",
+   learner_question: "\\r\\n1. Eksport \\r\\n2. Export \\r\\n3. Ecsport",
+    question: "Which word is \'export\'? Enter the number of the word \'export\'.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Export",
+    incorrectAnswerResponse: "Incorrect. Export",
+    set: 25
+    },
+
+  3236:{
+    question_tag: "L2LITLP79Q1",
+   code: "3236",
+   title: "Eng Q49",
+   learner_question: "___ grows under the ground. \\r\\n1. rice \\r\\n2. cassava \\r\\n3. palm",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Cassava grows under the ground.",
+    incorrectAnswerResponse: "Incorrect. Cassava grows under the ground.",
+    set: 25
+    },
+
+  3237:{
+    question_tag: "L2LITLP79Q2",
+   code: "3237",
+   title: "Eng Q50",
+   learner_question: "___ ____ water do you want? \\r\\n1. How much \\r\\n2. How many \\r\\n3. Which ones",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) How much water do you want? Water is uncountable.",
+    incorrectAnswerResponse: "Incorrect. How much water do you want? Water is uncountable.",
+    set: 25
+    },
+
+  3238:{
+    question_tag: "L2LITLP80QG",
+   code: "3238",
+   title: "Eng Class Q26",
+   learner_question: "\\r\\n1. Weather \\r\\n2. Without \\r\\n3. Wealthy",
+    question: "I will say a word. Enter the number of the word I say. Wealthy. Wealthy. Which word is Wealthy?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Wealthy",
+    incorrectAnswerResponse: "Incorrect. Wealthy",
+    set: 26
+    },
+
+  3239:{
+    question_tag: "L2LITLP80Q1",
+   code: "3239",
+   title: "Eng Q51",
+   learner_question: "A cat is ___ than a dog. \\r\\n1. small \\r\\n2. smaller \\r\\n3. smallest",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A cat is smaller than a dog.",
+    incorrectAnswerResponse: "Incorrect. A cat is smaller than a dog.",
+    set: 26
+    },
+
+  3240:{
+    question_tag: "L2LITLP80Q2",
+   code: "3240",
+   title: "Eng Q52",
+   learner_question: "Today is the __ of the year. \\r\\n1. hot \\r\\n2. hotter \\r\\n3. hottest",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Today is the hottest day of the year.",
+    incorrectAnswerResponse: "Incorrect. Today is the hottest day of the year.",
+    set: 26
+    },
+
+  3241:{
+    question_tag: "L2LITLP81QG",
+   code: "3241",
+   title: "Eng Class Q27",
+   learner_question: "\\r\\n1. The country makes too much of something. \\r\\n2. The county needs more of something. \\r\\n3. The country has no money.",
+    question: "Why might a country \'import\' something? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) When we \'import\' we bring things into a country.",
+    incorrectAnswerResponse: "Incorrect. When we \'import\' we bring things into a country.",
+    set: 27
+    },
+
+  3242:{
+    question_tag: "L2LITLP81Q1",
+   code: "3242",
+   title: "Eng Q53",
+   learner_question: "What does \"replant\" mean? \\r\\n1. plant before \\r\\n2. plant again \\r\\n3. harvest",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Replant means to plant again.",
+    incorrectAnswerResponse: "Incorrect. Replant means to plant again.",
+    set: 27
+    },
+
+  3243:{
+    question_tag: "L2LITLP81Q2",
+   code: "3243",
+   title: "Eng Q54",
+   learner_question: "What kind of resource is a tree? \\r\\n1. natural \\r\\n2. labor \\r\\n3. capital",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Trees are natural resources.",
+    incorrectAnswerResponse: "Incorrect. Trees are natural resources.",
+    set: 27
+    },
+
+  3244:{
+    question_tag: "L2LITLP82QG",
+   code: "3244",
+   title: "Eng Class Q28",
+   learner_question: "\\r\\n1. Seeds \\r\\n2. Seedlings \\r\\n3. Babies",
+    question: "Which is another word for very young plants that have just started to grow? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Seedlings are very young plants.",
+    incorrectAnswerResponse: "Incorrect. Seedlings are very young plants.",
+    set: 28
+    },
+
+  3245:{
+    question_tag: "L2LITLP82Q1",
+   code: "3245",
+   title: "Eng Q55",
+   learner_question: "Flomo put __ on the crops. \\r\\n1. compost \\r\\n2. hoe \\r\\n3. harvest",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Flomo put compost on the crops.",
+    incorrectAnswerResponse: "Incorrect. Flomo put compost on the crops.",
+    set: 28
+    },
+
+  3246:{
+    question_tag: "L2LITLP82Q2",
+   code: "3246",
+   title: "Eng Q56",
+   learner_question: "I use a __ to harvest the plants. \\r\\n1. burn \\r\\n2. brush \\r\\n3. cutlass",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I use a cutlass to harvest the plants.",
+    incorrectAnswerResponse: "Incorrect. I use a cutlass to harvest the plants.",
+    set: 28
+    },
+
+  3247:{
+    question_tag: "L2LITLP83QG",
+   code: "3247",
+   title: "Eng Class Q29",
+   learner_question: "\\r\\n1. plant seeds \\r\\n2. harvest crops \\r\\n3. prepare the ground",
+    question: "Which comes first in the crop cycle? Enter the number of the first step.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The firsts step in the crop cycle is to prepare the land.",
+    incorrectAnswerResponse: "Incorrect. The firsts step in the crop cycle is to prepare the land.",
+    set: 29
+    },
+
+  3248:{
+    question_tag: "L2LITLP83Q1",
+   code: "3248",
+   title: "Eng Q57",
+   learner_question: "___ can eat plants. \\r\\n1. storage \\r\\n2. inputs \\r\\n3. pests",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) pests can eat crops.",
+    incorrectAnswerResponse: "Incorrect. pests can eat crops.",
+    set: 29
+    },
+
+  3249:{
+    question_tag: "L2LITLP83Q2",
+   code: "3249",
+   title: "Eng Q58",
+   learner_question: "Which is an \'input\'? \\r\\n1. a farmer \\r\\n2. seeds \\r\\n2. crops",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Seeds are inputs",
+    incorrectAnswerResponse: "Incorrect. Seeds are inputs",
+    set: 29
+    },
+
+  3250:{
+    question_tag: "L2LITLP84QG",
+   code: "3250",
+   title: "Eng Class Q30",
+   learner_question: "\\r\\n1. leaves \\r\\n2. branches \\r\\n3. roots",
+    question: "Which part of a plant is under the ground? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Roots are under the ground.",
+    incorrectAnswerResponse: "Incorrect. Roots are under the ground.",
+    set: 30
+    },
+
+  3251:{
+    question_tag: "L2LITLP84Q1",
+   code: "3251",
+   title: "Eng Q59",
+   learner_question: "___ and pests kill crops. \\r\\n1. sticky \\r\\n2. weeds \\r\\n3. rocky",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Weeds and pests kill crops.",
+    incorrectAnswerResponse: "Incorrect. Weeds and pests kill crops.",
+    set: 30
+    },
+
+  3252:{
+    question_tag: "L2LITLP84Q2",
+   code: "3252",
+   title: "Eng Q60",
+   learner_question: "The soil is ___. \\r\\n1. sandy \\r\\n2. sandier \\r\\n3. sandiest",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The soil is sandy.",
+    incorrectAnswerResponse: "Incorrect. The soil is sandy.",
+    set: 30
+    },
+
+  3253:{
+    question_tag: "L2LITLP85QG",
+   code: "3253",
+   title: "Eng Class Q31",
+   learner_question: "\\r\\n1. Transporting \\r\\n2. Transports \\r\\n3. Transported",
+    question: "Which is the past tense of the regular verb \'transport\'? Enter the number of the past tense of \'transport\'.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Transported. Regular verbs end in \'ed\' in the past tense.",
+    incorrectAnswerResponse: "Incorrect. Transported. Regular verbs end in \'ed\' in the past tense.",
+    set: 31
+    },
+
+  3254:{
+    question_tag: "L2LITLP85Q1",
+   code: "3254",
+   title: "Eng Q61",
+   learner_question: "Yesterday, I ___ in the shop. \\r\\n1. worked \\r\\n2. works \\r\\n3. work",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Yesterday, I worked in the shop.",
+    incorrectAnswerResponse: "Incorrect. Yesterday, I worked in the shop.",
+    set: 31
+    },
+
+  3255:{
+    question_tag: "L2LITLP85Q2",
+   code: "3255",
+   title: "Eng Q62",
+   learner_question: "Tomorrow, I will ____ seeds. \\r\\n1. planted \\r\\n2. plants \\r\\n3. plant",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Tomorrow, I will plant seeds.",
+    incorrectAnswerResponse: "Incorrect. Tomorrow, I will plant seeds.",
+    set: 31
+    },
+
+  3256:{
+    question_tag: "L2LITLP86QG",
+   code: "3256",
+   title: "Eng Class Q32",
+   learner_question: "\\r\\n1. planted \\r\\n2. grew \\r\\n3. harvested",
+    question: "Which verb is an \'irregular\' past tense verb? Enter the number of the irregular past tense verb.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Grew is an irregular past tense verb because it does not end in \'ed\'.",
+    incorrectAnswerResponse: "Incorrect. Grew is an irregular past tense verb because it does not end in \'ed\'.",
+    set: 32
+    },
+
+  3257:{
+    question_tag: "L2LITLP86Q1",
+   code: "3257",
+   title: "Eng Q63",
+   learner_question: "I don\'t like cats __ I like dogs. \\r\\n1. and \\r\\n2. or \\r\\n3. but",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I don\'t like cats, but I like dogs.",
+    incorrectAnswerResponse: "Incorrect. I don\'t like cats, but I like dogs.",
+    set: 32
+    },
+
+  3258:{
+    question_tag: "L2LITLP86Q2",
+   code: "3258",
+   title: "Eng Q64",
+   learner_question: "I have a cat __ a dog. \\r\\n1. and \\r\\n2. or \\r\\n3. so",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I have a cat and a dog.",
+    incorrectAnswerResponse: "Incorrect. I have a cat and a dog.",
+    set: 32
+    },
+
+  3259:{
+    question_tag: "L2LITLP87QG",
+   code: "3259",
+   title: "Eng Class Q33",
+   learner_question: "\\r\\n1. Chart \\r\\n2. Heart \\r\\n3. Chatter",
+    question: "I will say a word. Choose the number of the word I say. Listen. Chart. Chart. Which word is Chart.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Chart",
+    incorrectAnswerResponse: "Incorrect. Chart",
+    set: 33
+    },
+
+  3260:{
+    question_tag: "L2LITLP87Q1",
+   code: "3260",
+   title: "Eng Q65",
+   learner_question: "The __ is too hot for me. \\r\\n1. bitterball \\r\\n2. pepper \\r\\n3. cassava",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The pepper is too hot for me.",
+    incorrectAnswerResponse: "Incorrect. The pepper is too hot for me.",
+    set: 33
+    },
+
+  3261:{
+    question_tag: "L2LITLP87Q2",
+   code: "3261",
+   title: "Eng Q66",
+   learner_question: "Yesterday, I ___ the seeds. \\r\\n1. planted \\r\\n2. planting \\r\\n3. plant",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Yesterday, I planted the seeds.",
+    incorrectAnswerResponse: "Incorrect. Yesterday, I planted the seeds.",
+    set: 33
+    },
+
+  3262:{
+    question_tag: "L2LITLP88QG",
+   code: "3262",
+   title: "Eng Class Q34",
+   learner_question: "\\r\\n1. Harvesting \\r\\n2. Processing \\r\\n3. Eating",
+    question: "Which does NOT add value to a crop? Enter the number of the answer that does NOT add value.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Eating a crop takes all of it\'s value away.",
+    incorrectAnswerResponse: "Incorrect. Eating a crop takes all of it\'s value away.",
+    set: 34
+    },
+
+  3263:{
+    question_tag: "L2LITLP88Q1",
+   code: "3263",
+   title: "Eng Q67",
+   learner_question: "Put the butter back in the ___. \\r\\n1. grater \\r\\n2. middleman \\r\\n3. package",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Put the butter back in the package.",
+    incorrectAnswerResponse: "Incorrect. Put the butter back in the package.",
+    set: 34
+    },
+
+  3264:{
+    question_tag: "L2LITLP88Q2",
+   code: "3264",
+   title: "Eng Q68",
+   learner_question: "Who does NOT add value? \\r\\n1. farmer \\r\\n2. consumer \\r\\n3. seller",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Consumers do not add value to a product.",
+    incorrectAnswerResponse: "Incorrect. Consumers do not add value to a product.",
+    set: 34
+    },
+
+  3265:{
+    question_tag: "L2LITLP89QG",
+   code: "3265",
+   title: "Eng Class Q35",
+   learner_question: "\\r\\n1. parked \\r\\n2. parks \\r\\n3. parken",
+    question: "What is the past tense of the regular verb \'park\'. Enter the number of the past tense of the regular verb \'park\'.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) parked",
+    incorrectAnswerResponse: "Incorrect. parked",
+    set: 35
+    },
+
+  3266:{
+    question_tag: "L2LITLP89Q1",
+   code: "3266",
+   title: "Eng Q69",
+   learner_question: "Yesterday, I __ a red bird. \\r\\n1. see \\r\\n2. seeing \\r\\n3. saw",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Yesterday, I saw a red bird.",
+    incorrectAnswerResponse: "Incorrect. Yesterday, I saw a red bird.",
+    set: 35
+    },
+
+  3267:{
+    question_tag: "L2LITLP89Q2",
+   code: "3267",
+   title: "Eng Q70",
+   learner_question: "What does \'redo\' mean? \\r\\n1. do again \\r\\n2. do better \\r\\n3. undo",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Redo means \'do again\'. The prefix \'re\' often means \'again\'.",
+    incorrectAnswerResponse: "Incorrect. Redo means \'do again\'. The prefix \'re\' often means \'again\'.",
+    set: 35
+    },
+
+  3268:{
+    question_tag: "L2LITLP90QG",
+   code: "3268",
+   title: "Eng Class Q36",
+   learner_question: "\\r\\n1. Prepare the ground. \\r\\n2. Plant the seeds. \\r\\n3. Sell the crops",
+    question: "Which is the LAST step in the crop cycle? Enter the number of the last step in the crop cycle.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The last step in the crop cycle is selling them.",
+    incorrectAnswerResponse: "Incorrect. The last step in the crop cycle is selling them.",
+    set: 36
+    },
+
+  3269:{
+    question_tag: "L2LITLP90Q1",
+   code: "3269",
+   title: "Eng Q71",
+   learner_question: "Yesterday, I ___ the garden. \\r\\n1. weeding \\r\\n2. weeded \\r\\n3. weeds",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Yesterday, I weeded the garden.",
+    incorrectAnswerResponse: "Incorrect. Yesterday, I weeded the garden.",
+    set: 36
+    },
+
+  3270:{
+    question_tag: "L2LITLP90Q2",
+   code: "3270",
+   title: "Eng Q72",
+   learner_question: "___ are sent to other countries. \\r\\n1. imports \\r\\n2. exports \\r\\n3. economy",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Exports are sent to other countries.",
+    incorrectAnswerResponse: "Incorrect. Exports are sent to other countries.",
+    set: 36
+    },
+
+  3271:{
+    question_tag: "L2LITLP91QG",
+   code: "3271",
+   title: "Eng Class Q37",
+   learner_question: "\\r\\n1. Carryied \\r\\n2. Carried \\r\\n3. Carries",
+    question: "Which is the past tense of the regular verb carry? Enter the number of the correct answer. Carry.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Carried is the past tense of carry. We often replace \'y\' with \'ied\' in the past tense.",
+    incorrectAnswerResponse: "Incorrect. Carried is the past tense of carry. We often replace \'y\' with \'ied\' in the past tense.",
+    set: 37
+    },
+
+  3272:{
+    question_tag: "L2LITLP91Q1",
+   code: "3272",
+   title: "Eng Q73",
+   learner_question: "She ___ English last year. \\r\\n1. studyied \\r\\n2. studyed \\r\\n3. studied",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) She studied English last year.",
+    incorrectAnswerResponse: "Incorrect. She studied English last year.",
+    set: 37
+    },
+
+  3273:{
+    question_tag: "L2LITLP91Q2",
+   code: "3273",
+   title: "Eng Q74",
+   learner_question: "Flomo was __ for sleeping at work. \\r\\n2. fired \\r\\n2. hired \\r\\n3. applied",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Flomo was fired for sleeping at work.",
+    incorrectAnswerResponse: "Incorrect. Flomo was fired for sleeping at work.",
+    set: 37
+    },
+
+  3274:{
+    question_tag: "L2LITLP92QG",
+   code: "3274",
+   title: "Eng Class Q38",
+   learner_question: "\\r\\n1. A friend \\r\\n2. A parent \\r\\n3. A teacher",
+    question: "Who could write a \'reference\' for you? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A teacher can write a letter of reference.",
+    incorrectAnswerResponse: "Incorrect. A teacher can write a letter of reference.",
+    set: 38
+    },
+
+  3275:{
+    question_tag: "L2LITLP92Q1",
+   code: "3275",
+   title: "Eng Q75",
+   learner_question: "The manager wants to hire a new ___. \\r\\n1. network \\r\\n2. employee \\r\\n3. suddenly.",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The manager wants to hire a new employee.",
+    incorrectAnswerResponse: "Incorrect. The manager wants to hire a new employee.",
+    set: 38
+    },
+
+  3276:{
+    question_tag: "L2LITLP92Q2",
+   code: "3276",
+   title: "Eng Q76",
+   learner_question: "Yesterday, I ___ about getting a job. \\r\\n1. thinked \\r\\n2. thinking \\r\\n3. thought",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Yesterday, I thought about getting a job.",
+    incorrectAnswerResponse: "Incorrect. Yesterday, I thought about getting a job.",
+    set: 38
+    },
+
+  3277:{
+    question_tag: "L2LITLP93QG",
+   code: "3277",
+   title: "Eng Class Q39",
+   learner_question: "\\r\\n1. An application \\r\\n2. An applying \\r\\n3. A reference",
+    question: "What do we call the papers we complete to apply for a job? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) An application is what we write to apply for a job.",
+    incorrectAnswerResponse: "Incorrect. An application is what we write to apply for a job.",
+    set: 39
+    },
+
+  3278:{
+    question_tag: "L2LITLP93Q1",
+   code: "3278",
+   title: "Eng Q77",
+   learner_question: "She got a ___ 30/30 on her exam. \\r\\n1. mistake \\r\\n2. perfect \\r\\n3. application",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) She got a perfect 30/30 on her exam.",
+    incorrectAnswerResponse: "Incorrect. She got a perfect 30/30 on her exam.",
+    set: 39
+    },
+
+  3279:{
+    question_tag: "L2LITLP93Q2",
+   code: "3279",
+   title: "Eng Q78",
+   learner_question: "Flomo\'s __ fired him. \\r\\n1. employee \\r\\n2. employ \\r\\n3. employer",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Flomo\'s employer fired him.",
+    incorrectAnswerResponse: "Incorrect. Flomo\'s employer fired him.",
+    set: 39
+    },
+
+  3280:{
+    question_tag: "L2LITLP94QG",
+   code: "3280",
+   title: "Eng Class Q40",
+   learner_question: "\\r\\n1. I were happy. \\r\\n2. They were happy. \\r\\n3. She were happy.",
+    question: "Which sentence is correct? Enter the number of the correct sentence.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) They were happy. We use \'were\' with they, we, and you.",
+    incorrectAnswerResponse: "Incorrect. They were happy. We use \'were\' with they, we, and you.",
+    set: 40
+    },
+
+  3281:{
+    question_tag: "L2LITLP94Q1",
+   code: "3281",
+   title: "Eng Q79",
+   learner_question: "She __ been waiting. \\r\\n1. has \\r\\n2. have \\r\\n3. were",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) She has been waiting. We use \'has\' with he, she, and it.",
+    incorrectAnswerResponse: "Incorrect. She has been waiting. We use \'has\' with he, she, and it.",
+    set: 40
+    },
+
+  3282:{
+    question_tag: "L2LITLP94Q2",
+   code: "3282",
+   title: "Eng Q80",
+   learner_question: "You __ been warned. \\r\\n1. has \\r\\n2. have \\r\\n3. were",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) You have been warned. We use have with I, they, we, and you.",
+    incorrectAnswerResponse: "Incorrect. You have been warned. We use have with I, they, we, and you.",
+    set: 40
+    },
+
+  3283:{
+    question_tag: "L2LITLP95QG",
+   code: "3283",
+   title: "Eng Class Q41",
+   learner_question: "\\r\\n1. reasonable \\r\\n2. responsible \\r\\n3. responsibility",
+    question: "I will say a word. Choose the number of the word I say. Listen. Responsibility. Responsibility. Which word is Responsibility.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) responsibility",
+    incorrectAnswerResponse: "Incorrect. responsibility",
+    set: 41
+    },
+
+  3284:{
+    question_tag: "L2LITLP95Q1",
+   code: "3284",
+   title: "Eng Q81",
+   learner_question: "Yesterday, Sonie ___ a letter. \\r\\n1. copied \\r\\n2. thought \\r\\n3. personal",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Yesterday, Sonie copied a letter.",
+    incorrectAnswerResponse: "Incorrect. Yesterday, Sonie copied a letter.",
+    set: 41
+    },
+
+  3285:{
+    question_tag: "L2LITLP95Q2",
+   code: "3285",
+   title: "Eng Q82",
+   learner_question: "Jane __ money in the street yesterday. \\r\\n1. find \\r\\n2. information \\r\\n3. found",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Jane found money in the street yesterday.",
+    incorrectAnswerResponse: "Incorrect. Jane found money in the street yesterday.",
+    set: 41
+    },
+
+  3286:{
+    question_tag: "L2LITLP96QG",
+   code: "3286",
+   title: "Eng Class Q42",
+   learner_question: "\\r\\n1. Str. \\r\\n2. S. \\r\\n3. St.",
+    question: "What is the short form of \'Street\"? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) St. = street",
+    incorrectAnswerResponse: "Incorrect. St. = street",
+    set: 42
+    },
+
+  3287:{
+    question_tag: "L2LITLP96Q1",
+   code: "3287",
+   title: "Eng Q83",
+   learner_question: "Short form of Doctor? \\r\\n1. Dr. \\r\\n2. Doc. \\r\\n3. Dc.",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Dr. = Doctor",
+    incorrectAnswerResponse: "Incorrect. Dr. = Doctor",
+    set: 42
+    },
+
+  3288:{
+    question_tag: "L2LITLP96Q2",
+   code: "3288",
+   title: "Eng Q84",
+   learner_question: "Which is an age? \\r\\n1. Mister \\r\\n2. 48 \\r\\n3. January 12th",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Age is how old a person is.",
+    incorrectAnswerResponse: "Incorrect. Age is how old a person is.",
+    set: 42
+    },
+
+  3289:{
+    question_tag: "L2LITLP97QG",
+   code: "3289",
+   title: "Eng Class Q43",
+   learner_question: "\\r\\n1. An application \\r\\n2. An experience \\r\\n3. A interview",
+    question: "What is it called when one person asks another questions to learn about them? ",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) In an interview, you are asked many questions about yourself.",
+    incorrectAnswerResponse: "Incorrect. In an interview, you are asked many questions about yourself.",
+    set: 43
+    },
+
+  3290:{
+    question_tag: "L2LITLP97Q1",
+   code: "3290",
+   title: "Eng Q85",
+   learner_question: "Many __ wait to see the doctor. \\r\\n1. leaders \\r\\n2. patients \\r\\n3. decisions",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Many patients wait to see the doctor.",
+    incorrectAnswerResponse: "Incorrect. Many patients wait to see the doctor.",
+    set: 43
+    },
+
+  3291:{
+    question_tag: "L2LITLP97Q2",
+   code: "3291",
+   title: "Eng Q86",
+   learner_question: "We must wash with soap to kill ___. \\r\\n1. germs \\r\\n2. experiences \\r\\n3. avenues",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) We must wash with soap to kill germs.",
+    incorrectAnswerResponse: "Incorrect. We must wash with soap to kill germs.",
+    set: 43
+    },
+
+  3292:{
+    question_tag: "L2LITLP98QG",
+   code: "3292",
+   title: "Eng Class Q44",
+   learner_question: "\\r\\n1. Wear sunglasses \\r\\n2. Wear a lappa dress or suit \\r\\n3. Wear good shoes",
+    question: "Which should you NOT do in an interview? Enter the number of the answer you should NOT do.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) You should not wear sunglasses to an interview.",
+    incorrectAnswerResponse: "Incorrect. You should not wear sunglasses to an interview.",
+    set: 44
+    },
+
+  3293:{
+    question_tag: "L2LITLP98Q1",
+   code: "3293",
+   title: "Eng Q87",
+   learner_question: "Which is a strength? \\r\\n1. working hard \\r\\n2. sleeping a lot \\r\\n3. fighting",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Hard work is a strength.",
+    incorrectAnswerResponse: "Incorrect. Hard work is a strength.",
+    set: 44
+    },
+
+  3294:{
+    question_tag: "L2LITLP98Q2",
+   code: "3294",
+   title: "Eng Q88",
+   learner_question: "Which is a weakness? \\r\\n1. working hard \\r\\n2. not reading \\r\\n3. dressing well",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Not reading is a weakness. A weakness is something that may harm you.",
+    incorrectAnswerResponse: "Incorrect. Not reading is a weakness. A weakness is something that may harm you.",
+    set: 44
+    },
+
+  3295:{
+    question_tag: "L2LITLP99QG",
+   code: "3295",
+   title: "Eng Class Q45",
+   learner_question: "\\r\\n1. Responsible \\r\\n2. Initiative \\r\\n3. Conflict",
+    question: "Which word is not positive? Choose the word that is NOT positive.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Conflict is like a fight. Conflict is negative not positive.",
+    incorrectAnswerResponse: "Incorrect. Conflict is like a fight. Conflict is negative not positive.",
+    set: 45
+    },
+
+  3296:{
+    question_tag: "L2LITLP99Q1",
+   code: "3296",
+   title: "Eng Q89",
+   learner_question: "The dependable worker is not ___. \\r\\n1. late \\r\\n2. early \\r\\n3. helpful",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The dependable worker is not late.",
+    incorrectAnswerResponse: "Incorrect. The dependable worker is not late.",
+    set: 45
+    },
+
+  3297:{
+    question_tag: "L2LITLP99Q2",
+   code: "3297",
+   title: "Eng Q90",
+   learner_question: "___ skills are important for talking to people. \\r\\n1. Community \\r\\n2. Communication \\r\\n3. Customer",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Communication skills are important for talking to people.",
+    incorrectAnswerResponse: "Incorrect. Communication skills are important for talking to people.",
+    set: 45
+    },
+
+  3298:{
+    question_tag: "L2LITLP100QG",
+   code: "3298",
+   title: "Eng Class Q46",
+   learner_question: "\\r\\n1. Smiling \\r\\n2. Saying hello \\r\\n3. Running",
+    question: "Which is an example of \'body language\'? Enter the example that shows body language.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Smiling is body language.",
+    incorrectAnswerResponse: "Incorrect. Smiling is body language.",
+    set: 46
+    },
+
+  3299:{
+    question_tag: "L2LITLP100Q1",
+   code: "3299",
+   title: "Eng Q91",
+   learner_question: "She has a lot of __ as a cook. \\r\\n1. dependable \\r\\n2. responsible \\r\\n3. experience ",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) She has a lot of experience as a cook.",
+    incorrectAnswerResponse: "Incorrect. She has a lot of experience as a cook.",
+    set: 46
+    },
+
+  3300:{
+    question_tag: "L2LITLP100Q2",
+   code: "3300",
+   title: "Eng Q92",
+   learner_question: "A cat is an ___ of a pet. \\r\\n1. experience \\r\\n2. example \\r\\n3. extra",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A cat is an example of a pet.",
+    incorrectAnswerResponse: "Incorrect. A cat is an example of a pet.",
+    set: 46
+    },
+
+  3301:{
+    question_tag: "L2LITLP101QG",
+   code: "3301",
+   title: "Eng Class Q47",
+   learner_question: "\\r\\n1. A teacher \\r\\n2. An employer \\r\\n3. A friend",
+    question: "Who should NOT write a reference letter for you? Enter the number of the person who should NOT write a reference for you.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Reference letters should not be written by friends. Former employers are the best choice.",
+    incorrectAnswerResponse: "Incorrect. Reference letters should not be written by friends. Former employers are the best choice.",
+    set: 47
+    },
+
+  3302:{
+    question_tag: "L2LITLP101Q1",
+   code: "3302",
+   title: "Eng Q93",
+   learner_question: "The ___ for the job was 5 pages long. \\r\\n1. application \\r\\n2. interview \\r\\n3. employee",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The application for the job was 5 pages long.",
+    incorrectAnswerResponse: "Incorrect. The application for the job was 5 pages long.",
+    set: 47
+    },
+
+  3303:{
+    question_tag: "L2LITLP101Q2",
+   code: "3303",
+   title: "Eng Q94",
+   learner_question: "You write an application when you want ___. \\r\\n1. employee \\r\\n2. employment \\r\\n3. employ",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) You write an application when you want employment.",
+    incorrectAnswerResponse: "Incorrect. You write an application when you want employment.",
+    set: 47
+    },
+
+  3304:{
+    question_tag: "L2LITLP102QG",
+   code: "3304",
+   title: "Eng Class Q48",
+   learner_question: "\\r\\n1. Your clothes \\r\\n2. Your birthday \\r\\n3. Your address",
+    question: "Which is a part of your appearance? Enter the number of the word that relates to your appearance.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Your appearance is how you look.",
+    incorrectAnswerResponse: "Incorrect. Your appearance is how you look.",
+    set: 48
+    },
+
+  3305:{
+    question_tag: "L2LITLP102Q1",
+   code: "3305",
+   title: "Eng Q95",
+   learner_question: "The shop sells good ___ clothes. \\r\\n1. quality \\r\\n2. communicate \\r\\n3. trust",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The shop sells good quality clothes.",
+    incorrectAnswerResponse: "Incorrect. The shop sells good quality clothes.",
+    set: 48
+    },
+
+  3306:{
+    question_tag: "L2LITLP102Q2",
+   code: "3306",
+   title: "Eng Q96",
+   learner_question: "Who is a \'co-worker\'? \\r\\n1. The person you work for. \\r\\n2. The person you work with. \\r\\n3. The person who works for you.",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A co-worker is someone who works with you at the same job.",
+    incorrectAnswerResponse: "Incorrect. A co-worker is someone who works with you at the same job.",
+    set: 48
+    },
+
+  3307:{
+    question_tag: "L2LITLP103QG",
+   code: "3307",
+   title: "Eng Class Q49",
+   learner_question: "\\r\\n1. Liberia is a Country. \\r\\n2. Jane lives in liberia. \\r\\n3. I went to Liberia on Friday.",
+    question: "Which sentence is correctly capitalized? Enter the number of the correct sentence.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I went to Liberia on Friday.",
+    incorrectAnswerResponse: "Incorrect. I went to Liberia on Friday.",
+    set: 49
+    },
+
+  3308:{
+    question_tag: "L2LITLP103Q1",
+   code: "3308",
+   title: "Eng Q97",
+   learner_question: "Which is correct? \\r\\n1. Flomo has a Cat. \\r\\n2. Monday is christmas day. \\r\\n3. The cats are hungry.",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The cats are hungry.",
+    incorrectAnswerResponse: "Incorrect. The cats are hungry.",
+    set: 49
+    },
+
+  3309:{
+    question_tag: "L2LITLP103Q2",
+   code: "3309",
+   title: "Eng Q98",
+   learner_question: "Which is correct? \\r\\n1. December is Sara\'s birth month. \\r\\n2. Bong County is very Hot. \\r\\n3. we like Liberia!",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) December is Sara\'s birth month.",
+    incorrectAnswerResponse: "Incorrect. December is Sara\'s birth month.",
+    set: 49
+    },
+
+  3310:{
+    question_tag: "L2LITLP104QG",
+   code: "3310",
+   title: "Eng Class Q50",
+   learner_question: "\\r\\n1. ? \\r\\n2. ! \\r\\n3. \'",
+    question: "Which is an apostrophe? Enter the number of the apostrophe.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) \' is an apostrophe.",
+    incorrectAnswerResponse: "Incorrect. \' is an apostrophe.",
+    set: 50
+    },
+
+  3311:{
+    question_tag: "L2LITLP104Q1",
+   code: "3311",
+   title: "Eng Q99",
+   learner_question: "This book is ___. \\r\\n1. Her \\r\\n2. She \\r\\n3. Hers",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) This book is hers.",
+    incorrectAnswerResponse: "Incorrect. This book is hers.",
+    set: 50
+    },
+
+  3312:{
+    question_tag: "L2LITLP104Q2",
+   code: "3312",
+   title: "Eng Q100",
+   learner_question: "It is __ book. \\r\\n1. Flomos \\r\\n2. Flomos\' \\r\\n3. Flomo\'s",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) It is Flomo\'s book.",
+    incorrectAnswerResponse: "Incorrect. It is Flomo\'s book.",
+    set: 50
+    },
+
+  3313:{
+    question_tag: "L2LITLP105QG",
+   code: "3313",
+   title: "Eng Class Q51",
+   learner_question: "\\r\\n1. water \\r\\n2. pencils \\r\\n3. people",
+    question: "Which word cannot be counted? Enter the number of the word that cannot be counted.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) We do not count water.",
+    incorrectAnswerResponse: "Incorrect. We do not count water.",
+    set: 51
+    },
+
+  3314:{
+    question_tag: "L2LITLP105Q1",
+   code: "3314",
+   title: "Eng Q101",
+   learner_question: "How ___ children are here? \\r\\n1. many \\r\\n2. much \\r\\n3. little",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) How many children are here.",
+    incorrectAnswerResponse: "Incorrect. How many children are here.",
+    set: 51
+    },
+
+  3315:{
+    question_tag: "L2LITLP105Q2",
+   code: "3315",
+   title: "Eng Q102",
+   learner_question: "How ___ rice do you want? \\r\\n1. many \\r\\n2. much \\r\\n3. some",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) How much rice do you want?",
+    incorrectAnswerResponse: "Incorrect. How much rice do you want?",
+    set: 51
+    },
+
+  3316:{
+    question_tag: "L2LITLP106QG",
+   code: "3316",
+   title: "Eng Class Q52",
+   learner_question: "\\r\\n1. I like cats and dogs. \\r\\n2. I like cats but I like dogs. \\r\\n3. I like cats so I like dogs.",
+    question: "Which sentence is correct? Enter the number of the correct sentence.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I like cats and dogs.",
+    incorrectAnswerResponse: "Incorrect. I like cats and dogs.",
+    set: 52
+    },
+
+  3317:{
+    question_tag: "L2LITLP106Q1",
+   code: "3317",
+   title: "Eng Q103",
+   learner_question: "I am hungry ___ I will eat. \\r\\n1. or \\r\\n2. but \\r\\n3. so",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I am hungry, so I will eat.",
+    incorrectAnswerResponse: "Incorrect. I am hungry, so I will eat.",
+    set: 52
+    },
+
+  3318:{
+    question_tag: "L2LITLP106Q2",
+   code: "3318",
+   title: "Eng Q104",
+   learner_question: "I am wet ___ it is raining. \\r\\n1. because \\r\\n2. so \\r\\n3. although",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I am wet because it is raining.",
+    incorrectAnswerResponse: "Incorrect. I am wet because it is raining.",
+    set: 52
+    },
+
+  3319:{
+    question_tag: "L2LITLP107QG",
+   code: "3319",
+   title: "Eng Class Q53",
+   learner_question: "\\r\\n1. Being rude \\r\\n2. Dressing well \\r\\n3. Working hard",
+    question: "Which is a weakness? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Weaknesses are things that can hurt you. Being rude is a weakness.",
+    incorrectAnswerResponse: "Incorrect. Weaknesses are things that can hurt you. Being rude is a weakness.",
+    set: 53
+    },
+
+  3320:{
+    question_tag: "L2LITLP107Q1",
+   code: "3320",
+   title: "Eng Q105",
+   learner_question: "The pen is ___. \\r\\n1. my \\r\\n2. mine \\r\\n3. my\'s",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The pen is mine.",
+    incorrectAnswerResponse: "Incorrect. The pen is mine.",
+    set: 53
+    },
+
+  3321:{
+    question_tag: "L2LITLP107Q2",
+   code: "3321",
+   title: "Eng Q106",
+   learner_question: "I like dogs __ I don\'t like cats. \\r\\n1. and \\r\\n2. because \\r\\n3. but",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) I like dogs but I don\'t like cats.",
+    incorrectAnswerResponse: "Incorrect. I like dogs but I don\'t like cats.",
+    set: 53
+    },
+
+  3322:{
+    question_tag: "L2LITLP108QG",
+   code: "3322",
+   title: "Eng Class Q54",
+   learner_question: "\\r\\n1. I like. \\r\\n2. Dan eats. \\r\\n3. Flomo has a dog.",
+    question: "Which is NOT a complete sentence? Enter the number of the sentence that is NOT complete.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'I like\' is not a complete sentence. It does not show a complete though- What do I like?",
+    incorrectAnswerResponse: "Incorrect. \'I like\' is not a complete sentence. It does not show a complete though- What do I like?",
+    set: 54
+    },
+
+  3323:{
+    question_tag: "L2LITLP108Q1",
+   code: "3323",
+   title: "Eng Q107",
+   learner_question: "That is __ cat. \\r\\n1. Jane \\r\\n2. Jane\'s \\r\\n3. Jane\'s",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) That is Jane\'s cat.",
+    incorrectAnswerResponse: "Incorrect. That is Jane\'s cat.",
+    set: 54
+    },
+
+  3324:{
+    question_tag: "L2LITLP108Q2",
+   code: "3324",
+   title: "Eng Q108",
+   learner_question: "I am sleepy __ I will go to bed. \\r\\n1. because \\r\\n2. so \\r\\n3. but",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I am sleepy, so I will go to bed.",
+    incorrectAnswerResponse: "Incorrect. I am sleepy, so I will go to bed.",
+    set: 54
+    },
+
+  4163:{
+    question_tag: "L2MALP55QG",
+   code: "4163",
+   title: "Num Class Q1",
+   learner_question: "\\r\\n1. 0.3 \\r\\n2. 3/10 \\r\\n3. 310",
+    question: "Which is a decimal? Enter the number of the decimal.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Decimals come after a decimal point- 0.3 is a decimal.",
+    incorrectAnswerResponse: "Incorrect. Decimals come after a decimal point- 0.3 is a decimal.",
+    set: 1
+    },
+
+  4164:{
+    question_tag: "L2MALP55Q1",
+   code: "4164",
+   title: "Num Q1",
+   learner_question: ".4 ? .8 \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) .4 is less than .8",
+    incorrectAnswerResponse: "Incorrect. .4 is less than .8",
+    set: 1
+    },
+
+  4165:{
+    question_tag: "L2MALP55Q2",
+   code: "4165",
+   title: "Num Q2",
+   learner_question: ".5 ? 5/10 \\r\\n1. < 2 > \\r\\n3. =",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) .5 = 5/10",
+    incorrectAnswerResponse: "Incorrect. .5 = 5/10",
+    set: 1
+    },
+
+  4166:{
+    question_tag: "L2MALP56QG",
+   code: "4166",
+   title: "Num Class Q2",
+   learner_question: "100.678 \\r\\n1. 1 \\r\\n2. 7 \\r\\n3. 8",
+    question: "Which number is in the hundredths place? Enter the number that is in the hundredths place.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The hundredths place is the second number after the decimal point- .01",
+    incorrectAnswerResponse: "Incorrect. The hundredths place is the second number after the decimal point- .01",
+    set: 2
+    },
+
+  4167:{
+    question_tag: "L2MALP56Q1",
+   code: "4167",
+   title: "Num Q3",
+   learner_question: ".01 = ? \\r\\n1. 1/10 \\r\\n2. 1/100 \\r\\n3. 1",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) .01 = 1/100",
+    incorrectAnswerResponse: "Incorrect. .01 = 1/100",
+    set: 2
+    },
+
+  4168:{
+    question_tag: "L2MALP56Q2",
+   code: "4168",
+   title: "Num Q4",
+   learner_question: ".79 = ? \\r\\n1. 79/100 \\r\\n2. 7.9/100 \\r\\n3. 79",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) .79 = 79/100",
+    incorrectAnswerResponse: "Incorrect. .79 = 79/100",
+    set: 2
+    },
+
+  4169:{
+    question_tag: "L2MALP57QG",
+   code: "4169",
+   title: "Num Class Q3",
+   learner_question: "\\r\\n1. 0.38 \\r\\n2. 0.19 \\r\\n3. 0.42",
+    question: "Which is the largest number? Enter the number of the largest decimal.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 0.42 > 0.38 > 0.19",
+    incorrectAnswerResponse: "Incorrect. 0.42 > 0.38 > 0.19",
+    set: 3
+    },
+
+  4170:{
+    question_tag: "L2MALP57Q1",
+   code: "4170",
+   title: "Num Q5",
+   learner_question: ".2 ? .08 \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) .2 is more than .08",
+    incorrectAnswerResponse: "Incorrect. .2 is more than .08",
+    set: 3
+    },
+
+  4171:{
+    question_tag: "L2MALP57Q2",
+   code: "4171",
+   title: "Num Q6",
+   learner_question: ".18 ? .3 \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) .18 is less than .3",
+    incorrectAnswerResponse: "Incorrect. .18 is less than .3",
+    set: 3
+    },
+
+  4172:{
+    question_tag: "L2MALP58QG",
+   code: "4172",
+   title: "Num Class Q4",
+   learner_question: "\\r\\n1. \\r\\n3.45 \\r\\n2. \\r\\n3.29 \\r\\n3. 4.01",
+    question: "Which is the SMALLEST number? Enter the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 4.01 > 3.45 > 3.29",
+    incorrectAnswerResponse: "Incorrect. 4.01 > 3.45 > 3.29",
+    set: 4
+    },
+
+  4173:{
+    question_tag: "L2MALP58Q1",
+   code: "4173",
+   title: "Num Q7",
+   learner_question: "\\r\\n1.89 ? 0.99 \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1.89 > 0.99",
+    incorrectAnswerResponse: "Incorrect. 1.89 > 0.99",
+    set: 4
+    },
+
+  4174:{
+    question_tag: "L2MALP58Q2",
+   code: "4174",
+   title: "Num Q8",
+   learner_question: "\\r\\n1.78 ? \\r\\n3.01 \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1.78 is less than 3.01",
+    incorrectAnswerResponse: "Incorrect. 1.78 is less than 3.01",
+    set: 4
+    },
+
+  4175:{
+    question_tag: "L2MALP59QG",
+   code: "4175",
+   title: "Num Class Q5",
+   learner_question: "\\r\\n1. 2/3 \\r\\n2. \\r\\n1.07 \\r\\n3. 3 (3/10)",
+    question: "Which number is a mixed fraction? Enter the number of the mixed fraction.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 3 (3/10) is a mixed fraction.",
+    incorrectAnswerResponse: "Incorrect. 3 (3/10) is a mixed fraction.",
+    set: 5
+    },
+
+  4176:{
+    question_tag: "L2MALP59Q1",
+   code: "4176",
+   title: "Num Q9",
+   learner_question: "8.05 ? 8 (5/100) \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 8.05 = 8 (5/100)",
+    incorrectAnswerResponse: "Incorrect. 8.05 = 8 (5/100)",
+    set: 5
+    },
+
+  4177:{
+    question_tag: "L2MALP59Q2",
+   code: "4177",
+   title: "Num Q10",
+   learner_question: "\\r\\n2.21 ? 2 (2/100) \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 2.21 > 2 (2/100). 2(2/100) = 2.02",
+    incorrectAnswerResponse: "Incorrect. 2.21 > 2 (2/100). 2(2/100) = 2.02",
+    set: 5
+    },
+
+  4178:{
+    question_tag: "L2MALP60QG",
+   code: "4178",
+   title: "Num Class Q6",
+   learner_question: "\\r\\n1. 5.07 \\r\\n2. 5.26 \\r\\n3. 5.25",
+    question: "Write on the board: \\r\\n2.04 + \\r\\n3.21 Say: Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 2.04 + 3.21 = 5.25",
+    incorrectAnswerResponse: "Incorrect. 2.04 + 3.21 = 5.25",
+    set: 6
+    },
+
+  4179:{
+    question_tag: "L2MALP60Q1",
+   code: "4179",
+   title: "Num Q11",
+   learner_question: "\\r\\n3.45 + \\r\\n1.30 = ? \\r\\n1. 4.75 \\r\\n2. 4.48 \\r\\n3. 5.06",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 3.45 + 1.30 = 4.75",
+    incorrectAnswerResponse: "Incorrect. 3.45 + 1.30 = 4.75",
+    set: 6
+    },
+
+  4180:{
+    question_tag: "L2MALP60Q2",
+   code: "4180",
+   title: "Num Q12",
+   learner_question: "4.2 + 4.03 = ? \\r\\n1. 8.23 \\r\\n2. 8.05 \\r\\n3. 8.5",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 4.2 + 4.03 = 8.23",
+    incorrectAnswerResponse: "Incorrect. 4.2 + 4.03 = 8.23",
+    set: 6
+    },
+
+  4181:{
+    question_tag: "L2MALP61QG",
+   code: "4181",
+   title: "Num Class Q7",
+   learner_question: "\\r\\n1. \\r\\n3.4 \\r\\n2. \\r\\n3.14 \\r\\n3. \\r\\n3.04",
+    question: "Write on the board: 6.15 - \\r\\n3.11 Say: Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 6.15- 3.11 = 3.04",
+    incorrectAnswerResponse: "Incorrect. 6.15- 3.11 = 3.04",
+    set: 7
+    },
+
+  4182:{
+    question_tag: "L2MALP61Q1",
+   code: "4182",
+   title: "Num Q13",
+   learner_question: "10.10 - 8.08 = ? \\r\\n1. \\r\\n2.2 \\r\\n2. \\r\\n2.02 \\r\\n3. 0.22",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 10.10 - 8.08 = 2.02",
+    incorrectAnswerResponse: "Incorrect. 10.10 - 8.08 = 2.02",
+    set: 7
+    },
+
+  4183:{
+    question_tag: "L2MALP61Q2",
+   code: "4183",
+   title: "Num Q14",
+   learner_question: "\\r\\n2.1 - \\r\\n1.07 = ? \\r\\n1. \\r\\n1.3 \\r\\n2. \\r\\n2.3 \\r\\n3. \\r\\n1.03",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 2.1 - 1.07 = 1.03",
+    incorrectAnswerResponse: "Incorrect. 2.1 - 1.07 = 1.03",
+    set: 7
+    },
+
+  4184:{
+    question_tag: "L2MALP62QG",
+   code: "4184",
+   title: "Num Class Q8",
+   learner_question: "\\r\\n1. 8.3 lbs \\r\\n2. \\r\\n3.7 lbs \\r\\n3. \\r\\n3.25 lbs ",
+    question: "Jane has \\r\\n3.2 pounds of rice. She buys .5 more pounds of rice. How much rice does she have now.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 3.2 + 0.5 = 3.7 lbs",
+    incorrectAnswerResponse: "Incorrect. 3.2 + 0.5 = 3.7 lbs",
+    set: 8
+    },
+
+  4185:{
+    question_tag: "L2MALP62Q1",
+   code: "4185",
+   title: "Num Q15",
+   learner_question: "Sara has \\r\\n3.3 pounds of flour. She gives \\r\\n1.1 pounds to Jane. How much does Sara have now? \\r\\n1. \\r\\n2.2 lbs \\r\\n2. 4.4 lbs \\r\\n3. \\r\\n1.2 lbs",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 3.3 - 1.1 = 2.2",
+    incorrectAnswerResponse: "Incorrect. 3.3 - 1.1 = 2.2",
+    set: 8
+    },
+
+  4186:{
+    question_tag: "L2MALP62Q2",
+   code: "4186",
+   title: "Num Q16",
+   learner_question: "Flomo has $\\r\\n2.30 on his phone. He gets $\\r\\n1.05 more credit. How much does he have on his phone? \\r\\n1. $\\r\\n3.35 \\r\\n2. $\\r\\n3.25 \\r\\n3. $\\r\\n3.80",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 2.30 + 1.05 = 3.35",
+    incorrectAnswerResponse: "Incorrect. 2.30 + 1.05 = 3.35",
+    set: 8
+    },
+
+  4187:{
+    question_tag: "L2MALP63QG",
+   code: "4187",
+   title: "Num Class Q9",
+   learner_question: "\\r\\n1. 3/10 \\r\\n2. \\r\\n2.3 \\r\\n3. 35%",
+    question: "Which number is a percent? Enter the number of the percent.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) percent = %",
+    incorrectAnswerResponse: "Incorrect. percent = %",
+    set: 9
+    },
+
+  4188:{
+    question_tag: "L2MALP63Q1",
+   code: "4188",
+   title: "Num Q17",
+   learner_question: "23% ? 48% \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 23% is less than 48%",
+    incorrectAnswerResponse: "Incorrect. 23% is less than 48%",
+    set: 9
+    },
+
+  4189:{
+    question_tag: "L2MALP63Q2",
+   code: "4189",
+   title: "Num Q18",
+   learner_question: "Which = half? \\r\\n1. 25% \\r\\n2. 50% \\r\\n3. 100%",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 50% = half",
+    incorrectAnswerResponse: "Incorrect. 50% = half",
+    set: 9
+    },
+
+  4190:{
+    question_tag: "L2MALP64QG",
+   code: "4190",
+   title: "Num Class Q10",
+   learner_question: "\\r\\n1. 5/100 \\r\\n2. 5/10 \\r\\n3. 5/1",
+    question: "Which fraction is equal to 5% Enter the number of the answer equal to 5%.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 5% = 5/100. % = /100",
+    incorrectAnswerResponse: "Incorrect. 5% = 5/100. % = /100",
+    set: 10
+    },
+
+  4191:{
+    question_tag: "L2MALP64Q1",
+   code: "4191",
+   title: "Num Q19",
+   learner_question: ".51 ? 50% \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) .51 is more than 50%",
+    incorrectAnswerResponse: "Incorrect. .51 is more than 50%",
+    set: 10
+    },
+
+  4192:{
+    question_tag: "L2MALP64Q2",
+   code: "4192",
+   title: "Num Q20",
+   learner_question: "3% ? .3 \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 3% is less than .3. 3%= .03",
+    incorrectAnswerResponse: "Incorrect. 3% is less than .3. 3%= .03",
+    set: 10
+    },
+
+  4193:{
+    question_tag: "L2MALP65QG",
+   code: "4193",
+   title: "Num Class Q11",
+   learner_question: "\\r\\n1. 1/2 \\r\\n2. 20% \\r\\n3. \\r\\n2.0",
+    question: "Which is the SMALLEST number? Enter the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 20% < 1/2 < 2.0",
+    incorrectAnswerResponse: "Incorrect. 20% < 1/2 < 2.0",
+    set: 11
+    },
+
+  4194:{
+    question_tag: "L2MALP65Q1",
+   code: "4194",
+   title: "Num Q21",
+   learner_question: "8% = ? \\r\\n1. .8 \\r\\n2. .08 \\r\\n3. 8.0",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 8% = .08",
+    incorrectAnswerResponse: "Incorrect. 8% = .08",
+    set: 11
+    },
+
+  4195:{
+    question_tag: "L2MALP65Q2",
+   code: "4195",
+   title: "Num Q22",
+   learner_question: "5/10 = ? \\r\\n1. 5% \\r\\n2. 50% \\r\\n3. 0.5%",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 12/24 = 5/10 = 50%",
+    incorrectAnswerResponse: "Incorrect. 12/24 = 5/10 = 50%",
+    set: 11
+    },
+
+  4196:{
+    question_tag: "L2MALP66QG",
+   code: "4196",
+   title: "Num Class Q12",
+   learner_question: "\\r\\n1. 1/4 \\r\\n2. 2/3 \\r\\n3. 5/10",
+    question: "Which fraction is the same has 1/2? Enter the number of the fraction equal to 1/\\r\\n2.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1/2 = 5/10",
+    incorrectAnswerResponse: "Incorrect. 1/2 = 5/10",
+    set: 12
+    },
+
+  4197:{
+    question_tag: "L2MALP66Q1",
+   code: "4197",
+   title: "Num Q23",
+   learner_question: "3/5 = ? \\r\\n1. 5/3 \\r\\n2. 5/10 \\r\\n3. 9/15",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 9/15 = 3/5",
+    incorrectAnswerResponse: "Incorrect. 9/15 = 3/5",
+    set: 12
+    },
+
+  4198:{
+    question_tag: "L2MALP66Q2",
+   code: "4198",
+   title: "Num Q24",
+   learner_question: "12/24 = ? \\r\\n1. 1/2 \\r\\n2. 2/12 \\r\\n3. 1/3",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 12/24 = 1/2",
+    incorrectAnswerResponse: "Incorrect. 12/24 = 1/2",
+    set: 12
+    },
+
+  4199:{
+    question_tag: "L2MALP67QG",
+   code: "4199",
+   title: "Num Class Q13",
+   learner_question: "\\r\\n1. 6/8 \\r\\n2. 12/24 \\r\\n3. 1/3",
+    question: "Which answer is equal to 3/4? Enter the number of the answer equal to 3/4.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 6/8 = 3/4",
+    incorrectAnswerResponse: "Incorrect. 6/8 = 3/4",
+    set: 13
+    },
+
+  4200:{
+    question_tag: "L2MALP67Q1",
+   code: "4200",
+   title: "Num Q25",
+   learner_question: "9/10 = ? \\r\\n1. 9% \\r\\n2. 90% \\r\\n3. 0.9%",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 9/10 =90%",
+    incorrectAnswerResponse: "Incorrect. 9/10 =90%",
+    set: 13
+    },
+
+  4201:{
+    question_tag: "L2MALP67Q2",
+   code: "4201",
+   title: "Num Q26",
+   learner_question: "4% =? \\r\\n1. 4/10 \\r\\n2. 4.0 \\r\\n3. 4/100",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 4% = 4/100",
+    incorrectAnswerResponse: "Incorrect. 4% = 4/100",
+    set: 13
+    },
+
+  4202:{
+    question_tag: "L2MALP68QG",
+   code: "4202",
+   title: "Num Class Q14 ",
+   learner_question: "\\r\\n1. $\\r\\n3.75 \\r\\n2. $5.70 \\r\\n3. $\\r\\n3.525",
+    question: "Jane has $\\r\\n1.50. Her brother gives her $\\r\\n2.25. How much does she have now? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) $1.50 + $2.25 = 3.75",
+    incorrectAnswerResponse: "Incorrect. $1.50 + $2.25 = 3.75",
+    set: 14
+    },
+
+  4203:{
+    question_tag: "L2MALP68Q1",
+   code: "4203",
+   title: "Num Q27",
+   learner_question: "\\r\\n3.45 - \\r\\n2.01 = ? \\r\\n1. \\r\\n1.35 \\r\\n2. \\r\\n1.44 \\r\\n3. \\r\\n1.45",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 3.45 - 2.01 = 1.44",
+    incorrectAnswerResponse: "Incorrect. 3.45 - 2.01 = 1.44",
+    set: 14
+    },
+
+  4204:{
+    question_tag: "L2MALP68Q2",
+   code: "4204",
+   title: "Num Q28",
+   learner_question: "2/3 = ? \\r\\n1. 4/9 \\r\\n2. 12/24 \\r\\n3. 6/9",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 2/3 = 6/9",
+    incorrectAnswerResponse: "Incorrect. 2/3 = 6/9",
+    set: 14
+    },
+
+  4205:{
+    question_tag: "L2MALP69QG",
+   code: "4205",
+   title: "Num Class Q15",
+   learner_question: "\\r\\n1. triangle \\r\\n2. square \\r\\n3. circle",
+    question: "Which shape has NO angles? Enter the number of the shape with NO angles.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Circles have no angles.",
+    incorrectAnswerResponse: "Incorrect. Circles have no angles.",
+    set: 15
+    },
+
+  4206:{
+    question_tag: "L2MALP69Q1",
+   code: "4206",
+   title: "Num Q29",
+   learner_question: "Which lines touch each other? \\r\\n1. parallel lines \\r\\n2. intersecting lines \\r\\n3. interesting lines",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Intersecting lines cross.",
+    incorrectAnswerResponse: "Incorrect. Intersecting lines cross.",
+    set: 15
+    },
+
+  4207:{
+    question_tag: "L2MALP69Q2",
+   code: "4207",
+   title: "Num Q30",
+   learner_question: "Which shape has 4 right angles? \\r\\n1. triangle \\r\\n2. circle \\r\\n3. square",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A square has 4 right angles and 4 equal sides.",
+    incorrectAnswerResponse: "Incorrect. A square has 4 right angles and 4 equal sides.",
+    set: 15
+    },
+
+  4208:{
+    question_tag: "L2MALP70QG",
+   code: "4208",
+   title: "Num Class Q16",
+   learner_question: "\\r\\n1. Isosceles \\r\\n2. Scalene \\r\\n3. Equilateral",
+    question: "Which triangle has 3 equal sides? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Equilateral triangles have three equal sides.",
+    incorrectAnswerResponse: "Incorrect. Equilateral triangles have three equal sides.",
+    set: 16
+    },
+
+  4209:{
+    question_tag: "L2MALP70Q1",
+   code: "4209",
+   title: "Num Q31",
+   learner_question: "What is the bottom of a triangle called? \\r\\n1. base \\r\\n2. leg \\r\\n3. down",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) the bottom of a triangle is the base.",
+    incorrectAnswerResponse: "Incorrect. the bottom of a triangle is the base.",
+    set: 16
+    },
+
+  4210:{
+    question_tag: "L2MALP70Q2",
+   code: "4210",
+   title: "Num Q32",
+   learner_question: "Which triangle has NO equal sides? \\r\\n1. Isosceles \\r\\n2. Scalene \\r\\n3. Equilateral",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Scalene triangles have no equal sides.",
+    incorrectAnswerResponse: "Incorrect. Scalene triangles have no equal sides.",
+    set: 16
+    },
+
+  4211:{
+    question_tag: "L2MALP71QG",
+   code: "4211",
+   title: "Num Class Q17",
+   learner_question: "\\r\\n1. They must have 4 equal angles. \\r\\n2. They must have 4 equal sides. \\r\\n3. They must have 4 sides",
+    question: "How are squares the SAME as parallelograms? Enter the number of the way they are the same.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Squares and parallelograms must have 4 sides.",
+    incorrectAnswerResponse: "Incorrect. Squares and parallelograms must have 4 sides.",
+    set: 17
+    },
+
+  4212:{
+    question_tag: "L2MALP71Q1",
+   code: "4212",
+   title: "Num Q33",
+   learner_question: "Which shape are most books? \\r\\n1. rectangles \\r\\n2. squares \\r\\n3. parallelograms",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Most books are rectangles",
+    incorrectAnswerResponse: "Incorrect. Most books are rectangles",
+    set: 17
+    },
+
+  4213:{
+    question_tag: "L2MALP71Q2",
+   code: "4213",
+   title: "Num Q34",
+   learner_question: "All rectangles are ALSO: \\r\\n1. squares \\r\\n2. triangles \\r\\n3. quadrilaterals",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) All rectangles are also quadrilaterals.",
+    incorrectAnswerResponse: "Incorrect. All rectangles are also quadrilaterals.",
+    set: 17
+    },
+
+  4214:{
+    question_tag: "L2MALP72QG",
+   code: "4214",
+   title: "Num Class Q18",
+   learner_question: "\\r\\n1. 5 \\r\\n2. 4 \\r\\n3. 3",
+    question: "How many sides does a pentagon have? Enter the number of the correct answer on your phone.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Pentagons have 5 sides.",
+    incorrectAnswerResponse: "Incorrect. Pentagons have 5 sides.",
+    set: 18
+    },
+
+  4215:{
+    question_tag: "L2MALP72Q1",
+   code: "4215",
+   title: "Num Q35",
+   learner_question: "Which shape has 8 sides? \\r\\n1. rectangle \\r\\n2. Nonagon \\r\\n3. Octagon",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Octagons have 8 sides. Oct means 8.",
+    incorrectAnswerResponse: "Incorrect. Octagons have 8 sides. Oct means 8.",
+    set: 18
+    },
+
+  4216:{
+    question_tag: "L2MALP72Q2",
+   code: "4216",
+   title: "Num Q36",
+   learner_question: "Triangles and Squares are both: \\r\\n1. Rectangles \\r\\n2. Quadrilaterals \\r\\n3. Polygons",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Polygons are shapes with many sides.",
+    incorrectAnswerResponse: "Incorrect. Polygons are shapes with many sides.",
+    set: 18
+    },
+
+  4217:{
+    question_tag: "L2MALP73QG",
+   code: "4217",
+   title: "Num Class Q19",
+   learner_question: "\\r\\n1. Circumference \\r\\n2. Radius \\r\\n3. Diameter",
+    question: "What do we call the distance around the outside of a circle? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The circumference is the distance around the outside of a circle.",
+    incorrectAnswerResponse: "Incorrect. The circumference is the distance around the outside of a circle.",
+    set: 19
+    },
+
+  4218:{
+    question_tag: "L2MALP73Q1",
+   code: "4218",
+   title: "Num Q37",
+   learner_question: "The __ of a circle is 1/2 the diameter. \\r\\n1. radius \\r\\n2. circumference \\r\\n3. center",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The radius of a circle is 1/2 the diameter.",
+    incorrectAnswerResponse: "Incorrect. The radius of a circle is 1/2 the diameter.",
+    set: 19
+    },
+
+  4219:{
+    question_tag: "L2MALP73Q2",
+   code: "4219",
+   title: "Num Q38",
+   learner_question: "The radius of a circle is 2 inches. What is the diameter? \\r\\n1. 2 inches \\r\\n2. 4 inches \\r\\n3. 2 feet",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) If the radius is 2 inches, the diameter is 2X bigger- 4 inches.",
+    incorrectAnswerResponse: "Incorrect. If the radius is 2 inches, the diameter is 2X bigger- 4 inches.",
+    set: 19
+    },
+
+  4220:{
+    question_tag: "L2MALP74QG",
+   code: "4220",
+   title: "Num Class Q20",
+   learner_question: "\\r\\n1. A cone \\r\\n2. A sphere \\r\\n3. A pyramid",
+    question: "What shape is a ball? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Balls are spheres.",
+    incorrectAnswerResponse: "Incorrect. Balls are spheres.",
+    set: 20
+    },
+
+  4221:{
+    question_tag: "L2MALP74Q1",
+   code: "4221",
+   title: "Num Q39",
+   learner_question: "What geometric shape is a book? \\r\\n1. A cube \\r\\n2. A prism \\r\\n3. A sphere",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Books have the shape of prisms.",
+    incorrectAnswerResponse: "Incorrect. Books have the shape of prisms.",
+    set: 20
+    },
+
+  4222:{
+    question_tag: "L2MALP74Q2",
+   code: "4222",
+   title: "Num Q40",
+   learner_question: "What shape is a tin can? \\r\\n1. A cube \\r\\n2. A pyramid \\r\\n3. A cylinder",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Tin cans are cylinders, as are rolls of toilet paper or paper towels.",
+    incorrectAnswerResponse: "Incorrect. Tin cans are cylinders, as are rolls of toilet paper or paper towels.",
+    set: 20
+    },
+
+  4223:{
+    question_tag: "L2MALP75QG",
+   code: "4223",
+   title: "Num Class Q21",
+   learner_question: "\\r\\n1. A cone \\r\\n2. A sphere \\r\\n3. A pyramid",
+    question: "What shape is the earth we live on? Enter the number of the correct shape.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The Earth is a sphere.",
+    incorrectAnswerResponse: "Incorrect. The Earth is a sphere.",
+    set: 21
+    },
+
+  4224:{
+    question_tag: "L2MALP75Q1",
+   code: "4224",
+   title: "Num Q41",
+   learner_question: "What shape is a flag? \\r\\n1. rectangle \\r\\n2. cube \\r\\n3. triangle",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) A flag is a rectangle.",
+    incorrectAnswerResponse: "Incorrect. A flag is a rectangle.",
+    set: 21
+    },
+
+  4225:{
+    question_tag: "L2MALP75Q2",
+   code: "4225",
+   title: "Num Q42",
+   learner_question: "Which shape has a circumference? \\r\\n1. A triangle \\r\\n2. A parallelogram \\r\\n3. a circle",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A circumference is the length around a circle.",
+    incorrectAnswerResponse: "Incorrect. A circumference is the length around a circle.",
+    set: 21
+    },
+
+  4226:{
+    question_tag: "L2MALP76QG",
+   code: "4226",
+   title: "Num Class Q22",
+   learner_question: "\\r\\n1. meter \\r\\n2. millimeter \\r\\n3. centimeter",
+    question: "Which is the smallest unit? Enter the number of the smallest unit.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Meter > Centimeter > Millimeter",
+    incorrectAnswerResponse: "Incorrect. Meter > Centimeter > Millimeter",
+    set: 22
+    },
+
+  4227:{
+    question_tag: "L2MALP76Q1",
+   code: "4227",
+   title: "Num Q43",
+   learner_question: "There are __ centimeters in a meter. \\r\\n1. 10 \\r\\n2. 100 \\r\\n3. 1000",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) There are 100 centimeters in 1 meter. Cent= 100",
+    incorrectAnswerResponse: "Incorrect. There are 100 centimeters in 1 meter. Cent= 100",
+    set: 22
+    },
+
+  4228:{
+    question_tag: "L2MALP76Q2",
+   code: "4228",
+   title: "Num Q44",
+   learner_question: "There are __ millimeters in a meter. \\r\\n1. 10 \\r\\n2. 100 \\r\\n3. 1000",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) There are 1000 millimeters in 1 meter.",
+    incorrectAnswerResponse: "Incorrect. There are 1000 millimeters in 1 meter.",
+    set: 22
+    },
+
+  4229:{
+    question_tag: "L2MALP77QG",
+   code: "4229",
+   title: "Num Class Q23",
+   learner_question: "\\r\\n1. 5 meters \\r\\n2. 600 centimeters \\r\\n3. 5000 millimeters",
+    question: "Which is the longest line? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 600cm > 5m > 5000mm",
+    incorrectAnswerResponse: "Incorrect. 600cm > 5m > 5000mm",
+    set: 23
+    },
+
+  4230:{
+    question_tag: "L2MALP77Q1",
+   code: "4230",
+   title: "Num Q45",
+   learner_question: "A door is about 220___ high. \\r\\n1. meters \\r\\n2. centimeters \\r\\n3. millimeters",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A door is about 220 centimeters high.",
+    incorrectAnswerResponse: "Incorrect. A door is about 220 centimeters high.",
+    set: 23
+    },
+
+  4231:{
+    question_tag: "L2MALP77Q2",
+   code: "4231",
+   title: "Num Q46",
+   learner_question: "There are 25.4 ___ in an inch. \\r\\n1. meters \\r\\n2. centimeters \\r\\n3. millimeters",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) There are 25.4 mm in an inch.",
+    incorrectAnswerResponse: "Incorrect. There are 25.4 mm in an inch.",
+    set: 23
+    },
+
+  4232:{
+    question_tag: "L2MALP78QG",
+   code: "4232",
+   title: "Num Class Q24",
+   learner_question: "\\r\\n1. Grams \\r\\n2. Ounces \\r\\n3. Pounds",
+    question: "Which measure is used for weight in the metric system? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Grams are a measure of weight in the metric system.",
+    incorrectAnswerResponse: "Incorrect. Grams are a measure of weight in the metric system.",
+    set: 24
+    },
+
+  4233:{
+    question_tag: "L2MALP78Q1",
+   code: "4233",
+   title: "Num Q47",
+   learner_question: "3lbs ? 2 kg? \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 3lbs < 2kg. 2kg= ~4 lbs",
+    incorrectAnswerResponse: "Incorrect. 3lbs < 2kg. 2kg= ~4 lbs",
+    set: 24
+    },
+
+  4234:{
+    question_tag: "L2MALP78Q2",
+   code: "4234",
+   title: "Num Q48",
+   learner_question: "3 ounces ? 2 pounds \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Ounces are a smaller unit than pounds. There are 16 oz in 1 lb.",
+    incorrectAnswerResponse: "Incorrect. Ounces are a smaller unit than pounds. There are 16 oz in 1 lb.",
+    set: 24
+    },
+
+  4235:{
+    question_tag: "L2MALP79QG",
+   code: "4235",
+   title: "Num Class Q25",
+   learner_question: "\\r\\n1. Gallons \\r\\n2. Pints \\r\\n3. Liters",
+    question: "How is volume measured in the metric system? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) In the metric system, volume is measured in liters.",
+    incorrectAnswerResponse: "Incorrect. In the metric system, volume is measured in liters.",
+    set: 25
+    },
+
+  4236:{
+    question_tag: "L2MALP79Q1",
+   code: "4236",
+   title: "Num Q49",
+   learner_question: "1 liter = ?ml \\r\\n1. 10 \\r\\n2. 100 \\r\\n3. 1000",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1 liter = 1000 milliliters",
+    incorrectAnswerResponse: "Incorrect. 1 liter = 1000 milliliters",
+    set: 25
+    },
+
+  4237:{
+    question_tag: "L2MALP79Q2",
+   code: "4237",
+   title: "Num Q50",
+   learner_question: "1 Liter = ~___ \\r\\n1. 1 Gallon \\r\\n2. 1 Pint \\r\\n3. 1 Cup",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1 Liter is about the same as one pint.",
+    incorrectAnswerResponse: "Incorrect. 1 Liter is about the same as one pint.",
+    set: 25
+    },
+
+  4238:{
+    question_tag: "L2MALP80QG",
+   code: "4238",
+   title: "Num Class Q26",
+   learner_question: "\\r\\n1. 5 pencils \\r\\n2. 9 pencils \\r\\n3. 20 pencils",
+    question: "You have 4 bags. In each bag you have 5 pencils. How many pencils do you have?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 4 x 5 = 20 pencils",
+    incorrectAnswerResponse: "Incorrect. 4 x 5 = 20 pencils",
+    set: 26
+    },
+
+  4239:{
+    question_tag: "L2MALP80Q1",
+   code: "4239",
+   title: "Num Q51",
+   learner_question: "A school has 4 classes. There are 10 students in each class. How many students are there? \\r\\n1. 40 \\r\\n2. 14 \\r\\n3. 10",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 4 x 10 = 40 students",
+    incorrectAnswerResponse: "Incorrect. 4 x 10 = 40 students",
+    set: 26
+    },
+
+  4240:{
+    question_tag: "L2MALP80Q2",
+   code: "4240",
+   title: "Num Q52",
+   learner_question: "How many fingers do 3 children have all together? \\r\\n1. 10 \\r\\n2. 3 \\r\\n3. 30",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1 child has 10 fingers. 3 children have 30 fingers.",
+    incorrectAnswerResponse: "Incorrect. 1 child has 10 fingers. 3 children have 30 fingers.",
+    set: 26
+    },
+
+  4241:{
+    question_tag: "L2MALP81QG",
+   code: "4241",
+   title: "Num Class Q27",
+   learner_question: "\\r\\n1. diameter \\r\\n2. perimeter \\r\\n3. polygon",
+    question: "What do we call the distance around a shape? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The perimeter is the distance around a shape.",
+    incorrectAnswerResponse: "Incorrect. The perimeter is the distance around a shape.",
+    set: 27
+    },
+
+  4242:{
+    question_tag: "L2MALP81Q1",
+   code: "4242",
+   title: "Num Q53",
+   learner_question: "A triangle has 3 equal sides. Each side is 4 inches. What is the perimeter? \\r\\n1. 4 inches \\r\\n2. 12 inches \\r\\n3. 7 inches",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 3 x 4 = 12 inches",
+    incorrectAnswerResponse: "Incorrect. 3 x 4 = 12 inches",
+    set: 27
+    },
+
+  4243:{
+    question_tag: "L2MALP81Q2",
+   code: "4243",
+   title: "Num Q54",
+   learner_question: "A square has a side that is 2 inches long. What is the perimeter of the square? \\r\\n1. 8 inches \\r\\n2. 4 inches \\r\\n3. 2 inches",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 2 +2 +2 +2= 8 inches",
+    incorrectAnswerResponse: "Incorrect. 2 +2 +2 +2= 8 inches",
+    set: 27
+    },
+
+  4244:{
+    question_tag: "L2MALP82QG",
+   code: "4244",
+   title: "Num Class Q28",
+   learner_question: "\\r\\n1. 5 inches \\r\\n2. 6 inches \\r\\n3. 10 inches",
+    question: "A rectangle has sides of 2 inches and 3 inches. What is the perimeter of the rectangle? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) (2 x 2) + (2 x 3) = 10",
+    incorrectAnswerResponse: "Incorrect. (2 x 2) + (2 x 3) = 10",
+    set: 28
+    },
+
+  4245:{
+    question_tag: "L2MALP82Q1",
+   code: "4245",
+   title: "Num Q55",
+   learner_question: "A square has sides that are 5 inches long. What is the perimeter? \\r\\n1. 5 inches \\r\\n2. 10 inches \\r\\n3. 20 inches",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 5 x 4 = 20 inches",
+    incorrectAnswerResponse: "Incorrect. 5 x 4 = 20 inches",
+    set: 28
+    },
+
+  4246:{
+    question_tag: "L2MALP82Q2",
+   code: "4246",
+   title: "Num Q56",
+   learner_question: "A rectangle has sides of 2 inches and 10 inches. What is the perimeter? \\r\\n1. 24 inches \\r\\n2. 20 inches \\r\\n2. 12 inches",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) (2x2) + (2x10)=24",
+    incorrectAnswerResponse: "Incorrect. (2x2) + (2x10)=24",
+    set: 28
+    },
+
+  4247:{
+    question_tag: "L2MALP83QG",
+   code: "4247",
+   title: "Num Class Q29",
+   learner_question: "\\r\\n1. 6 feet \\r\\n2. 10 feet \\r\\n3. 12 feet",
+    question: "A desk is 2 feet wide and 3 feet long. What is the perimeter of the desk?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) (2 x 2) + (2 x 3) = 10 feet",
+    incorrectAnswerResponse: "Incorrect. (2 x 2) + (2 x 3) = 10 feet",
+    set: 29
+    },
+
+  4248:{
+    question_tag: "L2MALP83Q1",
+   code: "4248",
+   title: "Num Q57",
+   learner_question: "A book is 6 inches long and 4 inches wide. What is the perimeter of the book? \\r\\n1. 20 inches \\r\\n2. 10 inches \\r\\n3. 24 inches",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) (6x2) + (2x4)= 20 inches",
+    incorrectAnswerResponse: "Incorrect. (6x2) + (2x4)= 20 inches",
+    set: 29
+    },
+
+  4249:{
+    question_tag: "L2MALP83Q2",
+   code: "4249",
+   title: "Num Q58",
+   learner_question: "Ben has a square paper. One side is 10 inches. What Is the perimeter of the paper? \\r\\n1. 10 inches \\r\\n2. 40 inches \\r\\n3. 100 inches",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 10 x 4 = 40 inches",
+    incorrectAnswerResponse: "Incorrect. 10 x 4 = 40 inches",
+    set: 29
+    },
+
+  4250:{
+    question_tag: "L2MALP84QG",
+   code: "4250",
+   title: "Num Class Q30",
+   learner_question: "\\r\\n1. perimeter \\r\\n2. circumference \\r\\n3. area",
+    question: "What do we call in the size of a surface inside a flat shape? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Area is the size of the surface of a flat surface.",
+    incorrectAnswerResponse: "Incorrect. Area is the size of the surface of a flat surface.",
+    set: 30
+    },
+
+  4251:{
+    question_tag: "L2MALP84Q1",
+   code: "4251",
+   title: "Num Q59",
+   learner_question: "How can knowing \'area\' help you? \\r\\n1. If you want to build a floor for a room. \\r\\n2. If you want to bake \\r\\n3. You want to make a fence around a yard.",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Area is the size of the surface of a flat surface. If you want to make a floor, you need to know the area of a room.",
+    incorrectAnswerResponse: "Incorrect. Area is the size of the surface of a flat surface. If you want to make a floor, you need to know the area of a room.",
+    set: 30
+    },
+
+  4252:{
+    question_tag: "L2MALP84Q2",
+   code: "4252",
+   title: "Num Q60",
+   learner_question: "A window is square. The window is 3 feet tall. What is the perimeter of the window. \\r\\n1. 6 feet \\r\\n2. 9 feet \\r\\n3. 12 feet",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 3 x 4= 12 feet",
+    incorrectAnswerResponse: "Incorrect. 3 x 4= 12 feet",
+    set: 30
+    },
+
+  4253:{
+    question_tag: "L2MALP85QG",
+   code: "4253",
+   title: "Num Class Q31",
+   learner_question: "\\r\\n1. w + w + l + l \\r\\n2. l x w \\r\\n3. 2w + 2l",
+    question: "How do we calculate the area of rectangles? Enter the number of the correct formula.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) We multiply length times width to find the area of a rectangle.",
+    incorrectAnswerResponse: "Incorrect. We multiply length times width to find the area of a rectangle.",
+    set: 31
+    },
+
+  4254:{
+    question_tag: "L2MALP85Q1",
+   code: "4254",
+   title: "Num Q61",
+   learner_question: "A flag is 2 feet wide and 3 feet long. What is the area of the flag? \\r\\n1. 6 feet \\r\\n2. 10 feet \\r\\n3. 12 feet",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 2 x 3 = 6 feet",
+    incorrectAnswerResponse: "Incorrect. 2 x 3 = 6 feet",
+    set: 31
+    },
+
+  4255:{
+    question_tag: "L2MALP85Q2",
+   code: "4255",
+   title: "Num Q62",
+   learner_question: "A paper is 8 inches long and 4 inches wide. What is the area of the paper? \\r\\n1. 12 inches \\r\\n2. 24 inches \\r\\n3. 32 inches",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 4 x 8= 32 inches",
+    incorrectAnswerResponse: "Incorrect. 4 x 8= 32 inches",
+    set: 31
+    },
+
+  4256:{
+    question_tag: "L2MALP86QG",
+   code: "4256",
+   title: "Num Class Q32",
+   learner_question: "\\r\\n1. perimeter \\r\\n2. circumference \\r\\n3. area",
+    question: "You want to build a fence around a yard. What measure do you want to know? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) A fence goes around a yard. Perimeter tells the distance around a shape.",
+    incorrectAnswerResponse: "Incorrect. A fence goes around a yard. Perimeter tells the distance around a shape.",
+    set: 32
+    },
+
+  4257:{
+    question_tag: "L2MALP86Q1",
+   code: "4257",
+   title: "Num Q63",
+   learner_question: "What is the area of a square that is 6 inches long. \\r\\n1. 12 inches \\r\\n2. 24 inches \\r\\n3. 36 inches",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 6x6 = 36 inches",
+    incorrectAnswerResponse: "Incorrect. 6x6 = 36 inches",
+    set: 32
+    },
+
+  4258:{
+    question_tag: "L2MALP86Q2",
+   code: "4258",
+   title: "Num Q64",
+   learner_question: "A room is 7 feet by 10 feet. What is the area of the room? \\r\\n1. 70 feet \\r\\n2. 34 feet \\r\\n3. 17 feet",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 7 x 10 = 70 feet",
+    incorrectAnswerResponse: "Incorrect. 7 x 10 = 70 feet",
+    set: 32
+    },
+
+  4259:{
+    question_tag: "L2MALP87QG",
+   code: "4259",
+   title: "Num Class Q33",
+   learner_question: "\\r\\n1. perimeter \\r\\n2. circumference \\r\\n3. area",
+    question: "You want to buy cloth to cover a table. What measure do you want to know? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) You want to cover the surface area of the table.",
+    incorrectAnswerResponse: "Incorrect. You want to cover the surface area of the table.",
+    set: 33
+    },
+
+  4260:{
+    question_tag: "L2MALP87Q1",
+   code: "4260",
+   title: "Num Q65",
+   learner_question: "What is the perimeter of a square 3 inches wide? \\r\\n1. 12 inches \\r\\n2. 9 inches \\r\\n3. 6 inches",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 3 +3 +3 +3= 12 inches",
+    incorrectAnswerResponse: "Incorrect. 3 +3 +3 +3= 12 inches",
+    set: 33
+    },
+
+  4261:{
+    question_tag: "L2MALP87Q2",
+   code: "4261",
+   title: "Num Q66",
+   learner_question: "What is the area of a floor 10 feet by 11 feet? \\r\\n1. 21 feet \\r\\n2. 42 feet \\r\\n3. 110 feet",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 10 x 11= 110 feet",
+    incorrectAnswerResponse: "Incorrect. 10 x 11= 110 feet",
+    set: 33
+    },
+
+  4262:{
+    question_tag: "L2MALP88QG",
+   code: "4262",
+   title: "Num Class Q34",
+   learner_question: "\\r\\n1. perimeter \\r\\n2. circumference \\r\\n3. area",
+    question: "You want to buy a rug for a room. What measure do you want to know? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) You want to cover the surface area of the room.",
+    incorrectAnswerResponse: "Incorrect. You want to cover the surface area of the room.",
+    set: 34
+    },
+
+  4263:{
+    question_tag: "L2MALP88Q1",
+   code: "4263",
+   title: "Num Q67",
+   learner_question: "A cell phone is 4 inches by 3 inches. What is the perimeter of the phone? \\r\\n1. 24 inches \\r\\n2. 14 inches \\r\\n1. 12 inches",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) (2x3) + (2x4)=14",
+    incorrectAnswerResponse: "Incorrect. (2x3) + (2x4)=14",
+    set: 34
+    },
+
+  4264:{
+    question_tag: "L2MALP88Q2",
+   code: "4264",
+   title: "Num Q68",
+   learner_question: "What is the area of a garden that is 3 feet by 12 feet? \\r\\n1. 48 feet \\r\\n2. 36 feet \\r\\n3. 30 feet",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 3 x 12 = 36 feet",
+    incorrectAnswerResponse: "Incorrect. 3 x 12 = 36 feet",
+    set: 34
+    },
+
+  4265:{
+    question_tag: "L2MALP89QG",
+   code: "4265",
+   title: "Num Class Q35",
+   learner_question: "\\r\\n1. Circumference \\r\\n2. Radius \\r\\n3. Diameter",
+    question: "What do we call the width of a circle?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The widest width of a circle is the diameter",
+    incorrectAnswerResponse: "Incorrect. The widest width of a circle is the diameter",
+    set: 35
+    },
+
+  4266:{
+    question_tag: "L2MALP89Q1",
+   code: "4266",
+   title: "Num Q69",
+   learner_question: "1 cm ? 1 mm \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1 cm is larger than 1 centimeter",
+    incorrectAnswerResponse: "Incorrect. 1 cm is larger than 1 centimeter",
+    set: 35
+    },
+
+  4267:{
+    question_tag: "L2MALP89Q2",
+   code: "4267",
+   title: "Num Q70",
+   learner_question: "The __ of a circle is 1/2 the diameter. \\r\\n1. radius \\r\\n2. circumference \\r\\n3. center",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The radius of a circle is 1/2 the diameter.",
+    incorrectAnswerResponse: "Incorrect. The radius of a circle is 1/2 the diameter.",
+    set: 35
+    },
+
+  4268:{
+    question_tag: "L2MALP90QG",
+   code: "4268",
+   title: "Num Class Q36",
+   learner_question: "\\r\\n1. A book \\r\\n2. A ball \\r\\n3. A pencil",
+    question: "Which object is a sphere? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A ball is a sphere",
+    incorrectAnswerResponse: "Incorrect. A ball is a sphere",
+    set: 36
+    },
+
+  4269:{
+    question_tag: "L2MALP90Q1",
+   code: "4269",
+   title: "Num Q71",
+   learner_question: "1 liter ? 1 gallon \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) A liter is less than a gallon.",
+    incorrectAnswerResponse: "Incorrect. A liter is less than a gallon.",
+    set: 36
+    },
+
+  4270:{
+    question_tag: "L2MALP90Q2",
+   code: "4270",
+   title: "Num Q72",
+   learner_question: "1 m = ? Cm \\r\\n1. 10 \\r\\n2. 100 \\r\\n3. 1000",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 100 centimeters = 1 meter",
+    incorrectAnswerResponse: "Incorrect. 100 centimeters = 1 meter",
+    set: 36
+    },
+
+  4271:{
+    question_tag: "L2MALP91QG",
+   code: "4271",
+   title: "Num Class Q37",
+   learner_question: "\\r\\n1. The class always has 12 pupils. \\r\\n2. The class can have as many as 12 pupils. \\r\\n3. 12 is the best guess of how many students will be in class.",
+    question: "If a class has an average of 12 students, what does that mean? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) An average is often the \'usual\' measure of something.",
+    incorrectAnswerResponse: "Incorrect. An average is often the \'usual\' measure of something.",
+    set: 37
+    },
+
+  4272:{
+    question_tag: "L2MALP91Q1",
+   code: "4272",
+   title: "Num Q73",
+   learner_question: "Five students scored 80% on a test. Five students scored 100% on a test. What is the average score? \\r\\n1. 80% \\r\\n2. 90% \\r\\n3. 100%",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 180/2= 90%",
+    incorrectAnswerResponse: "Incorrect. 180/2= 90%",
+    set: 37
+    },
+
+  4273:{
+    question_tag: "L2MALP91Q2",
+   code: "4273",
+   title: "Num Q74",
+   learner_question: "What is the average of 3,4 and 5? \\r\\n1. 12 \\r\\n2. 345 \\r\\n3. 4",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) (3+4+5)/3 = 4",
+    incorrectAnswerResponse: "Incorrect. (3+4+5)/3 = 4",
+    set: 37
+    },
+
+  4274:{
+    question_tag: "L2MALP92QG",
+   code: "4274",
+   title: "Num Class Q38",
+   learner_question: "\\r\\n1. To see the number of men and women in a class. \\r\\n2. To find the distance to Monrovia \\r\\n3. To see how a class scored on a test",
+    question: "Which is a use for an \'average\'? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The class score is an average of the pupil scores.",
+    incorrectAnswerResponse: "Incorrect. The class score is an average of the pupil scores.",
+    set: 38
+    },
+
+  4275:{
+    question_tag: "L2MALP92Q1",
+   code: "4275",
+   title: "Num Q75",
+   learner_question: "What is the average of 4, 6 and 8? \\r\\n1. 6 \\r\\n2. 18 \\r\\n3. 24",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) (4+6+8)/3=6",
+    incorrectAnswerResponse: "Incorrect. (4+6+8)/3=6",
+    set: 38
+    },
+
+  4276:{
+    question_tag: "L2MALP92Q2",
+   code: "4276",
+   title: "Num Q76",
+   learner_question: "What is the average of 12, 15 and 21? \\r\\n1. 15 \\r\\n2. 16 \\r\\n3. 48",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) (12+15+21)/3 =16",
+    incorrectAnswerResponse: "Incorrect. (12+15+21)/3 =16",
+    set: 38
+    },
+
+  4277:{
+    question_tag: "L2MALP93QG",
+   code: "4277",
+   title: "Num Class Q39",
+   learner_question: "\\r\\n1. A bar graph \\r\\n2. A circle graph \\r\\n3. A line graph",
+    question: "Which graph would be useful to test scores by school? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) A bar graph is useful for showing different groups.",
+    incorrectAnswerResponse: "Incorrect. A bar graph is useful for showing different groups.",
+    set: 39
+    },
+
+  4278:{
+    question_tag: "L2MALP93Q1",
+   code: "4278",
+   title: "Num Q77",
+   learner_question: "Which graph shows changes over time? \\r\\n1. A bar graph \\r\\n2. A circle graph \\r\\n3. A line graph",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A line graph shows changes over time.",
+    incorrectAnswerResponse: "Incorrect. A line graph shows changes over time.",
+    set: 39
+    },
+
+  4279:{
+    question_tag: "L2MALP93Q2",
+   code: "4279",
+   title: "Num Q78",
+   learner_question: "Which graph is useful for showing parts of a whole? \\r\\n1. A bar graph \\r\\n2. A circle graph \\r\\n3. A line graph",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Circle graphs show percent or parts in a whole.",
+    incorrectAnswerResponse: "Incorrect. Circle graphs show percent or parts in a whole.",
+    set: 39
+    },
+
+  4280:{
+    question_tag: "L2MALP94QG",
+   code: "4280",
+   title: "Num Class Q40",
+   learner_question: "\\r\\n1. A bar graph \\r\\n2. A circle graph \\r\\n3. A line graph",
+    question: "Jane wants to see if her marks are going up or down over the year. What graph is most useful for her?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A line graph shows changes over time.",
+    incorrectAnswerResponse: "Incorrect. A line graph shows changes over time.",
+    set: 40
+    },
+
+  4281:{
+    question_tag: "L2MALP94Q1",
+   code: "4281",
+   title: "Num Q79",
+   learner_question: "A cell phone is 2 inches by 3 inches. What is the perimeter of the phone? \\r\\n1. 10 inches \\r\\n2. 8 inches \\r\\n1. 6 inches",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) (2x2) + (2x3)=10",
+    incorrectAnswerResponse: "Incorrect. (2x2) + (2x3)=10",
+    set: 40
+    },
+
+  4282:{
+    question_tag: "L2MALP94Q2",
+   code: "4282",
+   title: "Num Q80",
+   learner_question: "What is the area of a garden that is 4 feet by 12 feet? \\r\\n1. 48 feet \\r\\n2. 36 feet \\r\\n3. 30 feet",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 4 x 12 = 48 feet",
+    incorrectAnswerResponse: "Incorrect. 4 x 12 = 48 feet",
+    set: 40
+    },
+
+  4283:{
+    question_tag: "L2MALP95QG",
+   code: "4283",
+   title: "Num Class Q41",
+   learner_question: "\\r\\n1. A bar graph \\r\\n2. A circle graph \\r\\n3. A line graph",
+    question: "50% of the class likes red. 25% likes yellow. 25% likes blue. What graph would show this well? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Circle graphs show percent or parts in a whole.",
+    incorrectAnswerResponse: "Incorrect. Circle graphs show percent or parts in a whole.",
+    set: 41
+    },
+
+  4284:{
+    question_tag: "L2MALP95Q1",
+   code: "4284",
+   title: "Num Q81",
+   learner_question: "A bar graph shows rain by month. Where are the units of rain shown on the graph? \\r\\n1. on the left \\r\\n2. on the bottom \\r\\n3. on the right",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Units of measure are shown on the left of a bar graph.",
+    incorrectAnswerResponse: "Incorrect. Units of measure are shown on the left of a bar graph.",
+    set: 41
+    },
+
+  4285:{
+    question_tag: "L2MALP95Q2",
+   code: "4285",
+   title: "Num Q82",
+   learner_question: "A bar graph shows rain by month. Where are the months shown on the graph? \\r\\n1. on the left \\r\\n2. on the bottom \\r\\n3. on the right",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Groups are usually shown on the bottom of a bar graph.",
+    incorrectAnswerResponse: "Incorrect. Groups are usually shown on the bottom of a bar graph.",
+    set: 41
+    },
+
+  4286:{
+    question_tag: "L2MALP96QG",
+   code: "4286",
+   title: "Num Class Q42",
+   learner_question: "\\r\\n1. Meat \\r\\n2. Fruit \\r\\n3. Rice",
+    question: "Which is an \'energy food? Enter the number of the energy food?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Rice is an energy food.",
+    incorrectAnswerResponse: "Incorrect. Rice is an energy food.",
+    set: 42
+    },
+
+  4287:{
+    question_tag: "L2MALP96Q1",
+   code: "4287",
+   title: "Num Q83",
+   learner_question: "Which is a body building food? \\r\\n1. Beans \\r\\n2. Potatoes \\r\\n3. cabbage",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Beans are body building foods.",
+    incorrectAnswerResponse: "Incorrect. Beans are body building foods.",
+    set: 42
+    },
+
+  4288:{
+    question_tag: "L2MALP96Q2",
+   code: "4288",
+   title: "Num Q84",
+   learner_question: "What kind of food are carrots? \\r\\n1. Body building \\r\\n2. Energy \\r\\n3. Protective",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Carrots are protective foods.",
+    incorrectAnswerResponse: "Incorrect. Carrots are protective foods.",
+    set: 42
+    },
+
+  4289:{
+    question_tag: "L2MALP97QG",
+   code: "4289",
+   title: "Num Class Q43",
+   learner_question: "\\r\\n1. tomatoes \\r\\n2. beans \\r\\n3. potatoes",
+    question: "What body building food can you grow in a garden? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Beans are body building foods.",
+    incorrectAnswerResponse: "Incorrect. Beans are body building foods.",
+    set: 43
+    },
+
+  4290:{
+    question_tag: "L2MALP97Q1",
+   code: "4290",
+   title: "Num Q85",
+   learner_question: "Jane\'s garden is 5 meters by 6 meters. What is the area of the garden? \\r\\n1. 11 meters \\r\\n2. 22 meters \\r\\n3. 30 meters",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 5 x 6= 30 meters",
+    incorrectAnswerResponse: "Incorrect. 5 x 6= 30 meters",
+    set: 43
+    },
+
+  4291:{
+    question_tag: "L2MALP97Q2",
+   code: "4291",
+   title: "Num Q86",
+   learner_question: "Jane\'s garden is 5 meters by 6 meters. How long of a fence does she need to close it off? \\r\\n1. 11 meters \\r\\n2. 22 meters \\r\\n3. 30 meters",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) (2x5) +(2x6)=22 meters",
+    incorrectAnswerResponse: "Incorrect. (2x5) +(2x6)=22 meters",
+    set: 43
+    },
+
+  4292:{
+    question_tag: "L2MALP98QG",
+   code: "4292",
+   title: "Num Class Q44",
+   learner_question: "\\r\\n1. Energy giving \\r\\n2. Body building \\r\\n3. Protective",
+    question: "What kind of food are potatoes? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Potatoes are energy giving foods",
+    incorrectAnswerResponse: "Incorrect. Potatoes are energy giving foods",
+    set: 44
+    },
+
+  4293:{
+    question_tag: "L2MALP98Q1",
+   code: "4293",
+   title: "Num Q87",
+   learner_question: "Flomo has a fence around her garden. The garden is a square. One side is 3 m. How long is the fence? \\r\\n1. 6 meters \\r\\n2. 9 meters \\r\\n3. 12 meters",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 3+3+3+3= 12m",
+    incorrectAnswerResponse: "Incorrect. 3+3+3+3= 12m",
+    set: 44
+    },
+
+  4294:{
+    question_tag: "L2MALP98Q2",
+   code: "4294",
+   title: "Num Q88",
+   learner_question: "Dan has a garden 8 ft by 10 ft. What is the area of his garden? \\r\\n1. 80 ft \\r\\n2. 36 ft \\r\\n3. 18ft",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 8x10= 80 ft",
+    incorrectAnswerResponse: "Incorrect. 8x10= 80 ft",
+    set: 44
+    },
+
+  4295:{
+    question_tag: "L2MALP99QG",
+   code: "4295",
+   title: "Num Class Q45",
+   learner_question: "\\r\\n1. An expense \\r\\n2. Expensive \\r\\n3. An income",
+    question: "What do we call something we spend money on? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) An expense is something we spend money on.",
+    incorrectAnswerResponse: "Incorrect. An expense is something we spend money on.",
+    set: 45
+    },
+
+  4296:{
+    question_tag: "L2MALP99Q1",
+   code: "4296",
+   title: "Num Q89",
+   learner_question: "___ means managing money. \\r\\n1. Economy \\r\\n2. Finance \\r\\n3. Expenditures",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Finance means managing money.",
+    incorrectAnswerResponse: "Incorrect. Finance means managing money.",
+    set: 45
+    },
+
+  4297:{
+    question_tag: "L2MALP99Q2",
+   code: "4297",
+   title: "Num Q90",
+   learner_question: "___ finance is the money we make and spend ourselves. \\r\\n1. Weekly \\r\\n2. Personal \\r\\n3. National",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Personal finances are the money we make and spend.",
+    incorrectAnswerResponse: "Incorrect. Personal finances are the money we make and spend.",
+    set: 45
+    },
+
+  4298:{
+    question_tag: "L2MALP100QG",
+   code: "4298",
+   title: "Num Class Q46",
+   learner_question: "\\r\\n1. Pounds \\r\\n2. Meters \\r\\n3. Dollars",
+    question: "What unit will a bar graph showing personal finances use? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Finance means managing money.",
+    incorrectAnswerResponse: "Incorrect. Finance means managing money.",
+    set: 46
+    },
+
+  4299:{
+    question_tag: "L2MALP100Q1",
+   code: "4299",
+   title: "Num Q91",
+   learner_question: "Jane spends 3, 4 and 5 dollars. What is the average expense? \\r\\n1. 4 dollars \\r\\n2. 12 dollars \\r\\n3. 28 dollars",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) (3+4+5)/3 = 4",
+    incorrectAnswerResponse: "Incorrect. (3+4+5)/3 = 4",
+    set: 46
+    },
+
+  4300:{
+    question_tag: "L2MALP100Q2",
+   code: "4300",
+   title: "Num Q92",
+   learner_question: "Jane spends 3, 4 and 5 dollars. What is the TOTAL expense? \\r\\n1. 4 dollars \\r\\n2. 12 dollars \\r\\n3. 28 dollars",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 3 +4+5= 12",
+    incorrectAnswerResponse: "Incorrect. 3 +4+5= 12",
+    set: 46
+    },
+
+  4301:{
+    question_tag: "L2MALP101QG",
+   code: "4301",
+   title: "Num Class Q47",
+   learner_question: "\\r\\n1. expenses \\r\\n2. graphs \\r\\n3. data",
+    question: "What do we call the information we get from a survey? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Information from a survey is called data.",
+    incorrectAnswerResponse: "Incorrect. Information from a survey is called data.",
+    set: 47
+    },
+
+  4302:{
+    question_tag: "L2MALP101Q1",
+   code: "4302",
+   title: "Num Q93",
+   learner_question: "Which is NOT a good survey question? \\r\\n1. What color do you like? \\r\\n2. What job do you have? \\r\\n3. How far is Gbarnga from Monrovia?",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) It is not useful to survey people about known facts.",
+    incorrectAnswerResponse: "Incorrect. It is not useful to survey people about known facts.",
+    set: 47
+    },
+
+  4303:{
+    question_tag: "L2MALP101Q2",
+   code: "4303",
+   title: "Num Q94",
+   learner_question: "When would you make a bar graph about a survey? \\r\\n1. After you record the data. \\r\\n2. Before you write the questions \\r\\n3. When you ask the questions.",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) We graph our results after we record the data.",
+    incorrectAnswerResponse: "Incorrect. We graph our results after we record the data.",
+    set: 47
+    },
+
+  4304:{
+    question_tag: "L2MALP102QG",
+   code: "4304",
+   title: "Num Class Q48",
+   learner_question: "\\r\\n1. To measure answers by groups \\r\\n2. To show change over time. \\r\\n3. To show % answers of a single group.",
+    question: "When is a circle graph better than a bar graph? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Circle graphs show percent or parts in a whole.",
+    incorrectAnswerResponse: "Incorrect. Circle graphs show percent or parts in a whole.",
+    set: 48
+    },
+
+  4305:{
+    question_tag: "L2MALP102Q1",
+   code: "4305",
+   title: "Num Q95",
+   learner_question: "\\r\\n3.45 - \\r\\n2.03 = ? \\r\\n1. \\r\\n1.35 \\r\\n2. \\r\\n1.42 \\r\\n3. \\r\\n1.45",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 3.45 - 2.03 = 1.42",
+    incorrectAnswerResponse: "Incorrect. 3.45 - 2.03 = 1.42",
+    set: 48
+    },
+
+  4306:{
+    question_tag: "L2MALP102Q2",
+   code: "4306",
+   title: "Num Q96",
+   learner_question: "2/3 = ? \\r\\n1. 4/9 \\r\\n2. 12/24 \\r\\n3. 6/9",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 2/3 = 6/9",
+    incorrectAnswerResponse: "Incorrect. 2/3 = 6/9",
+    set: 48
+    },
+
+  4307:{
+    question_tag: "L2MALP103QG",
+   code: "4307",
+   title: "Num Class Q49",
+   learner_question: "\\r\\n1. On the left \\r\\n2. At the top \\r\\n3. On the bottom",
+    question: "Where do we usually put units of measure on a bar graph?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Units of measure are shown on the left of a bar graph.",
+    incorrectAnswerResponse: "Incorrect. Units of measure are shown on the left of a bar graph.",
+    set: 49
+    },
+
+  4308:{
+    question_tag: "L2MALP103Q1",
+   code: "4308",
+   title: "Num Q97",
+   learner_question: "A triangle has 3 equal sides. Each side is 4 inches. What is the perimeter? \\r\\n1. 4 inches \\r\\n2. 12 inches \\r\\n3. 7 inches",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 3 x 4 = 12 inches",
+    incorrectAnswerResponse: "Incorrect. 3 x 4 = 12 inches",
+    set: 49
+    },
+
+  4309:{
+    question_tag: "L2MALP103Q2",
+   code: "4309",
+   title: "Num Q98",
+   learner_question: "A square has a side that is 2 inches long. What is the perimeter of the square? \\r\\n1. 8 inches \\r\\n2. 4 inches \\r\\n3. 2 inches",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 2 +2 +2 +2= 8 inches",
+    incorrectAnswerResponse: "Incorrect. 2 +2 +2 +2= 8 inches",
+    set: 49
+    },
+
+  4310:{
+    question_tag: "L2MALP104QG",
+   code: "4310",
+   title: "Num Class Q50",
+   learner_question: "\\r\\n1. An apple \\r\\n2. Chicken \\r\\n3. Rice",
+    question: "Which is a Protective food? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Most fruits and vegetables are protective foods.",
+    incorrectAnswerResponse: "Incorrect. Most fruits and vegetables are protective foods.",
+    set: 50
+    },
+
+  4311:{
+    question_tag: "L2MALP104Q1",
+   code: "4311",
+   title: "Num Q99",
+   learner_question: "What do \'finances\' involve? \\r\\n1. area \\r\\n2. money \\r\\n3. opinions",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Finance means managing money.",
+    incorrectAnswerResponse: "Incorrect. Finance means managing money.",
+    set: 50
+    },
+
+  4312:{
+    question_tag: "L2MALP104Q2",
+   code: "4312",
+   title: "Num Q100",
+   learner_question: "What is the average of 1, 3 and 5? \\r\\n1. 3 \\r\\n2. 9 \\r\\n3. 15",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) (1+3+5)/3= 3",
+    incorrectAnswerResponse: "Incorrect. (1+3+5)/3= 3",
+    set: 50
+    },
+
+  4313:{
+    question_tag: "L2MALP105QG",
+   code: "4313",
+   title: "Num Class Q51",
+   learner_question: "\\r\\n1. Oranges \\r\\n2. Cassava \\r\\n3. Fish",
+    question: "Which is a body building food? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Fish is a body building food.",
+    incorrectAnswerResponse: "Incorrect. Fish is a body building food.",
+    set: 51
+    },
+
+  4314:{
+    question_tag: "L2MALP105Q1",
+   code: "4314",
+   title: "Num Q101",
+   learner_question: "What is the average of 4, 7 and 10? \\r\\n1. 7 \\r\\n2. 21 \\r\\n3. 42",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) (4+7+10)/3= 7",
+    incorrectAnswerResponse: "Incorrect. (4+7+10)/3= 7",
+    set: 51
+    },
+
+  4315:{
+    question_tag: "L2MALP105Q2",
+   code: "4315",
+   title: "Num Q102",
+   learner_question: "What does a line graph measure? \\r\\n1. percent or parts of a whole \\r\\n2. Different groups \\r\\n3. Changes over time",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Line graphs usually show change over time.",
+    incorrectAnswerResponse: "Incorrect. Line graphs usually show change over time.",
+    set: 51
+    },
+
+  4316:{
+    question_tag: "L2MALP106QG",
+   code: "4316",
+   title: "Num Class Q52",
+   learner_question: "\\r\\n1. 1 \\r\\n2. 2 \\r\\n3. 3",
+    question: "Write: 1,2,2,1,2,2__ Say: Complete the pattern. What number goes in the missing space? Enter the correct number on your phone.",
+    answer: "1",
+    correctAnswerResponse: ":) Correct! 1,22,1,22,1",
+    incorrectAnswerResponse: "Incorrect. 1,22,1,22,1",
+    set: 52
+    },
+
+  4317:{
+    question_tag: "L2MALP106Q1",
+   code: "4317",
+   title: "Num Q103",
+   learner_question: "Enter the correct symbol: 135,782___69,102 \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! 135,782>19,102",
+    incorrectAnswerResponse: "Incorrect. 135,782>19,102",
+    set: 52
+    },
+
+  4318:{
+    question_tag: "L2MALP106Q2",
+   code: "4318",
+   title: "Num Q104",
+   learner_question: "Which number is missing? 32, 31, 30, ___, 28 Enter the correct number. \\r\\n1. 30 \\r\\n2. 29 \\r\\n3. 27",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! 32,31,30,29,28",
+    incorrectAnswerResponse: "Incorrect. 32,31,30,29,28",
+    set: 52
+    },
+
+  4319:{
+    question_tag: "L2MALP107QG",
+   code: "4319",
+   title: "Num Class Q53",
+   learner_question: "\\r\\n1. (3) \\r\\n2. (2/6) \\r\\n3. (2/3)",
+    question: "Write: 1/3 + 1/3=? Say: What is one third plus one third? Enter the number of the correct answer on your phones",
+    answer: "3",
+    correctAnswerResponse: ":) Correct! 1/3+1/3=2/3.",
+    incorrectAnswerResponse: "Incorrect. 1/3+1/3=2/3.",
+    set: 53
+    },
+
+  4320:{
+    question_tag: "L2MALP107Q1",
+   code: "4320",
+   title: "Num Q105",
+   learner_question: "1/2 + 1/2=? \\r\\n1. (1/2) \\r\\n2. (1) \\r\\n3. (2/4)",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: ":) Correct! 1/2 + 1/2 = 1",
+    incorrectAnswerResponse: "Incorrect. 1/2 + 1/2 = 1",
+    set: 53
+    },
+
+  4321:{
+    question_tag: "L2MALP107Q2",
+   code: "4321",
+   title: "Num Q106",
+   learner_question: "9/10 = ? \\r\\n1. 9% \\r\\n2. 90% \\r\\n3. 0.9%",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 9/10 =90%",
+    incorrectAnswerResponse: "Incorrect. 9/10 =90%",
+    set: 53
+    },
+
+  4322:{
+    question_tag: "L2MALP108QG",
+   code: "4322",
+   title: "Num Class Q54",
+   learner_question: "\\r\\n1. A cone \\r\\n2. A sphere \\r\\n3. A pyramid",
+    question: "What shape is the Moon? Enter the number of the correct shape.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The Moon is a sphere.",
+    incorrectAnswerResponse: "Incorrect. The Moon is a sphere.",
+    set: 54
+    },
+
+  4323:{
+    question_tag: "L2MALP108Q1",
+   code: "4323",
+   title: "Num Q107",
+   learner_question: "Which triangle has NO equal sides? \\r\\n1. Isosceles \\r\\n2. Equilateral \\r\\n3. Scalene",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Scalene triangles have no equal sides.",
+    incorrectAnswerResponse: "Incorrect. Scalene triangles have no equal sides.",
+    set: 54
+    },
+
+  4324:{
+    question_tag: "L2MALP108Q2",
+   code: "4324",
+   title: "Num Q108",
+   learner_question: "10cm ? 1 m \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 10cm is less than 1m. There are 100 centimeters in 1 meter.",
+    incorrectAnswerResponse: "Incorrect. 10cm is less than 1m. There are 100 centimeters in 1 meter.",
+    set: 54
+    },
+
+  5163:{
+    question_tag: "L3LITLP56QG",
+   code: "5163",
+   title: "Eng Class Q1",
+   learner_question: "\\r\\n1. Missing important content. \\r\\n2. Falling behind \\r\\n3. Being busy with family",
+    question: "What is a CAUSE of missing class? Enter the number of the Cause of missing class.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Being busy with family is a cause of missing class.",
+    incorrectAnswerResponse: "Incorrect. Being busy with family is a cause of missing class.",
+    set: 1
+    },
+
+  5164:{
+    question_tag: "L3LITLP56Q1",
+   code: "5164",
+   title: "Eng Q1",
+   learner_question: "Which is a CAUSE of missing class? \\r\\n1. Needing to work \\r\\n2. Failing exams \\r\\n3. Not understanding content",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Needing to work is a cause of missing class.",
+    incorrectAnswerResponse: "Incorrect. Needing to work is a cause of missing class.",
+    set: 1
+    },
+
+  5165:{
+    question_tag: "L3LITLP56Q2",
+   code: "5165",
+   title: "Eng Q2",
+   learner_question: "Which is an EFFECT of missing class? \\r\\n1. Missing important content \\r\\n2. Not having time \\r\\n3. Sleeping late",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Missing important content is an EFFECT of missing class.",
+    incorrectAnswerResponse: "Incorrect. Missing important content is an EFFECT of missing class.",
+    set: 1
+    },
+
+  5166:{
+    question_tag: "L3LITLP57QG",
+   code: "5166",
+   title: "Eng Class Q2",
+   learner_question: "\\r\\n1. Natural \\r\\n2. unclean \\r\\n3. Cause",
+    question: "Which word has a prefix? Enter the number of the word with a prefix.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Unclean begins with a prefix- un. Un usually means \'not\'.",
+    incorrectAnswerResponse: "Incorrect. Unclean begins with a prefix- un. Un usually means \'not\'.",
+    set: 2
+    },
+
+  5167:{
+    question_tag: "L3LITLP57Q1",
+   code: "5167",
+   title: "Eng Q3",
+   learner_question: "__ means the cutting down of many trees. \\r\\n1. Forest \\r\\n2. Pollution \\r\\n3. Deforestation",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Deforestation means cutting down many trees.",
+    incorrectAnswerResponse: "Incorrect. Deforestation means cutting down many trees.",
+    set: 2
+    },
+
+  5168:{
+    question_tag: "L3LITLP57Q2",
+   code: "5168",
+   title: "Eng Q4",
+   learner_question: "Which is NOT a natural resource? \\r\\n1. Air \\r\\n2. Plastic \\r\\n3. Soil",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Plastic is made by people. It is not a natural resource.",
+    incorrectAnswerResponse: "Incorrect. Plastic is made by people. It is not a natural resource.",
+    set: 2
+    },
+
+  5169:{
+    question_tag: "L3LITLP58QG",
+   code: "5169",
+   title: "Eng Class Q3",
+   learner_question: "\\r\\n1. Conjunctions \\r\\n2. Adjectives \\r\\n3. Prepositions",
+    question: "What kind of words show the relationship between a word and the rest of the sentence? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Prepositions show relationships. The ball is on the table. On shows the relationship between the ball and table.",
+    incorrectAnswerResponse: "Incorrect. Prepositions show relationships. The ball is on the table. On shows the relationship between the ball and table.",
+    set: 3
+    },
+
+  5170:{
+    question_tag: "L3LITLP58Q1",
+   code: "5170",
+   title: "Eng Q5",
+   learner_question: "Which word is a preposition? \\r\\n1. Healthy \\r\\n2. Under \\r\\n3. Environment",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Under is a preposition. It shows a relationship. The cat is under the table.",
+    incorrectAnswerResponse: "Incorrect. Under is a preposition. It shows a relationship. The cat is under the table.",
+    set: 3
+    },
+
+  5171:{
+    question_tag: "L3LITLP58Q2",
+   code: "5171",
+   title: "Eng Q6",
+   learner_question: "___ resources can be replaced and used again. \\r\\n1. Essential \\r\\n2. Renewable \\r\\n3. Mineral",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Renewable resources can be replaced and used again. \"Renew\" means make new again.",
+    incorrectAnswerResponse: "Incorrect. Renewable resources can be replaced and used again. \"Renew\" means make new again.",
+    set: 3
+    },
+
+  5172:{
+    question_tag: "L3LITLP59QG",
+   code: "5172",
+   title: "Eng Class Q4",
+   learner_question: "\\r\\n1. The conclusion \\r\\n2. The body \\r\\n3. The introduction",
+    question: "Which part of an essay comes first? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Essays begin with an introduction.",
+    incorrectAnswerResponse: "Incorrect. Essays begin with an introduction.",
+    set: 4
+    },
+
+  5173:{
+    question_tag: "L3LITLP59Q1",
+   code: "5173",
+   title: "Eng Q7",
+   learner_question: "Which word is a preposition? \\r\\n1. Between \\r\\n2. Transition \\r\\n3. Support",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Between is a preposition. The pen is between the two books.",
+    incorrectAnswerResponse: "Incorrect. Between is a preposition. The pen is between the two books.",
+    set: 4
+    },
+
+  5174:{
+    question_tag: "L3LITLP59Q2",
+   code: "5174",
+   title: "Eng Q8",
+   learner_question: "What do we call the END of an essay? \\r\\n1. Introduction \\r\\n2. Conclusion \\r\\n3. Support",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The end of an essay is called the conclusion.",
+    incorrectAnswerResponse: "Incorrect. The end of an essay is called the conclusion.",
+    set: 4
+    },
+
+  5175:{
+    question_tag: "L3LITLP60QG",
+   code: "5175",
+   title: "Eng Class Q5",
+   learner_question: "\\r\\n1. Animals die \\r\\n2. Air and water are polluted \\r\\n3. People want wood",
+    question: "Which is a CAUSE of deforestation? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A cause of deforestation is that people want wood.",
+    incorrectAnswerResponse: "Incorrect. A cause of deforestation is that people want wood.",
+    set: 5
+    },
+
+  5176:{
+    question_tag: "L3LITLP60Q1",
+   code: "5176",
+   title: "Eng Q9",
+   learner_question: "Which word is a pronoun? \\r\\n1. He \\r\\n2. Under \\r\\n3. Quickly",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Pronouns take the place of nouns. He is a pronoun.",
+    incorrectAnswerResponse: "Incorrect. Pronouns take the place of nouns. He is a pronoun.",
+    set: 5
+    },
+
+  5177:{
+    question_tag: "L3LITLP60Q2",
+   code: "5177",
+   title: "Eng Q10",
+   learner_question: "Which pronoun can we use for \'John and Dan\'? \\r\\n1. He \\r\\n2. We \\r\\n3. They",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) We use the pronoun \'they\' for more than one person or thing.",
+    incorrectAnswerResponse: "Incorrect. We use the pronoun \'they\' for more than one person or thing.",
+    set: 5
+    },
+
+  5178:{
+    question_tag: "L3LITLP61QG",
+   code: "5178",
+   title: "Eng Class Q6",
+   learner_question: "\\r\\n1. Animals die \\r\\n2. People clear land for homes \\r\\n3. People want wood",
+    question: "Which is an effect of deforestation?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) An effect of deforestation is the death of animals.",
+    incorrectAnswerResponse: "Incorrect. An effect of deforestation is the death of animals.",
+    set: 6
+    },
+
+  5179:{
+    question_tag: "L3LITLP61Q1",
+   code: "5179",
+   title: "Eng Q11",
+   learner_question: "Which word is an adjective in the sentence: \'He sees a tall girl.\' \\r\\n1. He \\r\\n2. tall \\r\\n3. girl",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Adjectives tell us more about nouns. The adjective \'tall\' tells us about the girl.",
+    incorrectAnswerResponse: "Incorrect. Adjectives tell us more about nouns. The adjective \'tall\' tells us about the girl.",
+    set: 6
+    },
+
+  5180:{
+    question_tag: "L3LITLP61Q2",
+   code: "5180",
+   title: "Eng Q12",
+   learner_question: "Which word is a pronoun? \"Dan puts it under the table.\" \\r\\n1. Dan \\r\\n2. it \\r\\n3. under",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) It is a pronoun used to take the place of things and animals.",
+    incorrectAnswerResponse: "Incorrect. It is a pronoun used to take the place of things and animals.",
+    set: 6
+    },
+
+  5181:{
+    question_tag: "L3LITLP62QG",
+   code: "5181",
+   title: "Eng Class Q7",
+   learner_question: "\\r\\n1. Writing something again in your own words. \\r\\n2. Copying something you read. \\r\\n3. Making up a new answer to a question.",
+    question: "What is paraphrasing? Enter the number of the best answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) We paraphrase when we rewrite something in our own words.",
+    incorrectAnswerResponse: "Incorrect. We paraphrase when we rewrite something in our own words.",
+    set: 7
+    },
+
+  5182:{
+    question_tag: "L3LITLP62Q1",
+   code: "5182",
+   title: "Eng Q13",
+   learner_question: "Which is Non-living? \\r\\n1. A monkey \\r\\n2. A rock \\r\\n3. A tree",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Rocks are non-living things.",
+    incorrectAnswerResponse: "Incorrect. Rocks are non-living things.",
+    set: 7
+    },
+
+  5183:{
+    question_tag: "L3LITLP62Q2",
+   code: "5183",
+   title: "Eng Q14",
+   learner_question: "Which word in the sentence is a pronoun: Flomo walks towards her. \\r\\n1. Flomo \\r\\n2. towards \\r\\n3. her",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Her is a pronoun. It takes the place of a woman or girl\'s name.",
+    incorrectAnswerResponse: "Incorrect. Her is a pronoun. It takes the place of a woman or girl\'s name.",
+    set: 7
+    },
+
+  5184:{
+    question_tag: "L3LITLP63QG",
+   code: "5184",
+   title: "Eng Class Q8",
+   learner_question: "\\r\\n1. Drop \\r\\n2. Drank \\r\\n3. Think",
+    question: "Which word rhymes with Drink? Enter the number of the word that rhymes with Drink.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Rhyming words have the same end sound. Drink and Think rhyme.",
+    incorrectAnswerResponse: "Incorrect. Rhyming words have the same end sound. Drink and Think rhyme.",
+    set: 8
+    },
+
+  5185:{
+    question_tag: "L3LITLP63Q1",
+   code: "5185",
+   title: "Eng Q15",
+   learner_question: "Which word rhymes with \'trees\'? \\r\\n1. Bees \\r\\n2. Traps \\r\\n3. Free",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Rhyming words have the same end sound. Trees and Bees rhyme.",
+    incorrectAnswerResponse: "Incorrect. Rhyming words have the same end sound. Trees and Bees rhyme.",
+    set: 8
+    },
+
+  5186:{
+    question_tag: "L3LITLP63Q2",
+   code: "5186",
+   title: "Eng Q16",
+   learner_question: "What is an EFFECT of burning trash? \\r\\n1. The air is polluted \\r\\n2. There is no place to put the trash \\r\\n3. It is easy",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Air pollution is an effect of burning trash.",
+    incorrectAnswerResponse: "Incorrect. Air pollution is an effect of burning trash.",
+    set: 8
+    },
+
+  5187:{
+    question_tag: "L3LITLP64QG",
+   code: "5187",
+   title: "Eng Class Q9",
+   learner_question: "\\r\\n1. under \\r\\n2. during \\r\\n3. they",
+    question: "Which word is used to show the \'order\' of events. Enter the number of the word that is used to show order.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Words like during, first, second, after show the order of events in writing.",
+    incorrectAnswerResponse: "Incorrect. Words like during, first, second, after show the order of events in writing.",
+    set: 9
+    },
+
+  5188:{
+    question_tag: "L3LITLP64Q1",
+   code: "5188",
+   title: "Eng Q17",
+   learner_question: "Which word is a pronoun in the sentence: We saw Sally at the big house. \\r\\n1. We \\r\\n2. Sally \\r\\n3. big",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) We is a pronoun that takes the place of the speaker and another person.",
+    incorrectAnswerResponse: "Incorrect. We is a pronoun that takes the place of the speaker and another person.",
+    set: 9
+    },
+
+  5189:{
+    question_tag: "L3LITLP64Q2",
+   code: "5189",
+   title: "Eng Q18",
+   learner_question: "Which pronoun can we use for \'the book\'? \\r\\n1. He \\r\\n2. It \\r\\n3. They",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) We use the pronoun \'it\' for things and animals.",
+    incorrectAnswerResponse: "Incorrect. We use the pronoun \'it\' for things and animals.",
+    set: 9
+    },
+
+  5190:{
+    question_tag: "L3LITLP65QG",
+   code: "5190",
+   title: "Eng Class Q10",
+   learner_question: "\\r\\n1. Soldiers \\r\\n2. Politicians \\r\\n3. All people",
+    question: "Who can be a nation builder? Enter the number of the best answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) All people can be nation builders. Nation builders make their country a better place to live.",
+    incorrectAnswerResponse: "Incorrect. All people can be nation builders. Nation builders make their country a better place to live.",
+    set: 10
+    },
+
+  5191:{
+    question_tag: "L3LITLP65Q1",
+   code: "5191",
+   title: "Eng Q19",
+   learner_question: "Clean air and water are ___ to life. \\r\\n1. essential \\r\\n2. environment \\r\\n3. pollution",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Clean air and water are essential to life.",
+    incorrectAnswerResponse: "Incorrect. Clean air and water are essential to life.",
+    set: 10
+    },
+
+  5192:{
+    question_tag: "L3LITLP65Q2",
+   code: "5192",
+   title: "Eng Q20",
+   learner_question: "___ can harm our health. \\r\\n1. Renewable \\r\\n2. Pollution \\r\\n3. Natural",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Pollution can harm our health.",
+    incorrectAnswerResponse: "Incorrect. Pollution can harm our health.",
+    set: 10
+    },
+
+  5193:{
+    question_tag: "L3LITLP66QG",
+   code: "5193",
+   title: "Eng Class Q11",
+   learner_question: "\\r\\n1. Big \\r\\n2. Short \\r\\n3. High",
+    question: "Which word is the opposite of \'tall\'? Enter the number of the best answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Tall is the opposite of short.",
+    incorrectAnswerResponse: "Incorrect. Tall is the opposite of short.",
+    set: 11
+    },
+
+  5194:{
+    question_tag: "L3LITLP66Q1",
+   code: "5194",
+   title: "Eng Q21",
+   learner_question: "What is the opposite of \'quiet\'? \\r\\n1. silent \\r\\n2. quilt \\r\\n3. loud",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Loud is the opposite of quiet.",
+    incorrectAnswerResponse: "Incorrect. Loud is the opposite of quiet.",
+    set: 11
+    },
+
+  5195:{
+    question_tag: "L3LITLP66Q2",
+   code: "5195",
+   title: "Eng Q22",
+   learner_question: "Which words are in alphabetical order? \\r\\n1. small, medium, large \\r\\n2. one, two, three \\r\\n3. animal, cat, dog",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Alphabetical order means words are arranged by the order of their first letter in the alphabet. Animal, cat, dog are in alphabetical order- a-c-d.",
+    incorrectAnswerResponse: "Incorrect. Alphabetical order means words are arranged by the order of their first letter in the alphabet. Animal, cat, dog are in alphabetical order- a-c-d.",
+    set: 11
+    },
+
+  5196:{
+    question_tag: "L3LITLP67QG",
+   code: "5196",
+   title: "Eng Class Q12",
+   learner_question: "\\r\\n1. Facts about the Earth. \\r\\n2. Lessons on Math. \\r\\n3. The meaning of words.",
+    question: "What can you learn from a dictionary? Enter the number of the best answer.",
+    answer: "3",
+    correctAnswerResponse: "Dictionaries tell us what words mean and how to pronounce them.",
+    incorrectAnswerResponse: "Dictionaries tell us what words mean and how to pronounce them.",
+    set: 12
+    },
+
+  5197:{
+    question_tag: "L3LITLP67Q1",
+   code: "5197",
+   title: "Eng Q23",
+   learner_question: "Which words are in alphabetical order? \\r\\n1. five, six, three \\r\\n2. one, three, five \\r\\n3. two, three, four",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Correct! :) Alphabetical order means words are arranged by the order of their first letter in the alphabet. Five, six, three are in alphabetical order-f-s-t.",
+    incorrectAnswerResponse: "Incorrect. Incorrect. Alphabetical order means words are arranged by the order of their first letter in the alphabet. Five, six, three are in alphabetical order-f-s-t.",
+    set: 12
+    },
+
+  5198:{
+    question_tag: "L3LITLP67Q2",
+   code: "5198",
+   title: "Eng Q24",
+   learner_question: "Which words are in alphabetical order? \\r\\n1. one, two, three \\r\\n2. one, three, two \\r\\n3. three, two, one",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) one, three, two are in alphabetical order. If the first letters of a word are the same, we use the second letters- o - th -tw.",
+    incorrectAnswerResponse: "Incorrect. one, three, two are in alphabetical order. If the first letters of a word are the same, we use the second letters- o - th -tw.",
+    set: 12
+    },
+
+  5199:{
+    question_tag: "L3LITLP68QG",
+   code: "5199",
+   title: "Eng Class Q13",
+   learner_question: "\\r\\n1. Cars \\r\\n2. Crude Oil \\r\\n3. Electricity",
+    question: "Which is a natural resource? Enter the number of the natural resource.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Oil is a natural resource- it comes from under the ground.",
+    incorrectAnswerResponse: "Incorrect. Oil is a natural resource- it comes from under the ground.",
+    set: 13
+    },
+
+  5200:{
+    question_tag: "L3LITLP68Q1",
+   code: "5200",
+   title: "Eng Q25",
+   learner_question: "Which pronoun can take the place of \'John and I\'? \\r\\n1. He \\r\\n2. They \\r\\n3. We",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The pronoun \'we\' takes the place of the speaker and another person.",
+    incorrectAnswerResponse: "Incorrect. The pronoun \'we\' takes the place of the speaker and another person.",
+    set: 13
+    },
+
+  5201:{
+    question_tag: "L3LITLP68Q2",
+   code: "5201",
+   title: "Eng Q26",
+   learner_question: "Which word is an adjective in the sentence: The big dogs runs quickly. \\r\\n1. big \\r\\n2. dog \\r\\n3. quickly",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The adjective \'big\' describes the dog.",
+    incorrectAnswerResponse: "Incorrect. The adjective \'big\' describes the dog.",
+    set: 13
+    },
+
+  5202:{
+    question_tag: "L3LITLP69QG",
+   code: "5202",
+   title: "Eng Class Q14 ",
+   learner_question: "\\r\\n1. An insect \\r\\n2. A competition \\r\\n3. A describing word",
+    question: "What is a spelling bee? Enter the number of the best answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A spelling bee is a competition where people spell words.",
+    incorrectAnswerResponse: "Incorrect. A spelling bee is a competition where people spell words.",
+    set: 14
+    },
+
+  5203:{
+    question_tag: "L3LITLP69Q1",
+   code: "5203",
+   title: "Eng Q27",
+   learner_question: "___ can harm our health. \\r\\n1. Polusion \\r\\n2. Pollution \\r\\n3. Polution",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Pollution can harm our health.",
+    incorrectAnswerResponse: "Pollution can harm our health.",
+    set: 14
+    },
+
+  5204:{
+    question_tag: "L3LITLP69Q2",
+   code: "5204",
+   title: "Eng Q28",
+   learner_question: "Which word rhymes with great? \\r\\n1. hate \\r\\n2. bread \\r\\n3. grad",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Hate and great have the same long a end sound.",
+    incorrectAnswerResponse: "Incorrect. Hate and great have the same long a end sound.",
+    set: 14
+    },
+
+  5205:{
+    question_tag: "L3LITLP70QG",
+   code: "5205",
+   title: "Eng Class Q15",
+   learner_question: "\\r\\n1. Grammar errors \\r\\n2. The topic \\r\\n3. Subject verb agreement",
+    question: "What is NOT something you check for when editing your friend\'s work. Enter the number of the best answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) When you edit the work of others, look for errors, not whether you agree or disagree with the topic.",
+    incorrectAnswerResponse: "Incorrect. When you edit the work of others, look for errors, not whether you agree or disagree with the topic.",
+    set: 15
+    },
+
+  5206:{
+    question_tag: "L3LITLP70Q1",
+   code: "5206",
+   title: "Eng Q29",
+   learner_question: "Which sentence has a subject verb agreement error? \\r\\n1. She is hapy. \\r\\n2. they go to school \\r\\n3. She are happy.",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) In the sentence, \"She are happy.\" the verb \'are\' does not agree with the subject \'she\'. She is happy.",
+    incorrectAnswerResponse: "Incorrect. In the sentence, \"She are happy.\" the verb \'are\' does not agree with the subject \'she\'. She is happy.",
+    set: 15
+    },
+
+  5207:{
+    question_tag: "L3LITLP70Q2",
+   code: "5207",
+   title: "Eng Q30",
+   learner_question: "Which sentence has a capitalization error? \\r\\n1. She is hapy. \\r\\n2. they go to school \\r\\n3. She are happy.",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The sentence, \'they go to school.\' should begin with a capital letter. They go to school.",
+    incorrectAnswerResponse: "Incorrect. The sentence, \'they go to school.\' should begin with a capital letter. They go to school.",
+    set: 15
+    },
+
+  5208:{
+    question_tag: "L3LITLP71QG",
+   code: "5208",
+   title: "Eng Class Q16",
+   learner_question: "\\r\\n1. renewible \\r\\n2. renewable \\r\\n3. reneweble",
+    question: "What is the correct spelling of \'renewable\'? Enter the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Renewable",
+    incorrectAnswerResponse: "Incorrect. Renewable",
+    set: 16
+    },
+
+  5209:{
+    question_tag: "L3LITLP71Q1",
+   code: "5209",
+   title: "Eng Q31",
+   learner_question: "What kind of word is \'Natural\'? \\r\\n1. Adjective \\r\\n2. Noun \\r\\n3. Preposition",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Natural is an adjective, it describes a noun.",
+    incorrectAnswerResponse: "Incorrect. Natural is an adjective, it describes a noun.",
+    set: 16
+    },
+
+  5210:{
+    question_tag: "L3LITLP71Q2",
+   code: "5210",
+   title: "Eng Q32",
+   learner_question: "Which is correct? \\r\\n1. deforestation \\r\\n2. deforrestation \\r\\n3. defforrestation",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) deforestation",
+    incorrectAnswerResponse: "Incorrect. deforestation",
+    set: 16
+    },
+
+  5211:{
+    question_tag: "L3LITLP72QG",
+   code: "5211",
+   title: "Eng Class Q17",
+   learner_question: "\\r\\n1. It \\r\\n2. She \\r\\n3. We",
+    question: "What pronoun can take the place of the name \'Jane\'? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) She takes the place of a woman or girl\'s name.",
+    incorrectAnswerResponse: "Incorrect. She takes the place of a woman or girl\'s name.",
+    set: 17
+    },
+
+  5212:{
+    question_tag: "L3LITLP72Q1",
+   code: "5212",
+   title: "Eng Q33",
+   learner_question: "Which words are in alphabetical order? \\r\\n1. January, February, March \\r\\n2. ten, eleven, twelve \\r\\n3. Monday, Tuesday, Wednesday",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Monday, Tuesday, Wednesday are in alphabetical order- m, t, w.",
+    incorrectAnswerResponse: "Incorrect. Monday, Tuesday, Wednesday are in alphabetical order- m, t, w.",
+    set: 17
+    },
+
+  5213:{
+    question_tag: "L3LITLP72Q2",
+   code: "5213",
+   title: "Eng Q34",
+   learner_question: "What is the opposite of \'fat\'? \\r\\n1. big \\r\\n2. round \\r\\n3. thin",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The opposite of fat is thin.",
+    incorrectAnswerResponse: "Incorrect. The opposite of fat is thin.",
+    set: 17
+    },
+
+  5214:{
+    question_tag: "L3LITLP73QG",
+   code: "5214",
+   title: "Eng Class Q18",
+   learner_question: "\\r\\n1. She \\r\\n3. Fat \\r\\n3. In",
+    question: "Which word is a preposition? Enter the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) \'In\' is a preposition. Prepositions show relationships. The books is in the bag.",
+    incorrectAnswerResponse: "Incorrect. \'In\' is a preposition. Prepositions show relationships. The books is in the bag.",
+    set: 18
+    },
+
+  5215:{
+    question_tag: "L3LITLP73Q1",
+   code: "5215",
+   title: "Eng Q35",
+   learner_question: "Jane and Sara are happy. ___ are eating ice cream. \\r\\n1. They \\r\\n2. We \\r\\n3. she",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Jane and Sara are happy. They are eating ice cream.",
+    incorrectAnswerResponse: "Incorrect. Jane and Sara are happy. They are eating ice cream.",
+    set: 18
+    },
+
+  5216:{
+    question_tag: "L3LITLP73Q2",
+   code: "5216",
+   title: "Eng Q36",
+   learner_question: "Which word is an adjective in the sentence: The big elephants see run. \\r\\n1. big \\r\\n2. elephants \\r\\n3. run ",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Nouns are people, places and things. \'Elephants\' is a noun.",
+    incorrectAnswerResponse: "Incorrect. Nouns are people, places and things. \'Elephants\' is a noun.",
+    set: 18
+    },
+
+  5217:{
+    question_tag: "L3LITLP74QG",
+   code: "5217",
+   title: "Eng Class Q19",
+   learner_question: "\\r\\n1. D \\r\\n2. E \\r\\n3. F",
+    question: "Which module did we begin today? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) We began Module E",
+    incorrectAnswerResponse: "Incorrect. We began Module E",
+    set: 19
+    },
+
+  5218:{
+    question_tag: "L3LITLP74Q1",
+   code: "5218",
+   title: "Eng Q37",
+   learner_question: "Which is a part of reproductive health? \\r\\n1. Nutrition \\r\\n2. The environment \\r\\n3. Having children",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Reproductive health involves sex and having children.",
+    incorrectAnswerResponse: "Incorrect. Reproductive health involves sex and having children.",
+    set: 19
+    },
+
+  5219:{
+    question_tag: "L3LITLP74Q2",
+   code: "5219",
+   title: "Eng Q38",
+   learner_question: "In alphabetical order, which word comes first? \\r\\n1. world \\r\\n2. pollution \\r\\n3. problem",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) po- pr- w",
+    incorrectAnswerResponse: "Incorrect. po- pr- w",
+    set: 19
+    },
+
+  5220:{
+    question_tag: "L3LITLP75QG",
+   code: "5220",
+   title: "Eng Class Q20",
+   learner_question: "\\r\\n1. Injections \\r\\n2. Condoms \\r\\n3. Abstinence",
+    question: "Which cannot prevent HIV? Enter the number of the answer that cannot stop HIV.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Injections and pills cannot stop HIV.",
+    incorrectAnswerResponse: "Incorrect. Injections and pills cannot stop HIV.",
+    set: 20
+    },
+
+  5221:{
+    question_tag: "L3LITLP75Q1",
+   code: "5221",
+   title: "Eng Q39",
+   learner_question: "Which word is a noun? \\r\\n1. Aware \\r\\n2. Awareness \\r\\n3. Worry",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Awareness is a noun. Aware is an adjective. Worry is a verb.",
+    incorrectAnswerResponse: "Incorrect. Awareness is a noun. Aware is an adjective. Worry is a verb.",
+    set: 20
+    },
+
+  5222:{
+    question_tag: "L3LITLP75Q2",
+   code: "5222",
+   title: "Eng Q40",
+   learner_question: "___ can prevent pregnancy. \\r\\n1. Family health \\r\\n2. Contraceptives \\r\\n3. Menstruation",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Contraceptives can prevent pregnancy.",
+    incorrectAnswerResponse: "Incorrect. Contraceptives can prevent pregnancy.",
+    set: 20
+    },
+
+  5223:{
+    question_tag: "L3LITLP76QG",
+   code: "5223",
+   title: "Eng Class Q21",
+   learner_question: "\\r\\n1. IUDs \\r\\n2. UTIs \\r\\n3. STDs",
+    question: "Sexual diseases are also called what? Enter the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "STDs are sexually transmitted diseases like HIV, herpes and gonorrhea.",
+    incorrectAnswerResponse: "STDs are sexually transmitted diseases like HIV, herpes and gonorrhea.",
+    set: 21
+    },
+
+  5224:{
+    question_tag: "L3LITLP76Q1",
+   code: "5224",
+   title: "Eng Q41",
+   learner_question: "Babies grow in the___. \\r\\n1. womb \\r\\n2. fluid \\r\\n3. vagina",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Babies grow in the womb of a woman. They pass through the vagina when they are born.",
+    incorrectAnswerResponse: "Incorrect. Babies grow in the womb of a woman. They pass through the vagina when they are born.",
+    set: 21
+    },
+
+  5225:{
+    question_tag: "L3LITLP76Q2",
+   code: "5225",
+   title: "Eng Q42",
+   learner_question: "What is a compromise? \\r\\n1. When all people get what they want. \\r\\n2. When one person gets what they want. \\r\\n3. When all people get SOME of what they want.",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) When people compromise, they give up something and get something.",
+    incorrectAnswerResponse: "Incorrect. When people compromise, they give up something and get something.",
+    set: 21
+    },
+
+  5226:{
+    question_tag: "L3LITLP77QG",
+   code: "5226",
+   title: "Eng Class Q22",
+   learner_question: "\\r\\n1. Contraceptive \\r\\n2. Negotiation \\r\\n3. Compromise",
+    question: "Which is not a way to settle a palaver? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Contraceptive stops pregnancy, not palavers.",
+    incorrectAnswerResponse: "Incorrect. Contraceptive stops pregnancy, not palavers.",
+    set: 22
+    },
+
+  5227:{
+    question_tag: "L3LITLP77Q1",
+   code: "5227",
+   title: "Eng Q43",
+   learner_question: "Which word is an adverb in the sentence: The tall girl walked quickly. \\r\\n1. tall \\r\\n2. walked \\r\\n3. quickly",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Quickly is an adverb. Quickly tells us how the girl walked.",
+    incorrectAnswerResponse: "Incorrect. Quickly is an adverb. Quickly tells us how the girl walked.",
+    set: 22
+    },
+
+  5228:{
+    question_tag: "L3LITLP77Q2",
+   code: "5228",
+   title: "Eng Q44",
+   learner_question: "Which word is a verb in the sentence: They negotiate calmly. \\r\\n1. they \\r\\n2. negotiate \\r\\n3. calmly",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Negotiate is a verb.",
+    incorrectAnswerResponse: "Incorrect. Negotiate is a verb.",
+    set: 22
+    },
+
+  5229:{
+    question_tag: "L3LITLP78QG",
+   code: "5229",
+   title: "Eng Class Q23",
+   learner_question: "\\r\\n1. Condoms \\r\\n2. Birth control pills \\r\\n3. IUDs",
+    question: "Which can stop STDs? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Condoms are the only contraceptives that prevent STDs.",
+    incorrectAnswerResponse: "Incorrect. Condoms are the only contraceptives that prevent STDs.",
+    set: 23
+    },
+
+  5230:{
+    question_tag: "L3LITLP78Q1",
+   code: "5230",
+   title: "Eng Q45",
+   learner_question: "\\r\\n1. Chlamydia \\r\\n2. Syphilis \\r\\n3. Menstruation",
+    question: "Which is NOT an STD? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Chlamydia and Syphilis are STDs.",
+    incorrectAnswerResponse: "Chlamydia and Syphilis are STDs.",
+    set: 23
+    },
+
+  5231:{
+    question_tag: "L3LITLP78Q2",
+   code: "5231",
+   title: "Eng Q46",
+   learner_question: "Which STD can you see easily? \\r\\n1. HIV \\r\\n2. Genital warts \\r\\n3. Hepatitis",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Genital warts are bumps on the skin around the vagina.",
+    incorrectAnswerResponse: "Genital warts are bumps on the skin around the vagina.",
+    set: 23
+    },
+
+  5232:{
+    question_tag: "L3LITLP79QG",
+   code: "5232",
+   title: "Eng Class Q24",
+   learner_question: "\\r\\n1. People disagree \\r\\n2. People want something \\r\\n3. People try to hurt one another",
+    question: "How is a negotiation different from a fight? Enter the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) In a negotiation, no one is trying to hurt the other person.",
+    incorrectAnswerResponse: "Incorrect. In a negotiation, no one is trying to hurt the other person.",
+    set: 24
+    },
+
+  5233:{
+    question_tag: "L3LITLP79Q1",
+   code: "5233",
+   title: "Eng Q47",
+   learner_question: "Which is an STD? \\r\\n1. Contraceptive \\r\\n2. Gonorrhea \\r\\n3. Menstruation",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Gonorrhea is an STD.",
+    incorrectAnswerResponse: "Incorrect. Gonorrhea is an STD.",
+    set: 24
+    },
+
+  5234:{
+    question_tag: "L3LITLP79Q2",
+   code: "5234",
+   title: "Eng Q48",
+   learner_question: "What is another word for \'having children\'? \\r\\n1. Family Health \\r\\n2. Contraceptive \\r\\n3. Reproduction",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Reproduction means having children.",
+    incorrectAnswerResponse: "Incorrect. Reproduction means having children.",
+    set: 24
+    },
+
+  5235:{
+    question_tag: "L3LITLP80QG",
+   code: "5235",
+   title: "Eng Class Q25",
+   learner_question: "\\r\\n1. Condoms \\r\\n2. Birth control pills \\r\\n3. IUDs",
+    question: "Which contraceptive is used by men? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Condoms are used on the penis. There are also female condoms for the vagina.",
+    incorrectAnswerResponse: "Incorrect. Condoms are used on the penis. There are also female condoms for the vagina.",
+    set: 25
+    },
+
+  5236:{
+    question_tag: "L3LITLP80Q1",
+   code: "5236",
+   title: "Eng Q49",
+   learner_question: "Who is NOT a healthcare professional? \\r\\n1. A doctor \\r\\n3. A lawyer \\r\\n3. A nurse",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Nurses and doctor\'s are healthcare professionals.",
+    incorrectAnswerResponse: "Incorrect. Nurses and doctor\'s are healthcare professionals.",
+    set: 25
+    },
+
+  5237:{
+    question_tag: "L3LITLP80Q2",
+   code: "5237",
+   title: "Eng Q50",
+   learner_question: "Which contraceptive goes under the skin? \\r\\n1. Implant \\r\\n2. Birth control pills \\r\\n3. IUDs",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Implants go under the skin.",
+    incorrectAnswerResponse: "Incorrect. Implants go under the skin.",
+    set: 25
+    },
+
+  5238:{
+    question_tag: "L3LITLP81QG",
+   code: "5238",
+   title: "Eng Class Q26",
+   learner_question: "\\r\\n1. Sexual partner \\r\\n2. Negotiation \\r\\n3. Family planning",
+    question: "What do we call talking about how many children we want and when? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Family planning means making plans for how many children you will have and when.",
+    incorrectAnswerResponse: "Incorrect. Family planning means making plans for how many children you will have and when.",
+    set: 26
+    },
+
+  5239:{
+    question_tag: "L3LITLP81Q1",
+   code: "5239",
+   title: "Eng Q51",
+   learner_question: "Which is NOT a part of a woman? \\r\\n1. Penis \\r\\n2. Womb \\r\\n3. Vagina",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) A penis is the male reproductive organ.",
+    incorrectAnswerResponse: "Incorrect. A penis is the male reproductive organ.",
+    set: 26
+    },
+
+  5240:{
+    question_tag: "L3LITLP81Q2",
+   code: "5240",
+   title: "Eng Q52",
+   learner_question: "Which word is an adjective? \\r\\n1. Aware \\r\\n2. Vagina \\r\\n3. AIDS",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Aware is an adjective. She is aware of the risks.",
+    incorrectAnswerResponse: "Incorrect. Aware is an adjective. She is aware of the risks.",
+    set: 26
+    },
+
+  5241:{
+    question_tag: "L3LITLP82QG",
+   code: "5241",
+   title: "Eng Class Q27",
+   learner_question: "\\r\\n1. Contraceptive is a noun \\r\\n2. Contraceptives prevent pregnancy \\r\\n3. All contraceptives prevent STDs",
+    question: "Which is NOT true about the word contraceptive? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Only condoms prevent STDs",
+    incorrectAnswerResponse: "Incorrect. Only condoms prevent STDs",
+    set: 27
+    },
+
+  5242:{
+    question_tag: "L3LITLP82Q1",
+   code: "5242",
+   title: "Eng Q53",
+   learner_question: "Which pronoun would replace the word \'condom\'. \\r\\n1. He \\r\\n2. They \\r\\n3. It",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The pronoun \'it\' takes the place of things and animals.",
+    incorrectAnswerResponse: "Incorrect. The pronoun \'it\' takes the place of things and animals.",
+    set: 27
+    },
+
+  5243:{
+    question_tag: "L3LITLP82Q2",
+   code: "5243",
+   title: "Eng Q54",
+   learner_question: "Which is a reason to use an IUD? \\r\\n1. To stop STDs \\r\\n2. To stop pregnancy \\r\\n3. To negotiate",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) IUDs protect from pregnancy, not STDs.",
+    incorrectAnswerResponse: "Incorrect. IUDs protect from pregnancy, not STDs.",
+    set: 27
+    },
+
+  5244:{
+    question_tag: "L3LITLP83QG",
+   code: "5244",
+   title: "Eng Class Q28",
+   learner_question: "\\r\\n1. Supporting \\r\\n2. Transition \\r\\n3. Topic",
+    question: "What kind of sentence moves an essay from one topic to another? Enter the number of the best answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Transition sentences move essays from one topic to another.",
+    incorrectAnswerResponse: "Incorrect. Transition sentences move essays from one topic to another.",
+    set: 28
+    },
+
+  5245:{
+    question_tag: "L3LITLP83Q1",
+   code: "5245",
+   title: "Eng Q55",
+   learner_question: "What is another word for \'Supporting parts\'? \\r\\n1. Body \\r\\n2. Introduction \\r\\n3. Conclusion",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Supporting parts are also called \'body\' parts.",
+    incorrectAnswerResponse: "Incorrect. Supporting parts are also called \'body\' parts.",
+    set: 28
+    },
+
+  5246:{
+    question_tag: "L3LITLP83Q2",
+   code: "5246",
+   title: "Eng Q56",
+   learner_question: "What is the second step in the writing process? \\r\\n1. Drafting \\r\\n2. Planning \\r\\n3. Editing",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Drafting is the second step in the writing process.",
+    incorrectAnswerResponse: "Incorrect. Drafting is the second step in the writing process.",
+    set: 28
+    },
+
+  5247:{
+    question_tag: "L3LITLP84QG",
+   code: "5247",
+   title: "Eng Class Q29",
+   learner_question: "Which is NOT a good source for an essay? \\r\\n1. A doctor \\r\\n2. A newspaper \\r\\n3. A friend",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Sources should be experts.",
+    incorrectAnswerResponse: "Incorrect. Sources should be experts.",
+    set: 29
+    },
+
+  5248:{
+    question_tag: "L3LITLP84Q1",
+   code: "5248",
+   title: "Eng Q57",
+   learner_question: "The writer ___ that STDs are increasing. \\r\\n1. according to \\r\\n2. states \\r\\n3. source",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The writer states that STDs are increasing.",
+    incorrectAnswerResponse: "Incorrect. The writer states that STDs are increasing.",
+    set: 29
+    },
+
+  5249:{
+    question_tag: "L3LITLP84Q2",
+   code: "5249",
+   title: "Eng Q58",
+   learner_question: "___ the author, large families are expensive. \\r\\n1. States \\r\\n2. Writes \\r\\n3. According to",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) According to the author, large families are expensive.",
+    incorrectAnswerResponse: "Incorrect. According to the author, large families are expensive.",
+    set: 29
+    },
+
+  5250:{
+    question_tag: "L3LITLP85QG",
+   code: "5250",
+   title: "Eng Class Q30",
+   learner_question: "\\r\\n1. The happy girl runs. \\r\\n2. The girls happy runs. \\r\\n3. Happy the girl runs.",
+    question: "Which sentence correctly uses the adjective \'happy\'? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The happy girl runs.",
+    incorrectAnswerResponse: "Incorrect. The happy girl runs.",
+    set: 30
+    },
+
+  5251:{
+    question_tag: "L3LITLP85Q1",
+   code: "5251",
+   title: "Eng Q59",
+   learner_question: "Which word is an adjective? \\r\\n1. health \\r\\n2. healthy \\r\\n3. healthily",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Healthy is an adjective. The healthy boy eats good food.",
+    incorrectAnswerResponse: "Incorrect. Healthy is an adjective. The healthy boy eats good food.",
+    set: 30
+    },
+
+  5252:{
+    question_tag: "L3LITLP85Q2",
+   code: "5252",
+   title: "Eng Q60",
+   learner_question: "Which is the adjective in the sentence: The tall girl runs quickly. \\r\\n1. tall \\r\\n2. girl \\r\\n3. quickly",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The adjective \'tall\' describes the girl.",
+    incorrectAnswerResponse: "Incorrect. The adjective \'tall\' describes the girl.",
+    set: 30
+    },
+
+  5253:{
+    question_tag: "L3LITLP86QG",
+   code: "5253",
+   title: "Eng Class Q31",
+   learner_question: "\\r\\n1. Change questions after starting \\r\\n2. Take notes \\r\\n3. Edit the words of the speaker",
+    question: "Which is NOT something a good interviewer does? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) An interviewer should not change the words of the person they speak with.",
+    incorrectAnswerResponse: "Incorrect. An interviewer should not change the words of the person they speak with.",
+    set: 31
+    },
+
+  5254:{
+    question_tag: "L3LITLP86Q1",
+   code: "5254",
+   title: "Eng Q61",
+   learner_question: "Good interviews are like___. \\r\\n1. negotiations \\r\\n2. compromises \\r\\n3. conversations",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Good interviews are like conversations.",
+    incorrectAnswerResponse: "Incorrect. Good interviews are like conversations.",
+    set: 31
+    },
+
+  5255:{
+    question_tag: "L3LITLP86Q2",
+   code: "5255",
+   title: "Eng Q62",
+   learner_question: "What is an indent? \\r\\n1. A spelling competition \\r\\n2. A space \\r\\n3. A describing word",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) An indent is a small space at the start of a new paragraph.",
+    incorrectAnswerResponse: "Incorrect. An indent is a small space at the start of a new paragraph.",
+    set: 31
+    },
+
+  5256:{
+    question_tag: "L3LITLP87QG",
+   code: "5256",
+   title: "Eng Class Q32",
+   learner_question: "\\r\\n1. A bridge \\r\\n2. A street \\r\\n3. A conversation",
+    question: "What is a good transition sentence like? Enter the number of the best answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) A good transition is like a bridge from one topic to another.",
+    incorrectAnswerResponse: "Incorrect. A good transition is like a bridge from one topic to another.",
+    set: 32
+    },
+
+  5257:{
+    question_tag: "L3LITLP87Q1",
+   code: "5257",
+   title: "Eng Q63",
+   learner_question: "Which word in the sentence is a pronoun: She and Jane talk quietly. \\r\\n1. She \\r\\n2. Jane \\r\\n3. quietly",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'She\' is a pronoun. Pronouns take the place of nouns.",
+    incorrectAnswerResponse: "Incorrect. \'She\' is a pronoun. Pronouns take the place of nouns.",
+    set: 32
+    },
+
+  5258:{
+    question_tag: "L3LITLP87Q2",
+   code: "5258",
+   title: "Eng Q64",
+   learner_question: "Which word in the sentence is an adjective: The fat dog runs slowly. \\r\\n1. fat \\r\\n2. runs \\r\\n3. slowly",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Fat is an adjective. It describes the dog.",
+    incorrectAnswerResponse: "Incorrect. Fat is an adjective. It describes the dog.",
+    set: 32
+    },
+
+  5259:{
+    question_tag: "L3LITLP88QG",
+   code: "5259",
+   title: "Eng Class Q33",
+   learner_question: "\\r\\n1. contraseptive \\r\\n2. contraceptive \\r\\n3. contrasceptive",
+    question: "Which word is spelled correctly? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Contraceptive",
+    incorrectAnswerResponse: "Incorrect. Contraceptive",
+    set: 33
+    },
+
+  5260:{
+    question_tag: "L3LITLP88Q1",
+   code: "5260",
+   title: "Eng Q65",
+   learner_question: "___ is writing down our thoughts and feelings. \\r\\n1. Editing \\r\\n2. Drafting \\r\\n3. Journaling",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Journaling is writing down our thoughts and feelings.",
+    incorrectAnswerResponse: "Incorrect. Journaling is writing down our thoughts and feelings.",
+    set: 33
+    },
+
+  5261:{
+    question_tag: "L3LITLP88Q2",
+   code: "5261",
+   title: "Eng Q66",
+   learner_question: "Which is spelled correctly? \\r\\n1. pregnancy \\r\\n2. pregnansy \\r\\n3. pregnensy",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Pregnancy",
+    incorrectAnswerResponse: "Incorrect. Pregnancy",
+    set: 33
+    },
+
+  5262:{
+    question_tag: "L3LITLP89QG",
+   code: "5262",
+   title: "Eng Class Q34",
+   learner_question: "\\r\\n1. Condoms \\r\\n2. Birth control pills \\r\\n3. IUDs",
+    question: "What can protect against STDs? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Only condoms prevent STDs",
+    incorrectAnswerResponse: "Incorrect. Only condoms prevent STDs",
+    set: 34
+    },
+
+  5263:{
+    question_tag: "L3LITLP89Q1",
+   code: "5263",
+   title: "Eng Q67",
+   learner_question: "Which word is an adjective? \\r\\n1. run \\r\\n2. sad \\r\\n3. quickly",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Sad is an adjective. The sad girl runs.",
+    incorrectAnswerResponse: "Incorrect. Sad is an adjective. The sad girl runs.",
+    set: 34
+    },
+
+  5264:{
+    question_tag: "L3LITLP89Q2",
+   code: "5264",
+   title: "Eng Q68",
+   learner_question: "__ prevent pregnancy. \\r\\n1. Contraceptives \\r\\n2. Family planning \\r\\n3. Reproduction",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Contraceptives can prevent pregnancy.",
+    incorrectAnswerResponse: "Incorrect. Contraceptives can prevent pregnancy.",
+    set: 34
+    },
+
+  5265:{
+    question_tag: "L3LITLP90QG",
+   code: "5265",
+   title: "Eng Class Q35",
+   learner_question: "\\r\\n1. IUD \\r\\n2. Awareness \\r\\n3. HIV",
+    question: "Which is an STD? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) HIV is an STD.",
+    incorrectAnswerResponse: "Incorrect. HIV is an STD.",
+    set: 35
+    },
+
+  5266:{
+    question_tag: "L3LITLP90Q1",
+   code: "5266",
+   title: "Eng Q69",
+   learner_question: "When we ___ we should remain calm. \\r\\n1. Family planning \\r\\n2. negotiate \\r\\n3. contraceptive",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) When we negotiate, we should remain calm.",
+    incorrectAnswerResponse: "Incorrect. When we negotiate, we should remain calm.",
+    set: 35
+    },
+
+  5267:{
+    question_tag: "L3LITLP90Q2",
+   code: "5267",
+   title: "Eng Q70",
+   learner_question: "Which word in the sentence is an adverb: The short boy runs slowly. \\r\\n1. short \\r\\n2. runs \\r\\n3. slowly",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Slowly is an adverb showing how the boy ran.",
+    incorrectAnswerResponse: "Incorrect. Slowly is an adverb showing how the boy ran.",
+    set: 35
+    },
+
+  5268:{
+    question_tag: "L3LITLP91QG",
+   code: "5268",
+   title: "Eng Class Q36",
+   learner_question: "\\r\\n1. Reproductive health \\r\\n2. Literature \\r\\n3. Science",
+    question: "What topic will Module F cover? Enter the number of the best answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Module F will focus on creative writing and literature.",
+    incorrectAnswerResponse: "Incorrect. Module F will focus on creative writing and literature.",
+    set: 36
+    },
+
+  5269:{
+    question_tag: "L3LITLP91Q1",
+   code: "5269",
+   title: "Eng Q71",
+   learner_question: "What kind of word is \'Poetry\'? \\r\\n1. Adjective \\r\\n2. Noun \\r\\n3. Preposition",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Poetry is a thing. It is a noun.",
+    incorrectAnswerResponse: "Incorrect. Poetry is a thing. It is a noun.",
+    set: 36
+    },
+
+  5270:{
+    question_tag: "L3LITLP91Q2",
+   code: "5270",
+   title: "Eng Q72",
+   learner_question: "What is a masterpiece? \\r\\n1. Jewelry made of gold \\r\\n2. A very good work of art \\r\\n3. A type of music",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A masterpiece is a great work of art.",
+    incorrectAnswerResponse: "Incorrect. A masterpiece is a great work of art.",
+    set: 36
+    },
+
+  5271:{
+    question_tag: "L3LITLP92QG",
+   code: "5271",
+   title: "Eng Class Q37",
+   learner_question: "\\r\\n1. Poems \\r\\n2. Novels \\r\\n3. Lyrics",
+    question: "Why do we call the words to songs? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Lyrics are the words to a song.",
+    incorrectAnswerResponse: "Incorrect. Lyrics are the words to a song.",
+    set: 37
+    },
+
+  5272:{
+    question_tag: "L3LITLP92Q1",
+   code: "5272",
+   title: "Eng Q73",
+   learner_question: "Poems, novels and speeches are all___. \\r\\n1. Fiction \\r\\n2. Masterpieces \\r\\n3. Literature",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Poems, novels and speeches are all literature.",
+    incorrectAnswerResponse: "Incorrect. Poems, novels and speeches are all literature.",
+    set: 37
+    },
+
+  5273:{
+    question_tag: "L3LITLP92Q2",
+   code: "5273",
+   title: "Eng Q74",
+   learner_question: "A ___ writes poems. \\r\\n1. Poet \\r\\n2. Speaker \\r\\n3. Poetry",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The author of a poem is a poet.",
+    incorrectAnswerResponse: "Incorrect. The author of a poem is a poet.",
+    set: 37
+    },
+
+  5274:{
+    question_tag: "L3LITLP93QG",
+   code: "5274",
+   title: "Eng Class Q38",
+   learner_question: "\\r\\n1. Rewriting a sentence in our own words. \\r\\n2. Expressing something in a shorter way. \\r\\n3. Creating a type of literature.",
+    question: "What are we doing when we summarize? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Summarizing is saying something in a shorter way.",
+    incorrectAnswerResponse: "Incorrect. Summarizing is saying something in a shorter way.",
+    set: 38
+    },
+
+  5275:{
+    question_tag: "L3LITLP93Q1",
+   code: "5275",
+   title: "Eng Q75",
+   learner_question: "What is the difference between lyrics and a poem? \\r\\n1. Lyrics are longer \\r\\n2. Poems do not need good grammar \\r\\n3. Lyrics are set to music",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Lyrics are set to music, poems are not.",
+    incorrectAnswerResponse: "Incorrect. Lyrics are set to music, poems are not.",
+    set: 38
+    },
+
+  5276:{
+    question_tag: "L3LITLP93Q2",
+   code: "5276",
+   title: "Eng Q76",
+   learner_question: "The ___ is the name of a story, poem or song. \\r\\n1. Masterpiece \\r\\n2. Fiction \\r\\n3. Title",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The title is the name of a piece of writing.",
+    incorrectAnswerResponse: "Incorrect. The title is the name of a piece of writing.",
+    set: 38
+    },
+
+  5277:{
+    question_tag: "L3LITLP94QG",
+   code: "5277",
+   title: "Eng Class Q39",
+   learner_question: "\\r\\n1. The boy is a monster. \\r\\n2. The boy likes ice cream and cake. \\r\\n3. The runs quickly.",
+    question: "Which sentence is a metaphor? Enter the number of the metaphor.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'The boy is a monster.\' is a metaphor. The boy is like a monster, he is not really a monster.",
+    incorrectAnswerResponse: "Incorrect. \'The boy is a monster.\' is a metaphor. The boy is like a monster, he is not really a monster.",
+    set: 39
+    },
+
+  5278:{
+    question_tag: "L3LITLP94Q1",
+   code: "5278",
+   title: "Eng Q77",
+   learner_question: "Which sentence is a metaphor? \\r\\n1. Jane is a cheetah when she runs. \\r\\n2. Jane is a talented poet. \\r\\n3. Jane is faster than anyone in her school.",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Saying Jane is a cheetah means Jane is very fast. This is a metaphor.",
+    incorrectAnswerResponse: "Incorrect. Saying Jane is a cheetah means Jane is very fast. This is a metaphor.",
+    set: 39
+    },
+
+  5279:{
+    question_tag: "L3LITLP94Q2",
+   code: "5279",
+   title: "Eng Q78",
+   learner_question: "___ means saying something in a shorter way. \\r\\n1. Paraphrasing \\r\\n2. Summarizing \\r\\n3. Editing",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Summarizing means saying something in a shorter way.",
+    incorrectAnswerResponse: "Incorrect. Summarizing means saying something in a shorter way.",
+    set: 39
+    },
+
+  5280:{
+    question_tag: "L3LITLP95QG",
+   code: "5280",
+   title: "Eng Class Q40",
+   learner_question: "\\r\\n1. The shape of Liberia is like a woman\'s shape. \\r\\n2. A woman named Liberia is the mother of everyone here. \\r\\n3. Liberia makes us who we are.",
+    question: "If I say, \'Liberia is our mother,\' what does my metaphor likely mean? Enter the number of the best answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Metaphors do not mean exactly what is said.",
+    incorrectAnswerResponse: "Incorrect. Metaphors do not mean exactly what is said.",
+    set: 40
+    },
+
+  5281:{
+    question_tag: "L3LITLP95Q1",
+   code: "5281",
+   title: "Eng Q79",
+   learner_question: "Which is a good metaphor to say a boy who is small? \\r\\n1. The boy is a lion. \\r\\n2. The boy is very small. \\r\\n3. The boy is a mouse.",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) \'The boy is a mouse,\' is a metaphor that suggests a boy is very small.",
+    incorrectAnswerResponse: "Incorrect. \'The boy is a mouse,\' is a metaphor that suggests a boy is very small.",
+    set: 40
+    },
+
+  5282:{
+    question_tag: "L3LITLP95Q2",
+   code: "5282",
+   title: "Eng Q80",
+   learner_question: "Which word is a verb in the metaphor: She is a lion. \\r\\n1. She \\r\\n2. is \\r\\n3. lion",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) \'Is\' is a special verb called a linking verb. It is one form of the verb \'be\'. Is, are, be, been, being, was and were are all forms of \'be\'.",
+    incorrectAnswerResponse: "Incorrect. \'Is\' is a special verb called a linking verb. It is one form of the verb \'be\'. Is, are, be, been, being, was and were are all forms of \'be\'.",
+    set: 40
+    },
+
+  5283:{
+    question_tag: "L3LITLP96QG",
+   code: "5283",
+   title: "Eng Class Q41",
+   learner_question: "\\r\\n1. It helps the reader imagine the story. \\r\\n2. It helps the rhyme of the story \\r\\n3. It fixes errors in the story",
+    question: "How does strong imagery help a piece of writing? Enter the number of the best answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Strong imagery helps readers imagine exactly what the writer means.",
+    incorrectAnswerResponse: "Incorrect. Strong imagery helps readers imagine exactly what the writer means.",
+    set: 41
+    },
+
+  5284:{
+    question_tag: "L3LITLP96Q1",
+   code: "5284",
+   title: "Eng Q81",
+   learner_question: "The __ of the poem is the importance of family. \\r\\n1. title \\r\\n2. theme \\r\\n3. rhythm",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The theme of the poem is the importance of family.",
+    incorrectAnswerResponse: "Incorrect. The theme of the poem is the importance of family.",
+    set: 41
+    },
+
+  5285:{
+    question_tag: "L3LITLP96Q2",
+   code: "5285",
+   title: "Eng Q82",
+   learner_question: "The words bet and pet ___. \\r\\n1. rhythm \\r\\n2. rhyme \\r\\n3. imagery",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The word bet and pet rhyme.",
+    incorrectAnswerResponse: "Incorrect. The word bet and pet rhyme.",
+    set: 41
+    },
+
+  5286:{
+    question_tag: "L3LITLP97QG",
+   code: "5286",
+   title: "Eng Class Q42",
+   learner_question: "\\r\\n1. A poem \\r\\n2. Poetry \\r\\n3. A poet",
+    question: "Who was Bai T. Moore? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Bai T. Moore was a famous Liberian poet.",
+    incorrectAnswerResponse: "Incorrect. Bai T. Moore was a famous Liberian poet.",
+    set: 42
+    },
+
+  5287:{
+    question_tag: "L3LITLP97Q1",
+   code: "5287",
+   title: "Eng Q83",
+   learner_question: "Which sentence is a metaphor? \\r\\n1. Flomo\'s eyes are fires. \\r\\n2. Flomo\'s eyes are opened wide. \\r\\n3. Flomo is angry and his eyes show it.",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) \'Flomo\'s eyes are fires,\' is a metaphor.",
+    incorrectAnswerResponse: "Incorrect. \'Flomo\'s eyes are fires,\' is a metaphor.",
+    set: 42
+    },
+
+  5288:{
+    question_tag: "L3LITLP97Q2",
+   code: "5288",
+   title: "Eng Q84",
+   learner_question: "Which word is an adjective in the sentence? I saw a happy girl running. \\r\\n1. I \\r\\n2. happy \\r\\n3. running",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) \'Happy\' is an adjective describing the girl.",
+    incorrectAnswerResponse: "Incorrect. \'Happy\' is an adjective describing the girl.",
+    set: 42
+    },
+
+  5289:{
+    question_tag: "L3LITLP98QG",
+   code: "5289",
+   title: "Eng Class Q43",
+   learner_question: "\\r\\n1. Telling a friend what happened in a movie. \\r\\n2. Writing an essay about Elephants. \\r\\n3. A newspaper reporting what the president said.",
+    question: "Which is NOT summarizing? Enter the number of the example that is NOT summarizing.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Summarizing means saying something again in a shorter way. An essay is a new piece of writing.",
+    incorrectAnswerResponse: "Incorrect. Summarizing means saying something again in a shorter way. An essay is a new piece of writing.",
+    set: 43
+    },
+
+  5290:{
+    question_tag: "L3LITLP98Q1",
+   code: "5290",
+   title: "Eng Q85",
+   learner_question: "All poets are __ as well. \\r\\n1. poems \\r\\n2. Great works \\r\\n3. authors",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) All poets are authors as well.",
+    incorrectAnswerResponse: "Incorrect. All poets are authors as well.",
+    set: 43
+    },
+
+  5291:{
+    question_tag: "L3LITLP98Q2",
+   code: "5291",
+   title: "Eng Q86",
+   learner_question: "Which is NOT literature? \\r\\n1. A newspaper article \\r\\n2. A poem \\r\\n3. A short story",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Newspaper articles are not usually considered literature.",
+    incorrectAnswerResponse: "Incorrect. Newspaper articles are not usually considered literature.",
+    set: 43
+    },
+
+  5292:{
+    question_tag: "L3LITLP99QG",
+   code: "5292",
+   title: "Eng Class Q44",
+   learner_question: "\\r\\n1. The boy looked like a mouse. \\r\\n2. I could smell smoke in the air. \\r\\n3. Monrovia is the capital of Liberia.",
+    question: "Which is NOT an example of imagery?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The capital of Liberia is a fact. It does not help us see or feel anything.",
+    incorrectAnswerResponse: "Incorrect. The capital of Liberia is a fact. It does not help us see or feel anything.",
+    set: 44
+    },
+
+  5293:{
+    question_tag: "L3LITLP99Q1",
+   code: "5293",
+   title: "Eng Q87",
+   learner_question: "We __ eating when we saw him. \\r\\n1. was \\r\\n2. is \\r\\n3. were",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) We were eating when we saw him.",
+    incorrectAnswerResponse: "Incorrect. We were eating when we saw him.",
+    set: 44
+    },
+
+  5294:{
+    question_tag: "L3LITLP99Q2",
+   code: "5294",
+   title: "Eng Q88",
+   learner_question: "She was ___ when I came home. \\r\\n1. sleep \\r\\n2. sleeping \\r\\n3. slept",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) She was sleeping when I came home.",
+    incorrectAnswerResponse: "Incorrect. She was sleeping when I came home.",
+    set: 44
+    },
+
+  5295:{
+    question_tag: "L3LITLP100QG",
+   code: "5295",
+   title: "Eng Class Q45",
+   learner_question: "\\r\\n1. Ellen Johnson Sirleaf \\r\\n2. Lemah Gbowee \\r\\n3. Bai T. Moore",
+    question: "Who wrote the speech we read today? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) We read Lemah Gbowee\'s Nobel Prize acceptance speech today.",
+    incorrectAnswerResponse: "Incorrect. We read Lemah Gbowee\'s Nobel Prize acceptance speech today.",
+    set: 45
+    },
+
+  5296:{
+    question_tag: "L3LITLP100Q1",
+   code: "5296",
+   title: "Eng Q89",
+   learner_question: "I ___ looking at the painting when she saw me. \\r\\n1. was \\r\\n2. were \\r\\n3. am",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I was looking at the painting in a book.",
+    incorrectAnswerResponse: "Incorrect. I was looking at the painting in a book.",
+    set: 45
+    },
+
+  5297:{
+    question_tag: "L3LITLP100Q2",
+   code: "5297",
+   title: "Eng Q90",
+   learner_question: "It ___ sitting on the table when I came home. \\r\\n1. was \\r\\n2. were \\r\\n3. is",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) It was sitting on the table when I came home.",
+    incorrectAnswerResponse: "Incorrect. It was sitting on the table when I came home.",
+    set: 45
+    },
+
+  5298:{
+    question_tag: "L3LITLP101QG",
+   code: "5298",
+   title: "Eng Class Q46",
+   learner_question: "\\r\\n1. All works of literature are masterpieces. \\r\\n2. Lyrics are set to music. \\r\\n3. A speech is a form of literature.",
+    question: "Which sentence is NOT true? Enter the number of the incorrect sentence.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Not all works of literature are masterpieces. Only great works are masterpieces.",
+    incorrectAnswerResponse: "Incorrect. Not all works of literature are masterpieces. Only great works are masterpieces.",
+    set: 46
+    },
+
+  5299:{
+    question_tag: "L3LITLP101Q1",
+   code: "5299",
+   title: "Eng Q91",
+   learner_question: "What kind of sentence is \"The man smiled as he danced.\" \\r\\n1. metaphor \\r\\n2. imagery \\r\\n3. summary",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Good imagery allows us to imagine what the author is talking about.",
+    incorrectAnswerResponse: "Incorrect. Good imagery allows us to imagine what the author is talking about.",
+    set: 46
+    },
+
+  5300:{
+    question_tag: "L3LITLP101Q2",
+   code: "5300",
+   title: "Eng Q92",
+   learner_question: "Dan and Sara ___ walking when I saw them. \\r\\n1. was \\r\\n2. were \\r\\n3. are",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Dan and Sara were walking when I saw them.",
+    incorrectAnswerResponse: "Incorrect. Dan and Sara were walking when I saw them.",
+    set: 46
+    },
+
+  5301:{
+    question_tag: "L3LITLP102QG",
+   code: "5301",
+   title: "Eng Class Q47",
+   learner_question: "\\r\\n1. Ellen Johnson Sirleaf \\r\\n2. Lemah Gbowee \\r\\n3. Martin Luther King Jr.",
+    question: "Who wrote the speech we read today? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) We read Martin Luther King Jr\'s \'I Have Dream\' speech.",
+    incorrectAnswerResponse: "Incorrect. We read Martin Luther King Jr\'s \'I Have Dream\' speech.",
+    set: 47
+    },
+
+  5302:{
+    question_tag: "L3LITLP102Q1",
+   code: "5302",
+   title: "Eng Q93",
+   learner_question: "Which sentence is a metaphor? \\r\\n1. Liberia is our mother. \\r\\n2. Liberia is a beautiful country. \\r\\n3. The people of Liberia are proud.",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Calling Liberia \'mother\' is a metaphor.",
+    incorrectAnswerResponse: "Incorrect. Calling Liberia \'mother\' is a metaphor.",
+    set: 47
+    },
+
+  5303:{
+    question_tag: "L3LITLP102Q2",
+   code: "5303",
+   title: "Eng Q94",
+   learner_question: "Which is NOT considered literature? \\r\\n1. Poems \\r\\n2. Speeches \\r\\n3. News articles",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Newspaper articles are not usually considered literature.",
+    incorrectAnswerResponse: "Incorrect. Newspaper articles are not usually considered literature.",
+    set: 47
+    },
+
+  5304:{
+    question_tag: "L3LITLP103QG",
+   code: "5304",
+   title: "Eng Class Q48",
+   learner_question: "\\r\\n1. Edit \\r\\n2. Write \\r\\n3. Plan",
+    question: "What does it mean to \'draft\' a piece of writing? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Drafting is the second step in the writing process. When we draft, we write a first copy of something.",
+    incorrectAnswerResponse: "Incorrect. Drafting is the second step in the writing process. When we draft, we write a first copy of something.",
+    set: 48
+    },
+
+  5305:{
+    question_tag: "L3LITLP103Q1",
+   code: "5305",
+   title: "Eng Q95",
+   learner_question: "Which sentence is emotional? \\r\\n1. Liberia is a country in West Africa. \\r\\n2. Liberia needs our love. \\r\\n3. Liberia is a democracy.",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Emotional sentences play to our feelings.",
+    incorrectAnswerResponse: "Incorrect. Emotional sentences play to our feelings.",
+    set: 48
+    },
+
+  5306:{
+    question_tag: "L3LITLP103Q2",
+   code: "5306",
+   title: "Eng Q96",
+   learner_question: "The two cats __ eating when I saw them. \\r\\n1. are \\r\\n2. were \\r\\n3. was",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The two cats were eating when I saw them.",
+    incorrectAnswerResponse: "Incorrect. The two cats were eating when I saw them.",
+    set: 48
+    },
+
+  5307:{
+    question_tag: "L3LITLP104QG",
+   code: "5307",
+   title: "Eng Class Q49",
+   learner_question: "\\r\\n1. Make changes \\r\\n2. Write \\r\\n3. Plan",
+    question: "What does it mean to \'revise\' a piece of writing? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) When we revise our writing, we make changes to improve it.",
+    incorrectAnswerResponse: "Incorrect. When we revise our writing, we make changes to improve it.",
+    set: 49
+    },
+
+  5308:{
+    question_tag: "L3LITLP104Q1",
+   code: "5308",
+   title: "Eng Q97",
+   learner_question: "Which is NOT a part of your \'voice\'. \\r\\n1. Your opinions \\r\\n2. Your creativity \\r\\n3. Your wealth",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Your voice is your thoughts and creativity.",
+    incorrectAnswerResponse: "Incorrect. Your voice is your thoughts and creativity.",
+    set: 49
+    },
+
+  5309:{
+    question_tag: "L3LITLP104Q2",
+   code: "5309",
+   title: "Eng Q98",
+   learner_question: "Which word is an adjective? \\r\\n1. slow \\r\\n2. slowly \\r\\n3. Slowing",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Slow is an adjective. The turtle is slow.",
+    incorrectAnswerResponse: "Incorrect. Slow is an adjective. The turtle is slow.",
+    set: 49
+    },
+
+  5310:{
+    question_tag: "L3LITLP105QG",
+   code: "5310",
+   title: "Eng Class Q50",
+   learner_question: "\\r\\n1. Thabo Mbeki \\r\\n2. Lemah Gbowee \\r\\n3. Martin Luther King Jr.",
+    question: "Who wrote the speech we read today? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) We read Thabo Mbeki\'s \'I am African\' speech.",
+    incorrectAnswerResponse: "Incorrect. We read Thabo Mbeki\'s \'I am African\' speech.",
+    set: 50
+    },
+
+  5311:{
+    question_tag: "L3LITLP105Q1",
+   code: "5311",
+   title: "Eng Q99",
+   learner_question: "Which sentence has a subject verb agreement error? \\r\\n1. She is hapy. \\r\\n2. they go to school \\r\\n3. Flomo are happy.",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) In the sentence, \"Flomo are happy.\" the verb \'are\' does not agree with the subject \'Flomo\'. Flomo is happy.",
+    incorrectAnswerResponse: "Incorrect. In the sentence, \"Flomo are happy.\" the verb \'are\' does not agree with the subject \'Flomo\'. Flomo is happy.",
+    set: 50
+    },
+
+  5312:{
+    question_tag: "L3LITLP105Q2",
+   code: "5312",
+   title: "Eng Q100",
+   learner_question: "What is the 4th step in the writing process? \\r\\n1. Planning \\r\\n2. Drafting \\r\\n3. Editing",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Editing is the 4th step in the writing process. Editing means looking for errors in our work.",
+    incorrectAnswerResponse: "Incorrect. Editing is the 4th step in the writing process. Editing means looking for errors in our work.",
+    set: 50
+    },
+
+  5313:{
+    question_tag: "L3LITLP106QG",
+   code: "5313",
+   title: "Eng Class Q51",
+   learner_question: "\\r\\n1. Poetry \\r\\n2. Speeches \\r\\n3. Short stories",
+    question: "What type of literature did we read today? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) We read poetry in class.",
+    incorrectAnswerResponse: "Incorrect. We read poetry in class.",
+    set: 51
+    },
+
+  5314:{
+    question_tag: "L3LITLP106Q1",
+   code: "5314",
+   title: "Eng Q101",
+   learner_question: "You can have cake ___ pie. \\r\\n1. but \\r\\n2. so \\r\\n3. or",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) You can have cake or pie.",
+    incorrectAnswerResponse: "Incorrect. You can have cake or pie.",
+    set: 51
+    },
+
+  5315:{
+    question_tag: "L3LITLP106Q2",
+   code: "5315",
+   title: "Eng Q102",
+   learner_question: "I like Jane ___ I do not like Mike. \\r\\n1. or \\r\\n2. but \\r\\n3. so",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) I like jane but I do not like Mike.",
+    incorrectAnswerResponse: "Incorrect. I like jane but I do not like Mike.",
+    set: 51
+    },
+
+  5316:{
+    question_tag: "L3LITLP107QG",
+   code: "5316",
+   title: "Eng Class Q52",
+   learner_question: "\\r\\n1. Imagery \\r\\n2. Theme \\r\\n3. Metaphor",
+    question: "Which word is most similar to the word \'topic\'? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A theme is like a topic- it is the main idea of the author.",
+    incorrectAnswerResponse: "Incorrect. A theme is like a topic- it is the main idea of the author.",
+    set: 52
+    },
+
+  5317:{
+    question_tag: "L3LITLP107Q1",
+   code: "5317",
+   title: "Eng Q103",
+   learner_question: "Jake ___ writing when he fell asleep. \\r\\n1. was \\r\\n2. were \\r\\n3. is",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Jake was writing when he fell asleep.",
+    incorrectAnswerResponse: "Incorrect. Jake was writing when he fell asleep.",
+    set: 52
+    },
+
+  5318:{
+    question_tag: "L3LITLP107Q2",
+   code: "5318",
+   title: "Eng Q104",
+   learner_question: "Which ending makes the sentence a metaphor: Jane is \\r\\n1. very upset. \\r\\n2. holding red flowers. \\r\\n3. a flower.",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Jane is a flower. Metaphors compare unlike things.",
+    incorrectAnswerResponse: "Incorrect. Jane is a flower. Metaphors compare unlike things.",
+    set: 52
+    },
+
+  5319:{
+    question_tag: "L3LITLP108QG",
+   code: "5319",
+   title: "Eng Class Q53",
+   learner_question: "\\r\\n1. Poetry \\r\\n2. Novels \\r\\n3. Speeches",
+    question: "Which is a literary form we did NOT study in this module? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Novels are long fiction stories. We did not read novels in this module.",
+    incorrectAnswerResponse: "Incorrect. Novels are long fiction stories. We did not read novels in this module.",
+    set: 53
+    },
+
+  5320:{
+    question_tag: "L3LITLP108Q1",
+   code: "5320",
+   title: "Eng Q105",
+   learner_question: "What is the difference between lyrics and a poem? \\r\\n1. Lyrics use imagery, poems do not. \\r\\n2. Poems need good grammar. \\r\\n3. Lyrics are set to music",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Lyrics are set to music, poems are not.",
+    incorrectAnswerResponse: "Incorrect. Lyrics are set to music, poems are not.",
+    set: 53
+    },
+
+  5321:{
+    question_tag: "L3LITLP108Q2",
+   code: "5321",
+   title: "Eng Q106",
+   learner_question: "I __ sleeping when they came home. \\r\\n1. was \\r\\n2. were \\r\\n3. am",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) I was sleeping when they came home.",
+    incorrectAnswerResponse: "Incorrect. I was sleeping when they came home.",
+    set: 53
+    },
+
+    6169:{
+    question_tag: "L3MALP57QG",
+   code: "6169",
+   title: "Math Class Q1",
+   learner_question: "\\r\\n1. inches \\r\\n2. feet \\r\\n3. miles",
+    question: "You want to measure the size of a book. Which is a good unit of measure?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Inches is a good unit for measuring a book. Feet and miles are too big.",
+    incorrectAnswerResponse: "Incorrect. Inches is a good unit for measuring a book. Feet and miles are too big.",
+    set: 1
+    },
+
+  6170:{
+    question_tag: "L3MALP57Q1",
+   code: "6170",
+   title: "Math Q1",
+   learner_question: "12 inches ? 1 foot \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 12 inches = 1 foot",
+    incorrectAnswerResponse: "Incorrect. 12 inches = 1 foot",
+    set: 1
+    },
+
+  6171:{
+    question_tag: "L3MALP57Q2",
+   code: "6171",
+   title: "Math Q2",
+   learner_question: "30 inches ? 3 feet \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 3 feet = 36 inches. 30 in < 3 ft",
+    incorrectAnswerResponse: "Incorrect. 3 feet = 36 inches. 30 in < 3 ft",
+    set: 1
+    },
+
+  6172:{
+    question_tag: "L3MALP58QG",
+   code: "6172",
+   title: "Math Class Q2",
+   learner_question: "\\r\\n1. Meters \\r\\n2. Centimeters \\r\\n3. Kilometers",
+    question: "You want to measure the distance to Monrovia. Which is a good unit of measure?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Kilometers is a good unit to measure distances between cities.",
+    incorrectAnswerResponse: "Incorrect. Kilometers is a good unit to measure distances between cities.",
+    set: 2
+    },
+
+  6173:{
+    question_tag: "L3MALP58Q1",
+   code: "6173",
+   title: "Math Q3",
+   learner_question: "150cm ? 1m \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 100cm = 1m. 150cm > 1m",
+    incorrectAnswerResponse: "Incorrect. 100cm = 1m. 150cm > 1m",
+    set: 2
+    },
+
+  6174:{
+    question_tag: "L3MALP58Q2",
+   code: "6174",
+   title: "Math Q4",
+   learner_question: "5 yards ? 12 feet \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 5 yards = 15 feet. 5 yards > 12 feet",
+    incorrectAnswerResponse: "Incorrect. 5 yards = 15 feet. 5 yards > 12 feet",
+    set: 2
+    },
+
+  6175:{
+    question_tag: "L3MALP59QG",
+   code: "6175",
+   title: "Math Class Q3",
+   learner_question: "\\r\\n1. meters \\r\\n2. Centimeters \\r\\n3. millimeters",
+    question: "You want to measure the length of a small ant. Which is a good unit of measure?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Millimeters is a good unit to measure very small things.",
+    incorrectAnswerResponse: "Incorrect. Millimeters is a good unit to measure very small things.",
+    set: 3
+    },
+
+  6176:{
+    question_tag: "L3MALP59Q1",
+   code: "6176",
+   title: "Math Q5",
+   learner_question: "25 feet = ? \\r\\n1. 8 yards 1 foot \\r\\n2. 3 yards 4 feet \\r\\n3. 5 yards",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 25/3 = 8 r 1 = 8 yards 1 foot.",
+    incorrectAnswerResponse: "Incorrect. 25/3 = 8 r 1 = 8 yards 1 foot.",
+    set: 3
+    },
+
+  6177:{
+    question_tag: "L3MALP59Q2",
+   code: "6177",
+   title: "Math Q6",
+   learner_question: "400 meters ? 4km \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1000m = 1 km. 400m < 4km",
+    incorrectAnswerResponse: "Incorrect. 1000m = 1 km. 400m < 4km",
+    set: 3
+    },
+
+  6178:{
+    question_tag: "L3MALP60QG",
+   code: "6178",
+   title: "Math Class Q4",
+   learner_question: "\\r\\n1. 10 inches \\r\\n2. 1 foot \\r\\n3. 1 foot 6 inches ",
+    question: "Sonie has 4 feet of fabric. She cuts 30 inches from the fabric. How much does she have now? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 4 feet = 48 inches. 48- 30= 18 inches= 1 foot 6 inches",
+    incorrectAnswerResponse: "Incorrect. 4 feet = 48 inches. 48- 30= 18 inches= 1 foot 6 inches",
+    set: 4
+    },
+
+  6179:{
+    question_tag: "L3MALP60Q1",
+   code: "6179",
+   title: "Math Q7",
+   learner_question: "2 ft - 13 inches = ? \\r\\n1. 1 foot 1 inch \\r\\n2. 11 inches \\r\\n3. 13 inches",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 2ft=24 inches. 24-13=11 inches",
+    incorrectAnswerResponse: "Incorrect. 2ft=24 inches. 24-13=11 inches",
+    set: 4
+    },
+
+  6180:{
+    question_tag: "L3MALP60Q2",
+   code: "6180",
+   title: "Math Q8",
+   learner_question: "3yd 2ft 3 in =? \\r\\n1. 18 in \\r\\n2. 63 in \\r\\n3. 135 in",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 3yd = 108in. 2ft= 24 in. 108+24+3= 135",
+    incorrectAnswerResponse: "Incorrect. 3yd = 108in. 2ft= 24 in. 108+24+3= 135",
+    set: 4
+    },
+
+  6181:{
+    question_tag: "L3MALP61QG",
+   code: "6181",
+   title: "Math Class Q5",
+   learner_question: "\\r\\n1. gallon, quart, cup, pint \\r\\n2. cup, pint, quart, gallon \\r\\n3. pint, cup, gallon, quart",
+    question: "Which list is arranged from smallest to biggest? Enter the number of the list ordered smallest to biggest.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) cup < pint < quart < gallon",
+    incorrectAnswerResponse: "Incorrect. cup < pint < quart < gallon",
+    set: 5
+    },
+
+  6182:{
+    question_tag: "L3MALP61Q1",
+   code: "6182",
+   title: "Math Q9",
+   learner_question: "7 Quarts ? 2 gallons \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 2 gallons = 8 quarts. 7 quarts < 2 gallons",
+    incorrectAnswerResponse: "Incorrect. 2 gallons = 8 quarts. 7 quarts < 2 gallons",
+    set: 5
+    },
+
+  6183:{
+    question_tag: "L3MALP61Q2",
+   code: "6183",
+   title: "Math Q10",
+   learner_question: "32 cups ? 2 gallons \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1 gallon = 16 cups. 2 gallons = 32 cups",
+    incorrectAnswerResponse: "Incorrect. 1 gallon = 16 cups. 2 gallons = 32 cups",
+    set: 5
+    },
+
+  6184:{
+    question_tag: "L3MALP62QG",
+   code: "6184",
+   title: "Math Class Q6",
+   learner_question: "\\r\\n1. gallons \\r\\n2. liters \\r\\n3. meters",
+    question: "What is the metric unit for measuring volume? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Volume is measured in liters in the metric system.",
+    incorrectAnswerResponse: "Incorrect. Volume is measured in liters in the metric system.",
+    set: 6
+    },
+
+  6185:{
+    question_tag: "L3MALP62Q1",
+   code: "6185",
+   title: "Math Q11",
+   learner_question: "50cl ? 500ml \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 2cl = 10ml. 50cl = 500ml",
+    incorrectAnswerResponse: "Incorrect. 2cl = 10ml. 50cl = 500ml",
+    set: 6
+    },
+
+  6186:{
+    question_tag: "L3MALP62Q2",
+   code: "6186",
+   title: "Math Q12",
+   learner_question: "How many 25cl glasses can be filled by 2 liters of juice? \\r\\n1. 12 \\r\\n2. 8 \\r\\n3. 80 ",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 2l=200cl. 200/25=8",
+    incorrectAnswerResponse: "Incorrect. 2l=200cl. 200/25=8",
+    set: 6
+    },
+
+  6187:{
+    question_tag: "L3MALP63QG",
+   code: "6187",
+   title: "Math Class Q7",
+   learner_question: "\\r\\n1. liters \\r\\n2. meters \\r\\n3. grams",
+    question: "What is the metric unit for measuring weight? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Weight is measured in grams in the metric system.",
+    incorrectAnswerResponse: "Incorrect. Weight is measured in grams in the metric system.",
+    set: 7
+    },
+
+  6188:{
+    question_tag: "L3MALP63Q1",
+   code: "6188",
+   title: "Math Q13",
+   learner_question: "1kg ? I pound \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1kg = 2.2lbs. 1kg > 1lbs",
+    incorrectAnswerResponse: "Incorrect. 1kg = 2.2lbs. 1kg > 1lbs",
+    set: 7
+    },
+
+  6189:{
+    question_tag: "L3MALP63Q2",
+   code: "6189",
+   title: "Math Q14",
+   learner_question: "5000mg ? 50kg \\r\\n1. < \\r\\n2. > \\r\\n3.=",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 5000mg= 5kg. 5000mg < 50kg",
+    incorrectAnswerResponse: "Incorrect. 5000mg= 5kg. 5000mg < 50kg",
+    set: 7
+    },
+
+  6190:{
+    question_tag: "L3MALP64QG",
+   code: "6190",
+   title: "Math Class Q8",
+   learner_question: "\\r\\n1. 11lbs \\r\\n2. 10 lbs \\r\\n3. 9lbs",
+    question: "Jane has 5 kg of rice. About how much is that in pounds? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1kg = 2.2lbs. 5kg > 11lbs",
+    incorrectAnswerResponse: "Incorrect. 1kg = 2.2lbs. 5kg > 11lbs",
+    set: 8
+    },
+
+  6191:{
+    question_tag: "L3MALP64Q1",
+   code: "6191",
+   title: "Math Q15",
+   learner_question: "3000 lbs ? 2 tons \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 2 tons = 4000 lbs. 3000 lbs < 2 tons",
+    incorrectAnswerResponse: "Incorrect. 2 tons = 4000 lbs. 3000 lbs < 2 tons",
+    set: 8
+    },
+
+  6192:{
+    question_tag: "L3MALP64Q2",
+   code: "6192",
+   title: "Math Q16",
+   learner_question: "2000mg ? 4 lbs \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 2000mg=2kg. 2kg=4.4lbs. 2000mg > 4lbs.",
+    incorrectAnswerResponse: "Incorrect. 2000mg=2kg. 2kg=4.4lbs. 2000mg > 4lbs.",
+    set: 8
+    },
+
+  6193:{
+    question_tag: "L3MALP65QG",
+   code: "6193",
+   title: "Math Class Q9",
+   learner_question: "\\r\\n1. 175cm \\r\\n2. 175 in \\r\\n3. 175 feet",
+    question: "Which is a normal height for a man? Enter the number of the best answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 175cm is a normal height for man.",
+    incorrectAnswerResponse: "Incorrect. 175cm is a normal height for man.",
+    set: 9
+    },
+
+  6194:{
+    question_tag: "L3MALP65Q1",
+   code: "6194",
+   title: "Math Q17",
+   learner_question: "1cm ? 1 in \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1in = 2.54 cm. 1cm<1in",
+    incorrectAnswerResponse: "Incorrect. 1in = 2.54 cm. 1cm<1in",
+    set: 9
+    },
+
+  6195:{
+    question_tag: "L3MALP65Q2",
+   code: "6195",
+   title: "Math Q18",
+   learner_question: "4 miles ? 5km \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 4 miles = 6.44 km. 4mi > 5km",
+    incorrectAnswerResponse: "Incorrect. 4 miles = 6.44 km. 4mi > 5km",
+    set: 9
+    },
+
+  6196:{
+    question_tag: "L3MALP66QG",
+   code: "6196",
+   title: "Math Class Q10",
+   learner_question: "\\r\\n1. 65mg \\r\\n2. 65lbs \\r\\n3. 65kg",
+    question: "Which is a normal weight for a man? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 65 kg is a normal weight for a man.",
+    incorrectAnswerResponse: "Incorrect. 65 kg is a normal weight for a man.",
+    set: 10
+    },
+
+  6197:{
+    question_tag: "L3MALP66Q1",
+   code: "6197",
+   title: "Math Q19",
+   learner_question: "450mg ? 1lb \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1lb=.45kg=450mg",
+    incorrectAnswerResponse: "Incorrect. 1lb=.45kg=450mg",
+    set: 10
+    },
+
+  6198:{
+    question_tag: "L3MALP66Q2",
+   code: "6198",
+   title: "Math Q20",
+   learner_question: "1000kg ? 1 ton \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1 ton = 2000lbs. 1000kg =2,200lbs. 1000kg>1 ton",
+    incorrectAnswerResponse: "Incorrect. 1 ton = 2000lbs. 1000kg =2,200lbs. 1000kg>1 ton",
+    set: 10
+    },
+
+  6199:{
+    question_tag: "L3MALP67QG",
+   code: "6199",
+   title: "Math Class Q11",
+   learner_question: "\\r\\n1. 100lbs \\r\\n2. 110lbs \\r\\n3. 120lbs",
+    question: "About how much is 50kg in pounds? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 50 x 2.2 =110",
+    incorrectAnswerResponse: "Incorrect. 50 x 2.2 =110",
+    set: 11
+    },
+
+  6200:{
+    question_tag: "L3MALP67Q1",
+   code: "6200",
+   title: "Math Q21",
+   learner_question: "Your car takes 19 gallons of petrol. About how many liters is that? \\r\\n1. 5 liters \\r\\n2. 72 liters \\r\\n3. 122 liters",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1 gallon = 3.79 liters. 19 x 3.79= 72.01",
+    incorrectAnswerResponse: "Incorrect. 1 gallon = 3.79 liters. 19 x 3.79= 72.01",
+    set: 11
+    },
+
+  6201:{
+    question_tag: "L3MALP67Q2",
+   code: "6201",
+   title: "Math Q22",
+   learner_question: "100 feet = ? meters \\r\\n1. 30m \\r\\n2. 15m \\r\\n2. 10m ",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1ft=.30m. 100 x .3= 30m",
+    incorrectAnswerResponse: "Incorrect. 1ft=.30m. 100 x .3= 30m",
+    set: 11
+    },
+
+  6202:{
+    question_tag: "L3MALP68QG",
+   code: "6202",
+   title: "Math Class Q12",
+   learner_question: "\\r\\n1. 12 seconds \\r\\n2. 60 seconds \\r\\n3. 360 seconds.",
+    question: "How many seconds are there in 1 hour. Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) There are 60 seconds in 1 minute and 60 minutes in 1 hour. 60 x 60= 360",
+    incorrectAnswerResponse: "Incorrect. There are 60 seconds in 1 minute and 60 minutes in 1 hour. 60 x 60= 360",
+    set: 12
+    },
+
+  6203:{
+    question_tag: "L3MALP68Q1",
+   code: "6203",
+   title: "Math Q23",
+   learner_question: "Which time is \"half past seven\"? \\r\\n1. 6:30 \\r\\n2. 7:30 \\r\\n3. 7:50",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Half past = 30. Half past 7 = 7:30.",
+    incorrectAnswerResponse: "Incorrect. Half past = 30. Half past 7 = 7:30.",
+    set: 12
+    },
+
+  6204:{
+    question_tag: "L3MALP68Q2",
+   code: "6204",
+   title: "Math Q24",
+   learner_question: "Which is midnight? \\r\\n1. 12:00am \\r\\n2. 12:00pm \\r\\n3. 9:30pm",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Midnight = 12:00am",
+    incorrectAnswerResponse: "Incorrect. Midnight = 12:00am",
+    set: 12
+    },
+
+  6205:{
+    question_tag: "L3MALP69QG",
+   code: "6205",
+   title: "Math Class Q13",
+   learner_question: "\\r\\n1. 15 minutes \\r\\n2. 35 minutes \\r\\n3. 1 hour 25 minutes",
+    question: "If you start writing at 4:45 and finish at 5:20, how long did you write? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 5:20 - 4:45 = 35 minutes",
+    incorrectAnswerResponse: "Incorrect. 5:20 - 4:45 = 35 minutes",
+    set: 13
+    },
+
+  6206:{
+    question_tag: "L3MALP69Q1",
+   code: "6206",
+   title: "Math Q25",
+   learner_question: "Jane gets on a bus at 5:30. She rides for 2 hours and 10 minutes. What time does she get off the bus? \\r\\n1. 3:20 \\r\\n2. 5:42 \\r\\n3. 7:40",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 5:30 + 2hrs 10m = 7:40",
+    incorrectAnswerResponse: "Incorrect. 5:30 + 2hrs 10m = 7:40",
+    set: 13
+    },
+
+  6207:{
+    question_tag: "L3MALP69Q2",
+   code: "6207",
+   title: "Math Q26",
+   learner_question: "How many minutes are there in 5 hours? \\r\\n1. 500 \\r\\n3. 300 \\r\\n3. 60",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 5hrs x 60minutes = 300 minutes",
+    incorrectAnswerResponse: "Incorrect. 5hrs x 60minutes = 300 minutes",
+    set: 13
+    },
+
+  6208:{
+    question_tag: "L3MALP70QG",
+   code: "6208",
+   title: "Math Class Q14 ",
+   learner_question: "\\r\\n1. Monthly calendar \\r\\n2. Daily planner \\r\\n3. Time sheet",
+    question: "Which would a worker use to show what time she started and finished work? Enter the number of the correct answer. ",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Time sheets show when people start and stop working.",
+    incorrectAnswerResponse: "Incorrect. Time sheets show when people start and stop working.",
+    set: 14
+    },
+
+  6209:{
+    question_tag: "L3MALP70Q1",
+   code: "6209",
+   title: "Math Q27",
+   learner_question: "20 days ? 3 weeks \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 3 weeks = 21 days. 20 days < 3 weeks",
+    incorrectAnswerResponse: "Incorrect. 3 weeks = 21 days. 20 days < 3 weeks",
+    set: 14
+    },
+
+  6210:{
+    question_tag: "L3MALP70Q2",
+   code: "6210",
+   title: "Math Q28",
+   learner_question: "Today is Tuesday, January 10. What will the date be next Tuesday? \\r\\n1. January 11 \\r\\n2. January 17 \\r\\n3. February 10",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) January 10 + 7 days (1 week)= January 17.",
+    incorrectAnswerResponse: "Incorrect. January 10 + 7 days (1 week)= January 17.",
+    set: 14
+    },
+
+  6211:{
+    question_tag: "L3MALP71QG",
+   code: "6211",
+   title: "Math Class Q15",
+   learner_question: "\\r\\n1. 3 hours \\r\\n2. 11 hours \\r\\n3. 9 hours",
+    question: "James starts work at 7am. He finishes at 4 pm. How many hours did James work? Enter the number of the correct answer.",
+    answer: "9",
+    correctAnswerResponse: "Correct! :) 5 hours before noon + 4 hours after noon= 9 hours",
+    incorrectAnswerResponse: "Incorrect. 5 hours before noon + 4 hours after noon= 9 hours",
+    set: 15
+    },
+
+  6212:{
+    question_tag: "L3MALP71Q1",
+   code: "6212",
+   title: "Math Q29",
+   learner_question: "Sara worked from 8 in the morning until 2 in the afternoon. How many hours did she work? \\r\\n1. 6 hours \\r\\n2. 10 hours \\r\\n3. 16 hours",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 4 hours before noon + 2 hours after noon= 6 hours",
+    incorrectAnswerResponse: "Incorrect. 4 hours before noon + 2 hours after noon= 6 hours",
+    set: 15
+    },
+
+  6213:{
+    question_tag: "L3MALP71Q2",
+   code: "6213",
+   title: "Math Q30",
+   learner_question: "Today is June \\r\\n2. What will the date be in 2 weeks? \\r\\n1. June 4 \\r\\n2. August 2 \\r\\n3. June 16",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 2 weeks = 14 days. June 2 + 14= June 16",
+    incorrectAnswerResponse: "Incorrect. 2 weeks = 14 days. June 2 + 14= June 16",
+    set: 15
+    },
+
+  6214:{
+    question_tag: "L3MALP72QG",
+   code: "6214",
+   title: "Math Class Q16",
+   learner_question: "\\r\\n1. 5 lbs \\r\\n2. 3kg \\r\\n3. 350mg",
+    question: "Which is the largest number? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 3kg = 6.6 lbs. 3kg = 3000mg. 3kg >5lbs>350mg",
+    incorrectAnswerResponse: "Incorrect. 3kg = 6.6 lbs. 3kg = 3000mg. 3kg >5lbs>350mg",
+    set: 16
+    },
+
+  6215:{
+    question_tag: "L3MALP72Q1",
+   code: "6215",
+   title: "Math Q31",
+   learner_question: "35 in ? 1yd \\r\\n1. < \\r\\n2. > \\r\\n3. =",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 3ft = 36 inches. 35in < 1yd",
+    incorrectAnswerResponse: "Incorrect. 3ft = 36 inches. 35in < 1yd",
+    set: 16
+    },
+
+  6216:{
+    question_tag: "L3MALP72Q2",
+   code: "6216",
+   title: "Math Q32",
+   learner_question: "Sonie worked from 12:00am to 12:00pm. How many hours did she work? \\r\\n1. 0 hours \\r\\n2. 24 hours \\r\\n3. 12 hours",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 12 hours",
+    incorrectAnswerResponse: "Incorrect. 12 hours",
+    set: 16
+    },
+
+  6217:{
+    question_tag: "L3MALP73QG",
+   code: "6217",
+   title: "Math Class Q17",
+   learner_question: "\\r\\n1. train tracks \\r\\n2. the letter X \\r\\n3. streets at an intersection",
+    question: "Which is an example of parallel lines? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Like train tracks, parallel lines go in the same direction and do not cross.",
+    incorrectAnswerResponse: "Incorrect. Like train tracks, parallel lines go in the same direction and do not cross.",
+    set: 17
+    },
+
+  6218:{
+    question_tag: "L3MALP73Q1",
+   code: "6218",
+   title: "Math Q33",
+   learner_question: "A ___ has a beginning point but no end point. \\r\\n1. line \\r\\n2. Line segment \\r\\n3. ray",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A ray has a beginning point but no end point.",
+    incorrectAnswerResponse: "Incorrect. A ray has a beginning point but no end point.",
+    set: 17
+    },
+
+  6219:{
+    question_tag: "L3MALP73Q2",
+   code: "6219",
+   title: "Math Q34",
+   learner_question: "Which is an example of perpendicular lines? \\r\\n1. train tracks \\r\\n2. the letter A \\r\\n3. streets at an intersection",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Perpendicular lines cross each other at right angles like streets at an intersection.",
+    incorrectAnswerResponse: "Incorrect. Perpendicular lines cross each other at right angles like streets at an intersection.",
+    set: 17
+    },
+
+  6220:{
+    question_tag: "L3MALP74QG",
+   code: "6220",
+   title: "Math Class Q18",
+   learner_question: "\\r\\n1. An obtuse angle \\r\\n2. A right angle \\r\\n3. An acute angle",
+    question: "What angle does a capital letter L show? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Capital L shows a right angle at 90 degrees.",
+    incorrectAnswerResponse: "Incorrect. Capital L shows a right angle at 90 degrees.",
+    set: 18
+    },
+
+  6221:{
+    question_tag: "L3MALP74Q1",
+   code: "6221",
+   title: "Math Q35",
+   learner_question: "Which angle is obtuse? \\r\\n1. 90 degrees \\r\\n2. 140 degrees \\r\\n3. 15 degrees",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Obtuse angles are larger than 90 degrees.",
+    incorrectAnswerResponse: "Incorrect. Obtuse angles are larger than 90 degrees.",
+    set: 18
+    },
+
+  6222:{
+    question_tag: "L3MALP74Q2",
+   code: "6222",
+   title: "Math Q36",
+   learner_question: "How many degrees is a straight angle? \\r\\n1. 0 degrees \\r\\n2. 90 degrees \\r\\n3. 180 degrees",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A straight angle is 180 degrees.",
+    incorrectAnswerResponse: "Incorrect. A straight angle is 180 degrees.",
+    set: 18
+    },
+
+  6223:{
+    question_tag: "L3MALP75QG",
+   code: "6223",
+   title: "Math Class Q19",
+   learner_question: "\\r\\n1. Acute \\r\\n3. Obtuse \\r\\n3. Right",
+    question: "What angle does a capital letter V show? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Letter V is an acute angle of less than 90 degrees.",
+    incorrectAnswerResponse: "Incorrect. Letter V is an acute angle of less than 90 degrees.",
+    set: 19
+    },
+
+  6224:{
+    question_tag: "L3MALP75Q1",
+   code: "6224",
+   title: "Math Q37",
+   learner_question: "Capital letter T has 2 ___ angles. \\r\\n1. acute \\r\\n2. obtuse \\r\\n3. right",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Capital letter T has 2 right angles.",
+    incorrectAnswerResponse: "Incorrect. Capital letter T has 2 right angles.",
+    set: 19
+    },
+
+  6225:{
+    question_tag: "L3MALP75Q2",
+   code: "6225",
+   title: "Math Q38",
+   learner_question: "Which is an acute angle? \\r\\n1. 40 degrees \\r\\n2. 90 degrees \\r\\n3. 140 degrees",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 40 degrees is an acute angle.",
+    incorrectAnswerResponse: "Incorrect. 40 degrees is an acute angle.",
+    set: 19
+    },
+
+  6226:{
+    question_tag: "L3MALP76QG",
+   code: "6226",
+   title: "Math Class Q20",
+   learner_question: "\\r\\n1. 180 degrees \\r\\n2. 90 degrees \\r\\n3. 45 degrees",
+    question: "At what angle do most walls and floors meet? Enter the number of the best answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Most doors and walls meet at right angles of 90 degrees.",
+    incorrectAnswerResponse: "Incorrect. Most doors and walls meet at right angles of 90 degrees.",
+    set: 20
+    },
+
+  6227:{
+    question_tag: "L3MALP76Q1",
+   code: "6227",
+   title: "Math Q39",
+   learner_question: "Which angle looks like a straight line? \\r\\n1. 45 degrees \\r\\n2. 90 degrees \\r\\n3. 180 degrees",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A 180 degree angle is flat like a straight line.",
+    incorrectAnswerResponse: "Incorrect. A 180 degree angle is flat like a straight line.",
+    set: 20
+    },
+
+  6228:{
+    question_tag: "L3MALP76Q2",
+   code: "6228",
+   title: "Math Q40",
+   learner_question: "Which is an obtuse angle? \\r\\n1. 40 degrees \\r\\n2. 90 degrees \\r\\n3. 140 degrees",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 140 degrees is an obtuse angle.",
+    incorrectAnswerResponse: "Incorrect. 140 degrees is an obtuse angle.",
+    set: 20
+    },
+
+  6229:{
+    question_tag: "L3MALP77QG",
+   code: "6229",
+   title: "Math Class Q21",
+   learner_question: "\\r\\n1. Equilateral \\r\\n2. Isosceles \\r\\n3. Scalene",
+    question: "What kind of triangle has 2 equal sides? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Isosceles triangles have 2 equal sides.",
+    incorrectAnswerResponse: "Incorrect. Isosceles triangles have 2 equal sides.",
+    set: 21
+    },
+
+  6230:{
+    question_tag: "L3MALP77Q1",
+   code: "6230",
+   title: "Math Q41",
+   learner_question: "An ___ triangle has 3 equal sides. \\r\\n1. Equilateral \\r\\n2. Isosceles \\r\\n3. Scalene",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) An equilateral triangle has 3 equal sides.",
+    incorrectAnswerResponse: "Incorrect. An equilateral triangle has 3 equal sides.",
+    set: 21
+    },
+
+  6231:{
+    question_tag: "L3MALP77Q2",
+   code: "6231",
+   title: "Math Q42",
+   learner_question: "An ___ triangle has one angle of more than 90 degrees. \\r\\n1. right \\r\\n2. obtuse \\r\\n3. acute",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Obtuse triangles have one angle of more than 90 degrees.",
+    incorrectAnswerResponse: "Incorrect. Obtuse triangles have one angle of more than 90 degrees.",
+    set: 21
+    },
+
+  6232:{
+    question_tag: "L3MALP78QG",
+   code: "6232",
+   title: "Math Class Q22",
+   learner_question: "\\r\\n1. Equilateral \\r\\n2. Isosceles \\r\\n3. Scalene",
+    question: "Which CANNOT be a right triangle? Enter the number of the triangle that CANNOT be a right triangle.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Equilateral triangles cannot be right triangles. Right triangles cannot have more than 2 equal sides.",
+    incorrectAnswerResponse: "Incorrect. Equilateral triangles cannot be right triangles. Right triangles cannot have more than 2 equal sides.",
+    set: 22
+    },
+
+  6233:{
+    question_tag: "L3MALP78Q1",
+   code: "6233",
+   title: "Math Q43",
+   learner_question: "A triangle has angles of 90 and 30 degrees. What is the missing angle? \\r\\n1. 80 \\r\\n2. 60 \\r\\n3. 120",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 180-90-30= 60 degrees",
+    incorrectAnswerResponse: "Incorrect. 180-90-30= 60 degrees",
+    set: 22
+    },
+
+  6234:{
+    question_tag: "L3MALP78Q2",
+   code: "6234",
+   title: "Math Q44",
+   learner_question: "A triangle has angles of 45 and 100 degrees. What is the missing angle? \\r\\n1. 95 degrees. \\r\\n2. 45 degrees \\r\\n3. 35 degrees",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 180-100-45=35",
+    incorrectAnswerResponse: "Incorrect. 180-100-45=35",
+    set: 22
+    },
+
+  6235:{
+    question_tag: "L3MALP79QG",
+   code: "6235",
+   title: "Math Class Q23",
+   learner_question: "\\r\\n1. Equilateral \\r\\n2. Isosceles \\r\\n3. Scalene",
+    question: "Which CANNOT be an obtuse triangle? Enter the number of the triangle that CANNOT be an obtuse triangle.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Equilateral triangles have 3 angles of 6 degrees. They cannot be obtuse.",
+    incorrectAnswerResponse: "Incorrect. Equilateral triangles have 3 angles of 6 degrees. They cannot be obtuse.",
+    set: 23
+    },
+
+  6236:{
+    question_tag: "L3MALP79Q1",
+   code: "6236",
+   title: "Math Q45",
+   learner_question: "Which angle can a triangle NOT include? \\r\\n1. Obtuse angle \\r\\n3. Acute angle \\r\\n3. Straight angle",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A triangle cannot include a straight angle because a straight angle has only one side of 180 degrees.",
+    incorrectAnswerResponse: "Incorrect. A triangle cannot include a straight angle because a straight angle has only one side of 180 degrees.",
+    set: 23
+    },
+
+  6237:{
+    question_tag: "L3MALP79Q2",
+   code: "6237",
+   title: "Math Q46",
+   learner_question: "A triangle has 2 equal angles of 50 degrees. What is the missing angle? \\r\\n1. 130 degrees \\r\\n2. 80 degrees \\r\\n3. 30 degrees",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 180 - 50 - 50= 80",
+    incorrectAnswerResponse: "Incorrect. 180 - 50 - 50= 80",
+    set: 23
+    },
+
+  6238:{
+    question_tag: "L3MALP80QG",
+   code: "6238",
+   title: "Math Class Q24",
+   learner_question: "\\r\\n1. Triangle \\r\\n2. Square \\r\\n3. Circle",
+    question: "Which is NOT a polygon? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Polygons have straight lines. Circles are not polygons.",
+    incorrectAnswerResponse: "Incorrect. Polygons have straight lines. Circles are not polygons.",
+    set: 24
+    },
+
+  6239:{
+    question_tag: "L3MALP80Q1",
+   code: "6239",
+   title: "Math Q47",
+   learner_question: "Which is a Regular Polygon? \\r\\n1. Equilateral triangle \\r\\n2. Isosceles triangle \\r\\n3. Scalene triangle",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Regular polygons have equal sides and angles like equilateral triangles.",
+    incorrectAnswerResponse: "Incorrect. Regular polygons have equal sides and angles like equilateral triangles.",
+    set: 24
+    },
+
+  6240:{
+    question_tag: "L3MALP80Q2",
+   code: "6240",
+   title: "Math Q48",
+   learner_question: "Which shape is an irregular polygon? \\r\\n1. Square \\r\\n2. Equilateral triangle \\r\\n3. Rectangle",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Irregular polygons have sides of different lengths. Rectangles are irregular polygons.",
+    incorrectAnswerResponse: "Incorrect. Irregular polygons have sides of different lengths. Rectangles are irregular polygons.",
+    set: 24
+    },
+
+  6241:{
+    question_tag: "L3MALP81QG",
+   code: "6241",
+   title: "Math Class Q25",
+   learner_question: "\\r\\n1. 5 \\r\\n2. 4 \\r\\n3. 3",
+    question: "How many sides does a pentagon have?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) A pentagon has 5 sides.",
+    incorrectAnswerResponse: "Incorrect. A pentagon has 5 sides.",
+    set: 25
+    },
+
+  6242:{
+    question_tag: "L3MALP81Q1",
+   code: "6242",
+   title: "Math Q49",
+   learner_question: "Which shape is a quadrilateral? \\r\\n1. rhombus \\r\\n2. hexagon \\r\\n3. triangle",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Quadrilaterals have 4 sides. A rhombus is a quadrilateral.",
+    incorrectAnswerResponse: "Incorrect. Quadrilaterals have 4 sides. A rhombus is a quadrilateral.",
+    set: 25
+    },
+
+  6243:{
+    question_tag: "L3MALP81Q2",
+   code: "6243",
+   title: "Math Q50",
+   learner_question: "Which is NOT a parallelogram? \\r\\n1. Square \\r\\n2. Rhombus \\r\\n3. Trapezoid",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Trapezoids are quadrilaterals, but they are not parallelograms.",
+    incorrectAnswerResponse: "Incorrect. Trapezoids are quadrilaterals, but they are not parallelograms.",
+    set: 25
+    },
+
+  6244:{
+    question_tag: "L3MALP82QG",
+   code: "6244",
+   title: "Math Class Q26",
+   learner_question: "\\r\\n1. When all sides are equal. \\r\\n2. When 2 angles are different. \\r\\n3. When it has 4 sides.",
+    question: "When is a polygon a rhombus but not a square? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) A square must have 4 equal angles. A rhombus only needs opposite angles to be equal.",
+    incorrectAnswerResponse: "Incorrect. A square must have 4 equal angles. A rhombus only needs opposite angles to be equal.",
+    set: 26
+    },
+
+  6245:{
+    question_tag: "L3MALP82Q1",
+   code: "6245",
+   title: "Math Q51",
+   learner_question: "What is the name for a shape with 10 sides? \\r\\n1. Octagon \\r\\n2. Pentagon \\r\\n3. Decagon",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A decagon has 10 sides. \"dec\' often means 10. A decade is 10 years.",
+    incorrectAnswerResponse: "Incorrect. A decagon has 10 sides. \"dec\' often means 10. A decade is 10 years.",
+    set: 26
+    },
+
+  6246:{
+    question_tag: "L3MALP82Q2",
+   code: "6246",
+   title: "Math Q52",
+   learner_question: "How many degrees is each angle of a regular pentagon? \\r\\n1. 60 \\r\\n2. 72 \\r\\n3. 108",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 540/5= 108",
+    incorrectAnswerResponse: "Incorrect. 540/5= 108",
+    set: 26
+    },
+
+  6247:{
+    question_tag: "L3MALP83QG",
+   code: "6247",
+   title: "Math Class Q27",
+   learner_question: "\\r\\n1. A football \\r\\n2. A shoe \\r\\n3. A flag",
+    question: "Which onject has the shape of a polygon? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Polygons have straight lines. A flag is a polygon.",
+    incorrectAnswerResponse: "Incorrect. Polygons have straight lines. A flag is a polygon.",
+    set: 27
+    },
+
+  6248:{
+    question_tag: "L3MALP83Q1",
+   code: "6248",
+   title: "Math Q53",
+   learner_question: "All ___ are also rectangles. \\r\\n1. Quadrilaterals \\r\\n2. Squares \\r\\n3. Parallelograms",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) All squares are also rectangles. Not all rectangles are squares.",
+    incorrectAnswerResponse: "Incorrect. All squares are also rectangles. Not all rectangles are squares.",
+    set: 27
+    },
+
+  6249:{
+    question_tag: "L3MALP83Q2",
+   code: "6249",
+   title: "Math Q54",
+   learner_question: "Which is NOT true of all quadrilaterals? \\r\\n1. They have equal angles \\r\\n2. The have 4 sides \\r\\n3. Their angles equal 360 degrees",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Not all quadrilaterals have equal angles.",
+    incorrectAnswerResponse: "Incorrect. Not all quadrilaterals have equal angles.",
+    set: 27
+    },
+
+  6250:{
+    question_tag: "L3MALP84QG",
+   code: "6250",
+   title: "Math Class Q28",
+   learner_question: "\\r\\n1. 15 cm \\r\\n2. 20cm \\r\\n3. 25 cm",
+    question: "An equilateral triangle has a side 5cm in length. What is its perimeter? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 5+5+5=15cm",
+    incorrectAnswerResponse: "Incorrect. 5+5+5=15cm",
+    set: 28
+    },
+
+  6251:{
+    question_tag: "L3MALP84Q1",
+   code: "6251",
+   title: "Math Q55",
+   learner_question: "A square has a side of 3 inches. What is the perimeter of the square? \\r\\n1. 9 in \\r\\n2. 6 in \\r\\n3. 3 in",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 3x4= 12 inches",
+    incorrectAnswerResponse: "Incorrect. 3x4= 12 inches",
+    set: 28
+    },
+
+  6252:{
+    question_tag: "L3MALP84Q2",
+   code: "6252",
+   title: "Math Q56",
+   learner_question: "A rhombus has a perimeter of 16 inches. How long is each side? \\r\\n1. 32 in \\r\\n2. 4 in \\r\\n3. 8 in",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 16/4= 4 inches",
+    incorrectAnswerResponse: "Incorrect. 16/4= 4 inches",
+    set: 28
+    },
+
+  6253:{
+    question_tag: "L3MALP85QG",
+   code: "6253",
+   title: "Math Class Q29",
+   learner_question: "\\r\\n1. 12m \\r\\n2. 14m \\r\\n3. 7m",
+    question: "Jane has a garden 3 meters wide and 4 meters long. She wants to make a fence around the garden. How many meters of fence will she need? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 3+3+4+4= 14 meters",
+    incorrectAnswerResponse: "Incorrect. 3+3+4+4= 14 meters",
+    set: 29
+    },
+
+  6254:{
+    question_tag: "L3MALP85Q1",
+   code: "6254",
+   title: "Math Q57",
+   learner_question: "A square has a perimeter of 20 meters. How long is each side? Enter the answer as a number. \\r\\n1. 4m \\r\\n2. 5m \\r\\n3. 10m",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 20/4= 5 meters",
+    incorrectAnswerResponse: "Incorrect. 20/4= 5 meters",
+    set: 29
+    },
+
+  6255:{
+    question_tag: "L3MALP85Q2",
+   code: "6255",
+   title: "Math Q58",
+   learner_question: "An equilateral triangle has a perimeter of 36 cm. How long is each side? \\r\\n1. 12cm \\r\\n2. 6cm \\r\\n3. 4cm",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 36/3=12 cm",
+    incorrectAnswerResponse: "Incorrect. 36/3=12 cm",
+    set: 29
+    },
+
+  6256:{
+    question_tag: "L3MALP86QG",
+   code: "6256",
+   title: "Math Class Q30",
+   learner_question: "\\r\\n1. 12m \\r\\n2. 14m \\r\\n3. 7m",
+    question: "A rectangle is 3 meters by 4 meters. What is the area of the rectangle? Enter the number of the best answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 3 x 4=12m",
+    incorrectAnswerResponse: "Incorrect. 3 x 4=12m",
+    set: 30
+    },
+
+  6257:{
+    question_tag: "L3MALP86Q1",
+   code: "6257",
+   title: "Math Q59",
+   learner_question: "A triangle has a base of 3m and a height of 4m. What is the area of the triangle? \\r\\n1. 12m \\r\\n2. 7m \\r\\n3. 6m",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1/2(3x4)= 1/2(12)=6",
+    incorrectAnswerResponse: "Incorrect. 1/2(3x4)= 1/2(12)=6",
+    set: 30
+    },
+
+  6258:{
+    question_tag: "L3MALP86Q2",
+   code: "6258",
+   title: "Math Q60",
+   learner_question: "A square is 5 inches tall. What is the area? \\r\\n1. 10 in \\r\\n2. 15 in \\r\\n3. 25 in",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 5x5=25",
+    incorrectAnswerResponse: "Incorrect. 5x5=25",
+    set: 30
+    },
+
+  6259:{
+    question_tag: "L3MALP87QG",
+   code: "6259",
+   title: "Math Class Q31",
+   learner_question: "\\r\\n1. 15m \\r\\n2. 30m \\r\\n3. 50m",
+    question: "Jane\'s kitchen is 5 meters by 10 meters. If she wants to cover the floor in tile, how many square meters of tile does she need? Enter the number of the best answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 5x10=50 meters",
+    incorrectAnswerResponse: "Incorrect. 5x10=50 meters",
+    set: 31
+    },
+
+  6260:{
+    question_tag: "L3MALP87Q1",
+   code: "6260",
+   title: "Math Q61",
+   learner_question: "A triangle has a base of 4in and a height of 6in. What is the area of the triangle? \\r\\n1. 12m \\r\\n2. 24m \\r\\n3. 10m",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 1/2(6x4)= 1/2(24)=12",
+    incorrectAnswerResponse: "Incorrect. 1/2(6x4)= 1/2(24)=12",
+    set: 31
+    },
+
+  6261:{
+    question_tag: "L3MALP87Q2",
+   code: "6261",
+   title: "Math Q62",
+   learner_question: "A square is 10 inches wide. What is the area? \\r\\n1. 20 in \\r\\n2. 100 in \\r\\n3. 50 in",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 10x10=100",
+    incorrectAnswerResponse: "Incorrect. 10x10=100",
+    set: 31
+    },
+
+  6262:{
+    question_tag: "L3MALP88QG",
+   code: "6262",
+   title: "Math Class Q32",
+   learner_question: "\\r\\n1. Radius \\r\\n2. Circumference \\r\\n3. Diameter",
+    question: "Which is always longer in a circle? Enter the number of the longest part of a circle.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Circumference > diameter > radius",
+    incorrectAnswerResponse: "Incorrect. Circumference > diameter > radius",
+    set: 32
+    },
+
+  6263:{
+    question_tag: "L3MALP88Q1",
+   code: "6263",
+   title: "Math Q63",
+   learner_question: "The ___ of a circle is 1/2 the diameter. \\r\\n1. area \\r\\n2. circumference \\r\\n3. radius",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The radius of a circle is 1/2 the circumference.",
+    incorrectAnswerResponse: "Incorrect. The radius of a circle is 1/2 the circumference.",
+    set: 32
+    },
+
+  6264:{
+    question_tag: "L3MALP88Q2",
+   code: "6264",
+   title: "Math Q64",
+   learner_question: "What is the diameter of a circle with a radius of 4 inches? \\r\\n1. 8 in \\r\\n2. 2 in \\r\\n3. 4 in",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The diameter of a circle is double the radius. 2x4=8.",
+    incorrectAnswerResponse: "Incorrect. The diameter of a circle is double the radius. 2x4=8.",
+    set: 32
+    },
+
+  6265:{
+    question_tag: "L3MALP89QG",
+   code: "6265",
+   title: "Math Class Q33",
+   learner_question: "\\r\\n1. \\r\\n3.14 feet \\r\\n2. 10 feet \\r\\n2. 20 feet",
+    question: "What is a good estimate of the circumference of a circle with a diameter of 3 feet? Enter the number of the best guess.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) C= D x 3.14. 3x3.14 = 9.42 = ~10",
+    incorrectAnswerResponse: "Incorrect. C= D x 3.14. 3x3.14 = 9.42 = ~10",
+    set: 33
+    },
+
+  6266:{
+    question_tag: "L3MALP89Q1",
+   code: "6266",
+   title: "Math Q65",
+   learner_question: "The diameter of a circle is 10m. What is the radius? \\r\\n1. 10m \\r\\n2. 20m \\r\\n3. 5m",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 10/2 = 5",
+    incorrectAnswerResponse: "Incorrect. 10/2 = 5",
+    set: 33
+    },
+
+  6267:{
+    question_tag: "L3MALP89Q2",
+   code: "6267",
+   title: "Math Q66",
+   learner_question: "Which is a good estimate of the AREA of a circle with radius 4m? \\r\\n1. 12m \\r\\n2. 24m \\r\\n3. 50m",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 4x4x3.14= 50.24",
+    incorrectAnswerResponse: "Incorrect. 4x4x3.14= 50.24",
+    set: 33
+    },
+
+  6268:{
+    question_tag: "L3MALP90QG",
+   code: "6268",
+   title: "Math Class Q34",
+   learner_question: "\\r\\n1. All rectangles are polygons. \\r\\n2. All rectangles have 4 equal angles. \\r\\n3. All rectangles have 4 equal sides",
+    question: "Which is NOT true of all rectangles? Enter the number of the correct answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Not all rectangles have 4 equal sides.",
+    incorrectAnswerResponse: "Incorrect. Not all rectangles have 4 equal sides.",
+    set: 34
+    },
+
+  6269:{
+    question_tag: "L3MALP90Q1",
+   code: "6269",
+   title: "Math Q67",
+   learner_question: "What is the AREA of a square with a height of 2m? \\r\\n1. 4m \\r\\n2. 8m \\r\\n3. 2m",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 2x2=4",
+    incorrectAnswerResponse: "Incorrect. 2x2=4",
+    set: 34
+    },
+
+  6270:{
+    question_tag: "L3MALP90Q2",
+   code: "6270",
+   title: "Math Q68",
+   learner_question: "A triangle has angles of 90 degrees and 50 degrees. What is the final angle? \\r\\n1. 140 degrees \\r\\n2. 40 degrees \\r\\n3. 30 degrees",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) All triangles have angles that total 180 degrees. 180-90-50= 40 degrees",
+    incorrectAnswerResponse: "Incorrect. All triangles have angles that total 180 degrees. 180-90-50= 40 degrees",
+    set: 34
+    },
+
+  6271:{
+    question_tag: "L3MALP91QG",
+   code: "6271",
+   title: "Math Class Q35",
+   learner_question: "\\r\\n1. Data \\r\\n2. Statistics \\r\\n3. Mean",
+    question: "If we gather the name and age of everyone in the community, what can we call that information? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Information we gather is also called data.",
+    incorrectAnswerResponse: "Incorrect. Information we gather is also called data.",
+    set: 35
+    },
+
+  6272:{
+    question_tag: "L3MALP91Q1",
+   code: "6272",
+   title: "Math Q69",
+   learner_question: "What is the mean average of 3, 4 and 5? \\r\\n1. \\r\\n3.5 \\r\\n2. 4 \\r\\n3. 4.5",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) (3+4+5)/3= 4",
+    incorrectAnswerResponse: "Incorrect. (3+4+5)/3= 4",
+    set: 35
+    },
+
+  6273:{
+    question_tag: "L3MALP91Q2",
+   code: "6273",
+   title: "Math Q70",
+   learner_question: "What is the mean average of 10, 12, 13 and 17? Enter the answer as a number. \\r\\n1. 13 \\r\\n2. 14 \\r\\n3. 14",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) (10+12+13+17)/4= 13",
+    incorrectAnswerResponse: "Incorrect. (10+12+13+17)/4= 13",
+    set: 35
+    },
+
+  6274:{
+    question_tag: "L3MALP92QG",
+   code: "6274",
+   title: "Math Class Q36",
+   learner_question: "\\r\\n1. Math \\r\\n2. Statistics \\r\\n3. Mean Average",
+    question: "What do we call the study of collecting, summarizing and presenting data? Enter the number of the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Statistics is the study of data.",
+    incorrectAnswerResponse: "Incorrect. Statistics is the study of data.",
+    set: 36
+    },
+
+  6275:{
+    question_tag: "L3MALP92Q1",
+   code: "6275",
+   title: "Math Q71",
+   learner_question: "What is the mean average of 2 and 3? \\r\\n1. \\r\\n2.5 \\r\\n2. 5 \\r\\n3. 6",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) (2+3)/2= 2.5",
+    incorrectAnswerResponse: "Incorrect. (2+3)/2= 2.5",
+    set: 36
+    },
+
+  6276:{
+    question_tag: "L3MALP92Q2",
+   code: "6276",
+   title: "Math Q72",
+   learner_question: "What is the mean average of 3, 3, 4 and 10? \\r\\n1. 3 \\r\\n2. 4 \\r\\n3. 5",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) (3+3+4+10)/4= 20/4 = 5",
+    incorrectAnswerResponse: "Incorrect. (3+3+4+10)/4= 20/4 = 5",
+    set: 36
+    },
+
+  6277:{
+    question_tag: "L3MALP93QG",
+   code: "6277",
+   title: "Math Class Q37",
+   learner_question: "\\r\\n1. To see how a class did on an exam. \\r\\n2. To divide the class into top and bottom half. \\r\\n3. To calculate the final grade of a student.",
+    question: "Which is a reason to use Median instead of Mean? Enter the number of the best answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Knowing the median would allow a teacher to divide a class into top and bottom half.",
+    incorrectAnswerResponse: "Incorrect. Knowing the median would allow a teacher to divide a class into top and bottom half.",
+    set: 37
+    },
+
+  6278:{
+    question_tag: "L3MALP93Q1",
+   code: "6278",
+   title: "Math Q73",
+   learner_question: "What is the median of 1, 3, 5, 12, 23? \\r\\n1. 8 \\r\\n2. 12 \\r\\n3. 5",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The median is the middle number in a set.",
+    incorrectAnswerResponse: "Incorrect. The median is the middle number in a set.",
+    set: 37
+    },
+
+  6279:{
+    question_tag: "L3MALP93Q2",
+   code: "6279",
+   title: "Math Q74",
+   learner_question: "What is the median of 3, 3, 3, 4, 5, 6 \\r\\n1. 3 \\r\\n2. \\r\\n3.5 \\r\\n3. 5",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) In even number sets, the median is the mean of the middle two numbers.",
+    incorrectAnswerResponse: "Incorrect. In even number sets, the median is the mean of the middle two numbers.",
+    set: 37
+    },
+
+  6280:{
+    question_tag: "L3MALP94QG",
+   code: "6280",
+   title: "Math Class Q38",
+   learner_question: "\\r\\n1. (3, 5, 7) \\r\\n2. (1, 2, 4, 6) \\r\\n2. (1,1,8,13,13)",
+    question: "In which set are the median and mean the same? Enter the number of the correct answer.",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The median and mean of 3,5,7 is 5.",
+    incorrectAnswerResponse: "Incorrect. The median and mean of 3,5,7 is 5.",
+    set: 38
+    },
+
+  6281:{
+    question_tag: "L3MALP94Q1",
+   code: "6281",
+   title: "Math Q75",
+   learner_question: "What is the median of 5,2,4, 7 and 11? \\r\\n1. 4 \\r\\n2. 5 \\r\\n3. 7",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) The median of 2,4,5,7,11 is 5",
+    incorrectAnswerResponse: "Incorrect. The median of 2,4,5,7,11 is 5",
+    set: 38
+    },
+
+  6282:{
+    question_tag: "L3MALP94Q2",
+   code: "6282",
+   title: "Math Q76",
+   learner_question: "What is the median of 100, 25, 300, 1 and 33? \\r\\n1. 33 \\r\\n2. 100 \\r\\n3. 150",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The median of 1, 25, 33, 100, 300 is 33.",
+    incorrectAnswerResponse: "Incorrect. The median of 1, 25, 33, 100, 300 is 33.",
+    set: 38
+    },
+
+  6283:{
+    question_tag: "L3MALP95QG",
+   code: "6283",
+   title: "Math Class Q39",
+   learner_question: "\\r\\n1. To see how a class did on an exam. \\r\\n2. To divide the class into top and bottom half. \\r\\n3. To see the most common answers on an exam.",
+    question: "Which is a good use of Mode? Enter the number of the best answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Mode shows the most common piece of data.",
+    incorrectAnswerResponse: "Incorrect. Mode shows the most common piece of data.",
+    set: 39
+    },
+
+  6284:{
+    question_tag: "L3MALP95Q1",
+   code: "6284",
+   title: "Math Q77",
+   learner_question: "What is the mode of 1, 1, 4, 5, 6? \\r\\n1. 1 \\r\\n2. 4 \\r\\n3. 4.5",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The mode of 1, 1, 4, 5, 6 is 1- the most frequent number.",
+    incorrectAnswerResponse: "Incorrect. The mode of 1, 1, 4, 5, 6 is 1- the most frequent number.",
+    set: 39
+    },
+
+  6285:{
+    question_tag: "L3MALP95Q2",
+   code: "6285",
+   title: "Math Q78",
+   learner_question: "What is the mode of 1, 2, 4, 5, 5, 6? \\r\\n1. 5 \\r\\n2. 4.5 \\r\\n3. \\r\\n3.4",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The mode of 1, 4, 5, 5, 6 is 5- the most frequent number.",
+    incorrectAnswerResponse: "Incorrect. The mode of 1, 4, 5, 5, 6 is 5- the most frequent number.",
+    set: 39
+    },
+
+  6286:{
+    question_tag: "L3MALP96QG",
+   code: "6286",
+   title: "Math Class Q40",
+   learner_question: "\\r\\n1. median \\r\\n2. mode \\r\\n3. mean",
+    question: "Every Friday, the teacher thinks of a number. The students guess week. What statistic would help the students guess the teacher\'s number? Enter the number of the best answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Mode would show which number the teacher chooses most often.",
+    incorrectAnswerResponse: "Incorrect. Mode would show which number the teacher chooses most often.",
+    set: 40
+    },
+
+  6287:{
+    question_tag: "L3MALP96Q1",
+   code: "6287",
+   title: "Math Q79",
+   learner_question: "Which set is bimodal? \\r\\n1. (1,1,2,3,4) \\r\\n2. (1,1,) \\r\\n3. (1,1,2,3,3)",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) A bimodal set has more than one mode.",
+    incorrectAnswerResponse: "Incorrect. A bimodal set has more than one mode.",
+    set: 40
+    },
+
+  6288:{
+    question_tag: "L3MALP96Q2",
+   code: "6288",
+   title: "Math Q80",
+   learner_question: "What is the mode of the set: (4, 5, 8, 5, 8, 9, 100, 8, 4)? \\r\\n1. 3 \\r\\n2. 8 \\r\\n3. 22",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) (4,5,5,8,8,8,9,100) 8 is the mode. It occurs 3 times.",
+    incorrectAnswerResponse: "Incorrect. (4,5,5,8,8,8,9,100) 8 is the mode. It occurs 3 times.",
+    set: 40
+    },
+
+  6289:{
+    question_tag: "L3MALP97QG",
+   code: "6289",
+   title: "Math Class Q41",
+   learner_question: "\\r\\n1. (150, 151, 153) \\r\\n2. ( 2, 4, 5, 9) \\r\\n3. (3, 4, 5, 5, 6)",
+    question: "Which set of numbers has the biggest range? Enter the number of the set with the biggest range.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Range is the difference between the highest and lowest numbers. 2,4,5,9 has a range of 7.",
+    incorrectAnswerResponse: "Incorrect. Range is the difference between the highest and lowest numbers. 2,4,5,9 has a range of 7.",
+    set: 41
+    },
+
+  6290:{
+    question_tag: "L3MALP97Q1",
+   code: "6290",
+   title: "Math Q81",
+   learner_question: "What is the range of 1, 2, 3, 3, 5? \\r\\n1. 5 \\r\\n2. 4 \\r\\n3. 3",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 5-1=4",
+    incorrectAnswerResponse: "Incorrect. 5-1=4",
+    set: 41
+    },
+
+  6291:{
+    question_tag: "L3MALP97Q2",
+   code: "6291",
+   title: "Math Q82",
+   learner_question: "What is the range of 17,18,19? \\r\\n1. 18 \\r\\n2. 2 \\r\\n3. 19",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 19-17=2",
+    incorrectAnswerResponse: "Incorrect. 19-17=2",
+    set: 41
+    },
+
+  6292:{
+    question_tag: "L3MALP98QG",
+   code: "6292",
+   title: "Math Class Q42",
+   learner_question: "\\r\\n1. (1,2,2,3) \\r\\n2. (1,3,5) \\r\\n3. (1,1,1,1)",
+    question: "Which set of numbers has the same median, mode, mean and range?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The median, mode, range and mean of (1,2,2,3) is 2.",
+    incorrectAnswerResponse: "Incorrect. The median, mode, range and mean of (1,2,2,3) is 2.",
+    set: 42
+    },
+
+  6293:{
+    question_tag: "L3MALP98Q1",
+   code: "6293",
+   title: "Math Q83",
+   learner_question: "What is the mean of 1,1,4,6? \\r\\n1. 1 \\r\\n2. 5 \\r\\n3. 3",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 1+1+4+6= 12. 12/4=3",
+    incorrectAnswerResponse: "Incorrect. 1+1+4+6= 12. 12/4=3",
+    set: 42
+    },
+
+  6294:{
+    question_tag: "L3MALP98Q2",
+   code: "6294",
+   title: "Math Q84",
+   learner_question: "What is the median of 1,1,2,5,100? \\r\\n1. 1 \\r\\n2. 2 \\r\\n3. 99",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 2 is the middle, or median, number in the set.",
+    incorrectAnswerResponse: "Incorrect. 2 is the middle, or median, number in the set.",
+    set: 42
+    },
+
+  6295:{
+    question_tag: "L3MALP99QG",
+   code: "6295",
+   title: "Math Class Q43",
+   learner_question: "\\r\\n1. A histogram \\r\\n2. A bar graph \\r\\n3. A pie chart",
+    question: "You want to see how the populations of different countries compare. Which graph will be most useful?",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Bar graphs are useful for showing how different groups compare.",
+    incorrectAnswerResponse: "Incorrect. Bar graphs are useful for showing how different groups compare.",
+    set: 43
+    },
+
+  6296:{
+    question_tag: "L3MALP99Q1",
+   code: "6296",
+   title: "Math Q85",
+   learner_question: "What graph is good to show percentages of a whole? \\r\\n1. A histogram \\r\\n2. A bar graph \\r\\n3. a pie chart",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Pie charts show percentages or parts of a whole.",
+    incorrectAnswerResponse: "Incorrect. Pie charts show percentages or parts of a whole.",
+    set: 43
+    },
+
+  6297:{
+    question_tag: "L3MALP99Q2",
+   code: "6297",
+   title: "Math Q86",
+   learner_question: "What is the mode of (1,1,3,4,5)? \\r\\n1. 1 \\r\\n2. 4 \\r\\n3. 3",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) The most frequent number in 1,1,3,4,5 is 1.",
+    incorrectAnswerResponse: "Incorrect. The most frequent number in 1,1,3,4,5 is 1.",
+    set: 43
+    },
+
+  6298:{
+    question_tag: "L3MALP100QG",
+   code: "6298",
+   title: "Math Class Q44",
+   learner_question: "\\r\\n1. A histogram \\r\\n2. A bar graph \\r\\n3. A pie chart",
+    question: "A doctor wants to show how average height changes by age. Which type of graph would be most useful?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Histograms are useful to show continuous data- like ages.",
+    incorrectAnswerResponse: "Incorrect. Histograms are useful to show continuous data- like ages.",
+    set: 44
+    },
+
+  6299:{
+    question_tag: "L3MALP100Q1",
+   code: "6299",
+   title: "Math Q87",
+   learner_question: "A pie chart shows that 38% of a class is male. What percent is female? \\r\\n1. 22% \\r\\n3. 38% \\r\\n3. 62%",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 100-38=62%",
+    incorrectAnswerResponse: "Incorrect. 100-38=62%",
+    set: 44
+    },
+
+  6300:{
+    question_tag: "L3MALP100Q2",
+   code: "6300",
+   title: "Math Q88",
+   learner_question: "What is the mean of 1,1,4? Enter the answer as a number. \\r\\n1. 1 \\r\\n2. 2 \\r\\n3. 3",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 1+1+4= 6. 6/3=2",
+    incorrectAnswerResponse: "Incorrect. 1+1+4= 6. 6/3=2",
+    set: 44
+    },
+
+  6301:{
+    question_tag: "L3MALP101QG",
+   code: "6301",
+   title: "Math Class Q45",
+   learner_question: "\\r\\n1. A histogram \\r\\n2. A bar graph \\r\\n3. A pie chart",
+    question: "A teacher wants to see student exam averages by subject. What type of graph would be useful.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Bar graphs are useful for showing how different groups compare.",
+    incorrectAnswerResponse: "Incorrect. Bar graphs are useful for showing how different groups compare.",
+    set: 45
+    },
+
+  6302:{
+    question_tag: "L3MALP101Q1",
+   code: "6302",
+   title: "Math Q89",
+   learner_question: "Which graph is shaped like a circle? \"\\r\\n1. A histogram \\r\\n2. A bar graph \\r\\n3. A pie chart\"",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Pie charts show percentages or parts of a whole. They are circles.",
+    incorrectAnswerResponse: "Incorrect. Pie charts show percentages or parts of a whole. They are circles.",
+    set: 45
+    },
+
+  6303:{
+    question_tag: "L3MALP101Q2",
+   code: "6303",
+   title: "Math Q90",
+   learner_question: "What is the mode of (5,8,2,4,6,8)? \\r\\n1. 5 \\r\\n2. 6 \\r\\n3. 8",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 8 is the most frequent number, the mode.",
+    incorrectAnswerResponse: "Incorrect. 8 is the most frequent number, the mode.",
+    set: 45
+    },
+
+  6304:{
+    question_tag: "L3MALP102QG",
+   code: "6304",
+   title: "Math Class Q46",
+   learner_question: "\\r\\n1. At the bottom of the graph. \\r\\n2. On the right of the graph. \\r\\n3. On the left of the graph.",
+    question: "A class draws a bar graph to show rainfall by month. Where do the numbers in cm appear on the graph? Enter the number of the best answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Units of measure are usually on the left side of a graph.",
+    incorrectAnswerResponse: "Incorrect. Units of measure are usually on the left side of a graph.",
+    set: 46
+    },
+
+  6305:{
+    question_tag: "L3MALP102Q1",
+   code: "6305",
+   title: "Math Q91",
+   learner_question: "In a class, 5 students like fish, 2 like chicken and 3 like beef. In this tally, fish is most similar to a ___. \\r\\n1. mode \\r\\n2. mean \\r\\n3. median",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Fish was the most frequent answer, so it is like the mode",
+    incorrectAnswerResponse: "Incorrect. Fish was the most frequent answer, so it is like the mode",
+    set: 46
+    },
+
+  6306:{
+    question_tag: "L3MALP102Q2",
+   code: "6306",
+   title: "Math Q92",
+   learner_question: "Jane is in a line at the shop. There are 3 people in front of her and 3 behind her. Jane\'s place is most similar to a ___. \\r\\n1. mode \\r\\n2. mean \\r\\n3. median",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Jane is in the middle, like a median.",
+    incorrectAnswerResponse: "Incorrect. Jane is in the middle, like a median.",
+    set: 46
+    },
+
+  6307:{
+    question_tag: "L3MALP103QG",
+   code: "6307",
+   title: "Math Class Q47",
+   learner_question: "\\r\\n1. 35% \\r\\n2. 65% \\r\\n3. 100%",
+    question: "A pie chart has 2 sections. One section is labeled 35%. What is the other section labeled? Enter the number of the best answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Pie charts usually show parts of a whole. If one part of 100% shows 35%, the other part should be 65%",
+    incorrectAnswerResponse: "Incorrect. Pie charts usually show parts of a whole. If one part of 100% shows 35%, the other part should be 65%",
+    set: 47
+    },
+
+  6308:{
+    question_tag: "L3MALP103Q1",
+   code: "6308",
+   title: "Math Q93",
+   learner_question: "A histogram shows the number of students by age. What do we know about the highest bar in the histogram? \\r\\n1. It is the median \\r\\n2. It is the mode \\r\\n3. It is the mean",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) We know the highest bar was the most frequent number, the mode.",
+    incorrectAnswerResponse: "Incorrect. We know the highest bar was the most frequent number, the mode.",
+    set: 47
+    },
+
+  6309:{
+    question_tag: "L3MALP103Q2",
+   code: "6309",
+   title: "Math Q94",
+   learner_question: "What is the median of (5,8,3,4,6)? Enter the answer as a number. \\r\\n1. 5 \\r\\n2. 5.5 \\r\\n3. 6",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 5 is the middle number in the set (5,8,3,4,6)",
+    incorrectAnswerResponse: "Incorrect. 5 is the middle number in the set (5,8,3,4,6)",
+    set: 47
+    },
+
+  6310:{
+    question_tag: "L3MALP104QG",
+   code: "6310",
+   title: "Math Class Q48",
+   learner_question: "\\r\\n1. Pie charts are shaped like circles. \\r\\n2. Pie charts show percent and parts of a whole. \\r\\n3. Pie charts should only be used for business.",
+    question: "Which is NOT true about pie charts? Enter the number of the incorrect answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) We can use pie charts for any purpose we\'d like.",
+    incorrectAnswerResponse: "Incorrect. We can use pie charts for any purpose we\'d like.",
+    set: 48
+    },
+
+  6311:{
+    question_tag: "L3MALP104Q1",
+   code: "6311",
+   title: "Math Q95",
+   learner_question: "In a class, 3 students like red, 5 like blue and 2 like red. What percent of students like red? \\r\\n1. 2% \\r\\n2. 20% \\r\\n3. 80%",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 2/10 = .2 =20%",
+    incorrectAnswerResponse: "Incorrect. 2/10 = .2 =20%",
+    set: 48
+    },
+
+  6312:{
+    question_tag: "L3MALP104Q2",
+   code: "6312",
+   title: "Math Q96",
+   learner_question: "What is the mode of (4,7,100,140,7,2,1). \\r\\n1. 7 \\r\\n2. 78 \\r\\n2. 139",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :)",
+    incorrectAnswerResponse: "Incorrect.",
+    set: 48
+    },
+
+  6313:{
+    question_tag: "L3MALP105QG",
+   code: "6313",
+   title: "Math Class Q49",
+   learner_question: "\\r\\n1. 50 degrees \\r\\n2. 180 degrees \\r\\n3. 90 degrees",
+    question: "If half the class likes popcorn, how many degrees should the popcorn part of a pie chart be? Enter the correct answer.",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Half the pie chart is 180 degrees.",
+    incorrectAnswerResponse: "Incorrect. Half the pie chart is 180 degrees.",
+    set: 49
+    },
+
+  6314:{
+    question_tag: "L3MALP105Q1",
+   code: "6314",
+   title: "Math Q97",
+   learner_question: "If 25% of a class likes hip hop, how many degrees should the \'hip hop\' part of the pie chart be? \\r\\n1. 90 degrees \\r\\n2. 25 degrees \\r\\n3. 40 degrees",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 360/4= 90 degrees",
+    incorrectAnswerResponse: "Incorrect. 360/4= 90 degrees",
+    set: 49
+    },
+
+  6315:{
+    question_tag: "L3MALP105Q2",
+   code: "6315",
+   title: "Math Q98",
+   learner_question: "What is the mean of (3,5,7,9)? \\r\\n1. 5 \\r\\n2. 6 \\r\\n3. 9",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 3+5+7+9= 24. 24/4= 6",
+    incorrectAnswerResponse: "Incorrect. 3+5+7+9= 24. 24/4= 6",
+    set: 49
+    },
+
+  6316:{
+    question_tag: "L3MALP106QG",
+   code: "6316",
+   title: "Math Class Q50",
+   learner_question: "\\r\\n1. On the bottom of the graph \\r\\n2. On the left of the graph \\r\\n3. On the right of the graph",
+    question: "In a bar graph, where are the names of the groups being measured usually found?",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) Most bar graphs have the groups or categories named at the bottom.",
+    incorrectAnswerResponse: "Incorrect. Most bar graphs have the groups or categories named at the bottom.",
+    set: 50
+    },
+
+  6317:{
+    question_tag: "L3MALP106Q1",
+   code: "6317",
+   title: "Math Q99",
+   learner_question: "If 30% of Liberia\'s economy is driven by services, how many degrees in a pie chart will \'economy\' need? \\r\\n1. 30 degrees \\r\\n2. 180 degrees \\r\\n3. 108 degrees",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) 360 x .30= 180",
+    incorrectAnswerResponse: "Incorrect. 360 x .30= 180",
+    set: 50
+    },
+
+  6318:{
+    question_tag: "L3MALP106Q2",
+   code: "6318",
+   title: "Math Q100",
+   learner_question: "What is the median of (12, 1, 5, 8, 9). \\r\\n1. 11 \\r\\n2. 8 \\r\\n3. 6",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) 8 is the middle (median) number in (1,5,8,9,12).",
+    incorrectAnswerResponse: "Incorrect. 8 is the middle (median) number in (1,5,8,9,12).",
+    set: 50
+    },
+
+  6319:{
+    question_tag: "L3MALP107QG",
+   code: "6319",
+   title: "Math Class Q51",
+   learner_question: "\\r\\n1. Showing parts of a whole. \\r\\n2. Showing how groups compare. \\r\\n3. Showing change over time.",
+    question: "Which is a line graph good for? Enter the number of the best answer.",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Line graphs are usually used to show change over time.",
+    incorrectAnswerResponse: "Incorrect. Line graphs are usually used to show change over time.",
+    set: 51
+    },
+
+  6320:{
+    question_tag: "L3MALP107Q1",
+   code: "6320",
+   title: "Math Q101",
+   learner_question: "What is the range of the set (4,5,6,7,12)? \\r\\n1. 8 \\r\\n2. 6 \\r\\n3. 4.5",
+    question: "",
+    answer: "1",
+    correctAnswerResponse: "Correct! :) 10-4=6.",
+    incorrectAnswerResponse: "Incorrect. 10-4=6.",
+    set: 51
+    },
+
+  6321:{
+    question_tag: "L3MALP107Q2",
+   code: "6321",
+   title: "Math Q102",
+   learner_question: "Which shape always has 5 sides? \\r\\n1. a polygon \\r\\n2. a parallelogram \\r\\n3. a pentagon",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) Pentagons always have 5 sides.",
+    incorrectAnswerResponse: "Incorrect. Pentagons always have 5 sides.",
+    set: 51
+    },
+
+  6322:{
+    question_tag: "L3MALP108QG",
+   code: "6322",
+   title: "Math Class Q52",
+   learner_question: "\\r\\n1. median \\r\\n2. mode \\r\\n3. mean",
+    question: "A teacher wants to know how well her students did on an exam. Which number will be most useful?",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) The mean will show the average score of the class as a whole.",
+    incorrectAnswerResponse: "Incorrect. The mean will show the average score of the class as a whole.",
+    set: 52
+    },
+
+  6323:{
+    question_tag: "L3MALP108Q1",
+   code: "6323",
+   title: "Math Q103",
+   learner_question: "A teacher wants to divide the class into 2 groups. Which will be most helpful? \\r\\n1. mean \\r\\n2. median \\r\\n3. mode",
+    question: "",
+    answer: "2",
+    correctAnswerResponse: "Correct! :) Medians show the middle of a group.",
+    incorrectAnswerResponse: "Incorrect. Medians show the middle of a group.",
+    set: 52
+    },
+
+  6324:{
+    question_tag: "L3MALP108Q2",
+   code: "6324",
+   title: "Math Q104",
+   learner_question: "What is the mode of the set: (1,1,4,10,8,9,8,4,9,4)? \\r\\n1. 9 \\r\\n2. 5 \\r\\n3. 4",
+    question: "",
+    answer: "3",
+    correctAnswerResponse: "Correct! :) In (1,1,4,10,8,9,8,4,9,4) 4 is the mode.",
+    incorrectAnswerResponse: "Incorrect. In (1,1,4,10,8,9,8,4,9,4) 4 is the mode.",
+    set: 52
     }
 };
 	

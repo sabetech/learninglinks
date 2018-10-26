@@ -151,6 +151,8 @@ global.main = function() {
 			return true;
 		}
 
+
+		//check if the answer the learner sent is right ...
 		if (learnerQuestion.answer == answerKey){
 			
 			if (typeof contact.vars.cum_points === 'undefined'){
@@ -202,13 +204,31 @@ global.main = function() {
 			return true;
 		}
 
-		//console.log("scheduled_msg for 2 mins now");
-		//console.log("sender phone "+contact.phone_number);
+		//check to see whether to send voice and text or just voice ...
+		//check if question is IVR then call the function to handle IVR ...
+		//1001 and 1162: These are the question codes for IVR content ...
+		// if ((questionCode > 1000) && (questionCode < 1162)) {
+
+		// 	var schedule_call = project.scheduleMessage({
+				
+		// 		message_type: call,
+		// 		to_number: contact.phone_number, 
+		// 		start_time_offset: 1800 //30mins 
+		// 		audio_url: 
+
+		// 	})
+			
+
+
+		// }
+
+
+
 		//send NExt question in the next 15mins
 		var scheduled_msg = project.scheduleMessage({
 		    content: individualQuestion.learner_question, 
 		    to_number: contact.phone_number, 
-		    start_time_offset: 1800 //30mins 
+		    start_time_offset: 60 //30mins  //1 mins temp
 		});
 
 
@@ -221,6 +241,7 @@ global.main = function() {
 
 //return object or false
 function getQuestionObject(questionCode){
+
 	return questionBase.getQuestion(questionCode);
 }
 

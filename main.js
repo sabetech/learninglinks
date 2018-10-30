@@ -52,7 +52,7 @@ global.main = function() {
 		}
 
 		//allowtutormentaccessfunction goes here ...
-		if (false){//!allTutorMentorAccess()){
+		if (!allTutorMentorAccess()){//){
 			//then tutor is trying to trigger more questions ... 
 			sendReply("Hi "+contact.name+", You have already requested for today's group question.");
 			console.log(contact.name+" is triggering twice for a day");
@@ -63,7 +63,7 @@ global.main = function() {
 		}
 
 		//check if tutor mentor has already exhausted her 3 triggers per week
-		if (false){//tutorMentorWeeklyAccessExhausted()){
+		if (tutorMentorWeeklyAccessExhausted()){//){
 			sendReply("Hi "+contact.name+", You have exhausted your weekly access of 3 triggers.");
 			console.log(contact.name+" You have exhausted your weekly access of 3 triggers.");
 

@@ -228,7 +228,7 @@ global.main = function() {
 		var scheduled_msg = project.scheduleMessage({
 		    content: individualQuestion.learner_question, 
 		    to_number: contact.phone_number, 
-		    start_time_offset: 60 //30mins  //1 mins temp
+		    start_time_offset: 1800 //30mins  //1 mins temp
 		});
 
 

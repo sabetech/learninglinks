@@ -161,7 +161,7 @@ global.main = function() {
 				contact.vars.cum_points = parseInt(contact.vars.cum_points) + 5;
 			}
 			
-			sendReply(learnerQuestion.correctAnswerResponse + "[Q"+contact.vars.current_question_code+"]");
+			sendReply(learnerQuestion.correctAnswerResponse + " [Q"+contact.vars.current_question_code+"] ");
 			sendReply("You have earned 5 points. Total Points: "+contact.vars.cum_points);
 			
 			//send message to tutor here ...
@@ -218,7 +218,7 @@ global.main = function() {
 
 		// 	})
 			
-
+		//return from here ...
 
 		// }
 

@@ -151,6 +151,12 @@ global.main = function() {
 			return true;
 		}
 
+		//TODO:
+		/*
+		Check if an answer is a valid response or not ... 
+		also play audio again for ivr in case learner didn't hear the audio
+		*/
+
 
 		//check if the answer the learner sent is right ...
 		if (learnerQuestion.answer == answerKey){
@@ -209,16 +215,20 @@ global.main = function() {
 		//1001 and 1162: These are the question codes for IVR content ...
 		// if ((questionCode > 1000) && (questionCode < 1162)) {
 
-		// 	var schedule_call = project.scheduleMessage({
+		// 	var audio_url = "http://learninglinksadmin.tk/audios/" + individualQuestion.question_tag + ".mp3";
+		//  	var schedule_call = project.scheduleMessage({
 				
 		// 		message_type: call,
 		// 		to_number: contact.phone_number, 
 		// 		start_time_offset: 1800 //30mins 
-		// 		audio_url: 
+		// 		audio_url: audio_url,
+		// 		route_id: "PN2607c459f76044a7" //the route id for handling ivr ...
 
-		// 	})
+		// 	});
 			
-		//return from here ...
+		// 	//what if audios is not found ... via url ..
+		// 	//return from here ... don't return from here actually, i need to send an sms too ... 
+		// 	//also remmeber to handle ... if learner didn't the sentence, can they request for it ... yep ...
 
 		// }
 

@@ -177,11 +177,6 @@ global.main = function() {
 			sendReply(learnerQuestion.incorrectAnswerResponse + "[Q"+contact.vars.current_question_code+"]");
 			sendReply("Sorry, you earned no points.");
 
-			// if (typeof contact.vars.cum_points === 'undefined'){
-			// 	contact.vars.cum_points = 5;
-			// }else{
-			// 	contact.vars.cum_points = parseInt(contact.vars.cum_points) + 5;
-			// }
 			//send message to tutor here ...
 			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.code+" incorrectly and earned no points. Her Current points: "+contact.vars.cum_points);
 		}

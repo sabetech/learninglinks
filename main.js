@@ -242,7 +242,7 @@ global.main = function() {
 		});
 
 
-		requestServerPullSMSUpdate();
+		////requestServerPullSMSUpdate();
 
 		//put the timeout calls here ...
 

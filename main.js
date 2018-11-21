@@ -52,7 +52,7 @@ global.main = function() {
 			return true;	
 		}
 
-		if (groupLearnerQuestion.question_tag.indexOf("G") === -1){
+		if (groupLearnerQuestion.vars.question_tag.indexOf("G") === -1){
 			sendReply("Hi "+contact.name+" the question you are requesting for is not a Group Based Question. Verify the question code and try again");
 			message.delete();
 			return true;
@@ -82,7 +82,7 @@ global.main = function() {
 		//all remember 
 
 
-		sendReply(groupLearnerQuestion.question);
+		sendReply(groupLearnerQuestion.vars.question);
 
 		//get group members to send the message to them ...
 		var group = project.getGroupById(contact.vars.tutor_group_id);
@@ -96,7 +96,7 @@ global.main = function() {
 
 			learner_contact.vars.current_question_code = parseInt(questionCode);
 			learner_contact.vars.group_question_code = parseInt(questionCode);
-			sendSMS(learner_contact.phone_number, groupLearnerQuestion.learner_question);
+			sendSMS(learner_contact.phone_number, groupLearnerQuestion.vars.learner_question);
 			learner_contact.save();
 		}
 
@@ -174,18 +174,18 @@ global.main = function() {
 				contact.vars.cum_points = parseInt(contact.vars.cum_points) + 5;
 			}
 			
-			sendReply(learnerQuestion.correctAnswerResponse + " [Q"+contact.vars.current_question_code+"] ");
+			sendReply(learnerQuestion.vars.correctAnswerResponse + " [Q"+contact.vars.current_question_code+"] ");
 			sendReply("You have earned 5 points. Total Points: "+contact.vars.cum_points);
 			
 			//send message to tutor here ...
-			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.code+" correctly and earned 5 points. Her Total Points: "+contact.vars.cum_points);
+			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.vars.code+" correctly and earned 5 points. Her Total Points: "+contact.vars.cum_points);
 
 		}else{
-			sendReply(learnerQuestion.incorrectAnswerResponse + "[Q"+contact.vars.current_question_code+"]");
+			sendReply(learnerQuestion.vars.incorrectAnswerResponse + "[Q"+contact.vars.current_question_code+"]");
 			sendReply("Sorry, you earned no points.");
 
 			//send message to tutor here ...
-			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.code+" incorrectly and earned no points. Her Current points: "+contact.vars.cum_points);
+			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.vars.code+" incorrectly and earned no points. Her Current points: "+contact.vars.cum_points);
 		}
 
 		contact.vars.current_question_code = parseInt(contact.vars.current_question_code) + 1;
@@ -206,7 +206,7 @@ global.main = function() {
 			return true;
 		}
 		
-		if (individualQuestion.question_tag.indexOf("G") !== -1){
+		if (individualQuestion.vars.question_tag.indexOf("G") !== -1){
 			message.delete();
 			console.log("You are learner trying to access a group question!");
 			return true;
@@ -238,7 +238,7 @@ global.main = function() {
 
 		//send NExt question in the next 15mins
 		var scheduled_msg = project.scheduleMessage({
-		    content: individualQuestion.learner_question, 
+		    content: individualQuestion.vars.learner_question, 
 		    to_number: contact.phone_number, 
 		    start_time_offset: 1800 //30mins  //1 mins temp
 		});

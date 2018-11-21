@@ -166,7 +166,7 @@ global.main = function() {
 
 
 		//check if the answer the learner sent is right ...
-		if (learnerQuestion.answer == answerKey){
+		if (learnerQuestion.vars.answer == answerKey){
 			
 			if (typeof contact.vars.cum_points === 'undefined'){
 				contact.vars.cum_points = 5;

@@ -1,4 +1,5 @@
 var questionBase = null;
+
 global.main = function() {
 
 	var keyword = word1;
@@ -23,7 +24,10 @@ global.main = function() {
 
 	keyword = keyword.trim();
 	
-	questionBase = require('./question');
+	//get data table here ..
+	questionBase = require('./question_datatable');
+
+
 	//check if is learner or tutor
 	if (!contact.vars.learner){
 		//if contact is not a learner, she's a tutor ... in the group
@@ -39,6 +43,9 @@ global.main = function() {
 		
 		var groupLearnerQuestion = getQuestionObject(questionCode);
 		
+		console.log("question object here ...");
+		console.log(groupLearnerQuestion);
+
 		if (groupLearnerQuestion == false){
 			sendReply("Hi "+contact.name+" Invalid Question Code "+content+"! Question for this code is not available.Type in a correct Question Code");
 			message.delete();
@@ -248,6 +255,7 @@ global.main = function() {
 function getQuestionObject(questionCode){
 
 	return questionBase.getQuestion(questionCode);
+
 }
 
 function sendMessageToTutor(_message){

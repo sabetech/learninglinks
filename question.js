@@ -2,7 +2,7 @@
  * Example CommonJS module that exports functionality by adding properties 
  * to the `exports` variable.
  */
-
+/*
 exports.getQuestion = function(questionCode) { 
     
 	var level1Numeracy = 
@@ -23311,3 +23311,4 @@ exports.getQuestion = function(questionCode) {
 
 
 
+*/

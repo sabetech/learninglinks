@@ -43,8 +43,8 @@ global.main = function() {
 		
 		var groupLearnerQuestion = getQuestionObject(questionCode);
 		
-		console.log("question object here ...");
-		console.log(groupLearnerQuestion);
+		//console.log("question object here ...");
+		//console.log(groupLearnerQuestion);
 
 		if (groupLearnerQuestion == false){
 			sendReply("Hi "+contact.name+" Invalid Question Code "+content+"! Question for this code is not available.Type in a correct Question Code");

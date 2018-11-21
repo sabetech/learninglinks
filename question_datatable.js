@@ -21,8 +21,6 @@ exports.getQuestion = function(questionCode) {
     questionObject = cursor.next();
   }
 
-	console.log(questionObject);
-
 	//return false if user submits a non existent question...
 	var jsonObject = questionObject;
 	if (typeof jsonObject === "undefined") 

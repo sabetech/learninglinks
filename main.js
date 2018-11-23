@@ -174,14 +174,14 @@ global.main = function() {
 				contact.vars.cum_points = parseInt(contact.vars.cum_points) + 5;
 			}
 			
-			sendReply(learnerQuestion.vars.correctanswerresponse + " [Q"+contact.vars.current_question_code+"] ");
+			sendReply("[Q"+contact.vars.current_question_code+"] "+ learnerQuestion.vars.correctanswerresponse);
 			sendReply("You have earned 5 points. Total Points: "+contact.vars.cum_points);
 			
 			//send message to tutor here ...
 			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.vars.code+" correctly and earned 5 points. Her Total Points: "+contact.vars.cum_points);
 
 		}else{
-			sendReply(learnerQuestion.vars.incorrectanswerresponse + "[Q"+contact.vars.current_question_code+"]");
+			sendReply("[Q"+contact.vars.current_question_code+"] " + learnerQuestion.vars.incorrectanswerresponse);
 			sendReply("Sorry, you earned no points.");
 
 			//send message to tutor here ...

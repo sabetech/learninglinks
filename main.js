@@ -222,7 +222,7 @@ global.main = function() {
 				
 				message_type: call,
 				to_number: contact.phone_number, 
-				start_time_offset: 60 //30mins ...currently
+				start_time_offset: 60, //30mins ...currently
 				audio_url: audio_url,
 				route_id: "PN2607c459f76044a7" //the route id for handling ivr ...
 

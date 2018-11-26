@@ -215,18 +215,18 @@ global.main = function() {
 		//check to see whether to send voice and text or just voice ...
 		//check if question is IVR then call the function to handle IVR ...
 		//1001 and 1162: These are the question codes for IVR content ...
-		// if ((questionCode > 1000) && (questionCode < 1162)) {
+		if ((questionCode > 1000) && (questionCode < 1162)) {
 
-		// 	var audio_url = "http://learninglinksadmin.tk/audios/" + individualQuestion.question_tag + ".mp3";
-		//  	var schedule_call = project.scheduleMessage({
+			var audio_url = "http://learninglinksadmin.tk/audios/" + individualQuestion.vars.question_tag + ".mp3";
+		 	var schedule_call = project.scheduleMessage({
 				
-		// 		message_type: call,
-		// 		to_number: contact.phone_number, 
-		// 		start_time_offset: 1800 //30mins 
-		// 		audio_url: audio_url,
-		// 		route_id: "PN2607c459f76044a7" //the route id for handling ivr ...
+				message_type: call,
+				to_number: contact.phone_number, 
+				start_time_offset: 60 //30mins ...currently
+				audio_url: audio_url,
+				route_id: "PN2607c459f76044a7" //the route id for handling ivr ...
 
-		// 	});
+			});
 			
 		// 	//what if audios is not found ... via url ..
 		// 	//return from here ... don't return from here actually, i need to send an sms too ... 

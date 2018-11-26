@@ -220,7 +220,7 @@ global.main = function() {
 			var audio_url = "http://learninglinksadmin.tk/audios/" + individualQuestion.vars.question_tag + ".mp3";
 		 	var schedule_call = project.scheduleMessage({
 				
-				message_type: call,
+				message_type: 'call',
 				to_number: contact.phone_number, 
 				start_time_offset: 60, //30mins ...currently
 				audio_url: audio_url,

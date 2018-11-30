@@ -215,6 +215,11 @@ global.main = function() {
 		//check to see whether to send voice and text or just voice ...
 		//check if question is IVR then call the function to handle IVR ...
 		//1001 and 1162: These are the question codes for IVR content ...
+
+		//format phone to include international format before phone call is placed ..+231 
+
+		var phoneNumber = formatPhoneNumber(contact.phone_number);
+
 		if ((questionCode > 1000) && (questionCode < 1162)) {
 
 			var audio_url = "http://learninglinksadmin.tk/audios/" + individualQuestion.vars.question_tag + ".mp3";
@@ -424,6 +429,25 @@ function tutorMentorWeeklyAccessExhausted(){
 
 
 }
+
+function formatPhoneNumber(phone_number){
+
+	//if phone number begins with +231, leave it ... 
+	if (phone_number.startsWith("+231")){
+		return phone_number;
+	}else if(phone_number.startsWith("088")){
+		return phone_number.replace("088", "+23188");
+	}else if(phone_number.startsWith("077")){
+		return phone_number.replace("077", "+23177");
+	}else if(phone_number.startsWith("88")){
+		return phone_number.replace("88", "+23188");
+	}else{
+		return phone_number;
+	}
+
+}
+
+
 
 function requestServerPullSMSUpdate(){
 	var _pull_url = "http://learninglinksadmin.tk/pull_sms_logs/";

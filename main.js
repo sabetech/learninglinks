@@ -431,7 +431,7 @@ function tutorMentorWeeklyAccessExhausted(){
 }
 
 function formatPhoneNumber(phone_number){
-
+	phone_number += "";
 	//if phone number begins with +231, leave it ... 
 	if (phone_number.startsWith("+231")){
 		return phone_number;

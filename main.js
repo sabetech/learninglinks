@@ -240,8 +240,7 @@ global.main = function() {
 		// 	//what if audios is not found ... via url ..
 		// 	//return from here ... don't return from here actually, i need to send an sms too ... 
 		// 	//also remmeber to handle ... if learner didn't the sentence, can they request for it ... yep ...
-
-	 }
+	 	}
 
 
 
@@ -249,7 +248,7 @@ global.main = function() {
 		var scheduled_msg = project.scheduleMessage({
 		    content: individualQuestion.vars.learner_question, 
 		    to_number: contact.phone_number, 
-		    start_time_offset: 1800 //30mins  //1 mins temp
+		    start_time_offset: 60 //30mins  //1 mins temp
 		});
 
 

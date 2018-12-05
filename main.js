@@ -431,23 +431,29 @@ function tutorMentorWeeklyAccessExhausted(){
 }
 
 function formatPhoneNumber(phone_number){
-	phone_number += "";
+	
 	//if phone number begins with +231, leave it ... 
-	if (phone_number.startsWith("+231")){
+	if (startsWith(phone_number, "+231")){
 		return phone_number;
-	}else if(phone_number.startsWith("088")){
+
+	}else if(startsWith(phone_number, "088")){
 		return phone_number.replace("088", "+23188");
-	}else if(phone_number.startsWith("077")){
+
+	}else if(startsWith(phone_number, "077")){
 		return phone_number.replace("077", "+23177");
-	}else if(phone_number.startsWith("88")){
+
+	}else if(startsWith(phone_number, "88")){
 		return phone_number.replace("88", "+23188");
+
 	}else{
 		return phone_number;
 	}
 
 }
 
-
+function startsWith(mainStr, startingStr){
+	return (startingStr == mainStr.substr(0, startingStr.length));
+}
 
 function requestServerPullSMSUpdate(){
 	var _pull_url = "http://learninglinksadmin.tk/pull_sms_logs/";

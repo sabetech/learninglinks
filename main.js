@@ -59,6 +59,7 @@ global.main = function() {
 		}
 
 		//allowtutormentaccessfunction goes here ...
+		//also check if the previous message was delievered or not due to network connectivity issues
 		if (!allTutorMentorAccess()){//){
 			//then tutor is trying to trigger more questions ... 
 			sendReply("Hi "+contact.name+", You have already requested for today's group question.");
@@ -185,6 +186,9 @@ global.main = function() {
 			sendReply("Sorry, you earned no points.");
 
 			//send message to tutor here ...
+			if (typeof contact.vars.cum_points === 'undefined'){
+				contact.vars.cum_points = 0;
+			}
 			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.vars.code+" incorrectly and earned no points. Her Current points: "+contact.vars.cum_points);
 		}
 
@@ -431,7 +435,7 @@ function tutorMentorWeeklyAccessExhausted(){
 }
 
 function formatPhoneNumber(phone_number){
-	
+
 	//if phone number begins with +231, leave it ... 
 	if (startsWith(phone_number, "+231")){
 		return phone_number;

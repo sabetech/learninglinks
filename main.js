@@ -176,20 +176,20 @@ global.main = function() {
 			}
 			
 			sendReply("[Q"+contact.vars.current_question_code+"] "+ learnerQuestion.vars.correctanswerresponse);
-			sendReply("You have earned 5 points. Total Points: "+contact.vars.cum_points);
+			sendReply("You have earned 5 Cents.");
 			
 			//send message to tutor here ...
-			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.vars.code+" correctly and earned 5 points. Her Total Points: "+contact.vars.cum_points);
+			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.vars.code+" correctly and earned 5 Cents.");
 
 		}else{
 			sendReply("[Q"+contact.vars.current_question_code+"] " + learnerQuestion.vars.incorrectanswerresponse);
-			sendReply("Sorry, you earned no points.");
+			sendReply("Sorry, you earned no Cents.");
 
 			//send message to tutor here ...
 			if (typeof contact.vars.cum_points === 'undefined'){
 				contact.vars.cum_points = 0;
 			}
-			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.vars.code+" incorrectly and earned no points. Her Current points: "+contact.vars.cum_points);
+			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.vars.code+" incorrectly and earned no cents.");
 		}
 
 		contact.vars.current_question_code = parseInt(contact.vars.current_question_code) + 1;
@@ -238,8 +238,8 @@ global.main = function() {
 			});
 			
 		// 	//what if audios is not found ... via url ..
-		// 	//return from here ... don't return from here actually, i need to send an sms too ... 
-		// 	//also remmeber to handle ... if learner didn't the sentence, can they request for it ... yep ...
+		// 	// don't return from here actually, i need to send an sms too ... 
+		// 	//also remember to handle ... if learner didn't the hear the sentence, can they request for it ... yep ...
 	 	}
 
 

@@ -231,7 +231,7 @@ global.main = function() {
 				
 				message_type: 'call',
 				to_number: phoneNumber, 
-				start_time_offset: 1800, //30mins ...currently temporarily 1 min
+				start_time_offset: 60, //30mins ...currently temporarily 1 min
 				audio_url: audio_url,
 				route_id: "PN2607c459f76044a7" //the route id for handling ivr ...
 
@@ -248,7 +248,7 @@ global.main = function() {
 		var scheduled_msg = project.scheduleMessage({
 		    content: individualQuestion.vars.learner_question, 
 		    to_number: contact.phone_number, 
-		    start_time_offset: 1800 //30mins  //1 mins temp
+		    start_time_offset: 60 //30mins  //1 mins temp
 		});
 
 

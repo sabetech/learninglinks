@@ -230,9 +230,9 @@ global.main = function() {
 		//format phone to include international format before phone call is placed ..+231 
 
 		//var phoneNumber = formatPhoneNumber(contact.phone_number);
-
+		var smsOffset = 0;
 		if ((questionCode > 1000) && (questionCode < 1162)) {
-
+			smsOffset = 60;
 			var audio_url = "http://learninglinksadmin.tk/audios/" + individualQuestion.vars.question_tag + ".mp3";
 		 	var schedule_call = project.scheduleMessage({
 				
@@ -243,6 +243,8 @@ global.main = function() {
 				route_id: "PN2607c459f76044a7" //the route id for handling ivr ...
 
 			});
+
+			//add an offset to when the sms should be triggered
 			
 		// 	//what if audios is not found ... via url ..
 		// 	// don't return from here actually, i need to send an sms too ... 
@@ -255,7 +257,7 @@ global.main = function() {
 		var scheduled_msg = project.scheduleMessage({
 		    content: individualQuestion.vars.learner_question, 
 		    to_number: contact.phone_number, 
-		    start_time_offset: 60, //30mins  //1 mins temp
+		    start_time_offset: (60 + smsOffset), //30mins  //1 mins temp we can't send voice and sms at the same hence the offset
 		    route_id: "PN46904deed4100e78" //have to explicitly set the route for SMS to use the short code because after the phone call, the phone call's route is mainted for the call
 		});
 

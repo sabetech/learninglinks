@@ -151,10 +151,10 @@ global.main = function() {
 		}
 
 		//check if the learner is trying to access a different service ...
-		if (answerKey) {
+		// if (answerKey) {
 			
-			return false;
-		}
+		// 	return false;
+		// }
 
 
 		//check if learner should have access to such a question code

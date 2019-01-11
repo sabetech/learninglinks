@@ -152,7 +152,7 @@ global.main = function() {
 
 		//check if the learner is trying to access a different service ...
 		// if (answerKey) {
-			
+
 		// 	return false;
 		// }
 
@@ -229,7 +229,7 @@ global.main = function() {
 
 		//format phone to include international format before phone call is placed ..+231 
 
-		var phoneNumber = formatPhoneNumber(contact.phone_number);
+		//var phoneNumber = formatPhoneNumber(contact.phone_number);
 
 		if ((questionCode > 1000) && (questionCode < 1162)) {
 
@@ -237,7 +237,7 @@ global.main = function() {
 		 	var schedule_call = project.scheduleMessage({
 				
 				message_type: 'call',
-				to_number: phoneNumber, 
+				to_number: contact.phone_number, 
 				start_time_offset: 60, //30mins ...currently temporarily 1 min
 				audio_url: audio_url,
 				route_id: "PN2607c459f76044a7" //the route id for handling ivr ...

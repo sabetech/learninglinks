@@ -32,6 +32,10 @@ global.main = function() {
 	if (!contact.vars.learner){
 		//if contact is not a learner, she's a tutor ... in the group
 		
+		//check if the message sent is a 4 digit code... if not return false ...
+		//do a check for substring of the first 4 digits and check if they are the same
+		//console.log(String(+val).charAt(0) == val);
+
 		var testgroup = project.getGroupById("CGfbee3acd9a320833");
 		if (!contact.isInGroup(testgroup)){
 			sendReply("Sorry you don't belong to the Learning Links Program");
@@ -105,12 +109,18 @@ global.main = function() {
 
 
 	}else{
-		
+		var answerKey = keyword;
+		//if what the learner typed is not a single digit to answer a daily sms question ... move to the next service
+		if (String(+answerKey).charAt(0) != answerKey){
+			//it means the Learner is trying to trigger the SMS assessment Questions
+			return false;
+		}
+
+		var testgroup = project.getGroupById("CGfbee3acd9a320833");
+
 		//if the person is learner ... 
 		//and belongs to a certain group for test otherwise 
-		var testgroup = project.getGroupById("CGfbee3acd9a320833");
-		 
-		 //if the learner is not in a test group ...
+		//if the learner is not in a test group ...
 		if (!contact.isInGroup(testgroup)){
 			console.log(contact.name+" is not part of the Learning Links Program");
 			message.delete();
@@ -124,7 +134,7 @@ global.main = function() {
 		//var lastOutgoingMessage = getLastReceivedMessage();
 
 
-		var answerKey = keyword;
+		
 		if (typeof contact.vars.current_question_code == "undefined"){
 			console.log("current_question_code does not exist.");
 

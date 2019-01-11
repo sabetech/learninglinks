@@ -32,10 +32,10 @@ function main() {
         console.log("fantastic");
         
         //getFirstQuestion
-        
+        return true;
         
 	}else{
-	    return false;
+	    return true;
 	}
 	
 }

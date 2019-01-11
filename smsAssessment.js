@@ -1,5 +1,4 @@
-
-function main() {
+global.main = function() {
     
 	console.log("fallback access sms assessment");
 

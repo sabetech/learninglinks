@@ -150,6 +150,13 @@ global.main = function() {
 			return true;
 		}
 
+		//check if the learner is trying to access a different service ...
+		if (answerKey) {
+			
+			return false;
+		}
+
+
 		//check if learner should have access to such a question code
 		//the better code is that .... when a tutor has sent a code, the last code they should receive is +2 of that code sent by the tutor ...
 		if (contact.vars.current_question_code > (contact.vars.group_question_code + 2)) {
@@ -437,16 +444,17 @@ function tutorMentorWeeklyAccessExhausted(){
 function formatPhoneNumber(phone_number){
 
 	//if phone number begins with +231, leave it ... 
-	if (startsWith(phone_number, "+231")){
+	//if phone number begins with +231, leave it ... 
+	if (phone_number.lastIndexOf("+231", 0) === 0){
 		return phone_number;
 
-	}else if(startsWith(phone_number, "088")){
+	}else if(phone_number.lastIndexOf("088", 0) === 0){
 		return phone_number.replace("088", "+23188");
 
-	}else if(startsWith(phone_number, "077")){
+	}else if(phone_number.lastIndexOf("077", 0) === 0){
 		return phone_number.replace("077", "+23177");
 
-	}else if(startsWith(phone_number, "88")){
+	}else if(phone_number.lastIndexOf("88", 0) === 0){
 		return phone_number.replace("88", "+23188");
 
 	}else{

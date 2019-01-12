@@ -59,7 +59,7 @@ global.main = function() {
 	            timeoutId: 'timeout'
 	        });
 
-	        addResponseHandler('question'assessmentQuestion.question_number, function() {
+	        addResponseHandler('question'+assessmentQuestion.question_number, function() {
 			    console.log(content + " is response");
 			    sendReply("answer response is "+content);
 			});

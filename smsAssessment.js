@@ -48,7 +48,7 @@ global.main = function() {
         while(assessmentQuestionCursor.hasNext()){
 
 			var assessmentQuestion = assessmentQuestionCursor.next();
-			sendReply(assessmentQuestion.question_number "# "+ assessmentQuestion.question_text +
+			sendReply(assessmentQuestion.question_number+"# "+ assessmentQuestion.question_text +
         			"1. " + assessmentQuestion.choice_1 +
         			"2. " + assessmentQuestion.choice_2 +
         			"3. " + assessmentQuestion.choice_3

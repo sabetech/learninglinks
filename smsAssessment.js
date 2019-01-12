@@ -40,9 +40,10 @@ global.main = function() {
 
         //contact.vars.assessment_batch
         var assessmentQuestionCursor = getSMSQuestionCursor(contact.vars.assessment_batch);
-        if (assessmentQuestion == false){
+        if (assessmentQuestionCursor == false){
         	console.log("error assessment could not be started");
         	sendReply("Assessment could not be started");
+        	return false
         }
 
         while(assessmentQuestionCursor.hasNext()){
@@ -65,7 +66,7 @@ global.main = function() {
 			});
 
 			addTimeoutHandler('timeout', function() {
-			    sendReply("Your registration has been cancelled. To start the registration again, send JOIN.");
+			    sendReply("Your assessment has been cancelled. To start again ..?");
 			});
 
 
@@ -87,6 +88,6 @@ global.main = function() {
 //return object or false
 function getSMSQuestionCursor(batch_number){
 
-	return SMSquestionBase.getQuestion(batch_number);
+	return SMSquestionBase.getQuestionBatch(batch_number);
 
 }

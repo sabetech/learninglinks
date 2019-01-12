@@ -3,7 +3,7 @@
  * to the `exports` variable.
  */
 
-exports.getQuestion = function(batch_number) { 
+exports.getQuestionBatch = function(batch_number) { 
 	const DATATABLE_ID = "DT52d802fd4e601de0";
 
 	var questionTable = project.getDataTableById(DATATABLE_ID);

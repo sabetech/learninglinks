@@ -1,4 +1,4 @@
-var questionBase = null;
+var SMSquestionBase = null;
 
 global.main = function() {
     
@@ -85,8 +85,8 @@ global.main = function() {
 }
 
 //return object or false
-function getSMSQuestionObject(batch_number){
+function getSMSQuestionCursor(batch_number){
 
-	return questionBase.getQuestion(batch_number);
+	return SMSquestionBase.getQuestion(batch_number);
 
 }

@@ -36,7 +36,7 @@ global.main = function() {
         //check if learner has already taken this test ..
 
         //get first question
-        questionBase = require('./smsAssessmentQuestion_datatable');
+        SMSquestionBase = require('./smsAssessmentQuestion_datatable');
 
         //contact.vars.assessment_batch
         var assessmentQuestionCursor = getSMSQuestionCursor(contact.vars.assessment_batch);

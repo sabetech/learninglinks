@@ -1,5 +1,5 @@
 var SMSquestionBase = null;
-
+var assessmentQuestion = null;
 global.main = function() {
     
 	console.log("SMS Assessment Program");
@@ -48,7 +48,7 @@ global.main = function() {
 
         //assessmentQuestionCursor.hasNext();
 
-		var assessmentQuestion = assessmentQuestionCursor.next();
+		assessmentQuestion = assessmentQuestionCursor.next();
 		sendReply(assessmentQuestion.question_number+"# "+ assessmentQuestion.question_text +
     			"1. " + assessmentQuestion.choice_1 +
     			"2. " + assessmentQuestion.choice_2 +

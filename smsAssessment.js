@@ -4,10 +4,10 @@ global.main = function() {
     
 	console.log("SMS Assessment Program");
 
-     var keyword = word1;
+    var keyword = word1;
      
      //When the keyword is START ... then proceed here ....
-     if (keyword === ""){
+    if (keyword === ""){
 		console.log("is keyword empty?");
 		sendReply("No keyword Sent");
 		message.delete();
@@ -56,9 +56,65 @@ global.main = function() {
     		  );
 
         waitForResponse('question'+assessmentQuestion.question_number, {
-            timeoutMinutes: 1,
+            timeoutMinutes: 10,
             timeoutId: 'timeout'
         });
+
+        addResponseHandler('question'+assessmentQuestion.question_number, function() {
+	
+			//correct response SMS is sent here ...
+			console.log(content + " is response");
+			sendReply("answer response is "+content);
+			
+			//get Next Questions
+			assessmentQuestion = assessmentQuestionCursor.next();
+			//this changes to response handler string ... 
+
+			//send next question ... 
+			sendReply(assessmentQuestion.question_number+"# "+ assessmentQuestion.question_text +
+				"1. " + assessmentQuestion.choice_1 +
+				"2. " + assessmentQuestion.choice_2 +
+				"3. " + assessmentQuestion.choice_3
+			);
+
+			//access responseHandler #3
+			waitForResponse('question'+assessmentQuestion.question_number, {
+			    timeoutMinutes: 1,
+			    timeoutId: 'timeout'
+			});
+
+		});
+
+		//responsehandler #3
+		addResponseHandler('question'+assessmentQuestion.question_number, function() {
+			
+			//correct response SMS is sent here ...
+			console.log(content + " is response");
+			sendReply("answer response is "+content);
+			
+			//get Next Questions
+			//var assessmentQuestion = assessmentQuestionCursor.next();
+			//this changes to response handler string ... 
+
+			//send next question ... 
+			// sendReply(assessmentQuestion.question_number+"# "+ assessmentQuestion.question_text +
+			// 	"1. " + assessmentQuestion.choice_1 +
+			// 	"2. " + assessmentQuestion.choice_2 +
+			// 	"3. " + assessmentQuestion.choice_3
+			// );
+
+			// //access responseHandler #3
+			// waitForResponse('question'+assessmentQuestion.question_number, {
+			//     timeoutMinutes: 1,
+			//     timeoutId: 'timeout'
+			// });
+
+		});
+
+
+
+
+
 
         return true;
 
@@ -76,56 +132,7 @@ function getSMSQuestionCursor(batch_number){
 }
 
 //responsehandler #2
-addResponseHandler('question'+assessmentQuestion.question_number, function() {
-	
-	//correct response SMS is sent here ...
-	console.log(content + " is response");
-	sendReply("answer response is "+content);
-	
-	//get Next Questions
-	var assessmentQuestion = assessmentQuestionCursor.next();
-	//this changes to response handler string ... 
 
-	//send next question ... 
-	sendReply(assessmentQuestion.question_number+"# "+ assessmentQuestion.question_text +
-		"1. " + assessmentQuestion.choice_1 +
-		"2. " + assessmentQuestion.choice_2 +
-		"3. " + assessmentQuestion.choice_3
-	);
-
-	//access responseHandler #3
-	waitForResponse('question'+assessmentQuestion.question_number, {
-	    timeoutMinutes: 1,
-	    timeoutId: 'timeout'
-	});
-
-});
-
-//responsehandler #3
-addResponseHandler('question'+assessmentQuestion.question_number, function() {
-	
-	//correct response SMS is sent here ...
-	console.log(content + " is response");
-	sendReply("answer response is "+content);
-	
-	//get Next Questions
-	//var assessmentQuestion = assessmentQuestionCursor.next();
-	//this changes to response handler string ... 
-
-	//send next question ... 
-	// sendReply(assessmentQuestion.question_number+"# "+ assessmentQuestion.question_text +
-	// 	"1. " + assessmentQuestion.choice_1 +
-	// 	"2. " + assessmentQuestion.choice_2 +
-	// 	"3. " + assessmentQuestion.choice_3
-	// );
-
-	// //access responseHandler #3
-	// waitForResponse('question'+assessmentQuestion.question_number, {
-	//     timeoutMinutes: 1,
-	//     timeoutId: 'timeout'
-	// });
-
-});
 
 
 

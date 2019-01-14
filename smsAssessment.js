@@ -89,7 +89,7 @@ addResponseHandler('question1', function() {
 	//correct response SMS is sent here ...
 	console.log(content + " is response");
 	sendReply("answer response is "+content);
-	console.log("state: "+state.id+" contact: "contact.name);
+	console.log("state: "+state.id+" contact: "+contact.name);
 	//get Next Questions
 	var assessmentQuestion = assessmentQuestionCursor.next();
 	//this changes to response handler string ... 
@@ -126,7 +126,7 @@ addResponseHandler('question2', function() {
 		"\n2. " + assessmentQuestion.vars.choice_2 +
 		"\n3. " + assessmentQuestion.vars.choice_3
 	);
-	console.log("state: "+state.id+" contact: "contact.name);
+	console.log("state: "+state.id+" contact: "+contact.name);
 	//access responseHandler #3
 	waitForResponse('question'+assessmentQuestion.vars.question_number, {
 	    timeoutMinutes: 1,

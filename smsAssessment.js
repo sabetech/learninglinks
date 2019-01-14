@@ -57,7 +57,7 @@ global.main = function() {
 
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
         sendQuestion(newQuestion);
-		suspendAndWaitForResponse(assessmentQuestion);
+		suspendAndWaitForResponse(newQuestion);
 
         return true;
 
@@ -93,7 +93,7 @@ addResponseHandler('question1', function() {
 	
 	sendQuestion(newQuestion);
 	
-	suspendAndWaitForResponse(assessmentQuestion);
+	suspendAndWaitForResponse(newQuestion);
 });
 
 addResponseHandler('question2', function() {
@@ -112,7 +112,7 @@ addResponseHandler('question2', function() {
 	
 	sendQuestion(newQuestion);
 	
-	suspendAndWaitForResponse(assessmentQuestion);
+	suspendAndWaitForResponse(newQuestion);
 });
 
 
@@ -172,7 +172,6 @@ function sendQuestion(question){
 }
 
 function suspendAndWaitForResponse(question){
-	//access responseHandler #3
 	waitForResponse('question'+question.vars.question_number, {
 	    timeoutMinutes: 1,
 	    timeoutId: 'timeout'

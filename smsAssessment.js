@@ -57,7 +57,7 @@ global.main = function() {
 
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
         sendQuestion(newQuestion);
-        //console.log(newQuestion);
+        console.log("1 "+contact.vars.progressState);
 		suspendAndWaitForResponse(newQuestion);
 
         return true;
@@ -91,7 +91,7 @@ addResponseHandler('question1', function() {
 
 	//get Next Question
 	var newQuestion = getNextQuestion(assessmentQuestionCursor);
-	
+	console.log("2 "+contact.vars.progressState);
 	sendQuestion(newQuestion);
 	
 	suspendAndWaitForResponse(newQuestion);
@@ -110,7 +110,7 @@ addResponseHandler('question2', function() {
 
 	//get Next Question
 	var newQuestion = getNextQuestion(assessmentQuestionCursor);
-	
+	console.log("3 "+contact.vars.progressState);
 	sendQuestion(newQuestion);
 	
 	suspendAndWaitForResponse(newQuestion);

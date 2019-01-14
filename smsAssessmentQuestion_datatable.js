@@ -10,7 +10,7 @@
 		var cursor = questionTable.queryRows({
 		    vars: {
 		      'batch_number': batch_number,
-		      'question_number': questionNumber
+		      'question_number': {'gte':questionNumber}
 		          }
 		});
 

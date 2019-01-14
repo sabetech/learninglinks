@@ -56,12 +56,10 @@ global.main = function() {
         }
         state.vars.progressState = 0;
 
-
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
         
         sendQuestion(newQuestion);
 
-        console.log("My Progress State:"+state.vars.progressState);
 		suspendAndWaitForResponse();
 
         return true;
@@ -87,8 +85,12 @@ addResponseHandler('question', function() {
 
 	//get Next Question
 	var newQuestion = getNextQuestion(assessmentQuestionCursor);
+
+	if (!newQuestion){
+		return endInteraction();
+	}
+
 	sendQuestion(newQuestion);
-	
 	suspendAndWaitForResponse();
 });
 
@@ -119,10 +121,14 @@ function scoreContact(){
 
 function getNextQuestion(questionCursor){
 	
-	var assessmentQuestion = questionCursor.next();
-	state.vars.progressState++;
-
-	return assessmentQuestion;
+	if (questionCursor.hasNext()){
+		
+		state.vars.progressState++;
+		return questionCursor.next();	
+		
+	}else{
+		return false;
+	}
 	
 }
 
@@ -142,10 +148,10 @@ function suspendAndWaitForResponse(){
 	});
 }
 
-
-
-
-
+function endInteraction(){
+	sendReply("The END!\nYou scored "+contact.vars.in_person_assessment +"/10");
+	return true;
+}
 
 addTimeoutHandler('timeout', function() {
 	sendReply("Your assessment has been cancelled. To start again ..?");

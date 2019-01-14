@@ -1,5 +1,6 @@
 var SMSquestionBase = null;
 var assessmentQuestion = null;
+var assessmentQuestionCursor = null;
 global.main = function() {
     
 	console.log("SMS Assessment Program");
@@ -39,7 +40,7 @@ global.main = function() {
         SMSquestionBase = require('./smsAssessmentQuestion_datatable');
 
         //contact.vars.assessment_batch
-        var assessmentQuestionCursor = getSMSQuestionCursor(contact.vars.assessment_batch);
+        assessmentQuestionCursor = getSMSQuestionCursor(contact.vars.assessment_batch);
         if (assessmentQuestionCursor == false){
         	console.log("error assessment could not be started");
         	sendReply("Assessment could not be started");
@@ -54,15 +55,15 @@ global.main = function() {
         //assessmentQuestionCursor.hasNext();
 
 		assessmentQuestion = assessmentQuestionCursor.next();
-		console.log(assessmentQuestion);
-		
-		sendReply(assessmentQuestion.question_number+"# "+ assessmentQuestion.question_text +
-    			"1. " + assessmentQuestion.choice_1 +
-    			"2. " + assessmentQuestion.choice_2 +
-    			"3. " + assessmentQuestion.choice_3
+		//console.log(assessmentQuestion);
+
+		sendReply(assessmentQuestion.vars.question_number+"# "+ assessmentQuestion.vars.question_text +
+    			"1. " + assessmentQuestion.vars.choice_1 +
+    			"2. " + assessmentQuestion.vars.choice_2 +
+    			"3. " + assessmentQuestion.vars.choice_3
     		  );
 
-        waitForResponse('question'+assessmentQuestion.question_number, {
+        waitForResponse('question'+assessmentQuestion.vars.question_number, {
             timeoutMinutes: 1,
             timeoutId: 'timeout'
         });
@@ -88,20 +89,20 @@ addResponseHandler('question1', function() {
 	//correct response SMS is sent here ...
 	console.log(content + " is response");
 	sendReply("answer response is "+content);
-	
+	console.log(ContactServiceState);
 	//get Next Questions
 	var assessmentQuestion = assessmentQuestionCursor.next();
 	//this changes to response handler string ... 
 
 	//send next question ... 
-	sendReply(assessmentQuestion.question_number+"# "+ assessmentQuestion.question_text +
-		"1. " + assessmentQuestion.choice_1 +
-		"2. " + assessmentQuestion.choice_2 +
-		"3. " + assessmentQuestion.choice_3
+	sendReply(assessmentQuestion.vars.question_number+"# "+ assessmentQuestion.vars.question_text +
+		"\n1. " + assessmentQuestion.vars.choice_1 +
+		"\n2. " + assessmentQuestion.vars.choice_2 +
+		"\n3. " + assessmentQuestion.vars.choice_3
 	);
 
 	//access responseHandler #3
-	waitForResponse('question'+assessmentQuestion.question_number, {
+	waitForResponse('question'+assessmentQuestion.vars.question_number, {
 	    timeoutMinutes: 1,
 	    timeoutId: 'timeout'
 	});
@@ -120,14 +121,14 @@ addResponseHandler('question2', function() {
 	//this changes to response handler string ... 
 
 	//send next question ... 
-	sendReply(assessmentQuestion.question_number+"# "+ assessmentQuestion.question_text +
-		"1. " + assessmentQuestion.choice_1 +
-		"2. " + assessmentQuestion.choice_2 +
-		"3. " + assessmentQuestion.choice_3
+	sendReply(assessmentQuestion.vars.question_number+"# "+ assessmentQuestion.vars.question_text +
+		"\n1. " + assessmentQuestion.vars.choice_1 +
+		"\n2. " + assessmentQuestion.vars.choice_2 +
+		"\n3. " + assessmentQuestion.vars.choice_3
 	);
-
+	console.log(ContactServiceState);
 	//access responseHandler #3
-	waitForResponse('question'+assessmentQuestion.question_number, {
+	waitForResponse('question'+assessmentQuestion.vars.question_number, {
 	    timeoutMinutes: 1,
 	    timeoutId: 'timeout'
 	});

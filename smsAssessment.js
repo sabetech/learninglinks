@@ -40,7 +40,8 @@ global.main = function() {
         SMSquestionBase = require('./smsAssessmentQuestion_datatable');
 
         //contact.vars.assessment_batch
-        assessmentQuestionCursor = getSMSQuestionCursor(contact.vars.assessment_batch);
+        assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
+     
         if (assessmentQuestionCursor == false){
         	console.log("error assessment could not be started");
         	sendReply("Assessment could not be started");
@@ -63,7 +64,7 @@ global.main = function() {
     			"3. " + assessmentQuestion.vars.choice_3
     		  );
 
-		state.vars.cursorState = assessmentQuestionCursor;
+		state.vars.progressState = assessmentQuestion.vars.question_number;
         waitForResponse('question'+assessmentQuestion.vars.question_number, {
             timeoutMinutes: 1,
             timeoutId: 'timeout'
@@ -86,24 +87,31 @@ function getSMSQuestionCursor(batch_number){
 
 //responsehandler #1
 addResponseHandler('question1', function() {
-	
+	SMSquestionBase = require('./smsAssessmentQuestion_datatable');
 	//correct response SMS is sent here ...
 	console.log(content + " is response");
 	sendReply("answer response is "+content);
 	console.log("state: "+state.id+" contact: "+contact.name);
+	
+
 	//get Next Questions
-	assessmentQuestionCursor = state.vars.cursorState;
-	var assessmentQuestion = assessmentQuestionCursor.next();
+	questionNumber = state.vars.progressState;
+
+	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
+	if (!assessmentQuestionCursor)
+		var assessmentQuestion = assessmentQuestionCursor.next();
+	else return false;
 	//this changes to response handler string ... 
 
-	//send next question ... 
+	//send next question ... refactor these
 	sendReply(assessmentQuestion.vars.question_number+"# "+ assessmentQuestion.vars.question_text +
 		"\n1. " + assessmentQuestion.vars.choice_1 +
 		"\n2. " + assessmentQuestion.vars.choice_2 +
 		"\n3. " + assessmentQuestion.vars.choice_3
 	);
 
-	state.vars.cursorState = assessmentQuestionCursor;
+
+	state.vars.progressState = assessmentQuestion.vars.question_number;
 	//access responseHandler #3
 	waitForResponse('question'+assessmentQuestion.vars.question_number, {
 	    timeoutMinutes: 1,
@@ -114,13 +122,15 @@ addResponseHandler('question1', function() {
 
 //responsehandler #2
 addResponseHandler('question2', function() {
-	
+	SMSquestionBase = require('./smsAssessmentQuestion_datatable');
 	//correct response SMS is sent here ...
 	console.log(content + " is response");
 	sendReply("answer response is "+content);
 	
-	assessmentQuestionCursor = state.vars.cursorState;
+	questionNumber = state.vars.progressState;
+	
 	//get Next Questions
+	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
 	var assessmentQuestion = assessmentQuestionCursor.next();
 	//this changes to response handler string ... 
 
@@ -131,7 +141,7 @@ addResponseHandler('question2', function() {
 		"\n3. " + assessmentQuestion.vars.choice_3
 	);
 	console.log("state: "+state.id+" contact: "+contact.name);
-	state.vars.cursorState = assessmentQuestionCursor;
+	state.vars.progressState = assessmentQuestion.vars.question_number;
 	//access responseHandler #3
 	waitForResponse('question'+assessmentQuestion.vars.question_number, {
 	    timeoutMinutes: 1,

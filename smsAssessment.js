@@ -54,6 +54,8 @@ global.main = function() {
         //assessmentQuestionCursor.hasNext();
 
 		assessmentQuestion = assessmentQuestionCursor.next();
+		console.log(assessmentQuestion);
+		
 		sendReply(assessmentQuestion.question_number+"# "+ assessmentQuestion.question_text +
     			"1. " + assessmentQuestion.choice_1 +
     			"2. " + assessmentQuestion.choice_2 +

@@ -14,7 +14,7 @@
 		          }
 		});
 
-		cursor.limit(1)
+		cursor.limit(2)
 		if (!cursor.hasNext()){
 			return false;
 		}

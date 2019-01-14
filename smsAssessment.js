@@ -3,7 +3,7 @@ var assessmentQuestion = null;
 var assessmentQuestionCursor = null;
 global.main = function() {
     
-	console.log("SMS Assessment Program");
+	console.log("Welcome to the SMS Assessment Program");
 
      var keyword = word1;
      
@@ -33,47 +33,36 @@ global.main = function() {
         //begin ...	
         
         //check if this contact is eligible to partake SMS Assessment program
-
-        //check if learner has already taken this test ..
+        //ie if you in the group 
+        if (!canTakeQuiz()){
+        	sendReply("Sorry, You are not eligible to take this quiz");
+        	return true;
+        }
 
         //get first question
         SMSquestionBase = require('./smsAssessmentQuestion_datatable');
 
-        //contact.vars.assessment_batch
         assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(1, contact.vars.batch_number);
      
         if (assessmentQuestionCursor == false){
         	console.log("error assessment could not be started");
         	sendReply("Assessment could not be started");
-        	return false
+        	return true
         }
 
         if (typeof assessmentQuestionCursor === 'undefined'){
-        	console.log("cursor is undefined???");
-        	return false;
+        	console.log("error:cursor is undefined?");
+        	return true;
         }
 
-        //assessmentQuestionCursor.hasNext();
-
-		assessmentQuestion = assessmentQuestionCursor.next();
-		//console.log(assessmentQuestion);
-
-		sendReply(assessmentQuestion.vars.question_number+"# "+ assessmentQuestion.vars.question_text +
-    			"1. " + assessmentQuestion.vars.choice_1 +
-    			"2. " + assessmentQuestion.vars.choice_2 +
-    			"3. " + assessmentQuestion.vars.choice_3
-    		  );
-
-		state.vars.progressState = assessmentQuestion.vars.question_number;
-        waitForResponse('question'+assessmentQuestion.vars.question_number, {
-            timeoutMinutes: 1,
-            timeoutId: 'timeout'
-        });
+        var newQuestion = getNextQuestion(assessmentQuestionCursor);
+        sendQuestion(newQuestion);
+		suspendAndWaitForResponse(assessmentQuestion);
 
         return true;
 
 	}else{
-	    return true;
+	    return true;//basically returning true the end the SMS interaction with the mobile user unless there's another service awaiting to run
 	}
 	
 }
@@ -85,104 +74,110 @@ function getSMSQuestionCursor(batch_number){
 
 }
 
-//responsehandler #1
+
+
+//#question1
 addResponseHandler('question1', function() {
 	SMSquestionBase = require('./smsAssessmentQuestion_datatable');
-	//correct response SMS is sent here ...
-	console.log(content + " is response");
-	sendReply("answer response is "+content);
-	console.log("state: "+state.id+" contact: "+contact.name);
-	
-
-	//get Next Questions
-	questionNumber = state.vars.progressState;
-	console.log(questionNumber++);
+	questionNumber = state.vars.progressState; //get current state to correct score question
 
 	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
-
-	//if (!assessmentQuestionCursor)
 	var assessmentQuestion = assessmentQuestionCursor.next();
-	//else 
-	//	return false;
-	//this changes to response handler string ... 
 
-	//send next question ... refactor these
-	sendReply(assessmentQuestion.vars.question_number+"# "+ assessmentQuestion.vars.question_text +
-		"\n1. " + assessmentQuestion.vars.choice_1 +
-		"\n2. " + assessmentQuestion.vars.choice_2 +
-		"\n3. " + assessmentQuestion.vars.choice_3
-	);
+	if (checkAnswer(assessmentQuestion)){
+		scoreContact()
+	}
 
-
-	state.vars.progressState = assessmentQuestion.vars.question_number;
-	//access responseHandler #3
-	waitForResponse('question'+assessmentQuestion.vars.question_number, {
-	    timeoutMinutes: 1,
-	    timeoutId: 'timeout'
-	});
-
+	//get Next Question
+	var newQuestion = getNextQuestion(assessmentQuestionCursor);
+	
+	sendQuestion(newQuestion);
+	
+	suspendAndWaitForResponse(assessmentQuestion);
 });
 
-//responsehandler #2
 addResponseHandler('question2', function() {
 	SMSquestionBase = require('./smsAssessmentQuestion_datatable');
-	//correct response SMS is sent here ...
-	console.log(content + " is response");
-	sendReply("answer response is "+content);
-	
-	questionNumber = state.vars.progressState;
-	
-	console.log(questionNumber++);
-	//get Next Questions
+	questionNumber = state.vars.progressState; //get current state to correct score question
+
 	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
 	var assessmentQuestion = assessmentQuestionCursor.next();
-	//this changes to response handler string ... 
 
-	//send next question ... 
-	sendReply(assessmentQuestion.vars.question_number+"# "+ assessmentQuestion.vars.question_text +
-		"\n1. " + assessmentQuestion.vars.choice_1 +
-		"\n2. " + assessmentQuestion.vars.choice_2 +
-		"\n3. " + assessmentQuestion.vars.choice_3
-	);
-	console.log("state: "+state.id+" contact: "+contact.name);
-	state.vars.progressState = assessmentQuestion.vars.question_number;
+	if (checkAnswer(assessmentQuestion)){
+		scoreContact()
+	}
+
+	//get Next Question
+	var newQuestion = getNextQuestion(assessmentQuestionCursor);
+	
+	sendQuestion(newQuestion);
+	
+	suspendAndWaitForResponse(assessmentQuestion);
+});
+
+
+//responsehandler #end
+addResponseHandler('question3', function() {
+	
+	if (checkAnswer(assessmentQuestion)){
+		scoreContact()
+	}
+	
+	sendReply("The END! You scored "contact.vars.in_person_assessment +"/10");
+	
+	
+});
+
+function canTakeQuiz(){
+	return true;
+}
+
+function checkAnswer(questionTable){
+	//check if the answer is the same as the content ...
+
+	if (content == questionTable.answer){
+		sendReply("Correct, you earned 5 cents");
+		return true;
+	}else{
+		sendReply("Incorrect!, The answer is "+questionTable.answer);
+		return false;
+	}
+
+}
+
+function scoreContact(){
+	if (typeof contact.vars.in_person_assessment === 'undefined'){
+		contact.vars.in_person_assessment = 1;
+	}else{
+		contact.vars.in_person_assessment = parseInt(contact.vars.in_person_assessment) + 1;
+	}
+}
+
+function getNextQuestion(questionCursor){
+	
+	var assessmentQuestion = questionCursor.next();
+	state.vars.progressState = assessmentQuestion.vars.question_number++;
+
+	return assessmentQuestion;
+	
+}
+
+function sendQuestion(question){
+	var newQuestion = question.vars.question_number+"# "+ question.vars.question_text +
+		"\n1. " + question.vars.choice_1 +
+		"\n2. " + question.vars.choice_2 +
+		"\n3. " + question.vars.choice_3;
+
+	sendReply(newQuestion);
+}
+
+function suspendAndWaitForResponse(question){
 	//access responseHandler #3
-	waitForResponse('question'+assessmentQuestion.vars.question_number, {
+	waitForResponse('question'+question.vars.question_number, {
 	    timeoutMinutes: 1,
 	    timeoutId: 'timeout'
 	});
-
-});
-
-//responsehandler #2
-addResponseHandler('question3', function() {
-	
-	//correct response SMS is sent here ...
-	console.log(content + " is response");
-	sendReply("answer response is "+content);
-	sendReply("End!");
-	//get Next Questions
-	// var assessmentQuestion = assessmentQuestionCursor.next();
-	// //this changes to response handler string ... 
-
-	// //send next question ... 
-	// sendReply(assessmentQuestion.question_number+"# "+ assessmentQuestion.question_text +
-	// 	"1. " + assessmentQuestion.choice_1 +
-	// 	"2. " + assessmentQuestion.choice_2 +
-	// 	"3. " + assessmentQuestion.choice_3
-	// );
-
-	// //access responseHandler #3
-	// waitForResponse('question'+assessmentQuestion.question_number, {
-	//     timeoutMinutes: 1,
-	//     timeoutId: 'timeout'
-	// });
-
-});
-
-
-
-
+}
 
 
 
@@ -192,3 +187,12 @@ addResponseHandler('question3', function() {
 addTimeoutHandler('timeout', function() {
 	sendReply("Your assessment has been cancelled. To start again ..?");
 });
+
+
+//TODO::
+/*
+What if Learning Links Person mistakenly assigns the wrong question to the tutor group
+
+==validate and check if learners assigned are actually doing [module] & [level]
+
+*/

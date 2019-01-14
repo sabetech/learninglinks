@@ -57,7 +57,7 @@ global.main = function() {
 
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
         sendQuestion(newQuestion);
-        console.log(newQuestion);
+        //console.log(newQuestion);
 		suspendAndWaitForResponse(newQuestion);
 
         return true;
@@ -136,11 +136,11 @@ function canTakeQuiz(){
 function checkAnswer(questionTable){
 	//check if the answer is the same as the content ...
 
-	if (content == questionTable.answer){
+	if (content == questionTable.vars.answer){
 		sendReply("Correct, you earned 5 cents");
 		return true;
 	}else{
-		sendReply("Incorrect!, The answer is "+questionTable.answer);
+		sendReply("Incorrect!, The answer is "+questionTable.vars.answer);
 		return false;
 	}
 

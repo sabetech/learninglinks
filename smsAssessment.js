@@ -123,7 +123,7 @@ addResponseHandler('question3', function() {
 		scoreContact()
 	}
 	
-	sendReply("The END! You scored "contact.vars.in_person_assessment +"/10");
+	sendReply("The END! You scored "+contact.vars.in_person_assessment +"/10");
 	
 	
 });

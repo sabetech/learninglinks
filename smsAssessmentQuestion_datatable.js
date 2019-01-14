@@ -17,8 +17,8 @@ exports.getQuestionBatch = function(batch_number) {
  	cursor.limit(10);
   	//var questionObject = null;
 
-  	console.log($cursor.hasNext())
-  	
+  	console.log(cursor.hasNext())
+
 	if(!cursor.hasNext()){
     	return false;
     }

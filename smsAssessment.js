@@ -38,7 +38,7 @@ global.main = function() {
 
         //get first question
         SMSquestionBase = require('./smsAssessmentQuestion_datatable');
-
+        console.log(SMSquestionBase);
         //contact.vars.assessment_batch
         assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
      

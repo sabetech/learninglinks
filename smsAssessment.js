@@ -100,9 +100,10 @@ addResponseHandler('question1', function() {
 
 	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
 
-	if (!assessmentQuestionCursor)
-		var assessmentQuestion = assessmentQuestionCursor.next();
-	else return false;
+	//if (!assessmentQuestionCursor)
+	var assessmentQuestion = assessmentQuestionCursor.next();
+	//else 
+	//	return false;
 	//this changes to response handler string ... 
 
 	//send next question ... refactor these

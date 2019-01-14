@@ -143,7 +143,6 @@ function checkAnswer(questionTable){
 		sendReply("Incorrect!, The answer is "+questionTable.vars.answer);
 		return false;
 	}
-
 }
 
 function scoreContact(){
@@ -156,7 +155,7 @@ function scoreContact(){
 
 function getNextQuestion(questionCursor){
 	
-	var assessmentQuestion = questionCursor.next();
+	var assessmentQuestion = questionCursor.next();	
 	state.vars.progressState = assessmentQuestion.vars.question_number++;
 
 	return assessmentQuestion;

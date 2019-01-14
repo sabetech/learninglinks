@@ -63,6 +63,7 @@ global.main = function() {
     			"3. " + assessmentQuestion.vars.choice_3
     		  );
 
+		state.vars.cursorState = assessmentQuestionCursor;
         waitForResponse('question'+assessmentQuestion.vars.question_number, {
             timeoutMinutes: 1,
             timeoutId: 'timeout'
@@ -91,6 +92,7 @@ addResponseHandler('question1', function() {
 	sendReply("answer response is "+content);
 	console.log("state: "+state.id+" contact: "+contact.name);
 	//get Next Questions
+	assessmentQuestionCursor = state.vars.cursorState;
 	var assessmentQuestion = assessmentQuestionCursor.next();
 	//this changes to response handler string ... 
 
@@ -101,6 +103,7 @@ addResponseHandler('question1', function() {
 		"\n3. " + assessmentQuestion.vars.choice_3
 	);
 
+	state.vars.cursorState = assessmentQuestionCursor;
 	//access responseHandler #3
 	waitForResponse('question'+assessmentQuestion.vars.question_number, {
 	    timeoutMinutes: 1,
@@ -116,6 +119,7 @@ addResponseHandler('question2', function() {
 	console.log(content + " is response");
 	sendReply("answer response is "+content);
 	
+	assessmentQuestionCursor = state.vars.cursorState;
 	//get Next Questions
 	var assessmentQuestion = assessmentQuestionCursor.next();
 	//this changes to response handler string ... 
@@ -127,6 +131,7 @@ addResponseHandler('question2', function() {
 		"\n3. " + assessmentQuestion.vars.choice_3
 	);
 	console.log("state: "+state.id+" contact: "+contact.name);
+	state.vars.cursorState = assessmentQuestionCursor;
 	//access responseHandler #3
 	waitForResponse('question'+assessmentQuestion.vars.question_number, {
 	    timeoutMinutes: 1,

@@ -163,7 +163,7 @@ function getNextQuestion(questionCursor){
 }
 
 function sendQuestion(question){
-	var newQuestion = question.vars.question_number+"# "+ question.vars.question_text +
+	var newQuestion = "#"+question.vars.question_number +". "+ question.vars.question_text +
 		"\n1. " + question.vars.choice_1 +
 		"\n2. " + question.vars.choice_2 +
 		"\n3. " + question.vars.choice_3;

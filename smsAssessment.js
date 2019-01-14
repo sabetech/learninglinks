@@ -155,7 +155,8 @@ function scoreContact(){
 
 function getNextQuestion(questionCursor){
 	
-	var assessmentQuestion = questionCursor.next();	
+	var assessmentQuestion = questionCursor.next();
+	console.log(assessmentQuestion);
 	state.vars.progressState = assessmentQuestion.vars.question_number++;
 
 	return assessmentQuestion;

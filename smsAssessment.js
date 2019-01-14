@@ -38,9 +38,9 @@ global.main = function() {
 
         //get first question
         SMSquestionBase = require('./smsAssessmentQuestion_datatable');
-        
+
         //contact.vars.assessment_batch
-        assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
+        assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(1, contact.vars.batch_number);
      
         if (assessmentQuestionCursor == false){
         	console.log("error assessment could not be started");

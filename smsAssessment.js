@@ -96,8 +96,10 @@ addResponseHandler('question1', function() {
 
 	//get Next Questions
 	questionNumber = state.vars.progressState;
+	console.log(questionNumber++);
 
 	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
+
 	if (!assessmentQuestionCursor)
 		var assessmentQuestion = assessmentQuestionCursor.next();
 	else return false;
@@ -129,6 +131,7 @@ addResponseHandler('question2', function() {
 	
 	questionNumber = state.vars.progressState;
 	
+	console.log(questionNumber++);
 	//get Next Questions
 	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
 	var assessmentQuestion = assessmentQuestionCursor.next();

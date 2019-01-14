@@ -57,6 +57,7 @@ global.main = function() {
 
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
         sendQuestion(newQuestion);
+        console.log(newQuestion);
 		suspendAndWaitForResponse(newQuestion);
 
         return true;

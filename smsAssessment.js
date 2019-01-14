@@ -2,12 +2,10 @@ var SMSquestionBase = null;
 var assessmentQuestion = null;
 var assessmentQuestionCursor = null;
 global.main = function() {
-    
-	console.log("Welcome to the SMS Assessment Program");
 
      var keyword = word1;
      
-     //When the keyword is START ... then proceed here ....
+     //When the keyword is 100 ... then proceed here ....
      if (keyword === ""){
 		console.log("is keyword empty?");
 		sendReply("No keyword Sent");
@@ -54,9 +52,9 @@ global.main = function() {
         	console.log("error:cursor is undefined?");
         	return true;
         }
-        state.vars.progressState = 0;
-        contact.vars.in_person_assessment = 0;
 
+        state.vars.progressState = 0;
+        contact.vars.in_person_assessment = 0;//this is the score of the contact
 
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
         sendQuestion(newQuestion);
@@ -78,7 +76,7 @@ addResponseHandler('question', function() {
 
 	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
 	var assessmentQuestion = assessmentQuestionCursor.next();
-	console.log("what question is it ? "+assessmentQuestion.vars.question_number);
+	
 	if (checkAnswer(assessmentQuestion)){
 		scoreContact()
 	}
@@ -96,6 +94,12 @@ addResponseHandler('question', function() {
 
 
 function canTakeQuiz(){
+	//if contact is not in the assessment group return false ... 
+	var assessmentGroup = project.getGroupById('CG618faf9bc2359cd9');
+	if (!contact.isInGroup(assessmentGroup)){
+		return false
+	}
+
 	return true;
 }
 
@@ -133,7 +137,7 @@ function getNextQuestion(questionCursor){
 }
 
 function sendQuestion(question){
-	var newQuestion = "#"+question.vars.question_number +". "+ question.vars.question_text +
+	var newQuestion = "\n#"+question.vars.question_number +". "+ question.vars.question_text +
 		"\n1. " + question.vars.choice_1 +
 		"\n2. " + question.vars.choice_2 +
 		"\n3. " + question.vars.choice_3;
@@ -154,7 +158,7 @@ function endInteraction(){
 }
 
 addTimeoutHandler('timeout', function() {
-	sendReply("Your assessment has been cancelled. To start again ..?");
+	sendReply("Your assessment has been timed out becaues you took too long.Start again by sending 100");
 });
 
 

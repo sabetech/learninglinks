@@ -46,6 +46,11 @@ global.main = function() {
         	return false
         }
 
+        if (typeof assessmentQuestionCursor === 'undefined'){
+        	console.log("cursor is undefined???");
+        	return false;
+        }
+
         //assessmentQuestionCursor.hasNext();
 
 		assessmentQuestion = assessmentQuestionCursor.next();

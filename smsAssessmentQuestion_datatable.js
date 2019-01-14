@@ -15,8 +15,10 @@ exports.getQuestionBatch = function(batch_number) {
 	});
 
  	cursor.limit(10);
-  	var questionObject = null;
+  	//var questionObject = null;
 
+  	console.log($cursor.hasNext())
+  	
 	if(!cursor.hasNext()){
     	return false;
     }

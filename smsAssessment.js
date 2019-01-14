@@ -55,11 +55,11 @@ global.main = function() {
         	return true;
         }
         state.vars.progressState = 0;
+        contact.vars.in_person_assessment = 0;
+
 
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
-        
         sendQuestion(newQuestion);
-
 		suspendAndWaitForResponse();
 
         return true;

@@ -54,11 +54,15 @@ global.main = function() {
         	console.log("error:cursor is undefined?");
         	return true;
         }
+        state.vars.progressState = 0;
+
 
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
+        
         sendQuestion(newQuestion);
-        console.log("1 "+state.vars.progressState);
-		suspendAndWaitForResponse(newQuestion);
+
+        console.log("My Progress State:"+state.vars.progressState);
+		suspendAndWaitForResponse();
 
         return true;
 
@@ -68,66 +72,26 @@ global.main = function() {
 	
 }
 
-//return object or false
-function getSMSQuestionCursor(batch_number){
-
-	return SMSquestionBase.getQuestionBatch(batch_number);
-
-}
-
-
 
 //#question1
-addResponseHandler('question1', function() {
+addResponseHandler('question', function() {
 	SMSquestionBase = require('./smsAssessmentQuestion_datatable');
 	questionNumber = state.vars.progressState; //get current state to correct score question
 
 	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
 	var assessmentQuestion = assessmentQuestionCursor.next();
-
+	console.log("what question is it ? "+assessmentQuestion.vars.question_number);
 	if (checkAnswer(assessmentQuestion)){
 		scoreContact()
 	}
 
 	//get Next Question
 	var newQuestion = getNextQuestion(assessmentQuestionCursor);
-	console.log("2 "+state.vars.progressState);
 	sendQuestion(newQuestion);
 	
-	suspendAndWaitForResponse(newQuestion);
+	suspendAndWaitForResponse();
 });
 
-addResponseHandler('question2', function() {
-	SMSquestionBase = require('./smsAssessmentQuestion_datatable');
-	questionNumber = state.vars.progressState; //get current state to correct score question
-
-	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
-	var assessmentQuestion = assessmentQuestionCursor.next();
-
-	if (checkAnswer(assessmentQuestion)){
-		scoreContact()
-	}
-
-	//get Next Question
-	var newQuestion = getNextQuestion(assessmentQuestionCursor);
-	console.log("3 "+state.vars.progressState);
-	sendQuestion(newQuestion);
-	
-	suspendAndWaitForResponse(newQuestion);
-});
-
-
-//responsehandler #end
-addResponseHandler('question3', function() {
-	
-	if (checkAnswer(assessmentQuestion)){
-		scoreContact()
-	}
-	
-	sendReply("The END! You scored "+contact.vars.in_person_assessment +"/10");
-	
-	
-});
 
 function canTakeQuiz(){
 	return true;
@@ -156,7 +120,7 @@ function scoreContact(){
 function getNextQuestion(questionCursor){
 	
 	var assessmentQuestion = questionCursor.next();
-	state.vars.progressState = assessmentQuestion.vars.question_number++;
+	state.vars.progressState++;
 
 	return assessmentQuestion;
 	
@@ -171,8 +135,8 @@ function sendQuestion(question){
 	sendReply(newQuestion);
 }
 
-function suspendAndWaitForResponse(question){
-	waitForResponse('question'+question.vars.question_number, {
+function suspendAndWaitForResponse(){
+	waitForResponse('question', {
 	    timeoutMinutes: 1,
 	    timeoutId: 'timeout'
 	});

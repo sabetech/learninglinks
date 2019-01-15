@@ -88,9 +88,9 @@ addResponseHandler('question', function() {
 									'question_number': questionNumber, 
 									'batch_number': contact.vars.batch_number,
 									'response': content,
-									'leaner_telerivet_id':contact.id
-									'phone':contact.phone
-									'name':contact.name
+									'leaner_telerivet_id':contact.id,
+									'phone':contact.phone,
+									'name':contact.name,
 								}
 							}
 					);

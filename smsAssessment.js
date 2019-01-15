@@ -88,7 +88,7 @@ addResponseHandler('question', function() {
 									'question_number': questionNumber, 
 									'response': content,
 									'leaner_telerivet_id': contact.id,
-									'batch_number': contact.vars.assessment_batch;
+									'batch_number': contact.vars.assessment_batch
 								}
 							}
 					);

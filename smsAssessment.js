@@ -77,18 +77,23 @@ addResponseHandler('question', function() {
 	var assessmentQuestion = assessmentQuestionCursor.next();
 	
 	if (checkAnswer(assessmentQuestion)){
-		httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
-					{
-						method: "POST",
-						params: {
-							'foo': 2, 
-							'bar': "hello world"
-						},
-						data: {'a': 1, 'b': "hello world"}
-					}
-					);
+
 		scoreContact()
 	}
+
+	httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
+							{
+								method: "POST",
+								data: {
+									'question_number': questionNumber, 
+									'batch_number': contact.vars.batch_number,
+									'response': content,
+									'leaner_telerivet_id':contact.id
+									'phone':contact.phone
+									'name':contact.name
+								}
+							}
+					);
 
 	//get Next Question
 	var newQuestion = getNextQuestion(assessmentQuestionCursor);

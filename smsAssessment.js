@@ -81,12 +81,13 @@ addResponseHandler('question', function() {
 		scoreContact()
 	}
 
+	var batch_number_l = contact.vars.batch_number;
 	httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
 							{
 								method: "POST",
 								data: {
 									'question_number': questionNumber, 
-									'batch_number': contact.vars.batch_number,
+									'batch_number': batch_number_l
 									'response': content,
 									'leaner_telerivet_id': contact.id,
 								}

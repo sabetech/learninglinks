@@ -40,7 +40,7 @@ global.main = function() {
         //get first question
         SMSquestionBase = require('./smsAssessmentQuestion_datatable');
 
-        assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(1, contact.vars.batch_number);
+        assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(1, contact.vars.assessment_batch);
      
         if (assessmentQuestionCursor == false){
         	console.log("error assessment could not be started");
@@ -73,7 +73,7 @@ addResponseHandler('question', function() {
 	SMSquestionBase = require('./smsAssessmentQuestion_datatable');
 	questionNumber = state.vars.progressState; //get current state to correct score question
 
-	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.batch_number);
+	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.assessment_batch);
 	var assessmentQuestion = assessmentQuestionCursor.next();
 	
 	if (checkAnswer(assessmentQuestion)){
@@ -81,7 +81,6 @@ addResponseHandler('question', function() {
 		scoreContact()
 	}
 
-	var batch_number_l = contact.vars.batch_number;
 	httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
 							{
 								method: "POST",
@@ -89,7 +88,7 @@ addResponseHandler('question', function() {
 									'question_number': questionNumber, 
 									'response': content,
 									'leaner_telerivet_id': contact.id,
-									'batch_number_l': batch_number_l
+									'batch_number': contact.vars.assessment_batch;
 								}
 							}
 					);

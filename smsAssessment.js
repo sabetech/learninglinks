@@ -61,6 +61,7 @@ global.main = function() {
 		suspendAndWaitForResponse();
 		
 		console.log(state);
+		console.log([[$info]]);
 
         return true;
 

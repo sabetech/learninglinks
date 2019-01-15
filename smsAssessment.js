@@ -59,6 +59,14 @@ global.main = function() {
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
         sendQuestion(newQuestion);
 		suspendAndWaitForResponse();
+		
+		service.setContactState(contact, {
+			vars: {
+				'batch_number':contact.vars.batch_number,
+				'response': null,
+				'question_number': null
+				}
+		});
 
         return true;
 
@@ -80,6 +88,14 @@ addResponseHandler('question', function() {
 	if (checkAnswer(assessmentQuestion)){
 		scoreContact()
 	}
+
+	service.setContactState(contact, {
+		vars: {
+			'batch_number':contact.vars.batch_number,
+			'response': content,
+			'question_number': questionNumber
+			}
+	});
 
 	//get Next Question
 	var newQuestion = getNextQuestion(assessmentQuestionCursor);
@@ -147,7 +163,7 @@ function sendQuestion(question){
 
 function suspendAndWaitForResponse(){
 	waitForResponse('question', {
-	    timeoutMinutes: 1,
+	    timeoutMinutes: 5,
 	    timeoutId: 'timeout'
 	});
 }

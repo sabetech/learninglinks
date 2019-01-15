@@ -77,6 +77,16 @@ addResponseHandler('question', function() {
 	var assessmentQuestion = assessmentQuestionCursor.next();
 	
 	if (checkAnswer(assessmentQuestion)){
+		httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
+					{
+						method: "POST",
+						params: {
+							'foo': 2, 
+							'bar': "hello world"
+						},
+						data: {'a': 1, 'b': "hello world"}
+					}
+					);
 		scoreContact()
 	}
 

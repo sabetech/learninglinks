@@ -60,13 +60,7 @@ global.main = function() {
         sendQuestion(newQuestion);
 		suspendAndWaitForResponse();
 		
-		service.setContactState(contact, {
-			vars: {
-				'batch_number':contact.vars.batch_number,
-				'response': null,
-				'question_number': null
-				}
-		});
+		console.log(state);
 
         return true;
 
@@ -89,13 +83,7 @@ addResponseHandler('question', function() {
 		scoreContact()
 	}
 
-	service.setContactState(contact, {
-		vars: {
-			'batch_number':contact.vars.batch_number,
-			'response': content,
-			'question_number': questionNumber
-			}
-	});
+	console.log(state);
 
 	//get Next Question
 	var newQuestion = getNextQuestion(assessmentQuestionCursor);

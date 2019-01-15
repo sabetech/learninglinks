@@ -59,16 +59,12 @@ global.main = function() {
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
         sendQuestion(newQuestion);
 		suspendAndWaitForResponse();
-		
-		console.log(state);
-		console.log([[$info]]);
 
         return true;
 
 	}else{
 	    return true;//basically returning true the end the SMS interaction with the mobile user unless there's another service awaiting to run
 	}
-	
 }
 
 
@@ -83,8 +79,6 @@ addResponseHandler('question', function() {
 	if (checkAnswer(assessmentQuestion)){
 		scoreContact()
 	}
-
-	console.log(state);
 
 	//get Next Question
 	var newQuestion = getNextQuestion(assessmentQuestionCursor);

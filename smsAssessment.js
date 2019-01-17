@@ -141,7 +141,7 @@ function scoreContact(){
 
 function getNextQuestion(questionCursor){
 	console.log("question count: "+questionCursor.count());
-	console.log("has next?: "+questionCursor.hasNext());
+	console.log("Try accessing next question "+questionCursor.next());
 
 	if (questionCursor.hasNext()){
 		

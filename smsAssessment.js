@@ -143,7 +143,7 @@ function getNextQuestion(questionCursor){
 	console.log("question count: "+questionCursor.count());
 	//console.log("Try accessing next question "+questionCursor.next());
 
-	if (questionCursor.hasNext() || questionCursor.count() > 0){
+	if (questionCursor.hasNext() || (questionCursor.count() > 0)){
 		
 		state.vars.progressState++;
 		return questionCursor.next();	

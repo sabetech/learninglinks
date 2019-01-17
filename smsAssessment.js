@@ -99,7 +99,7 @@ addResponseHandler('question', function() {
 	//get Next Question
 	var newQuestion = getNextQuestion(assessmentQuestionCursor);
 	console.log("current question: "+state.vars.progressState);
-	
+
 	if (!newQuestion){
 		return endInteraction();
 	}
@@ -140,7 +140,7 @@ function scoreContact(){
 }
 
 function getNextQuestion(questionCursor){
-	
+	console.log("question count: "+questionCursor.count());
 	if (questionCursor.hasNext()){
 		
 		state.vars.progressState++;

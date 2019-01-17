@@ -76,26 +76,30 @@ addResponseHandler('question', function() {
 	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.assessment_batch);
 	var assessmentQuestion = assessmentQuestionCursor.next();
 	
+	console.log("previous question: "+assessmentQuestion.vars.question_number);
+
 	if (checkAnswer(assessmentQuestion)){
 
 		scoreContact()
 	}
 
-	httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
-							{
-								method: "POST",
-								data: {
-									'question_number': questionNumber, 
-									'response': content,
-									'leaner_telerivet_id': contact.id,
-									'batch_number': contact.vars.assessment_batch
-								}
-							}
-					);
+	// httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
+	// 						{
+	// 							method: "POST",
+	// 							data: {
+	// 								'question_number': questionNumber, 
+	// 								'response': content,
+	// 								'leaner_telerivet_id': contact.id,
+	// 								'batch_number': contact.vars.assessment_batch
+	// 							}
+	// 						}
+	// 				);
 
+	
 	//get Next Question
 	var newQuestion = getNextQuestion(assessmentQuestionCursor);
-
+	console.log("current question: "+state.vars.progressState);
+	
 	if (!newQuestion){
 		return endInteraction();
 	}

@@ -76,7 +76,7 @@ addResponseHandler('question', function() {
 	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.assessment_batch);
 	var assessmentQuestion = assessmentQuestionCursor.next();
 	
-	console.log("previous question: "+assessmentQuestion.vars.question_number);
+	console.log("question number: "+questionNumber);
 
 	if (checkAnswer(assessmentQuestion)){
 
@@ -142,7 +142,7 @@ function scoreContact(){
 function getNextQuestion(questionCursor){
 	console.log("question count: "+questionCursor.count());
 	console.log("has next?: "+questionCursor.hasNext());
-	
+
 	if (questionCursor.hasNext()){
 		
 		state.vars.progressState++;

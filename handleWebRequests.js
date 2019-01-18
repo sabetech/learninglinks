@@ -7,7 +7,7 @@
 
 }*/
 
-exports = function(dataParams){
+exports = function(){
 
 	//check datatable for failed requests ... and push them ...
 	this.cacheDataTableID = "DT3ce77b9f6dc0a3a6";

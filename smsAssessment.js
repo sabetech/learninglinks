@@ -84,13 +84,16 @@ addResponseHandler('question', function() {
 	}
 
 	WebRequests = require('./handleWebRequests');
+	var webRequest = new WebRequests();
+
 	var dataParams = {
 						'question_number': questionNumber, 
 						'response': content,
 						'leaner_telerivet_id': contact.id,
 						'batch_number': contact.vars.assessment_batch
 					};
-	WebRequests.handleWebRequest(dataParams);					
+					
+	webRequest.handleWebRequest(dataParams);					
 	try{
 		
 		//WebRequests.handleWebRequest(dataParams);
@@ -99,7 +102,7 @@ addResponseHandler('question', function() {
 	}catch(err){
 
 		//manually queue is somehow ...
-		WebRequests.cacheInDataTable(dataParams);
+		webRequest.cacheInDataTable(dataParams);
 		console.log("caching in data table"+err.message);
 
 

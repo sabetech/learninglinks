@@ -12,7 +12,7 @@ exports = function(dataParams){
 	//check datatable for failed requests ... and push them ...
 	this.cacheDataTableID = "DT3ce77b9f6dc0a3a6";
 	
-	this.retryUnsuccessfulRequests: function(){
+	this.retryUnsuccessfulRequests = function(){
 		var table = project.getDataTableById(this.cacheDataTableID);
 		//if its successful, remove it from the data table ... 
 		var rowCursor = table->queryRows();
@@ -29,11 +29,11 @@ exports = function(dataParams){
 		}
 	};
 
-	this.retryRequest: function(params){
+	this.retryRequest = function(params){
 		this.handleWebRequest(params);
 	};
 
-	this.handleWebRequest: function(dataParams){
+	this.handleWebRequest = function(dataParams){
 
 		var response = httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
 							{
@@ -45,7 +45,7 @@ exports = function(dataParams){
 		return response;
 	};
 
-	this.cacheInDataTable: function(dataParams){
+	this.cacheInDataTable = function(dataParams){
 
 		var table = project.getDataTableById(this.cacheDataTableID);
 		var row = table.createRow({

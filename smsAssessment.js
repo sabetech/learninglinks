@@ -83,17 +83,27 @@ addResponseHandler('question', function() {
 		scoreContact()
 	}
 
-	// httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
-	// 						{
-	// 							method: "POST",
-	// 							data: {
-	// 								'question_number': questionNumber, 
-	// 								'response': content,
-	// 								'leaner_telerivet_id': contact.id,
-	// 								'batch_number': contact.vars.assessment_batch
-	// 							}
-	// 						}
-	// 				);
+	WebRequests = require('./handleWebRequests');
+	var dataParams = {
+						'question_number': questionNumber, 
+						'response': content,
+						'leaner_telerivet_id': contact.id,
+						'batch_number': contact.vars.assessment_batch
+					};
+	try{
+		
+		WebRequests.handleWebRequest(dataParams);
+		
+
+	}catch(err){
+
+		//manually queue is somehow ...
+		WebRequests.cacheInDataTable(dataParams);
+		console.log("caching in data table"+err.message);
+
+
+	}
+	
 
 	
 	//get Next Question

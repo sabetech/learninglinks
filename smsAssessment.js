@@ -83,8 +83,8 @@ addResponseHandler('question', function() {
 		scoreContact()
 	}
 
-	WebRequests = require('./handleWebRequests');
-	var webRequest = new WebRequests;
+	var WebRequests = require('./handleWebRequests');
+	var webRequest = new WebRequests();
 
 	var dataParams = {
 						'question_number': questionNumber, 

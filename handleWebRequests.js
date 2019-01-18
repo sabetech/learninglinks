@@ -15,8 +15,8 @@ exports = function(dataParams){
 	this.retryUnsuccessfulRequests = function(){
 		var table = project.getDataTableById(this.cacheDataTableID);
 		//if its successful, remove it from the data table ... 
-		var rowCursor = table->queryRows();
-		var cachedrequests = rowCursor->all();
+		var rowCursor = table.queryRows();
+		var cachedrequests = rowCursor.all();
 
 		for(int i = 0;i < cachedrequests.length;i++){
 			try{

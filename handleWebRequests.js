@@ -18,7 +18,7 @@ exports = function(dataParams){
 		var rowCursor = table.queryRows();
 		var cachedrequests = rowCursor.all();
 
-		for(int i = 0;i < cachedrequests.length;i++){
+		for(var i = 0;i < cachedrequests.length;i++){
 			try{
 				this.retryRequest(JSON.parse(params));
 				row.delete();

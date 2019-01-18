@@ -49,7 +49,7 @@ exports = function(dataParams){
 
 		var table = project.getDataTableById(this.cacheDataTableID);
 		var row = table.createRow({
-					    params: JSON.stringify(dataParams);
+					    params: JSON.stringify(dataParams)
 								});
 
 		return row;

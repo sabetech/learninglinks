@@ -84,7 +84,7 @@ addResponseHandler('question', function() {
 	}
 
 	WebRequests = require('./handleWebRequests');
-	var webRequest = new WebRequests();
+	var webRequest = new WebRequests;
 
 	var dataParams = {
 						'question_number': questionNumber, 
@@ -92,7 +92,7 @@ addResponseHandler('question', function() {
 						'leaner_telerivet_id': contact.id,
 						'batch_number': contact.vars.assessment_batch
 					};
-					
+
 	webRequest.handleWebRequest(dataParams);					
 	try{
 		

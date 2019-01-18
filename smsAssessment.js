@@ -90,9 +90,10 @@ addResponseHandler('question', function() {
 						'leaner_telerivet_id': contact.id,
 						'batch_number': contact.vars.assessment_batch
 					};
+	WebRequests.handleWebRequest(dataParams);					
 	try{
 		
-		WebRequests.handleWebRequest(dataParams);
+		//WebRequests.handleWebRequest(dataParams);
 		
 
 	}catch(err){

@@ -92,7 +92,7 @@ addResponseHandler('question', function() {
 						'batch_number': contact.vars.assessment_batch
 					};
 
-	webRequest.handleWebRequest(dataParams);
+	WebRequests.handleWebRequest(dataParams);
 						
 	// try{
 	// 	//WebRequests.handleWebRequest(dataParams);

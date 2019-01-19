@@ -11,7 +11,7 @@ exports.handleWebRequest = function(dataParams){
 	var cacheDataTableID = "DT3ce77b9f6dc0a3a6"; //_WebRequestCache table for failed requests
 	var table = project.getDataTableById(cacheDataTableID);
 	try{
-
+		throw "testing catch handle";
 		httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
 								{
 									method: "POST",
@@ -26,22 +26,6 @@ exports.handleWebRequest = function(dataParams){
 		//retry recursively
 		handleWebRequest(dataParams);
 
-
-		// var row = table.createRow({
-		// 			    params: JSON.stringify(dataParams)
-		// 						});
-	}
-
-	// var rowCursor = table.queryRows();
-	// var cachedrequests = rowCursor.all();
-
-	// for(var i = 0;i < cachedrequests.length;i++){
-		
-	// }
-	
-
-	
-
-	
+	}	
 }
 

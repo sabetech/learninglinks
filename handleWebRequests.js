@@ -11,7 +11,6 @@ exports.handleWebRequest = function(dataParams){
 	var cacheDataTableID = "DT3ce77b9f6dc0a3a6"; //_WebRequestCache table for failed requests
 	var table = project.getDataTableById(cacheDataTableID);
 	try{
-		throw "testing catch handle";
 		httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
 								{
 									method: "POST",
@@ -22,7 +21,6 @@ exports.handleWebRequest = function(dataParams){
 	}catch(err){
 
 		console.log("caching failed requests "+err);
-
 		//retry recursively
 		this.handleWebRequest(dataParams);
 

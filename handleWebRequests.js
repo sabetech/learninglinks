@@ -8,36 +8,40 @@
 }*/
 
 exports.handleWebRequest = function(dataParams){
-
-	//check datatable for failed requests ... and push them ...
-	var cacheDataTableID = "DT3ce77b9f6dc0a3a6";
-
+	var cacheDataTableID = "DT3ce77b9f6dc0a3a6"; //_WebRequestCache table for failed requests
 	var table = project.getDataTableById(cacheDataTableID);
+	try{
 
-	var row = table.createRow({
-				    params: JSON.stringify(dataParams)
-							});
+		httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
+								{
+									method: "POST",
+									data: dataParams
+								}
+						  );
 
-	var rowCursor = table.queryRows();
-	var cachedrequests = rowCursor.all();
+	}catch(err){
 
-	for(var i = 0;i < cachedrequests.length;i++){
-		try{
-			var requestParams = JSON.parse(cachedrequests[i].vars.params);
-			httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
-									{
-										method: "POST",
-										data: requestParams
-									}
-							  );
+		console.log("caching failed requests "+err.message);
 
-			cachedrequests[i].delete();
-			
-		}catch(err){
-			
-			console.log("retrying failed "+err.message);
-			i--;
-		}
+		//retry recursively
+		handleWebRequest(dataParams);
+
+
+		// var row = table.createRow({
+		// 			    params: JSON.stringify(dataParams)
+		// 						});
 	}
+
+	// var rowCursor = table.queryRows();
+	// var cachedrequests = rowCursor.all();
+
+	// for(var i = 0;i < cachedrequests.length;i++){
+		
+	// }
+	
+
+	
+
+	
 }
 

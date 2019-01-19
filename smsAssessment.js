@@ -84,7 +84,6 @@ addResponseHandler('question', function() {
 	}
 
 	var WebRequests = require('./handleWebRequests');
-	var webRequest = new WebRequests();
 
 	var dataParams = {
 						'question_number': questionNumber, 
@@ -93,20 +92,15 @@ addResponseHandler('question', function() {
 						'batch_number': contact.vars.assessment_batch
 					};
 
-	webRequest.handleWebRequest(dataParams);					
-	try{
-		
-		//WebRequests.handleWebRequest(dataParams);
-		
-
-	}catch(err){
-
-		//manually queue is somehow ...
-		webRequest.cacheInDataTable(dataParams);
-		console.log("caching in data table"+err.message);
-
-
-	}
+	webRequest.handleWebRequest(dataParams);
+						
+	// try{
+	// 	//WebRequests.handleWebRequest(dataParams);
+	// }catch(err){
+	// 	//manually queue is somehow ...
+	// 	webRequest.cacheInDataTable(dataParams);
+	// 	console.log("caching in data table"+err.message);
+	// }
 	
 
 	

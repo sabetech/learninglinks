@@ -21,7 +21,7 @@ exports.handleWebRequest = function(dataParams){
 
 	}catch(err){
 
-		console.log("caching failed requests "+err.message);
+		console.log("caching failed requests "+err);
 
 		//retry recursively
 		this.handleWebRequest(dataParams);

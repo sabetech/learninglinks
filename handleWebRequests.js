@@ -24,7 +24,7 @@ exports.handleWebRequest = function(dataParams){
 		console.log("caching failed requests "+err.message);
 
 		//retry recursively
-		handleWebRequest(dataParams);
+		this.handleWebRequest(dataParams);
 
 	}	
 }

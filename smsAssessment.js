@@ -75,8 +75,6 @@ addResponseHandler('question', function() {
 
 	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.assessment_batch);
 	var assessmentQuestion = assessmentQuestionCursor.next();
-	
-	console.log("question number: "+questionNumber);
 
 	if (checkAnswer(assessmentQuestion)){
 
@@ -93,20 +91,9 @@ addResponseHandler('question', function() {
 					};
 
 	WebRequests.handleWebRequest(dataParams);
-						
-	// try{
-	// 	//WebRequests.handleWebRequest(dataParams);
-	// }catch(err){
-	// 	//manually queue is somehow ...
-	// 	webRequest.cacheInDataTable(dataParams);
-	// 	console.log("caching in data table"+err.message);
-	// }
-	
-
 	
 	//get Next Question
 	var newQuestion = getNextQuestion(assessmentQuestionCursor);
-	console.log("current question: "+state.vars.progressState);
 
 	if (!newQuestion){
 		return endInteraction();
@@ -148,8 +135,6 @@ function scoreContact(){
 }
 
 function getNextQuestion(questionCursor){
-	console.log("question count: "+questionCursor.count());
-	//console.log("Try accessing next question "+questionCursor.next());
 
 	if (questionCursor.hasNext() || (questionCursor.count() > 0)){
 		

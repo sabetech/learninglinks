@@ -58,7 +58,8 @@ global.main = function() {
         contact.vars.in_person_assessment = 0;//this is the score of the contact
 
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
-        sendQuestion("Monthly Assessment\n"+newQuestion);
+        sendReply("Monthly Assessment\n");
+        sendQuestion(newQuestion);
 		suspendAndWaitForResponse();
 
         return true;

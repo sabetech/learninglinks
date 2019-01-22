@@ -5,7 +5,7 @@ global.main = function() {
 
      var keyword = word1;
      
-     //When the keyword is 100 ... then proceed here ....
+     //When the keyword is 4 ... then proceed here ....
      if (keyword === ""){
 		console.log("is keyword empty?");
 		sendReply("No keyword Sent");
@@ -27,7 +27,7 @@ global.main = function() {
 	keyword = keyword.trim();
 	
 	//start interaction here ...
-	if (keyword === "100"){
+	if (keyword === "4"){
         //begin ...	
         
         //check if this contact is eligible to partake SMS Assessment program
@@ -57,7 +57,7 @@ global.main = function() {
         contact.vars.in_person_assessment = 0;//this is the score of the contact
 
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
-        sendQuestion(newQuestion);
+        sendQuestion("Monthly Assessment\n"+newQuestion);
 		suspendAndWaitForResponse();
 
         return true;
@@ -118,10 +118,10 @@ function checkAnswer(questionTable){
 	//check if the answer is the same as the content ...
 
 	if (content == questionTable.vars.answer){
-		sendReply("Correct, you earned 5 cents");
+		sendReply("Correct! You have earned $0.10 to be redeemed for cash.");
 		return true;
 	}else{
-		sendReply("Incorrect!, The answer is "+questionTable.vars.answer);
+		sendReply("Incorrect! The answer is "+questionTable.vars.answer);
 		return false;
 	}
 }
@@ -164,7 +164,7 @@ function suspendAndWaitForResponse(){
 }
 
 function endInteraction(){
-	sendReply("The END!\nYou scored "+contact.vars.in_person_assessment +"/10");
+	sendReply("End of Monthly Assessment\nYou scored "+contact.vars.in_person_assessment +"/10 and earned $"+parseInt(contact.vars.in_person_assessment) * 0.10+" to be redeemed for cash.");
 	return true;
 }
 

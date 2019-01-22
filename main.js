@@ -111,10 +111,15 @@ global.main = function() {
 	}else{
 		var answerKey = keyword;
 		//if what the learner typed is not a single digit to answer a daily sms question ... move to the next service
-		if (String(+answerKey).charAt(0) != answerKey){
-			//it means the Learner is trying to trigger the SMS assessment Questions
-			return false;
-		}
+		/* if (String(+answerKey).charAt(0) != answerKey){
+		 	//it means the Learner is trying to trigger the SMS assessment Questions
+		 	return false;
+		 }*/
+		 if (String(answerKey) == "4"){
+		 	//it means the Learner is trying to trigger the SMS assessment Questions
+		 	return false;
+		 }
+
 
 		var testgroup = project.getGroupById("CGfbee3acd9a320833");
 

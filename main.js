@@ -277,7 +277,7 @@ global.main = function() {
 		});
 
 
-		////requestServerPullSMSUpdate();
+		
 
 		//put the timeout calls here ...
 
@@ -484,28 +484,6 @@ function startsWith(mainStr, startingStr){
 	return (startingStr == mainStr.substr(0, startingStr.length));
 }
 
-function requestServerPullSMSUpdate(){
-	var _pull_url = "http://learninglinksadmin.tk/pull_sms_logs/";
-
-	httpClient.request(_pull_url, {
-					method: "POST",
-					data: {'contact_id': contact.id},
-					basicAuth:"admin@admin.com:letgirlslearnliberia!"
-					  });
-					
-}
-
-function requestServerFromContactArray(contactArray){
-
-	var _pull_url = "http://learninglinksadmin.tk/pull_sms_logs_via_contact_ids";
-
-	httpClient.request(_pull_url, {
-								method: "POST",
-								data:{'contactarray': contactArray},
-								basicAuth: "admin@admin.com:letgirlslearnliberia!"
-								  });
-	
-}
 
 
 

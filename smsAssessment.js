@@ -170,7 +170,7 @@ function endInteraction(){
 }
 
 addTimeoutHandler('timeout', function() {
-	sendReply("Your assessment has been timed out becaues you took too long.Start again by sending 100");
+	sendReply("Your assessment has been timed out becaues you took too long.Start again by sending 4");
 });
 
 

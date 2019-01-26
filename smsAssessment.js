@@ -165,7 +165,7 @@ function suspendAndWaitForResponse(){
 }
 
 function endInteraction(){
-	sendReply("End of Monthly Assessment\nYou scored "+contact.vars.in_person_assessment +"/10 and earned $"+parseInt(contact.vars.in_person_assessment) * 0.10+" to be redeemed for cash.");
+	sendReply("End of Monthly Assessment\nYou scored "+contact.vars.in_person_assessment +"/10 and earned $"+ (parseInt(contact.vars.in_person_assessment) * 0.10).toFixed(2)+" to be redeemed for cash.");
 	return true;
 }
 

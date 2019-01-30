@@ -7,18 +7,18 @@ global.main = function() {
 	if (keyword == ""){
 		console.log("is keyword empty?");
 		sendReply("No keyword Sent");
-		message.delete();
+		
 		return true;
 	}
 	if (keyword == null){
 		console.log("is keyword null?");
 		sendReply("No keyword Sent");
-		message.delete();
+		
 		return true;
 	}
 	if (typeof keyword === 'undefined' ){
 		console.log("are you undefined?");
-		message.delete();
+		
 		return true;
 	}
 
@@ -52,13 +52,13 @@ global.main = function() {
 
 		if (groupLearnerQuestion == false){
 			sendReply("Hi "+contact.name+" Invalid Question Code "+content+"! Question for this code is not available.Type in a correct Question Code");
-			message.delete();
+			
 			return true;	
 		}
 
 		if (groupLearnerQuestion.vars.question_tag.indexOf("G") === -1){
 			sendReply("Hi "+contact.name+" the question you are requesting for is not a Group Based Question. Verify the question code and try again");
-			message.delete();
+			
 			return true;
 		}
 
@@ -68,8 +68,6 @@ global.main = function() {
 			//then tutor is trying to trigger more questions ... 
 			sendReply("Hi "+contact.name+", You have already requested for today's group question.");
 			console.log(contact.name+" is triggering twice for a day");
-
-			message.delete();
 			
 			return true;
 		}
@@ -78,8 +76,6 @@ global.main = function() {
 		if (tutorMentorWeeklyAccessExhausted()){//){
 			sendReply("Hi "+contact.name+", You have exhausted your weekly access of 3 triggers.");
 			console.log(contact.name+" You have exhausted your weekly access of 3 triggers.");
-
-			message.delete();
 
 			return true;
 		}
@@ -128,7 +124,6 @@ global.main = function() {
 		//if the learner is not in a test group ...
 		if (!contact.isInGroup(testgroup)){
 			console.log(contact.name+" is not part of the Learning Links Program");
-			message.delete();
 
 			sendReply(contact.name+" is not part of the Learning LInks Program");
 			return true;
@@ -142,15 +137,13 @@ global.main = function() {
 		
 		if (typeof contact.vars.current_question_code == "undefined"){
 			console.log("current_question_code does not exist.");
-
-			message.delete();
 			
 			return true;
 		}
 
 		if (contact.vars.current_question_code == ""){
 			console.log("is current_question_code empty?");
-			message.delete();
+			
 			sendReply("Your answer is not connected to any question");
 			
 			return true;
@@ -160,7 +153,7 @@ global.main = function() {
 		var learnerQuestion = getQuestionObject(contact.vars.current_question_code);
 		if (typeof learnerQuestion === 'undefined'){
 			console.log("question is invalid or doesn't exit");
-			message.delete();
+			
 			sendReply("question is invalid or doesn't exit");
 			return true;
 		}
@@ -175,7 +168,7 @@ global.main = function() {
 		//check if learner should have access to such a question code
 		//the better code is that .... when a tutor has sent a code, the last code they should receive is +2 of that code sent by the tutor ...
 		if (contact.vars.current_question_code > (contact.vars.group_question_code + 2)) {
-			message.delete();
+			
 			sendReply("You have reached your limit of questions for the day");
 			console.log("You are trying go beyond you daily quota of questions per day");
 			return true;
@@ -221,19 +214,19 @@ global.main = function() {
 		var individualQuestion = getQuestionObject(questionCode);
 
 		if (isNaN(questionCode)){
-			message.delete();
+			
 			console.log("current_question_code of learner is not found");
 			return true;
 		}
 
 		if (typeof individualQuestion === 'undefined'){
-			message.delete();
+			
 			console.log("question is invalid or doesn't exit");
 			return true;
 		}
 		
 		if (individualQuestion.vars.question_tag.indexOf("G") !== -1){
-			message.delete();
+			
 			console.log("You are learner trying to access a group question!");
 			return true;
 		}

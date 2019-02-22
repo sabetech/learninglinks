@@ -159,7 +159,7 @@ function sendQuestion(question){
 
 function suspendAndWaitForResponse(){
 	waitForResponse('question', {
-	    timeoutMinutes: 5,
+	    timeoutMinutes: 15,
 	    timeoutId: 'timeout'
 	});
 }

@@ -119,7 +119,7 @@ function checkAnswer(questionTable){
 	//check if the answer is the same as the content ...
 
 	if (content == questionTable.vars.answer){
-		sendReply("Correct! You have earned $0.10 to be redeemed for cash.");
+		sendReply("Correct! You have earned $ 15 LD to be redeemed for cash.");
 		return true;
 	}else{
 		sendReply("Incorrect! The answer is "+questionTable.vars.answer);

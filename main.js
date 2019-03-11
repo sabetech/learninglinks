@@ -191,10 +191,10 @@ global.main = function() {
 			}
 			
 			sendReply("[Q"+contact.vars.current_question_code+"] "+ learnerQuestion.vars.correctanswerresponse);
-			sendReply("You have earned 5 Cents.");
+			sendReply("You have earned $ 15 LD.");
 			
 			//send message to tutor here ...
-			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.vars.code+" correctly and earned 5 Cents.");
+			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.vars.code+" correctly and earned $ 15 LD");
 
 		}else{
 			sendReply("[Q"+contact.vars.current_question_code+"] " + learnerQuestion.vars.incorrectanswerresponse);

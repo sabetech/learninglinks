@@ -125,7 +125,7 @@ global.main = function() {
 		if (!contact.isInGroup(testgroup)){
 			console.log(contact.name+" is not part of the Learning Links Program");
 
-			sendReply(contact.name+" is not part of the Learning LInks Program");
+			sendReply(contact.name+" is not part of the Learning Links Program");
 			return true;
 		}
 		
@@ -198,13 +198,13 @@ global.main = function() {
 
 		}else{
 			sendReply("[Q"+contact.vars.current_question_code+"] " + learnerQuestion.vars.incorrectanswerresponse);
-			sendReply("Sorry, you earned no Cents.");
+			sendReply("Sorry, you earned no LD");
 
 			//send message to tutor here ...
 			if (typeof contact.vars.cum_points === 'undefined'){
 				contact.vars.cum_points = 0;
 			}
-			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.vars.code+" incorrectly and earned no cents.");
+			sendMessageToTutor(contact.name+" answered question "+learnerQuestion.vars.code+" incorrectly and earned no LD.");
 		}
 
 		contact.vars.current_question_code = parseInt(contact.vars.current_question_code) + 1;

@@ -64,7 +64,7 @@ global.main = function() {
 
 		//allowtutormentaccessfunction goes here ...
 		//also check if the previous message was delievered or not due to network connectivity issues
-		if (!allTutorMentorAccess()){//){
+		if (!allowTutorMentorAccess()){//){
 			//then tutor is trying to trigger more questions ... 
 			sendReply("Hi "+contact.name+", You have already requested for today's group question.");
 			console.log(contact.name+" is triggering twice for a day");
@@ -356,7 +356,7 @@ function getLatestSentMessage(){
 		messageCount++;
 	}
 
-	//this means theat the person has a previous message
+	//this means that the person has a previous message
 	if (messageCount == 2){
 		return _message
 	}
@@ -367,7 +367,7 @@ function getLatestSentMessage(){
 
 }
 
-function allTutorMentorAccess(){
+function allowTutorMentorAccess(){
 
 	var latestSentMessage = getLatestSentMessage();
 
@@ -380,11 +380,23 @@ function allTutorMentorAccess(){
 		return true;
 	}
 
+	//for some reason, also check if latestSentMessage is null or undefined...
+	if (typeof latestSentMessage === 'undefined'){
+		return true;
+	}
+
+	if (typeof latestSentMessage.content === 'undefined'){
+		return true;
+	}
+
+	if (latestSentMessage.content == null){
+		return true;
+	}
+
 	if (latestSentMessage.content.length != 4){
 		blockTutorMentorAccess = false;
 	}
 	
-
 	//if tutor mentor has already sent a question for the day... she's not allowed to send another one ...
 	var last_incoming_message_time = latestSentMessage.time_created; //this is in unix epoch time 
 	//if this time is between the morning and night of the same day, then the tutor is trying to accses more than necessary questions

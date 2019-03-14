@@ -165,7 +165,12 @@ function suspendAndWaitForResponse(){
 }
 
 function endInteraction(){
-	sendReply("End of Monthly Assessment\nYou scored "+contact.vars.in_person_assessment +"/10 and earned $"+ (parseInt(contact.vars.in_person_assessment) * 0.10).toFixed(2)+" to be redeemed for cash.");
+	var msgContent = "End of Monthly Assessment\nYou scored "+contact.vars.in_person_assessment +"/10 and earned $ "+ (parseInt(contact.vars.in_person_assessment) * 15).toFixed(2)+" LD to be redeemed for cash.";
+	var scheduled_msg = project.scheduleMessage({
+		    content: msgContent,
+		    to_number: contact.phone_number, 
+		    start_time_offset: 60
+		});
 	return true;
 }
 

@@ -171,7 +171,18 @@ function endInteraction(){
 		    to_number: contact.phone_number, 
 		    start_time_offset: 60
 		});
+
+	resetContact();
+
 	return true;
+}
+
+function resetContact(){
+	contact.vars.assessment_batch = "";
+	var assessmentGroup = project.getGroupById('CG618faf9bc2359cd9');
+	contact.removeFromGroup(assessmentGroup);
+	console.log("contact removed from group and batch number cleared")
+	contact.save();
 }
 
 addTimeoutHandler('timeout', function() {

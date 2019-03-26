@@ -53,8 +53,18 @@ global.main = function() {
         	return true;
         }
 
-        state.vars.progressState = 0;
-        contact.vars.in_person_assessment = 0;//this is the score of the contact
+        //continue from where you left off if there was an error with the assessment ...
+        if (typeof contact.vars.sms_assessment_progress_state === 'undefined'){
+        	state.vars.progressState = 0;
+        	contact.vars.sms_assessment_progress_state = 0;
+        }else{
+        	state.vars.progressState = contact.vars.sms_assessment_progress_state;
+        }
+        
+
+        if (typeof contact.vars.in_person_assessment === 'undefined'){
+        	contact.vars.in_person_assessment = 0;//this is the score of the contact	
+        }
 
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
         sendReply("Monthly Assessment\n");
@@ -72,10 +82,19 @@ global.main = function() {
 //#question1
 addResponseHandler('question', function() {
 	SMSquestionBase = require('./smsAssessmentQuestion_datatable');
+	
 	questionNumber = state.vars.progressState; //get current state to correct score question
+	contact.vars.sms_assessment_progress_state = state.vars.progressState; //persistent copy of the progress state
 
 	assessmentQuestionCursor = SMSquestionBase.getQuestionCursor(questionNumber, contact.vars.assessment_batch);
 	var assessmentQuestion = assessmentQuestionCursor.next();
+
+	if (typeof assessmentQuestion === 'undefined') {
+		//an error occured ... reply with 4 to continue the assessment ...
+		sendReply("Hi "+contact.name+" An error occured. Reply with 4 to continue assessment");
+		console.log("Couldn't get question to score ...");
+
+	}
 
 	if (checkAnswer(assessmentQuestion)){
 
@@ -111,7 +130,6 @@ function canTakeQuiz(){
 	if (!contact.isInGroup(assessmentGroup)){
 		return false
 	}
-
 	return true;
 }
 
@@ -186,7 +204,7 @@ function resetContact(){
 }
 
 addTimeoutHandler('timeout', function() {
-	sendReply("Your assessment has been timed out becaues you took too long.Start again by sending 4");
+	sendReply("Your assessment has been timed out becaues you took too long. Continue by sending 4");
 });
 
 

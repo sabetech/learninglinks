@@ -97,19 +97,19 @@ global.main = function() {
 			var learner_contact = cursor.next();
 			if (! learner_contact.vars.learner) continue;
 
-			learner_contact.vars.current_question_code = parseInt(questionCode)
-			learner_contact.vars.group_question_code = parseInt(questionCode)
+			learner_contact.vars.current_question_code = parseInt(questionCode);
+			learner_contact.vars.group_question_code = parseInt(questionCode);
 			//determine if question is literacy or numeracy ...
 
-			let lessonModule = getQuestionModule(questionCode)
+			let lessonModule = getQuestionModule(questionCode);
 
 			if (lessonModule == LITERACY){
-				learner_contact.vars.last_literacy_question = questionCode
-				learner_contact.vars.date_last_literacy_answered = moment().format("YYYY-MM-DD HH:mm:ss")
+				learner_contact.vars.last_literacy_question = questionCode;
+				learner_contact.vars.date_last_literacy_answered = moment().format("YYYY-MM-DD HH:mm:ss");
 			}
 			if (lessonModule == NUMERACY){
-				learner_contact.vars.last_literacy_question = questionCode
-				learner_contact.vars.date_last_literacy_answered = moment().format("YYYY-MM-DD HH:mm:ss")
+				learner_contact.vars.last_literacy_question = questionCode;
+				learner_contact.vars.date_last_literacy_answered = moment().format("YYYY-MM-DD HH:mm:ss");
 			}
 
 			sendSMS(learner_contact.phone_number, groupLearnerQuestion.vars.learner_question)

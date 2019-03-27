@@ -302,7 +302,7 @@ function getQuestionObject(questionCode){
 }
 
 function getQuestionModule(questionCode){
-	let lessonModule = "";
+	let lessonMod = "";
 
 	//get starting number ...
 	let startingNumber = Math.floor(parseInt(questionCode) / 1000);

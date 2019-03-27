@@ -1,4 +1,6 @@
 var questionBase = null;
+const LITERACY = 'literacy';
+const NUMERACY = 'numeracy';
 
 global.main = function() {
 
@@ -97,6 +99,18 @@ global.main = function() {
 
 			learner_contact.vars.current_question_code = parseInt(questionCode);
 			learner_contact.vars.group_question_code = parseInt(questionCode);
+			//determine if question is literacy or numeracy ...
+			let lessonModule = getQuestionModule(questionCode);
+
+			if (lessonModule == LITERACY){
+				learner_contact.vars.last_literacy_question = questionCode;
+				learner_contact.vars.date_last_literacy_answered = moment().format("YYYY-MM-DD HH:mm:ss");
+			}
+			if (lessonModule == NUMERACY){
+				learner_contact.vars.last_literacy_question = questionCode;
+				learner_contact.vars.date_last_literacy_answered = moment().format("YYYY-MM-DD HH:mm:ss");
+			}
+
 			sendSMS(learner_contact.phone_number, groupLearnerQuestion.vars.learner_question);
 			learner_contact.save();
 		}
@@ -269,6 +283,9 @@ global.main = function() {
 		    route_id: "PN46904deed4100e78" //have to explicitly set the route for SMS to use the short code because after the phone call, the phone call's route is mainted for the call
 		});
 
+
+		
+
 		//put the timeout calls here ...
 
 	}
@@ -278,6 +295,40 @@ global.main = function() {
 function getQuestionObject(questionCode){
 
 	return questionBase.getQuestion(questionCode);
+
+}
+
+function getQuestionModule(questionCode){
+	let lessonModule = "";
+
+	//get starting number ...
+	let startingNumber = Math.floor(parseInt(questionCode) / 1000);
+
+	switch(startingNumber){
+		case 1:
+			lessonModule = LITERACY;
+		break;
+		case 2:
+			lessonModule = NUMERACY;
+		break;
+		case 3:
+			lessonModule = LITERACY;
+		break;
+		case 4:
+			lessonModule = NUMERACY;
+		break;
+		case 5:
+			lessonModule = LITERACY;
+		break;
+		case 6:
+			lessonModule = NUMERACY;
+		break;
+		default:
+			return 'UNKNOWN';
+		break;
+	}
+
+	return lessonModule;
 
 }
 

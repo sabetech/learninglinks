@@ -300,29 +300,29 @@ function getQuestionObject(questionCode){
 }
 
 function getQuestionModule(questionCode){
-	var lessonMod = ""
+	var lessonMod = "";
 
 	//get starting number ...
 	var startingNumber = Math.floor(parseInt(questionCode) / 1000)
 
 	switch(startingNumber){
 		case 1:
-			lessonModule = LITERACY
+			lessonModule = LITERACY;
 		break;
 		case 2:
-			lessonModule = NUMERACY
+			lessonModule = NUMERACY;
 		break;
 		case 3:
-			lessonModule = LITERACY
+			lessonModule = LITERACY;
 		break;
 		case 4:
-			lessonModule = NUMERACY
+			lessonModule = NUMERACY;
 		break;
 		case 5:
-			lessonModule = LITERACY
+			lessonModule = LITERACY;
 		break;
 		case 6:
-			lessonModule = NUMERACY
+			lessonModule = NUMERACY;
 		break;
 		default:
 			return 'UNKNOWN';

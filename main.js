@@ -303,7 +303,7 @@ function getQuestionModule(questionCode){
 	var lessonMod = "";
 
 	//get starting number ...
-	var startingNumber = Math.floor(parseInt(questionCode) / 1000)
+	var startingNumber = Math.floor(parseInt(questionCode) / 1000);
 
 	switch(startingNumber){
 		case 1:

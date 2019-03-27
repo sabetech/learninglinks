@@ -103,7 +103,7 @@ global.main = function() {
 			learner_contact.vars.group_question_code = parseInt(questionCode);
 			//determine if question is literacy or numeracy ...
 
-			var lessonModule = getQuestionModule(questionCode);
+			let lessonModule = 'numeracy';
 
 			if (lessonModule == LITERACY){
 				learner_contact.vars.last_literacy_question = questionCode;

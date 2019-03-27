@@ -302,32 +302,32 @@ function getQuestionObject(questionCode){
 function getQuestionModule(questionCode){
 	var lessonMod = "";
 
-	//get starting number ...
-	var startingNumber = Math.floor(parseInt(questionCode) / 1000);
+	// //get starting number ...
+	// var startingNumber = Math.floor(parseInt(questionCode) / 1000);
 
-	switch(startingNumber){
-		case 1:
-			lessonModule = LITERACY;
-		break;
-		case 2:
-			lessonModule = NUMERACY;
-		break;
-		case 3:
-			lessonModule = LITERACY;
-		break;
-		case 4:
-			lessonModule = NUMERACY;
-		break;
-		case 5:
-			lessonModule = LITERACY;
-		break;
-		case 6:
-			lessonModule = NUMERACY;
-		break;
-		default:
-			return 'UNKNOWN';
-		break;
-	}
+	// switch(startingNumber){
+	// 	case 1:
+	// 		lessonModule = LITERACY;
+	// 	break;
+	// 	case 2:
+	// 		lessonModule = NUMERACY;
+	// 	break;
+	// 	case 3:
+	// 		lessonModule = LITERACY;
+	// 	break;
+	// 	case 4:
+	// 		lessonModule = NUMERACY;
+	// 	break;
+	// 	case 5:
+	// 		lessonModule = LITERACY;
+	// 	break;
+	// 	case 6:
+	// 		lessonModule = NUMERACY;
+	// 	break;
+	// 	default:
+	// 		return 'UNKNOWN';
+	// 	break;
+	// }
 
 	return lessonModule;
 

@@ -103,16 +103,16 @@ global.main = function() {
 			learner_contact.vars.group_question_code = parseInt(questionCode);
 			//determine if question is literacy or numeracy ...
 
-			let lessonModule = 'numeracy';
+			//let lessonModule = 'numeracy';
 
-			if (lessonModule == LITERACY){
+			//if (lessonModule == LITERACY){
 				learner_contact.vars.last_literacy_question = questionCode;
 				learner_contact.vars.date_last_literacy_answered = moment().format("YYYY-MM-DD HH:mm:ss");
-			}
-			if (lessonModule == NUMERACY){
+			//}
+			///if (lessonModule == NUMERACY){
 				learner_contact.vars.last_literacy_question = questionCode;
 				learner_contact.vars.date_last_literacy_answered = moment().format("YYYY-MM-DD HH:mm:ss");
-			}
+			//}
 
 			sendSMS(learner_contact.phone_number, groupLearnerQuestion.vars.learner_question);
 			learner_contact.save();

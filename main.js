@@ -97,8 +97,8 @@ global.main = function() {
 			var learner_contact = cursor.next();
 			if (! learner_contact.vars.learner) continue;
 
-			learner_contact.vars.current_question_code = parseInt(questionCode);
-			learner_contact.vars.group_question_code = parseInt(questionCode);
+			learner_contact.vars.current_question_code = parseInt(questionCode)
+			learner_contact.vars.group_question_code = parseInt(questionCode)
 			//determine if question is literacy or numeracy ...
 
 			let lessonModule = getQuestionModule(questionCode)

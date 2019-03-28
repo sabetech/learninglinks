@@ -1,6 +1,6 @@
 var questionBase = null;
-var LITERACY = 'literacy';
-var NUMERACY = 'numeracy';
+const LITERACY = 'literacy';
+const NUMERACY = 'numeracy';
 
 global.main = function() {
 
@@ -101,13 +101,13 @@ global.main = function() {
 			// learner_contact.vars.group_question_code = parseInt(questionCode);
 			//determine if question is literacy or numeracy ...
 
-			var lessonModule = 'literacy';//getQuestionModule(questionCode);
+			var lessonModule = getQuestionModule(questionCode);
 
-			if (lessonModule == 'literacy'){
+			if (lessonModule == LITERACY){
 				learner_contact.vars.last_literacy_question = questionCode;
 				learner_contact.vars.date_last_literacy_answered = moment().format("YYYY-MM-DD HH:mm:ss");
 			}
-			if (lessonModule == 'numeracy'){
+			if (lessonModule == NUMERACY){
 				learner_contact.vars.last_literacy_question = questionCode;
 				learner_contact.vars.date_last_literacy_answered = moment().format("YYYY-MM-DD HH:mm:ss");
 			}
@@ -302,32 +302,32 @@ function getQuestionObject(questionCode){
 function getQuestionModule(questionCode){
 	var lessonMod = "";
 
-	// //get starting number ...
-	// var startingNumber = Math.floor(parseInt(questionCode) / 1000);
+	//get starting number ...
+	var startingNumber = Math.floor(parseInt(questionCode) / 1000);
 
-	// switch(startingNumber){
-	// 	case 1:
-	// 		lessonMod = LITERACY;
-	// 	break;
-	// 	case 2:
-	// 		lessonMod = NUMERACY;
-	// 	break;
-	// 	case 3:
-	// 		lessonMod = LITERACY;
-	// 	break;
-	// 	case 4:
-	// 		lessonMod = NUMERACY;
-	// 	break;
-	// 	case 5:
-	// 		lessonMod = LITERACY;
-	// 	break;
-	// 	case 6:
-	// 		lessonMod = NUMERACY;
-	// 	break;
-	// 	default:
-	// 		return 'UNKNOWN';
-	// 	break;
-	// }
+	switch(startingNumber){
+		case 1:
+			lessonMod = LITERACY;
+		break;
+		case 2:
+			lessonMod = NUMERACY;
+		break;
+		case 3:
+			lessonMod = LITERACY;
+		break;
+		case 4:
+			lessonMod = NUMERACY;
+		break;
+		case 5:
+			lessonMod = LITERACY;
+		break;
+		case 6:
+			lessonMod = NUMERACY;
+		break;
+		default:
+			return 'UNKNOWN';
+		break;
+	}
 
 	return lessonMod;
 

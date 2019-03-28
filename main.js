@@ -169,8 +169,8 @@ global.main = function() {
 			contact.vars.date_last_literacy_answered = moment().format("YYYY-MM-DD HH:mm:ss");
 		}
 		if (lessonModule == NUMERACY){
-			contact.vars.last_literacy_question = contact.vars.current_question_code;
-			contact.vars.date_last_literacy_answered = moment().format("YYYY-MM-DD HH:mm:ss");
+			contact.vars.last_numeracy_question = contact.vars.current_question_code;
+			contact.vars.date_last_numeracy_answered = moment().format("YYYY-MM-DD HH:mm:ss");
 		}
 		contact.save();
 

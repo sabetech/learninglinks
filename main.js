@@ -307,29 +307,29 @@ function getQuestionModule(questionCode){
 
 	// switch(startingNumber){
 	// 	case 1:
-	// 		lessonModule = LITERACY;
+	// 		lessonMod = LITERACY;
 	// 	break;
 	// 	case 2:
-	// 		lessonModule = NUMERACY;
+	// 		lessonMod = NUMERACY;
 	// 	break;
 	// 	case 3:
-	// 		lessonModule = LITERACY;
+	// 		lessonMod = LITERACY;
 	// 	break;
 	// 	case 4:
-	// 		lessonModule = NUMERACY;
+	// 		lessonMod = NUMERACY;
 	// 	break;
 	// 	case 5:
-	// 		lessonModule = LITERACY;
+	// 		lessonMod = LITERACY;
 	// 	break;
 	// 	case 6:
-	// 		lessonModule = NUMERACY;
+	// 		lessonMod = NUMERACY;
 	// 	break;
 	// 	default:
 	// 		return 'UNKNOWN';
 	// 	break;
 	// }
 
-	return lessonModule;
+	return lessonMod;
 
 }
 

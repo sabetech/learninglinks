@@ -1,6 +1,6 @@
 var questionBase = null;
-const LITERACY = 'literacy';
-const NUMERACY = 'numeracy';
+var LITERACY = 'literacy';
+var NUMERACY = 'numeracy';
 
 global.main = function() {
 

@@ -125,8 +125,9 @@ addResponseHandler('question', function() {
 
 
 function canTakeQuiz(){
-	//if contact is not in the assessment group return false ... 
-	var assessmentGroup = project.getGroupById('CG618faf9bc2359cd9');
+	/// CG618faf9bc2359cd9 - the old id
+	//if contact is not in the assessment group return false ... CGfcc03398aa3da2c9 - new id
+	var assessmentGroup = project.getGroupById('CGfcc03398aa3da2c9');
 	if (!contact.isInGroup(assessmentGroup)){
 		return false
 	}
@@ -197,7 +198,7 @@ function endInteraction(){
 
 function resetContact(){
 	contact.vars.assessment_batch = "";
-	var assessmentGroup = project.getGroupById('CG618faf9bc2359cd9');
+	var assessmentGroup = project.getGroupById('CGfcc03398aa3da2c9');
 	contact.removeFromGroup(assessmentGroup);
 	console.log("contact removed from group and batch number cleared")
 	contact.save();

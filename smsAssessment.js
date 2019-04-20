@@ -64,6 +64,8 @@ global.main = function() {
 
         if (typeof contact.vars.in_person_assessment === 'undefined'){
         	contact.vars.in_person_assessment = 0;//this is the score of the contact	
+        }else{
+        	contact.vars.in_person_assessment = 0;
         }
 
         var newQuestion = getNextQuestion(assessmentQuestionCursor);
@@ -199,6 +201,8 @@ function endInteraction(){
 function resetContact(){
 	contact.vars.assessment_batch = "";
 	var assessmentGroup = project.getGroupById('CGfcc03398aa3da2c9');
+	contact.vars.sms_assessment_progress_state = 0;
+	contact.vars.in_person_assessment = 0;
 	contact.removeFromGroup(assessmentGroup);
 	console.log("contact removed from group and batch number cleared")
 	contact.save();

@@ -60,7 +60,11 @@ global.main = function() {
         }else{
         	state.vars.progressState = contact.vars.sms_assessment_progress_state;
         }
-        
+		
+		//if (state.vars.progressState > 10){
+			contact.vars.sms_assessment_progress_state = 0;
+			state.vars.progressState = 0
+		//}
 
         if (typeof contact.vars.in_person_assessment === 'undefined'){
         	contact.vars.in_person_assessment = 0;//this is the score of the contact	

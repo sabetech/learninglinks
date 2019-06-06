@@ -3,25 +3,48 @@
  * to the `exports` variable.
  */
 
-exports.handleWebRequest = function(dataParams){
-	
-	//need to include a base case!!!
-	
+exports.handleWebRequest = function(dataParams, action){
+	var baseURL = "http://learninglinksadmin.tk/";
+	//need to include a base case!!! .. if it tries 5 times ... stop!
 
 	try{
-		httpClient.request("http://learninglinksadmin.tk/sms/assessment/response", 
+		switch(action){/*action is either 1 or 2. 1 for posting response and 2 for requesting for question*/
+			case 1:
+				getPushSMSAssessmentResponse(baseURL, dataParams);	
+			break;
+			case 2:
+				console.log("fetching question ...");
+				return getSMSAssessmentQuestion(baseURL, dataParams);
+			break;
+		}	
+	}catch(err){
+		this.handleWebRequest(dataParams, action);
+	}
+	 
+
+	function getPushSMSAssessmentResponse(baseURL, dataParams){
+
+		httpClient.request(baseURL+"sms/assessment/response", 
 								{
 									method: "POST",
 									data: dataParams
 								}
 						  );
+			
+	}
 
-	}catch(err){
+	function getSMSAssessmentQuestion(baseURL, dataParams){
+	
+		var questionResponse = httpClient.request(baseURL+"sms/assessment/question", 
+								{
+									method: "GET",
+									params: dataParams
+								}
+		);
 
-		console.log("caching failed requests "+err);
-		//retry recursively
-		this.handleWebRequest(dataParams);
+		return questionResponse;	
+	}
 
-	}	
+		
 }
 

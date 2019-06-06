@@ -3,6 +3,7 @@
  * to the `exports` variable.
  */
 
+//this code is going to be rendered useless after the new assessment algorithm is implemented!
  exports.getQuestionCursor = function(questionNumber, batch_number){
 		const DATATABLE_ID = "DT52d802fd4e601de0";
 
@@ -19,5 +20,11 @@
 			return false;
 		}
 		return cursor;
+
+		//get data from custom server ...
+
+
+
+
 
 	};

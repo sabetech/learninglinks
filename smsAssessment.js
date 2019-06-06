@@ -97,7 +97,7 @@ addResponseHandler('question', function() {
 
 	if (typeof assessmentQuestion === 'undefined') {
 		//an error occured ... reply with 4 to continue the assessment ...
-		sendReply("Hi "+contact.name+" An error occured. Reply with 4 to continue assessment");
+		sendReply("Hi "+contact.name+" An error occurred. Reply with 4 to continue assessment");
 		console.log("Couldn't get question to score ...");
 
 	}

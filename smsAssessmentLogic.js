@@ -84,7 +84,7 @@ global.main = function() {
 	//console.log("This is the code " + question.code);
 
 	sendReply("Monthly Assessment\n");
-	sendQuestion(question);
+	sendQuestion(question, state.vars.progressState + 1);
 	suspendAndWaitForResponse();
 
 	return true;
@@ -263,7 +263,7 @@ addResponseHandler('assessment_question', function() {
 	//get next question ... by subtracting 1
 	var question = getQuestionFromRemoteServer(state.vars.progressState);
 
-	sendQuestion(question);
+	sendQuestion(question, state.vars.progressState + 1);
 	suspendAndWaitForResponse();
 
 	//now on the server side, we check if that question can be retrieved, 

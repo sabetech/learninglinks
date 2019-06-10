@@ -244,7 +244,7 @@ addResponseHandler('assessment_question', function() {
 	state.vars.progressState++;
 	contact.vars.sms_assessment_progress_state = state.vars.progressState;
 	
-
+	console.log("question number "+ state.vars.progressState);
 
 
 
@@ -264,7 +264,7 @@ addResponseHandler('assessment_question', function() {
 	if (state.vars.progressState == 10) {
 
 		endInteraction();
-
+		return;
 	}
 
 	//get next question ... by subtracting 1
@@ -272,14 +272,6 @@ addResponseHandler('assessment_question', function() {
 
 	sendQuestion(question, state.vars.progressState + 1);
 	suspendAndWaitForResponse();
-
-	//now on the server side, we check if that question can be retrieved, 
-	//if not, it gets the next closet and returns the question
-	//send the question and record that you sent the question to the learner and save the question code sent!!
-
-
-	
-
 
 });
 

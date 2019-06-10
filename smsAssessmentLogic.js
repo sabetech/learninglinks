@@ -241,8 +241,9 @@ addResponseHandler('assessment_question', function() {
 	}
 
 	postResponseToServer(previousQuestionNumber, learnerInput);
-	contact.vars.sms_assessment_progress_state = state.vars.progressState;
 	state.vars.progressState++;
+	contact.vars.sms_assessment_progress_state = state.vars.progressState;
+	
 
 
 
@@ -259,6 +260,12 @@ addResponseHandler('assessment_question', function() {
 	// 		nextPotentialQuestionCode = numeracyQuestionCode;
 	// 	}
 	// } 
+
+	if (state.vars.progressState == 10) {
+
+		endInteraction();
+
+	}
 
 	//get next question ... by subtracting 1
 	var question = getQuestionFromRemoteServer(state.vars.progressState);

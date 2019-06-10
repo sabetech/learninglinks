@@ -163,13 +163,16 @@ function getLastNumeracyDate(){
 
 function getQuestionFromRemoteServer($question_number){
 	var WebRequests = require('./handleWebRequests');
-	
+
 	var dataParams = {	
 						'question_number': $question_number,
 						'contact_id': contact.id
 					 };
 
 	var question = WebRequests.handleWebRequest(dataParams, GET_QUESTION_ACTION);
+	
+	console.log(question.content);
+
 	return JSON.parse(question.content);
 
 }

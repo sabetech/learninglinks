@@ -261,7 +261,7 @@ addResponseHandler('assessment_question', function() {
 	// } 
 
 	//get next question ... by subtracting 1
-	var question = getQuestionFromRemoteServer(state.vars.progressStates);
+	var question = getQuestionFromRemoteServer(state.vars.progressState);
 
 	sendQuestion(question);
 	suspendAndWaitForResponse();

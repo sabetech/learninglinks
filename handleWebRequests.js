@@ -13,7 +13,6 @@ exports.handleWebRequest = function(dataParams, action){
 				getPushSMSAssessmentResponse(baseURL, dataParams);	
 			break;
 			case 2:
-				console.log("fetching question ...");
 				return getSMSAssessmentQuestion(baseURL, dataParams);
 			break;
 		}	

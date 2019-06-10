@@ -52,18 +52,36 @@ global.main = function() {
 	//how about when the learners are being setup for the first time, I assign their progess state to 0 ...
 	//if sms_assessment_progress_state != 0 then check if this learner just interacted with this service
 
-	state.vars.progressState = contact.vars.sms_assessment_progress_state; //should be 0 most of the time ... if it is not 0, then it means a learner is trying to continue an assessment they couldn't finish!
+	//check if the person is supposed to continue or start afresh!!!
+	//if current assessment batch is the same as the incompleted assessment quiz
+	if (typeof contact.vars.progress_state_json !== "undefined"){
+        
+        try{
+            //this is where there's something incomplete
+            var progress = JSON.parse(contact.vars.progress_state_json);    
+            
+            //this means that the person wants to continue the assessment
+            if (contact.vars.assessment_batch == progress.assessment_batch) {
+            	state.vars.progressState = progress.question_number
+            }
+        }catch(e){
+            console.log("bad input");
+            contact.vars.progress_state_json = "";
+            state.vars.progressState = 0;
+        }
+        
+     }else{
+     	state.vars.progressState = 0;
+     	contact.vars.sms_assessment_progress_state = 0;
+     }
 
 	contact.vars.in_person_assessment = (state.vars.progressState == 0) ? 0 : contact.vars.in_person_assessment; //default score if 
 
-	//get starting code and after the 1st 5 questions, try switching to the other module if possible
-	//and if you get to question 5, try switch
-
 	//get question from remote server not datatable ...
 	var WebRequests = require('./handleWebRequests');
-	var question = getQuestionFromRemoteServer(1007); //startingQuestionCode;
+	var question = getQuestionFromRemoteServer(state.vars.progressState);
 	
-	console.log("This is the code " + question.code);
+	//console.log("This is the code " + question.code);
 
 	sendReply("Monthly Assessment\n");
 	sendQuestion(question);
@@ -143,16 +161,13 @@ function getLastNumeracyDate(){
 
 }
 
-function getQuestionFromRemoteServer(quesiton_code){
+function getQuestionFromRemoteServer($question_number){
 
-	//we need their assessment_id
-
-	var dataParams = {
-						'question_code': 1007,//startingQuestionCode, For Testing
+	var dataParams = {	
+						'question_number': $question_number,
 						'contact_id': contact.id
 					 };
 
-	//when you are getting a question, record that you sent a quesion to x learner!
 	var question = WebRequests.handleWebRequest(dataParams, GET_QUESTION_ACTION);
 	return JSON.parse(question.content);
 
@@ -171,9 +186,9 @@ function sendQuestion(question, question_number){
 	
 }
 
-function checkAnswer(question_code, learnerInput){
+function checkAnswer(question_number, learnerInput){
 
-	var question = getQuestionFromRemoteServer(question_code);
+	var question = getQuestionFromRemoteServer(question_number);
 	if (learnerInput == question.answer){
 		return true;
 	}
@@ -188,13 +203,13 @@ function scoreContact() {
 	}
 }
 
-function postResponseToServer(previous_question_code, learnerInput) {
+function postResponseToServer(previous_question_number, learnerInput) {
 	var WebRequests = require('./handleWebRequests');
 
 	var dataParams = {
-						'question_code': previous_question_code, 
+						'question_number': previous_question_number, 
 						'response': learnerInput,
-						'leaner_telerivet_id': contact.id,
+						'learner_telerivet_id': contact.id,
 						'batch_number': contact.vars.assessment_batch
 					};
 
@@ -214,29 +229,35 @@ function getNumeracyStartingCode(){
 
 addResponseHandler('assessment_question', function() {
 	//find the question that was answered and check for correctness!
-	var previous_question_code = parseInt(contact.vars.current_question_code);
+	var previousQuestionNumber = parseInt(contact.vars.sms_assessment_progress_state);
 	var learnerInput = content;
 
-	if (checkAnswer(previous_question_code, learnerInput)) {
+	if (checkAnswer(previousQuestionNumber, learnerInput)) {
 		scoreContact();
 	}
 
-	postResponseToServer(previous_question_code, learnerInput);
+	postResponseToServer(previousQuestionNumber, learnerInput);
+	contact.vars.sms_assessment_progress_state = state.vars.progressState;
+	state.vars.progressState++;
 
-	var nextPotentialQuestionCode = previous_question_code;
-	if (state.vars.progressState == 5) {
-		//try switching to numeracy ...
-		var numeracyStartingCode = getNumeracyStartingCode();
 
-		if (!numeracyQuestionCode){
-			nextPotentialQuestionCode = previous_question_code;//continue generating literacy codes
-		}else{
-			nextPotentialQuestionCode = numeracyQuestionCode;
-		}
-	} 
+
+
+
+	// var nextPotentialQuestionCode = previous_question_code;
+	// if (state.vars.progressState == 5) {
+	// 	//try switching to numeracy ...
+	// 	var numeracyStartingCode = getNumeracyStartingCode();
+
+	// 	if (!numeracyQuestionCode){
+	// 		nextPotentialQuestionCode = previous_question_code;//continue generating literacy codes
+	// 	}else{
+	// 		nextPotentialQuestionCode = numeracyQuestionCode;
+	// 	}
+	// } 
 
 	//get next question ... by subtracting 1
-	var question = getQuestionFromRemoteServer(nextPotentialQuestionCode);
+	var question = getQuestionFromRemoteServer(state.vars.progressStates);
 
 	sendQuestion(question);
 	suspendAndWaitForResponse();
@@ -251,9 +272,38 @@ addResponseHandler('assessment_question', function() {
 
 });
 
+function endInteraction(){
+	var msgContent = "End of Monthly Assessment\nYou scored "+contact.vars.in_person_assessment +"/10 and earned $ "+ (parseInt(contact.vars.in_person_assessment) * 15).toFixed(2)+" LD to be redeemed for cash.";
+	var scheduled_msg = project.scheduleMessage({
+		    content: msgContent,
+		    to_number: contact.phone_number, 
+		    start_time_offset: 60
+		});
+
+	resetContact();
+
+	return true;
+}
+
+function resetContact(){
+	contact.vars.assessment_batch = "";
+	var assessmentGroup = project.getGroupById('CGfcc03398aa3da2c9');
+	contact.vars.sms_assessment_progress_state = 0;
+	contact.vars.in_person_assessment = 0;
+	contact.vars.assessment_batch = "";
+	contact.vars.progress_state_json = "";
+	contact.removeFromGroup(assessmentGroup);
+	console.log("contact removed from group and batch number cleared")
+	contact.save();
+}
+
 function suspendAndWaitForResponse(){
 	waitForResponse('assessment_question', {
-	    timeoutMinutes: 15,
+	    timeoutMinutes: 60,
 	    timeoutId: 'timeout'
 	});
 }
+
+addTimeoutHandler('timeout', function() {
+	sendReply("Your assessment has been timed out becaues you took too long. Continue by sending 4");
+});

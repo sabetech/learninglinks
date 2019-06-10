@@ -179,7 +179,7 @@ function sendQuestion(question, question_number){
 
 	var newQuestion = "\n#" + question_number + ". " + question.learner_question +
 					  "\n1. "+question.option_one +
-					  "\n2. "+question.option_two +;
+					  "\n2. "+question.option_two +
 					  "\n3. "+question.option_three;
 
 	sendReply(newQuestion);

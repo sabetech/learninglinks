@@ -171,7 +171,7 @@ function getQuestionFromRemoteServer($question_number){
 
 	var question = WebRequests.handleWebRequest(dataParams, GET_QUESTION_ACTION);
 	
-	console.log(question.content);
+	//console.log(question.content);
 
 	return JSON.parse(question.content);
 
@@ -263,10 +263,10 @@ addResponseHandler('sms_assessment_question', function() {
 	// 	}
 	// } 
 
-	if (state.vars.progressState == 10) {
+	if (state.vars.progressState == 11) {
 
 		endInteraction();
-		return;
+		return true;
 	}
 
 	//get next question ... by subtracting 1

@@ -233,7 +233,7 @@ function getNumeracyStartingCode(){
 
 }
 
-addResponseHandler('assessment_question', function() {
+addResponseHandler('sms_assessment_question', function() {
 	//find the question that was answered and check for correctness!
 	var previousQuestionNumber = parseInt(contact.vars.sms_assessment_progress_state);
 	var learnerInput = content;
@@ -303,7 +303,7 @@ function resetContact(){
 }
 
 function suspendAndWaitForResponse(){
-	waitForResponse('assessment_question', {
+	waitForResponse('sms_assessment_question', {
 	    timeoutMinutes: 60,
 	    timeoutId: 'timeout'
 	});

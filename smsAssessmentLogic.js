@@ -263,7 +263,7 @@ addResponseHandler('sms_assessment_question', function() {
 	// 	}
 	// } 
 
-	if (state.vars.progressState == 11) {
+	if (state.vars.progressState == 10) {
 
 		endInteraction();
 		return true;

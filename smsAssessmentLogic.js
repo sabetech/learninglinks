@@ -194,8 +194,10 @@ function checkAnswer(question_number, learnerInput){
 
 	var question = getQuestionFromRemoteServer(question_number);
 	if (learnerInput == question.answer){
+		sendReply("Correct! You have earned $ 15 LD to be redeemed for cash.");
 		return true;
 	}
+	sendReply("Incorrect! The answer is "+question.answer);
 	return false;
 }
 

@@ -32,7 +32,7 @@ global.main = function() {
 		//check if this contact is eligible to partake SMS Assessment program
         //ie if you in the group 
 
-        if (false){ //!canTakeQuiz()
+        if (!canTakeQuiz()){ 
         	sendReply("Sorry, You are not eligible to take this quiz");
         	return true;
         }

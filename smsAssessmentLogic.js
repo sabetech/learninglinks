@@ -42,12 +42,12 @@ global.main = function() {
 		contact.vars.in_person_assessment = 0; //reset the scores of the people
 	}
  
-	var startingQuestionCode = getStartingQuestionCode();
+	// var startingQuestionCode = getStartingQuestionCode();
 
-	if (!startingQuestionCode) {
-		sendReply('You are not allowed to take this assessment');
-		return true;
-	}
+	// if (!startingQuestionCode) {
+	// 	sendReply('You are not allowed to take this assessment');
+	// 	return true;
+	// }
 
 	//how about when the learners are being setup for the first time, I assign their progess state to 0 ...
 	//if sms_assessment_progress_state != 0 then check if this learner just interacted with this service

@@ -14,7 +14,7 @@ exports.handleWebRequest = function(dataParams, action){
 				var responesobj = JSON.parse(response.content);
 
 				if (responesobj.status == false){
-					throw 'couldn\'t save response: retrying ...';
+					console.log("couldn\'t save response ");
 				}
 				
 				

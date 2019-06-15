@@ -10,13 +10,21 @@ exports.handleWebRequest = function(dataParams, action){
 	try{
 		switch(action){/*action is either 1 or 2. 1 for posting response and 2 for requesting for question*/
 			case 1:
-				getPushSMSAssessmentResponse(baseURL, dataParams);	
+				var response = getPushSMSAssessmentResponse(baseURL, dataParams);
+				var responesobj = JSON.parse(response.content);
+
+				if (responesobj.status == false){
+					throw 'couldn\'t save response: retrying ...';
+				}
+				
+				
 			break;
 			case 2:
 				return getSMSAssessmentQuestion(baseURL, dataParams);
 			break;
 		}	
 	}catch(err){
+		console.log(err);
 		this.handleWebRequest(dataParams, action);
 	}
 	 

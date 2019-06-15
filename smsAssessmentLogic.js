@@ -151,7 +151,7 @@ function getLastNumeracyQuestionCode(){
 	
 	if (datediff > 60) return false;
 
-	return contact.vars.last_literacy_question;
+	return contact.vars.last_numeracy_question;
 
 }
 

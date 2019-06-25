@@ -291,6 +291,8 @@ function endInteraction(){
 }
 
 function resetContact(){
+	var temp_group = contact.vars.assessment_batch;
+
 	contact.vars.assessment_batch = "";
 	var assessmentGroup = project.getGroupById('CGfcc03398aa3da2c9');
 	contact.vars.sms_assessment_progress_state = 0;
@@ -298,8 +300,25 @@ function resetContact(){
 	contact.vars.assessment_batch = "";
 	contact.vars.progress_state_json = "";
 	contact.removeFromGroup(assessmentGroup);
-	console.log("contact removed from group and batch number cleared")
+	console.log("contact removed from group and batch number cleared");
+
 	contact.save();
+
+	//check if the temporary assessment group has 0 members ... if 0, remove it too ...
+	var group = project.getOrCreateGroup("_GRP_"+temp_group);
+	if (group.queryContacts().count() == 0){
+		group.delete();
+		return;
+	}
+
+	contact.removeFromGroup(group);
+
+	if (group.queryContacts().count() == 0){
+		group.delete();
+	}
+	
+
+
 }
 
 function suspendAndWaitForResponse(){

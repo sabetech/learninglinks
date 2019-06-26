@@ -174,9 +174,9 @@ function getQuestionFromRemoteServer($question_number){
 	
 	if (! question) return false;
 
-	//console.log(question.content);
+	console.log(question.content);
 
-	return JSON.parse(question.content);
+	return question.content;
 
 }
 
@@ -223,6 +223,7 @@ function postResponseToServer(previous_question_number, learnerInput) {
 					};
 
 	var response = WebRequests.handleWebRequest(dataParams, POST_RESPONSE_ACTION);
+
 	if (!response) return false;
 	return true;
 

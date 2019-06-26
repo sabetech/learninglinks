@@ -176,7 +176,7 @@ function getQuestionFromRemoteServer($question_number){
 
 	console.log(question.content);
 
-	return question.content;
+	return JSON.parse(question.content);
 
 }
 

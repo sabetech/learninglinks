@@ -183,6 +183,7 @@ function getQuestionFromRemoteServer(question_number){
 function sendQuestion(question, question_number){
 
 	//contact.vars.current_question_code = question.code;
+	console.log("At this point, a question is retrieved");
 	console.log(question);
 
 	var newQuestion = "\n#" + question_number + ". " + question.learner_question +

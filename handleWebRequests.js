@@ -11,6 +11,7 @@ exports.handleWebRequest = function(dataParams, action){
 	try{
 		
 		console.log("try count: "+tryCount);
+		console.log("what is action "+action);
 
 		if (tryCount > 4){
 			return false;

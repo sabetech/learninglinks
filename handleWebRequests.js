@@ -12,7 +12,7 @@ exports.handleWebRequest = function(dataParams, action){
 		
 		console.log("try count: "+tryCount);
 
-		if (tryCount > 5){
+		if (tryCount > 4){
 			return false;
 		}
 
@@ -25,7 +25,7 @@ exports.handleWebRequest = function(dataParams, action){
 					console.log("couldn\'t save response ");
 				}
 				
-				return true;
+				return responesobj.status;
 				
 			break;
 			case 2:

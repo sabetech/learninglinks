@@ -41,7 +41,7 @@ exports.handleWebRequest = function(dataParams, action){
 	 
 
 	function getPushSMSAssessmentResponse(baseURL, dataParams){
-
+		console.log("Am I looking for you?");
 		httpClient.request(baseURL+"sms/assessment/response", 
 								{
 									method: "POST",

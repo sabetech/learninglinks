@@ -10,9 +10,6 @@ exports.handleWebRequest = function(dataParams, action){
 
 	try{
 		
-		console.log("try count: "+tryCount);
-		console.log("what is action "+action);
-
 		if (tryCount > 4){
 			return false;
 		}
@@ -20,6 +17,7 @@ exports.handleWebRequest = function(dataParams, action){
 		switch(action){/*action is either 1 or 2. 1 for posting response and 2 for requesting for question*/
 			case 1:
 				var response = getPushSMSAssessmentResponse(baseURL, dataParams);
+				console.log(response);
 				var responesobj = JSON.parse(response.content);
 
 				if (responesobj.status == false){

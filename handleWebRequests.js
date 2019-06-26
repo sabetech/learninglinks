@@ -3,11 +3,17 @@
  * to the `exports` variable.
  */
 
+var tryCount = 0
 exports.handleWebRequest = function(dataParams, action){
 	var baseURL = "http://learninglinksadmin.tk/";
 	//need to include a base case!!! .. if it tries 5 times ... stop!
 
 	try{
+
+		if (tryCount > 5){
+			return false;
+		}
+
 		switch(action){/*action is either 1 or 2. 1 for posting response and 2 for requesting for question*/
 			case 1:
 				var response = getPushSMSAssessmentResponse(baseURL, dataParams);
@@ -17,6 +23,7 @@ exports.handleWebRequest = function(dataParams, action){
 					console.log("couldn\'t save response ");
 				}
 				
+				return true;
 				
 			break;
 			case 2:
@@ -25,6 +32,7 @@ exports.handleWebRequest = function(dataParams, action){
 		}	
 	}catch(err){
 		console.log(err);
+		tryCount++;
 		this.handleWebRequest(dataParams, action);
 	}
 	 

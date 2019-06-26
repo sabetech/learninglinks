@@ -81,6 +81,7 @@ global.main = function() {
 	var WebRequests = require('./handleWebRequests');
 	var question = getQuestionFromRemoteServer(state.vars.progressState);
 	
+
 	//console.log("This is the code " + question.code);
 
 	sendReply("Monthly Assessment\n");
@@ -171,6 +172,8 @@ function getQuestionFromRemoteServer($question_number){
 
 	var question = WebRequests.handleWebRequest(dataParams, GET_QUESTION_ACTION);
 	
+	if (! question) return false;
+
 	//console.log(question.content);
 
 	return JSON.parse(question.content);
@@ -219,7 +222,9 @@ function postResponseToServer(previous_question_number, learnerInput) {
 						'batch_number': contact.vars.assessment_batch
 					};
 
-	WebRequests.handleWebRequest(dataParams, POST_RESPONSE_ACTION);
+	var response = WebRequests.handleWebRequest(dataParams, POST_RESPONSE_ACTION);
+	if (!response) return false;
+	return true;
 
 }
 

@@ -9,6 +9,8 @@ exports.handleWebRequest = function(dataParams, action){
 	//need to include a base case!!! .. if it tries 5 times ... stop!
 
 	try{
+		
+		console.log(tryCount);
 
 		if (tryCount > 5){
 			return false;

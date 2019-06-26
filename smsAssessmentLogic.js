@@ -164,8 +164,6 @@ function getLastNumeracyDate(){
 
 function getQuestionFromRemoteServer(question_number){
 	var WebRequests = require('./handleWebRequests');
-	console.log('question number ' + question_number);
-	console.log('contact id '+contact.id);
 
 	var dataParams = {	
 						'question_number': question_number,
@@ -173,7 +171,7 @@ function getQuestionFromRemoteServer(question_number){
 					 };
 
 	var question = WebRequests.handleWebRequest(dataParams, GET_QUESTION_ACTION);
-	
+	console.log(question);
 	if (! question) return false;
 
 	console.log(question.content);

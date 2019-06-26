@@ -166,7 +166,7 @@ function getQuestionFromRemoteServer(question_number){
 	var WebRequests = require('./handleWebRequests');
 	console.log('question number ' + question_number);
 	console.log('contact id '+contact.id);
-	
+
 	var dataParams = {	
 						'question_number': question_number,
 						'contact_id': contact.id
@@ -255,23 +255,6 @@ addResponseHandler('sms_assessment_question', function() {
 	postResponseToServer(previousQuestionNumber, learnerInput);
 	state.vars.progressState++;
 	contact.vars.sms_assessment_progress_state = state.vars.progressState;
-	
-	console.log("question number "+ state.vars.progressState);
-
-
-
-
-	// var nextPotentialQuestionCode = previous_question_code;
-	// if (state.vars.progressState == 5) {
-	// 	//try switching to numeracy ...
-	// 	var numeracyStartingCode = getNumeracyStartingCode();
-
-	// 	if (!numeracyQuestionCode){
-	// 		nextPotentialQuestionCode = previous_question_code;//continue generating literacy codes
-	// 	}else{
-	// 		nextPotentialQuestionCode = numeracyQuestionCode;
-	// 	}
-	// } 
 
 	if (state.vars.progressState == 10) {
 
@@ -279,8 +262,9 @@ addResponseHandler('sms_assessment_question', function() {
 		return true;
 	}
 
-	//get next question ... by subtracting 1
 	var question = getQuestionFromRemoteServer(state.vars.progressState);
+	
+	console.log(question);
 
 	sendQuestion(question, state.vars.progressState + 1);
 	suspendAndWaitForResponse();

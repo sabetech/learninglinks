@@ -17,7 +17,7 @@ exports.handleWebRequest = function(dataParams, action){
 		switch(action){/*action is either 1 or 2. 1 for posting response and 2 for requesting for question*/
 			case 1:
 				var response = getPushSMSAssessmentResponse(baseURL, dataParams);
-				console.log(response);
+				//console.log(response);
 				var responesobj = JSON.parse(response.content);
 
 				if (responesobj.status == false){
@@ -39,7 +39,7 @@ exports.handleWebRequest = function(dataParams, action){
 	 
 
 	function getPushSMSAssessmentResponse(baseURL, dataParams){
-		console.log("Am I looking for you?");
+		
 		return httpClient.request(baseURL+"sms/assessment/response", 
 								{
 									method: "POST",

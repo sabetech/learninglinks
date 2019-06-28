@@ -171,10 +171,10 @@ function getQuestionFromRemoteServer(question_number){
 					 };
 
 	var question = WebRequests.handleWebRequest(dataParams, GET_QUESTION_ACTION);
-	console.log(question);
+	//console.log(question);
 	if (! question) return false;
 
-	console.log(question.content);
+	//console.log(question.content);
 
 	return JSON.parse(question.content);
 
@@ -183,8 +183,8 @@ function getQuestionFromRemoteServer(question_number){
 function sendQuestion(question, question_number){
 
 	//contact.vars.current_question_code = question.code;
-	console.log("At this point, a question is retrieved");
-	console.log(question);
+	//console.log("At this point, a question is retrieved");
+	//console.log(question);
 
 	var newQuestion = "\n#" + question_number + ". " + question.learner_question +
 					  "\n1. "+question.option_one +
@@ -262,7 +262,7 @@ addResponseHandler('sms_assessment_question', function() {
 
 	var question = getQuestionFromRemoteServer(state.vars.progressState);
 	
-	console.log(question);
+	//console.log(question);
 
 	sendQuestion(question, state.vars.progressState + 1);
 	suspendAndWaitForResponse();
@@ -292,7 +292,7 @@ function resetContact(){
 	contact.vars.assessment_batch = "";
 	contact.vars.progress_state_json = "";
 	contact.removeFromGroup(assessmentGroup);
-	console.log("contact removed from group and batch number cleared");
+	//console.log("contact removed from group and batch number cleared");
 
 	contact.save();
 

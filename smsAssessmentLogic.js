@@ -6,8 +6,8 @@ global.main = function() {
 
 	var keyword = word1;
      
-     //When the keyword is 4 ... then proceed here ....
-     if (keyword === ""){
+	//When the keyword is 4 ... then proceed here ....
+	if (keyword === ""){
 		console.log("is keyword empty?");
 		sendReply("No keyword Sent");
 		message.delete();
@@ -30,12 +30,12 @@ global.main = function() {
 	//start interaction here ...
 	if (keyword === "4"){
 		//check if this contact is eligible to partake SMS Assessment program
-        //ie if you in the group 
+	        //ie if you in the group 
 
-        if (!canTakeQuiz()){ 
-        	sendReply("Sorry, You are not eligible to take this quiz");
-        	return true;
-        }
+		if (!canTakeQuiz()){ 
+			sendReply("Sorry, You are not eligible to take this quiz");
+			return true;
+		}
 	}
 
 	if (typeof contact.vars.in_person_assessment === 'undefined'){
@@ -56,23 +56,23 @@ global.main = function() {
 	//if current assessment batch is the same as the incompleted assessment quiz
 	if (typeof contact.vars.progress_state_json !== "undefined"){
         
-        try{
-            //this is where there's something incomplete
-            var progress = JSON.parse(contact.vars.progress_state_json);    
-            
-            //this means that the person wants to continue the assessment
-            if (contact.vars.assessment_batch == progress.assessment_batch) {
-            	state.vars.progressState = progress.question_number
-            }
-        }catch(e){
-            console.log("bad input");
-            contact.vars.progress_state_json = "";
-            state.vars.progressState = 0;
-        }
+		try{
+			//this is where there's something incomplete
+			var progress = JSON.parse(contact.vars.progress_state_json);    
+
+			//this means that the person wants to continue the assessment
+			if (contact.vars.assessment_batch == progress.assessment_batch) {
+			state.vars.progressState = progress.question_number
+		}
+		}catch(e){
+			console.log("bad input");
+			contact.vars.progress_state_json = "";
+			state.vars.progressState = 0;
+		}
         
      }else{
-     	state.vars.progressState = 0;
-     	contact.vars.sms_assessment_progress_state = 0;
+		state.vars.progressState = 0;
+		contact.vars.sms_assessment_progress_state = 0;
      }
 
 	contact.vars.in_person_assessment = (state.vars.progressState == 0) ? 0 : contact.vars.in_person_assessment; //default score if 
@@ -166,9 +166,9 @@ function getQuestionFromRemoteServer(question_number){
 	var WebRequests = require('./handleWebRequests');
 
 	var dataParams = {	
-						'question_number': question_number,
-						'contact_id': contact.id
-					 };
+				'question_number': question_number,
+				'contact_id': contact.id
+			 };
 
 	var question = WebRequests.handleWebRequest(dataParams, GET_QUESTION_ACTION);
 	//console.log(question);
